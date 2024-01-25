@@ -1,0 +1,81 @@
+## 置顶词与自定义词组在这个文件里指定
+## 格式：文本-输入码-权重，其间用 Tab 符分隔。
+## 如要添加新的，可以复制已有的行，然后在其基础上修改。
+## 置顶字词
+是	u	4
+時	u	3
+使	ui	2
+試	ui	1
+所	s	1
+去	q	1
+我	w	2
+爲	w	1
+有	y	2
+又	y	1
+哦	o	1
+的	d	3
+地	d	2
+得	de	1
+大	da	1
+個	g	1
+和	h	1
+就	j	1
+可	k	1
+了	l	1
+在	z	2
+再	z	1
+下	x	1
+才	c	1
+不	b	2
+吧	b	1
+把	ba	1
+你	n	1
+沒	m	1
+這	v	2
+只	v	1
+涉及	uej	2
+設計	uej	1
+
+## 常用个人信息
+## 注意最后的数字控制优先级，希望排在前面的要设置得大一些
+姓名（在custom_phrase.txt里设置）	jf	64
+xxx（学号/工号）	jf	60
+12300001234（手机）	jf	56
+xx学院/部门	jf	48
+xx學校/單位	jf	44
+foo@xx.com（邮箱）	jf	40
+
+## 常用短语
+Python	py	2
+PyTorch	pyt	1
+Matplotlib	pym	1
+TensorFlow	pyt	1
+Jupyter Notebook	pyj	1
+MATLAB	pym	1
+Markdown	pym	1
+Google	pyg	1
+Microsoft	pym	1
+GitHub	pyg	1
+LaTeX	pyl	1
+Linux	pyl	1
+Android	pya	1
+Windows	pyw	1
+iOS	pyi	1
+Rime	pyr	1
+Vim	pyv	1
+NeoVim	pyn	1
+Emacs	pye	1
+VSCode	pyv	1
+Sublime Text	pys	1
+Typora	pyt	1
+UTF-8	pyu	1
+Unicode	pyu	1
+WiFi	pyw	1
+Syncthing	pys	1
+
+Schrödinger	jas	1
+Maxwell	jam	1
+Lagrange	jal	1
+Gauss	jag	1
+Monte Carlo	jam	1
+

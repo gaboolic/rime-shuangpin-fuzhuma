@@ -1,0 +1,14 @@
+# 朙月拼音 输入方案自定义
+patch:
+  # 添加模糊音
+  speller/algebra:
+    __patch:
+      - pinyin:/zh_z_bufen
+      - pinyin:/en_eng_bufen
+      - pinyin:/abbreviation
+      - pinyin:/spelling_correction
+      - pinyin:/key_correction
+
+  # 添加朙月拼音扩充词库
+  translator/dictionary: luna_pinyin.extended     
+...
