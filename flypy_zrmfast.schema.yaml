@@ -12,6 +12,8 @@ schema:
   dependencies:
     - luna_pinyin
     - chaizi
+    - stroke
+    - zrlf
     - emoji
     - easy_en
 
@@ -54,6 +56,8 @@ engine:
     - punct_translator
     - table_translator@custom_phrase
     - reverse_lookup_translator
+    - reverse_lookup_translator@reverse_stroke
+    - reverse_lookup_translator@reverse_zrlf
     - script_translator
     - script_translator@quanpin
     - table_translator@emojis
@@ -123,6 +127,9 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
 
+
+
+
 reverse_lookup:
   dictionary: chaizi_flypy # stroke
   enable_completion: true
@@ -132,17 +139,29 @@ reverse_lookup:
   preedit_format:
     # - xlit/hspnz/一丨丿丶乙/
 
+
+reverse_zrlf:
+  tag: reverse_zrlf
+  dictionary: zrlf # stroke
+  enable_completion: true
+  prefix: "olf"
+  suffix: "'"
+  tips: 〔自然兩分〕
+  preedit_format:
+    # - xlit/hspnz/一丨丿丶乙/
+
+reverse_stroke:
+  tag: reverse_stroke
+  dictionary: stroke # stroke
+  enable_completion: true
+  prefix: "obh"
+  suffix: "'"
+  tips: 〔筆畫〕 # 〔筆畫〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+
 punctuator:
-  import_preset: symbols
-  half_shape:
-    '>' : [》, 〉, '> ', », › ]
-    '"' : { pair: [ '‘', '’' ] } ## 添加注释后：恢复默认引号
-    '''' : { pair: [ '“', '”' ] } ## 添加注释后：恢复默认引号
-  symbols:
-    '/er': [ 二, 貳, ₂, ², Ⅱ, ⅱ, ②, ➁, ❷, ➋, ⓶, ⑵, ⒉, ２, ㊁, ㈡, 弍, 弐, 貮, 㒃, 㒳, 兩, 倆, ㆓]
-    '/san': [ 三, 叄, ₃, ³, Ⅲ, ⅲ, ③, ➂, ❸, ➌, ⓷, ⑶, ⒊, ３, ㊂, ㈢, 參, 参, 叁, 弎, 仨, ㆔]
-    '/si': [ 四, 肆, ₄, ⁴, Ⅳ, ⅳ, ④, ➃, ❹, ➍, ⓸, ⑷, ⒋, ４, ㊃, ㈣, 亖]
-    '/zb': [┌, └, ┐, ┘, ─, │, ├, ┤, ┬, ┴, ┼, ┏, ┗, ┓, ┛, ━, ┃, ┣, ┫, ┳, ┻, ╋] ## 制表符
+  import_preset: default
 
 key_binder:
   import_preset: default
@@ -168,6 +187,8 @@ recognizer:
     punct: '^/[015-9A-Za-z]+$' ## use "/er" instead of "/2"
     ## associate schemes: 
     reverse_lookup: "^ab[a-z]*'?$" # "[[]b[a-z]*'?$"
+    reverse_stroke: "^obh[A-Za-z]*$"
+    reverse_zrlf: "^olf[A-Za-z]*$"
     quanpin: "^ap[a-z]*'?$"
     emojis: "^ae[a-z]*'?$" # "^ae.*$" 
     verbatim: "^as.*$"
