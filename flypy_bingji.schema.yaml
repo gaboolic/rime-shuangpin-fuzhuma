@@ -7,6 +7,7 @@ schema:
   version: "0.1"
   author:
     - Functoreality
+    - 双拼并击@gaboolic
   description: |
     小鹤双拼，自然快手辅助码
   dependencies:
@@ -14,7 +15,6 @@ schema:
     - chaizi
     - stroke
     - zrlf
-    - emoji
     - easy_en
 
 switches:
@@ -46,7 +46,6 @@ engine:
     - abc_segmentor
     - punct_segmentor
     - affix_segmentor@quanpin
-    - affix_segmentor@emojis
     - affix_segmentor@verbatim ## not as the last of this list
     - affix_segmentor@soft_capslock
     - affix_segmentor@dbpy_flypy_help
@@ -61,7 +60,6 @@ engine:
     - reverse_lookup_translator@reverse_zrlf
     - script_translator
     - script_translator@quanpin
-    - table_translator@emojis
     - table_translator@soft_capslock
     - table_translator@dbpy_flypy_help
     - lua_translator@tex_translator
@@ -80,7 +78,7 @@ speller:
     - derive/^(..).+$/$1/
     - derive/^(..[[].).+$/$1/
     - derive/^([jqxy])u/$1v/
-    #- xform/[[]// ## 取消注释后：直接引导辅助码
+    - xform/[[]// ## 取消注释后：直接引导辅助码
 
 chord_composer:
   # 字母表，包含用并击按键
@@ -130,7 +128,7 @@ chord_composer:
     - "xform/^(.*)$/[$1]/" 
 
 translator:
-  dictionary: flypy_zrmfast
+  dictionary: flypy_flypy.extended
   spelling_hints: 2
   # enable_user_dict: true
   # preedit_format:
@@ -238,7 +236,6 @@ recognizer:
     reverse_stroke: "^ob[A-Za-z]*$"
     reverse_zrlf: "^olf[A-Za-z]*$"
     quanpin: "^ap[a-z]*'?$"
-    emojis: "^ae[a-z]*'?$" # "^ae.*$" 
     verbatim: "^as.*$"
     soft_capslock: "^au.*$"
     dbpy_flypy_help: "^ac.*$"
@@ -257,13 +254,7 @@ quanpin:
   prefix: "ap"
   suffix: "'"
   tips: "全拼"
-emojis:
-  tag: emojis
-  dictionary: emoji
-  enable_completion: true
-  prefix: "ae"
-  suffix: "'"
-  tips: " Emoji"
+
 verbatim:
   tag: verbatim ## english; ascii
   prefix: "as"
