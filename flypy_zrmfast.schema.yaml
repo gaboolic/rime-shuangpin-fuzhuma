@@ -79,11 +79,13 @@ speller:
     - derive/^(..).+$/$1/
     - derive/^(..[[].).+$/$1/
     - derive/^([jqxy])u/$1v/
-    #- xform/[[]// ## 取消注释后：直接引导辅助码
+    - xform/[[]// ## 取消注释后：直接引导辅助码
 
 translator:
-  dictionary: flypy_zrmfast
+  dictionary: flypy_flypy.extended
   spelling_hints: 2
+  comment_format:
+    - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
   # enable_user_dict: true
   # preedit_format:
     # - "xform/((^|[ '])[bpmfdtnljqx])n/$1iao/"
@@ -154,7 +156,7 @@ reverse_stroke:
   tag: reverse_stroke
   dictionary: stroke # stroke
   enable_completion: true
-  prefix: "obh"
+  prefix: "ob"
   suffix: "'"
   tips: 〔筆畫〕 # 〔筆畫〕
   preedit_format:
@@ -187,7 +189,7 @@ recognizer:
     punct: '^/[015-9A-Za-z]+$' ## use "/er" instead of "/2"
     ## associate schemes: 
     reverse_lookup: "^ab[a-z]*'?$" # "[[]b[a-z]*'?$"
-    reverse_stroke: "^obh[A-Za-z]*$"
+    reverse_stroke: "^ob[A-Za-z]*$"
     reverse_zrlf: "^olf[A-Za-z]*$"
     quanpin: "^ap[a-z]*'?$"
     emojis: "^ae[a-z]*'?$" # "^ae.*$" 
