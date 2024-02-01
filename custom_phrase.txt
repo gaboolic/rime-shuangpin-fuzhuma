@@ -7,13 +7,13 @@
 二	e
 人	r
 他	t
-一	y
+有	y
 是	u
-出	i
+吃	i
 哦	o
-平	p
+配	p
 啊	a
-三	s
+算	s
 的	d
 非	f
 个	g
@@ -23,18 +23,19 @@
 了	l
 在	z
 小	x
-才	c	2
+从	c	2
 这	v
 吧	b
 不	bu	3
 把	ba	2
 你	n
-没	m
+吗	m
+没	mw	3
 使	ui	2
 試	ui	1
 大	da	1
 
-菜	cd	2
+才	cd	2
 少	uc	2
 僧	sg	2
 多	do	2
@@ -49,7 +50,7 @@
 有	yz	2
 云	yy	2
 深	uf	2
-山	uj	2
+删	uj	2
 谁	uw	2
 能	ng	2
 弄	ns	2
@@ -74,7 +75,7 @@
 大	da	2
 户	hu	2
 拨	bo	2
-窗	il	2
+床	il	2
 泥	ni	2
 阿	aa	2
 翁	wg	2
@@ -94,7 +95,7 @@
 撒	sa	2
 红	hs	2
 米	mi	2
-她	ta	2
+它	ta	2
 先	xm	2
 笑	xn	2
 穷	qs	2
@@ -103,8 +104,9 @@
 囊	nh	2
 贼	zw	2
 也	ye	2
-完	wj	2
+万	wj	2
 为	ww	2
+和	he	2
 何	he	2
 楼	lz	2
 高	gc	2
@@ -113,7 +115,7 @@
 暖	nr	2
 凭	pk	2
 啥	ua	2
-桥	qn	2
+敲	qn	2
 坏	hk	2
 应	yk	2
 对	dv	2
@@ -166,6 +168,7 @@
 吃	ii	2
 仍	rg	2
 需	xu	2
+了	le	3
 乐	le	2
 村	cy	2
 中	vs	2
@@ -208,7 +211,7 @@
 关	gr	2
 调	dn	2
 算	sr	2
-法	fa	2
+发	fa	2
 嫩	nf	2
 排	pd	2
 开	kd	2
@@ -609,7 +612,7 @@
 呕吐	ot
 下次	xc
 从前	cq
-安保	ab
+## 安保	ab
 暗示	au
 平时	ps
 配额	pe
