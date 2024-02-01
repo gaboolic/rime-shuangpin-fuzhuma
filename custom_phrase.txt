@@ -125,7 +125,7 @@
 绕	rc	2
 得	de	2
 亲	qb	2
-体	ti	2
+提	ti	2
 软	rr	2
 装	vl	2
 问	wf	2
