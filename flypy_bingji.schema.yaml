@@ -107,13 +107,13 @@ chord_composer:
     - xform/ul(?![左右])$/r右/
     - xform/yl(?![左右])$/t右/
     - xform/l;(?![左右])$/s右/
-    - xform/k;(?![左右])$/d右/
-    - xform/j;(?![左右])$/f右/
-    - xform/h;(?![左右])$/g右/    
-    - xform/ml(?![左右])$/z右/
-    - xform/nl(?![左右])$/x右/
-    - xform/m;(?![左右])$/c右/
-    - xform/n;(?![左右])$/v右/
+    - xform/kl(?![左右])$/d右/
+    - xform/jk(?![左右])$/f右/
+    - xform/hl(?![左右])$/g右/    
+    - xform/mk(?![左右])$/z右/
+    - xform/nk(?![左右])$/x右/
+    - xform/ml(?![左右])$/c右/
+    - xform/nl(?![左右])$/v右/
     - xform/ni(?![左右])$/b右/
     - xform/;(?![左右])$/a右/
   # 并击完成后套用式样
