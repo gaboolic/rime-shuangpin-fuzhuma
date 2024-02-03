@@ -105,14 +105,15 @@ speller:
 
     - derive/^(..).+$/$1/
     - derive/^(..[[].).+$/$1/
-    - derive/^([jqxy])u/$1v/
+    # - derive/^([jqxy])u/$1v/
     - xform/[[]// ## 取消注释后：直接引导辅助码
 
      ## 飞键
     - derive/^([yh])j/$1q/
     - derive/^qx/qw/
-    - derive/^jn/jz/
-    - derive/^jm/jc/
+    - derive/^jn/jv/
+    - derive/^mn/mv/
+    - derive/^jm/jz/
     - derive/^([y])h/$1g/
     - derive/^([rgv])f/$1m/
     - derive/^([rgv])c/$1n/
