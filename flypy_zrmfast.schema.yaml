@@ -19,7 +19,7 @@ schema:
 
 switches:
   - name: ascii_mode
-    reset: 1
+    reset: 0
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
@@ -76,10 +76,48 @@ speller:
   delimiter: " '"
   ## speller 未允许 aj 表示 an
   algebra:
+    - xform/iu$/Q/
+    - xform/(.)ei$/$1W/
+    - xform/uan$/R/
+    - xform/[uv]e$/T/
+    - xform/un$/Y/
+    - xform/^sh/U/
+    - xform/^ch/I/
+    - xform/^zh/V/
+    - xform/uo$/O/
+    - xform/ie$/P/
+    - xform/i?ong$/S/
+    - xform/ing$|uai$/K/
+    - xform/(.)ai$/$1D/
+    - xform/(.)en$/$1F/
+    - xform/(.)eng$/$1G/
+    - xform/[iu]ang$/L/
+    - xform/(.)ang$/$1H/
+    - xform/ian$/M/
+    - xform/(.)an$/$1J/
+    - xform/(.)ou$/$1Z/
+    - xform/[iu]a$/X/
+    - xform/iao$/N/
+    - xform/(.)ao$/$1C/
+    - xform/ui$/V/
+    - xform/in$/B/
+    - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
+
     - derive/^(..).+$/$1/
     - derive/^(..[[].).+$/$1/
     - derive/^([jqxy])u/$1v/
     - xform/[[]// ## 取消注释后：直接引导辅助码
+
+     ## 飞键
+    - derive/^([yh])j/$1q/
+    - derive/^qx/qw/
+    - derive/^jn/jz/
+    - derive/^jm/jc/
+    - derive/^([y])h/$1g/
+    - derive/^([rgv])f/$1m/
+    - derive/^([rgv])c/$1n/
+    
+    
 
 translator:
   dictionary: flypy_flypy.extended
