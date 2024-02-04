@@ -76,31 +76,31 @@ speller:
   delimiter: " '"
   ## speller 未允许 aj 表示 an
   algebra:
-    - xform/(^\[)iu$/$1Q/
-    - xform/(^\[)ei$/$1W/
+    - xform/^([^\[]*)iu$/$1Q/
+    - xform/^([^\[]*)ei$/$1W/
     - xform/uan$/R/
-    - xform/(^\[)[uv]e$/$1T/
-    - xform/(^\[)un$/$1Y/
+    - xform/^([^\[]*)[uv]e$/$1T/
+    - xform/^([^\[]*)un$/$1Y/
     - xform/^sh/U/
     - xform/^ch/I/
     - xform/^zh/V/
-    - xform/(^\[)uo$/$1O/
-    - xform/(^\[)ie$/$1P/
+    - xform/^([^\[]*)uo$/$1O/
+    - xform/^([^\[]*)ie$/$1P/
     - xform/i?ong$/S/
     - xform/ing$|uai$/K/
-    - xform/(^\[)ai$/$1D/
-    - xform/(^\[)en$/$1F/
-    - xform/(^\[)eng$/$1G/
+    - xform/^([^\[]*)ai$/$1D/
+    - xform/^([^\[]*)en$/$1F/
+    - xform/^([^\[]*)eng$/$1G/
     - xform/[iu]ang$/L/
-    - xform/(^\[)ang$/$1H/
-    - xform/(^\[)ian$/$1M/
-    - xform/(^\[)an$/$1J/
-    - xform/(^\[)ou$/$1Z/
-    - xform/(^\[)[iu]a$/$1X/
-    - xform/(^\[)iao$/$1N/
-    - xform/(^\[)ao$/$1C/
-    - xform/(^\[)ui$/$1V/
-    - xform/(^\[)in$/$1B/
+    - xform/(.)ang$/$1H/
+    - xform/^([^\[]*)ian$/$1M/
+    - xform/^([^\[]*)an$/$1J/
+    - xform/^([^\[]*)ou$/$1Z/
+    - xform/^([^\[]*)[iu]a$/$1X/
+    - xform/^([^\[]*)iao$/$1N/
+    - xform/^([^\[]*)ao$/$1C/
+    - xform/^([^\[]*)ui$/$1V/
+    - xform/^([^\[]*)in$/$1B/
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
 
     - derive/^(..).+$/$1/
@@ -244,7 +244,7 @@ menu:
 
 quanpin:
   tag: quanpin
-  dictionary: luna_pinyin ## 用户可自行改为扩展后的词典
+  dictionary: luna_pinyin.extended ## 用户可自行改为扩展后的词典
   prism: luna_pinyin
   enable_completion: true
   prefix: "ap"
