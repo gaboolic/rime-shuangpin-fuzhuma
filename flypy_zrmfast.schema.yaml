@@ -76,6 +76,8 @@ speller:
   delimiter: " '"
   ## speller 未允许 aj 表示 an
   algebra:
+    - xform/^([aoe])$/$1$1/
+    - xform/^(ang)$/ah/
     - xform/^([^\[]*)iu$/$1Q/
     - xform/^([^\[]*)ei$/$1W/
     - xform/uan$/R/
