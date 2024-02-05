@@ -90,17 +90,17 @@ speller:
     - xform/^([^\[]*)ie$/$1P/
     - xform/i?ong$/S/
     - xform/ing$|uai$/K/
-    - xform/^([^\[]*)ai$/$1D/
-    - xform/^([^\[]*)en$/$1F/
-    - xform/^([^\[]*)eng$/$1G/
+    - xform/^([^\[]+)ai$/$1D/
+    - xform/^([^\[]+)en$/$1F/
+    - xform/^([^\[]+)eng$/$1G/
     - xform/[iu]ang$/L/
     - xform/(.)ang$/$1H/
     - xform/^([^\[]*)ian$/$1M/
-    - xform/^([^\[]*)an$/$1J/
-    - xform/^([^\[]*)ou$/$1Z/
+    - xform/^([^\[]+)an$/$1J/
+    - xform/^([^\[]+)ou$/$1Z/
     - xform/^([^\[]*)[iu]a$/$1X/
     - xform/^([^\[]*)iao$/$1N/
-    - xform/^([^\[]*)ao$/$1C/
+    - xform/^([^\[]+)ao$/$1C/
     - xform/^([^\[]*)ui$/$1V/
     - xform/^([^\[]*)in$/$1B/
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
