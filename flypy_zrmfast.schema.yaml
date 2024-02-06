@@ -83,9 +83,9 @@ speller:
     - xform/uan$/R/
     - xform/^([^\[]*)[uv]e$/$1T/
     - xform/^([^\[]*)un$/$1Y/
-    - xform/^sh/U/
-    - xform/^ch/I/
-    - xform/^zh/V/
+    - xform/^sh([^\[]+)/U$1/
+    - xform/^ch([^\[]+)/I$1/
+    - xform/^zh([^\[]+)/V$1/
     - xform/^([^\[]*)uo$/$1O/
     - xform/^([^\[]*)ie$/$1P/
     - xform/i?ong$/S/
