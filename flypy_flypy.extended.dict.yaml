@@ -42,7 +42,7 @@ use_preset_vocabulary: true
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
 
 import_tables:
-  - flypy_flypy
+  # - flypy_flypy
   # - luna_pinyin.extra_hanzi
   # - luna_pinyin.sgmain
   # - luna_pinyin.sgplus
@@ -64,8 +64,8 @@ import_tables:
   # - luna_pinyin.shopping
 
   ## 雾凇拼音 https://github.com/iDvel/rime-ice
-  # - cn_dicts/8105     # 字表
-  # - cn_dicts/41448  # 大字表（按需启用）
+  - cn_dicts/8105     # 字表
+  - cn_dicts/41448  # 大字表（按需启用）
   - cn_dicts/base     # 基础词库
   - cn_dicts/ext      # 扩展词库
   - cn_dicts/tencent  # 腾讯词向量（大词库，部署时间较长）
