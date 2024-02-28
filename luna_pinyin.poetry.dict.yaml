@@ -42,7 +42,6 @@
 name: luna_pinyin.poetry
 version: "2013.11.21"
 sort: by_weight
-use_preset_vocabulary: true
 ...
 
 㘅泥鷰
