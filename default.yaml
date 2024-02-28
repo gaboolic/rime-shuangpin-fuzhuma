@@ -20,13 +20,10 @@ switcher:
     - Control+Shift+grave
     - F4
   save_options:
+    - ascii_mode
     - full_shape
-    - ascii_punct
     - simplification
-    - extended_charset
-    - zh_hant
-    - zh_hans
-    - zh_hant_tw
+    - ascii_punct
   fold_options: true
   abbreviate_options: true
   option_list_separator: '／'

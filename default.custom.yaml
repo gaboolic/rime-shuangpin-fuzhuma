@@ -2,4 +2,3 @@ patch:
   schema_list:
     - schema: luna_pinyin_simp # 朙月拼音
     - schema: flypy_zrmfast # 小鹤
-  "switches/@0/reset": 0
