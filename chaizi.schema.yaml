@@ -1,0 +1,54 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: chaizi
+  name: "chaizi"
+  version: "1"
+  description: |
+    部件组字模式，默认小鹤双拼，
+    可换用其他拼音方案
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+    - punct_translator
+
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyz"
+  delimiter: " '"
+  algebra:
+    - xform/!//
+
+menu:
+  page_size: 4
+
+translator:
+  dictionary: chaizi_flypy
+

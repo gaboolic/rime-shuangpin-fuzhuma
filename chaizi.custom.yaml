@@ -1,0 +1,78 @@
+patch_quanpin:
+#patch: ## 部件组字使用全拼
+  translator/prism: chaizi_fp2qp
+  speller/algebra:
+    - xform/([bpmfdtnljqx])n!/$1iao@/
+    - xform/g!/eng@/
+    - xform/q!/iu@/
+    - xform/w!/ei@/
+    - xform/([dtnlgkhjqxyvuirzcs])r!/$1uan@/
+    - xform/t!/ve@/
+    - xform/y!/un@/
+    - xform/([dtnlgkhvuirzcs])o!/$1uo@/
+    - xform/p!/ie@/
+    - xform/([jqx])s!/$1iong@/
+    - xform/s!/ong@/
+    - xform/d!/ai@/
+    - xform/f!/en@/
+    - xform/h!/ang@/
+    - xform/j!/an@/
+    - xform/([gkhvuirzcs])k!/$1uai@/
+    - xform/k!/ing@/
+    - xform/([jqxnl])l!/$1iang@/
+    - xform/l!/uang@/
+    - xform/z!/ou@/
+    - xform/([gkhvuirzcs])x!/$1ua@/
+    - xform/x!/ia@/
+    - xform/c!/ao@/
+    - xform/([dtgkhvuirzcs])v!/$1ui@/
+    - xform/b!/in@/
+    - xform/m!/ian@/
+    - xform/(^|[!@])([aoe])\2/$2/
+    - xform/(^|[!@])v/$1zh/
+    - xform/(^|[!@])i/$1ch/
+    - xform/(^|[!@])u/$1sh/
+    # - xform/([jqxy])v/$1u/
+
+    # - abbrev/^([a-z])\w+([[].+)/$1$2/
+    # - abbrev/^([zcs]h)\w+([[].+)/$1$2/
+    - xform/[!@]//
+
+patch_zrm:
+#patch: ## 部件组字使用自然码双拼
+  translator/prism: chaizi_fp2zrm
+  speller/algebra:
+    - xform/x!/w@/
+    - xform/k!/y@/
+    - xform/y!/p@/
+    - xform/l!/d@/
+    - xform/c!/k@/
+    - xform/d!/l@/
+    - xform/w!/z@/
+    - xform/p!/x@/
+    - xform/([^aeiou])n!/$1c@/
+    - xform/z!/b@/
+    - xform/b!/n@/
+    # - derive/([jqxy])u[!@]/$1v!/
+    - xform/[!@]//
+
+patch_mspy:
+#patch: ## 部件组字使用微软双拼
+  translator/prism: chaizi_fp2mspy
+  speller/algebra:
+    - xform/x!/w@/
+    - xform/([gkhvuirzcs])k!/$1y@/
+    - xform/k!/;@/
+    - xform/y!/p@/
+    - xform/l!/d@/
+    - xform/c!/k@/
+    - xform/d!/l@/
+    - xform/w!/z@/
+    - xform/p!/x@/
+    - xform/([^aeiou])n!/$1c@/
+    - xform/z!/b@/
+    - xform/b!/n@/
+    - xform/([nl])v!/$1y@/
+    # - derive/([jqxy])u[!@]/$1v!/
+    - xform/[!@]//
+
