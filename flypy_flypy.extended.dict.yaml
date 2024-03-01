@@ -43,11 +43,6 @@ use_preset_vocabulary: true
 
 import_tables:
   # - flypy_flypy
-  # - luna_pinyin.place
-  - luna_pinyin.poetry
-  # - luna_pinyin.computer
-  - luna_pinyin.history
-  # - luna_pinyin.shopping
 
   ## 雾凇拼音 https://github.com/iDvel/rime-ice
   - cn_dicts/8105     # 字表
@@ -56,4 +51,9 @@ import_tables:
   - cn_dicts/ext      # 扩展词库
   - cn_dicts/tencent  # 腾讯词向量（大词库，部署时间较长）
   - cn_dicts/others   # 一些杂项
+
+    # - luna_pinyin.place
+  - luna_pinyin.poetry
+  # - luna_pinyin.computer
+  - luna_pinyin.history
 ...
