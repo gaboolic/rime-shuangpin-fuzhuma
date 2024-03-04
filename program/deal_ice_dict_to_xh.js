@@ -31,7 +31,10 @@ dictLines.forEach((line) => {
 console.log("孙 " + dictData['孙'])
 
 // 需要修改的YAML文件的路径
-const yamlFilePath = path.join(__dirname, '../cn_dicts/8105.dict.yaml');
+const yamlFilePath = path.join(__dirname, '../cn_dicts/tencent.dict.yaml');
+
+// 需要修改的YAML文件的路径
+const writeFilePath = path.join(__dirname, '../cn_dicts_xh/tencent.dict.yaml');
 
 // 同步读取YAML文件
 const yamlFileContent = fs.readFileSync(yamlFilePath, 'utf8');
@@ -51,7 +54,7 @@ function writeFile(filePath, content) {
 }
 
 // Function to update missing encodings in the file
-function updateMissingEncodings(filePath) {
+function updateMissingEncodings(filePath, writeFilePath) {
     // Read the file content
     const fileContent = readFile(filePath);
 
@@ -187,9 +190,9 @@ function updateMissingEncodings(filePath) {
     });
 
     // Write the updated content back to the file
-    writeFile(filePath, updatedContent);
+    writeFile(writeFilePath, updatedContent);
 }
 
 
 // Call the function to update missing encodings in the file
-updateMissingEncodings(yamlFilePath);
+updateMissingEncodings(yamlFilePath, writeFilePath);

@@ -13,229 +13,229 @@ sort: by_weight
 ...
 ##### 容错词
 # 一些口语读音
-空落落	ks[bg lo[ck lo[ck	undefined
-空落落	ks[bg lc[ck lc[ck	undefined
-空落落的	ks[bg lo[ck lo[ck de[bu	undefined
-空落落的	ks[bg lc[ck lc[ck de[bu	undefined
+空落落	kong luo luo
+空落落	kong lao lao
+空落落的	kong luo luo de
+空落落的	kong lao lao de
 # 「阿房宫」的注音争议比较大
-阿房宫	ee[ek ph[hf gs[bk	undefined
-阿房宫	aa[ek ph[hf gs[bk	undefined
-阿房宫	ee[ek fh[hf gs[bk	undefined
-阿房宫	aa[ek fh[hf gs[bk	undefined
-阿房宫赋	ee[ek ph[hf gs[bk fu[kv	undefined
-阿房宫赋	aa[ek ph[hf gs[bk fu[kv	undefined
-阿房宫赋	ee[ek fh[hf gs[bk fu[kv	undefined
-阿房宫赋	aa[ek fh[hf gs[bk fu[kv	undefined
+阿房宫	e pang gong
+阿房宫	a pang gong
+阿房宫	e fang gong
+阿房宫	a fang gong
+阿房宫赋	e pang gong fu
+阿房宫赋	a pang gong fu
+阿房宫赋	e fang gong fu
+阿房宫赋	a fang gong fu
 # 「伯伯」方言
-伯伯	bo[rb bo[rb	undefined
-伯伯	bd[rb bd[rb	undefined
+伯伯	bo bo
+伯伯	bai bai
 # 「斜」的古音
-远上寒山石径斜	yr[ze uh[la hj[bd uj[lk ui[ak jk[ig xp[ru	undefined
-远上寒山石径斜	yr[ze uh[la hj[bd uj[lk ui[ak jk[ig xx[ru	undefined
+远上寒山石径斜	yuan shang han shan shi jing xie
+远上寒山石径斜	yuan shang han shan shi jing xia
 # 「骑」目前统读 qi
-坐骑	zo[rt qi[mk	undefined
-坐骑	zo[rt ji[mk	undefined
-铁骑	tp[ju qi[mk	undefined
-铁骑	tp[ju ji[mk	undefined
-一骑绝尘	yi[aa qi[mk jt[sb if[xt	undefined
-一骑绝尘	yi[aa ji[mk jt[sb if[xt	undefined
-一骑当千	yi[aa qi[mk dh[xe qm[pu	undefined
-一骑当千	yi[aa ji[mk dh[xe qm[pu	undefined
-一骑红尘妃子笑	yi[aa qi[mk hs[sg if[xt fw[nj zi[va xn[vy	undefined
-一骑红尘妃子笑	yi[aa ji[mk hs[sg if[xt fw[nj zi[va xn[vy	undefined
-走单骑	zz[tr dj[bl qi[mk	undefined
-走单骑	zz[tr dj[bl ji[mk	undefined
-千里走单骑	qm[pu li[la zz[tr dj[bl qi[mk	undefined
-千里走单骑	qm[pu li[la zz[tr dj[bl ji[mk	undefined
+坐骑	zuo qi
+坐骑	zuo ji
+铁骑	tie qi
+铁骑	tie ji
+一骑绝尘	yi qi jue chen
+一骑绝尘	yi ji jue chen
+一骑当千	yi qi dang qian
+一骑当千	yi ji dang qian
+一骑红尘妃子笑	yi qi hong chen fei zi xiao
+一骑红尘妃子笑	yi ji hong chen fei zi xiao
+走单骑	zou dan qi
+走单骑	zou dan ji
+千里走单骑	qian li zou dan qi
+千里走单骑	qian li zou dan ji
 # 「街」的粤语和东北话读音及常见的两种写法
-仆街	pu[rb jp[ii	undefined
-仆街	pu[rb gd[ii	undefined
-扑街	pu[fb jp[ii	undefined
-扑街	pu[fb gd[ii	undefined
-扑街仔	pu[fb jp[ii zd[rz	undefined
-扑街仔	pu[fb gd[ii zd[rz	undefined
-仆街仔	pu[rb jp[ii zd[rz	undefined
-仆街仔	pu[rb gd[ii zd[rz	undefined
-街溜子	jp[ii lq[dt zi[va	undefined
-街溜子	gd[ii lq[dt zi[va	undefined
+仆街	pu jie
+仆街	pu gai
+扑街	pu jie
+扑街	pu gai
+扑街仔	pu jie zai
+扑街仔	pu gai zai
+仆街仔	pu jie zai
+仆街仔	pu gai zai
+街溜子	jie liu zi
+街溜子	gai liu zi
 # 「錤」这个字念 ji，但是台湾媒体都会念成 qi，他的英文名 Ming-Chi Kuo 也是接近 qi
-郭明錤	go[we mk[oo ji[jb	undefined
-郭明錤	go[we mk[oo qi[jb	undefined
+郭明錤	guo ming ji
+郭明錤	guo ming qi
 # 「镐 gao hao」的发音，多为韩国人名，不知道 🤷‍♂️，词库里为 gao，这里额外加上 hao 音
-李昌镐	li[mz ih[oo hc[jk	undefined
-曹世镐	cc[ao ui[av hc[jk	undefined
-张镐哲	vh[gi gc[jk ve[fk	undefined
-姜成镐	jl[yn ig[wv hc[jk	undefined
-姜镐童	jl[yn hc[jk ts[ll	undefined
-张镐濂	vh[gi hc[jk lm[dn	undefined
-李敏镐	li[mz mb[pw hc[jk	undefined
-李陈镐	li[mz if[ed hc[jk	undefined
-赵亮镐	vc[tx ll[wj hc[jk	undefined
-郑俊镐	vg[be jy[rw hc[jk	undefined
+李昌镐	li chang hao
+曹世镐	cao shi hao
+张镐哲	zhang gao zhe
+姜成镐	jiang cheng hao
+姜镐童	jiang hao tong
+张镐濂	zhang hao lian
+李敏镐	li min hao
+李陈镐	li chen hao
+赵亮镐	zhao liang hao
+郑俊镐	zheng jun hao
 
 
 ##### 错音错字提示。与 corrector.lua 配合，上面的是正确的，下面是错误的
 ### 错音
-馄饨	hy[ub ty[ut	undefined
-馄饨	hy[ub dy[ut	undefined
-主角	vu[dw jt[dy	undefined
-主角	vu[dw jn[dy	undefined
-角色	jt[dy se[db	undefined
-角色	jn[dy se[db	undefined
-比萨	bi[bb sa[ci	undefined
-比萨	pi[bb sa[ci	undefined
-比萨饼	bi[bb sa[ci bk[uk	undefined
-比萨饼	pi[bb sa[ci bk[uk	undefined
-吃比萨	ii[kq bi[bb sa[ci	undefined
-吃比萨	ii[kq pi[bb sa[ci	undefined
-说服	uo[ye fu[oy	undefined
-说服	uv[ye fu[oy	undefined
-道行	dc[zz hg[ii	undefined
-道行	dc[zz hh[ii	undefined
-模样	mu[md yh[my	undefined
-模样	mo[md yh[my	undefined
-有模有样	yz[uo mu[md yz[uo yh[my	undefined
-有模有样	yz[uo mo[md yz[uo yh[my	undefined
-一模一样	yi[aa mu[md yi[aa yh[my	undefined
-一模一样	yi[aa mo[md yi[aa yh[my	undefined
-装模作样	vl[dy mu[md zo[rv yh[my	undefined
-装模作样	vl[dy mo[md zo[rv yh[my	undefined
-人模狗样	rf[pn mu[md gz[qk yh[my	undefined
-人模狗样	rf[pn mo[md gz[qk yh[my	undefined
-模板	mu[md bj[my	undefined
-模板	mo[md bj[my	undefined
-阿弥陀佛	ee[ek mi[gx to[eb fo[rf	undefined
-阿弥陀佛	aa[ek mi[gx to[eb fo[rf	undefined
-南无阿弥陀佛	na[ug mo[ay ee[ek mi[gx to[eb fo[rf	undefined
-南无阿弥陀佛	na[ug mo[ay aa[ek mi[gx to[eb fo[rf	undefined
-南无阿弥陀佛	nj[ug wu[ay ee[ek mi[gx to[eb fo[rf	undefined
-南无阿弥陀佛	nj[ug wu[ay aa[ek mi[gx to[eb fo[rf	undefined
-给予	ji[sk yu[sl	undefined
-给予	gw[sk yu[sl	undefined
-槟榔	bk[mb lh[me	undefined
-槟榔	bb[mb lh[me	undefined
-张柏芝	vh[gi bo[mb vi[cv	undefined
-张柏芝	vh[gi bd[mb vi[cv	undefined
-藤蔓	tg[cu wj[cy	undefined
-藤蔓	tg[cu mj[cy	undefined
-弄堂	ls[wc th[xt	undefined
-弄堂	ns[wc th[xt	undefined
-心宽体胖	xb[dd kr[be ti[rb pj[ob	undefined
-心宽体胖	xb[dd kr[be ti[rb ph[ob	undefined
-埋怨	mj[tl yr[xx	undefined
-埋怨	md[tl yr[xx	undefined
-虚与委蛇	xu[hy yu[aa ww[hn yi[ib	undefined
-虚与委蛇	xu[hy yu[aa ww[hn ue[ib	undefined
-木讷	mu[un ne[yn	undefined
-木讷	mu[un na[yn	undefined
-独乐乐	du[qi yt[pd le[pd	undefined
-独乐乐	du[qi le[pd le[pd	undefined
-众乐乐	vs[rr yt[pd le[pd	undefined
-众乐乐	vs[rr le[pd le[pd	undefined
-荨麻	qm[cc ma[gm	undefined
-荨麻	xy[cc ma[gm	undefined
-荨麻疹	xy[cc ma[gm vf[bp	undefined
-荨麻疹	qm[cc ma[gm vf[bp	undefined
-模具	mu[md ju[qb	undefined
-模具	mo[md ju[qb	undefined
-草薙	cc[cu ti[[	undefined
-草薙	cc[cu vi[[	undefined
-草薙京	cc[cu ti[[ jk[wx	undefined
-草薙京	cc[cu vi[[ jk[wx	undefined
-草薙剑	cc[cu ti[[ jm[rd	undefined
-草薙剑	cc[cu vi[[ jm[rd	undefined
-贾平凹	jx[xr pk[au wa[la	undefined
-贾平凹	jx[xr pk[au ao[la	undefined
-雪佛兰	xt[ye fu[rf lj[bs	undefined
-雪佛兰	xt[ye fo[rf lj[bs	undefined
-强劲	ql[gi jk[vl	undefined
-强劲	ql[gi jb[vl	undefined
-胴体	ds[ok ti[rb	undefined
-胴体	ts[ok ti[rb	undefined
-力能扛鼎	li[vp ng[sb gh[fg dk[ov	undefined
-力能扛鼎	li[vp ng[sb kh[fg dk[ov	undefined
-鸭绿江	ya[jn lu[su jl[dg	undefined
-鸭绿江	ya[jn lv[su jl[dg	undefined
-大腹便便	da[un fu[ow pm[rg pm[rg	undefined
-大腹便便	da[un fu[ow bm[rg bm[rg	undefined
-卡脖子	qx[ub bo[oz zi[va	undefined
-卡脖子	ka[ub bo[oz zi[va	undefined
-吱声	zi[ky ug[up	undefined
-吱声	vi[ky ug[up	undefined
-掺和	ij[fp ho[hk	undefined
-掺和	ij[fp he[hk	undefined
-掺和	cj[fp ho[hk	undefined
-掺和	cj[fp he[hk	undefined
-称职	if[hx vi[eb	undefined
-称职	ig[hx vi[eb	undefined
-螺蛳粉	lo[ix si[ij ff[md	undefined
-螺蛳粉	lo[ix ui[ij ff[md	undefined
-调换	dn[yk hr[fd	undefined
-调换	tn[yk hr[fd	undefined
-太行山	td[dd hh[ii uj[lk	undefined
-太行山	td[dd xk[ii uj[lk	undefined
-歇斯底里	xp[or si[qj di[gd li[la	undefined
-歇斯底里	jp[or si[qj di[gd li[la	undefined
-暖和	nr[oy ho[hk	undefined
-暖和	nr[oy he[hk	undefined
-模棱两可	mo[md lg[mw ll[ad ke[dk	undefined
-模棱两可	mo[md lk[mw ll[ad ke[dk	undefined
-鄱阳湖	po[pe yh[eo hu[do	undefined
-鄱阳湖	pj[pe yh[eo hu[do	undefined
-脖颈	bo[oz gg[vr	undefined
-脖颈	bo[oz jk[vr	undefined
-脖颈儿	bo[oz gg[vr er[pv	undefined
-脖颈儿	bo[oz jk[vr er[pv	undefined
-结扎	jp[sk za[fv	undefined
-结扎	jp[sk va[fv	undefined
-海参崴	hd[dm uf[sp wd[en	undefined
-海参崴	hd[dm uf[sp ww[en	undefined
-厚朴	hz[iz po[mb	undefined
-厚朴	hz[iz pu[mb	undefined
-大宛马	da[un yr[bv ma[va	undefined
-大宛马	da[un wj[bv ma[va	undefined
-龇牙	zi[vb ya[ap	undefined
-龇牙	ci[vb ya[ap	undefined
-龇着牙	zi[vb ve[yo ya[ap	undefined
-龇着牙	ci[vb ve[yo ya[ap	undefined
-龇牙咧嘴	zi[vb ya[ap lp[kd zv[ky	undefined
-龇牙咧嘴	ci[vb ya[ap lp[kd zv[ky	undefined
-头皮屑	tz[dd pi[vy xp[uo	undefined
-头皮屑	tz[dd pi[vy xt[uo	undefined
-六安	lu[wb an[bn	undefined
-六安	lq[wb an[bn	undefined
-六安县	lu[wb an[bn xm[qs	undefined
-六安县	lq[wb an[bn xm[qs	undefined
-六安市	lu[wb an[bn ui[wj	undefined
-六安市	lq[wb an[bn ui[wj	undefined
-安徽六安	an[bn hv[iw lu[wb an[bn	undefined
-安徽六安	an[bn hv[iw lq[wb an[bn	undefined
-安徽六安市	an[bn hv[iw lu[wb an[bn ui[wj	undefined
-安徽六安市	an[bn hv[iw lq[wb an[bn ui[wj	undefined
-安徽省六安市	an[bn hv[iw ug[uo lu[wb an[bn ui[wj	undefined
-安徽省六安市	an[bn hv[iw ug[uo lq[wb an[bn ui[wj	undefined
+馄饨	hun tun
+馄饨	hun dun
+主角	zhu jue
+主角	zhu jiao
+角色	jue se
+角色	jiao se
+比萨	bi sa
+比萨	pi sa
+比萨饼	bi sa bing
+比萨饼	pi sa bing
+吃比萨	chi bi sa
+吃比萨	chi pi sa
+说服	shuo fu
+说服	shui fu
+道行	dao heng
+道行	dao hang
+模样	mu yang
+模样	mo yang
+有模有样	you mu you yang
+有模有样	you mo you yang
+一模一样	yi mu yi yang
+一模一样	yi mo yi yang
+装模作样	zhuang mu zuo yang
+装模作样	zhuang mo zuo yang
+人模狗样	ren mu gou yang
+人模狗样	ren mo gou yang
+模板	mu ban
+模板	mo ban
+阿弥陀佛	e mi tuo fo
+阿弥陀佛	a mi tuo fo
+南无阿弥陀佛	na mo e mi tuo fo
+南无阿弥陀佛	na mo a mi tuo fo
+南无阿弥陀佛	nan wu e mi tuo fo
+南无阿弥陀佛	nan wu a mi tuo fo
+给予	ji yu
+给予	gei yu
+槟榔	bing lang
+槟榔	bin lang
+张柏芝	zhang bo zhi
+张柏芝	zhang bai zhi
+藤蔓	teng wan
+藤蔓	teng man
+弄堂	long tang
+弄堂	nong tang
+心宽体胖	xin kuan ti pan
+心宽体胖	xin kuan ti pang
+埋怨	man yuan
+埋怨	mai yuan
+虚与委蛇	xu yu wei yi
+虚与委蛇	xu yu wei she
+木讷	mu ne
+木讷	mu na
+独乐乐	du yue le
+独乐乐	du le le
+众乐乐	zhong yue le
+众乐乐	zhong le le
+荨麻	qian ma
+荨麻	xun ma
+荨麻疹	xun ma zhen
+荨麻疹	qian ma zhen
+模具	mu ju
+模具	mo ju
+草薙	cao ti
+草薙	cao zhi
+草薙京	cao ti jing
+草薙京	cao zhi jing
+草薙剑	cao ti jian
+草薙剑	cao zhi jian
+贾平凹	jia ping wa
+贾平凹	jia ping ao
+雪佛兰	xue fu lan
+雪佛兰	xue fo lan
+强劲	qiang jing
+强劲	qiang jin
+胴体	dong ti
+胴体	tong ti
+力能扛鼎	li neng gang ding
+力能扛鼎	li neng kang ding
+鸭绿江	ya lu jiang
+鸭绿江	ya lv jiang
+大腹便便	da fu pian pian
+大腹便便	da fu bian bian
+卡脖子	qia bo zi
+卡脖子	ka bo zi
+吱声	zi sheng
+吱声	zhi sheng
+掺和	chan huo
+掺和	chan he
+掺和	can huo
+掺和	can he
+称职	chen zhi
+称职	cheng zhi
+螺蛳粉	luo si fen
+螺蛳粉	luo shi fen
+调换	diao huan
+调换	tiao huan
+太行山	tai hang shan
+太行山	tai xing shan
+歇斯底里	xie si di li
+歇斯底里	jie si di li
+暖和	nuan huo
+暖和	nuan he
+模棱两可	mo leng liang ke
+模棱两可	mo ling liang ke
+鄱阳湖	po yang hu
+鄱阳湖	pan yang hu
+脖颈	bo geng
+脖颈	bo jing
+脖颈儿	bo geng er
+脖颈儿	bo jing er
+结扎	jie za
+结扎	jie zha
+海参崴	hai shen wai
+海参崴	hai shen wei
+厚朴	hou po
+厚朴	hou pu
+大宛马	da yuan ma
+大宛马	da wan ma
+龇牙	zi ya
+龇牙	ci ya
+龇着牙	zi zhe ya
+龇着牙	ci zhe ya
+龇牙咧嘴	zi ya lie zui
+龇牙咧嘴	ci ya lie zui
+头皮屑	tou pi xie
+头皮屑	tou pi xue
+六安	lu an
+六安	liu an
+六安县	lu an xian
+六安县	liu an xian
+六安市	lu an shi
+六安市	liu an shi
+安徽六安	an hui lu an
+安徽六安	an hui liu an
+安徽六安市	an hui lu an shi
+安徽六安市	an hui liu an shi
+安徽省六安市	an hui sheng lu an shi
+安徽省六安市	an hui sheng liu an shi
 ### 错字
-曾经	cg[bo jk[sg	undefined
-曾今	cg[bo jb[rv	undefined
-按捺	an[fn na[fx	undefined
-按耐	an[fn nd[ec	undefined
-按捺不住	an[fn na[fx bu[ad vu[rv	undefined
-按耐不住	an[fn nd[ec bu[ad vu[rv	undefined
-别价	bp[kd jp[rl	undefined
-别介	bp[kd jp[rl	undefined
-甭价	bg[by jp[rl	undefined
-甭介	bg[by jp[rl	undefined
-血脉贲张	xt[pm md[oy bf[ur vh[gi	undefined
-血脉偾张	xt[pm md[oy ff[rr vh[gi	undefined
-血脉喷张	xt[pm md[oy pf[kr vh[gi	undefined
-契诃夫	qi[fd he[yk fu[an	undefined
-契科夫	qi[fd ke[hu fu[an	undefined
-凑合	cz[dt he[rk	undefined
-凑活	cz[dt ho[dk	undefined
-巨惠	ju[ka hv[ax	undefined
-钜惠	ju[jj hv[ax	undefined
-摩羯座	mo[gu jp[yv zo[gt	undefined
-魔蝎座	mo[gg xp[iv zo[gt	undefined
+曾经	ceng jing
+曾今	ceng jin
+按捺	an na
+按耐	an nai
+按捺不住	an na bu zhu
+按耐不住	an nai bu zhu
+别价	bie jie
+别介	bie jie
+甭价	beng jie
+甭介	beng jie
+血脉贲张	xue mai ben zhang
+血脉偾张	xue mai fen zhang
+血脉喷张	xue mai pen zhang
+契诃夫	qi he fu
+契科夫	qi ke fu
+凑合	cou he
+凑活	cou huo
+巨惠	ju hui
+钜惠	ju hui
+摩羯座	mo jie zuo
+魔蝎座	mo xie zuo
 
 
 ##### 叠字
@@ -252,14 +252,14 @@ sort: by_weight
 两个人
 两个飞
 两个戈
-两个厶	ll[ad ge[rl si[[	undefined
-两个厶	ll[ad ge[rl mz[[	undefined
+两个厶	liang ge si
+两个厶	liang ge mou
 两个又
 两个香
 两个面
 两个兀
 两个女
-两个𡥦	ll[ad ge[rl ni[[	undefined
+两个𡥦	liang ge ni
 两个臣
 两个巾
 两个左
@@ -267,11 +267,11 @@ sort: by_weight
 两个来
 两个凡
 两个夕
-两个彐	ll[ad ge[rl ji[[	undefined
-两个𢎘	ll[ad ge[rl hj[[	undefined
-两个魚	ll[ad ge[rl yu[da	undefined
+两个彐	liang ge ji
+两个𢎘	liang ge han
+两个魚	liang ge yu
 两个明
-两个朿	ll[ad ge[rl ci[[	undefined
+两个朿	liang ge ci
 两个乂
 两个曰
 两个尸
@@ -283,7 +283,7 @@ sort: by_weight
 两个吉
 两个马
 两个卅
-两个巛	ll[ad ge[rl ir[[	undefined
+两个巛	liang ge chuan
 两个止
 两个比
 两个言
@@ -291,13 +291,13 @@ sort: by_weight
 两个牛
 两个余
 两个束
-两个罒	ll[ad ge[rl mu[[	undefined
-两个㐅	ll[ad ge[rl wu[[	undefined
+两个罒	liang ge mu
+两个㐅	liang ge wu
 两个金
 两个木
 两个水
 两个火
-两个風	ll[ad ge[rl fg[jx	undefined
+两个風	liang ge feng
 两个石
 两个口
 两个日
@@ -307,20 +307,20 @@ sort: by_weight
 两个百
 两个耳
 两个山
-两个屮	ll[ad ge[rl ie[[	undefined
-两个屮	ll[ad ge[rl cc[[	undefined
+两个屮	liang ge che
+两个屮	liang ge cao
 两个廿
-两个卄	ll[ad ge[rl nm[[	undefined
+两个卄	liang ge nian
 两个虫
 两个虎
-两个龍	ll[ad ge[rl ls[ud	undefined
-两个馬	ll[ad ge[rl ma[va	undefined
+两个龍	liang ge long
+两个馬	liang ge ma
 两个犬
 两个人
 两个入
 两个习
-两个卪	ll[ad ge[rl jp[[	undefined
-两个㔾	ll[ad ge[rl jp[[	undefined
+两个卪	liang ge jie
+两个㔾	liang ge jie
 两个几
 两个乙
 两个大
@@ -342,16 +342,16 @@ sort: by_weight
 两个女
 两个又
 两个支
-两个隻	ll[ad ge[rl vi[kb	undefined
+两个隻	liang ge zhi
 两个古
 两个吉
 两个舌
 两个言
 两个户
 两个启
-两个來	ll[ad ge[rl ld[an	undefined
-两个桼	ll[ad ge[rl qi[[	undefined
-两个旡	ll[ad ge[rl ji[[	undefined
+两个來	liang ge lai
+两个桼	liang ge qi
+两个旡	liang ge ji
 两个夕
 两个歹
 两个匕
@@ -368,16 +368,16 @@ sort: by_weight
 两个竟
 两个竞
 两个兄
-两个見	ll[ad ge[rl jm[ke	undefined
-两个貝	ll[ad ge[rl bw[kr	undefined
+两个見	liang ge jian
+两个貝	liang ge bei
 两个辛
 两个瓜
 两个呆
 两个果
 两个鸟
 两个巢
-两个禺	ll[ad ge[rl yu[ld	undefined
-两个巿	ll[ad ge[rl fu[[	undefined
+两个禺	liang ge yu
+两个巿	liang ge fu
 两个句
 两个奇
 两个真
@@ -391,25 +391,25 @@ sort: by_weight
 两个示
 两个至
 两个生
-两个車	ll[ad ge[rl ie[al	undefined
-两个車	ll[ad ge[rl ju[al	undefined
+两个車	liang ge che
+两个車	liang ge ju
 两个足
-两个區	ll[ad ge[rl qu[kx	undefined
+两个區	liang ge qu
 两个香
-两个隹	ll[ad ge[rl vv[rf	undefined
+两个隹	liang ge zhui
 两个牟
 两个豕
-两个𠂢	ll[ad ge[rl pd[[	undefined
-两个畐	ll[ad ge[rl fu[[	undefined
-两个㣇	ll[ad ge[rl yi[[	undefined
+两个𠂢	liang ge pai
+两个畐	liang ge fu
+两个㣇	liang ge yi
 两个邑
-两个堯	ll[ad ge[rl yc[aw	undefined
+两个堯	liang ge yao
 两个秉
-两个倉	ll[ad ge[rl ch[rv	undefined
-两个東	ll[ad ge[rl ds[ad	undefined
+两个倉	liang ge cang
+两个東	liang ge dong
 两个善
-两个僉	ll[ad ge[rl qm[ra	undefined
-两个齒	ll[ad ge[rl ii[vk	undefined
+两个僉	liang ge qian
+两个齒	liang ge chi
 两个喜
 两个走
 两个止
@@ -421,20 +421,20 @@ sort: by_weight
 两个不
 两个龙
 两个乞
-两个夋	ll[ad ge[rl qy[[	undefined
+两个夋	liang ge qun
 两个天
 # 三叠字
 三个生
 三个秦
 三个若
-三个雲	sj[ae ge[rl yy[es	undefined
+三个雲	san ge yun
 三个人
 三个刀
 三个十
 三个力
 三个原
-三个厶	sj[ae ge[rl si[[	undefined
-三个厶	sj[ae ge[rl mz[[	undefined
+三个厶	san ge si
+三个厶	san ge mou
 三个又
 三个口
 三个七
@@ -463,45 +463,45 @@ sort: by_weight
 三个羊
 三个耳
 三个舌
-三个屮	sj[ae ge[rl ie[[	undefined
-三个屮	sj[ae ge[rl cc[[	undefined
+三个屮	san ge che
+三个屮	san ge cao
 三个虫
 三个言
 三个贝
-三个車	sj[ae ge[rl ie[al	undefined
+三个車	san ge che
 三个金
-三个隹	sj[ae ge[rl vv[rf	undefined
+三个隹	san ge zhui
 三个雷
-三个風	sj[ae ge[rl fg[jx	undefined
-三个飛	sj[ae ge[rl fw[vd	undefined
+三个風	san ge feng
+三个飛	san ge fei
 三个香
 三个马
-三个魚	sj[ae ge[rl yu[da	undefined
+三个魚	san ge yu
 三个鹿
-三个龍	sj[ae ge[rl ls[ud	undefined
+三个龍	san ge long
 三个个
-三个丶	sj[ae ge[rl vu[[	undefined
-三个丶	sj[ae ge[rl dm[[	undefined
+三个丶	san ge zhu
+三个丶	san ge dian
 三个了
 三个介
 三个企
 三个舍
-三个圥	sj[ae ge[rl lu[[	undefined
+三个圥	san ge lu
 三个光
 三个兔
 三个全
-三个𠙽	sj[ae ge[rl kk[[	undefined
-三个𠧪	sj[ae ge[rl tn[[	undefined
-三个𠧪	sj[ae ge[rl yz[[	undefined
-三个㔾	sj[ae ge[rl jp[[	undefined
-三个厡	sj[ae ge[rl yr[[	undefined
+三个𠙽	san ge kuai
+三个𠧪	san ge tiao
+三个𠧪	san ge you
+三个㔾	san ge jie
+三个厡	san ge yuan
 三个可
 三个因
 三个夏
 三个大
 三个天
 三个太
-三个𦉼	sj[ae ge[rl ku[[	undefined
+三个𦉼	san ge ku
 三个宝
 三个宜
 三个客
@@ -511,70 +511,70 @@ sort: by_weight
 三个市
 三个文
 三个斗
-三个朿	sj[ae ge[rl ci[[	undefined
+三个朿	san ge ci
 三个束
 三个林
 三个果
 三个欠
-三个𣥚	sj[ae ge[rl zz[[	undefined
+三个𣥚	san ge zou
 三个爪
 三个妥
 三个用
 三个甲
 三个百
 三个盖
-三个県	sj[ae ge[rl xm[[	undefined
+三个県	san ge xian
 三个空
-三个亇	sj[ae ge[rl ge[[	undefined
+三个亇	san ge ge
 三个竹
-三个罒	sj[ae ge[rl mu[[	undefined
-三个羗	sj[ae ge[rl ql[[	undefined
+三个罒	san ge mu
+三个羗	san ge qiang
 三个老
 三个月
 三个至
-三个興	sj[ae ge[rl xk[xb	undefined
+三个興	san ge xing
 三个足
-三个㖖	sj[ae ge[rl np[[	undefined
-三个門	sj[ae ge[rl mf[dv	undefined
+三个㖖	san ge nie
+三个門	san ge men
 三个面
-三个頁	sj[ae ge[rl ye[ar	undefined
-三个鳥	sj[ae ge[rl nn[wd	undefined
+三个頁	san ge ye
+三个鳥	san ge niao
 三个男
 三个立
 三个九
 三个也
 三个加
-三个動	sj[ae ge[rl ds[el	undefined
+三个動	san ge dong
 三个千
 三个方
 三个朔
 三个玉
 三个申
-三个𡿨	sj[ae ge[rl qr[[	undefined
+三个𡿨	san ge quan
 三个去
 三个弓
-三个䖝	sj[ae ge[rl is[[	undefined
-三个丿	sj[ae ge[rl pp[[	undefined
+三个䖝	san ge chong
+三个丿	san ge pie
 三个户
 三个瓜
 三个鸟
 三个米
 # 四叠字
-四个乂	si[ke ge[rl yi[pn	undefined
+四个乂	si ge yi
 四个人
-四个厶	si[ke ge[rl si[[	undefined
-四个厶	si[ke ge[rl mz[[	undefined
+四个厶	si ge si
+四个厶	si ge mou
 四个又
 四个匕
 四个工
 四个口
 四个天
 四个小
-四个屮	si[ke ge[rl ie[[	undefined
-四个屮	si[ke ge[rl cc[[	undefined
+四个屮	si ge che
+四个屮	si ge cao
 四个火
 四个牛
-四个魚	si[ke ge[rl yu[da	undefined
+四个魚	si ge yu
 四个月
 四个日
 四个林
@@ -587,19 +587,18 @@ sort: by_weight
 四个困
 四个竹
 四个老
-四个朿	si[ke ge[rl ci[[	undefined
+四个朿	si ge ci
 四个先
 四个金
 四个泉
 四个言
-四个門	si[ke ge[rl mf[dv	undefined
+四个門	si ge men
 四个果
 四个春
-四个車	si[ke ge[rl ie[al	undefined
-四个風	si[ke ge[rl fg[jx	undefined
+四个車	si ge che
+四个風	si ge feng
 四个雷
-四个雲	si[ke ge[rl yy[es	undefined
-四个興	si[ke ge[rl xk[xb	undefined
-四个龍	si[ke ge[rl ls[ud	undefined
+四个雲	si ge yun
+四个興	si ge xing
+四个龍	si ge long
 四个土
-

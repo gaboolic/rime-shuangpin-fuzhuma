@@ -6,7 +6,7 @@
 name: flypy_flypy
 version: "2020.02.08"
 sort: by_weight
-use_preset_vocabulary: false
+use_preset_vocabulary: true
 ...
 
 〇	lk[vv
