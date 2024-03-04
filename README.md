@@ -1,7 +1,15 @@
 # rime-config
 
-自用rime/trime配置文件
+自用rime配置文件，词库使用最强简体词库——[雾凇拼音](https://github.com/iDvel/rime-ice)
 
+配置文件参考[小鹤双拼+自然快手/小鹤双形辅助码](https://github.com/functoreality/rime-flypy-zrmfast)
+
+[魔改自然碼 Rime 方案 (自然碼雙拼+輔助碼+外語混輸+簡繁方案+emoji)](https://github.com/ksqsf/rime-moran)
+
+输入效果
+
+![demo1](readmeimg/qimhzly.png)
+![alt text](readmeimg/bujian.png)
 并击双拼方案：
 
 自然码：double_pinyin_zrm.schema.yaml

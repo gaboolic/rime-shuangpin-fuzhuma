@@ -2,13 +2,13 @@
 # encoding: utf-8
 
 schema:
-  schema_id: flypy_zrmfast
-  name: 小鹤快手 # 鹤拼快形 
+  schema_id: flypy_flypy
+  name: 小鹤双拼+鹤形辅助
   version: "0.1"
   author:
     - Functoreality
   description: |
-    小鹤双拼，自然快手辅助码
+    小鹤双拼+辅助码
   dependencies:
     - luna_pinyin
     - chaizi

@@ -1,4 +1,4 @@
 patch:
   schema_list:
+    - schema: flypy_flypy # 小鹤
     - schema: luna_pinyin_simp # 朙月拼音
-    - schema: flypy_zrmfast # 小鹤
