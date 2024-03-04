@@ -76,7 +76,7 @@ engine:
 # 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」
 long_word_filter:
   count: 2
-  idx: 4
+  idx: 1
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba[
