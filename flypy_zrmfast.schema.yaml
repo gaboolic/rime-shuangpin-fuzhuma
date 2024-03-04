@@ -66,8 +66,17 @@ engine:
     - lua_translator@func_translator
     - table_translator@easy_en_simp ## 添加注释后：停用单词输入
   filters:
-    - simplifier
+    - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
+    - simplifier@emoji                              # Emoji
+    - simplifier@traditionalize                     # 简繁切换
     - uniquifier
+
+# Lua 配置：长词优先
+# 提升 count 个词语，插入到第 idx 个位置。
+# 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」
+long_word_filter:
+  count: 2
+  idx: 4
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba[
