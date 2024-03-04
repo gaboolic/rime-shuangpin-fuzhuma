@@ -75,12 +75,17 @@ chord_composer:
 我只是在正常双拼基础上，加了左右手映射。映射规则基本上就是镜像一下再加个字母，例如yuio镜像到左手分别是trew加上a，p是q加上f
 
 配置文件路径：
+
 windows %APPDATA%\Rime
-mac ~/Library/Rime（MacOS)
+
+mac ~/Library/Rime
+
 linux ~/.local/share/fcitx5/rime
+
 android <https://github.com/fcitx5-android/fcitx5-android> /Android/adata/org.fcitx.fcitx5.android/files/data/rime
 
 参考：
+
 雾凇词库 <https://github.com/iDvel/rime-ice>
 
 小鹤双拼+辅助码 <https://gitee.com/functoreality/rime-flypy-zrmfast>
