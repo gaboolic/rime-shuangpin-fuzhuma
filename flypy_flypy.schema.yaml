@@ -113,7 +113,7 @@ speller:
     # - xform/^([^\[]*)in$/$1B/
     # - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
 
-    - derive/^(..).+$/$1/
+    - derive/^(..)[[].+$/$1/
     - derive/^(..[[].).+$/$1/
     # - derive/^([jqxy])u/$1v/
     - derive/[[]// ## 取消注释后：直接引导辅助码
@@ -132,6 +132,7 @@ speller:
 
 translator:
   dictionary: flypy_flypy.extended
+  enable_completion: false
   spelling_hints: 2
   comment_format:
     - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分

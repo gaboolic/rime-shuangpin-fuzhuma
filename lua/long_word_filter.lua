@@ -29,14 +29,14 @@ function M.func(input)
             i = i + 1
             yield(cand)
         -- 长词直接 yield，其余的放到 l 里
-        elseif leng <= firstWordLength or cand.text:find("[%a%d]") then
+        elseif leng <= firstWordLength or cand.text:find("[%a%d]") or firstWordLength > 1 then
             table.insert(l, cand)
         else
             yield(cand)
             done = done + 1
         end
         -- 找齐了或者 l 太大了，就不找了，一般前 50 个就够了
-        if done == M.count or #l > 50 then
+        if done == M.count or #l > 20 then
             break
         end
     end
