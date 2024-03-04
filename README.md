@@ -6,10 +6,16 @@
 
 [魔改自然碼 Rime 方案 (自然碼雙拼+輔助碼+外語混輸+簡繁方案+emoji)](https://github.com/ksqsf/rime-moran)
 
+主要配置文件：
+
+flypy_flypy.schema.yaml # 小鹤
+zrm_zrm.schema.yaml # 自然码
+
 输入效果
 
 ![demo1](readmeimg/qimhzly.png)
 ![alt text](readmeimg/bujian.png)
+
 并击双拼方案：
 
 自然码：double_pinyin_zrm.schema.yaml
