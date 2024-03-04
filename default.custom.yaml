@@ -1,4 +1,5 @@
 patch:
   schema_list:
     - schema: flypy_flypy # 小鹤
+    - schema: zrm_zrm # 自然码
     - schema: luna_pinyin_simp # 朙月拼音
