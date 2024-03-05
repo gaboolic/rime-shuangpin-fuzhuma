@@ -1,5 +1,6 @@
 # Project exclude paths
 /venv/
+/cn_dicts_dazhu/
 .idea
 .idea/*
 .DS_Store

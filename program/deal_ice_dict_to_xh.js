@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // dict文件的路径
-const dictFilePath = path.join(__dirname, '../flypy_flypy.dict.yaml');
+const dictFilePath = path.join(__dirname, '../flypydz.yaml');
 
 // 同步读取YAML文件
 const dictFileContent = fs.readFileSync(dictFilePath, 'utf8');
@@ -12,6 +12,7 @@ const dictFileContent = fs.readFileSync(dictFilePath, 'utf8');
 // 按行分割文本数据
 const dictLines = dictFileContent.split('\n');
 
+repeat_count = 0
 // 解析每一行数据
 const dictData = {};
 dictLines.forEach((line) => {
@@ -20,15 +21,25 @@ dictLines.forEach((line) => {
         const [character, encoding] = line.split('\t');
         if (encoding.indexOf("'") == -1) {
             var encoding_pre = encoding.substring(0, 2);
-            var encoding_post = encoding.substring(3);
-            dictData[character] = encoding_post;
+            var encoding_post = encoding.substring(2);
+            if (dictData[character] == null) {
+                dictData[character] = encoding_post;
+            }
+            // else {
+            //     if (dictData[character + encoding_pre] != encoding_post) {
+            //         dictData[character + encoding_pre] = dictData[character + encoding_pre] + encoding_post;
+            //         console.log("重复 " + character + encoding)
+            //         repeat_count++
+            //     }
+            // }
         }
     }
 });
 
+console.log(repeat_count)
 // 获取每个字的编码
 // console.log('编码:', dictData);
-console.log("孙 " + dictData['孙'])
+console.log("巴 " + dictData['巴'])
 
 // 需要修改的YAML文件的路径
 const yamlFilePath = path.join(__dirname, '../cn_dicts/tencent.dict.yaml');

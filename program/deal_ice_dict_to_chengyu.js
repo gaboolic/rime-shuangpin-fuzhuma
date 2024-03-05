@@ -21,7 +21,7 @@ dictLines.forEach((line) => {
         if (encoding.indexOf("'") == -1) {
             var encoding_pre = encoding.substring(0, 2);
             var encoding_post = encoding.substring(3);
-            dictData[character] = encoding_post;
+            dictData[encoding_pre] = encoding_pre;
         }
     }
 });
@@ -34,7 +34,7 @@ console.log("孙 " + dictData['孙'])
 const yamlFilePath = path.join(__dirname, '../cn_dicts/base.dict.yaml');
 
 // 需要修改的YAML文件的路径
-const writeFilePath = path.join(__dirname, '../cn_dicts_xh/chengyu.dict.yaml');
+const writeFilePath = path.join(__dirname, '../cn_dicts_xh/chengyu3.dict.yaml');
 
 // 同步读取YAML文件
 const yamlFileContent = fs.readFileSync(yamlFilePath, 'utf8');
@@ -75,7 +75,7 @@ function updateMissingEncodings(filePath, writeFilePath) {
         const [character, encoding, frequency] = line.split('\t');
 
 
-        if (character.length != 4) {
+        if (character.length != 3) {
             return
         }
         // console.log(character)
@@ -176,6 +176,10 @@ function updateMissingEncodings(filePath, writeFilePath) {
             double_list += double_shengmu
 
             pinyin_index++
+        }
+        var pinyin_pre2 = double_list.substring(0, 2)
+        if (dictData[pinyin_pre2] != null) {
+            return
         }
         // Update the line with the missing encoding
         var updatedLine = `${character}\t${double_list}`;

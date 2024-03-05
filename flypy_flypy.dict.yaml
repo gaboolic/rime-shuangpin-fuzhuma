@@ -2,6 +2,8 @@
 # encoding: utf-8
 # 小鹤双拼加辅助码
 # 繁体字码表
+卫	wwva
+蒙	mgcu
 ---
 name: flypy_flypy
 version: "2020.02.08"
