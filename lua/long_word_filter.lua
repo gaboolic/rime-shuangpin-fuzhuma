@@ -11,9 +11,12 @@ function M.init(env)
     env.name_space = env.name_space:gsub("^*", "")
     M.count = config:get_int(env.name_space .. "/count") or 2
     M.idx = config:get_int(env.name_space .. "/idx") or 4
+    M.input_str = env.engine.context.input
 end
 
 function M.func(input)
+    local input_str_len = utf8.len(M.input_str)
+    print(input_str_len)
     local l = {}
     local firstWordLength = 0 -- 记录第一个候选词的长度，提前的候选词至少要比第一个候选词长
     local done = 0         -- 记录筛选了多少个词条(只提升 count 个词的权重)

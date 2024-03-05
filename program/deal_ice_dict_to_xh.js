@@ -36,7 +36,8 @@ dictLines.forEach((line) => {
     }
 });
 
-console.log(repeat_count)
+console.log(Object.keys(dictData).length);
+
 // 获取每个字的编码
 // console.log('编码:', dictData);
 console.log("巴 " + dictData['巴'])

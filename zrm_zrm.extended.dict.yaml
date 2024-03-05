@@ -44,6 +44,7 @@ use_preset_vocabulary: false
 import_tables:
   ## 雾凇拼音 https://github.com/iDvel/rime-ice
   - cn_dicts_zrm/8105     # 字表
+  - cn_dicts_zrm/41448     # 字表
   - cn_dicts_zrm/base     # 基础词库
   - cn_dicts_zrm/ext      # 扩展词库
   - cn_dicts_zrm/tencent  # 腾讯词向量（大词库，部署时间较长）
