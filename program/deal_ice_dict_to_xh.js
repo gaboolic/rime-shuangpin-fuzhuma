@@ -43,10 +43,10 @@ console.log(Object.keys(dictData).length);
 console.log("巴 " + dictData['巴'])
 
 // 需要修改的YAML文件的路径
-const yamlFilePath = path.join(__dirname, '../cn_dicts/tencent.dict.yaml');
+const yamlFilePath = path.join(__dirname, '../cn_dicts/41448.dict.yaml');
 
 // 需要修改的YAML文件的路径
-const writeFilePath = path.join(__dirname, '../cn_dicts_xh/tencent.dict.yaml');
+const writeFilePath = path.join(__dirname, '../cn_dicts_xh/extchars.dict.yaml');
 
 // 同步读取YAML文件
 const yamlFileContent = fs.readFileSync(yamlFilePath, 'utf8');
@@ -190,6 +190,13 @@ function updateMissingEncodings(filePath, writeFilePath) {
             pinyin_index++
         }
         double_list = double_list.substring(0, double_list.length - 1)
+
+        if (double_list.indexOf("[[") != -1) {
+            // Append non-matching lines to the updated content
+            //updatedContent += line + '\n';
+            return
+        }
+
         // Update the line with the missing encoding
         var updatedLine = `${character}\t${double_list}\t${frequency}`;
         if (frequency == null) {
