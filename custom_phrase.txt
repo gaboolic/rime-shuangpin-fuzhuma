@@ -357,7 +357,8 @@
 况	kl	2
 再	zd	2
 而	er	2
-以	yi	2
+以	yi	3
+已	yi	2
 测	ce	2
 滚	gy	2
 剖	pz	2
