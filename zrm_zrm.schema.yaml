@@ -62,6 +62,7 @@ engine:
     - table_translator@soft_capslock
     - lua_translator@tex_translator
     - lua_translator@func_translator
+    - lua_translator@date_translator    # 时间、日期、星期
     - table_translator@easy_en_simp ## 添加注释后：停用单词输入
   filters:
     - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
@@ -69,6 +70,14 @@ engine:
     - simplifier@traditionalize                     # 简繁切换
     - uniquifier
 
+# Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
+date_translator:
+  date: date            # 日期： 2022-11-29
+  time: time            # 时间： 18:13
+  week: week            # 星期： 星期二
+  datetime: datetime    # ISO 8601： 2022-11-29T18:13:11+08:00
+  timestamp: timestamp  # 时间戳： 1669716794
+  
 # Lua 配置：长词优先
 # 提升 count 个词语，插入到第 idx 个位置。
 # 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」

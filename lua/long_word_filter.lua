@@ -15,8 +15,7 @@ function M.init(env)
 end
 
 function M.func(input)
-    local input_str_len = utf8.len(M.input_str)
-    print(input_str_len)
+    local preedit_len = 0
     local l = {}
     local firstWordLength = 0 -- 记录第一个候选词的长度，提前的候选词至少要比第一个候选词长
     local done = 0         -- 记录筛选了多少个词条(只提升 count 个词的权重)
@@ -27,12 +26,16 @@ function M.func(input)
         if firstWordLength < 1 then
             firstWordLength = leng
         end
+        if preedit_len < 1 then
+            preedit_len = utf8.len(cand.preedit)
+        end
+        
         -- 不处理 M.idx 之前的候选项
         if i < M.idx then
             i = i + 1
             yield(cand)
         -- 长词直接 yield，其余的放到 l 里
-        elseif leng <= firstWordLength or cand.text:find("[%a%d]") or firstWordLength > 1 then
+        elseif leng <= firstWordLength or cand.text:find("[%a%d]") or firstWordLength > 1 or preedit_len < 4 then
             table.insert(l, cand)
         else
             yield(cand)
