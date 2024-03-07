@@ -49,7 +49,15 @@ function updateMissingEncodings(filePath, writeFilePath) {
         if (encoding == "100") {
             return
         }
-        encoding = encoding.replace(/\[/g, "");
+
+        pinyin_list = encoding.split(" ")
+        new_encoding = ""
+        for (pinyin of pinyin_list) {
+            pinyin = pinyin.substring(0, 2)
+            new_encoding += pinyin
+        }
+        encoding = new_encoding
+        // encoding = encoding.replace(/\[/g, "");
 
         // Update the line with the missing encoding
         var updatedLine = `${encoding}\t${character}\t`;

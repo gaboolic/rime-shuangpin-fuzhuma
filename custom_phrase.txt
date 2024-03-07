@@ -86,7 +86,7 @@
 能	ng	2
 弄	ns	2
 风	fg	2
-月	yt	2
+越	yt	2
 水	uv	2
 里	li	2
 咋	za	2
