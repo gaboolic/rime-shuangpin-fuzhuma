@@ -375,7 +375,7 @@
 选	xr	2
 横	hg	2
 滨	bb	2
-区	qu	2
+#区	qu	2
 藏	ch	2
 着	ve	2
 换	hr	2
