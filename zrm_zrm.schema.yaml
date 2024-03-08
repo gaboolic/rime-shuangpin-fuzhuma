@@ -178,7 +178,7 @@ translator:
 
 custom_phrase:
   dictionary: ""
-  user_dict: custom_phrase
+  user_dict: custom_phrase_zrm
   db_class: stabledb
   enable_completion: false
   enable_sentence: false
