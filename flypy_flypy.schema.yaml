@@ -147,7 +147,8 @@ translator:
   spelling_hints: 2
   comment_format:
     - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
-  # enable_user_dict: true
+
+  enable_user_dict: false # 是否开启自动调频 
   # preedit_format:
     # - "xform/((^|[ '])[bpmfdtnljqx])n/$1iao/"
     # - "xform/((^|[ '])\\w)g/$1eng/"
