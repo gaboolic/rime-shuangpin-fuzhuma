@@ -61,395 +61,395 @@
 能不能	n	2
 麻烦	m	2
 
-没	mw	3
-使	ui	3
-大	da	1
+# 没	mw	3
+# 使	ui	3
+# 大	da	1
 
-才	cd	2
-少	uc	2
-僧	sg	2
-多	do	2
-佛	fo	2
-无	wu	2
-肉	rz	2
-车	ie	2
-新	xb	2
-帅	uk	2
-老	lc	2
-将	jl	2
-有	yz	2
-云	yy	2
-深	uf	2
-删	uj	2
-谁	uw	2
-能	ng	2
-弄	ns	2
-风	fg	2
-越	yt	2
-水	uv	2
-里	li	2
-咋	za	2
-让	rh	2
-虐	nt	2
-毛	mc	2
-熊	xs	2
-黑	hw	2
-龙	ls	2
-森	sf	2
-林	lb	2
-闹	nc	2
-天	tm	2
-地	di	2
-黄	hl	2
-牛	nq	2
-大	da	2
-户	hu	2
-拨	bo	2
-床	il	2
-泥	ni	2
-阿	aa	2
-翁	wg	2
-恰	qx	2
-好	hc	2
-说	uo	2
-空	ks	2
-话	hx	2
-爱	ai	2
-女	nv	2
-当	dh	2
-面	mm	2
-色	se	2
-从	cs	2
-容	rs	2
-怒	nu	2
-撒	sa	2
-红	hs	2
-米	mi	2
+# 才	cd	2
+# 少	uc	2
+# 僧	sg	2
+# 多	do	2
+# 佛	fo	2
+# 无	wu	2
+# 肉	rz	2
+# 车	ie	2
+# 新	xb	2
+# 帅	uk	2
+# 老	lc	2
+# 将	jl	2
+# 有	yz	2
+# 云	yy	2
+# 深	uf	2
+# 删	uj	2
+# 谁	uw	2
+# 能	ng	2
+# 弄	ns	2
+# 风	fg	2
+# 越	yt	2
+# 水	uv	2
+# 里	li	2
+# 咋	za	2
+# 让	rh	2
+# 虐	nt	2
+# 毛	mc	2
+# 熊	xs	2
+# 黑	hw	2
+# 龙	ls	2
+# 森	sf	2
+# 林	lb	2
+# 闹	nc	2
+# 天	tm	2
+# 地	di	2
+# 黄	hl	2
+# 牛	nq	2
+# 大	da	2
+# 户	hu	2
+# 拨	bo	2
+# 床	il	2
+# 泥	ni	2
+# 阿	aa	2
+# 翁	wg	2
+# 恰	qx	2
+# 好	hc	2
+# 说	uo	2
+# 空	ks	2
+# 话	hx	2
+# 爱	ai	2
+# 女	nv	2
+# 当	dh	2
+# 面	mm	2
+# 色	se	2
+# 从	cs	2
+# 容	rs	2
+# 怒	nu	2
+# 撒	sa	2
+# 红	hs	2
+# 米	mi	2
 它	ta	2
-先	xm	2
-笑	xn	2
-穷	qs	2
-困	ky	2
-绿	lv	2
-囊	nh	2
-贼	zw	2
-也	ye	2
-万	wj	2
-为	ww	2
-和	he	3
-何	he	2
-楼	lz	2
-高	gc	2
-汤	th	2
-更	gg	2
-暖	nr	2
-凭	pk	2
-啥	ua	2
-敲	qn	2
-坏	hk	2
-应	yk	2
-对	dv	2
-难	nj	2
-目	mu	2
-光	gl	2
-绕	rc	2
-得	de	2
-亲	qb	2
-提	ti	2
-软	rr	2
-装	vl	2
-问	wf	2
-跑	pc	2
-来	ld	2
-您	nb	2
-眼	yj	2
-前	qm	2
-两	ll	2
-间	jm	2
-长	vh	2
-草	cc	2
-各	ge	2
-内	nw	2
-外	wd	2
-几	ji	2
-行	hh	2
-热	re	2
-搜	sz	2
-求	qq	2
-安	an	2
-全	qr	2
-藏	ch	2
-传	ir	2
-真	vf	2
-如	ru	2
-修	xq	2
-本	bf	2
-主	vu	2
-上	uh	2
-元	yr	2
-太	td	2
-岁	sv	2
-共	gs	2
-双	ul	2
-恩	en	2
-桌	vo	2
-边	bm	2
-混	hy	2
-吃	ii	2
-仍	rg	2
-需	xu	2
-了	le	3
-乐	le	2
-村	cy	2
-中	vs	2
-走	zz	2
-动	ds	2
-且	qp	2
-请	qk	2
-跟	gf	2
-长	ih	2
-路	lu	2
-正	vg	2
-顺	uy	2
-或	ho	2
-行	xk	2
-久	jq	2
-报	bc	2
-表	bn	2
-群	qy	2
-读	du	2
-谈	tj	2
-分	ff	2
-成	ig	2
-样	yh	2
-图	tu	2
-古	gu	2
-怪	gk	2
-撇	pp	2
-粗	cu	2
-乱	lr	2
-陈	if	2
-某	mz	2
-特	te	2
-强	ql	2
-蹦	bg	2
-窜	cr	2
-戳	io	2
-配	pw	2
-料	ln	2
-过	go	2
-关	gr	2
-调	dn	2
-算	sr	2
-发	fa	2
-嫩	nf	2
-排	pd	2
-开	kd	2
-口	kz	2
-要	yc	2
-生	ug	2
-抽	iz	2
-昂	ah	2
-头	tz	2
-每	mw	2
-次	ci	2
-旁	ph	2
-若	ro	2
-定	dk	2
-顿	dy	2
-额	ee	2
-经	jk	2
-年	nm	2
-只	vi	2
-等	dg	2
-盘	pj	2
-曾	cg	2
-早	zc	2
-数	uu	2
-日	ri	2
-听	tk	2
-鸟	nn	2
-梦	mg	2
-但	dj	2
-因	yb	2
-差	ia	2
-点	dm	2
-总	zs	2
-卷	jr	2
-然	rj	2
-四	si	2
-下	xx	2
-帮	bh	2
-凑	cz	2
-含	hj	2
-宁	nk	2
-散	sj	2
-最	zv	2
-后	hz	2
-推	tv	2
-却	qt	2
-跌	dp	2
-碰	pg	2
-贴	tp	2
-超	ic	2
-贵	gv	2
-追	vv	2
-买	md	2
-怕	pa	2
-卡	ka	2
-疼	tg	2
-放	fh	2
-浪	lh	2
-还	hd	2
-看	kj	2
-该	gd	2
-干	gj	2
-吗	ma	2
-亚	ya	2
-奥	ao	2
-比	bi	2
-赛	sd	2
-忙	mh	2
-参	cj	2
-与	yu	2
-想	xl	2
-哭	ku	2
-接	jp	2
-连	lm	2
-被	bw	2
-灭	mp	2
-团	tr	2
-费	fw	2
-用	ys	2
-加	jx	2
-增	zg	2
-够	gz	2
-快	kk	2
-否	fz	2
-普	pu	2
-系	xi	2
-吹	iv	2
-落	lo	2
-很	hf	2
-亏	kv	2
-么	me	2
-占	vj	2
-据	ju	2
-民	mb	2
-调	dn	2
-都	dz	2
-进	jb	2
-组	zu	2
-受	uz	2
-到	dc	2
-肯	kf	2
-夸	kx	2
-找	vc	2
-靠	kc	2
-所	so	2
-并	bk	2
-列	lp	2
-均	jy	2
-宽	kr	2
-纯	iy	2
-末	mo	2
-况	kl	2
-再	zd	2
-而	er	2
-以	yi	3
-已	yi	2
-测	ce	2
-滚	gy	2
-剖	pz	2
-剋	kw	2
-破	po	2
-产	ij	2
-另	lk	2
-设	ue	2
-做	zo	2
-事	ui	2
-处	iu	2
-挖	wa	2
-坑	kg	2
-则	ze	2
-选	xr	2
-横	hg	2
-滨	bb	2
-#区	qu	2
-藏	ch	2
-着	ve	2
-换	hr	2
-代	dd	2
-别	bp	2
-叫	jn	2
-慢	mj	2
-错	co	2
-论	ly	2
-白	bd	2
-给	gw	2
-任	rf	2
-其	qi	2
-催	cv	2
-刚	gh	2
-送	ss	2
-那	na	2
-些	xp	2
-同	ts	2
-学	xt	2
-们	mf	2
-冲	is	2
-丢	dq	2
-怎	zf	2
-办	bj	2
-转	vr	2
-冷	lg	2
-啦	la	2
-品	pb	2
-类	lw	2
-套	tc	2
-票	pn	2
-盆	pf	2
-克	ke	2
-秒	mn	2
-名	mk	2
-片	pm	2
-副	fu	2
-部	bu	2
-段	dr	2
-批	pi	2
-扎	va	2
-挂	gx	2
-拽	vk	2
-抗	kh	2
-拴	ur	2
-拖	to	2
-揣	ik	2
-握	wo	2
-抓	vx	2
-捏	np	2
-挪	no	2
-扫	sc	2
-把	ba	2
-扩	ko	2
-擦	ca	2
-刘	lq	2
-苏	su	2
-岑	cf	2
-欧	ou	2
-周	vz	2
-王	wh	2
-反	fj	2
-嗯	en	2
-欸	ei	2
-喔	oo	2
-哟	yo	2
-嘎	ga	2
-哈	ha	2
-呢	ne	2
-得	dw	2
-会	hv	2
-拆	id	2
-字	zi	2
+# 先	xm	2
+# 笑	xn	2
+# 穷	qs	2
+# 困	ky	2
+# 绿	lv	2
+# 囊	nh	2
+# 贼	zw	2
+# 也	ye	2
+# 万	wj	2
+# 为	ww	2
+# 和	he	3
+# 何	he	2
+# 楼	lz	2
+# 高	gc	2
+# 汤	th	2
+# 更	gg	2
+# 暖	nr	2
+# 凭	pk	2
+# 啥	ua	2
+# 敲	qn	2
+# 坏	hk	2
+# 应	yk	2
+# 对	dv	2
+# 难	nj	2
+# 目	mu	2
+# 光	gl	2
+# 绕	rc	2
+# 得	de	2
+# 亲	qb	2
+# 提	ti	2
+# 软	rr	2
+# 装	vl	2
+# 问	wf	2
+# 跑	pc	2
+# 来	ld	2
+# 您	nb	2
+# 眼	yj	2
+# 前	qm	2
+# 两	ll	2
+# 间	jm	2
+# 长	vh	2
+# 草	cc	2
+# 各	ge	2
+# 内	nw	2
+# 外	wd	2
+# 几	ji	2
+# 行	hh	2
+# 热	re	2
+# 搜	sz	2
+# 求	qq	2
+# 安	an	2
+# 全	qr	2
+# 藏	ch	2
+# 传	ir	2
+# 真	vf	2
+# 如	ru	2
+# 修	xq	2
+# 本	bf	2
+# 主	vu	2
+# 上	uh	2
+# 元	yr	2
+# 太	td	2
+# 岁	sv	2
+# 共	gs	2
+# 双	ul	2
+# 恩	en	2
+# 桌	vo	2
+# 边	bm	2
+# 混	hy	2
+# 吃	ii	2
+# 仍	rg	2
+# 需	xu	2
+# 了	le	3
+# 乐	le	2
+# 村	cy	2
+# 中	vs	2
+# 走	zz	2
+# 动	ds	2
+# 且	qp	2
+# 请	qk	2
+# 跟	gf	2
+# 长	ih	2
+# 路	lu	2
+# 正	vg	2
+# 顺	uy	2
+# 或	ho	2
+# 行	xk	2
+# 久	jq	2
+# 报	bc	2
+# 表	bn	2
+# 群	qy	2
+# 读	du	2
+# 谈	tj	2
+# 分	ff	2
+# 成	ig	2
+# 样	yh	2
+# 图	tu	2
+# 古	gu	2
+# 怪	gk	2
+# 撇	pp	2
+# 粗	cu	2
+# 乱	lr	2
+# 陈	if	2
+# 某	mz	2
+# 特	te	2
+# 强	ql	2
+# 蹦	bg	2
+# 窜	cr	2
+# 戳	io	2
+# 配	pw	2
+# 料	ln	2
+# 过	go	2
+# 关	gr	2
+# 调	dn	2
+# 算	sr	2
+# 发	fa	2
+# 嫩	nf	2
+# 排	pd	2
+# 开	kd	2
+# 口	kz	2
+# 要	yc	2
+# 生	ug	2
+# 抽	iz	2
+# 昂	ah	2
+# 头	tz	2
+# 每	mw	2
+# 次	ci	2
+# 旁	ph	2
+# 若	ro	2
+# 定	dk	2
+# 顿	dy	2
+# 额	ee	2
+# 经	jk	2
+# 年	nm	2
+# 只	vi	2
+# 等	dg	2
+# 盘	pj	2
+# 曾	cg	2
+# 早	zc	2
+# 数	uu	2
+# 日	ri	2
+# 听	tk	2
+# 鸟	nn	2
+# 梦	mg	2
+# 但	dj	2
+# 因	yb	2
+# 差	ia	2
+# 点	dm	2
+# 总	zs	2
+# 卷	jr	2
+# 然	rj	2
+# 四	si	2
+# 下	xx	2
+# 帮	bh	2
+# 凑	cz	2
+# 含	hj	2
+# 宁	nk	2
+# 散	sj	2
+# 最	zv	2
+# 后	hz	2
+# 推	tv	2
+# 却	qt	2
+# 跌	dp	2
+# 碰	pg	2
+# 贴	tp	2
+# 超	ic	2
+# 贵	gv	2
+# 追	vv	2
+# 买	md	2
+# 怕	pa	2
+# 卡	ka	2
+# 疼	tg	2
+# 放	fh	2
+# 浪	lh	2
+# 还	hd	2
+# 看	kj	2
+# 该	gd	2
+# 干	gj	2
+# 吗	ma	2
+# 亚	ya	2
+# 奥	ao	2
+# 比	bi	2
+# 赛	sd	2
+# 忙	mh	2
+# 参	cj	2
+# 与	yu	2
+# 想	xl	2
+# 哭	ku	2
+# 接	jp	2
+# 连	lm	2
+# 被	bw	2
+# 灭	mp	2
+# 团	tr	2
+# 费	fw	2
+# 用	ys	2
+# 加	jx	2
+# 增	zg	2
+# 够	gz	2
+# 快	kk	2
+# 否	fz	2
+# 普	pu	2
+# 系	xi	2
+# 吹	iv	2
+# 落	lo	2
+# 很	hf	2
+# 亏	kv	2
+# 么	me	2
+# 占	vj	2
+# 据	ju	2
+# 民	mb	2
+# 调	dn	2
+# 都	dz	2
+# 进	jb	2
+# 组	zu	2
+# 受	uz	2
+# 到	dc	2
+# 肯	kf	2
+# 夸	kx	2
+# 找	vc	2
+# 靠	kc	2
+# 所	so	2
+# 并	bk	2
+# 列	lp	2
+# 均	jy	2
+# 宽	kr	2
+# 纯	iy	2
+# 末	mo	2
+# 况	kl	2
+# 再	zd	2
+# 而	er	2
+# 以	yi	3
+# 已	yi	2
+# 测	ce	2
+# 滚	gy	2
+# 剖	pz	2
+# 剋	kw	2
+# 破	po	2
+# 产	ij	2
+# 另	lk	2
+# 设	ue	2
+# 做	zo	2
+# 事	ui	2
+# 处	iu	2
+# 挖	wa	2
+# 坑	kg	2
+# 则	ze	2
+# 选	xr	2
+# 横	hg	2
+# 滨	bb	2
+# #区	qu	2
+# 藏	ch	2
+# 着	ve	2
+# 换	hr	2
+# 代	dd	2
+# 别	bp	2
+# 叫	jn	2
+# 慢	mj	2
+# 错	co	2
+# 论	ly	2
+# 白	bd	2
+# 给	gw	2
+# 任	rf	2
+# 其	qi	2
+# 催	cv	2
+# 刚	gh	2
+# 送	ss	2
+# 那	na	2
+# 些	xp	2
+# 同	ts	2
+# 学	xt	2
+# 们	mf	2
+# 冲	is	2
+# 丢	dq	2
+# 怎	zf	2
+# 办	bj	2
+# 转	vr	2
+# 冷	lg	2
+# 啦	la	2
+# 品	pb	2
+# 类	lw	2
+# 套	tc	2
+# 票	pn	2
+# 盆	pf	2
+# 克	ke	2
+# 秒	mn	2
+# 名	mk	2
+# 片	pm	2
+# 副	fu	2
+# 部	bu	2
+# 段	dr	2
+# 批	pi	2
+# 扎	va	2
+# 挂	gx	2
+# 拽	vk	2
+# 抗	kh	2
+# 拴	ur	2
+# 拖	to	2
+# 揣	ik	2
+# 握	wo	2
+# 抓	vx	2
+# 捏	np	2
+# 挪	no	2
+# 扫	sc	2
+# 把	ba	2
+# 扩	ko	2
+# 擦	ca	2
+# 刘	lq	2
+# 苏	su	2
+# 岑	cf	2
+# 欧	ou	2
+# 周	vz	2
+# 王	wh	2
+# 反	fj	2
+# 嗯	en	2
+# 欸	ei	2
+# 喔	oo	2
+# 哟	yo	2
+# 嘎	ga	2
+# 哈	ha	2
+# 呢	ne	2
+# 得	dw	2
+# 会	hv	2
+# 拆	id	2
+# 字	zi	2
 
 ## 难道	
 一定	yd
