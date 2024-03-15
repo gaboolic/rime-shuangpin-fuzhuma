@@ -26,21 +26,7 @@ dictLines.forEach((line) => {
     }
 });
 
-// 获取每个字的编码
-// console.log('编码:', dictData);
-console.log("孙 " + dictData['孙'])
 
-// 需要修改的YAML文件的路径
-const yamlFilePath = path.join(__dirname, '../cn_dicts/others.dict.yaml');
-
-// 需要修改的YAML文件的路径
-const writeFilePath = path.join(__dirname, '../cn_dicts_zrm/others.dict.yaml');
-
-// 同步读取YAML文件
-const yamlFileContent = fs.readFileSync(yamlFilePath, 'utf8');
-
-// 按行分割文本数据
-const yamlLines = yamlFileContent.split('\n');
 
 
 // Function to read a file
@@ -195,5 +181,27 @@ function updateMissingEncodings(filePath, writeFilePath) {
 }
 
 
-// Call the function to update missing encodings in the file
-updateMissingEncodings(yamlFilePath, writeFilePath);
+// 获取每个字的编码
+// console.log('编码:', dictData);
+console.log("孙 " + dictData['孙'])
+
+const file_list = ['8105.dict.yaml', '41448.dict.yaml', 'base.dict.yaml', 'ext.dict.yaml', 'others.dict.yaml', 'tencent.dict.yaml']
+
+for (file_name of file_list) {
+    // 需要修改的YAML文件的路径
+    const yamlFilePath = path.join(__dirname, '../cn_dicts/', file_name);
+
+    // 需要修改的YAML文件的路径
+    const writeFilePath = path.join(__dirname, '../cn_dicts_zrm/', file_name);
+
+
+    // 同步读取YAML文件
+    const yamlFileContent = fs.readFileSync(yamlFilePath, 'utf8');
+
+    // 按行分割文本数据
+    const yamlLines = yamlFileContent.split('\n');
+
+    // Call the function to update missing encodings in the file
+    updateMissingEncodings(yamlFilePath, writeFilePath);
+}
+
