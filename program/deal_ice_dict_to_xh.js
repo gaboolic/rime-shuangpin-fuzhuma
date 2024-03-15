@@ -42,17 +42,7 @@ console.log(Object.keys(dictData).length);
 // console.log('编码:', dictData);
 console.log("巴 " + dictData['巴'])
 
-// 需要修改的YAML文件的路径
-const yamlFilePath = path.join(__dirname, '../cn_dicts/41448.dict.yaml');
 
-// 需要修改的YAML文件的路径
-const writeFilePath = path.join(__dirname, '../cn_dicts_xh/extchars.dict.yaml');
-
-// 同步读取YAML文件
-const yamlFileContent = fs.readFileSync(yamlFilePath, 'utf8');
-
-// 按行分割文本数据
-const yamlLines = yamlFileContent.split('\n');
 
 
 // Function to read a file
@@ -212,6 +202,19 @@ function updateMissingEncodings(filePath, writeFilePath) {
     writeFile(writeFilePath, updatedContent);
 }
 
+
+
+// 需要修改的YAML文件的路径
+const yamlFilePath = path.join(__dirname, '../cn_dicts/41448.dict.yaml');
+
+// 需要修改的YAML文件的路径
+const writeFilePath = path.join(__dirname, '../cn_dicts_xh/extchars.dict.yaml');
+
+// 同步读取YAML文件
+const yamlFileContent = fs.readFileSync(yamlFilePath, 'utf8');
+
+// 按行分割文本数据
+const yamlLines = yamlFileContent.split('\n');
 
 // Call the function to update missing encodings in the file
 updateMissingEncodings(yamlFilePath, writeFilePath);
