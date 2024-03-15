@@ -3,6 +3,7 @@ const path = require('path');
 
 // dict文件的路径
 const dictFilePath = path.join(__dirname, '../flypydz.yaml');
+//const dictFilePath = path.join(__dirname, '../flypy_flypy.dict.yaml');
 
 // 同步读取YAML文件
 const dictFileContent = fs.readFileSync(dictFilePath, 'utf8');
@@ -183,8 +184,8 @@ function updateMissingEncodings(filePath, writeFilePath) {
 
         if (double_list.indexOf("[[") != -1) {
             // Append non-matching lines to the updated content
-            //updatedContent += line + '\n';
-            return
+            // updatedContent += line + '\n';
+            // return
         }
 
         // Update the line with the missing encoding
@@ -202,19 +203,22 @@ function updateMissingEncodings(filePath, writeFilePath) {
     writeFile(writeFilePath, updatedContent);
 }
 
+const file_list = ['8105.dict.yaml', '41448.dict.yaml', 'base.dict.yaml', 'ext.dict.yaml', 'others.dict.yaml', 'tencent.dict.yaml']
 
+for (file_name of file_list) {
+    // 需要修改的YAML文件的路径
+    const yamlFilePath = path.join(__dirname, '../cn_dicts/', file_name);
 
-// 需要修改的YAML文件的路径
-const yamlFilePath = path.join(__dirname, '../cn_dicts/41448.dict.yaml');
+    // 需要修改的YAML文件的路径
+    const writeFilePath = path.join(__dirname, '../cn_dicts_xh/', file_name);
 
-// 需要修改的YAML文件的路径
-const writeFilePath = path.join(__dirname, '../cn_dicts_xh/extchars.dict.yaml');
+    // 同步读取YAML文件Ï
+    const yamlFileContent = fs.readFileSync(yamlFilePath, 'utf8');
 
-// 同步读取YAML文件
-const yamlFileContent = fs.readFileSync(yamlFilePath, 'utf8');
+    // 按行分割文本数据
+    const yamlLines = yamlFileContent.split('\n');
 
-// 按行分割文本数据
-const yamlLines = yamlFileContent.split('\n');
+    // Call the function to update missing encodings in the file
+    updateMissingEncodings(yamlFilePath, writeFilePath);
+}
 
-// Call the function to update missing encodings in the file
-updateMissingEncodings(yamlFilePath, writeFilePath);
