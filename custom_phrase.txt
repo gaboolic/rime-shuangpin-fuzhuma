@@ -405,18 +405,18 @@
 # 冷	lg	2
 # 啦	la	2
 # 品	pb	2
-# 类	lw	2
+类	lw	2
 # 套	tc	2
 # 票	pn	2
 # 盆	pf	2
 克	ke	2
 # 秒	mn	2
-# 名	mk	2
+名	mk	2
 # 片	pm	2
 # 副	fu	2
 # 部	bu	2
 # 段	dr	2
-# 批	pi	2
+批	pi	2
 # 扎	va	2
 # 挂	gx	2
 # 拽	vk	2
@@ -456,7 +456,7 @@
 因为	yw
 朋友	py
 简单	jd
-## 所以	
+所以	sy
 我们	wm
 从来	cl
 只能	vn
