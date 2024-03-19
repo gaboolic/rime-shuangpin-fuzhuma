@@ -1,0 +1,16 @@
+# Rime dictionary
+# encoding: utf-8
+#
+#
+# 错误词频修复
+#
+#
+---
+name: fix
+version: "2024-02-25"
+sort: by_weight
+...
+
+含义	hj[rk yi[dx	341400
+涵义	hj[dk yi[lx	2934
+含意	hj[rk yi[lx	1111

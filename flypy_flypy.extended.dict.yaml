@@ -43,6 +43,7 @@ use_preset_vocabulary: false
 
 import_tables:
   ## 雾凇拼音 https://github.com/iDvel/rime-ice
+  - cn_dicts_xh/fix # 错误词频修复
   - cn_dicts_xh/8105     # 字表
   - cn_dicts_xh/extchars
   
