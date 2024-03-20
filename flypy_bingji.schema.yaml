@@ -3,29 +3,31 @@
 
 schema:
   schema_id: flypy_bingji
-  name: 小鹤并击 # 鹤拼快形 
+  name: 并击 + 鹤形
   version: "0.1"
   author:
     - Functoreality
     - 双拼并击@gaboolic
   description: |
-    小鹤双拼，自然快手辅助码
+    并击双拼
   dependencies:
     - luna_pinyin
     - chaizi
     - stroke
     - zrlf
+    - emoji
     - easy_en
 
 switches:
   - name: ascii_mode
-    reset: 1
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: simplification
     reset: 1
     states: [ 漢字, 汉字 ]
+  - name: emoji
+    states: [ 💀, 😄 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -46,6 +48,7 @@ engine:
     - abc_segmentor
     - punct_segmentor
     - affix_segmentor@quanpin
+    - affix_segmentor@emojis
     - affix_segmentor@verbatim ## not as the last of this list
     - affix_segmentor@soft_capslock
     - affix_segmentor@dbpy_flypy_help
@@ -60,25 +63,57 @@ engine:
     - reverse_lookup_translator@reverse_zrlf
     - script_translator
     - script_translator@quanpin
+    - table_translator@emojis
     - table_translator@soft_capslock
     - table_translator@dbpy_flypy_help
     - lua_translator@tex_translator
     - lua_translator@func_translator
+    - lua_translator@date_translator    # 时间、日期、星期
     - table_translator@easy_en_simp ## 添加注释后：停用单词输入
   filters:
-    - simplifier
+    - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
+    - simplifier@emoji                              # Emoji
+    - simplifier@traditionalize                     # 简繁切换
     - uniquifier
 
+# Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
+date_translator:
+  date: date            # 日期： 2022-11-29
+  time: time            # 时间： 18:13
+  week: week            # 星期： 星期二
+  datetime: datetime    # ISO 8601： 2022-11-29T18:13:11+08:00
+  timestamp: timestamp  # 时间戳： 1669716794
+  
+# Lua 配置：长词优先
+# 提升 count 个词语，插入到第 idx 个位置。
+# 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」
+long_word_filter:
+  count: 2
+  idx: 1
+
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba[
+  alphabet: zyxwvutsrqponmlkjihgfedcba
   initials: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
-  ## speller 未允许 aj 表示 an
+  ## speller a引导0声母
   algebra:
-    - derive/^(..).+$/$1/
+    - derive/^ao(.*)$/AC$1/
+    - derive/^an(.*)$/AJ$1/
+    - derive/^ai(.*)$/AD$1/
+
+    - derive/^ei(.*)$/AW$1/
+    - derive/^er(.*)$/AQ$1/
+    - derive/^oo(.*)$/AO$1/
+    - derive/^ou(.*)$/AB$1/
+    - derive/^ee(.*)$/AE$1/
+    - derive/^en(.*)$/AF$1/
+
+    - xlit/QWERTYUIOPASDFGHJKLZXCVBNM/qwertyuiopasdfghjklzxcvbnm/
+
+    - derive/^(..)[[].+$/$1/
     - derive/^(..[[].).+$/$1/
-    - derive/^([jqxy])u/$1v/
-    - xform/[[]// ## 取消注释后：直接引导辅助码
+    # - derive/^([jqxy])u/$1v/
+    - derive/[[]// ## 取消注释后：直接引导辅助码
 
 chord_composer:
   # 字母表，包含用并击按键
@@ -87,35 +122,64 @@ chord_composer:
   algebra:
     # - "xform/^,$/,/"
     # - "xform/^\.$/./"
-    # 定义左手11键       
-    - xform/^at(?![左右])/y左/
-    - xform/^ar(?![左右])/u左/
-    - xform/^ae(?![左右])/i左/
-    - xform/^aw(?![左右])/o左/
-    - xform/^qf(?![左右])/p左/
-    - xform/^as(?![左右])/l左/
-    - xform/^ad(?![左右])/k左/
-    - xform/^af(?![左右])/j左/
-    - xform/^ag(?![左右])/h左/
-    - xform/^ac(?![左右])/m左/
-    - xform/^av(?![左右])/n左/
+    # 定义左手
+    - xform/^sf(?![左右])/u左/
+    - xform/^df(?![左右])/v左/
+    - xform/^se(?![左右])/l左/
+    - xform/^af(?![左右])/i左/
+    - xform/^ef(?![左右])/f左/
+    - xform/^we(?![左右])/k左/
+    - xform/^sd(?![左右])/s左/
+    - xform/^wf(?![左右])/c左/
+    - xform/^wg(?![左右])/p左/
 
-    # 定义右手15键
-    - xform/jp(?![左右])$/q右/
-    - xform/jo(?![左右])$/w右/
-    - xform/ji(?![左右])$/e右/
-    - xform/ul(?![左右])$/r右/
-    - xform/yl(?![左右])$/t右/
-    - xform/l;(?![左右])$/s右/
-    - xform/kl(?![左右])$/d右/
-    - xform/jk(?![左右])$/f右/
-    - xform/hl(?![左右])$/g右/    
-    - xform/mk(?![左右])$/z右/
-    - xform/nk(?![左右])$/x右/
-    - xform/ml(?![左右])$/c右/
-    - xform/nl(?![左右])$/v右/
+    - xform/^d(?![左右])/d左/
+    - xform/^f(?![左右])/y左/
+    - xform/^s(?![左右])/j左/
+    - xform/^x(?![左右])/x左/
+    - xform/^e(?![左右])/b左/
+    - xform/^v(?![左右])/h左/
+    - xform/^t(?![左右])/t左/
+    - xform/^g(?![左右])/g左/
+    - xform/^c(?![左右])/m左/
+    - xform/^z(?![左右])/z左/
+    - xform/^w(?![左右])/w左/
+    - xform/^b(?![左右])/n左/
+    - xform/^q(?![左右])/q左/
+    - xform/^r(?![左右])/r左/
+
+
+    # 定义右手
+    - xform/jk(?![左右])$/k右/
+    - xform/uo(?![左右])$/o右/
+    - xform/ho(?![左右])$/c右/
+    - xform/ji(?![左右])$/m右/
+    - xform/op(?![左右])$/s右/
+    - xform/hk(?![左右])$/w右/
+    - xform/nk(?![左右])$/g右/
+    - xform/ui(?![左右])$/v右/
     - xform/ni(?![左右])$/b右/
-    - xform/;(?![左右])$/a右/
+    - xform/jo(?![左右])$/r右/
+    - xform/hl(?![左右])$/l右/
+    - xform/io(?![左右])$/n右/
+    - xform/il(?![左右])$/q右/
+    - xform/hi(?![左右])$/w右/
+    - xform/jl(?![左右])$/t右/
+    - xform/kl(?![左右])$/q右/ #er
+
+    - xform/p(?![左右])$/p右/
+    - xform/y(?![左右])$/y右/
+    - xform/j(?![左右])$/j右/
+    - xform/n(?![左右])$/h右/
+    - xform/o(?![左右])$/o右/
+    - xform/i(?![左右])$/i右/
+    - xform/k(?![左右])$/e右/
+    - xform/u(?![左右])$/u右/
+    - xform/h(?![左右])$/a右/
+    - xform/l(?![左右])$/d右/
+    - xform/m(?![左右])$/f右/
+
+   
   # 并击完成后套用式样
   output_format:
     - "xform/^(.*)左/$1/"
@@ -129,8 +193,12 @@ chord_composer:
 
 translator:
   dictionary: flypy_flypy.extended
+  enable_completion: false
   spelling_hints: 2
-  # enable_user_dict: true
+  comment_format:
+    - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
+
+  enable_user_dict: false # 是否开启自动调频 
   # preedit_format:
     # - "xform/((^|[ '])[bpmfdtnljqx])n/$1iao/"
     # - "xform/((^|[ '])\\w)g/$1eng/"
@@ -167,7 +235,7 @@ translator:
 
 custom_phrase:
   dictionary: ""
-  user_dict: custom_phrase
+  user_dict: custom_phrase_bj
   db_class: stabledb
   enable_completion: false
   enable_sentence: false
@@ -206,8 +274,32 @@ reverse_stroke:
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
 
+# Emoji
+emoji:
+  option_name: emoji
+  opencc_config: emoji.json
+  inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
+
+
+# 简繁切换
+traditionalize:
+  option_name: traditionalization
+  opencc_config: s2t.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json
+  tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
+  tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
+  
+# 标点符号
+# punctuator 下面有三个子项：
+#   full_shape 全角标点映射
+#   half_shape 半角标点映射
+#   symbols    Rime 的预设配置是以 '/' 前缀开头输出一系列字符，自定义的 symbols_caps_v.yaml 修改成了 'V' 开头。
 punctuator:
-  import_preset: default
+  full_shape:
+    __include: default:/punctuator/full_shape  # 从 default.yaml 导入配置
+  half_shape:
+    __include: default:/punctuator/half_shape  # 从 default.yaml 导入配置
+  symbols:
+    __include: symbols_caps_v:/symbols         # 从 symbols_caps_v.yaml 导入配置
 
 key_binder:
   import_preset: default
@@ -232,29 +324,36 @@ recognizer:
     uppercase: "^[A-Z].*$"
     punct: '^/[015-9A-Za-z]+$' ## use "/er" instead of "/2"
     ## associate schemes: 
-    reverse_lookup: "^ab[a-z]*'?$" # "[[]b[a-z]*'?$"
-    reverse_stroke: "^ob[A-Za-z]*$"
-    reverse_zrlf: "^olf[A-Za-z]*$"
-    quanpin: "^ap[a-z]*'?$"
-    verbatim: "^as.*$"
-    soft_capslock: "^au.*$"
-    dbpy_flypy_help: "^ac.*$"
-    easy_en_simp: "^aw[a-z]*"
-    tex_translator: "^al(.*)$"
-    func_translator: "^af(.*)$"
+    # reverse_lookup: "^ab[a-z]*'?$" # "[[]b[a-z]*'?$"
+    # reverse_stroke: "^ob[A-Za-z]*$"
+    # reverse_zrlf: "^olf[A-Za-z]*$"
+    # quanpin: "^ap[a-z]*'?$"
+    # emojis: "^ae[a-z]*'?$" # "^ae.*$" 
+    # verbatim: "^as.*$"
+    # soft_capslock: "^au.*$"
+    # dbpy_flypy_help: "^ac.*$"
+    # easy_en_simp: "^aw[a-z]*"
+    # tex_translator: "^al(.*)$"
+    # func_translator: "^af(.*)$"
 
 menu:
   page_size: 8
 
 quanpin:
   tag: quanpin
-  dictionary: luna_pinyin ## 用户可自行改为扩展后的词典
+  dictionary: luna_pinyin.extended ## 用户可自行改为扩展后的词典
   prism: luna_pinyin
   enable_completion: true
   prefix: "ap"
   suffix: "'"
   tips: "全拼"
-
+emojis:
+  tag: emojis
+  dictionary: emoji
+  enable_completion: true
+  prefix: "ae"
+  suffix: "'"
+  tips: " Emoji"
 verbatim:
   tag: verbatim ## english; ascii
   prefix: "as"
