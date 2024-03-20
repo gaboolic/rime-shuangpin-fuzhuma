@@ -127,31 +127,30 @@ chord_composer:
     - xform/^df(?![左右])/v左/
     - xform/^se(?![左右])/l左/
     - xform/^af(?![左右])/i左/
-    - xform/^ef(?![左右])/f左/
     - xform/^we(?![左右])/k左/
-    - xform/^sd(?![左右])/s左/
     - xform/^wf(?![左右])/c左/
     - xform/^wg(?![左右])/p左/
+    - xform/^sd(?![左右])/s左/
+    - xform/^ef(?![左右])/f左/
 
-    - xform/^d(?![左右])/d左/
     - xform/^f(?![左右])/y左/
     - xform/^s(?![左右])/j左/
-    - xform/^x(?![左右])/x左/
     - xform/^e(?![左右])/b左/
     - xform/^v(?![左右])/h左/
-    - xform/^t(?![左右])/t左/
-    - xform/^g(?![左右])/g左/
     - xform/^c(?![左右])/m左/
-    - xform/^z(?![左右])/z左/
-    - xform/^w(?![左右])/w左/
     - xform/^b(?![左右])/n左/
-    - xform/^q(?![左右])/q左/
-    - xform/^r(?![左右])/r左/
 
+    # - xform/^d(?![左右])/d左/
+    # - xform/^x(?![左右])/x左/
+    # - xform/^t(?![左右])/t左/
+    # - xform/^g(?![左右])/g左/
+    # - xform/^z(?![左右])/z左/
+    # - xform/^w(?![左右])/w左/
+    # - xform/^q(?![左右])/q左/
+    # - xform/^r(?![左右])/r左/
 
     # 定义右手
-    - xform/jk(?![左右])$/k右/
-    - xform/uo(?![左右])$/o右/
+    - xform/uo(?![左右])$/z右/
     - xform/ho(?![左右])$/c右/
     - xform/ji(?![左右])$/m右/
     - xform/op(?![左右])$/s右/
@@ -160,24 +159,26 @@ chord_composer:
     - xform/ui(?![左右])$/v右/
     - xform/ni(?![左右])$/b右/
     - xform/jo(?![左右])$/r右/
-    - xform/hl(?![左右])$/l右/
     - xform/io(?![左右])$/n右/
     - xform/il(?![左右])$/q右/
     - xform/hi(?![左右])$/w右/
     - xform/jl(?![左右])$/t右/
     - xform/kl(?![左右])$/q右/ #er
+    - xform/hl(?![左右])$/l右/
+    - xform/jk(?![左右])$/k右/
 
-    - xform/p(?![左右])$/p右/
-    - xform/y(?![左右])$/y右/
-    - xform/j(?![左右])$/j右/
     - xform/n(?![左右])$/h右/
-    - xform/o(?![左右])$/o右/
-    - xform/i(?![左右])$/i右/
     - xform/k(?![左右])$/e右/
-    - xform/u(?![左右])$/u右/
     - xform/h(?![左右])$/a右/
     - xform/l(?![左右])$/d右/
     - xform/m(?![左右])$/f右/
+
+    # - xform/u(?![左右])$/u右/
+    # - xform/o(?![左右])$/o右/
+    # - xform/i(?![左右])$/i右/
+    # - xform/p(?![左右])$/p右/
+    # - xform/y(?![左右])$/y右/
+    # - xform/j(?![左右])$/j右/
 
    
   # 并击完成后套用式样
@@ -185,11 +186,12 @@ chord_composer:
     - "xform/^(.*)左/$1/"
     - "xform/^(.*)右$/$1/"
     - "xform/^(.*)左(.*)右$/$1$2/"
-      
+    - xlit/QWERTYUIOPASDFGHJKLZXCVBNM/qwertyuiopasdfghjklzxcvbnm/
+
  # 并击过程中套用式样  
   prompt_format:
     # 加方括号
-    - "xform/^(.*)$/[$1]/" 
+    # - "xform/^(.*)$/[$1]/" 
 
 translator:
   dictionary: flypy_flypy.extended
