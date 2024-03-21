@@ -154,7 +154,7 @@ chord_composer:
     - xform/ho(?![左右])$/c右/
     - xform/ji(?![左右])$/m右/
     - xform/op(?![左右])$/s右/
-    - xform/hk(?![左右])$/w右/
+    - xform/kl(?![左右])$/w右/
     - xform/nk(?![左右])$/g右/
     - xform/ui(?![左右])$/v右/
     - xform/ni(?![左右])$/b右/
