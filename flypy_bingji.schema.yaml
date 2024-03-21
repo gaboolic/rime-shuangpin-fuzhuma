@@ -140,6 +140,10 @@ chord_composer:
     - xform/^c(?![左右])/m左/
     - xform/^b(?![左右])/n左/
 
+    # 实际用不到左手e o
+    - xform/^er(?![左右])/e左/
+    - xform/^qw(?![左右])/o左/
+
     # - xform/^d(?![左右])/d左/
     # - xform/^x(?![左右])/x左/
     # - xform/^t(?![左右])/t左/
