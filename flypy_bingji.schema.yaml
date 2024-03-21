@@ -161,7 +161,7 @@ chord_composer:
     - xform/jo(?![左右])$/r右/
     - xform/io(?![左右])$/n右/
     - xform/il(?![左右])$/q右/
-    - xform/hi(?![左右])$/w右/
+    - xform/hi(?![左右])$/x右/
     - xform/jl(?![左右])$/t右/
     - xform/kl(?![左右])$/q右/ #er
     - xform/hl(?![左右])$/l右/

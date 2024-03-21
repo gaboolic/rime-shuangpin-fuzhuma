@@ -1,63 +1,5 @@
-d      10.40% d
-y      8.05% f
-sh     7.94% sf
-zh     6.17% df
-j      5.66% s
-x      5.56% x
-b      5.33% e
-l      5.18% se
-h      4.74% v
-t      4.63% t
-g      4.28% g
-m      4.18% c
-z      3.67% z
-w      3.59% w
-n      3.27% b
-q      3.09% q
-ch     2.76% af
-f      2.37% ef
-r      2.22% r
-k      2.00% we
-s      1.46% sd
-c      1.42% wf
-p      0.81% wg
-0声母 a
 
-i      14.07% i
-e      12.96% k
-u      7.54% u
-a      5.90% h
-ai     5.04% l
-en     4.34% m 
-ing  uai    0.16%  4.30% jk
-ou     4.23% ou
-ao     4.10% ho
-ian    4.09% ji
-an     4.04% j
-ang    3.21% n
-uo o      1.42%     2.96% o
-ong iong   0.07%   2.60% op
-ei     2.44% kl
-eng    2.31% kn
-ui   v      0.20%  1.87%  ui
-in     1.61% in
-uan    1.54% jo
-iang  uang   0.50%  1.44% lh
-iao    1.40% io
-iu  er     0.44%    1.28% il
-ie     1.16% p
-ia  ua     0.58%   0.93% hi
-ue ve     0.01%    0.68% jl
-un     0.60% y
-
-
-
-
-
-
-
-
-
+拼音频率统计：
 de     4.86%
 shi    4.54%
 wo     2.91%
@@ -443,5 +385,110 @@ yo     0.00%
 ang    0.00%
 jiong  0.00%
 
+声母频率
+d      10.40% d
+y      8.05% f
+sh     7.94% sf
+zh     6.17% df
+j      5.66% s
+x      5.56% x
+b      5.33% e
+l      5.18% se
+h      4.74% v
+t      4.63% t
+g      4.28% g
+m      4.18% c
+z      3.67% z
+w      3.59% w
+n      3.27% b
+q      3.09% q
+ch     2.76% af
+f      2.37% ef
+r      2.22% r
+k      2.00% we
+s      1.46% sd
+c      1.42% wf
+p      0.81% wg
+0声母 a
 
+韵母频率
+i      14.07% i
+e      12.96% k
+u      7.54% u
+a      5.90% h
+ai     5.04% l
+en     4.34% m
+ing  uai    0.16%  4.30% jk
+ou     4.23% ou
+ao     4.10% ho
+ian    4.09% ji
+an     4.04% j
+ang    3.21% n
+uo o      1.42%     2.96% o
+ong iong   0.07%   2.60% op
+ei     2.44% kl
+eng    2.31% kn
+ui   v      0.20%  1.87%  ui
+in     1.61% in
+uan    1.54% jo
+iang  uang   0.50%  1.44% lh
+iao    1.40% io
+iu  er     0.44%    1.28% il
+ie     1.16% p
+ia  ua     0.58%   0.93% hi
+ue ve     0.01%    0.68% jl
+un     0.60% y
 
+绘制键盘
+
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\begin{document}
+\begin{tikzpicture}
+
+% Draw keys
+\foreach \x in {0,...,9}{
+    \draw (\x*1.2,0) rectangle ++(1.2,1);
+}
+
+% Label keys (row 1)
+\foreach \x/\content in {0/q, 1/w, 2/e, 3/r, 4/t, 5/y, 6/u, 7/i, 8/o, 9/p}{
+    \node at (\x*1.2 + 0.2, 0.8) {\content};
+}
+% Label keys (row 1)
+\foreach \x/\content in {0/q-il, 1/w-kl, 2/0-k, 3/r-jo, 4/t-jl, 5/f-y, 6/sf-u, 7/af-i, 8/0-o, 9/wg-p}{
+    \node at (\x*1.2 + 0.6, 0.2) {\content};
+}
+
+% Draw keys
+\foreach \x in {0,...,8}{
+    \draw (\x*1.2 +0.5,-1) rectangle ++(1.2,1);
+}
+
+% Label keys (row 2)
+\foreach \x/\content in {0/a, 1/s, 2/d, 3/f, 4/g, 5/h, 6/j, 7/k, 8/l}{
+    \node at (\x*1.2 + 0.7, -0.2) {\content};
+}
+% Label keys (row 2)
+\foreach \x/\content in {0/a-h, 1/sd-op, 2/d-l, 3/ef-m, 4/g-nk, 5/v-n, 6/s-j, 7/we-jk, 8/se-hl}{
+    \node at (\x*1.2 + 1.1, -0.8) {\content};
+}
+
+% Draw keys
+\foreach \x in {0,...,7}{
+    \draw (\x*1.2 + 1.4,-2) rectangle ++(1.2,1);
+}
+
+% Label keys (row 3)
+\foreach \x/\content in {0/z, 1/x, 2/c, 3/v, 4/b, 5/n, 6/m}{
+    \node at (\x*1.2 + 1.6, -1.2) {\content};
+}
+% Label keys (row 3)
+\foreach \x/\content in {0/z-uo, 1/x-hi, 2/wf-ho, 3/df-ui, 4/e-ni, 5/b-io, 6/c-ji}{
+    \node at (\x*1.2 + 2, -1.8) {\content};
+}
+
+\end{tikzpicture}
+\end{document}
