@@ -199,6 +199,7 @@ chord_composer:
 
 translator:
   dictionary: flypy_flypy.extended
+  prism: flypy_bingji
   enable_completion: false
   spelling_hints: 2
   comment_format:
