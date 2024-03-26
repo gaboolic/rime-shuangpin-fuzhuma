@@ -1,6 +1,10 @@
 # Project exclude paths
 /venv/
 /cn_dicts_dazhu/
+/cn_dicts_sancang/
+/cn_dicts_xh_cangjie/
+cangjie5.dict.yaml
+sancang.dict.yaml
 .idea
 .idea/*
 .DS_Store
