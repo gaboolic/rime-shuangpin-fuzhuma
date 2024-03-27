@@ -53,7 +53,8 @@ import_tables:
   # - cn_dicts_xh/others   # 一些杂项 容错音和错字 可以不开
   - cn_dicts_xh/user # 用户自定义词典
   - cn_dicts_xh/chengyu   # 成语
-
+  - cn_dicts_xh/changcijian   # 多字
+  - cn_dicts_xh/changcijian3   # 3字
   # - luna_pinyin.place
   # - luna_pinyin.poetry 
   # - luna_pinyin.computer

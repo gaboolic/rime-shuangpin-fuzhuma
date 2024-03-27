@@ -31,10 +31,10 @@ dictLines.forEach((line) => {
 console.log("孙 " + dictData['孙'])
 
 // 需要修改的YAML文件的路径
-const yamlFilePath = path.join(__dirname, '../flypy.yaml');
+const yamlFilePath = path.join(__dirname, '../cn_dicts/base.dict.yaml');
 
 // 需要修改的YAML文件的路径
-const writeFilePath = path.join(__dirname, '../cn_dicts_xh/chengyu4.dict.yaml');
+const writeFilePath = path.join(__dirname, '../cn_dicts_xh/changcijian3.dict.yaml');
 
 // 同步读取YAML文件
 const yamlFileContent = fs.readFileSync(yamlFilePath, 'utf8');
@@ -75,7 +75,13 @@ function updateMissingEncodings(filePath, writeFilePath) {
         const [character, encoding, frequency] = line.split('\t');
 
 
-        if (character.length != 4 || encoding.length != 4) {
+        // if (character.length <= 4) {
+        //     return
+        // }
+        if (character.length != 3) {
+            return
+        }
+        if (frequency < 100) {
             return
         }
         // console.log(character)
@@ -181,10 +187,11 @@ function updateMissingEncodings(filePath, writeFilePath) {
         if (dictData[pinyin_pre2] != null) {
             return
         }
+        double_list = "a" + double_list.substring(0, 3)
         // Update the line with the missing encoding
-        var updatedLine = `${character}\t${encoding}`;
+        var updatedLine = `${character}\t${double_list}`;
         if (frequency == null) {
-            updatedLine = `${character}\t${encoding}`;
+            updatedLine = `${character}\t${double_list}`;
         }
 
         // Append the updated line to the updated content

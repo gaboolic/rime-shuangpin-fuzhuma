@@ -59,6 +59,7 @@ engine:
     - reverse_lookup_translator
     - reverse_lookup_translator@reverse_stroke
     - reverse_lookup_translator@reverse_zrlf
+    - reverse_lookup_translator@reverse_cj
     - script_translator
     - script_translator@quanpin
     - table_translator@emojis
@@ -214,6 +215,18 @@ reverse_zrlf:
   preedit_format:
     # - xlit/hspnz/一丨丿丶乙/
 
+reverse_cj:
+  tag: reverse_cj
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "ocj"
+  suffix: "'"
+  tips: 〔仓颉〕
+  preedit_format:
+    - "xlit|ocj|OCJ|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+    - "xlit|OCJ|ocj|"
+
 reverse_stroke:
   tag: reverse_stroke
   dictionary: stroke # stroke
@@ -276,6 +289,7 @@ recognizer:
     ## associate schemes: 
     reverse_lookup: "^ab[a-z]*'?$" # "[[]b[a-z]*'?$"
     reverse_stroke: "^ob[A-Za-z]*$"
+    reverse_cj: "^ocj[A-Za-z]*$"
     reverse_zrlf: "^olf[A-Za-z]*$"
     quanpin: "^ap[a-z]*'?$"
     emojis: "^ae[a-z]*'?$" # "^ae.*$" 
