@@ -9,7 +9,6 @@ sort: by_weight
 use_preset_vocabulary: true  # 導入八股文字頻
 max_phrase_length: 1         # 不生成詞彙
 import_tables:
-  - stroke ## 注释掉后：停用笔画输入
   - chaizi_flypy.tr ## 注释掉后：停用繁体部分词典
   #- stroke ## 取消注释后：部件组字模式下启用五笔画
 ...

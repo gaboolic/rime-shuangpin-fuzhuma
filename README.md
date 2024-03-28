@@ -1,20 +1,48 @@
-# rime-config
 
-自用rime配置文件，词库使用最强简体词库——[雾凇拼音](https://github.com/iDvel/rime-ice)
+自用rime配置文件,词库使用最强简体词库——[雾凇拼音](https://github.com/iDvel/rime-ice)，在雾凇拼音的基础上实现自然码双拼、小鹤双拼，以及对应的辅助码。
 
 配置文件参考[小鹤双拼+自然快手/小鹤双形辅助码](https://github.com/functoreality/rime-flypy-zrmfast)
 
 [魔改自然碼 Rime 方案 (自然碼雙拼+輔助碼+外語混輸+簡繁方案+emoji)](https://github.com/ksqsf/rime-moran)
 
-主要配置文件：
+主要配置文件:
 
-flypy_flypy.schema.yaml # 小鹤
-zrm_zrm.schema.yaml # 自然码
+flypy_flypy.schema.yaml # 小鹤双拼+鹤形辅助码
+zrm_zrm.schema.yaml # 自然码双拼+自然码辅助码
 
-输入效果
+### 输入效果
 
-![demo1](readmeimg/qimhzly.png)
-![alt text](readmeimg/bujian.png)
+整句输入插入字辅：
+![醉洛阳](readmeimg/qimhzly.png)
+
+打词时插入辅助码：
+![寄宿](readmeimg/jisub.png)
+![极速](readmeimg/jimsu.png)
+
+不认识的字可以笔画输入 `ab`引导 hspnz横竖撇捺折
+![笔画](readmeimg/bihua.png)
+
+也可以部件组字输入 `az`引导
+![部件](readmeimg/bujian.png)
+![部件](readmeimg/bujian2.png)
+
+也可以输入仓颉码 `acj`引导
+![仓颉](readmeimg/cangjie5.png)
+
+日期时间相关输入：date time week datetime timestamp。
+符号输入/fh，更多符号查看symbols_caps_v.yaml
+
+### 配置文件路径
+
+windows %APPDATA%\Rime
+
+mac ~/Library/Rime
+
+linux ~/.local/share/fcitx5/rime
+
+android <https://github.com/fcitx5-android/fcitx5-android> /Android/adata/org.fcitx.fcitx5.android/files/data/rime
+
+### 并击相关
 
 并击双拼方案：
 
@@ -80,17 +108,7 @@ chord_composer:
 我的方案优点是可串击可并击，可正常打字，可用单手。
 我只是在正常双拼基础上，加了左右手映射。映射规则基本上就是镜像一下再加个字母，例如yuio镜像到左手分别是trew加上a，p是q加上f
 
-配置文件路径：
-
-windows %APPDATA%\Rime
-
-mac ~/Library/Rime
-
-linux ~/.local/share/fcitx5/rime
-
-android <https://github.com/fcitx5-android/fcitx5-android> /Android/adata/org.fcitx.fcitx5.android/files/data/rime
-
-参考：
+### 参考
 
 雾凇词库 <https://github.com/iDvel/rime-ice>
 

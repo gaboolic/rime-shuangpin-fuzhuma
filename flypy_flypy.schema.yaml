@@ -10,7 +10,6 @@ schema:
   description: |
     小鹤双拼+辅助码
   dependencies:
-    - luna_pinyin
     - chaizi
     - stroke
     - zrlf
@@ -192,18 +191,14 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
 
-
-
-
 reverse_lookup:
   dictionary: chaizi_flypy # stroke
   enable_completion: true
-  prefix: "ab"
+  prefix: "az"
   suffix: "'"
   tips: 〔部件组字〕 # 〔筆畫〕
   preedit_format:
     # - xlit/hspnz/一丨丿丶乙/
-
 
 reverse_zrlf:
   tag: reverse_zrlf
@@ -219,21 +214,20 @@ reverse_cj:
   tag: reverse_cj
   dictionary: cangjie5
   enable_completion: true
-  prefix: "ocj"
+  prefix: "acj"
   suffix: "'"
   tips: 〔仓颉〕
   preedit_format:
-    - "xlit|ocj|OCJ|"
-    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
-    - "xlit|OCJ|ocj|"
+    - xform/^acj/仓颉5:/
+    - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|
 
 reverse_stroke:
   tag: reverse_stroke
   dictionary: stroke # stroke
   enable_completion: true
-  prefix: "ob"
+  prefix: "ab"
   suffix: "'"
-  tips: 〔筆畫〕 # 〔筆畫〕
+  tips: 〔筆畫hspnz〕 # 〔筆畫〕
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
 
@@ -287,61 +281,23 @@ recognizer:
     uppercase: "^[A-Z].*$"
     punct: '^/[015-9A-Za-z]+$' ## use "/er" instead of "/2"
     ## associate schemes: 
-    reverse_lookup: "^ab[a-z]*'?$" # "[[]b[a-z]*'?$"
-    reverse_stroke: "^ob[A-Za-z]*$"
-    reverse_cj: "^ocj[A-Za-z]*$"
-    reverse_zrlf: "^olf[A-Za-z]*$"
-    quanpin: "^ap[a-z]*'?$"
-    emojis: "^ae[a-z]*'?$" # "^ae.*$" 
+    reverse_lookup: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
+    reverse_stroke: "^ab[A-Za-z]*$"
+    reverse_cj: "^acj[A-Za-z]*$"
+    reverse_zrlf: "^alf[A-Za-z]*$"
     verbatim: "^as.*$"
-    soft_capslock: "^au.*$"
-    dbpy_flypy_help: "^ac.*$"
     easy_en_simp: "^aw[a-z]*"
-    tex_translator: "^al(.*)$"
-    func_translator: "^af(.*)$"
 
 menu:
   page_size: 8
 
-quanpin:
-  tag: quanpin
-  dictionary: luna_pinyin.extended ## 用户可自行改为扩展后的词典
-  prism: luna_pinyin
-  enable_completion: true
-  prefix: "ap"
-  suffix: "'"
-  tips: "全拼"
-emojis:
-  tag: emojis
-  dictionary: emoji
-  enable_completion: true
-  prefix: "ae"
-  suffix: "'"
-  tips: " Emoji"
+
+
 verbatim:
   tag: verbatim ## english; ascii
   prefix: "as"
   tips: "cii"
-soft_capslock:
-  dictionary: ""
-  user_dict: uppercase
-  tag: soft_capslock
-  prefix: "au"
-  tips: "临时大写"
-  db_class: stabledb
-  enable_completion: false
-  enable_sentence: true
-  initial_quality: 1
-dbpy_flypy_help:
-  dictionary: ""
-  user_dict: dbpy_flypy_help
-  tag: dbpy_flypy_help
-  prefix: "ac"
-  tips: "小鹤双拼查键"
-  db_class: stabledb
-  enable_completion: true
-  enable_sentence: false
-  initial_quality: 1
+
 easy_en_simp:
   tag: easy_en_simp
   dictionary: easy_en
@@ -353,8 +309,5 @@ easy_en_simp:
   spelling_hints: 9
   comment_format:
     - xform/^.+$//
-tex_translator:
-  tag: tex_translator
-  prefix: "al"
-  tips: " TeX 公式"
+    
 
