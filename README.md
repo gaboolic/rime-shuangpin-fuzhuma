@@ -10,6 +10,8 @@
 flypy_flypy.schema.yaml # 小鹤双拼+鹤形辅助码
 zrm_zrm.schema.yaml # 自然码双拼+自然码辅助码
 
+注意：默认关了用户词库（为了固定词频），如有需要，修改flypy_flypy.schema.yaml enable_user_dict: true 开启
+
 ### 输入效果
 
 整句输入插入字辅：
