@@ -12,6 +12,10 @@ zrm_zrm.schema.yaml # 自然码双拼+自然码辅助码
 
 注意：默认关了用户词库（为了固定词频），如有需要，修改flypy_flypy.schema.yaml enable_user_dict: true 开启
 
+3字词，用o引导简码，如：阿波罗 oabl。4字词、多字词，用e引导简码，如：阿坝藏族羌族自治州 eabz。
+
+changcijian、changcijian3文件是自动从雾凇词库里取的
+
 ### 输入效果
 
 整句输入插入字辅：
