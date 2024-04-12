@@ -52,6 +52,14 @@ linux ~/.local/share/fcitx5/rime
 
 android <https://github.com/fcitx5-android/fcitx5-android> /Android/adata/org.fcitx.fcitx5.android/files/data/rime
 
+### 飞键相关
+
+flypy_flypy.shema.yaml里飞键 可选择性开启
+
+- derive/^([yh])j/$1q/    yj hj就可以打yq hq
+
+- derive/^qx/qw/  qx就可以打qw
+
 ### 并击相关
 
 并击双拼方案：
