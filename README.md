@@ -1,5 +1,5 @@
 
-自用rime配置文件,词库使用最强简体词库——[雾凇拼音](https://github.com/iDvel/rime-ice)，在雾凇拼音的基础上实现自然码双拼、小鹤双拼，以及对应的辅助码。
+rime配置文件,词库使用最强简体词库——[雾凇拼音](https://github.com/iDvel/rime-ice)，在雾凇拼音的基础上实现自然码双拼、小鹤双拼，以及对应的辅助码。本人用的是这个方案，所以更新有保证
 
 配置文件参考[小鹤双拼+自然快手/小鹤双形辅助码](https://github.com/functoreality/rime-flypy-zrmfast)
 
@@ -19,6 +19,8 @@ zrm_zrm.schema.yaml # 自然码双拼+自然码辅助码
 3字词，用o引导简码，如：阿波罗 oabl。4字词、多字词，用e引导简码，如：阿坝藏族羌族自治州 eabz。
 
 changcijian、changcijian3文件是自动从雾凇词库里取的
+
+（这个功能还不太好用，词太多了 需要优化一下）
 
 ### 输入效果
 
