@@ -10,7 +10,7 @@ rime配置文件,词库使用最强简体词库——[雾凇拼音](https://gith
 flypy_flypy.schema.yaml # 小鹤双拼+鹤形辅助码
 zrm_zrm.schema.yaml # 自然码双拼+自然码辅助码
 
-词库文件分别为flypy_flypy.extended.dict.yaml和zrm_zrm.extended.dict.yaml，默认只开启了我用雾凇词库转换的词典文件。此外还有从其他地方获取的细胞词库，例如历史类、地名类、古诗文、计算机、动漫、电影、游戏、电商等，可自行打开注释或从[细胞词库](https://github.com/Bambooin/rimerc/tree/master/luna_pinyin)获取。如无特殊需求，词典文件只配置词即可，rime引擎会自动计算编码。
+词库文件分别为flypy_flypy.extended.dict.yaml和zrm_zrm.extended.dict.yaml，默认只开启了我用[雾凇词库](<https://github.com/iDvel/rime-ice)转换的词典文件。此外还有从其他地方获取的细胞词库，例如历史类、地名类、古诗文、计算机、动漫、电影、游戏、电商等，可自行打开注释或从[细胞词库>](<https://github.com/Bambooin/rimerc/tree/master/luna_pinyin)获取。如无特殊需求，词典文件只配置词即可，rime引擎会自动计算编码。>
 
 注意：默认关了用户词库（为了固定词频），如有需要，修改flypy_flypy.schema.yaml enable_user_dict: true 开启
 
