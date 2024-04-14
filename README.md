@@ -16,6 +16,8 @@ zrm_zrm.schema.yaml # 自然码双拼+自然码辅助码
 
 默认固定词频，编辑cn_dicts_xh/user.dict.yaml来添加自定义的词
 
+默认显示2字以下的辅助码编码，可在flypy_flypy.schema.yaml中`translator/spelling_hints`调整为更多或不显示
+
 词库文件见flypy_flypy.extended.dict.yaml(zrm_zrm.extended.dict.yaml)，如有需要可自行修改
 
 3字词，用o引导简码，如：阿波罗 oabl。4字词、多字词，用e引导简码，如：阿坝藏族羌族自治州 eabz。
