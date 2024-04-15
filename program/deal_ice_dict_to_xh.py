@@ -27,8 +27,7 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
             updated_content += line + '\n'
             continue
 
-        print(line)
-
+        frequency = None
          # 检查分割出的值是否足够
         if len(line.split('\t')) == 3:
             character, encoding, frequency = line.split('\t')
@@ -117,8 +116,9 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
                 if len(double_pinyin) != 2:
                     print("!!!!double_pinyin " + double_pinyin + " " + pinyin + " ")
                 
-
-            character_encoding_pre = character[pinyin_index]
+            clean_character = character.replace("·", "")
+            character_encoding_pre = clean_character[pinyin_index]
+            # character_encoding_pre = character[pinyin_index]
             encoding_post = dict_data.get(character_encoding_pre, "[")
             double_list += f"{double_pinyin}[{encoding_post} "
             pinyin_index += 1
@@ -129,7 +129,10 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
             # updated_content += line + '\n'
             pass
 
-        updated_line = f"{character}\t{double_list}\t{frequency}" if frequency else f"{character}\t{double_list}"
+        if frequency is not None:
+            updated_line = f"{character}\t{double_list}\t{frequency}"
+        else :
+            updated_line = f"{character}\t{double_list}"
         updated_content += updated_line + '\n'
 
     # Write the updated content back to the file
