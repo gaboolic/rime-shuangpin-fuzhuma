@@ -42,6 +42,7 @@ console.log(Object.keys(dictData).length);
 // 获取每个字的编码
 // console.log('编码:', dictData);
 console.log("巴 " + dictData['巴'])
+console.log("𬱖 " + dictData['𬱖'])
 
 
 
@@ -165,6 +166,11 @@ function updateMissingEncodings(filePath, writeFilePath) {
             }
             var clean_character = character.replace("·", "")
             var character_encoding_pre = clean_character.charAt(pinyin_index)
+            if (clean_character.indexOf('𬱖') != -1) {
+                console.log(clean_character)
+                console.log(clean_character.charAt(0))
+                console.log(dictData[character_encoding_pre])
+            }
             encoding_post = dictData[character_encoding_pre];
             if (encoding_post == null) {
                 // console.log("!!!character_encoding_pre:" + character_encoding_pre)
