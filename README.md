@@ -20,7 +20,7 @@ zrm_zrm.schema.yaml # 自然码双拼+自然码辅助码
 
 词库文件见flypy_flypy.extended.dict.yaml(zrm_zrm.extended.dict.yaml)，如有需要可自行修改
 
-3字词，用o引导简码，简码取声母，如：阿波罗 oabl,差不多 oibd,巴不得 obbd。
+3字词，用e引导简码，简码取声母，如：阿波罗 eabl,差不多 eibd,巴不得 ebbd。
 
 4字词、多字词，用e引导简码，简码取前3个字+末字声母，如：兵败如山倒 ebbrd,霸王硬上弓 ebwyg,天有不测风云 etyby,当仁不让 edrbr
 
