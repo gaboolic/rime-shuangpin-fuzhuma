@@ -6,7 +6,7 @@ const path = require('path');
 const yamlFilePath = path.join(__dirname, '../cn_dicts_xh/8105.dict.yaml');
 
 // 需要修改的YAML文件的路径
-const writeFilePath = path.join(__dirname, '../cn_dicts_dazhu/8105.dict.yaml');
+const writeFilePath = path.join(__dirname, '../cn_dicts_dazhu/8105_3.dict.yaml');
 
 // 同步读取YAML文件
 const yamlFileContent = fs.readFileSync(yamlFilePath, 'utf8');
@@ -36,6 +36,7 @@ function updateMissingEncodings(filePath, writeFilePath) {
     // Create an updated content variable
     let updatedContent = '';
 
+    var encoding_count_map = {}
     // Process each line
     lines.forEach((line) => {
         // Assume each line has the format "字\t编码"
@@ -49,22 +50,30 @@ function updateMissingEncodings(filePath, writeFilePath) {
         if (encoding == "100") {
             return
         }
-
+        encoding = encoding.replace(/\[/g, "");
         pinyin_list = encoding.split(" ")
         new_encoding = ""
         for (pinyin of pinyin_list) {
-            pinyin = pinyin.substring(0, 2)
+            pinyin = pinyin.substring(0, 3)
             new_encoding += pinyin
         }
-        encoding = new_encoding
-        // encoding = encoding.replace(/\[/g, "");
+        //encoding = new_encoding
+
+
+        if (encoding_count_map[encoding] == null) {
+            encoding_count_map[encoding] = 1;
+        } else {
+            encoding_count_map[encoding] += 1;
+        }
 
         // Update the line with the missing encoding
         var updatedLine = `${encoding}\t${character}\t`;
 
+        if (encoding_count_map[encoding] < 7) {
 
-        // Append the updated line to the updated content
-        updatedContent += updatedLine + '\n';
+            // Append the updated line to the updated content
+            updatedContent += updatedLine + '\n';
+        }
 
     });
 
