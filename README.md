@@ -26,8 +26,6 @@ zrm_zrm.schema.yaml # 自然码双拼+自然码辅助码
 
 changcijian、changcijian3文件是自动从雾凇词库里取的
 
-（这个功能还不太好用，词太多了 需要优化一下）
-
 ### 输入效果
 
 整句输入插入字辅：
