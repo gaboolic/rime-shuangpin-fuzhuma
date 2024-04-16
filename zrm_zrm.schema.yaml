@@ -1,12 +1,13 @@
 # Rime schema
 # encoding: utf-8
+# https://github.com/gaboolic/rime-shuangpin-fuzhuma
 
 schema:
   schema_id: zrm_zrm
   name: 自然码双拼+辅助
   version: "0.1"
   author:
-    - Functoreality
+    - Functoreality gaboolic
   description: |
     自然码双拼+辅助
   dependencies:

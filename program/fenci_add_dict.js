@@ -74,13 +74,13 @@ function get_word_fenci_set() {
                 if (word.length > 1) {
                     fenci_set.add(word);
                 }
-                if (word.length == 2) {
-                    if (dict_word_count[word] == undefined) {
-                        dict_word_count[word] = 1;
-                    } else {
-                        dict_word_count[word] += 1;
-                    }
+
+                if (dict_word_count[word] == undefined) {
+                    dict_word_count[word] = 1;
+                } else {
+                    dict_word_count[word] += 1;
                 }
+
             });
         }
     });

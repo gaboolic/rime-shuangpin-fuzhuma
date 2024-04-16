@@ -1,5 +1,6 @@
 # Rime schema
 # encoding: utf-8
+# https://github.com/gaboolic/rime-shuangpin-fuzhuma
 
 schema:
   schema_id: double_pinyin_xh
@@ -7,7 +8,7 @@ schema:
   version: "0.15"
   author:
     - 佛振 <chen.sst@gmail.com>
-    - 并击雙拼
+    - 并击雙拼 gaboolic
   description: |
     朙月拼音＋并击雙拼方案。
   dependencies:

@@ -1,12 +1,13 @@
 # Rime schema
 # encoding: utf-8
+# https://github.com/gaboolic/rime-shuangpin-fuzhuma
 
 schema:
   schema_id: flypy_flypy
   name: 小鹤双拼+鹤形辅助
   version: "0.1"
   author:
-    - Functoreality
+    - Functoreality gaboolic
   description: |
     小鹤双拼+辅助码
   dependencies:
