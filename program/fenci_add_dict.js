@@ -45,11 +45,11 @@ function get_word_set(filePath) {
     });
     return word_set;
 }
-
+const dict_word_count = {}
 function get_word_fenci_set() {
 
     // dict文件的路径
-    const dictFilePath = path.join(__dirname, '../cn_dicts/tencent.dict.yaml');
+    const dictFilePath = path.join(__dirname, './三体1疯狂年代.txt');
 
     // 同步读取YAML文件
     const dictFileContent = fs.readFileSync(dictFilePath, 'utf8');
@@ -65,28 +65,30 @@ function get_word_fenci_set() {
     const dictData = {};
     dictLines.forEach((line) => {
         // 假设每行的格式为 "字\t编码"
-        if (line.indexOf("\t") != -1) {
-            const [character, encoding] = line.split('\t');
-            // const result = nodejieba.cut(character);
-            const result = nodejieba.cutSmall(character, 2);
+        const result = nodejieba.cut(line);
 
-            if (result.length > 1) {
-                // 将分词结果添加到 Set 中
-                result.forEach(word => {
+        if (result.length > 1) {
+            // 将分词结果添加到 Set 中
+            result.forEach(word => {
 
-                    if (word.length > 1) {
-                        fenci_set.add(word);
+                if (word.length > 1) {
+                    fenci_set.add(word);
+                }
+                if (word.length == 2) {
+                    if (dict_word_count[word] == undefined) {
+                        dict_word_count[word] = 1;
+                    } else {
+                        dict_word_count[word] += 1;
                     }
-                });
-            }
-
-
+                }
+            });
         }
     });
     return fenci_set;
 }
 const file_list = ['base.dict.yaml', 'ext.dict.yaml', 'others.dict.yaml']
 const dict_word_set = new Set();
+
 for (file_name of file_list) {
     const yamlFilePath = path.join(__dirname, '../cn_dicts/', file_name);
 
@@ -94,6 +96,9 @@ for (file_name of file_list) {
     // 将每个文件的单词集合合并到 dict_word_set 中
     word_set.forEach(word => {
         dict_word_set.add(word);
+
+
+
     });
 }
 console.log(dict_word_set.size)
@@ -102,15 +107,7 @@ dict_word_set.forEach(word => {
     nodejieba.insertWord(word);
 });
 
-// console.log(dict_word_set)
-console.log(dict_word_set.has("龙脑"))
 
-
-const test_result = nodejieba.cut("齐王田广");
-
-// 输出分词结果
-console.log("test_result");
-// console.log(test_result);
 
 const tencent_file_list = ['tencent.dict.yaml']
 for (file_name of tencent_file_list) {
@@ -129,6 +126,18 @@ const fenci_word_set = get_word_fenci_set()
 console.log(fenci_word_set.size)
 console.log(fenci_word_set)
 
+console.log(dict_word_count)
+
+// 将对象转换为可排序的数组
+const sortedEntries = Object.entries(dict_word_count).sort((a, b) => a[1] - b[1]);
+
+// 输出排序后的结果
+// 准备要写入文件的文本内容
+let outputData = '';
+sortedEntries.forEach(entry => {
+    console.log(`${entry[0]}: ${entry[1]}`);
+    outputData += `${entry[0]}: ${entry[1]}\n`;
+});
 
 // 输出在 fenci_word_set 中但不在 dict_word_set 中的词汇
 const words_not_in_dict = new Set();
@@ -146,3 +155,12 @@ console.log(words_not_in_dict.size)
 // });
 // 将不在 dict_word_set 中且长度小于等于 3 的词汇写入文件
 fs.writeFileSync('words_not_in_dict.txt', Array.from(words_not_in_dict).join('\n'));
+
+// 将排序后的结果写入文件
+fs.writeFile('fenci_2ci.txt', outputData, 'utf8', (err) => {
+    if (err) {
+        console.error('写入文件时发生错误：', err);
+        return;
+    }
+    console.log('排序后的结果已成功写入文件！');
+});
