@@ -68,69 +68,7 @@ flypy_flypy.shema.yaml里飞键 可选择性开启
 
 ### 并击相关
 
-并击双拼方案：
-
-自然码：double_pinyin_zrm.schema.yaml
-
-小鹤：double_pinyin_xh.schema.yaml
-
-并击双拼原理：
-左手能控制23个声母，右手能控制24个韵母，把右手上左手没有的键，映射到左手。左手键映射到右手。
-
-```
-chord_composer:
-  # 字母表，包含用并击按键
-  # 击键一律以字母表顺序排列
-  alphabet: "aqzswxdecfrvgtbhynjumki,lo.;p',./"
-  algebra:
-    # - "xform/^,$/,/"
-    # - "xform/^\.$/./"
-    # 定义左手11键       
-    - xform/^at(?![左右])/y左/
-    - xform/^ar(?![左右])/u左/
-    - xform/^ae(?![左右])/i左/
-    - xform/^aw(?![左右])/o左/
-    - xform/^qf(?![左右])/p左/
-    - xform/^as(?![左右])/l左/
-    - xform/^ad(?![左右])/k左/
-    - xform/^af(?![左右])/j左/
-    - xform/^ag(?![左右])/h左/
-    - xform/^ac(?![左右])/m左/
-    - xform/^av(?![左右])/n左/
-
-    # 定义右手15键
-    - xform/jp(?![左右])$/q右/
-    - xform/jo(?![左右])$/w右/
-    - xform/ji(?![左右])$/e右/
-    - xform/ul(?![左右])$/r右/
-    - xform/yl(?![左右])$/t右/
-    - xform/l;(?![左右])$/s右/
-    - xform/kl(?![左右])$/d右/
-    - xform/jk(?![左右])$/f右/
-    - xform/hl(?![左右])$/g右/    
-    - xform/mk(?![左右])$/z右/
-    - xform/nk(?![左右])$/x右/
-    - xform/ml(?![左右])$/c右/
-    - xform/nl(?![左右])$/v右/
-    - xform/ni(?![左右])$/b右/
-    - xform/;(?![左右])$/a右/
-  # 并击完成后套用式样
-  output_format:
-    - "xform/^(.*)左/$1/"
-    - "xform/^(.*)右$/$1/"
-    - "xform/^(.*)左(.*)右$/$1$2/"
-```
-
-这样相当于左右手都能控制26个字母。（这段配置参考了星空键道）
-我可以做到只用左手打字，也可以实现左右手并击，敲一次出一个字。因为我的字母顺序是左手字母在前，这样并击出来的字符就一定是声母在前。
-
-例如：
-
-地，本来就是左手声母，只需要并击d和i即可
-皮，p在右手需要映射到左手，用qf，所以并击qf就出现p，并击qfi 就出现皮
-么，m在右手，e在左手，正好相反。需要并击ac出m 并击ji出e，并击acji出么
-我的方案优点是可串击可并击，可正常打字，可用单手。
-我只是在正常双拼基础上，加了左右手映射。映射规则基本上就是镜像一下再加个字母，例如yuio镜像到左手分别是trew加上a，p是q加上f
+[并击原理](https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%B9%B6%E5%87%BB%E5%8E%9F%E7%90%86)
 
 ### todo
 
