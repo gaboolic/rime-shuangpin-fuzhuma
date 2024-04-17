@@ -37,11 +37,13 @@
 
 其实	q	2
 为什么	w	2
+往往	w	1
 而且	e	2
 然后	r	2
 同时	t	2
 有没有	y	2
-是不是	u	2
+什么	u	2
+是不是	u	1
 差不多	i	2
 偶	o	2
 平时	p	2
@@ -798,93 +800,177 @@
 温暖	wn	2
 比如	br	3
 不然	br	2
-好奇	hq
-照片	vp
-暗自	az
-呕吐	ot
-下次	xc
-从前	cq
-## 安保	ab
-暗示	au
-平时	ps
-配额	pe
-暂且	zq
-思念	sn
-索取	sq
-恩赐	ec
-法庭	ft
-文字	wz
-儿童	et
-偶尔	oe
-人口	rk
-其中	qv
-一片	yp
-热点	rd
-安慰	aw
-才行	cx
-空气	kq
-人品	rp
-偶然	or
-课程	ki
-而非	ef
-身边	ub
-出去	iq
-红包	hb
-企鹅	qe
-夫人	fr
-每人	mr
-二者	ev
-恩爱	ea
-餐厅	ct
-事实	us
-安抚	af
-所谓	sw
-暧昧	am
-机会	jh
-衣服	yf
-而已	ey
-案例	al
-后面	hm
-耳机	ej
-人性	rx
-资本	zb
-冬天	dt
-安康	ak
-奇偶	jo
-凹凸	at
-噩梦	em
-饿了	el
-恶心	ex
-耳朵	ed
-恶搞	eg
-耳畔	ep
-邪恶	xe
-不饿	be
-挨饿	ae
-饿死	es
-爱人	ar
-万岁	ws
-空白	kb
-可怕	kp
-胃口	wk
-骗人	pr
-发财	fc
-暗算	as
-群殴	qo
-不要	by
-并且	bq
-欧元	oy
-购买	gm
-裁判	cp
-其次	qc
-物品	wp
-在看	zk
-幸福	xf
-父母	fm
-而是 	eu
+获取	hq	3
+好奇	hq	2
+招聘	vp	3
+照片	vp	2
+暗自	az	3
+案子	az	2
+呕吐	ot	2
+香菜	xc	3
+下次	xc	2
+从前	cq	3
+采取	cq	2
+## 安保	ab	2
+按时	au	3
+暗示	au	2
+平时	ps	3
+配送	ps	2
+配额	pe	2
+暂且	zq	3
+再去	zq	2
+思念	sn	3
+酸奶	sn	2
+索取	sq	3
+诉求	sq	2
+恩赐	ec	3
+二次	ec	2
+发帖	ft	3
+法庭	ft	2
+我在	wz	3
+文字	wz	2
+儿童	et	3
+额头	et	2
+偶尔	oe	2
+认可	rk	3
+入口	rk	2
+人口	rk	1
+其中	qv	3
+前缀	qv	2
+一片	yp	3
+硬盘	yp	2
+热点	rd	2
+安慰	aw	2
+才行	cx	3
+操心	cx	2
+块钱	kq	3
+开启	kq	2
+空气	kq	1
+人品	rp	2
+任凭	rp	1
+偶然	or	2
+开除	ki	3
+课程	ki	2
+而非	ef	3
+二份	ef	2
+失败	ub	3
+身边	ub	2
+出去	iq	3
+重启	iq	2
+红包	hb	3
+合并	hb	2
+全额	qe	3
+企鹅	qe	2
+分润	fr	3
+夫人	fr	2
+默认	mr	3
+每人	mr	2
+二者	ev	3
+而这	ev	2
+恩爱	ea	3
+嗯啊	ea	1
+辞退	ct	3
+餐厅	ct	2
+试试	us	3
+申诉	us	2
+安抚	af	3
+爱妃	af	2
+所谓	sw	3
+思维	sw	2
+暧昧	am	3
+奥秘	am	2
+就会	jh	3
+机会	jh	2
+衣服	yf	3
+运费	yf	2
+而已	ey	3
+恶意	ey	2
+安利	al	3
+案例	al	2
+还没	hm	3
+后面	hm	2
+耳机	ej	3
+二级	ej	2
+如下	rx	3
+人性	rx	2
+左边	zb	3
+资本	zb	2
+动态	dt	3
+冬天	dt	2
+爱看	ak	3
+安康	ak	2
+解耦	jo	3
+奇偶	jo	2
+艾特	at	3
+凹凸	at	2
+噩梦	em	3
+耳鸣	em	2
+饿了	el	3
+二楼	el	2
+恶心	ex	3
+恶性	ex	2
+耳朵	ed	3
+额度	ed	2
+恶搞	eg	3
+儿歌	eg	2
+耳畔	ep	3
+邪恶	xe	3
+限额	xe	2
+不饿	be	3
+榜二	be	2
+挨饿	ae	3
+饿死	es	3
+耳塞	es	2
+按日	ar	3
+爱人	ar	2
+猥琐	ws	3
+万岁	ws	2
+空白	kb	3
+恐怖	kb	2
+可怕	kp	3
+卡片	kp	2
+网课	wk	3
+文库	wk	2
+骗人	pr	3
+烹饪	pr	2
+譬如	pr	1
+发财	fc	3
+分词	fc	2
+暗算	as	3
+爱死	as	2
+群殴	qo	3
+求偶	qo	2
+不用	by	3
+不要	by	2
+并且	bq	3
+标签	bq	2
+表情	bq	1
+偶遇	oy	3
+欧元	oy	2
+干嘛	gm	3
+感冒	gm	2
+购买	gm	1
+操盘	cp	3
+彩票	cp	2
+脆皮	cp	1
+其次	qc	3
+清仓	qc	2
+物品	wp	3
+网盘	wp	2
+在看	zk	3
+做空	zk	2
+修复	xf	3
+想法	xf	2
+幸福	xf	1
+发明	fm	3
+方面	fm	2
+父母	fm	1
+而是 	eu	3
+二是 	eu	2
+二审 	eu	1
 ## 收到	
-什么	sm
-
+扫码	sm	3
+扫描	sm	2
 
 ##	
 常用个人信息
