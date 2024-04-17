@@ -1,4 +1,4 @@
-## 置顶词与自定义词组在这个文件里指定
+## 置顶词与自定义词组在这个文件里指定 排序原则上语气词 动词 形容词>名词
 ## 格式：文本-输入码-权重，其间用 Tab 符分隔。
 ## 如要添加新的，可以复制已有的行，然后在其基础上修改。
 ## 置顶字词
@@ -456,191 +456,348 @@
 # 字	zi	2
 
 ## 难道	
-一定	yd
-因为	yw
-朋友	py
-简单	jd
-所以	sy
-我们	wm
-从来	cl
-只能	vn
-修改	xg
-反正	fv
-文本	wb
-重新	ix
-可能	kn
+一定	yd	3
+有点	yd	2
+因为	yw	3
+以为	yw	2
+培养	py	3
+便宜	py	2
+拼音	py	1
+简单	jd	3
+所以	sy	3
+所有	sy	2
+我们	wm	3
+外卖	wm	2
+从来	cl	3
+策略	cl	2
+只能	vn	3
+指南	vn	2
+修改	xg	3
+效果	xg	2
+反正	fv	3
+分钟	fv	2
+文本	wb	3
+五笔	wb	2
+微博	wb	1
+重新	ix	3
+程序	ix	2
+可能	kn	3
+困难	kn	2
 ## 需要	
-姐姐	jj
+解决	jj	3
+仅仅	jj	2
+基金	jj	1
 非常	fi
 问题	wt
-成为	iw
-结果	jg
-水平	up
-梦想	mx
+成为	iw	3
+车位	iw	2
+结果	jg	3
+价格	jg	2
+审批	up	3
+视频	up	3
+明显	mx	3
+模型	mx	2
 ## 容易	
 ## 自己	
-现在	xz
-方向	fx
-## 价值	jv
-发布	fb
-许多	xd
-循环	xh
-本来	bl
-准备	vb
+现在	xz	3
+选择	xz	2
+发现	fx	3
+方向	fx	2
+价值	jv	3
+简直	jv	2
+发布	fb	3
+方便	fb	2
+许多	xd	3
+新的	xd	2
+喜欢	xh	3
+信号	xh	2
+本来	bl	3
+比例	bl	2
+准备	vb	3
+指标	vb	2
 ## 首先	
-## 统一	
-## 了解	
-有些	yx
-目前	mq
-知道	vd
-改变	gb
+## 同意	
+## 了解	理解 逻辑
+有些	yx	3
+游戏	yx	2
+目前	mq	3
+明确	mq	2
+知道	vd	3
+真的	vd	2
+根本	gb
 浪费	lf
 一直	yv
-认为	rw
-努力	nl
+认为	rw	3
+任务	rw	2
+哪里	nl	3
+能力	nl	2
 才能	cn
-掌握	vw
-终于	vy
-东西	dx
-怎么	zm
-这么	vm
-随便	sb
-而且	eq
-唯一	wy
-要求	yq
-联系	lx
-地方	df
-应该	yg
-## 论坛	
-富有	fy
+掌握	vw	3
+中午	vw	2
+终于	vy	3
+这样	vy	2
+东西	dx	3
+对象	dx	2
+怎么	zm	3
+在吗	zm	2
+咱们	zm	1
+这么	vm	3
+周末	vm	2
+随便	sb	3
+散步	sb	2
+而且	eq	3
+二期	eq	2
+唯一	wy	3
+我也	wy	2
+以前	yq	3
+一起	yq	2
+联系	lx	3
+类型	lx	2
+地方	df	3
+对方	df	2
+应该	yg	3
+一个	yg	2
+## 聊天	
+翻译	fy	3
+反应	fy	2
 ## 怎样	
 完成	wi
-一年	yn
-美丽	ml
-台湾	tw
-传统	it
+一年	yn	3
+也能	yn	2
+命令	ml	3
+没了	ml	2
+提问	tw	3
+台湾	tw	3
+冲突	it	3
+传统	it	2
 欧洲	ov
-漂亮	pl
-日本	rb
-安静	aj
-怀念	hn
-热闹	rn
-西安	xa
-骄傲	ja
-科目	km
-特别	tb
+评论	pl	3
+漂亮	pl	2
+日报	rb	3
+日本	rb	2
+安静	aj	3
+按键	aj	2
+还能	hn	3
+很难	hn	2
+让你	rn	3
+热闹	rn	2
+行啊	xa	3
+西安	xa	2
+就按	ja	3
+骄傲	ja	2
+抠门	km	3
+科目	km	2
+特别	tb	3
+贴吧	tb	2
 西欧	xo
-奇怪	qg
-人类	rl
-希望	xw
+奇怪	qg	3
+全国	qg	2
+认领	rl	3
+日历	rl	2
+人类	rl	2
+希望	xw	3
+下午	xw	2
 ## 自然	
-安定	ad
-昨天	zt
+挨打	ad	3
+安定	ad	2
+昨天	zt	3
+字体	zt	2
 烦恼	fn
 今天	jt
-警察	jc
-明天	mt
-洒脱	st
-后天	ht
-发生	fs
-天天	tt
-安逸	ay
-日期	rq
-之前	vq
-心中	xv
+检测	jc	3
+警察	jc	2
+明天	mt	3
+每天	mt	2
+洒脱	st	3
+三天	st	2
+宋体	st	1
+后天	ht	3
+后台	ht	2
+发送	fs	3
+粉丝	fs	3
+天天	tt	3
+调通	tt	2
+安逸	ay	3
+阿姨	ay	2
+日期	rq	3
+人群	rq	2
+之前	vq	3
+正确	vq	2
+心中	xv	3
+限制	xv	2
 安排	ap
-## 民主	mv
-天气	tq
-人们	rm
-热爱	ra
-微信	wx
-现金	xj
-网络	wl
-爱情	aq
-法律	fl
+命中	mv	3
+没准	mv	2
+提前	tq	3
+天气	tq	2
+人们	rm	3
+入门	rm	2
+热爱	ra	3
+仁爱	ra	2
+微信	wx	3
+我想	wx	2
+休假	xj	3
+现金	xj	2
+忘了	wl	3
+网络	wl	2
+未来	wl	1
+安全	aq	3
+爱情	aq	2
+分类	fl	3
+法律	fl	2
 脑子	nz
-数量	sl
-成本	ib
-资料	zl
+算了	sl	3
+数量	sl	2
+传播	ib	3
+成本	ib	2
+走了	zl	3
+资料	zl	2
 金额	je
-到了	dl
-积分	jf
-没有	my
-神奇	uq
-放弃	fq
-碎片	sp
-思考	sk
-错误	cw
-分配	fp
-公平	gp
-承诺	in
-好处	hi
+登录	dl	3
+到了	dl	2
+积分	jf	3
+经费	jf	2
+没用	my	3
+美元	my	2
+申请	uq	3
+事情	uq	2
+放弃	fq	3
+番茄	fq	2
+碎片	sp	3
+赛跑	sp	2
+思考	sk	3
+三快	sk	2
+速开	sk	1
+错误	cw	3
+仓位	cw	2
+分配	fp	3
+发票	fp	2
+公平	gp	3
+股票	gp	2
+承诺	in	3
+吹牛	in	2
+合成	hi	3
+好处	hi	2
 产品	ip
-功能	gn
+功能	gn	3
+概念	gn	2
 完全	wq
 不同	bt
-在线	zx
-平台	pt
-参考	ck
-温柔	wr
-额外	ew
-昂贵	ag
+在线	zx	3
+咨询	zx	2
+普通	pt	3
+平台	pt	2
+参考	ck	3
+仓库	ck	2
+污染	wr	3
+温柔	wr	2
+微软	wr	1
+额外	ew	3
+二位	ew	2
+爱国	ag	3
+昂贵	ag	2
 儿子	ez
-原来	yl
-内心	nx
-同学	tx
+原来	yl	3
+依赖	yl	2
+哪些	nx	3
+内心	nx	2
+填写	tx	3
+同学	tx	2
+腾讯	tx	1
 ## 似乎	
-空调	kt
+开通	kt	3
+开头	kt	3
 如同	rt
-家务	jw
+今晚	jw
 偶像	ox
-代表	db
-马上	ms
-聪明	cm
+代表	db	3
+的吧	db	2
+貌似	ms	3
+马上	ms	2
+聪明	cm	3
+层面	cm	2
 而不	eb
-幽默	ym
-天赋	tf
-启发	qf
-爱心	ax
-脾气	pq
-反而	fe
+也没	ym	3
+页面	ym	2
+推翻	tf	3
+天赋	tf	2
+区分	qf	3
+气氛	qf	2
+安心	ax	3
+爱心	ax	2
+赔钱	pq	3
+脾气	pq	2
+反而	fe	3
+份额	fe	2
 儿科	ek
-状态	vt
+状态	vt	3
+主题	vt	2
 沉默	im
-晚餐	wc
-千万	qw
-标准	bv
-讨论	tl
-期间	qj
+晚餐	wc	3
+午餐	wc	2
+千万	qw	3
+请问	qw	2
+备注	bv	3
+标准	bv	2
+讨论	tl	3
+套路	tl	2
+期间	qj	3
+请假	qj	2
 不再	bz
-奋斗	fd
-沟通	gt
+奋斗	fd	3
+饭店	fd	2
+沟通	gt	3
+高铁	gt	2
 作品	zp
-思想	sx
+缩写	sx	3
+思想	sx	2
 过程	gi
-灾难	zn
-和平	hp
-节奏	jz
-气候	qh
+在哪	zn	3
+灾难	zn	2
+害怕	hp	3
+和平	hp	2
+就在	jz	3
+加载	jz	2
+节奏	jz	1
+切换	qh	3
+情怀	qh	2
 身体	ut
-哀愁	ac
-从不	cb
-疯狂	fk
-妻子	qz
-癌症	av
-生命	um
-培训	px
-认真	rv
-角色	js
-配置	pv
-强大	qd
-文章	wv
-过去	gq
-比赛	bs
-必须	bx
-那样	ny
-温暖	wn
-不然	br
+暗藏	ac	3
+哀愁	ac	2
+才不	cb	3
+从不	cb	3
+反馈	fk	3
+疯狂	fk	2
+去做	qz	3
+棋子	qz	2
+按照	av	3
+安卓	av	2
+说明	um	3
+生命	um	2
+培训	px	3
+拼写	px	2
+认真	rv	3
+日志	rv	2
+计算	js	3
+角色	js	2
+配置	pv	3
+确定	qd	3
+强大	qd	2
+缺点	qd	1
+网站	wv	3
+文章	wv	2
+过去	gq	3
+过期	gq	2
+不算	bs	3
+比赛	bs	2
+不行	bx	3
+必须	bx	2
+那样	ny	3
+农业	ny	2
+万能	wn	3
+温暖	wn	2
+比如	br	3
+不然	br	2
 好奇	hq
 照片	vp
 暗自	az
