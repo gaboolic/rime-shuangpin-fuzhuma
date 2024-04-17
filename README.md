@@ -29,20 +29,27 @@ changcijian、changcijian3文件是自动从雾凇词库里取的
 ### 输入效果
 
 整句输入插入字辅：
+
 ![醉洛阳](readmeimg/qimhzly.png)
 
 打词时插入辅助码：
+
 ![寄宿](readmeimg/jisub.png)
+
 ![极速](readmeimg/jimsu.png)
 
 不认识的字可以笔画输入 `ab`引导 hspnz横竖撇捺折
+
 ![笔画](readmeimg/bihua.png)
 
 也可以部件组字输入 `az`引导
+
 ![部件](readmeimg/bujian.png)
+
 ![部件](readmeimg/bujian2.png)
 
 也可以输入仓颉码 `acj`引导
+
 ![仓颉](readmeimg/cangjie5.png)
 
 日期时间相关输入：date time week datetime timestamp。
