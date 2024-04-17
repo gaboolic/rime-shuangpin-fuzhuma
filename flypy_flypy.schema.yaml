@@ -207,7 +207,7 @@ reverse_zrlf:
   tag: reverse_zrlf
   dictionary: zrlf # stroke
   enable_completion: true
-  prefix: "olf"
+  prefix: "alf"
   suffix: "'"
   tips: 〔自然兩分〕
   preedit_format:
