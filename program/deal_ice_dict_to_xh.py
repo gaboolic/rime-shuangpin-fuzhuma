@@ -32,12 +32,17 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
         if len(line.split('\t')) == 3:
             character, encoding, frequency = line.split('\t')
         else:
-           character, encoding = line.split('\t')
+            character, encoding = line.split('\t')
         
         
-        if encoding == "100":
-            updated_content += line + '\n'
+        if "tencent" in file_path :
+            updated_line = f"{character}\t99"
+            updated_content += updated_line + '\n'
             continue
+        else:
+            if encoding == "100":
+                updated_content += line + '\n'
+                continue
 
         pinyin_list = encoding.split(" ")
         double_list = ""
@@ -129,18 +134,21 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
             # updated_content += line + '\n'
             pass
 
-        if frequency is not None:
-            updated_line = f"{character}\t{double_list}\t{frequency}"
-        else :
-            updated_line = f"{character}\t{double_list}"
+        if "tencent" in file_path :
+            updated_line = f"{character}\t99"
+        else:
+            if frequency is not None:
+                updated_line = f"{character}\t{double_list}\t{frequency}"
+            else :
+                updated_line = f"{character}\t{double_list}"
         updated_content += updated_line + '\n'
 
     # Write the updated content back to the file
     write_file(write_file_path, updated_content)
 
 dict_data = {}
-file_list = ['8105.dict.yaml', '41448.dict.yaml', 'base.dict.yaml', 'ext.dict.yaml', 'others.dict.yaml', 'tencent.dict.yaml']
-
+# file_list = ['8105.dict.yaml', '41448.dict.yaml', 'base.dict.yaml', 'ext.dict.yaml', 'others.dict.yaml', 'tencent.dict.yaml']
+file_list = [ 'tencent.dict.yaml']
 # Load the dict data from the provided file
 with open('./flypydz.yaml', 'r', encoding='utf-8') as dict_file:
     for line in dict_file:
