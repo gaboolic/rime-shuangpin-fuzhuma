@@ -107,7 +107,10 @@ key_binder:
       - key_bindings:/emacs_editing
       - key_bindings:/move_by_word_with_tab
       - key_bindings:/paging_with_minus_equal
-      - key_bindings:/paging_with_comma_period
+
+      # 使用,和.来翻页
+      # - key_bindings:/paging_with_comma_period
+      
       - key_bindings:/numbered_mode_switch
 
 recognizer:
