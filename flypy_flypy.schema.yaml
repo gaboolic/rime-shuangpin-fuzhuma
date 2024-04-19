@@ -80,6 +80,9 @@ date_translator:
   week: week            # 星期： 星期二
   datetime: datetime    # ISO 8601： 2022-11-29T18:13:11+08:00
   timestamp: timestamp  # 时间戳： 1669716794
+
+# Lua 配置：农历的触发关键字
+lunar: anl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
   
 # Lua 配置：长词优先
 # 提升 count 个词语，插入到第 idx 个位置。
