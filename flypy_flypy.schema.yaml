@@ -58,6 +58,7 @@ engine:
     - reverse_lookup_translator@reverse_stroke
     - reverse_lookup_translator@reverse_zrlf
     - reverse_lookup_translator@reverse_cj
+    - reverse_lookup_translator@reverse_chaizi
     - script_translator
     - script_translator@quanpin
     - table_translator@emojis
