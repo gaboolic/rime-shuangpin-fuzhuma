@@ -125,12 +125,20 @@ speller:
     # - xform/^([^\[]*)in$/$1B/
     # - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
 
+    # 模糊音 可选择性开启
+    # - derive/^z([a-z])/v$1/
+    # - derive/^c([a-z])/i$1/
+    # - derive/^s([a-z])/u$1/
+    # - derive/^v([a-z])/z$1/
+    # - derive/^i([a-z])/c$1/
+    # - derive/^u([a-z])/s$1/
+
     - derive/^(..)[[].+$/$1/
     - derive/^(..[[].).+$/$1/
     # - derive/^([jqxy])u/$1v/
-    - derive/[[]// ## 取消注释后：直接引导辅助码
+    - derive/[[]//
 
-     ## 飞键 可选择性开启
+    ## 飞键 可选择性开启
     # - derive/^([yh])j/$1q/
     # - derive/^qx/qw/
     # - derive/^jn/jv/
@@ -139,6 +147,8 @@ speller:
     # - derive/^([y])h/$1g/
     # - derive/^([rgv])f/$1m/
     # - derive/^([rgv])c/$1n/
+
+
     
     
 
