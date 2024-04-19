@@ -12,6 +12,7 @@ schema:
     小鹤双拼+辅助码
   dependencies:
     - chaizi
+    - radical_flypy
     - stroke
     - zrlf
     - emoji
