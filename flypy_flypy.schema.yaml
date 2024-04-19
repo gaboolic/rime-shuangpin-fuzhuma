@@ -299,7 +299,7 @@ recognizer:
 
     easy_en_simp: "^aw[a-z]*"
     unicode: "^au[a-f0-9]+"              # au 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
-    number: "^ar[0-9]+[.]?[0-9]*"        # ar 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
+    number: "^R[0-9]+[.]?[0-9]*"        # R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
     gregorian_to_lunar: "^anl[0-9]{1,8}"  # anl 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
 
 menu:
