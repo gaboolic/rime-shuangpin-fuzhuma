@@ -62,11 +62,11 @@ engine:
     - script_translator@quanpin
     - table_translator@emojis
     - table_translator@soft_capslock
-    - lua_translator@unicode            # Unicode
-    - lua_translator@number_translator  # 数字、金额大写
     - lua_translator@date_translator    # 时间、日期、星期
     - lua_translator@lunar              # 农历
     - table_translator@easy_en_simp ## 添加注释后：停用单词输入
+    - lua_translator@unicode            # Unicode
+    - lua_translator@number_translator  # 数字、金额大写
   filters:
     - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
     - simplifier@emoji                              # Emoji
