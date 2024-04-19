@@ -1,5 +1,6 @@
+# 说明
 
-rime配置文件,词库使用最强简体词库——[雾凇拼音](https://github.com/iDvel/rime-ice)，在雾凇拼音的基础上实现自然码双拼、小鹤双拼，以及对应的辅助码。本人用的是这个方案，所以更新有保证
+[此仓库](https://github.com/gaboolic/rime-shuangpin-fuzhuma)为rime配置文件,词库使用最强简体词库——[雾凇拼音](https://github.com/iDvel/rime-ice)，在雾凇拼音的基础上实现自然码双拼、小鹤双拼，以及对应的辅助码。本人用的是这个方案，所以更新有保证
 
 配置文件参考[小鹤双拼+自然快手/小鹤双形辅助码](https://github.com/functoreality/rime-flypy-zrmfast)
 
@@ -89,9 +90,9 @@ flypy_flypy.shema.yaml里飞键 可选择性开启
 
 小鹤双拼+辅助码 <https://gitee.com/functoreality/rime-flypy-zrmfast>
 
-星空键道：<https://github.com/xkinput/Rime_JD>
-
 魔然（自然码双拼辅助码）：<https://github.com/ksqsf/rime-moran>
+
+星空键道：<https://github.com/xkinput/Rime_JD>
 
 手机版trime皮肤 <https://github.com/SivanLaai/rime-pure>
 
