@@ -59,7 +59,6 @@ engine:
     - reverse_lookup_translator@reverse_stroke
     - reverse_lookup_translator@reverse_zrlf
     - reverse_lookup_translator@reverse_cj
-    - reverse_lookup_translator@reverse_chaizi
     - script_translator
     - script_translator@quanpin
     - table_translator@emojis
@@ -208,7 +207,7 @@ custom_phrase:
   initial_quality: 1
 
 reverse_lookup:
-  dictionary: radical_flypy
+  dictionary: radical_flypy # https://github.com/mirtlecn/rime-radical-pinyin
   enable_completion: true
   prefix: "az"
   suffix: "'"
@@ -247,15 +246,6 @@ reverse_stroke:
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
 
-reverse_chaizi:
-  tag: reverse_chaizi
-  dictionary: radical_flypy
-  enable_completion: true
-  prefix: "ai"
-  suffix: "'"
-  tips: 〔拆字〕
-  preedit_format:
-    # - xlit/hspnz/一丨丿丶乙/
 
 # Emoji
 emoji:
@@ -311,7 +301,6 @@ recognizer:
     reverse_stroke: "^ab[A-Za-z]*$"
     reverse_cj: "^acj[A-Za-z]*$"
     reverse_zrlf: "^alf[A-Za-z]*$"
-    reverse_chaizi: "^ai[A-Za-z]*$"
 
     easy_en_simp: "^aw[a-z]*"
     unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
