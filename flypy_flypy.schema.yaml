@@ -49,9 +49,7 @@ engine:
     - affix_segmentor@emojis
     - affix_segmentor@verbatim ## not as the last of this list
     - affix_segmentor@soft_capslock
-    - affix_segmentor@dbpy_flypy_help
     - affix_segmentor@easy_en_simp
-    - affix_segmentor@tex_translator
     - fallback_segmentor
   translators:
     - punct_translator
@@ -64,10 +62,10 @@ engine:
     - script_translator@quanpin
     - table_translator@emojis
     - table_translator@soft_capslock
-    - table_translator@dbpy_flypy_help
-    - lua_translator@tex_translator
-    - lua_translator@func_translator
+    - lua_translator@unicode            # Unicode
+    - lua_translator@number_translator  # 数字、金额大写
     - lua_translator@date_translator    # 时间、日期、星期
+    - lua_translator@lunar              # 农历
     - table_translator@easy_en_simp ## 添加注释后：停用单词输入
   filters:
     - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
@@ -293,23 +291,22 @@ recognizer:
   patterns:
     uppercase: "^[A-Z].*$"
     punct: '^/[015-9A-Za-z]+$' ## use "/er" instead of "/2"
-    ## associate schemes: 
+    ## 拆字、笔画、仓颉: 
     reverse_lookup: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
     reverse_stroke: "^ab[A-Za-z]*$"
     reverse_cj: "^acj[A-Za-z]*$"
     reverse_zrlf: "^alf[A-Za-z]*$"
-    verbatim: "^as.*$"
+
     easy_en_simp: "^aw[a-z]*"
+    unicode: "^au[a-f0-9]+"              # au 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
+    number: "^ar[0-9]+[.]?[0-9]*"        # ar 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
+    gregorian_to_lunar: "^anl[0-9]{1,8}"  # anl 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
 
 menu:
   page_size: 8
 
 
 
-verbatim:
-  tag: verbatim ## english; ascii
-  prefix: "as"
-  tips: "cii"
 
 easy_en_simp:
   tag: easy_en_simp
