@@ -250,7 +250,7 @@ reverse_chaizi:
   tag: reverse_chaizi
   dictionary: radical_flypy
   enable_completion: true
-  prefix: "ac"
+  prefix: "ai"
   suffix: "'"
   tips: 〔拆字〕
   preedit_format:
@@ -310,7 +310,7 @@ recognizer:
     reverse_stroke: "^ab[A-Za-z]*$"
     reverse_cj: "^acj[A-Za-z]*$"
     reverse_zrlf: "^alf[A-Za-z]*$"
-    reverse_chaizi: "^ac[A-Za-z]*$"
+    reverse_chaizi: "^ai[A-Za-z]*$"
 
     easy_en_simp: "^aw[a-z]*"
     unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
