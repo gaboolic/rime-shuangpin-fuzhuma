@@ -84,6 +84,10 @@ flypy_flypy.shema.yaml里飞键 可选择性开启
 
 简繁转换问题
 
+加火星文支持
+
+41448大字辅助码补完计划
+
 ### 鸣谢
 
 雾凇词库 <https://github.com/iDvel/rime-ice>
