@@ -83,7 +83,7 @@ flypy_flypy.shema.yaml里飞键 可选择性开启
 
 6码时 3字词提前lua
 
-### 参考
+### 鸣谢
 
 雾凇词库 <https://github.com/iDvel/rime-ice>
 
@@ -96,3 +96,5 @@ flypy_flypy.shema.yaml里飞键 可选择性开启
 手机版trime皮肤 <https://github.com/SivanLaai/rime-pure>
 
 细胞词库&各个发行版配置 <https://github.com/Bambooin/rimerc>
+
+拆字使用的词典 <https://github.com/mirtlecn/rime-radical-pinyin>
