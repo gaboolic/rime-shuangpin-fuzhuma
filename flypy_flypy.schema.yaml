@@ -301,9 +301,9 @@ recognizer:
     reverse_zrlf: "^alf[A-Za-z]*$"
 
     easy_en_simp: "^aw[a-z]*"
-    unicode: "^au[a-f0-9]+"              # au 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
-    number: "^R[0-9]+[.]?[0-9]*"        # R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
-    gregorian_to_lunar: "^anl[0-9]{1,8}"  # anl 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
+    unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
+    number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
+    gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
 
 menu:
   page_size: 8
