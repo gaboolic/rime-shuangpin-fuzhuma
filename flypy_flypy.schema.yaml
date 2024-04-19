@@ -206,17 +206,17 @@ custom_phrase:
   initial_quality: 1
 
 reverse_lookup:
-  dictionary: chaizi_flypy # stroke
+  dictionary: radical_flypy
   enable_completion: true
   prefix: "az"
   suffix: "'"
-  tips: 〔部件组字〕 # 〔筆畫〕
+  tips: 〔部件组字〕
   preedit_format:
     # - xlit/hspnz/一丨丿丶乙/
 
 reverse_zrlf:
   tag: reverse_zrlf
-  dictionary: zrlf # stroke
+  dictionary: zrlf
   enable_completion: true
   prefix: "alf"
   suffix: "'"
