@@ -208,7 +208,7 @@ custom_phrase:
   initial_quality: 1
 
 reverse_lookup:
-  dictionary: chaizi_flypy
+  dictionary: radical_flypy
   enable_completion: true
   prefix: "az"
   suffix: "'"
