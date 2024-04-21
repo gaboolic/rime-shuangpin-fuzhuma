@@ -88,6 +88,8 @@ flypy_flypy.shema.yaml里飞键 可选择性开启
 
 41448大字辅助码补完计划
 
+2码 空格打字 tab打词
+
 ### 鸣谢
 
 雾凇词库 <https://github.com/iDvel/rime-ice>
