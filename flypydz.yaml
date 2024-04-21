@@ -1,6 +1,13 @@
-# 手动维护的码表
-# 增加 㹴
-# 家 蒙 末码统一为u
+# Rime dictionary
+# encoding: utf-8
+# license: CC-BY 4.0
+
+# 有增改，个别编码非原版鹤形
+#
+# 修改：
+# 家 蒙 末码统一为u（豕shi）
+# 增加 㹴、卍、濛等字
+
 ---
 name: flypydz
 version: "1.0"
@@ -16,6 +23,7 @@ version: "1.0"
 
 濛	mgdu
 㹴	ggqg
+
 阿	aaek
 锕	aajk
 啊	aakk
