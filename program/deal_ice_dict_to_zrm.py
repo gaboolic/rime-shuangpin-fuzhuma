@@ -72,42 +72,43 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
                 if double_shengmu == 'e':
                     yunmu = pinyin
                 
-                yunmu_map = {
+                yunmu_map = yunmu_map = {
                     'iu': 'q',
-                    'ei': 'w',
+                    'ia': 'w',
+                    'ua': 'w',
                     'uan': 'r',
                     'van': 'r',
 
                     'ue': 't',
                     've': 't',
-                    'un': 'y',
-                    'vn': 'y',
+                    'uai': 'y',
+                    'ing': 'y',
                     'uo': 'o',
-                    'ie': 'p',
+                    'un': 'p',
+                    'vn': 'p',
 
                     'iong': 's',
                     'ong': 's',
 
-                    'ai': 'd',
+                    'iang': 'd',
+                    'uang': 'd',
+
                     'en': 'f',
 
                     'eng': 'g',
                     'ang': 'h',
                     'an': 'j',
 
-                    'ing': 'k',
-                    'uai': 'k',
-                    'iang': 'l',
-                    'uang': 'l',
+                    'ao': 'k',
+                    'ai': 'l',
 
-                    'ou': 'z',
-                    'ia': 'x',
-                    'ua': 'x',
-                    'ao': 'c',
+                    'ei': 'z',
+                    'ie': 'x',
+                    'iao': 'c',
                     'ui': 'v',
-                    'in': 'b',
+                    'ou': 'b',
 
-                    'iao': 'n',
+                    'in': 'n',
 
                     'ian': 'm',
                 };
@@ -153,10 +154,12 @@ file_list = ['8105.dict.yaml', '41448.dict.yaml', 'base.dict.yaml', 'ext.dict.ya
 with open('./moran.chars.dict.yaml', 'r', encoding='utf-8') as dict_file:
     for line in dict_file:
         if "\t" in line:
-            character, encoding = line.strip().split('\t')
+            params = line.strip().split('\t')
+            character = params[0]
+            encoding = params[1]
             if "'" not in encoding:
                 encoding_pre = encoding[:2]
-                encoding_post = encoding[2:]
+                encoding_post = encoding[3:]
                 if character not in dict_data:
                     dict_data[character] = encoding_post
 
