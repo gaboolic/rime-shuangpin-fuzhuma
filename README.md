@@ -66,13 +66,15 @@ linux ~/.local/share/fcitx5/rime
 
 android <https://github.com/fcitx5-android/fcitx5-android> /Android/adata/org.fcitx.fcitx5.android/files/data/rime
 
-### 飞键相关
+### 飞键 模糊音相关
 
 flypy_flypy.shema.yaml里飞键 可选择性开启
 
 - derive/^([yh])j/$1q/    yj hj就可以打yq hq
 
 - derive/^qx/qw/  qx就可以打qw
+
+模糊音同理，也是使用derive把平舌音翘舌音互转、前后鼻音互转
 
 ### 并击相关
 
