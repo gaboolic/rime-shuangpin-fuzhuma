@@ -34,7 +34,7 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: 8105
-version: "2024-04-06"
+version: "2024-04-19"
 sort: by_weight
 ...
 ### 按需启用
@@ -751,8 +751,8 @@ sort: by_weight
 鲳	ih[ao	98
 鲿	ih[as	0
 𬬮	ih[ji	0
+超	ic[tk	839240
 朝	ic[uo	709793
-超	ic[tk	383924
 潮	ic[do	139090
 吵	ic[ku	117058
 嘲	ic[ko	67228
@@ -2573,8 +2573,8 @@ sort: by_weight
 烠	hv[ho	0
 𬤝	hv[yx	0
 𬭬	hv[je	0
-婚	hy[no	386955
 混	hy[db	338565
+婚	hy[no	306955
 魂	hy[eg	291928
 昏	hy[uo	197245
 浑	hy[di	175322
@@ -3123,13 +3123,13 @@ sort: by_weight
 桕	jq[mj	120
 氿	jq[dj	3
 㠇	jq[ey	0
-句	ju[bk	754300
-居	ju[uk	627014
-举	ju[xl	493503
+巨	ju[ka	753729
+举	ju[xl	693503
+居	ju[uk	527014
 局	ju[uk	461034
-巨	ju[ka	453729
 具	ju[qb	433976
 据	ju[fk	405279
+句	ju[bk	254300
 聚	ju[en	222383
 剧	ju[ud	220880
 距	ju[zj	193245
@@ -5017,14 +5017,14 @@ sort: by_weight
 䓫	qi[ck	0
 𨙸	qi[ue	0
 𬨂	qi[iu	0
-卡	qx[ub	0
-恰	qx[xk	0
-拤	qx[fb	0
-掐	qx[fj	0
-洽	qx[dk	0
-葜	qx[cd	0
-袷	qx[pk	0
-髂	qx[gk	0
+卡	qx[ub	5555
+恰	qx[xk	3333
+掐	qx[fj	2222
+洽	qx[dk	1111
+拤	qx[fb	2
+葜	qx[cd	1
+袷	qx[pk	1
+髂	qx[gk	1
 前	qm[bd	3967855
 钱	qm[jj	1034329
 千	qm[pu	794964
@@ -5448,11 +5448,11 @@ sort: by_weight
 爇	ro[ch	35
 蒻	ro[cd	20
 鄀	ro[ce	8
-萨	sa[ci	151844
 撒	sa[fw	140910
 洒	sa[dx	96761
 飒	sa[lx	12008
 仨	sa[rs	5719
+萨	sa[ci	5184
 卅	sa[al	1019
 靸	sa[gj	168
 挲	sa[du	100
@@ -5593,7 +5593,6 @@ sort: by_weight
 鞘	uc[go	1
 柖	uc[mk	0
 玿	uc[wk	0
-社	ue[pt	476704
 射	ue[uc	386983
 设	ue[yy	369436
 舍	ue[rk	276743
@@ -5601,6 +5600,7 @@ sort: by_weight
 舌	ue[qk	115405
 涉	ue[dp	80705
 摄	ue[fy	80547
+社	ue[pt	76704
 奢	ue[do	32985
 慑	ue[xy	20266
 赦	ue[tw	16333
@@ -6096,13 +6096,13 @@ sort: by_weight
 澹	tj[dk	1
 榃	tj[mt	0
 磹	tj[uu	0
-唐	th[gk	239749
 躺	th[uk	220026
 汤	th[dp	124040
-趟	th[tk	65492
 糖	th[mk	60725
+趟	th[tk	55492
 烫	th[dh	41461
 堂	th[xt	40819
+唐	th[gk	39749
 膛	th[ot	37836
 倘	th[rk	34043
 淌	th[dk	33568
@@ -6126,9 +6126,9 @@ sort: by_weight
 铴	th[jp	5
 䣘	th[xe	0
 鄌	th[ge	0
+套	tc[ds	478641
 逃	tc[zd	388318
 讨	tc[yc	282187
-套	tc[ds	278641
 桃	tc[md	107204
 涛	tc[dc	105605
 掏	tc[ff	102071
@@ -6357,9 +6357,9 @@ sort: by_weight
 忳	ty[xt	8
 焞	ty[hz	5
 褪	ty[pz	1
+拖	to[fy	463823
 脱	to[oe	375299
 托	to[fq	267516
-拖	to[fy	163823
 妥	to[pn	67901
 拓	to[fu	63143
 陀	to[eb	30349
@@ -8053,8 +8053,8 @@ sort: by_weight
 瘵	vd[bx	34
 祭	vd[px	1
 豸	vd[pp	1
-战	vj[lg	1924225
 站	vj[lk	994038
+战	vj[lg	924225
 展	vj[un	570379
 占	vj[lk	246282
 斩	vj[ij	102461
