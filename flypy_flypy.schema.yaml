@@ -24,8 +24,7 @@ switches:
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: simplification
-    reset: 1
-    states: [ 漢字, 汉字 ]
+    states: [ 简, 繁 ]
   - name: emoji
     states: [ 💀, 😄 ]
   - name: ascii_punct
