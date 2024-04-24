@@ -5,11 +5,13 @@
 schema:
   schema_id: flypy_flypy
   name: 小鹤双拼+鹤形辅助
-  version: "0.1"
+  version: "2024-04-24"
   author:
-    - Functoreality gaboolic
+    - Functoreality 
+    - Dvel
+    - gaboolic （裁缝)
   description: |
-    小鹤双拼+辅助码
+    小鹤双拼+辅助码 https://github.com/gaboolic/rime-shuangpin-fuzhuma
   dependencies:
     - chaizi
     - radical_flypy
@@ -23,7 +25,7 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
+  - name: traditionalization
     states: [ 简, 繁 ]
   - name: emoji
     states: [ 💀, 😄 ]
@@ -45,11 +47,7 @@ engine:
     - matcher
     - abc_segmentor
     - punct_segmentor
-    - affix_segmentor@quanpin
-    - affix_segmentor@emojis
     - affix_segmentor@verbatim ## not as the last of this list
-    - affix_segmentor@soft_capslock
-    - affix_segmentor@easy_en_simp
     - fallback_segmentor
   translators:
     - punct_translator
@@ -59,9 +57,6 @@ engine:
     - reverse_lookup_translator@reverse_zrlf
     - reverse_lookup_translator@reverse_cj
     - script_translator
-    - script_translator@quanpin
-    - table_translator@emojis
-    - table_translator@soft_capslock
     - lua_translator@date_translator    # 时间、日期、星期
     - lua_translator@lunar              # 农历
     - table_translator@easy_en_simp ## 添加注释后：停用单词输入

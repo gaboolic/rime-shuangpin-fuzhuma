@@ -5,14 +5,16 @@
 schema:
   schema_id: zrm_zrm
   name: 自然码双拼+辅助
-  version: "0.1"
+  version: "2024-04-24"
   author:
-    - Functoreality gaboolic
+    - Functoreality 
+    - Dvel
+    - gaboolic （裁缝)
   description: |
-    自然码双拼+辅助
+    自然码双拼+辅助码 https://github.com/gaboolic/rime-shuangpin-fuzhuma
   dependencies:
-    - luna_pinyin
     - chaizi
+    - radical_flypy
     - stroke
     - zrlf
     - emoji
@@ -23,9 +25,10 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
-    reset: 1
-    states: [ 漢字, 汉字 ]
+  - name: traditionalization
+    states: [ 简, 繁 ]
+  - name: emoji
+    states: [ 💀, 😄 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -44,12 +47,7 @@ engine:
     - matcher
     - abc_segmentor
     - punct_segmentor
-    - affix_segmentor@quanpin
-    - affix_segmentor@emojis
     - affix_segmentor@verbatim ## not as the last of this list
-    - affix_segmentor@soft_capslock
-    - affix_segmentor@easy_en_simp
-    - affix_segmentor@tex_translator
     - fallback_segmentor
   translators:
     - punct_translator
@@ -57,14 +55,13 @@ engine:
     - reverse_lookup_translator
     - reverse_lookup_translator@reverse_stroke
     - reverse_lookup_translator@reverse_zrlf
+    - reverse_lookup_translator@reverse_cj
     - script_translator
-    - script_translator@quanpin
-    - table_translator@emojis
-    - table_translator@soft_capslock
-    - lua_translator@tex_translator
-    - lua_translator@func_translator
     - lua_translator@date_translator    # 时间、日期、星期
+    - lua_translator@lunar              # 农历
     - table_translator@easy_en_simp ## 添加注释后：停用单词输入
+    - lua_translator@unicode            # Unicode
+    - lua_translator@number_translator  # 数字、金额大写
   filters:
     - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
     - simplifier@emoji                              # Emoji
@@ -78,6 +75,9 @@ date_translator:
   week: week            # 星期： 星期二
   datetime: datetime    # ISO 8601： 2022-11-29T18:13:11+08:00
   timestamp: timestamp  # 时间戳： 1669716794
+
+# Lua 配置：农历的触发关键字
+lunar: anl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
   
 # Lua 配置：长词优先
 # 提升 count 个词语，插入到第 idx 个位置。
@@ -121,28 +121,43 @@ speller:
     # - xform/^([^\[]*)in$/$1B/
     # - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
 
-    - derive/^(..).+$/$1/
+    # 模糊音 可选择性开启
+    # - derive/^z([a-z])/v$1/
+    # - derive/^c([a-z])/i$1/
+    # - derive/^s([a-z])/u$1/
+    # - derive/^v([a-z])/z$1/
+    # - derive/^i([a-z])/c$1/
+    # - derive/^u([a-z])/s$1/
+
+    - derive/^(..)[[].+$/$1/
     - derive/^(..[[].).+$/$1/
     # - derive/^([jqxy])u/$1v/
-    - derive/[[]// ## 取消注释后：直接引导辅助码
+    - derive/[[]//
 
     ## 飞键 可选择性开启
     # - derive/^([yh])j/$1q/
-    # - derive/^qx/qe/
+    # - derive/^qx/qw/
+    # - derive/^jn/jv/
     # - derive/^mn/mv/
     # - derive/^jm/jz/
     # - derive/^([y])h/$1g/
     # - derive/^([rgv])f/$1m/
     # - derive/^([rgv])c/$1n/
+
+
     
     
 
 translator:
   dictionary: zrm_zrm.extended
+  enable_completion: false
+  ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
+  ##  改为 1 则是只显示单字的输入码，依此类推。
   spelling_hints: 2
   comment_format:
     - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
-  # enable_user_dict: true
+
+  enable_user_dict: false # 是否开启自动调频 
   # preedit_format:
     # - "xform/((^|[ '])[bpmfdtnljqx])n/$1iao/"
     # - "xform/((^|[ '])\\w)g/$1eng/"
@@ -185,38 +200,46 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
 
-
-
-
 reverse_lookup:
-  dictionary: stroke
+  dictionary: radical_flypy # https://github.com/mirtlecn/rime-radical-pinyin
   enable_completion: true
-  prefix: "ab"
+  prefix: "az"
   suffix: "'"
-  tips: 〔筆畫〕
+  tips: 〔部件组字〕
   preedit_format:
     # - xlit/hspnz/一丨丿丶乙/
 
-
 reverse_zrlf:
   tag: reverse_zrlf
-  dictionary: zrlf # stroke
+  dictionary: zrlf
   enable_completion: true
-  prefix: "olf"
+  prefix: "alf"
   suffix: "'"
   tips: 〔自然兩分〕
   preedit_format:
     # - xlit/hspnz/一丨丿丶乙/
 
+reverse_cj:
+  tag: reverse_cj
+  dictionary: cangjie5
+  enable_completion: true
+  prefix: "acj"
+  suffix: "'"
+  tips: 〔仓颉〕
+  preedit_format:
+    - xform/^acj/仓颉5:/
+    - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|
+
 reverse_stroke:
   tag: reverse_stroke
   dictionary: stroke # stroke
   enable_completion: true
-  prefix: "ob"
+  prefix: "ab"
   suffix: "'"
-  tips: 〔筆畫〕 # 〔筆畫〕
+  tips: 〔筆畫hspnz〕 # 〔筆畫〕
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
+
 
 # Emoji
 emoji:
@@ -267,50 +290,23 @@ recognizer:
   patterns:
     uppercase: "^[A-Z].*$"
     punct: '^/[015-9A-Za-z]+$' ## use "/er" instead of "/2"
-    ## associate schemes: 
-    reverse_lookup: "^ab[a-z]*'?$" # "[[]b[a-z]*'?$"
-    reverse_stroke: "^ob[A-Za-z]*$"
-    reverse_zrlf: "^olf[A-Za-z]*$"
-    quanpin: "^ap[a-z]*'?$"
-    emojis: "^ae[a-z]*'?$" # "^ae.*$" 
-    verbatim: "^as.*$"
-    soft_capslock: "^au.*$"
+    ## 拆字、笔画、仓颉: 
+    reverse_lookup: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
+    reverse_stroke: "^ab[A-Za-z]*$"
+    reverse_cj: "^acj[A-Za-z]*$"
+    reverse_zrlf: "^alf[A-Za-z]*$"
+
     easy_en_simp: "^aw[a-z]*"
-    tex_translator: "^al(.*)$"
-    func_translator: "^af(.*)$"
+    unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
+    number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
+    gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
 
 menu:
   page_size: 8
 
-quanpin:
-  tag: quanpin
-  dictionary: luna_pinyin.extended ## 用户可自行改为扩展后的词典
-  prism: luna_pinyin
-  enable_completion: true
-  prefix: "ap"
-  suffix: "'"
-  tips: "全拼"
-emojis:
-  tag: emojis
-  dictionary: emoji
-  enable_completion: true
-  prefix: "ae"
-  suffix: "'"
-  tips: " Emoji"
-verbatim:
-  tag: verbatim ## english; ascii
-  prefix: "as"
-  tips: "cii"
-soft_capslock:
-  dictionary: ""
-  user_dict: uppercase
-  tag: soft_capslock
-  prefix: "au"
-  tips: "临时大写"
-  db_class: stabledb
-  enable_completion: false
-  enable_sentence: true
-  initial_quality: 1
+
+
+
 easy_en_simp:
   tag: easy_en_simp
   dictionary: easy_en
@@ -322,8 +318,5 @@ easy_en_simp:
   spelling_hints: 9
   comment_format:
     - xform/^.+$//
-tex_translator:
-  tag: tex_translator
-  prefix: "al"
-  tips: " TeX 公式"
+    
 
