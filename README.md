@@ -56,6 +56,12 @@ changcijian、changcijian3文件是自动从雾凇词库里取的
 日期时间相关输入：date time week datetime timestamp。
 符号输入/fh，更多符号查看symbols_caps_v.yaml
 
+大写数字：R开头
+![R123456](readmeimg/R123456.png)
+
+直接输入unicode：U开头
+![u2ffb](readmeimg/u2ffb.png)
+
 ### 配置文件路径
 
 windows %APPDATA%\Rime
