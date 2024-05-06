@@ -98,6 +98,10 @@ flypy_flypy.shema.yaml里飞键 可选择性开启
 
 2码 空格打字 tab打词
 
+快符
+
+小鹤双拼 + 自然码部首辅助码
+
 ### 鸣谢
 
 雾凇词库 <https://github.com/iDvel/rime-ice>
