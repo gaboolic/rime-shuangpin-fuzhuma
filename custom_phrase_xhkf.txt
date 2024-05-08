@@ -705,7 +705,7 @@ $	ofhb	99
 ㄤ	ofvy	66
 ㄥ	ofvy	65
 ㄦ	ofvy	64
-西大d	ofx	100
+希大d	ofx	100
 Α	ofxd	100
 Β	ofxd	99
 Γ	ofxd	98
@@ -730,7 +730,7 @@ $	ofhb	99
 Χ	ofxd	79
 Ψ	ofxd	78
 Ω	ofxd	77
-西小x	ofx	99
+希小x	ofx	99
 α	ofxx	100
 β	ofxx	99
 γ	ofxx	98
