@@ -52,6 +52,7 @@ engine:
   translators:
     - punct_translator
     - table_translator@custom_phrase
+    - table_translator@custom_phrase_xhkf
     - reverse_lookup_translator
     - reverse_lookup_translator@reverse_stroke
     - reverse_lookup_translator@reverse_zrlf
@@ -202,6 +203,14 @@ custom_phrase:
   enable_completion: false
   enable_sentence: false
   initial_quality: 1
+
+custom_phrase_xhkf:
+  dictionary: ""
+  user_dict: custom_phrase_xhkf
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
 
 reverse_lookup:
   dictionary: radical_flypy # https://github.com/mirtlecn/rime-radical-pinyin
