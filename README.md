@@ -62,6 +62,8 @@ changcijian、changcijian3文件是自动从雾凇词库里取的
 直接输入unicode：U开头
 ![u2ffb](readmeimg/u2ffb.png)
 
+英文输入：aw开头。日文输入：aj开头。
+
 ### 配置文件路径
 
 windows %APPDATA%\Rime
