@@ -48,6 +48,7 @@ engine:
     - abc_segmentor
     - punct_segmentor
     - affix_segmentor@verbatim ## not as the last of this list
+    - affix_segmentor@easy_en_simp
     - fallback_segmentor
   translators:
     - punct_translator
