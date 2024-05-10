@@ -3,25 +3,16 @@
 - [此仓库](https://github.com/gaboolic/rime-shuangpin-fuzhuma)为rime配置文件,词库使用最强简体词库——[雾凇拼音](https://github.com/iDvel/rime-ice)，在雾凇拼音的基础上实现自然码双拼、小鹤双拼，以及对应的辅助码。本人用的是这个方案，所以更新有保证
 - 配置文件参考[小鹤双拼+自然快手/小鹤双形辅助码](https://github.com/functoreality/rime-flypy-zrmfast)
 - [魔改自然碼 Rime 方案 (自然碼雙拼+輔助碼+外語混輸+簡繁方案+emoji)](https://github.com/ksqsf/rime-moran)
-
 - 主要配置文件:
   - `flypy_flypy.schema.yaml # 小鹤双拼+鹤形辅助码`
   - `zrm_zrm.schema.yaml # 自然码双拼+自然码辅助码`
-
 - 词库文件分别为`flypy_flypy.extended.dict.yaml`和`zrm_zrm.extended.dict.yaml`，默认只开启了我用[雾凇词库](https://github.com/iDvel/rime-ice)转换的词典文件。此外还有从其他地方获取的细胞词库，例如历史类、地名类、古诗文、计算机、动漫、电影、游戏、电商等，可自行打开注释或从[细胞词库](https://github.com/Bambooin/rimerc/tree/master/luna_pinyin)获取。如无特殊需求，词典文件只配置词即可，rime引擎会自动计算编码。
-
 - 注意：默认关了用户词库（为了固定词频），如有需要，修改`flypy_flypy.schema.yaml enable_user_dict: true`开启
-
 - 默认固定词频，编辑`cn_dicts_xh/user.dict.yaml`来添加自定义的词
-
 - 默认显示2字以下的辅助码编码，可在`flypy_flypy.schema.yaml`中`translator/spelling_hints`调整为更多或不显示
-
 - 词库文件见`flypy_flypy.extended.dict.yaml(zrm_zrm.extended.dict.yaml)`，如有需要可自行修改
-
 - 三字词，用e引导简码，简码取声母，如：阿波罗 eabl,差不多 eibd,巴不得 ebbd。
-
 - 四字词、多字词，用e引导简码，简码取前3个字+末字声母，如：兵败如山倒 ebbrd,霸王硬上弓 ebwyg,天有不测风云 etyby,当仁不让 edrbr
-
 - `changcijian`、`changcijian3`文件是自动从雾凇词库里取的
 
 ### 输入效果
@@ -51,7 +42,16 @@
 ![仓颉](readmeimg/cangjie5.png)
 
 - 日期时间相关输入：`date time week` `datetime` `timestamp`
+
+  ![datetime](readmeimg\datetime.png)
+
+- 快捷日期输入：N开头
+
+  - ![Nmoshi](readmeimg\Nmoshi.png)
+
 - 符号输入`/fh`，更多符号查看`symbols_caps_v.yaml`
+
+  - ![fh](readmeimg\fh.png)
 
 - 大写数字：`R开头`
   ![R123456](readmeimg/R123456.png)
@@ -64,9 +64,15 @@
 
 - 英文输入：aw开头
 
+  - ![aw](readmeimg\aw.png)
+
 - 日文输入：aj开头
 
+  - ![aj](readmeimg\aj.png)
+
 - O符快符：o开头，可以参考[小鹤应用 · 符号 (flypy.cc)](https://flypy.cc/#/fh)
+
+  - ![ofu](readmeimg\ofu.png)
 
 - 分号符：
 
