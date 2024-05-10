@@ -301,8 +301,8 @@ recognizer:
   # import_preset: default
   patterns:
     uppercase: "^[A-Z].*$"
-    punct: '^/[015-9A-Za-z]+$' ## use "/er" instead of "/2"
-    ## 拆字、笔画、仓颉: 
+    punct: '^/[0-9A-z][0A-z]?[A-z]?+$'
+    ## 拆字、笔画、仓颉:
     reverse_lookup: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
     reverse_stroke: "^ab[A-Za-z]*$"
     reverse_cj: "^acj[A-Za-z]*$"
