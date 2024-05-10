@@ -43,15 +43,15 @@
 
 - 日期时间相关输入：`date time week` `datetime` `timestamp`
 
-  ![datetime](readmeimg\datetime.png)
+  ![datetime](readmeimg/datetime.png)
 
 - 快捷日期输入：N开头
 
-  - ![Nmoshi](readmeimg\Nmoshi.png)
+  - ![Nmoshi](readmeimg/Nmoshi.png)
 
 - 符号输入`/fh`，更多符号查看`symbols_caps_v.yaml`
 
-  - ![fh](readmeimg\fh.png)
+  - ![fh](readmeimg/fh.png)
 
 - 大写数字：`R开头`
   ![R123456](readmeimg/R123456.png)
@@ -64,15 +64,15 @@
 
 - 英文输入：aw开头
 
-  - ![aw](readmeimg\aw.png)
+  - ![aw](readmeimg/aw.png)
 
 - 日文输入：aj开头
 
-  - ![aj](readmeimg\aj.png)
+  - ![aj](readmeimg/aj.png)
 
 - O符快符：o开头，可以参考[小鹤应用 · 符号 (flypy.cc)](https://flypy.cc/#/fh)
 
-  - ![ofu](readmeimg\ofu.png)
+  - ![ofu](readmeimg/ofu.png)
 
 - 分号符：
 
