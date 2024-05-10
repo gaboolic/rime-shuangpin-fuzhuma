@@ -63,11 +63,16 @@ engine:
     - table_translator@easy_en_simp ## 添加注释后：停用单词输入
     - lua_translator@unicode            # Unicode
     - lua_translator@number_translator  # 数字、金额大写
+    - lua_translator@calc_translator    # 计算器
   filters:
     - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
     - simplifier@emoji                              # Emoji
     - simplifier@traditionalize                     # 简繁切换
     - uniquifier
+
+# 计算器触发关键字
+calc_translator:
+  trigger: V
 
 # Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
 date_translator:
