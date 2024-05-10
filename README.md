@@ -59,6 +59,9 @@
 - 直接输入unicode：U开头
   ![u2ffb](readmeimg/u2ffb.png)
 
+- V模式，计算器模式 感谢[ChaosAlphard](https://github.com/ChaosAlphard)的pr
+  ![alt text](readmeimg/v_jsq.png)
+
 - 英文输入：aw开头
 
 - 日文输入：aj开头
