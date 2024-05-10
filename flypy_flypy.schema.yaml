@@ -175,45 +175,45 @@ translator:
   enable_user_dict: false # 是否开启自动调频
   preedit_format:
     # 复制用户输入, 一份转大写保持原样, 一份由正则转为全拼显示
-    - xform/(^.*$)/\U$1\E\t => $1 <=/
-    # 小鹤双拼转全拼, 忽略辅码
-    - xform/([ '][aoe])(\w)\w{0,2}/$1$2/
-    - xform/([ ']\w)([aeiou])\w{0,2}/$1$2/
-    - xform/([ '][bpmfdtnljqx])n\w{0,2}/$1iao/
-    - xform/([ ']\w)g\w{0,2}/$1eng/
-    - xform/([ ']\w)q\w{0,2}/$1iu/
-    - xform/([ ']\w)w\w{0,2}/$1ei/
-    - xform/([ '][dtnlgkhjqxyvuirzcs])r\w{0,2}/$1uan/
-    - xform/([ ']\w)t\w{0,2}/$1ve/
-    - xform/([ ']\w)y\w{0,2}/$1un/
-    - xform/([ '][dtnlgkhvuirzcs])o\w{0,2}/$1uo/
-    - xform/([ ']\w)p\w{0,2}/$1ie/
-    - xform/([ '][jqx])s\w{0,2}/$1iong/
-    - xform/([ ']\w)s\w{0,2}/$1ong/
-    - xform/([ ']\w)d\w{0,2}/$1ai/
-    - xform/([ ']\w)f\w{0,2}/$1en/
-    - xform/([ ']\w)h\w{0,2}/$1ang/
-    - xform/([ ']\w)j\w{0,2}/$1an/
-    - xform/([ '][gkhvuirzcs])k\w{0,2}/$1uai/
-    - xform/([ ']\w)k\w{0,2}/$1ing/
-    - xform/([ '][jqxnl])l\w{0,2}/$1iang/
-    - xform/([ ']\w)l\w{0,2}/$1uang/
-    - xform/([ ']\w)z\w{0,2}/$1ou/
-    - xform/([ '][gkhvuirzcs])x\w{0,2}/$1ua/
-    - xform/([ ']\w)x\w{0,2}/$1ia/
-    - xform/([ ']\w)c\w{0,2}/$1ao/
-    - xform/([ '][dtgkhvuirzcs])v\w{0,2}/$1ui/
-    - xform/([ ']\w)b\w{0,2}/$1in/
-    - xform/([ ']\w)m\w{0,2}/$1ian/
-    - "xform/(^|[ '])v/$1zh/"
-    - "xform/(^|[ '])i/$1ch/"
-    - "xform/(^|[ '])u/$1sh/"
-    - xform/([ '][jqxy])v\w{0,2}/$1u/
-    - xform/([ '][nl])v\w{0,2}/$1ü/
-    # 双拼编码大写转回小写
-    - xform/(^[^a-z=<>]*)/\L$1\E/
-    - xform/=> */[/
-    - xform/ *<=/]/
+    # - xform/(^.*$)/\U$1\E\t => $1 <=/
+    # # 小鹤双拼转全拼, 忽略辅码
+    # - xform/([ '][aoe])(\w)\w{0,2}/$1$2/
+    # - xform/([ ']\w)([aeiou])\w{0,2}/$1$2/
+    # - xform/([ '][bpmfdtnljqx])n\w{0,2}/$1iao/
+    # - xform/([ ']\w)g\w{0,2}/$1eng/
+    # - xform/([ ']\w)q\w{0,2}/$1iu/
+    # - xform/([ ']\w)w\w{0,2}/$1ei/
+    # - xform/([ '][dtnlgkhjqxyvuirzcs])r\w{0,2}/$1uan/
+    # - xform/([ ']\w)t\w{0,2}/$1ve/
+    # - xform/([ ']\w)y\w{0,2}/$1un/
+    # - xform/([ '][dtnlgkhvuirzcs])o\w{0,2}/$1uo/
+    # - xform/([ ']\w)p\w{0,2}/$1ie/
+    # - xform/([ '][jqx])s\w{0,2}/$1iong/
+    # - xform/([ ']\w)s\w{0,2}/$1ong/
+    # - xform/([ ']\w)d\w{0,2}/$1ai/
+    # - xform/([ ']\w)f\w{0,2}/$1en/
+    # - xform/([ ']\w)h\w{0,2}/$1ang/
+    # - xform/([ ']\w)j\w{0,2}/$1an/
+    # - xform/([ '][gkhvuirzcs])k\w{0,2}/$1uai/
+    # - xform/([ ']\w)k\w{0,2}/$1ing/
+    # - xform/([ '][jqxnl])l\w{0,2}/$1iang/
+    # - xform/([ ']\w)l\w{0,2}/$1uang/
+    # - xform/([ ']\w)z\w{0,2}/$1ou/
+    # - xform/([ '][gkhvuirzcs])x\w{0,2}/$1ua/
+    # - xform/([ ']\w)x\w{0,2}/$1ia/
+    # - xform/([ ']\w)c\w{0,2}/$1ao/
+    # - xform/([ '][dtgkhvuirzcs])v\w{0,2}/$1ui/
+    # - xform/([ ']\w)b\w{0,2}/$1in/
+    # - xform/([ ']\w)m\w{0,2}/$1ian/
+    # - "xform/(^|[ '])v/$1zh/"
+    # - "xform/(^|[ '])i/$1ch/"
+    # - "xform/(^|[ '])u/$1sh/"
+    # - xform/([ '][jqxy])v\w{0,2}/$1u/
+    # - xform/([ '][nl])v\w{0,2}/$1ü/
+    # # 双拼编码大写转回小写
+    # - xform/(^[^a-z=<>]*)/\L$1\E/
+    # - xform/=> */[/
+    # - xform/ *<=/]/
 
 custom_phrase:
   dictionary: ""
