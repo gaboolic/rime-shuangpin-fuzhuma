@@ -230,9 +230,9 @@ custom_phrase_kf:
   enable_completion: false
   initial_quality: -1 #本表词和系统词重码居后
 
-custom_phrase_xhzg:
+custom_phrase_mqzg:
   dictionary: ""
-  user_dict: custom_phrase_xhzg
+  user_dict: custom_phrase_mqzg
   db_class: stabledb
   enable_sentence: false
   enable_completion: false

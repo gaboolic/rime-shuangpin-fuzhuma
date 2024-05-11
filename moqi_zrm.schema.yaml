@@ -55,6 +55,7 @@ engine:
     - punct_translator
     - table_translator@custom_phrase
     - table_translator@custom_phrase_kf
+    - table_translator@custom_phrase_mqzg
     - reverse_lookup_translator
     - reverse_lookup_translator@reverse_stroke
     - reverse_lookup_translator@reverse_zrlf
@@ -106,17 +107,18 @@ speller:
   ## speller 未允许 aj 表示 an
   algebra:
 
-    - derive/^(a-z)w/$1z/  #w->z
-    - derive/^(a-z)y/$1p/  #y->p
-    - derive/^(a-z)p/$1x/  #p->x
-    - derive/^(a-z)d/$1l/  #d->l
-    - derive/^(a-z)k/$1y/  #k->y
-    - derive/^(a-z)l/$1d/  #l->d
-    - derive/^(a-z)z/$1b/  #z->b
-    - derive/^(a-z)x/$1w/  #x->w
-    - derive/^(a-z)c/$1k/  #x->w
-    - derive/^(a-z)b/$1n/  #b->n
-    - derive/^(a-z)n/$1c/  #n->c
+    - xform/^(a-z)w/$1Z/  #w->z
+    - xform/^(a-z)y/$1P/  #y->p
+    - xform/^(a-z)p/$1X/  #p->x
+    - xform/^(a-z)d/$1L/  #d->l
+    - xform/^(a-z)k/$1Y/  #k->y
+    - xform/^(a-z)l/$1D/  #l->d
+    - xform/^(a-z)z/$1B/  #z->b
+    - xform/^(a-z)x/$1W/  #x->w
+    - xform/^(a-z)c/$1K/  #x->w
+    - xform/^(a-z)b/$1N/  #b->n
+    - xform/^(a-z)n/$1C/  #n->c
+    - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
     # - derive/^qx/qw/
     # - derive/^jn/jv/
     # - derive/^mn/mv/
