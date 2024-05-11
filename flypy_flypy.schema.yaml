@@ -84,6 +84,8 @@ calc_translator:
 
 # 降低到第6个候选项位置, idx = 0 表示不启用
 # 或者在rime.lua中注释掉 reduce_emoji_filter = require("reduce_emoji_filter")
+# 当 menu/page_size 小于 idx 时取 page_size 的值
+# 当 menu/page_size 小于 3 时不启用
 reduce_emoji_filter:
   idx: 6
 

@@ -6,7 +6,12 @@ function M.init(env)
   env.name_space = env.name_space:gsub("^*", "")
 
   -- 要降低到的位置
-  M.idx = config:get_int(env.name_space .. "/idx") or 5
+  local page_size = config:get_int("menu/page_size") or 5
+  if page_size < 3 then
+    page_size = 0
+  end
+  local idx = config:get_int(env.name_space .. "/idx") or 5
+  M.idx = math.min(page_size, idx)
 end
 
 function M.func(input, env)
