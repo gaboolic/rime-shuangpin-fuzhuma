@@ -4,14 +4,19 @@
 config_version: '0.40'
 
 schema_list:
-  - schema: luna_pinyin
-  - schema: luna_pinyin_simp
-  - schema: luna_pinyin_fluency
-  - schema: bopomofo
-  - schema: bopomofo_tw
-  - schema: cangjie5
-  - schema: stroke
-  - schema: terra_pinyin
+  - schema: flypy_flypy # 小鹤+鹤形
+  - schema: zrm_zrm # 自然码+自然码部首辅助码
+  - schema: moqi_xh # 墨奇码鹤拼版beta
+  - schema: moqi_zrm # 墨奇码自然双拼版beta
+  # - schema: flypy_bingji # 并击
+  # - schema: luna_pinyin
+  # - schema: luna_pinyin_simp
+  # - schema: luna_pinyin_fluency
+  # - schema: bopomofo
+  # - schema: bopomofo_tw
+  # - schema: cangjie5
+  # - schema: stroke
+  # - schema: terra_pinyin
 
 switcher:
   caption: 〔方案選單〕
@@ -30,7 +35,6 @@ switcher:
 
 menu:
   page_size: 5
-
 
 punctuator:
   full_shape:
@@ -162,7 +166,9 @@ key_binder:
     # - { when: always, accept: Control+period, toggle: ascii_punct }
     # - { when: always, accept: Control+slash, toggle: traditionalization }
 
-    # 将小键盘 0~9 . 映射到主键盘，数字金额大写的 Lua 如 R1234.5678 可使用小键盘输入
+    # 将小键盘 0~9 . + - * / 映射到主键盘
+    # 使计算器(V1+2*3)可使用小键盘输入
+    # 数字金额大写的 Lua 如 R1234.5678 可使用小键盘输入
     - {accept: KP_0, send: 0, when: composing}
     - {accept: KP_1, send: 1, when: composing}
     - {accept: KP_2, send: 2, when: composing}
@@ -173,8 +179,7 @@ key_binder:
     - {accept: KP_7, send: 7, when: composing}
     - {accept: KP_8, send: 8, when: composing}
     - {accept: KP_9, send: 9, when: composing}
-    - {accept: KP_Decimal, send: period, when: composing}
-    # 将小键盘 /*-+ 映射到主键盘
+    - {accept: KP_Decimal,  send: period  , when: composing}
     - {accept: KP_Multiply, send: asterisk, when: composing}
     - {accept: KP_Add,      send: plus,     when: composing}
     - {accept: KP_Subtract, send: minus,    when: composing}
