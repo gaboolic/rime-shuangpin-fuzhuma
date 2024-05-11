@@ -1,4 +1,5 @@
-# Rime schema
+# 双拼并击的一个demo - gaboolic
+# https://github.com/gaboolic/rime-shuangpin-fuzhuma
 # encoding: utf-8
 
 schema:
@@ -348,7 +349,7 @@ menu:
 
 quanpin:
   tag: quanpin
-  dictionary: luna_pinyin.extended ## 用户可自行改为扩展后的词典
+  dictionary: luna_pinyin
   prism: luna_pinyin
   enable_completion: true
   prefix: "ap"

@@ -1,6 +1,6 @@
 patch:
   schema_list:
-    - schema: flypy_flypy # 小鹤
-    - schema: zrm_zrm # 自然码
-    - schema: luna_pinyin_simp # 朙月拼音
+    - schema: flypy_flypy # 小鹤+鹤形
+    - schema: zrm_zrm # 自然码+自然码部首辅助码
+    - schema: moqi_xh # 墨奇码鹤拼版beta
     - schema: flypy_bingji # 并击
