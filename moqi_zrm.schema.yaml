@@ -3,15 +3,13 @@
 # https://github.com/gaboolic/rime-shuangpin-fuzhuma
 
 schema:
-  schema_id: flypy_flypy
-  name: 小鹤双拼+鹤形辅助
-  version: "2024-04-24"
+  schema_id: moqi_zrm
+  name: 墨奇音形+自然码拼beta版
+  version: "2024-05-11"
   author:
-    - Functoreality 
-    - Dvel
-    - gaboolic （裁缝)
+    - gaboolic
   description: |
-    小鹤双拼+辅助码 https://github.com/gaboolic/rime-shuangpin-fuzhuma
+    墨奇音形 https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%A2%A8%E5%A5%87%E7%A0%81%E6%8B%86%E5%88%86%E8%A7%84%E5%88%99
   dependencies:
     - chaizi
     - radical_flypy
@@ -57,7 +55,6 @@ engine:
     - punct_translator
     - table_translator@custom_phrase
     - table_translator@custom_phrase_kf
-    - table_translator@custom_phrase_xhzg
     - reverse_lookup_translator
     - reverse_lookup_translator@reverse_stroke
     - reverse_lookup_translator@reverse_zrlf
@@ -108,34 +105,25 @@ speller:
   delimiter: " '"
   ## speller 未允许 aj 表示 an
   algebra:
-    # - xform/^([aoe])$/$1$1/
-    # - xform/^(ang)$/ah/
-    # - xform/^([^\[]*)iu$/$1Q/
-    # - xform/^([^\[]*)ei$/$1W/
-    # - xform/uan$/R/
-    # - xform/^([^\[]*)[uv]e$/$1T/
-    # - xform/^([^\[]*)un$/$1Y/
-    # - xform/^sh([^\[]+)/U$1/
-    # - xform/^ch([^\[]+)/I$1/
-    # - xform/^zh([^\[]+)/V$1/
-    # - xform/^([^\[]*)uo$/$1O/
-    # - xform/^([^\[]*)ie$/$1P/
-    # - xform/i?ong$/S/
-    # - xform/ing$|uai$/K/
-    # - xform/^([^\[]+)ai$/$1D/
-    # - xform/^([^\[]+)en$/$1F/
-    # - xform/^([^\[]+)eng$/$1G/
-    # - xform/[iu]ang$/L/
-    # - xform/(.)ang$/$1H/
-    # - xform/^([^\[]*)ian$/$1M/
-    # - xform/^([^\[]+)an$/$1J/
-    # - xform/^([^\[]+)ou$/$1Z/
-    # - xform/^([^\[]*)[iu]a$/$1X/
-    # - xform/^([^\[]*)iao$/$1N/
-    # - xform/^([^\[]+)ao$/$1C/
-    # - xform/^([^\[]*)ui$/$1V/
-    # - xform/^([^\[]*)in$/$1B/
-    # - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
+
+    - derive/^(a-z)w/$1z/  #w->z
+    - derive/^(a-z)y/$1p/  #y->p
+    - derive/^(a-z)p/$1x/  #p->x
+    - derive/^(a-z)d/$1l/  #d->l
+    - derive/^(a-z)k/$1y/  #k->y
+    - derive/^(a-z)l/$1d/  #l->d
+    - derive/^(a-z)z/$1b/  #z->b
+    - derive/^(a-z)x/$1w/  #x->w
+    - derive/^(a-z)c/$1k/  #x->w
+    - derive/^(a-z)b/$1n/  #b->n
+    - derive/^(a-z)n/$1c/  #n->c
+    # - derive/^qx/qw/
+    # - derive/^jn/jv/
+    # - derive/^mn/mv/
+    # - derive/^jm/jz/
+    # - derive/^([y])h/$1g/
+    # - derive/^([rgv])f/$1m/
+    # - derive/^([rgv])c/$1n/
 
     # 模糊音 可选择性开启
     # - derive/^z([a-z])/v$1/
@@ -165,7 +153,7 @@ speller:
     
 
 translator:
-  dictionary: flypy_flypy.extended
+  dictionary: moqi.extended
   enable_completion: false
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
   ##  改为 1 则是只显示单字的输入码，依此类推。
@@ -232,9 +220,9 @@ custom_phrase_kf:
   enable_completion: false
   initial_quality: -1 #本表词和系统词重码居后
 
-custom_phrase_xhzg:
+custom_phrase_mqzg:
   dictionary: ""
-  user_dict: custom_phrase_xhzg
+  user_dict: custom_phrase_mqzg
   db_class: stabledb
   enable_sentence: false
   enable_completion: false
