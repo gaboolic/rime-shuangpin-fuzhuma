@@ -10,7 +10,7 @@
   - `moqi_zrm.schema.yaml # 墨奇音形自然码双拼版`
   - `flypy_flypy.schema.yaml # 小鹤双拼+鹤形辅助码`
   - `zrm_zrm.schema.yaml # 自然码双拼+自然码辅助码`
-- 词库文件分别为`moqi.extended.dict.yaml`（墨奇音形）`flypy_flypy.extended.dict.yaml`和`zrm_zrm.extended.dict.yaml`，默认只开启了我用[雾凇词库](https://github.com/iDvel/rime-ice)转换的词典文件。此外还有从其他地方获取的细胞词库，例如历史类、地名类、古诗文、计算机、动漫、电影、游戏、电商等，可自行打开注释或从[细胞词库](https://github.com/Bambooin/rimerc/tree/master/luna_pinyin)获取。如无特殊需求，词典文件只配置词即可，rime引擎会自动计算编码。
+- 词库文件分别为`moqi.extended.dict.yaml`（墨奇音形）、`flypy_flypy.extended.dict.yaml`（鹤拼鹤形）和`zrm_zrm.extended.dict.yaml`（自然码拼+自然码部首辅），默认只开启了我用[雾凇词库](https://github.com/iDvel/rime-ice)转换的词典文件。此外还有从其他地方获取的细胞词库，例如历史类、地名类、古诗文、计算机、动漫、电影、游戏、电商等，可自行打开注释或从[细胞词库](https://github.com/Bambooin/rimerc/tree/master/luna_pinyin)获取。如无特殊需求，词典文件只配置词即可，rime引擎会自动计算编码。
 - 注意：默认关了用户词库（为了固定词频），如有需要，修改`你使用的方案.schema.yaml enable_user_dict: true`开启
 - 默认固定词频，编辑`cn_dicts_common/user.dict.yaml`来添加自定义的词
 - 默认显示2字以下的辅助码编码，可在`你使用的方案.schema.yaml`中`translator/spelling_hints`调整为更多或不显示
