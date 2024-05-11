@@ -27,6 +27,7 @@ switcher:
   save_options:
     - ascii_mode
     - full_shape
+    - emoji
     - simplification
     - ascii_punct
   fold_options: true
