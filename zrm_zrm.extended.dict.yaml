@@ -1,36 +1,12 @@
 # Rime dictionary
 # encoding: utf-8
-#
-# Luna Pinyin Extended Dictionary(Basic)  - 明月拼音擴充詞庫（基本）
-#
-#   瑾昀 <cokunhui@gmail.com>
-#
-# Thanks to the following works:
-#
-# * 拼音加加論壇beckyer製作的繁體詞庫
-#   http://bbs.jjol.cn/showthread.php?t=6758
-#
-# * 小麥注音輸入法詞庫
-#   https://github.com/mjhsieh/McBopomofo/tree/master/Source/Data
-#
-# * 新酷音共享詞庫
-#   Google搜尋獲得，由臺灣网友整理
-#
-# * 詞庫网
-#   http://baseterm.com/
-#
-# * 敎育部詞頻統計表
-#   http://www.edu.tw/files/site_content/m0001/pin/biau2.htm?open
-#
-# * 維基百科
-#   http://www.wikipedia.org/
-#
-# 部署位置：
-# ~/.config/ibus/rime  (Linux)
+# https://github.com/gaboolic/rime-shuangpin-fuzhuma
+# 
+# rime配置的部署位置：
+# ~/.local/share/fcitx5/rime 或者 ~/.config/ibus/rime  (Linux)
 # ~/Library/Rime  (Mac OS)
 # %APPDATA%\Rime  (Windows)
-#
-# 於重新部署後生效
+# 
 #
 
 ---
@@ -45,13 +21,20 @@ import_tables:
   ## 雾凇拼音 https://github.com/iDvel/rime-ice
   - cn_dicts_zrm/8105     # 字表
   - cn_dicts_zrm/41448     # 字表
+  - cn_dicts_zrm/rongcuo     # 字表
+
   - cn_dicts_zrm/base     # 基础词库
   - cn_dicts_zrm/ext      # 扩展词库
-  - cn_dicts_zrm/tencent  # 腾讯词向量（大词库，部署时间较长）
-  - cn_dicts_zrm/others   # 一些杂项
+  # - cn_dicts_zrm/others   #  # 一些杂项 容错音和错字 可以不开
 
-  # - luna_pinyin.place
-  # - luna_pinyin.poetry
-  # - luna_pinyin.computer
-  # - luna_pinyin.history
+  - cn_dicts_common/tencent  # 腾讯词向量（大词库，部署时间较长）
+  - cn_dicts_common/user # 用户自定义词典
+  - cn_dicts_common/chengyu   # 成语
+  - cn_dicts_common/changcijian   # 多字
+  - cn_dicts_common/changcijian3   # 3字
+
+  # - cn_dicts_cell/luna_pinyin.poetry    # 细胞词库 古诗文
+  # - cn_dicts_cell/luna_pinyin.place  # 细胞词库 地名
+  # - cn_dicts_cell/luna_pinyin.computer
+  # - cn_dicts_cell/luna_pinyin.history
 ...
