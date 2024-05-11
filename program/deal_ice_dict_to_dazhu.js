@@ -3,10 +3,10 @@ const path = require('path');
 
 
 // 需要修改的YAML文件的路径
-// const yamlFilePath = path.join(__dirname, '../cn_dicts_xh/8105.dict.yaml');
-const yamlFilePath = path.join(__dirname, '../custom_phrase.txt');
+const yamlFilePath = path.join(__dirname, '../cn_dicts_moqi/8105.dict.yaml');
+// const yamlFilePath = path.join(__dirname, '../custom_phrase.txt');
 // 需要修改的YAML文件的路径
-const writeFilePath = path.join(__dirname, '../cn_dicts_dazhu/custom_phrase.dict.yaml');
+const writeFilePath = path.join(__dirname, '../cn_dicts_dazhu/moqi8105.dict.txt');
 
 // 同步读取YAML文件
 const yamlFileContent = fs.readFileSync(yamlFilePath, 'utf8');
