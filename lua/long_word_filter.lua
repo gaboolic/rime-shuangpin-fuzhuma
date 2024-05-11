@@ -27,7 +27,9 @@ function M.func(input)
             firstWordLength = leng
         end
         if preedit_len < 1 then
-            preedit_len = utf8.len(cand.preedit)
+            local str = cand.preedit
+            str = str:gsub("%s+", "")
+            preedit_len = utf8.len(str)
         end
         
         -- 不处理 M.idx 之前的候选项
@@ -35,11 +37,23 @@ function M.func(input)
             i = i + 1
             yield(cand)
         -- 长词直接 yield，其余的放到 l 里
-        elseif leng <= firstWordLength or cand.text:find("[%a%d]") or firstWordLength > 1 or preedit_len < 4 then
+        elseif leng <= firstWordLength or cand.text:find("[%a%d]") then
             table.insert(l, cand)
-        else
+        -- 如果
+        elseif firstWordLength == 1 and preedit_len == 4 then
             yield(cand)
             done = done + 1
+        elseif firstWordLength == 2 and preedit_len == 6 then
+            yield(cand)
+            done = done + 1
+        elseif firstWordLength <=3 and preedit_len == 8 then
+            yield(cand)
+            done = done + 1
+        elseif firstWordLength <=4 and preedit_len == 10 then
+            yield(cand)
+            done = done + 1
+        else
+            table.insert(l, cand)
         end
         -- 找齐了或者 l 太大了，就不找了，一般前 50 个就够了
         if done == M.count or #l > 20 then
