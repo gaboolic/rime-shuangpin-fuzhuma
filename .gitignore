@@ -4,6 +4,22 @@
 /cn_dicts_sancang/
 /cn_dicts_xh_cangjie/
 sancang.dict.yaml
-.idea
-.idea/*
 .DS_Store
+
+# IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Weasel编译的文件(实际读取的配置)
+build/
+
+# 用户词库(自动调频, 生成的文件)
+*.userdb/
+
+# 用户自定义配置
+*.custom.yaml

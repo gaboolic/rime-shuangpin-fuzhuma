@@ -7,7 +7,7 @@ schema:
   name: 小鹤双拼+鹤形辅助
   version: "2024-04-24"
   author:
-    - Functoreality 
+    - Functoreality
     - Dvel
     - gaboolic （裁缝)
   description: |
@@ -65,21 +65,27 @@ engine:
     - script_translator
     - lua_translator@date_translator    # 时间、日期、星期
     - lua_translator@lunar              # 农历
-    - table_translator@emojis ## 添加注释后：停用ae模式emoji输入
-    - table_translator@easy_en_simp ## 添加注释后：停用单词输入
-    - table_translator@jp_sela ## 添加注释后：停用日语输入
+    - table_translator@emojis           # 添加注释后：停用ae模式emoji输入
+    - table_translator@easy_en_simp     # 添加注释后：停用单词输入
+    - table_translator@jp_sela          # 添加注释后：停用日语输入
     - lua_translator@unicode            # Unicode
     - lua_translator@number_translator  # 数字、金额大写
     - lua_translator@calc_translator    # 计算器
   filters:
-    - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
-    - simplifier@emoji                              # Emoji
-    - simplifier@traditionalize                     # 简繁切换
+    - lua_filter@long_word_filter       # 长词优先（顺序要求：长词优先 > Emoji）
+    - simplifier@emoji                  # Emoji
+    - lua_filter@reduce_emoji_filter    # 降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
+    - simplifier@traditionalize         # 简繁切换
     - uniquifier
 
 # 计算器触发关键字
 calc_translator:
   trigger: V
+
+# 降低到第6个候选项位置, idx = 0 表示不启用
+# 或者在rime.lua中注释掉 reduce_emoji_filter = require("reduce_emoji_filter")
+reduce_emoji_filter:
+  idx: 6
 
 # Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
 date_translator:
@@ -91,7 +97,7 @@ date_translator:
 
 # Lua 配置：农历的触发关键字
 lunar: anl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
-  
+
 # Lua 配置：长词优先
 # 提升 count 个词语，插入到第 idx 个位置。
 # 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」
@@ -159,10 +165,6 @@ speller:
     # - derive/^([y])h/$1g/
     # - derive/^([rgv])f/$1m/
     # - derive/^([rgv])c/$1n/
-
-
-    
-    
 
 translator:
   dictionary: flypy_flypy.extended
@@ -280,13 +282,11 @@ reverse_stroke:
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
 
-
 # Emoji
 emoji:
   option_name: emoji
   opencc_config: emoji.json
   inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
-
 
 # 简繁切换
 traditionalize:
@@ -294,12 +294,13 @@ traditionalize:
   opencc_config: s2t.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json
   tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
   tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
-  
+
 # 标点符号
 # punctuator 下面有三个子项：
 #   full_shape 全角标点映射
 #   half_shape 半角标点映射
 #   symbols    Rime 的预设配置是以 '/' 前缀开头输出一系列字符，自定义的 symbols_caps_v.yaml 修改成了 '/' 开头。
+
 punctuator:
   full_shape:
     __include: default:/punctuator/full_shape  # 从 default.yaml 导入配置
@@ -331,13 +332,12 @@ recognizer:
     uppercase: "^[A-Z].*$"
     #punct: '^/[0-9A-Za-z]+$' # 此正则无法使用1~0进行快速选择
     punct: '^/[0-9A-z][0A-z]?[A-z]?+$' # 此正则在/+数字的情况下只能通过1~9进行快速选择，而不能使用0，其余情况皆为正常
-    ## 拆字、笔画、仓颉: 
+    ## 拆字、笔画、仓颉:
     reverse_lookup: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
     reverse_stroke: "^ab[A-Za-z]*$"
     reverse_cj: "^acj[A-Za-z]*$"
     reverse_zrlf: "^alf[A-Za-z]*$"
-
-    emojis: "^ae[a-z]*'?$" # "^ae.*$" 
+    emojis: "^ae[a-z]*'?$" # "^ae.*$"
     easy_en_simp: "^aw[a-z]*"
     jp_sela: "^aj[a-z]*"
     unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
@@ -346,7 +346,6 @@ recognizer:
 
 menu:
   page_size: 9 # 使用上面默认punct正则时，page_size为10，会有`/+数字`无法使用0进行快速选择的情况
-
 
 emojis:
   tag: emojis
@@ -367,7 +366,7 @@ easy_en_simp:
   spelling_hints: 9
   comment_format:
     - xform/^.+$//
-    
+
 jp_sela:
   tag: jp_sela
   dictionary: jp_sela
@@ -379,4 +378,3 @@ jp_sela:
   spelling_hints: 9
   comment_format:
     - xform/^.+$//
-
