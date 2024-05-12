@@ -434,8 +434,8 @@ sort: by_weight
 贬	bm[bf	16755
 蝙	bm[ic	16004
 匾	bm[kc	7782
-卞	bm[dx	6201
-汴	bm[dx	5636
+卞	bm[wb	6201
+汴	bm[db	5636
 弁	bm[sc	1461
 砭	bm[uf	771
 煸	bm[hc	641
@@ -443,9 +443,9 @@ sort: by_weight
 笾	bm[vl	102
 鳊	bm[yc	98
 昪	bm[oc	96
-忭	bm[xx	74
-苄	bm[cx	51
-抃	bm[fx	26
+忭	bm[xb	74
+苄	bm[cb	51
+抃	bm[fb	26
 碥	bm[uc	16
 萹	bm[cc	5
 𨚕	bm[se	0
@@ -517,7 +517,7 @@ sort: by_weight
 博	bo[uc	186289
 薄	bo[cc	143289
 脖	bo[oz	119048
-拨	bo[fy	105755
+拨	bo[ff	105755
 播	bo[ft	84353
 勃	bo[ul	81808
 玻	bo[wp	74100
@@ -559,7 +559,7 @@ sort: by_weight
 艴	bo[fb	1
 蕃	bo[ct	1
 欂	bo[mc	0
-袯	bo[py	0
+袯	bo[pf	0
 𬭛	bo[jp	0
 不	bu[ab	2985809
 部	bu[le	1972176
@@ -1640,7 +1640,7 @@ sort: by_weight
 非	fw[[	1219442
 费	fw[fb	449492
 菲	fw[cf	252624
-废	fw[gy	148745
+废	fw[gf	148745
 妃	fw[nj	94415
 肥	fw[ob	93039
 啡	fw[kf	74499
@@ -4876,7 +4876,7 @@ sort: by_weight
 颇	po[py	127012
 坡	po[tp	79228
 魄	po[bg	76856
-泼	po[dy	49867
+泼	po[df	49867
 泊	po[db	41521
 珀	po[wb	10455
 叵	po[kk	3366
@@ -4890,8 +4890,8 @@ sort: by_weight
 朴	po[mb	1
 繁	po[px	1
 陂	po[ep	1
-䥽	po[jy	0
-酦	po[yy	0
+䥽	po[jf	0
+酦	po[yf	0
 剖	pz[ld	15232
 抔	pz[fb	221
 裒	pz[yj	189
@@ -8355,7 +8355,7 @@ sort: by_weight
 㑇	vz[re	0
 㤘	vz[xe	0
 住	vu[rv	2114870
-主	vu[dw	1156315
+主	vu[wt	1156315
 注	vu[dv	583182
 助	vu[ql	401900
 著	vu[co	329248
