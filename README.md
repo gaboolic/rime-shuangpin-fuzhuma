@@ -76,7 +76,7 @@
 - O符快符：o开头，快速输入各种符号偏旁部件，可以参考[小鹤 · 符号](md/fuhao.md)      [小鹤 · 部件](md/bujian.md)
 
   - ![ofu2](readmeimg/ofu2.png)
-  - ![ofu](readmeimg/ofu.png)![ofu](readmeimg/ofubujm.png)
+  - ![ofu](readmeimg/ofu.png)
   
 - 分号符：
 
@@ -136,5 +136,6 @@ emoji的词库 弄个更好的
 
 拆字使用的词典 <https://github.com/mirtlecn/rime-radical-pinyin>
 
-墨奇本猫：![moqi1](readmeimg/moqi1.jpg)
-![moqi2](readmeimg/moqi1.jpg)
+墨奇本猫：
+<img src="readmeimg/moqi1.jpg" width=30%>
+<img src="readmeimg/moqi2.jpg" width=30%>
