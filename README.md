@@ -137,5 +137,7 @@ emoji的词库 弄个更好的
 拆字使用的词典 <https://github.com/mirtlecn/rime-radical-pinyin>
 
 墨奇本猫：
+
 <img src="readmeimg/moqi1.jpg" width=30%>
+
 <img src="readmeimg/moqi2.jpg" width=30%>
