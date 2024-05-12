@@ -135,3 +135,6 @@ emoji的词库 弄个更好的
 细胞词库&各个发行版配置 <https://github.com/Bambooin/rimerc>
 
 拆字使用的词典 <https://github.com/mirtlecn/rime-radical-pinyin>
+
+墨奇本猫：![moqi1](readmeimg/moqi1.jpg)
+![moqi2](readmeimg/moqi1.jpg)
