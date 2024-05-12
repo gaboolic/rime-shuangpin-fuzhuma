@@ -8,6 +8,8 @@ schema_list:
   - schema: zrm_zrm # 自然码+自然码部首辅助码
   - schema: moqi_xh # 墨奇码鹤拼版beta
   - schema: moqi_zrm # 墨奇码自然双拼版beta
+  # - schema: moqi_sogou # 墨奇码搜狗双拼版beta
+  # - schema: moqi_ms # 墨奇码微软双拼版beta
   # - schema: flypy_bingji # 并击
   # - schema: luna_pinyin
   # - schema: luna_pinyin_simp
