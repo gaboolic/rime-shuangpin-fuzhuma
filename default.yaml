@@ -11,14 +11,6 @@ schema_list:
   # - schema: moqi_sogou # 墨奇码搜狗双拼版beta
   # - schema: moqi_ms # 墨奇码微软双拼版beta
   # - schema: flypy_bingji # 并击
-  # - schema: luna_pinyin
-  # - schema: luna_pinyin_simp
-  # - schema: luna_pinyin_fluency
-  # - schema: bopomofo
-  # - schema: bopomofo_tw
-  # - schema: cangjie5
-  # - schema: stroke
-  # - schema: terra_pinyin
 
 switcher:
   caption: 〔方案選單〕
