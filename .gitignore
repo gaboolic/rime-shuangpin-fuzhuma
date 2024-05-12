@@ -17,6 +17,10 @@ sancang.dict.yaml
 
 # Weasel编译的文件(实际读取的配置)
 build/
+# 生成的用户设置(中英文状态, 简繁体状态, emoji开关状态等)
+/user.yaml
+# 自动生成的Weasel版本信息等(没啥用)
+/installation.yaml
 
 # 用户词库(自动调频, 生成的文件)
 *.userdb/

@@ -80,7 +80,7 @@
 - O符快符：o开头，快速输入各种符号偏旁部件，可以参考[小鹤 · 符号](md/fuhao.md)      [小鹤 · 部件](md/bujian.md)
 
   - ![ofu2](readmeimg/ofu2.png)
-  - ![ofu](readmeimg/ofu.png)![ofu](readmeimg/ofubujm.png)
+  - ![ofu](readmeimg/ofu.png)
   
 - 分号符：
 
@@ -120,6 +120,10 @@
 小鹤双拼 + 自然码部首辅助码
 
 emoji的词库 弄个更好的
+
+引入东风破管理
+
+优化3码的场景，例如zo是做，zor首选出作
 ```
 
 ### 鸣谢
@@ -137,3 +141,9 @@ emoji的词库 弄个更好的
 细胞词库&各个发行版配置 <https://github.com/Bambooin/rimerc>
 
 拆字使用的词典 <https://github.com/mirtlecn/rime-radical-pinyin>
+
+墨奇本猫：
+
+<img src="readmeimg/moqi1.jpg" width=30%>
+
+<img src="readmeimg/moqi2.jpg" width=30%>

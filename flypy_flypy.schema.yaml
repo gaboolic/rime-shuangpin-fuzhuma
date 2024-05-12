@@ -74,18 +74,13 @@ engine:
   filters:
     - lua_filter@long_word_filter       # 长词优先（顺序要求：长词优先 > Emoji）
     - simplifier@emoji                  # Emoji
-    - lua_filter@reduce_emoji_filter    # 降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
+    # - lua_filter@reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
     - simplifier@traditionalize         # 简繁切换
     - uniquifier
 
 # 计算器触发关键字
 calc_translator:
   trigger: V
-
-# 降低到第6个候选项位置, idx = 0 表示不启用
-# 或者在rime.lua中注释掉 reduce_emoji_filter = require("reduce_emoji_filter")
-reduce_emoji_filter:
-  idx: 6
 
 # Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
 date_translator:
