@@ -4,7 +4,7 @@
 
 schema:
   schema_id: moqi_sogou
-  name: 墨奇音形+搜狗双拼beta版
+  name: 墨奇音形+搜狗双拼
   version: "2024-05-12"
   author:
     - gaboolic

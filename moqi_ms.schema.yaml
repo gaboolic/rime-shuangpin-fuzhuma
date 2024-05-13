@@ -4,7 +4,7 @@
 
 schema:
   schema_id: moqi_ms
-  name: 墨奇音形+微软双拼beta版
+  name: 墨奇音形+微软双拼
   version: "2024-05-12"
   author:
     - gaboolic
