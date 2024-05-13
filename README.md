@@ -1,6 +1,6 @@
 # 说明
 
-重磅发布：墨奇音形，支持自然码和小鹤双拼。墨奇音形是一个基于字形描述信息、递归拆分，最后取首末双形音托的方案。详见[墨奇码拆分规则](https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%A2%A8%E5%A5%87%E7%A0%81%E6%8B%86%E5%88%86%E8%A7%84%E5%88%99)
+重磅发布：墨奇音形，支持自然码和小鹤双拼。墨奇音形是一个基于字形描述信息、递归拆分，最后取首末双形音托的方案。详见[墨奇码拆分规则](https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%A2%A8%E5%A5%87%E7%A0%81%E6%8B%86%E5%88%86%E8%A7%84%E5%88%99)。墨奇码已经拆分完成全部的通用规范汉字，未来准备支持繁体字，正在拆分中。
 
 - [此仓库](https://github.com/gaboolic/rime-shuangpin-fuzhuma)为rime配置文件,词库使用最强简体词库——[雾凇拼音](https://github.com/iDvel/rime-ice)，在雾凇拼音的基础上实现自然码双拼、小鹤双拼，以及对应的辅助码。本人用的是这个方案，所以更新有保证
 - 配置文件参考[小鹤双拼+自然快手/小鹤双形辅助码](https://github.com/functoreality/rime-flypy-zrmfast)
@@ -20,7 +20,7 @@
 
 ### FAQ（常见问题）q羣696353204
 
-​	 更多配置及功能请看：[FAQ.md](md\FAQ.md) 
+​  更多配置及功能请看：[FAQ.md](md\FAQ.md)
 
 ### 输入效果
 
