@@ -158,6 +158,7 @@ speller:
 
 translator:
   dictionary: moqi.extended
+  prism: moqi_ms
   enable_completion: false
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
   ##  改为 1 则是只显示单字的输入码，依此类推。
