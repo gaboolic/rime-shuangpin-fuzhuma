@@ -336,8 +336,9 @@
 寸	obc	92
 才	obc	91
 册	obc	90
-爪	obv	100
-爫	obv	99
+𥫗	obv	101
+爫	obv	100
+爪	obv	99
 ⺪	obv	98
 正	obv	97
 𦈢	obv	96
