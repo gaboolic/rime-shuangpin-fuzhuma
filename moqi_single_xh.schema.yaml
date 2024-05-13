@@ -104,9 +104,9 @@ speller:
   initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
   delimiter: " '"
-  max_code_length: 5
+  max_code_length: 4
   auto_select: true   #顶字上屏
-  auto_select_pattern: ^;.$|^[a-df-zA-DF-Z]\w{3}$|^e\w{4}
+  #auto_select_pattern: ^;.$|^[a-df-zA-DF-Z]\w{3}$|^e\w{4}
 
   auto_select_unique_candidate: true
   auto_clear: max_length #manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
