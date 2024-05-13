@@ -93,7 +93,7 @@
 - linux ~/.local/share/fcitx5/rime
 - android <https://github.com/fcitx5-android/fcitx5-android> /Android/adata/org.fcitx.fcitx5.android/files/data/rime
 
-推荐直接用git管理配置，首次：例如mac可以打开~/Library文件夹，然后`git clone https://github.com/gaboolic/rime-shuangpin-fuzhuma Rime`  后面在Rime文件夹执行`git pull`即可
+推荐直接用git管理配置，首次：例如mac可以打开~/Library文件夹，然后`git clone --depth 1 https://github.com/gaboolic/rime-shuangpin-fuzhuma Rime`  后面在Rime文件夹执行`git pull`即可
 
 ### 飞键 模糊音相关
 
