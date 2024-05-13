@@ -95,7 +95,7 @@ lunar: anl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二�
 
 # Lua 配置：长词优先
 # 提升 count 个词语，插入到第 idx 个位置。
-# 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」
+# 示例：将 2 个词插入到第 1  个候选项，输入 总算 得到「1总算 2纵」
 long_word_filter:
   count: 2
   idx: 1
@@ -166,7 +166,7 @@ translator:
   enable_completion: false
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
   ##  改为 1 则是只显示单字的输入码，依此类推。
-  spelling_hints: 2
+  spelling_hints: 1
   comment_format:
     - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
 

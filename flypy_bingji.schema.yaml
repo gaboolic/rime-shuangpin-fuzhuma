@@ -87,7 +87,7 @@ date_translator:
   
 # Lua 配置：长词优先
 # 提升 count 个词语，插入到第 idx 个位置。
-# 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」
+# 示例：将 2 个词插入到第 1  个候选项，输入 总算 得到「1总算 2纵」
 long_word_filter:
   count: 2
   idx: 1
@@ -202,7 +202,7 @@ translator:
   dictionary: flypy_flypy.extended
   prism: flypy_bingji
   enable_completion: false
-  spelling_hints: 2
+  spelling_hints: 1
   comment_format:
     - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
 

@@ -1,15 +1,16 @@
 # 配置和功能
 
-1. ## 如何不显示形码的辅助码：
-   
+1. ## 如何不显示形码的辅助码
+
    - flypy_flypy.schema.yaml中
    - ```
+
     translator:
        dictionary: flypy_flypy.extended
-	    enable_completion: false
-	    # 默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
-	    # 改为 1 则是只显示单字的输入码，依此类推。
-	    spelling_hints: 2
+     enable_completion: false
+     # 默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
+     # 改为 1 则是只显示单字的输入码，依此类推。
+     spelling_hints: 2
 
 2. ## 开启用, .翻页
 
@@ -54,7 +55,7 @@
 
 4. ## 数字大写
 
-   1. 照搬了https://github.com/iDvel/rime-ice
+   1. 照搬了<https://github.com/iDvel/rime-ice>
       输入R开头即可
       [![image](https://private-user-images.githubusercontent.com/3831173/323869887-f4aedf70-2584-429d-98cf-25b7cf5ecc58.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU1MzA4OTYsIm5iZiI6MTcxNTUzMDU5NiwicGF0aCI6Ii8zODMxMTczLzMyMzg2OTg4Ny1mNGFlZGY3MC0yNTg0LTQyOWQtOThjZi0yNWI3Y2Y1ZWNjNTgucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDUxMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA1MTJUMTYxNjM2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODZiMGMxZDBiMGY4OWFjODY4MGJkNDlmMWQ1YzE2OTkzOTU5NmU2NjYyZDQ4OGY0Yjg1OTc4ZDUyYTQwYjYyYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.-TlzIy9alKUnTv4je8MdY1jk5aebtWzPp7zmy_duEWI)](https://private-user-images.githubusercontent.com/3831173/323869887-f4aedf70-2584-429d-98cf-25b7cf5ecc58.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU1MzA4OTYsIm5iZiI6MTcxNTUzMDU5NiwicGF0aCI6Ii8zODMxMTczLzMyMzg2OTg4Ny1mNGFlZGY3MC0yNTg0LTQyOWQtOThjZi0yNWI3Y2Y1ZWNjNTgucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDUxMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA1MTJUMTYxNjM2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODZiMGMxZDBiMGY4OWFjODY4MGJkNDlmMWQ1YzE2OTkzOTU5NmU2NjYyZDQ4OGY0Yjg1OTc4ZDUyYTQwYjYyYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.-TlzIy9alKUnTv4je8MdY1jk5aebtWzPp7zmy_duEWI)
 
@@ -91,7 +92,7 @@
      #- { when: composing, accept: Control+4, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
      ```
 
-7. ## 关于飞键 qu qv，ju jv 
+7. ## 关于飞键 qu qv，ju jv
 
    1. 打开`# - derive/^([jqxy])u/$1v/`的注释，即可qu qv，ju jv互相飞键
    2. 再去掉custom_phrase.txt中的短语
@@ -105,10 +106,11 @@
       ofxd ΑΒΓ
 
 9. ## 以词定字
+
    以词定字的功能关了，因为有辅助码了 就不太需要以词定字
    如果想打开 可以看[#15 (comment)](https://github.com/gaboolic/rime-shuangpin-fuzhuma/issues/15#issuecomment-2087710504)
 
-10. ## 预输入框中显示双拼与全拼 来自 [ChaosAlphard](https://github.com/ChaosAlphard) 
+10. ## 预输入框中显示双拼与全拼 来自 [ChaosAlphard](https://github.com/ChaosAlphard)
 
     详见[#18](https://github.com/gaboolic/rime-shuangpin-fuzhuma/pull/18)
 
@@ -123,6 +125,3 @@
     在`patch:`下添加`"style/horizontal": true`后重新部署即可
 
 12. ...
-
-
-
