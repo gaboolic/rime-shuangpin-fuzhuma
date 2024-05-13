@@ -44,7 +44,6 @@
 乌	obw	81
 ⻖	obe	100
 ⻏	obe	99
-阝	obe	98
 卩	obe	97
 𰆊	obe	96
 耳	obe	95
