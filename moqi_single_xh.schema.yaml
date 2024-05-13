@@ -149,10 +149,7 @@ speller:
     # - derive/^i([a-z])/c$1/
     # - derive/^u([a-z])/s$1/
 
-    - derive/^(..)[[].+$/$1/
-    - derive/^(..[[].).+$/$1/
     # - derive/^([jqxy])u/$1v/
-    - derive/[[]//
 
     ## 飞键 可选择性开启
     # - derive/^([yh])j/$1q/
@@ -169,7 +166,7 @@ speller:
     
 
 translator:
-  dictionary: moqi_single.extended
+  dictionary: moqi_single
   enable_completion: false
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
   ##  改为 1 则是只显示单字的输入码，依此类推。
