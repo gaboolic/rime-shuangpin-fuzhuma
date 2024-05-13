@@ -67,7 +67,7 @@ function updateMissingEncodings(filePath, writeFilePath) {
         }
 
         // Update the line with the missing encoding
-        var updatedLine = `${encoding}\t${character}\t`;
+        var updatedLine = `${encoding}\t${character}`;
 
         if (encoding_count_map[encoding] < 7) {
 
