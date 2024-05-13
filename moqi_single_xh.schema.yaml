@@ -53,6 +53,7 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
+    - table_translator
     - table_translator@custom_phrase
     - table_translator@custom_phrase_kf
     - table_translator@custom_phrase_mqzg
@@ -106,7 +107,7 @@ speller:
   delimiter: " '"
   max_code_length: 4
   auto_select: true   #顶字上屏
-  #auto_select_pattern: ^;.$|^[a-df-zA-DF-Z]\w{3}$|^e\w{4}
+  auto_select_pattern: ^;.$|^[a-df-zA-DF-Z]\w{3}$|^e\w{4}$
 
   auto_select_unique_candidate: true
   auto_clear: max_length #manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
