@@ -10,7 +10,7 @@
 #
 
 ---
-name: moqi_single.extended
+name: moqi_single
 version: "2024.05.11"
 sort: by_weight  #字典初始排序，可選original或by_weight
 use_preset_vocabulary: false
