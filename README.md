@@ -130,6 +130,8 @@ emoji的词库 弄个更好的
 
 雾凇词库 <https://github.com/iDvel/rime-ice>
 
+墨奇码码表 <https://github.com/gaboolic/moqima-tables>
+
 小鹤双拼+辅助码 <https://gitee.com/functoreality/rime-flypy-zrmfast>
 
 魔然（自然码双拼辅助码）：<https://github.com/ksqsf/rime-moran>
