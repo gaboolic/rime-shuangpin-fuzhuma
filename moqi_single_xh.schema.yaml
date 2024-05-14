@@ -53,6 +53,7 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
+    - table_translator
     - table_translator@custom_phrase
     - table_translator@custom_phrase_kf
     - table_translator@custom_phrase_mqzg
@@ -106,7 +107,7 @@ speller:
   delimiter: " '"
   max_code_length: 4
   auto_select: true   #顶字上屏
-  #auto_select_pattern: ^;.$|^[a-df-zA-DF-Z]\w{3}$|^e\w{4}
+  auto_select_pattern: ^;.$|^[a-df-zA-DF-Z]\w{3}$|^e\w{4}$
 
   auto_select_unique_candidate: true
   auto_clear: max_length #manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
@@ -167,7 +168,7 @@ speller:
 
 translator:
   dictionary: moqi_single
-  enable_completion: false
+  enable_completion: true
   db_class: tabledb
   enable_charset_filter: false
   enable_sentence: false
@@ -175,7 +176,7 @@ translator:
   ##  改为 1 则是只显示单字的输入码，依此类推。
   spelling_hints: 1
   comment_format:
-    - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
+    - "xform/[a-z]{2}([a-z]{2})/$1/" ## 编码提示只显示辅助码部分
 
   enable_user_dict: false # 是否开启自动调频
   preedit_format:
@@ -349,7 +350,7 @@ recognizer:
     gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
 
 menu:
-  page_size: 9 # 使用上面默认punct正则时，page_size为10，会有`/+数字`无法使用0进行快速选择的情况
+  page_size: 5
 
 
 emojis:
