@@ -106,20 +106,21 @@ speller:
   delimiter: " '"
   ## ue ve
   algebra:
-    - xform/^(a-z)w/$1Z/  #w->z
-    - derive/^(a-z)t/$1V/  #t->v ue
-    - xform/^(a-z)y/$1P/  #y->p
-    - xform/^(a-z)p/$1X/  #p->x
-    - xform/^(a-z)d/$1L/  #d->l
-    - xform/^([gkhvui])k/$1Y/  #k->y uai
-    - xform/^(a-z)k/$1;/  #k->; ing
-    - xform/^(a-z)l/$1D/  #l->d
-    - xform/^(a-z)z/$1B/  #z->b
-    - xform/^(a-z)x/$1W/  #x->w
-    - xform/^(a-z)c/$1K/  #x->w
-    - derive/^([nl])v/$1Y/  #v->y
-    - xform/^(a-z)b/$1N/  #b->n
-    - xform/^(a-z)n/$1C/  #n->c
+    - xform/^/ /
+    - xform/( \w)w/$1Z/ # 小鹤双拼的W键的ei匹配到微软双拼的Z键
+    - xform/( \w)y/$1P/ # 小鹤双拼的Y键的un匹配到微软双拼的P键
+    - xform/( \w)p/$1X/ # 小鹤双拼的P键的ie匹配到微软双拼的X键
+    - xform/( \w)d/$1L/ # 小鹤双拼的D键的ai匹配到微软双拼的L键
+    - xform/( [gkhvuirzcs])k/$1Y/ # 小鹤双拼的K键的uai匹配到微软双拼的Y键
+    - xform/( \w)k/$1;/ # 小鹤双拼的K键的ing匹配到微软双拼的;键
+    - xform/( \w)l/$1D/ # 小鹤双拼的L键的iang和uang匹配到微软双拼的D键
+    - xform/( \w)z/$1B/ # 小鹤双拼的Z键的ou匹配到微软双拼的B键
+    - xform/( \w)x/$1W/ # 小鹤双拼的X键的ia和ua匹配到微软双拼的W键
+    - xform/( \w)c/$1K/ # 小鹤双拼的C键的ao匹配到微软双拼的K键
+    - xform/( [^aeiou])n/$1C/ # 小鹤双拼的N键的iao匹配到微软双拼的C键
+    - xform/( \w)b/$1N/ # 小鹤双拼的B键的in匹配到微软双拼的N键
+    - derive/( [nl])v/$1Y/ # 小鹤双拼的V键的v匹配到微软双拼的Y键
+    - derive/( \w)t/$1V/  #t->v ue
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
     # - derive/^qx/qw/
     # - derive/^jn/jv/
