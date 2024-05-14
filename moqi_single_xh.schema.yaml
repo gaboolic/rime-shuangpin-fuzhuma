@@ -168,7 +168,7 @@ speller:
 
 translator:
   dictionary: moqi_single
-  enable_completion: true
+  enable_completion: false
   db_class: tabledb
   enable_charset_filter: false
   enable_sentence: false
@@ -350,7 +350,7 @@ recognizer:
     gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
 
 menu:
-  page_size: 5
+  page_size: 3
 
 
 emojis:
