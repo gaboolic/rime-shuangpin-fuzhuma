@@ -28,6 +28,9 @@ switches:
     states: [ 简, 繁 ]
   - name: emoji
     states: [ 💀, 😄 ]
+  - name: mars
+    reset: 0
+    states: [ 地, 煋 ] #火星文
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -73,6 +76,7 @@ engine:
     - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
     - simplifier@emoji                              # Emoji
     - simplifier@traditionalize                     # 简繁切换
+    - simplifier@mars                               #火星文
     - uniquifier
 
 # 计算器触发关键字
@@ -292,6 +296,11 @@ traditionalize:
   opencc_config: s2t.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json
   tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
   tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
+
+# 火星文切换
+mars:
+  opencc_config: martian.json 
+  option_name: mars
   
 # 标点符号
 # punctuator 下面有三个子项：
