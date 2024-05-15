@@ -147,3 +147,7 @@ emoji的词库 弄个更好的
 <img src="readmeimg/moqi1.jpg" width=30%>
 
 <img src="readmeimg/moqi2.jpg" width=30%>
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=gaboolic/rime-shuangpin-fuzhuma&type=Date)](https://star-history.com/#gaboolic/rime-shuangpin-fuzhuma&Date)
