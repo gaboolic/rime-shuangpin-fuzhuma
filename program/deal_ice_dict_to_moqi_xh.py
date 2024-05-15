@@ -159,7 +159,7 @@ with open('./moqima8105.txt', 'r', encoding='utf-8') as dict_file:
 
                 
                 if character in '去我而人他有是出哦配啊算的非个和就可了在小从这吧你吗':
-                    encoding_post = ""
+                    encoding_post = encoding.upper()
                 if character not in dict_data:
                     dict_data[character] = encoding_post
 
