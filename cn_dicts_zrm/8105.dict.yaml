@@ -45,7 +45,7 @@ sort: by_weight
 
 ### 扩展，不在《通用规范汉字表》的字:
 𤭢	cz[wz	1000
-𤭢了	cz[wz le[aa	1000
+𤭢了	cz[wz le[AA	1000
 𰻝	bd[zx	1
 嬢	nd[ny	1
 薙	ti[cv	1
@@ -53,6 +53,7 @@ sort: by_weight
 卻	qt[eg	1
 濛	mg[dm	1
 诶	ei[yu	1
+牠	ta[ny	1
 凃	tu[dy	1
 咲	xc[kg	1
 螓	qn[iq	1
@@ -95,7 +96,7 @@ sort: by_weight
 
 ### 字表
 # +_+
-啊	aa[ka	5366043
+啊	aa[KA	5366043
 阿	aa[ek	867275
 吖	aa[ky	160000
 锕	aa[ja	144
@@ -178,7 +179,7 @@ sort: by_weight
 薁	ao[ca	5
 嶅	ao[ua	0
 把	ba[fb	3798288
-吧	ba[kb	2403165
+吧	ba[KB	2403165
 八	ba[pd	740031
 爸	ba[fb	541485
 巴	ba[ag	523594
@@ -925,7 +926,7 @@ sort: by_weight
 杻	ib[mi	1
 侴	ib[rd	0
 椆	ib[mv	0
-出	iu[ck	2294943
+出	iu[CK	2294943
 处	iu[wb	1626691
 楚	iu[mp	728204
 除	iu[ey	599918
@@ -1044,7 +1045,7 @@ sort: by_weight
 差	ci[yg	1
 莿	ci[cc	0
 𫚖	ci[yc	0
-从	cs[rr	3173776
+从	cs[RR	3173776
 匆	cs[gp	170609
 聪	cs[ez	138731
 丛	cs[ac	84509
@@ -1237,7 +1238,7 @@ sort: by_weight
 鱽	dk[yd	23
 舠	dk[vd	2
 帱	dk[ju	1
-的	de[bu	76938354
+的	de[BU	76938354
 地	de[ty	8804040
 得	de[xc	7186260
 德	de[xx	733775
@@ -1271,7 +1272,7 @@ sort: by_weight
 递	di[zd	161919
 迪	di[zy	150391
 滴	di[dd	147754
-的	di[bu	106917
+的	di[BU	106917
 蒂	di[cd	105801
 狄	di[qh	58778
 笛	di[vy	43923
@@ -1554,7 +1555,7 @@ sort: by_weight
 崿	ee[ue	14
 姶	ee[nh	10
 涐	ee[dw	2
-哦	ee[kw	1
+哦	ee[KW	1
 堨	ee[th	0
 𥔲	ee[ue	0
 𫫇	ee[ke	0
@@ -1562,7 +1563,7 @@ sort: by_weight
 恩	en[xy	433653
 摁	en[fe	8517
 蒽	en[ce	130
-而	er[aa	5075337
+而	er[AA	5075337
 儿	er[pg	2850098
 二	er[aa	2073729
 尔	er[dx	936690
@@ -1637,7 +1638,7 @@ sort: by_weight
 牥	fh[nf	0
 蚄	fh[if	0
 飞	fz[yd	1593771
-非	fz[aa	1219442
+非	fz[AA	1219442
 费	fz[bf	449492
 菲	fz[cf	252624
 废	fz[gf	148745
@@ -1911,7 +1912,7 @@ sort: by_weight
 藁	gk[cm	142
 槔	gk[mg	74
 筶	gk[vg	4
-个	ge[ra	14789406
+个	ge[RA	14789406
 哥	ge[kd	1176477
 各	ge[wk	856128
 格	ge[mg	715810
@@ -2272,7 +2273,7 @@ sort: by_weight
 嚆	hk[kg	22
 鄗	hk[eg	10
 镐	hk[jg	1
-和	he[hk	6252031
+和	he[HK	6252031
 何	he[rk	1822108
 合	he[rk	1085786
 喝	he[kh	707608
@@ -2390,7 +2391,7 @@ sort: by_weight
 互	hu[aa	215472
 狐	hu[qg	139523
 壶	hu[uy	45112
-和	hu[hk	41260
+和	hu[HK	41260
 蝴	hu[ih	33327
 惚	hu[xh	28986
 弧	hu[gg	25808
@@ -2596,7 +2597,7 @@ sort: by_weight
 祸	ho[ug	100219
 霍	ho[yv	91016
 豁	ho[gh	26107
-和	ho[hk	4126
+和	ho[HK	4126
 夥	ho[gd	3748
 嚯	ho[kh	2371
 藿	ho[ch	435
@@ -3095,13 +3096,13 @@ sort: by_weight
 泂	js[dj	22
 䌹	js[sh	0
 𬳶	js[mj	0
-就	jq[yj	11305679
-酒	jq[dy	862253
-久	jq[pd	737479
-九	jq[py	506014
-究	jq[xj	429844
+就	jq[YJ	11305679
+九	jq[py	862253
+酒	jq[dy	737479
+久	jq[pd	506014
+旧	jq[ao	429844
 救	jq[wq	427315
-旧	jq[ao	275220
+究	jq[xj	275220
 舅	jq[jn	73540
 纠	jq[sj	69730
 疚	jq[bj	37765
@@ -3330,7 +3331,7 @@ sort: by_weight
 栲	kk[mk	164
 㸆	kk[hk	0
 洘	kk[dk	0
-可	ke[dk	1069176
+可	ke[DK	1069176
 刻	ke[dh	977816
 克	ke[eg	777926
 客	ke[bg	692916
@@ -3602,7 +3603,7 @@ sort: by_weight
 铹	lk[jl	2
 络	lk[sg	1
 𫭼	lk[tl	0
-了	le[aa	3481243
+了	le[AA	3481243
 乐	le[pd	777260
 勒	le[lg	149722
 叻	le[kl	525
@@ -3810,7 +3811,7 @@ sort: by_weight
 憭	lc[xl	6
 簝	lc[vl	4
 橑	lc[ml	1
-了	lc[aa	0
+了	lc[AA	0
 𪤗	lc[tl	0
 列	lx[dd	244324
 裂	lx[yl	174922
@@ -4104,7 +4105,7 @@ sort: by_weight
 锊	lt[jc	58
 䂮	lt[uq	0
 圙	lt[km	0
-吗	ma[km	9028487
+吗	ma[KM	9028487
 马	ma[aa	1729443
 妈	ma[nm	956493
 麻	ma[gl	374419
@@ -4504,7 +4505,7 @@ sort: by_weight
 嫩	nf[ni	58594
 恁	nf[xr	3956
 能	ng[sb	59336
-你	ni[re	1422192
+你	ni[RE	1422192
 尼	ni[ub	272244
 妮	ni[nn	155375
 泥	ni[dn	120657
@@ -4626,7 +4627,7 @@ sort: by_weight
 衄	nv[xi	42
 虐	nt[ha	30741
 疟	nt[ba	1012
-哦	oo[kw	3563330
+哦	oo[KW	3563330
 噢	oo[ka	496080
 喔	oo[kw	1
 欧	ou[qq	253543
@@ -4711,7 +4712,7 @@ sort: by_weight
 匏	pk[bk	229
 脬	pk[of	135
 陪	pz[ek	269126
-配	pz[yj	262063
+配	pz[YJ	262063
 佩	pz[rb	153498
 培	pz[tk	98414
 赔	pz[bk	61380
@@ -5238,7 +5239,7 @@ sort: by_weight
 訄	qq[jy	5
 龟	qq[dd	1
 𨱇	qq[jq	0
-去	qu[ts	7182400
+去	qu[TS	7182400
 取	qu[ey	602170
 区	qu[ki	485061
 趣	qu[zq	278572
@@ -5357,7 +5358,7 @@ sort: by_weight
 荛	rk[cy	132
 热	re[dv	625680
 惹	re[cx	125358
-人	rf[pd	18435295
+人	rf[PD	18435295
 任	rf[rr	1353727
 认	rf[yr	1184729
 忍	rf[xr	492901
@@ -5675,7 +5676,7 @@ sort: by_weight
 嵊	ug[ui	242
 眚	ug[ou	119
 陞	ug[et	42
-是	ui[op	31422712
+是	ui[OP	31422712
 时	ui[oc	8207119
 事	ui[aa	4729336
 实	ui[bt	2616492
@@ -5967,7 +5968,7 @@ sort: by_weight
 蹜	su[zs	3
 缩	su[ss	1
 𫗧	su[uu	0
-算	sr[vc	1263186
+算	sr[VC	1263186
 酸	sr[yj	115604
 蒜	sr[cs	14174
 狻	sr[qw	1715
@@ -6023,7 +6024,7 @@ sort: by_weight
 羧	so[yj	36
 溹	so[ds	1
 莎	so[cu	1
-他	ta[ry	17596473
+他	ta[RY	17596473
 她	ta[ny	7870163
 它	ta[bb	1298568
 塔	ta[td	178293
@@ -6560,7 +6561,7 @@ sort: by_weight
 滃	wg[dw	19
 鹟	wg[nw	0
 𬭩	wg[jw	0
-我	wo[pd	29569261
+我	wo[PD	29569261
 握	wo[fw	340839
 窝	wo[xn	98104
 卧	wo[bi	96870
@@ -6865,7 +6866,7 @@ sort: by_weight
 葙	xd[cx	40
 珦	xd[wx	29
 𬙋	xd[sx	0
-小	xc[ad	6383822
+小	xc[AD	6383822
 笑	xc[vy	3577465
 消	xc[dx	792838
 校	xc[mj	623489
@@ -7654,7 +7655,7 @@ sort: by_weight
 喁	ys[ky	1
 㶲	ys[hy	0
 鲬	ys[yy	0
-有	yb[ou	17847013
+有	yb[OU	17847013
 又	yb[vd	3710252
 由	yb[aa	1400586
 友	yb[yu	869919
@@ -7927,7 +7928,7 @@ sort: by_weight
 扎	za[fg	1000
 臜	za[oz	186
 拶	za[fx	1
-在	zl[ta	19195987
+在	zl[TA	19195987
 再	zl[aa	2681503
 载	zl[gi	127412
 灾	zl[bh	83099
@@ -8127,7 +8128,7 @@ sort: by_weight
 旐	vk[fv	1
 𬬿	vk[jv	0
 𬶐	vk[yv	0
-这	ve[zw	17648808
+这	ve[ZW	17648808
 着	ve[yo	1616546
 者	ve[lo	1581047
 折	ve[fj	248570

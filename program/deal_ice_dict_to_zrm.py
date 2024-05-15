@@ -148,7 +148,7 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
     write_file(write_file_path, updated_content)
 
 dict_data = {}
-file_list = ['8105.dict.yaml', '41448.dict.yaml', 'base.dict.yaml', 'ext.dict.yaml', 'others.dict.yaml', 'tencent.dict.yaml']
+file_list = ['8105.dict.yaml', '41448.dict.yaml', 'base.dict.yaml', 'ext.dict.yaml', 'others.dict.yaml']
 # file_list = [ 'tencent.dict.yaml']
 # Load the dict data from the provided file
 with open('./moran.chars.dict.yaml', 'r', encoding='utf-8') as dict_file:
@@ -160,6 +160,9 @@ with open('./moran.chars.dict.yaml', 'r', encoding='utf-8') as dict_file:
             if "'" not in encoding:
                 encoding_pre = encoding[:2]
                 encoding_post = encoding[3:]
+                
+                if character in '去我而人他有是出哦配啊算的非个和就可了在小从这吧你吗':
+                    encoding_post = encoding_post.upper()
                 if character not in dict_data:
                     dict_data[character] = encoding_post
 
