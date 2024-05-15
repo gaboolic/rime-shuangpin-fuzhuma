@@ -75,6 +75,7 @@ engine:
   filters:
     - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
     - simplifier@emoji                              # Emoji
+    # - lua_filter@reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
     - simplifier@traditionalize                     # 简繁切换
     - simplifier@mars                               #火星文
     - uniquifier
@@ -93,7 +94,6 @@ date_translator:
 
 # Lua 配置：农历的触发关键字
 lunar: anl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
-  
 # Lua 配置：长词优先
 # 提升 count 个词语，插入到第 idx 个位置。
 # 示例：将 2 个词插入到第 1  个候选项，输入 总算 得到「1总算 2纵」
@@ -161,10 +161,6 @@ speller:
     # - derive/^([y])h/$1g/
     # - derive/^([rgv])f/$1m/
     # - derive/^([rgv])c/$1n/
-
-
-    
-    
 
 translator:
   dictionary: moqi.extended

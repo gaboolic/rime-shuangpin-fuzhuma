@@ -48,6 +48,12 @@
 
 ![仓颉](readmeimg/cangjie5.png)
 
+- 通过opencc支持繁简转换、火星文
+
+![繁体](readmeimg/fantizi.png)
+
+![火星文](readmeimg/huoxingwen.png)
+
 - 日期时间相关输入：`date time week` `datetime` `timestamp`
 
   ![datetime](readmeimg/datetime.png)
@@ -111,8 +117,6 @@
 ### todo
 
 ```
-加火星文支持
-
 41448大字辅助码补完计划
 
 2码 空格打字 tab打词
