@@ -1,4 +1,6 @@
-local M = {}
+-- author: https://github.com/ChaosAlphard
+-- 说明 https://github.com/gaboolic/rime-shuangpin-fuzhuma/pull/41
+ocal M = {}
 
 function M.init(env)
   local config = env.engine.schema.config
