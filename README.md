@@ -2,7 +2,11 @@
 
 重磅发布：墨奇音形，支持自然码、小鹤、搜狗、微软双拼。墨奇音形是一个基于字形描述信息、递归拆分，最后取首末双形音托的码表开源的方案。详见[墨奇码拆分规则](https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%A2%A8%E5%A5%87%E7%A0%81%E6%8B%86%E5%88%86%E8%A7%84%E5%88%99)。[墨奇码](https://github.com/gaboolic/moqima-tables)已经拆分完成全部的通用规范汉字，未来准备支持繁体字，正在拆分中。预计在近期内支持4万字。
 
-- [此仓库](https://github.com/gaboolic/rime-shuangpin-fuzhuma)为rime配置文件,词库使用最强简体词库——[雾凇拼音](https://github.com/iDvel/rime-ice)，在雾凇拼音的基础上实现自然码双拼、小鹤双拼，以及对应的辅助码。本人用的是这个方案，所以更新有保证
+在线试用：[墨奇音形单字版](https://my-rime.vercel.app/?plum=gaboolic/rime-shuangpin-fuzhuma@master:moqi_single_xh)
+
+[墨奇音形大词库版](https://my-rime.vercel.app/?plum=gaboolic/rime-shuangpin-fuzhuma@master:moqi_xh,moqi_zrm) (词库多，加载较慢)
+
+- [此仓库](https://github.com/gaboolic/rime-shuangpin-fuzhuma)为rime配置文件,词库使用最强简体词库——[雾凇拼音](https://github.com/iDvel/rime-ice)，在雾凇拼音的基础上实现自然码双拼、小鹤双拼，以及对应的辅助码。本人用的是这个方案，所以更新有保证。
 - 配置文件参考[小鹤双拼+自然快手/小鹤双形辅助码](https://github.com/functoreality/rime-flypy-zrmfast)
 - [魔改自然碼 Rime 方案 (自然碼雙拼+輔助碼+外語混輸+簡繁方案+emoji)](https://github.com/ksqsf/rime-moran)
 - 主要配置文件:
