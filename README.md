@@ -38,6 +38,9 @@
 
 ![极速](readmeimg/jimsu.png)
 
+- 整句输入时增强单字性能，增加syffo或者syff/ 5码上屏单字的功能
+![zssr](readmeimg/zssr.png)
+
 - 不认识的字可以笔画输入 `ab`引导 hspnz横竖撇捺折
 
 ![笔画](readmeimg/bihua.png)
@@ -121,8 +124,6 @@
 ### todo
 
 ```
-整句模式增强单字性能，增加syff/ 5码自动上屏单字的功能
-
 墨奇码41448大字辅助码补完计划
 
 2码 空格打字 tab打词，即可实现所有2码简词

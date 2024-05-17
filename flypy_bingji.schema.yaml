@@ -316,7 +316,7 @@ key_binder:
     - { when: composing, accept: Control+m, send: Return }
     - { when: composing, accept: Control+w, send: Control+BackSpace }
     - { when: has_menu, accept: semicolon, send: 2 }
-    - { when: has_menu, accept: slash, send: 3 }
+    # - { when: has_menu, accept: slash, send: 3 } # 用/进行选3
     - { when: composing, accept: Control+i, send: Shift+Right }
     - { when: composing, accept: Control+o, send: Shift+Left }
     ## 对以下4行取消注释后：启用光标回退至特定音节后、补充辅助码的功能
