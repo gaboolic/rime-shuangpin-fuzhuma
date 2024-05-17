@@ -335,6 +335,8 @@ key_binder:
     # - { when: has_menu, accept: slash, send: 3 } # 用/进行选3
     - { when: composing, accept: Control+i, send: Shift+Right }
     - { when: composing, accept: Control+o, send: Shift+Left }
+    # 显示墨奇码拆分的快速开关
+    - { when: has_menu, accept: "Control+p", toggle: chaifen }
     ## 对以下4行取消注释后：启用光标回退至特定音节后、补充辅助码的功能
     ## （自然码等其他双拼用户请在 pinyin_switch.yaml 中设置）
     #- { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
