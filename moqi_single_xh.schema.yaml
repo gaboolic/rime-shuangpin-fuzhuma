@@ -61,7 +61,7 @@ engine:
     - reverse_lookup_translator@reverse_stroke
     - reverse_lookup_translator@reverse_zrlf
     - reverse_lookup_translator@reverse_cj
-    - script_translator
+    # - script_translator
     - lua_translator@date_translator    # 时间、日期、星期
     - lua_translator@lunar              # 农历
     - table_translator@emojis ## 添加注释后：停用ae模式emoji输入
@@ -105,7 +105,7 @@ speller:
   initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
   delimiter: " '"
-  max_code_length: 4
+  max_code_length: 5
   auto_select: true   #顶字上屏
   auto_select_pattern: ^;.$|^[a-df-zA-DF-Z]\w{3}$|^e\w{4}$
 
