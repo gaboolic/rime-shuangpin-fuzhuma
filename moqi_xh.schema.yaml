@@ -79,6 +79,7 @@ engine:
     - simplifier@emoji                              # Emoji
     # - lua_filter@reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
     - simplifier@chaifen
+    - simplifier@chaifen_all
     - simplifier@traditionalize                     # 简繁切换
     - simplifier@mars                               #火星文
     - uniquifier
@@ -293,6 +294,14 @@ chaifen:
   comment_form:
     - "xform/-/ /"
 
+chaifen_all:
+  option_name: chaifen_all
+  opencc_config: moqi_chaifen_all.json
+  tips: char
+  show_in_comment: true
+  comment_form:
+    - "xform/-/ /"
+
 # Emoji
 emoji:
   option_name: emoji
@@ -337,6 +346,7 @@ key_binder:
     - { when: composing, accept: Control+o, send: Shift+Left }
     # 显示墨奇码拆分的快速开关
     - { when: has_menu, accept: "Control+p", toggle: chaifen }
+    - { when: has_menu, accept: "Control+l", toggle: chaifen_all }
     ## 对以下4行取消注释后：启用光标回退至特定音节后、补充辅助码的功能
     ## （自然码等其他双拼用户请在 pinyin_switch.yaml 中设置）
     #- { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
