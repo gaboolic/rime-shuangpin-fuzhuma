@@ -55,11 +55,13 @@
 
 ![仓颉](readmeimg/cangjie5.png)
 
-- 通过opencc支持繁简转换、火星文
+- 通过opencc支持繁简转换、火星文、首末拆分字形(墨奇音形)
 
 ![繁体](readmeimg/fantizi.png)
 
 ![火星文](readmeimg/huoxingwen.png)
+
+![拆分](readmeimg/shoumo-chai.png)
 
 - 日期时间相关输入：`date time week` `datetime` `timestamp`
 
