@@ -63,6 +63,10 @@
 
 ![拆分](readmeimg/shoumo-chai.png)
 
+![全拆](readmeimg/quanchai.png)
+
+墨奇音形的方案支持ctrl+p开关显示墨奇辅助码+首末字形,ctrl+l开关显示墨奇拆字的拆分
+
 - 日期时间相关输入：`date time week` `datetime` `timestamp`
 
   ![datetime](readmeimg/datetime.png)
