@@ -129,8 +129,9 @@
 日	obo	96
 曰	obo	95
 ⺜	obo	94
-衤	obp	100
-礻	obp	99
+衤	obp	101
+礻	obp	100
+丿	obp	99
 𠂉	obp	98
 𠂈	obp	97
 𠀉	obp	96
