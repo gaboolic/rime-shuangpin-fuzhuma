@@ -28,6 +28,11 @@ switches:
     states: [ 简, 繁 ]
   - name: emoji
     states: [ 💀, 😄 ]
+  - name: chaifen
+    states: [ 不拆, 扌斥 ]
+  - name: mars
+    reset: 0
+    states: [ 地, 煋 ] #火星文
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -72,7 +77,11 @@ engine:
   filters:
     - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
     - simplifier@emoji                              # Emoji
+    # - lua_filter@reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
+    - simplifier@chaifen
+    - simplifier@chaifen_all
     - simplifier@traditionalize                     # 简繁切换
+    - simplifier@mars                               #火星文
     - uniquifier
 
 # 计算器触发关键字
@@ -138,9 +147,12 @@ speller:
     # - derive/^i([a-z])/c$1/
     # - derive/^u([a-z])/s$1/
 
-    - derive/^(..)[[].+$/$1/
-    - derive/^(..[[].).+$/$1/
-    # - derive/^([jqxy])u/$1v/
+    # - derive/^([jqxy])u/$1v/ # 开启jv=ju的模式
+
+    - derive/^(..)[[].+$/$1/ # 纯双拼的情况
+    - derive/^(..[[].).+$/$1/ # 双拼+一位辅助码的情况
+    - derive|^(.+)[[](\w)(\w)$|$1$2$3o| # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.+)[[](\w)(\w)$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
     - derive/[[]//
 
     ## 飞键 可选择性开启
@@ -274,6 +286,22 @@ reverse_stroke:
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
 
+# 显示墨奇码拆分
+chaifen:
+  option_name: chaifen
+  opencc_config: moqi_chaifen.json
+  tips: char
+  show_in_comment: true
+  comment_form:
+    - "xform/-/ /"
+
+chaifen_all:
+  option_name: chaifen_all
+  opencc_config: moqi_chaifen_all.json
+  tips: char
+  show_in_comment: true
+  comment_form:
+    - "xform/-/ /"
 
 # Emoji
 emoji:
@@ -288,6 +316,11 @@ traditionalize:
   opencc_config: s2t.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json
   tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
   tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
+
+# 火星文切换
+mars:
+  opencc_config: martian.json 
+  option_name: mars
   
 # 标点符号
 # punctuator 下面有三个子项：
@@ -312,6 +345,9 @@ key_binder:
     # - { when: has_menu, accept: slash, send: 3 } # 用/进行选3
     - { when: composing, accept: Control+i, send: Shift+Right }
     - { when: composing, accept: Control+o, send: Shift+Left }
+    # 显示墨奇码拆分的快速开关
+    - { when: has_menu, accept: "Control+p", toggle: chaifen }
+    - { when: has_menu, accept: "Control+l", toggle: chaifen_all }
     ## 对以下4行取消注释后：启用光标回退至特定音节后、补充辅助码的功能
     ## （自然码等其他双拼用户请在 pinyin_switch.yaml 中设置）
     #- { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
