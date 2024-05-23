@@ -104,7 +104,8 @@
 勺	obu	86
 石	obu	85
 山	obu	84
-𡗗	obi	100
+𡗗	obi	101
+𤰔	obi	100
 虫	obi	99
 𫶧	obi	98
 车	obi	97
