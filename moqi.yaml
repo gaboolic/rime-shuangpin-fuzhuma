@@ -1,0 +1,16 @@
+octagram:
+  disable:
+    __patch:
+      grammar: {}
+  enable_for_sentence:
+    __patch:
+      grammar:
+        language: zh-hans-t-essay-bgw
+        # language: zh-hans-t-huayu-v7-bgw
+        # collocation_max_length: 4
+        # collocation_min_length: 2
+      translator/+:
+        contextual_suggestions: true
+        max_homophones: 4
+        max_homographs: 2
+
