@@ -271,7 +271,6 @@
 耂	obl	100
 耒	obl	99
 㠯	obl	98
-𠂤	obl	97
 丨	obl	96
 亅	obl	95
 𠄌	obl	94
