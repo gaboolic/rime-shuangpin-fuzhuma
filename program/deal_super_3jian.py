@@ -48,7 +48,6 @@ for i in range(ord('a'), ord('z')+1):
 
 
 file_path = "custom_phrase_super_3jian.txt"
-
 with open(file_path, "w") as file:
     file.write("## 超强3简 使用deal_super_3jian.py生成\n")
                 
@@ -64,11 +63,37 @@ with open(file_path, "w") as file:
             word_freq_list = sorted(word_freq_list, key=lambda x: int(x['freq']), reverse=True)
 
             # 取出前三个元素
-            word_freq_list = word_freq_list[:3]
-            word = word_freq_list[0]['word']
-            print(word+"\t"+combination+"|")
+            word_freq_list = word_freq_list[:1]
+            for word_freq in word_freq_list:
+                word = word_freq['word']
+                print(word+"\t"+combination+"|")
 
-            file.write(word+"\t"+combination+"|" + "\n")
+                file.write(word+"\t"+combination+"|" + "\n")
+
+            # print(combination + " " + str(word_freq_list))
+    # print(combination + jianpin_word_map[combination])
+
+e_file_path = "changcijian3.txt"
+with open(e_file_path, "w") as file:
+    file.write("## 超强3简 使用deal_super_3jian.py生成\n")
+                
+
+# 遍历字符串序列
+    for combination in combinations:
+        if combination not in jianpin_word_map:
+            #print(combination)
+            pass
+        else:
+            word_freq_list = jianpin_word_map[combination]
+            # 对字典列表进行排序
+            word_freq_list = sorted(word_freq_list, key=lambda x: int(x['freq']), reverse=True)
+
+            # 取出前三个元素
+            word_freq_list = word_freq_list[:5]
+            for word_freq in word_freq_list:
+                word = word_freq['word']
+
+                file.write(word+"\te"+combination+ "\n")
 
             # print(combination + " " + str(word_freq_list))
     # print(combination + jianpin_word_map[combination])

@@ -108,8 +108,8 @@ with open(file_path, "w") as file:
     file.write("## 超强3简 使用deal_super_3jian_no_conflict.py生成\n")
                 
 
-# 遍历字符串序列
-    for combination in combinations:
+# 遍历字符串序列 no_conflict_list
+    for combination in no_conflict_list:
         if combination not in jianpin_word_map:
             #print(combination)
             pass
