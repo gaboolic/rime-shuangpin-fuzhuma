@@ -1,10 +1,3 @@
-# 四字词
----
-name: chengyu
-version: "2024-02-27"
-sort: by_weight
-...
-# +_+
 ## 超强4简 使用deal_super_4jian_no_conflict.py生成
 啊啊啊啊	aaaa
 昂昂不动	aabd

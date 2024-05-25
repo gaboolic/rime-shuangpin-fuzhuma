@@ -243,7 +243,6 @@
 按每个	amg|
 奥马哈	amh|
 奥美嘉	amj|
-奥门口	amk|
 爱美丽	aml|
 阿妹妹	amm|
 阿玛尼	amn|
@@ -1309,7 +1308,7 @@
 从合同	cht|
 策划师	chu|
 策划者	chv|
-才害我	chw|
+从后往	chw|
 词汇学	chx|
 才会有	chy|
 才会在	chz|
@@ -11777,7 +11776,7 @@
 试试啊	uua|
 试试吧	uub|
 数十次	uuc|
-实施的	uud|
+深深的	uud|
 双生儿	uue|
 手术费	uuf|
 数十个	uug|

@@ -131,13 +131,8 @@ speller:
     - derive/( [nl])v/$1Y/ # 小鹤双拼的V键的v匹配到微软双拼的Y键
     - derive/( \w)t/$1V/  #t->v ue
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
-    # - derive/^qx/qw/
-    # - derive/^jn/jv/
-    # - derive/^mn/mv/
-    # - derive/^jm/jz/
-    # - derive/^([y])h/$1g/
-    # - derive/^([rgv])f/$1m/
-    # - derive/^([rgv])c/$1n/
+    - xform/^ //
+    
 
     # 模糊音 可选择性开启
     # - derive/^z([a-z])/v$1/

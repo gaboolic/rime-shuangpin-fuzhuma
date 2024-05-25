@@ -135,7 +135,7 @@ with open(file_path, "w") as file:
     # no_conflict_list 不冲突
     for combination in combinations:
         if combination not in jianpin_word_map:
-            print(combination)
+            # print(combination)
             pass
         else:
             word_freq_list = jianpin_word_map[combination]
@@ -145,7 +145,7 @@ with open(file_path, "w") as file:
             # 取出前三个元素
             word_freq_list = word_freq_list[:3]
             word = word_freq_list[0]['word']
-            print(word+"\t"+combination+"|")
+            # print(word+"\t"+combination+"|")
 
             file.write(word+"\t"+combination + "\n")
 
