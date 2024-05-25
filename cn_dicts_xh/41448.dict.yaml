@@ -17,7 +17,7 @@
 #          这样小字表里存在的字按权重靠前排列，大字表殿后，生僻字自动就排在末尾。
 ---
 name: 41448
-version: "2024-03-11"
+version: "2024-05-16"
 sort: by_weight
 ...
 # 注释掉了一些
@@ -10250,9 +10250,9 @@ sort: by_weight
 緺	gx[[
 罣	gx[[
 罫	gx[[
+聒	gx[ek
 胍	gx[og
 袿	gx[[
-聒	gx[ek
 褂	gx[pb
 詿	gx[[
 諣	gx[[
