@@ -150,7 +150,7 @@ dict_data = {}
 file_list = ['tencent.dict.yaml']
 # file_list = [ 'tencent.dict.yaml']
 # Load the dict data from the provided file
-with open('./moqima8105.txt', 'r', encoding='utf-8') as dict_file:
+with open('./moqima.txt', 'r', encoding='utf-8') as dict_file:
     for line in dict_file:
         if "\t" in line:
             character, encoding, chaifen = line.strip().split('\t')

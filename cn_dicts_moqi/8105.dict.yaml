@@ -34,7 +34,7 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: 8105
-version: "2024-05-02"
+version: "2024-05-21"
 sort: by_weight
 ...
 ### 按需启用
@@ -573,7 +573,7 @@ sort: by_weight
 簿	bu[vc	9481
 埔	bu[tf	6340
 哺	bu[kf	5193
-埠	bu[tf	3319
+埠	bu[tu	3319
 卟	bu[kb	2250
 堡	bu[rt	1000
 逋	bu[zf	438
@@ -6245,29 +6245,29 @@ sort: by_weight
 听	tk[kj	2449553
 停	tk[rd	715545
 厅	tk[id	297396
-挺	tk[ft	269816
-庭	tk[gt	211391
-廷	tk[zt	132059
+挺	tk[fw	269816
+庭	tk[gw	211391
+廷	tk[zw	132059
 婷	tk[nd	123852
 亭	tk[wd	72135
-艇	tk[vt	52284
-霆	tk[yt	29470
+艇	tk[vw	52284
+霆	tk[yw	29470
 汀	tk[dd	15090
-蜓	tk[it	7149
-铤	tk[jt	2171
+蜓	tk[iw	7149
+铤	tk[jw	2171
 葶	tk[cd	910
-莛	tk[ct	876
-珽	tk[wt	349
-梃	tk[mt	271
+莛	tk[cw	876
+珽	tk[ww	349
+梃	tk[mw	271
 烃	tk[hj	130
 渟	tk[dd	19
 颋	tk[zy	9
 桯	tk[mw	8
-侹	tk[rt	2
-䗴	tk[it	0
+侹	tk[rw	2
+䗴	tk[iw	0
 圢	tk[td	0
-烶	tk[ht	0
-𬘩	tk[st	0
+烶	tk[hw	0
+𬘩	tk[sw	0
 同	ts[kk	2614683
 通	ts[zy	1186869
 痛	ts[by	653298
@@ -6646,6 +6646,7 @@ sort: by_weight
 峿	wu[uk	0
 珸	wu[wk	0
 𣲘	wu[dw	0
+洗	xi[de	2290306
 西	xi[ak	1778761
 喜	xi[tk	1069981
 系	xi[px	942245
@@ -6655,7 +6656,6 @@ sort: by_weight
 习	xi[vd	487160
 吸	xi[kj	431549
 戏	xi[yg	347524
-洗	xi[de	290306
 惜	xi[xo	271651
 席	xi[gj	208395
 袭	xi[ly	189129
@@ -7297,11 +7297,11 @@ sort: by_weight
 𫄧	yj[sv	0
 𬙂	yj[sb	0
 𬸘	yj[kn	0
-样	yh[my	4769842
+养	yh[yl	1019753
+样	yh[my	969842
 阳	yh[eo	850226
 杨	yh[mp	633480
 扬	yh[fp	383219
-养	yh[yl	319753
 洋	yh[dy	293496
 仰	yh[re	159568
 央	yh[kr	146296

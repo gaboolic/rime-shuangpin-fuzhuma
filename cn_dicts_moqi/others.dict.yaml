@@ -8,7 +8,7 @@
 #
 ---
 name: others
-version: "2024-04-19"
+version: "2024-05-21"
 sort: by_weight
 ...
 ##### 容错词
@@ -222,6 +222,12 @@ sort: by_weight
 南京六合区	nj[ug jk[wx lq[wb he[rk qu[kx
 南京市六合区	nj[ug jk[wx ui[wj lu[wb he[rk qu[kx
 南京市六合区	nj[ug jk[wx ui[wj lq[wb he[rk qu[kx
+偌大	ro[rk da[ar
+偌大	no[rk da[ar
+饮鸩止渴	yb[uq vf[bn vi[lb ke[dr
+饮鸩止渴	yb[uq jq[bn vi[lb ke[dr
+饮鸩解渴	yb[uq vf[bn jp[dn ke[dr
+饮鸩解渴	yb[uq jq[bn jp[dn ke[dr
 ### 错字
 曾经	cg[bo jk[sj
 曾今	cg[bo jb[rv
@@ -244,8 +250,6 @@ sort: by_weight
 钜惠	ju[jj hv[ix
 摩羯座	mo[gu jp[yr zo[gr
 魔蝎座	mo[gg xp[ir zo[gr
-偌大	ro[rk da[ar
-诺大	no[yk da[ar
 
 
 ##### 叠字
