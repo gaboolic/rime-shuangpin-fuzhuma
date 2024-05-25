@@ -64,6 +64,7 @@ engine:
     - table_translator@custom_phrase_mqzg
     - table_translator@custom_phrase_super_2jian
     - table_translator@custom_phrase_super_3jian
+    - table_translator@custom_phrase_super_3jian_no_conflict
     - reverse_lookup_translator
     - reverse_lookup_translator@reverse_stroke
     - reverse_lookup_translator@reverse_zrlf
@@ -231,6 +232,15 @@ custom_phrase:
   enable_completion: false
   enable_sentence: false
   initial_quality: 1
+
+# 无冲突的3简
+custom_phrase_super_3jian_no_conflict:
+  dictionary: ""
+  user_dict: custom_phrase_super_3jian_no_conflict
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
 
 custom_phrase_kf:
   dictionary: ""
