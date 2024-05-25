@@ -155,13 +155,11 @@ with open('./moqima.txt', 'r', encoding='utf-8') as dict_file:
         if "\t" in line:
             character, encoding, chaifen = line.strip().split('\t')
             if "'" not in encoding:
-                encoding_post = encoding
-
                 
                 if character in '去我而人他有是出哦配啊算的非个和就可了在小从这吧你吗':
-                    encoding_post = encoding.upper()
+                    encoding = encoding[0] + encoding[1].upper()
                 if character not in dict_data:
-                    dict_data[character] = encoding_post
+                    dict_data[character] = encoding
 
 
 print("巴 " + dict_data['巴'])
