@@ -20,7 +20,36 @@ for file in file_list:
                 continue
             pinyin = params[1]
             shengmus = pinyin.split(" ")
-            jianpin = shengmus[0][0] +shengmus[0][1] +shengmus[0][3]
+            jianpin = shengmus[0][0] +shengmus[0][1] +shengmus[0][3]+shengmus[0][4]
+            word_freq = {}
+            word_freq["word"] = word
+            if jianpin not in jianpin_word_map:
+                word_list = []
+                word_list.append(word)
+                jianpin_word_map[jianpin] = word_list
+            else:
+                word_list = jianpin_word_map[jianpin]
+                word_list.append(word)
+                jianpin_word_map[jianpin] = word_list
+
+file_list = ['base.dict.yaml','ext.dict.yaml']
+for file in file_list:
+    file_name  = os.path.join('cn_dicts_moqi', file)
+    with open(file_name, 'r') as file:
+        # 逐行读取文件内容
+        for line in file:
+            # 去除行尾的换行符
+            line = line.rstrip()
+            if line.startswith('#') or '\t' not in line:
+                continue
+            params = line.split("\t")
+            word = params[0]
+            
+            if len(word) != 2:
+                continue
+            pinyin = params[1]
+            shengmus = pinyin.split(" ")
+            jianpin = shengmus[0][0] +shengmus[0][1] +shengmus[1][0]+shengmus[1][1]
             word_freq = {}
             word_freq["word"] = word
             if jianpin not in jianpin_word_map:
@@ -40,10 +69,9 @@ combinations = []
 for i in range(ord('a'), ord('z')+1):
     for j in range(ord('a'), ord('z')+1):
         for k in range(ord('a'), ord('z')+1):
-            combinations.append(chr(i) + chr(j) + chr(k))
+            for l in range(ord('a'), ord('z')+1):
+                combinations.append(chr(i) + chr(j) + chr(k) + chr(l))
 
-
-file_path = "custom_phrase_super_3jian_no_conflict.txt"
 
 no_conflict_list = []
 # 遍历字符串序列
@@ -72,11 +100,13 @@ for file in file_list:
             word = params[0]
             freq = params[2]
             
-            if len(word) != 3:
+            if len(word) != 4:
                 continue
             pinyin = params[1]
             shengmus = pinyin.split(" ")
-            jianpin = shengmus[0][0] + shengmus[1][0] + shengmus[2][0]
+            if len(shengmus) != 4:
+                continue
+            jianpin = shengmus[0][0] + shengmus[1][0] + shengmus[2][0]+ shengmus[3][0]
 
             word_freq = {}
             word_freq["word"] = word
@@ -93,25 +123,17 @@ for file in file_list:
 # print(jianpin_word_map)
 
 
-# 生成 'aaa' 到 'zzz' 的字符串序列
-combinations = []
 
-for i in range(ord('a'), ord('z')+1):
-    for j in range(ord('a'), ord('z')+1):
-        for k in range(ord('a'), ord('z')+1):
-            combinations.append(chr(i) + chr(j) + chr(k))
-
-
-file_path = "custom_phrase_super_3jian_no_conflict.txt"
+file_path = "custom_phrase_super_4jian_no_conflict.txt"
 
 with open(file_path, "w") as file:
-    file.write("## 超强3简 使用deal_super_3jian_no_conflict.py生成\n")
+    file.write("## 超强4简 使用deal_super_4jian_no_conflict.py生成\n")
                 
 
 # 遍历字符串序列
-    for combination in combinations:
+    for combination in no_conflict_list:
         if combination not in jianpin_word_map:
-            #print(combination)
+            print(combination)
             pass
         else:
             word_freq_list = jianpin_word_map[combination]
