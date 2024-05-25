@@ -73,9 +73,17 @@ with open(file_path, "w") as file:
             # print(combination + " " + str(word_freq_list))
     # print(combination + jianpin_word_map[combination])
 
-e_file_path = "changcijian3.txt"
+e_file_path = "cn_dicts_common/changcijian3.dict.yaml"
 with open(e_file_path, "w") as file:
-    file.write("## 超强3简 使用deal_super_3jian.py生成\n")
+    title = """# 3字词
+---
+name: changcijian3
+version: "2024-02-27"
+sort: by_weight
+...
+# +_+
+## 超强3简 使用deal_super_3jian.py生成\n"""
+    file.write(title)
                 
 
 # 遍历字符串序列

@@ -5,7 +5,7 @@ import string
 jianpin_word_map = {}
 file_list = ['base.dict.yaml','ext.dict.yaml']
 for file in file_list:
-    file_name  = os.path.join('cn_dicts_moqi', file)
+    file_name = os.path.join('cn_dicts_moqi', file)
     with open(file_name, 'r') as file:
         # 逐行读取文件内容
         for line in file:
@@ -42,18 +42,22 @@ for file in file_list:
 letters = string.ascii_lowercase
 combinations = [a + b for a in letters for b in letters]
 
+file_path = "custom_phrase_super_2jian.txt"
+with open(file_path, "w") as file:
+    file.write("## 超强2简 使用deal_super_2jian.py生成\n")
 # 遍历字符串序列
-for combination in combinations:
-    if combination not in jianpin_word_map:
-        print(combination)
-    else:
-        word_freq_list = jianpin_word_map[combination]
-        # 对字典列表进行排序
-        word_freq_list = sorted(word_freq_list, key=lambda x: int(x['freq']), reverse=True)
+    for combination in combinations:
+        if combination not in jianpin_word_map:
+            # print(combination)
+            pass
+        else:
+            word_freq_list = jianpin_word_map[combination]
+            # 对字典列表进行排序
+            word_freq_list = sorted(word_freq_list, key=lambda x: int(x['freq']), reverse=True)
 
-        # 取出前三个元素
-        word_freq_list = word_freq_list[:3]
-        word = word_freq_list[0]['word']
-        print(word+"\t"+combination+"|")
-        # print(combination + " " + str(word_freq_list))
-    # print(combination + jianpin_word_map[combination])
+            # 取出前三个元素
+            word_freq_list = word_freq_list[:3]
+            word = word_freq_list[0]['word']
+            file.write(word+"\t"+combination+"|\n")
+            # print(combination + " " + str(word_freq_list))
+        # print(combination + jianpin_word_map[combination])
