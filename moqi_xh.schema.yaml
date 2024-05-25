@@ -40,6 +40,7 @@ engine:
   processors:
     - ascii_composer
     - recognizer
+    - lua_processor@*sbxlm.key_binder # 绑定按键
     - key_binder
     - speller
     - punctuator
@@ -61,6 +62,7 @@ engine:
     - table_translator@custom_phrase
     - table_translator@custom_phrase_kf
     - table_translator@custom_phrase_mqzg
+    - table_translator@custom_phrase_super_2jian
     - reverse_lookup_translator
     - reverse_lookup_translator@reverse_stroke
     - reverse_lookup_translator@reverse_zrlf
@@ -107,7 +109,7 @@ long_word_filter:
 
 speller:
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
-  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[/
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[/|
   # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
   initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
@@ -245,6 +247,14 @@ custom_phrase_mqzg:
   enable_completion: false
   initial_quality: -1 #本表词和系统词重码居后
 
+custom_phrase_super_2jian:
+  dictionary: ""
+  user_dict: custom_phrase_super_2jian
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
+
 reverse_lookup:
   dictionary: radical_flypy # https://github.com/mirtlecn/rime-radical-pinyin
   enable_completion: true
@@ -347,6 +357,11 @@ key_binder:
     # 显示墨奇码拆分的快速开关
     - { when: has_menu, accept: "Control+p", toggle: chaifen }
     - { when: has_menu, accept: "Control+l", toggle: chaifen_all }
+
+    - { match: "[a-z]{2}", accept: Tab,  send_sequence: "|1" }
+    # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }
+
+
     ## 对以下4行取消注释后：启用光标回退至特定音节后、补充辅助码的功能
     ## （自然码等其他双拼用户请在 pinyin_switch.yaml 中设置）
     #- { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
