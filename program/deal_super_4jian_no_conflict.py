@@ -63,7 +63,7 @@ for file in file_list:
 
 
 
-# 生成 'aaa' 到 'zzz' 的字符串序列
+# 生成 'aaaa' 到 'zzzz' 的字符串序列
 combinations = []
 
 for i in range(ord('a'), ord('z')+1):
@@ -130,8 +130,10 @@ with open(file_path, "w") as file:
     file.write("## 超强4简 使用deal_super_4jian_no_conflict.py生成\n")
                 
 
-# 遍历字符串序列
-    for combination in no_conflict_list:
+    # 遍历字符串序列
+    # combinations 所有
+    # no_conflict_list 不冲突
+    for combination in combinations:
         if combination not in jianpin_word_map:
             print(combination)
             pass
