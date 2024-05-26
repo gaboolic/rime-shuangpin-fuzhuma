@@ -279,7 +279,7 @@ chaifen:
   opencc_config: moqi_chaifen.json
   tips: char
   show_in_comment: true
-  comment_form:
+  comment_format:
     - "xform/-/ /"
 
 chaifen_all:
@@ -287,7 +287,7 @@ chaifen_all:
   opencc_config: moqi_chaifen_all.json
   tips: char
   show_in_comment: true
-  comment_form:
+  comment_format:
     - "xform/-/ /"
 
 # Emoji
