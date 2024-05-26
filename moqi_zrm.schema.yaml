@@ -115,17 +115,17 @@ speller:
   ## speller 未允许 aj 表示 an
   algebra:
     - xform/^/ /
-    - xform/( \w)x/$1W/
-    - xform/( \w)k/$1Y/
-    - xform/( \w)y/$1P/
-    - xform/( \w)l/$1D/
-    - xform/( \w)c/$1K/
-    - xform/( \w)d/$1L/
-    - xform/( \w)w/$1Z/
-    - xform/( \w)p/$1X/
-    - xform/( [^aeiou])n/$1C/
-    - xform/( \w)z/$1B/
-    - xform/( \w)b/$1N/
+    - xform/( \w)x[[]/$1W[[]/
+    - xform/( \w)k[[]/$1Y[[]/
+    - xform/( \w)y[[]/$1P[[]/
+    - xform/( \w)l[[]/$1D[[]/
+    - xform/( \w)c[[]/$1K[[]/
+    - xform/( \w)d[[]/$1L[[]/
+    - xform/( \w)w[[]/$1Z[[]/
+    - xform/( \w)p[[]/$1X[[]/
+    - xform/( [^aeiou])n[[]/$1C[[]/
+    - xform/( \w)z[[]/$1B[[]/
+    - xform/( \w)b[[]/$1N[[]/
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
     - xform/^ //
     
