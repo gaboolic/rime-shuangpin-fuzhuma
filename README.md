@@ -65,6 +65,8 @@
 
 ![全拆](readmeimg/quanchai.png)
 
+- 超级简拼：2码、3码时，按下Tab自动上屏2字词、3字词，不和空格上屏的单字冲突
+
 墨奇音形的方案支持ctrl+p开关显示墨奇辅助码+首末字形,ctrl+l开关显示墨奇拆字的拆分
 
 - 日期时间相关输入：`date time week` `datetime` `timestamp`
@@ -72,11 +74,9 @@
   ![datetime](readmeimg/datetime.png)
 
 - 快捷日期输入：N开头
-
   - ![Nmoshi](readmeimg/Nmoshi.png)
 
 - 符号输入`/fh`，更多符号查看`symbols_caps_v.yaml`
-
   - ![fh](readmeimg/fh.png)
 
 - 大写数字：`R开头`
@@ -89,20 +89,16 @@
   ![alt text](readmeimg/v_jsq.png)
 
 - 英文输入：aw开头
-
   - ![aw](readmeimg/aw.png)
 
 - 日文输入：aj开头
-
   - ![aj](readmeimg/aj.png)
 
 - O符快符：o开头，快速输入各种符号偏旁部件，可以参考[小鹤 · 符号](md/fuhao.md)      [小鹤 · 部件](md/bujian.md)
-
   - ![ofu2](readmeimg/ofu2.png)
   - ![ofu](readmeimg/ofu.png)
   
 - 分号符：
-
   - 因为实现分号符后，分号无法自动上屏，如果希望能使用分号符，可以进行以下操作 [分号符](md/fenhaofu.md)
 
 ### 配置文件路径
@@ -136,19 +132,19 @@
 
 emoji的词库 弄个更好的
 
-引入东风破管理
-
 优化3码的场景，例如zo是做，zor首选出作
-
-墨奇音形自动上屏版，4码为词，4码+/自动上屏单字，a-z顶词
 
 两分和部件组字的码表统一，在自然码下用自然码 在小鹤下用小鹤
 
 自然码e简码问题修复
 
+墨奇音形自动上屏版，4码为词，4码+/自动上屏单字，a-z顶词
+
 中英互译功能，例如输入afe apple就可以打出苹果，afc pingguo就可以打出apple
 
 字典功能，反查时生僻字显示读音和释义
+
+引入东风破管理
 ```
 
 ### 鸣谢
@@ -168,6 +164,8 @@ emoji的词库 弄个更好的
 细胞词库&各个发行版配置 <https://github.com/Bambooin/rimerc>
 
 拆字使用的词典 <https://github.com/mirtlecn/rime-radical-pinyin>
+
+声笔输入法 <https://github.com/sbsrf/sbsrf>
 
 墨奇本猫：
 
