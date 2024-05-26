@@ -18,6 +18,7 @@
 - 注意：默认关了用户词库（为了固定词频），如有需要，修改`你使用的方案.schema.yaml enable_user_dict: true`开启
 - 默认固定词频，编辑`cn_dicts_common/user.dict.yaml`来添加自定义的词
 - 默认显示2字以下的辅助码编码，可在`你使用的方案.schema.yaml`中`translator/spelling_hints`调整为更多或不显示
+- 超级简拼：2码、3码时，按下Tab自动上屏2字词、3字词，不和空格上屏的单字冲突。
 - 三字词，用e引导简码，简码取声母，如：阿波罗 eabl,差不多 eibd,巴不得 ebbd。
 - 四字词、多字词，用e引导简码，简码取前3个字+末字声母，如：兵败如山倒 ebbrd,霸王硬上弓 ebwyg,天有不测风云 etyby,当仁不让 edrbr
 - `changcijian`、`changcijian3`文件是自动从雾凇词库里取的
