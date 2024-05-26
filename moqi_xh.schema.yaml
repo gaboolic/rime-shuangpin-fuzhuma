@@ -11,7 +11,7 @@ schema:
   description: |
     墨奇音形 https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%A2%A8%E5%A5%87%E7%A0%81%E6%8B%86%E5%88%86%E8%A7%84%E5%88%99
   dependencies:
-    - chaizi
+    - reverse_moqima
     - radical_flypy
     - stroke
     - zrlf
@@ -66,6 +66,7 @@ engine:
     - table_translator@custom_phrase_super_3jian
     - table_translator@custom_phrase_super_3jian_no_conflict
     - reverse_lookup_translator
+    - reverse_lookup_translator@reverse_moqima
     - reverse_lookup_translator@reverse_chaizi
     - reverse_lookup_translator@reverse_stroke
     - reverse_lookup_translator@reverse_zrlf
@@ -275,6 +276,16 @@ custom_phrase_super_3jian:
   enable_completion: false
   initial_quality: -1 #本表词和系统词重码居后
 
+reverse_moqima:
+  tag: reverse_moqima
+  dictionary: reverse_moqima
+  enable_completion: true
+  prefix: "amq"
+  suffix: "'"
+  tips: 〔墨奇反查〕
+  preedit_format:
+    # - xlit/hspnz/一丨丿丶乙/
+
 reverse_chaizi:
   tag: reverse_chaizi
   dictionary: radical_flypy # https://github.com/mirtlecn/rime-radical-pinyin
@@ -397,6 +408,7 @@ recognizer:
     #punct: '^/[0-9A-Za-z]+$' # 此正则无法使用1~0进行快速选择
     punct: '^/[0-9A-z][0A-z]?[A-z]?+$' # 此正则在/+数字的情况下只能通过1~9进行快速选择，而不能使用0，其余情况皆为正常
     ## 拆字、笔画、仓颉: 
+    reverse_moqima: "^amq[A-Za-z]*$" # "[[]b[a-z]*'?$"
     reverse_chaizi: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
     reverse_stroke: "^ab[A-Za-z]*$"
     reverse_cj: "^acj[A-Za-z]*$"
