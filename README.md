@@ -137,7 +137,7 @@
 
 墨奇音形自动上屏版，4码为词，4码+/自动上屏单字，a-z顶词
 
-中英互译功能，例如输入afe apple就可以打出苹果，afc pingguo就可以打出apple
+中英互译功能，例如输入afe apple就可以打出苹果，afc pingguo就可以打出apple - doing
 
 字典功能，反查时生僻字显示读音和释义
 
@@ -165,6 +165,8 @@ emoji的词库 支持双拼
 拆字使用的词典 <https://github.com/mirtlecn/rime-radical-pinyin>
 
 声笔输入法 <https://github.com/sbsrf/sbsrf>
+
+英汉/汉英字典 <https://github.com/lxs602/Chinese-Mandarin-Dictionaries>
 
 墨奇本猫：
 

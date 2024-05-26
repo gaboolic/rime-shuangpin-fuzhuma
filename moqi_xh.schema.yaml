@@ -86,6 +86,7 @@ engine:
     # - lua_filter@reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
     - simplifier@chaifen
     - simplifier@chaifen_all
+    - simplifier@chinese_english
     - simplifier@traditionalize                     # 简繁切换
     - simplifier@mars                               #火星文
     - uniquifier
@@ -344,6 +345,14 @@ chaifen_all:
   comment_format:
     - "xform/-/ /"
 
+#中文转英文
+chaifen_all:
+  option_name: chinese_english
+  opencc_config: chinese_english.json
+  tips: char
+  comment_format:
+    - "xform/-/ /"
+
 # Emoji
 emoji:
   option_name: emoji
@@ -389,6 +398,8 @@ key_binder:
     # 显示墨奇码拆分的快速开关
     - { when: has_menu, accept: "Control+p", toggle: chaifen }
     - { when: has_menu, accept: "Control+l", toggle: chaifen_all }
+    - { when: has_menu, accept: "Control+e", toggle: chinese_english }
+
 
     - { match: "[a-z]{2,3}", accept: Tab,  send_sequence: "|1" }
     # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }

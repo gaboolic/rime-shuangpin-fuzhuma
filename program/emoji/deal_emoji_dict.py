@@ -63,4 +63,27 @@ with open("opencc/emoji.txt", 'r') as file:
                 pinyin = word_pinyin_map[word]
                 content = emoji+"\t"+pinyin
             write_file.write(content+"\n")
+
+with open("opencc/others.txt", 'r') as file:
+    for line in file:
+        # 去除行尾的换行符
+        line = line.rstrip()
+        if not line.startswith('V') or '\t' not in line:
+            continue
+
+        params = line.split("\t")
+        word = params[0]
+        word = word[1:]
+        emojis = params[1].split(" ")
+        emojis = emojis[1:]
+        print(word)
+        print(emojis)
+        for emoji in emojis:
+            content = ""
+            if word not in word_pinyin_map:
+                content = emoji+"\t"+word
+            else:
+                pinyin = word_pinyin_map[word]
+                content = emoji+"\t"+pinyin
+            write_file.write(content+"\n")
             
