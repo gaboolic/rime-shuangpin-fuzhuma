@@ -1,11 +1,10 @@
-# emoji.dict.yaml
-# 雪齋 <leoyoontsaw@gmail.com>
-# 編碼以 Unicode 分類爲主，Kunki Chou 整理
-# 29-Apr-2014 添加字頻，字頻得自 http://www.emojitracker.com ，統計自 twitter.com
+# 使用opencc/emoji.txt数据转换
+# 转换脚本为https://github.com/gaboolic/rime-shuangpin-fuzhuma/program/emoji/deal_emoji_dict.py
+# 
 
 ---
 name: emoji
-version: "2.5"
+version: "2024-05-26"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -14,2659 +13,5326 @@ columns:
   - weight
 ...
 
-# Custom
-➜ 	cmd;
-🄯	copyleft;
-🉑	ke;
-
-#天氣
-☀	sunny;tian'qi`weather	10908516
-☔	rain;tian'qi`weather	951774
-⛈	storm;tian'qi`weather
-⛆	haze;tian'qi`weather
-⛅	cloudy;tian'qi`weather	771487
-☁	cloud;tian'qi`weather	2024540
-❄	snow;tian'qi`weather	2407391
-⚡	lightening;tian'qi`weather	952903
-🌊	tsunami;tian'qi`weather	1043014
-🌀	typhoon;tian'qi`weather	1434111
-🌂	rain;tian'qi`weather	139837
-🌁	fog;tian'qi`weather	68865
-#自然
-🌃	night;zi'ran`nature	309628
-🌄	sunrise;zi'ran`nature	158657
-🌅	dawn;zi'ran`nature	447459
-🌆	dusk;zi'ran`nature	151344
-🌇	sunset;zi'ran`nature	137905
-🌈	rainbow;zi'ran`nature	713068
-🌉	night;zi'ran`nature	77242
-🌋	volcano;zi'ran`nature	102404
-🌌	milkyway;zi'ran`nature	384578
-#地球
-🌍	world;di'qiu`globe	1209176
-🌎	world;di'qiu`globe	1190195
-🌏	world;di'qiu`globe	557643
-🌐	globe;di'qiu	102806
-#天體
-🌑	newmoon;lunar;tian'ti`celestial	717191
-🌒	lunar;tian'ti`celestial	569330
-🌓	lunar;tian'ti`celestial	575153
-🌔	lunar;tian'ti`celestial	555204
-🌕	fullmoon,lunar;tian'ti`celestial	752822
-🌖	lunar;tian'ti`celestial	528816
-🌗	lunar;tian'ti`celestial	552074
-🌘	lunar;tian'ti`celestial	538503
-🌙	crescent,moon;tian'ti`celestial	1676075
-🌚	new,moon;tian'ti`celestial	5502431
-🌛	moon;tian'ti`celestial	386495
-🌜	moon;tian'ti`celestial	353601
-🌝	full,moon;tian'ti`celestial	1812416
-🌞	sun;tian'ti`celestial	3028152
-🌟	star;tian'ti`celestial	2380502
-🌠	star;tian'ti`celestial
-#植物
-🌰	chestnut,nut;zhi'wu`plant	189349
-🌱	seed,tree;zhi'wu`plant	215939
-🌲	evergreen,tree;zhi'wu`plant	265862
-🌳	deciduous,tree;zhi'wu`plant	284983
-🌴	palm,tree;zhi'wu`plant	1952713
-🌵	cactus;zhi'wu`plant	1770620
-🌷	tulip,flower;zhi'wu`plant	1383323
-🌸	cherry,flower;zhi'wu`plant	9835327
-🌹	rose,flower;zhi'wu`plant	11591746
-🌺	hibiscus,flower;zhi'wu`plant	2647722
-🌻	sun,flower;zhi'wu`plant	1607728
-🌼	blossom,flower;zhi'wu`plant	754131
-🌽	maize,harvest;zhi'wu`plant	231763
-🌾	rice,harvest;zhi'wu`plant	644982
-🌿	herb,leaf;zhi'wu`plant	667177
-🍀	fourleaf,leaf;zhi'wu`plant	1822124
-🍁	maple,leaf;zhi'wu`plant	1313274
-🍂	fallen,leaf;zhi'wu`plant	907880
-🍃	leaf,wind;zhi'wu`plant	1659761
-🍄	mushroom;zhi'wu`plant	360205
-#水果
-🍅	tomato,vagetable;shui'guo`fruit	142801
-🍆	eggplant,vegetable;shui'guo`fruit
-🍇	grape;shui'guo`fruit	408946
-🍈	pomelo;shui'guo`fruit	63763
-🍉	watermelon;shui'guo`fruit	839223
-🍊	orange;shui'guo`fruit	395798
-🍋	lemon;shui'guo`fruit	267089
-🍌	banana;shui'guo`fruit	968374
-🍍	pinapple;shui'guo`fruit	466668
-🍎	apple,red;shui'guo`fruit	479779
-🍏	apple,green;shui'guo`fruit	184593
-🍐	pear;shui'guo`fruit	96351
-🍑	peach;shui'guo`fruit	465304
-🍒	cherry;shui'guo`fruit	576022
-🍓	strawberry;shui'guo`fruit	658670
-#食物
-🍔	hamberger;shi'wu`food	918418
-🍕	pie;shi'wu`food	2646435
-🍖	meat,bone;shi'wu`food	232560
-🍗	chicken,leg;shi'wu`food	617039
-🍘	rice,cracker;shi'wu`food	36448
-🍙	rice,ball;shi'wu`food	68303
-🍚	rice;shi'wu`food	213603
-🍛	rice,curry;shi'wu`food	203831
-🍜	nuddle;shi'wu`food	458638
-🍝	spaghetti,nuddle;shi'wu`food	561103
-🍞	bread;shi'wu`food	355183
-🍟	french,fries;shi'wu`food	881153
-🍠	sweet,potato;shi'wu`food	59682
-🍡	dango,skewer;shi'wu`food	86912
-🍢	oden,skewer;shi'wu`food	94296
-🍣	sushi;shi'wu`food	279845
-🍤	fried,shrimp;shi'wu`food	356626
-🍥	fish,cake;shi'wu`food	223313
-🍦	icecream;shi'wu`food	951968
-🍧	icecream,shaved;shi'wu`food	313125
-🍨	icecream;shi'wu`food	192195
-🍩	doughnut;shi'wu`food	1334698
-🍪	cookie,biscuit;shi'wu`food	1042322
-🍫	chocolate;shi'wu`food	795966
-🍬	candy;shi'wu`food	368065
-🍭	lollipop,candy;shi'wu`food	838169
-🍮	custard,cake;shi'wu`food	193118
-🍯	honey,pot;shi'wu`food	164405
-🍰	cake,slice;shi'wu`food
-🍱	bentobox,meal;shi'wu`food	190598
-🍲	meal,pot;shi'wu`food	248437
-🍳	cooking,pan;shi'wu`food	371933
-#飲料
-🍵	tea,cup;yin'liao`beverage	236491
-🍶	shake,bottle;yin'liao`beverage	53858
-🍷	wine,glass;yin'liao`beverage	1092026
-🍸	cocktail,glass;yin'liao`beverage	880423
-🍹	drink,tropical;yin'liao`beverage	831315
-🍺	beer,mug;yin'liao`beverage	1207404
-🍻	beer,cheers;yin'liao`beverage	2660515
-🍼	baby,bottle;yin'liao`beverage	285011
-#節日
-🎀	ribbon;jie'ri`celebrate	3375792
-🎁	gift,package;jie'ri`celebrate	2080680
-🎂	birthday,cake;jie'ri`celebrate	1552281
-🎃	halloween,lantern;jie'ri`celebrate	842997
-🎄	christmas,tree;jie'ri`celebrate	1862210
-🎅	father,christmas;jie'ri`celebrate	1558671
-🎆	fireworks;jie'ri`celebrate	315235
-🎇	fireworks,spark;jie'ri`celebrate	140551
-🎈	balloon;jie'ri`celebrate	2657791
-🎉	party,popper;jie'ri`celebrate	9538587
-🎊	confetti,congratulations;jie'ri`celebrate	1514576
-🎋	tanabata,tree;jie'ri`celebrate	88966
-🎌	cross,flag;jie'ri`celebrate	52299
-🎍	pine,japan;jie'ri`celebrate	63549
-🎎	doll,japan;jie'ri`celebrate	200574
-🎏	carp,flag;jie'ri`celebrate	47774
-🎐	windchime,balloon;jie'ri`celebrate	64510
-🎑	mid,autumn;jie'ri`celebrate	20195
-🎒	school,entrence;jie'ri`celebrate	62518
-🎓	graduation,cap;jie'ri`celebrate	554877
-#娛樂
-🎠	carouselhorse,park;yu'le`entertainment	43177
-🎡	ferriswheel,park;yu'le`entertainment	94670
-🎢	rollercoaster,park;yu'le`entertainment	157053
-🎣	fishing;yu'le`entertainment	479270
-🎤	microphone,karaokay;yu'le`entertainment	2174297
-🎥	movie,cinema;yu'le`entertainment	1145741
-🎦	cinema,movie;yu'le`entertainment	22495
-🎧	headphone,music;yu'le`entertainment	7705315
-🎨	painting,art;yu'le`entertainment	433879
-🎩	theater,magician;yu'le`entertainment	317170
-🎪	circus,theater;yu'le`entertainment	43558
-🎫	ticket;yu'le`entertainment	26746
-🎬	action,movie;yu'le`entertainment	473788
-🎭	mask,party;yu'le`entertainment	279275
-#遊戲
-🎮	video,game;you'xi	800686
-🎯	dart,target;you'xi`game	219076
-🎰	gamble;you'xi`game	38954
-🎱	billiards;you'xi`game	151739
-⛄	snowman;you'xi`game	1314601
-🎲	dice;you'xi`game	91670
-🎳	bowling;you'xi`game	213258
-🎴	cards,flower;you'xi`game	20840
-#音樂
-🎵	note,music;yin'yue	3386847
-🎶	notes,music;yin'yue	24360083
-🎷	saxophone;yin'yue`music	73147
-🎸	guitar;yin'yue`music	698011
-🎹	piano;yin'yue`music	148245
-🎺	trumpet;yin'yue`music	63479
-🎻	violin;yin'yue`music	101300
-🎼	script,music;yin'yue	688214
-#運動
-🎽	sport,shirt;yun'dong`sport	91072
-🎾	tennis;yun'dong`sport	348955
-🎿	ski,boot;yun'dong`sport	132027
-🏀	basket,ball;yun'dong`sport	3174878
-🏁	racing;yun'dong`sport
-🏂	snowboard,ski;yun'dong`sport	258012
-🏃	run,race;yun'dong`sport	3139065
-🏄	surf;yun'dong`sport	505059
-🏆	win;yun'dong`sport	943031
-🏇	horse,racing;yun'dong`sport	147421
-🏈	football;yun'dong`sport	1935364
-🏉	football,rugby;yun'dong`sport	169892
-🏊	swim;yun'dong`sport	928274
-#建築
-🏠	house;jian'zhu`building	455959
-🏡	house,garden;jian'zhu`building	650064
-🏢	office,building;jian'zhu	108929
-🏣	post,japan;jian'zhu`building	12655
-🏤	post,europe;jian'zhu`building	56285
-🏥	hospital;jian'zhu`building	154418
-🏦	bank;jian'zhu`building	24374
-🏧	atm;jian'zhu`building	41189
-🏨	hotel;jian'zhu`building	44690
-🏩	hotel,love;jian'zhu`building	94572
-🏪	convenience,store;jian'zhu`building	25652
-🏫	school;jian'zhu`building	78016
-🏬	department,store;jian'zhu`building	13297
-🏭	factory;jian'zhu`building	9302
-🏮	lantern,izakaya;jian'zhu`building	17856
-🏯	japan,castle;jian'zhu`building	26602
-🏰	europe,castle;jian'zhu`building	73552
-#動物
-🐀	rat,mouse;dong'wu`animal	119682
-🐁	mouse;dong'wu`animal	43355
-🐂	ox;dong'wu`animal	96159
-🐃	buffalo,ox;dong'wu`animal	55424
-🐄	cow,ox;dong'wu`animal	161179
-🐅	tiger,cat;dong'wu`animal	169674
-🐆	leopard,cat;dong'wu`animal	84249
-🐇	rabbit;dong'wu`animal	137956
-🐈	cat;dong'wu`animal	188700
-🐉	dragon,snake;dong'wu`animal	151856
-🐊	crocodile,snake;dong'wu`animal	238894
-🐋	wheal;dong'wu`animal	458342
-🐌	snail,insect;dong'wu`animal	232225
-🐍	snake;dong'wu`animal	799236
-🐎	horse;dong'wu`animal	360988
-🐏	ram,sheep;dong'wu`animal	137730
-🐐	goat,sheep;dong'wu`animal	138297
-🐑	sheep;dong'wu`animal	303957
-🐒	monkey;dong'wu`animal	808799
-🐓	cock,chicken;dong'wu`animal	226548
-🐔	chicken;dong'wu`animal	453867
-🐕	dog;dong'wu`animal	108103
-🐖	pig;dong'wu`animal	111989
-🐗	boar,pig;dong'wu`animal	128526
-🐘	elephant;dong'wu`animal	595676
-🐙	octopus;dong'wu`animal	608731
-🐚	shell;dong'wu`animal	180517
-🐛	bug,insect;dong'wu`animal	277487
-🐜	ant,insect;dong'wu`animal	232611
-🐝	bee,insect;dong'wu`animal	741357
-🐞	beetle,incect;dong'wu`animal	173367
-🐟	fish;dong'wu`animal	476960
-🐠	fish;dong'wu`animal	558513
-🐡	fish;dong'wu`animal	84272
-🐢	turtle;dong'wu`animal	1108766
-🐣	chick,chicken;dong'wu`animal	878568
-🐤	chick,chicken;dong'wu`animal	266999
-🐥	chick,chicken;dong'wu`animal	693362
-🐦	bird;dong'wu`animal	347226
-🐧	penguin,bird;dong'wu`animal	2197214
-🐨	koala;dong'wu`animal	405843
-🐩	poodle,dog;dong'wu`animal	208888
-🐪	camel;dong'wu`animal	314073
-🐫	camel;dong'wu`animal	262439
-🐬	dolphin;dong'wu`animal	672425
-🐳	wheal;dong'wu`animal	803852
-#生肖
-🐭	mouse,shu;sheng'xiao`zodiac	384001
-🐮	ox,niu;sheng'xiao`zodiac	374332
-🐯	tiger,hu;sheng'xiao`zodiac	1111901
-🐰	rabit,tu;sheng'xiao`zodiac	839623
-🐲	dragon,long;sheng'xiao`zodiac	130431
-🐍	snake,she;sheng'xiao`zodiac	799236
-🐴	horse,ma;sheng'xiao`zodiac	539978
-🐏	sheep,yang;sheng'xiao`zodiac	137730
-🐵	monkey,hou;sheng'xiao`zodiac	378952
-🐔	chicken,ji;sheng'xiao`zodiac	453867
-🐶	dog,gou;sheng'xiao`zodiac	2760967
-🐷	pig,zhu;sheng'xiao`zodiac	1257035
-#獸面
-🐱	cat;shou'mian`animalface	2245073
-🐸	frog;shou'mian`animalface	576379
-🐹	hamster,mouse;shou'mian`animalface	216262
-🐺	wolf;shou'mian`animalface	339595
-🐻	bear;shou'mian`animalface	809156
-🐼	panda;shou'mian`animalface	947653
-🐽	stupid;shou'mian`animalface	426046
-🐾	paw;shou'mian`animalface	665221
-#五官
-👀	eye;wu'guan`body	23438909
-👂	ear;wu'guan`body	663356
-👃	nose;wu'guan`body	701279
-👄	mouth;wu'guan`body	1229323
-👅	tougue;wu'guan`body	2902990
-#手
-👆	up,direction;shou`hand	2257487
-👇	down,direction;shou`hand	2325308
-👈	left,direction;shou`hand	3478729
-👉	right,direction;shou`hand	3766346
-👊	fist;shou`hand	13226267
-👋	palm;shou`hand	12301045
-👌	ok;shou`hand	97194094
-👍	good;shou`hand	37332839
-👎	bad;shou`hand	8034991
-👏	clap;shou`hand	21997828
-👐	no;shou`hand	4304078
-🙌	no;shou`hand	35777430
-🙏	bless;shou`hand	26838022
-#衣物
-👑	clown;yi'wu`clothes	4125318
-👒	hat;yi'wu`clothes	101157
-👓	glasses;yi'wu`clothes	579839
-👔	shirt;yi'wu`clothes	233100
-👕	shirt;yi'wu`clothes	180050
-👖	pants;yi'wu`clothes	304600
-👗	dress;yi'wu`clothes	471785
-👘	dress;yi'wu`clothes	63144
-👙	bikini;yi'wu`clothes	652482
-👚	shirt;yi'wu`clothes	97509
-👛	bag;yi'wu`clothes
-👜	bag;yi'wu`clothes	212062
-👝	bag;yi'wu`clothes	25172
-👞	shoe;yi'wu`clothes	190592
-👟	shoe;yi'wu`clothes	646977
-👠	highheeled,shoe;yi'wu`clothes	622361
-👡	highheeled,shoe;yi'wu`clothes	110674
-👢	boot,shoe;yi'wu`clothes	139855
-👣	footprint;yi'wu`clothes	938055
-#頭
-👤	portrait;tou`head	215858
-👥	portrait;tou`head	234356
-👦	boy,head;tou`head
-👧	girl,head;tou`head	583781
-👨	man,head;tou`head
-👩	woman,head;tou`head
-👮	police;tou`head	325325
-👱	western,head;tou`head	297490
-👲	chinese,head;tou`head	505572
-👳	arabic,head;tou`head	874286
-👴	old,head;tou`head	601592
-👵	old,head;tou`head	795285
-👶	baby,head;tou`head	1684352
-👷	worker,head;tou`head	182830
-👸	queen;tou`head	2129888
-👹	evil;tou`head	1119758
-👺	evil;tou`head	390376
-👻	ghost;tou`head	2236829
-👼	angle;tou`head	2268270
-👽	ghost;tou`head	2040806
-👾	evil;tou`head	716605
-👿	evil;tou`head	1834205
-💀	dead;tou`head	5362119
-#人
-👯	dancing;ren`people	4291879
-👰	wendding;ren`people	582569
-👪	people;ren`people	712062
-👫	people;ren`people	2859426
-👬	people;ren`people	656135
-👭	people;ren`people	2617945
-💁	role;ren`people	33722403
-💂	role;ren`people	1324903
-💃	dancing;ren`people	6913103
-🙅	no;ren`people	10131547
-🙆	lookfar;ren`people	3963552
-🙇	working;ren`people	3390600
-🙋	hand,raise;ren`people	8177749
-🙍	upset;ren`people	3062491
-🙎	stare;ren`people	1068795
-#膚色
-🏻	white;fu'se`tone
-🏼	yellow;fu'se`tone
-🏽	brown;fu'se`tone
-🏾	dark;fu'se`tone
-🏿	black;fu'se`tone
-#化妝
-💄	lip,stick;hua'zhuang`makeup	627751
-💅	nail,polisher;hua'zhuang`makeup	2789941
-💆	face,massage;hua'zhuang`makeup	1698402
-💇	hair,cut;hua'zhuang`makeup	1007552
-💈	hair,cut;hua'zhuang`makeup	154896
-#愛情
-💋	kiss;ai'qing`love	15758247
-💌	love,letter;ai'qing`love	563476
-💍	ring;ai'qing`love	2066268
-💎	diamond;ai'qing`love	2569468
-💏	love;ai'qing`love	2616344
-💐	bouquet;ai'qing`love	1855112
-💑	love;ai'qing`love	1294906
-💒	wedding;ai'qing`love	117072
-#心
-💓	heart;xin	3465507
-💔	broken,heart;xin	16106883
-💕	heart;xin	60923922
-💖	heart;xin	10731414
-💗	heart;xin	11366103
-💘	heart;xin	7458038
-💙	heart;xin	13475552
-💚	heart;xin	6685368
-💛	heart;xin	7326096
-💜	heart;xin	15190285
-💝	heart;xin	1399543
-💞	heart;xin	9423084
-💟	heart;xin	780159
-#效果
-💠	icon;xiao'guo`comic	181185
-💡	bulb;xiao'guo`comic
-💢	hit;xiao'guo`comic	987600
-💣	bomb;xiao'guo`comic	1313794
-💤	sleepy;xiao'guo`comic	3956491
-💥	collision;xiao'guo`comic	2253170
-💦	sweat;xiao'guo`comic	2665811
-💧	tear;xiao'guo`comic	324942
-💨	dash;xiao'guo`comic	2457481
-💩	shit;xiao'guo`comic	6147261
-💪	muscle;xiao'guo`comic	9065904
-💫	dizzy;xiao'guo`comic	2151531
-💬	speech;xiao'guo`comic	595757
-💭	thought;xiao'guo`comic	2136072
-#錢
-💰	money;qian`money	2664138
-💱	money;qian`money	18349
-💲	money;qian`money	162062
-💳	bank,card;qian`money	188370
-💴	bill;qian`money	90155
-💵	bill;qian`money	1062479
-💶	bill;qian`money	116854
-💷	bill;qian`money	165502
-💸	bill;qian`money	1656248
-💹	stock;qian`money	10694
-#符號
-💺	chair,seat;fu'hao`symbol	221817
-💻	computer;fu'hao`symbol	198017
-💼	bag;fu'hao`symbol	97788
-💽	disc;fu'hao`symbol	72091
-💾	floppy,disc;fu'hao`symbol	21799
-💿	cd,disc;fu'hao`symbol	145015
-📀	dvd,disc;fu'hao`symbol	71893
-📁	folder;fu'hao`symbol	10000
-📂	folder;fu'hao`symbol	7982
-📃	page,print;fu'hao`symbol	30498
-📄	page;fu'hao`symbol	39447
-📅	calendar;fu'hao`symbol	54624
-📆	calendar;fu'hao`symbol	43575
-📇	card;fu'hao`symbol	15311
-📈	chart,prosperity;fu'hao`symbol	38156
-📉	chart,depression;fu'hao`symbol	26665
-📊	bar,chart;fu'hao`symbol	29180
-📋	clip,board;fu'hao`symbol	28205
-📌	pin;fu'hao`symbol	80723
-📍	pin;fu'hao`symbol	111597
-📎	clip;fu'hao`symbol	28624
-📏	ruler;fu'hao`symbol	20423
-📐	ruler;fu'hao`symbol	21127
-📑	book,mark;fu'hao`symbol	29100
-📒	note,book;fu'hao`symbol	65717
-📓	note,book;fu'hao`symbol
-📔	note,book;fu'hao`symbol	28900
-📕	note,book;fu'hao`symbol	81908
-📖	book,open;fu'hao`symbol	535575
-📗	book,green;fu'hao`symbol	35913
-📘	book,blue;fu'hao`symbol	39624
-📙	book,orange;fu'hao`symbol	26782
-📚	books;fu'hao`symbol	746311
-📛	name,bar;fu'hao`symbol	33931
-📜	script;fu'hao`symbol	52128
-🔞	numeric,sign;fu'hao`symbol	238572
-🔟	numeric,sign;fu'hao`symbol	103388
-🔠	uppercase;fu'hao`symbol	9838
-🔡	lowercase;fu'hao`symbol	6232
-🔢	numbermode;fu'hao`symbol	33889
-🔣	punctmode;fu'hao`symbol	9030
-🔤	englishmode;fu'hao`symbol	11369
-💮	good;fu'hao`symbol	125042
-💯	good;fu'hao`symbol	19994225
-#⃣	pound,mark;fu'hao`symbol
-⭕	yes;fu'hao`symbol	2252206
-❌	no;fu'hao`symbol	1488451
-#通訊
-📝	memo;tong'xun`communication	554135
-📞	tele,phone;tong'xun`communication	351898
-📟	pager;tong'xun`communication	20463
-📠	fax;tong'xun`communication	18040
-📡	antenna;tong'xun`communication	46362
-📢	speaker;tong'xun`communication	485610
-📣	speaker;tong'xun`communication	137956
-📤	outbox;tong'xun`communication	5938
-📥	inbox;tong'xun`communication	12050
-📦	gift;tong'xun`communication	141694
-📧	email;tong'xun`communication	24228
-📨	email;tong'xun`communication	16366
-📩	email;tong'xun`communication	111180
-📪	mail,box;tong'xun`communication	6542
-📫	mail,box;tong'xun`communication	17484
-📬	newmail,mailbox;tong'xun`communication	40688
-📭	empty,mailbox;tong'xun`communication	8317
-📮	post,box;tong'xun`communication	21236
-📯	horn;tong'xun`communication	28623
-📰	newspaper;tong'xun`communication	58629
-📱	mobile,phone;tong'xun`communication	860006
-📲	mobile,phone;tong'xun`communication	925009
-📳	mobile,phone;tong'xun`communication	20617
-📴	mobile,phone;tong'xun`communication	71891
-📵	no,phone;tong'xun`communication	54069
-📶	signal;tong'xun`communication	91599
-#工具
-💉	inject;gong'ju`tool	932696
-💊	pill;gong'ju`tool	537208
-📷	camara;gong'ju`tool	940278
-📹	vcr;gong'ju`tool	79204
-📺	tv;gong'ju`tool	718012
-📻	radio;gong'ju`tool	69636
-📼	video,cassette;gong'ju`tool	40853
-🍴	fork,knife;gong'ju`tool	1276553
-#介面
-🔀	random,play;jie'mian	14466
-🔁	repeat,play;jie'mian	141631
-🔂	nonrepeat,play;jie'mian	42656
-🔃	repeat,play;jie'mian	181917
-🔄	repeat,play;jie'mian	144265
-🔅	brightness,ui;jie'mian	75157
-🔆	brightness,ui;jie'mian	266473
-🔇	sound,ui;jie'mian	81339
-🔈	sound,ui;jie'mian
-🔉	sound,ui;jie'mian	20183
-🔊	sound,ui;jie'mian	634274
-🔋	battery,ui;jie'mian	189742
-🔌	plug,ui;jie'mian	257275
-🔍	zoom,ui;jie'mian	47211
-🔎	zoom,ui;jie'mian	60711
-🔏	lock,ui;jie'mian	16791
-🔐	lock,ui;jie'mian	470571
-🔑	key,ui;jie'mian	357330
-🔒	lock,ui;jie'mian	270377
-🔓	unlock,ui;jie'mian	182491
-🔔	ring,bell;jie'mian	136160
-🔕	ring,bell;jie'mian	33108
-🔖	book,mark;jie'mian	21147
-🔗	link,ui;jie'mian	39426
-🔘	button,ui;jie'mian	127482
-🔺	previous,ui;jie'mian	170080
-🔻	next,ui;jie'mian	153036
-🔼	previous,ui;jie'mian	40180
-🔽	next,ui;jie'mian	30991
-🆗	ok,buttom;jie'mian	377666
-🆕	new,ui;jie'mian	70256
-🆙	up;,ui;jiemian	196994
-🆒	cool,ui;jie'mian	524082
-🎦	camera,ui;jie'mian	22495
-📶	signal,ui;jie'mian	91599
-#箭頭
-🔙	back;jian'tou	199172
-🔚	end;jian'tou	61628
-🔛	on;jian'tou	76091
-🔜	soon;jian'tou	131712
-🔝	top;jian'tou	564521
-⬆	up,arrow;jian'tou	203143
-⬇	down,arrow;jian'tou	376244
-⬅	left,arrow;jian'tou	397957
-➡	right,arrow;jian'tou	739926
-↗	upright,arrow;jian'tou	308902
-↖	upleft,arrow;jian'tou	148750
-↘	downright,arrow;jian'tou	250329
-↙	downleft,arrow;jian'tou	376844
-◀	back,ui;jian'tou	791619
-▶	preceed,ui;jian'tou	2855698
-⏪	forward,ui;jian'tou	36449
-⏩	babckward,ui;jian'tou	66389
-#輸入法
-🔥	fire;shu'ru'fa`input	5191394
-🔦	light;shu'ru'fa`input	95241
-🔧	tool;shu'ru'fa`input	55000
-🔨	tool;shu'ru'fa`input	235172
-🔩	tool;shu'ru'fa`input	84705
-🔪	knife;shu'ru'fa`input	1424148
-🔫	gun;shu'ru'fa`input	9571757
-🔬	micro,scope;shu'ru'fa`input	40423
-🔭	tele,scope;shu'ru'fa`input	80855
-🔮	cry,sadstal,ball;shu'ru'fa`input	429054
-🔯	hex,star;shu'ru'fa`input	62941
-🔰	shield;shu'ru'fa`input	71043
-🔱	triad;shu'ru'fa`input	181580
-#幾何
-🔲	square;ji'he`geometry	313362
-🔳	square;ji'he`geometry	77243
-🔴	circle;ji'he`geometry	1898394
-🔵	circle;ji'he`geometry	335148
-🔶	rhombic;ji'he`geometry	166498
-🔷	rhombic;ji'he`geometry	159605
-🔸	rhombic;ji'he`geometry	164997
-🔹	rhombic;ji'he`geometry	261498
-#宗敎
-🕀	cross;zong'jiao`religious
-🕁	cross;zong'jiao`religious
-🕂	cross;zong'jiao`religious
-🕃	religious;zong'jiao
-#鐘
-🕐	one,clock;zhong	85680
-🕑	two,clock;zhong	72299
-🕒	three,clock;zhong	63555
-🕓	four,clock;zhong	49878
-🕔	five,clock;zhong	39738
-🕕	six,clock;zhong	23945
-🕖	seven,clock;zhong	25045
-🕗	eight,clock;zhong	31827
-🕘	nine,clock;zhong	43726
-🕙	ten,clock;zhong	35423
-🕚	eleven,clock;zhong	29338
-🕛	twelve,clock;zhong	77109
-🕜	clock,onehalf;zhong	24059
-🕝	twohalf,clock;zhong	19605
-🕞	threehalf,clock;zhong	14573
-🕟	fourhalf,clock;zhong	16914
-🕠	fivehalf,clock;zhong	14460
-🕡	sixhalf,clock;zhong	8660
-🕢	sevenhalf,clock;zhong	21384
-🕣	eighthalf,clock;zhong	10890
-🕤	ninehalf,clock;zhong	16857
-🕥	tenhalfe,clock;zhong	22884
-🕦	elevenhalf,clock;zhong	23384
-🕧	twelvehalf,clock;zhong	19448
-#國
-🗻	japan;guo`landmark	118790
-🗼	france;guo`landmark	58285
-🗽	usa;guo`landmark	188015
-🗾	japan;guo`landmark	18168
-🗿	easter;guo`landmark	344879
-🇯🇵	japan,country;guo	137619
-🇰🇷	korea,country;guo	423154	63792
-🇨🇳	china,country;guo	53912
-🇺🇸	usa,country;guo	1874864	249847	80292
-🇫🇷	france,country;guo	423154	63792
-🇪🇸	spain,country;guo	1874864	249847	139766
-🇮🇹	italy,country;guo	504114
-🇷🇺	russia,country;guo	423154	80292	63792
-🇬🇧	uk,country;guo	499461
-🇩🇪	germany,country;guo	139766
-🇦🇺	austrilia,country;guo
-🇦🇹	austria,country;guo
-🇧🇪	belgium,country;guo
-🇧🇷	brazil,country;guo
-🇨🇦	canada,country;guo
-🇨🇱	chile,country;guo
-🇨🇴	colombia,country;guo
-🇩🇰	denmark,country;guo
-🇫🇮	finland,country;guo
-🇭🇰	hongkong,country;guo
-🇮🇳	india,country;guo
-🇮🇩	indonesia,country;guo
-🇮🇪	ireland,country;guo
-🇮🇱	israel,country;guo
-🇲🇴	macau,country;guo
-🇲🇾	malaysia,country;guo
-🇲🇽	mexico,country;guo
-🇳🇱	netherlands,country;guo
-🇳🇿	newzealand,country;guo
-🇳🇴	norway,country;guo
-🇵🇭	philippin,country;guo
-🇵🇱	poland,country;guo
-🇵🇹	portugal,country;guo
-🇵🇷	puertorico,country;guo
-🇸🇦	saudiarabia,country;guo
-🇸🇬	singapore,country;guo
-🇿🇦	southafrica,country;guo
-🇸🇪	sweden,country;guo
-🇹🇷	turkey,country;guo
-🇨🇭	switzerland,country;guo
-🇦🇪	unitedarab,country;guo
-🇻🇳	vietnam,country;guo
-#表情
-#微笑
-😀	smile,happy;biao'qing	5732540
-😉	smile,happy;biao'qing	34784906
-😊	smile,happy;biao'qing	87799028
-😅	smile,happy;biao'qing	12998885
-😇	smile,happy;biao'qing	3762620
-😈	smile,happy;biao'qing	12022677
-😎	smile,happy;biao'qing	28860296
-😺	smile,happy;biao'qing	841816
-#大笑
-😂	laugh,happy;biao'qing	241199504
-😃	laugh,happy;biao'qing	13208072
-😄	laugh,happy;biao'qing	22690419
-😆	laugh,happy;biao'qing	8660315
-😋	laugh,happy;biao'qing	25368750
-😸	laugh,happy;biao'qing	1349135
-😹	laugh,happy;biao'qing	3046282
-#厭惡
-😱	dislike,bad;biao'qing	17443628
-😲	dislike,bad;biao'qing	2292518
-😷	dislike,bad;biao'qing	12164762
-😗	dislike,bad;biao'qing	1007647
-😩	dislike,bad;biao'qing	77509573
-😴	dislike,bad;biao'qing	22627074
-😵	dislike,bad;biao'qing	2344824
-🙀	dislike,bad;biao'qing	1532341
-#嘆气
-😣	sigh,sad;biao'qing	11902724
-😥	sigh,sad;biao'qing	8279481
-😪	sigh,sad;biao'qing	14381841
-😞	sigh,sad;biao'qing	24327038
-😟	sigh,sad;biao'qing	4067110
-#哭泣
-😭	cry,sad;biao'qing	68806085
-😫	cry,sad;biao'qing	18084845
-#冷淡
-👽	indifferent;biao'qing	2040806
-😌	indifferent;biao'qing	31636039
-😒	indifferent;biao'qing	120603862
-😔	indifferent;biao'qing	79868168
-😚	indifferent;biao'qing	8044811
-😐	indifferent;biao'qing	19934628
-😑	indifferent;biao'qing	27128491
-😕	indifferent;biao'qing	20956092
-😶	indifferent;biao'qing	7690554
-#喜歡
-😍	like,happy;biao'qing	108789568
-😘	like,happy;biao'qing	89072430
-😙	like,happy;biao'qing	1719673
-😚	like,happy;biao'qing	8044811
-😻	like,happy;biao'qing	6298445
-😽	like,happy;biao'qing	1303998
-#驚喜
-😨	surprise;biao'qing	3633824
-😳	surprise;biao'qing	51861810
-😖	surprise;biao'qing	9940594
-😦	surprise;biao'qing	1695715
-😧	surprise;biao'qing	2069022
-😬	surprise;biao'qing	9749617
-😮	surprise;biao'qing	2636735
-😯	surprise;biao'qing	2548727
-#咧嘴笑
-😏	grin;biao'qing	71614858
-😁	grin;biao'qing	65097366
-😜	grin;biao'qing	25047549
-😝	grin;biao'qing	14206104
-😛	grin;biao'qing	6849627
-😼	grin;biao'qing	1676259
-#生气
-👿	angry,bad;biao'qing	1834205
-😠	angry,bad;biao'qing	9979042
-😡	angry,bad;biao'qing	19714661
-😤	angry,bad;biao'qing	13445053
-😾	angry,bad;biao'qing	958974
-#懷疑
-😢	doubt;biao'qing	19730321
-😓	doubt;biao'qing	8695126
-😰	doubt;biao'qing	5641447
-😿	doubt;biao'qing	1841188
-#猴子表情
-🙈	no,see;biao'qing	30945531
-🙉	no,hear;biao'qing	2704402
-🙊	no,speak;biao'qing	22319510
-#交通
-🚀	rocket;jiao'tong`transportation	975972
-🚁	helicopter;jiao'tong`transportation	80491
-🚂	train;jiao'tong`transportation	230112
-🚃	train;jiao'tong`transportation	64648
-🚄	fast,train;jiao'tong`transportation	46800
-🚅	fast,train;jiao'tong`transportation	27916
-🚆	fast,train;jiao'tong`transportation	33452
-🚇	metro;jiao'tong`transportation	40947
-🚈	train;jiao'tong`transportation	19827
-🚉	train;jiao'tong`transportation	70807
-🚊	tram;jiao'tong`transportation	73887
-🚋	tram;jiao'tong`transportation
-🚌	bus;jiao'tong`transportation	206132
-🚍	bus;jiao'tong`transportation	125304
-🚎	bus;jiao'tong`transportation	35618
-🚏	bus;jiao'tong`transportation	9794
-🚐	mini,bus;jiao'tong`transportation	39321
-🚑	ambulence,emergency;jiao'tong`transportation	127898
-🚒	fireman,emergency;jiao'tong`transportation	75797
-🚓	police,emergency;jiao'tong`transportation	180737
-🚔	taxi;jiao'tong`transportation	149871
-🚕	taxi;jiao'tong`transportation	114019
-🚖	car;jiao'tong`transportation	72780
-🚗	car;jiao'tong`transportation	1264744
-🚘	car;jiao'tong`transportation	664416
-🚙	truck;jiao'tong`transportation	474568
-🚚	truck;jiao'tong`transportation	65151
-🚛	truck;jiao'tong`transportation	47428
-🚝	railway;jiao'tong`transportation	17644
-🚞	railway;jiao'tong`transportation	14732
-🚟	cable,car;jiao'tong`transportation	3529
-🚠	cable,car;jiao'tong`transportation	5651
-🚡	cable,car;jiao'tong`transportation	7643
-🚢	ship;jiao'tong`transportation	129782
-🚣	ship;jiao'tong`transportation	234703
-🚤	ship;jiao'tong`transportation	98318
-#標誌
-🚥	traffic;biao'zhi`icon	29616
-🚦	traffic;biao'zhi`icon	100964
-🚧	traffic;biao'zhi`icon	48549
-🚨	traffic;biao'zhi`icon	551124
-🚩	flag;biao'zhi`icon	88212
-🚪	door;biao'zhi`icon	154974
-🚫	admin,sign;biao'zhi`icon	730602
-🚬	admin,sign;biao'zhi`icon	1052832
-🚭	admin,sign;biao'zhi`icon	60459
-🚮	admin,sign;biao'zhi`icon	91451
-🚯	admin,sign;biao'zhi`icon	9041
-🚰	admin,sign;biao'zhi`icon	17040
-🚱	admin,sign;biao'zhi`icon	8234
-🚲	road,sign;biao'zhi`icon	330838
-🚳	road,sign;biao'zhi`icon	5758
-🚴	road,sign;biao'zhi`icon	184153
-🚵	road,sign;biao'zhi`icon	32848
-🚶	road,sign;biao'zhi`icon	5583984
-🚷	road,sign;biao'zhi`icon	56872
-🚸	road,sign;biao'zhi`icon	15503
-🚹	wc;biao'zhi`icon	39606
-🚺	wc;biao'zhi`icon	74818
-🚻	wc;biao'zhi`icon	24966
-🚼	wc;biao'zhi`icon	205220
-🚽	wc;biao'zhi`icon	241549
-🚾	wc;biao'zhi`icon	39773
-🚿	wc;biao'zhi`icon	776310
-🛀	wc;biao'zhi`icon	406079
-🛁	wc;biao'zhi`icon	59030
-🛂	borderadmin;biao'zhi`icon	3810
-🛃	borderadmin;biao'zhi`icon	3849
-🛄	luggage;biao'zhi`icon	2872
-🛅	luggage;biao'zhi`icon	2430
-#數字
-1⃣	one,squared;shu'zi`number
-2⃣	two,squared;shu'zi`number
-3⃣	three,squared;shu'zi`number
-4⃣	four,squared;shu'zi`number
-5⃣	five,squared;shu'zi`number
-6⃣	six,squared;shu'zi`number
-7⃣	seven,squared;shu'zi`number
-8⃣	eight,squared;shu'zi`number
-9⃣	nine,squared;shu'zi`number
-0⃣	zero,squared;shu'zi`number
-🄂	one,withcomma;shu'zi`number
-🄃	two,withcomma;shu'zi`number
-🄄	three,withcomma;shu'zi`number
-🄅	four,withcomma;shu'zi`number
-🄆	five,withcomma;shu'zi`number
-🄇	six,withcomma;shu'zi`number
-🄈	seven,withcomma;shu'zi`number
-🄉	eight,withcomma;shu'zi`number
-🄊	nine,withcomma;shu'zi`number
-🄁	zero,withcomma;shu'zi`number
-#字
-🈵	man,hanzi;zi`kanji	9333
-🈳	kong,hanzi;zi`kanji	9490
-🉐	de,hanzi;zi`kanji	39631
-🈹	ge,hanzi;zi`kanji	13020
-🈯	zhi,hanzi;zi`kanji	7260
-🈺	ying,hanzi;zi`kanji	4969
-🈶	you,hanzi;zi`kanji	4236
-🈚	wu,hanzi;zi`kanji	3202
-🈷	yue,hanzi;zi`kanji	2862
-🈸	shen,hanzi;zi`kanji	3594
-🈐	shou,hanzi;zi`kanji
-🈑	zi,hanzi;zi`kanji
-🈒	shuang,hanzi;zi`kanji
-🈩	yi,hanzi;zi`kanji
-🈔	er,hanzi;zi`kanji
-🈪	san,hanzi;zi`kanji
-🈬	zuo,hanzi;zi`kanji
-🈭	zhong,hanzi;zi`kanji
-🈮	you,hanzi;zi`kanji
-🈕	duo,hanzi;zi`kanji
-🈖	jie,hanzi;zi`kanji
-🈗	tian,hanzi;zi`kanji
-🈘	jiao,hanzi;zi`kanji
-🈙	ying,hanzi;zi`kanji
-🈛	liao,hanzi;zi`kanji
-🈜	qian,hanzi;zi`kanji
-🈝	hou,hanzi;zi`kanji
-🈞	zai,hanzi;zi`kanji
-🈟	xin,hanzi;zi`kanji
-🈠	chu,hanzi;zi`kanji
-🈡	zhong,hanzi;zi`kanji
-🈢	sheng,hanzi;zi`kanji
-🈣	fan,hanzi;zi`kanji
-🈤	sheng,hanzi;zi`kanji
-🈥	chui,hanzi;zi`kanji
-🈦	yan,hanzi;zi`kanji
-🈧	tou,hanzi;zi`kanji
-🈨	bu,hanzi;zi`kanji
-🈫	you,hanzi;zi`kanji
-🈰	zou,hanzi;zi`kanji
-🈱	da,hanzi;zi`kanji
-🈲	jin,hanzi;zi`kanji	9435
-🈴	he,hanzi;zi`kanji	7790
-🈂	sa;zi`katakana	5296
-🈁	koko;zi`katakana	3188
-🈓	de;zi`katakana
-#星座
-♈	aries;xing'zuo`horoscope	157740
-♉	taurus;xing'zuo`horoscope	126345
-♊	gemini;xing'zuo`horoscope	128460
-♋	cancer;xing'zuo`horoscope	201504
-♌	leo;xing'zuo`horoscope	140977
-♍	virgo;xing'zuo`horoscope	119390
-♎	libra;xing'zuo`horoscope	102128
-♏	scorpio;xing'zuo`horoscope	168885
-♐	sagittarius;xing'zuo`horoscope	101701
-♑	capricorn;xing'zuo`horoscope	76847
-♒	aquarius;xing'zuo`horoscope	121862
-♓	pices;xing'zuo`horoscope	89859
-⛎	ophiuchus;xing'zuo`horoscope	12220
-#字母
-#帶括號
-🄐	lettera,bracket;zi'mu
-🄑	letterb,bracket;zi'mu
-🄒	letterc,bracket;zi'mu
-🄓	letterd,bracket;zi'mu
-🄔	lettere,bracket;zi'mu
-🄕	letterf,bracket;zi'mu
-🄖	letterg,bracket;zi'mu
-🄗	letterh,bracket;zi'mu
-🄘	letteri,bracket;zi'mu
-🄙	letterj,bracket;zi'mu
-🄚	letterk,bracket;zi'mu
-🄛	letterl,bracket;zi'mu
-🄜	letterm,bracket;zi'mu
-🄝	lettern,bracket;zi'mu
-🄞	lettero,bracket;zi'mu
-🄟	letterp,bracket;zi'mu
-🄠	letterq,bracket;zi'mu
-🄡	letterr,bracket;zi'mu
-🄢	letters,bracket;zi'mu
-🄣	lettert,bracket;zi'mu
-🄤	letteru,bracket;zi'mu
-🄥	letterv,bracket;zi'mu
-🄦	letterw,bracket;zi'mu
-🄧	letterx,bracket;zi'mu
-🄨	lettery,bracket;zi'mu
-🄩	letterz,bracket;zi'mu
-#帶方框
-🄰	lettera,squared;zi'mu
-🄱	letterb,squared;zi'mu
-🄲	letterc,squared;zi'mu
-🄳	letterd,squared;zi'mu
-🄴	lettere,squared;zi'mu
-🄵	letterf,squared;zi'mu
-🄶	letterg,squared;zi'mu
-🄷	letterh,squared;zi'mu
-🄸	letteri,squared;zi'mu
-🄹	letterj,squared;zi'mu
-🄺	letterk,squared;zi'mu
-🄻	letterl,squared;zi'mu
-🄼	letterm,squared;zi'mu
-🄽	lettern,squared;zi'mu
-🄾	lettero,squared;zi'mu
-🄿	letterp,squared;zi'mu
-🅀	letterq,squared;zi'mu
-🅁	letterr,squared;zi'mu
-🅂	letters,squared;zi'mu
-🅃	lettert,squared;zi'mu
-🅄	letteru,squared;zi'mu
-🅅	letterv,squared;zi'mu
-🅆	letterw,squared;zi'mu
-🅇	letterx,squared;zi'mu
-🅈	lettery,squared;zi'mu
-🅉	letterz,squared;zi'mu
-#帶圓圈
-🅐	lettera,circled;zi'mu
-🅑	letterb,circled;zi'mu
-🅒	letterc,circled;zi'mu
-🅓	letterd,circled;zi'mu
-🅔	lettere,circled;zi'mu
-🅕	letterf,circled;zi'mu
-🅖	letterg,circled;zi'mu
-🅗	letterh,circled;zi'mu
-🅘	letteri,circled;zi'mu
-🅙	letterj,circled;zi'mu
-🅚	letterk,circled;zi'mu
-🅛	letterl,circled;zi'mu
-🅜	letterm,circled;zi'mu
-🅝	lettern,circled;zi'mu
-🅞	lettero,circled;zi'mu
-🅟	letterp,circled;zi'mu
-🅠	letterq,circled;zi'mu
-🅡	letterr,circled;zi'mu
-🅢	letters,circled;zi'mu
-🅣	lettert,circled;zi'mu
-🅤	letteru,circled;zi'mu
-🅥	letterv,circled;zi'mu
-🅦	letterw,circled;zi'mu
-🅧	letterx,circled;zi'mu
-🅨	lettery,circled;zi'mu
-🅩	letterz,circled;zi'mu
-#帶圓角方框
-🅰	lettera,roundsqr;zi'mu`bloodtype	206533
-🅱	letterb,roundsqr;zi'mu`bloodtype	157653
-🅲	letterc,roundsqr;zi'mu
-🅳	letterd,roundsqr;zi'mu
-🅴	lettere,roundsqr;zi'mu
-🅵	letterf,roundsqr;zi'mu
-🅶	letterg,roundsqr;zi'mu
-🅷	letterh,roundsqr;zi'mu
-🅸	letteri,roundsqr;zi'mu
-🅹	letterj,roundsqr;zi'mu
-🅺	letterk,roundsqr;zi'mu
-🅻	letterl,roundsqr;zi'mu
-🅼	letterm,roundsqr;zi'mu
-🅽	lettern,roundsqr;zi'mu
-🅾	lettero,roundsqr;zi'mu`bloodtype
-🅿	letterp,roundsqr;zi'mu	20655
-🆀	letterq,roundsqr;zi'mu
-🆁	letterr,roundsqr;zi'mu
-🆂	letters,roundsqr;zi'mu
-🆃	lettert,roundsqr;zi'mu
-🆄	letteru,roundsqr;zi'mu
-🆅	letterv,roundsqr;zi'mu
-🆆	letterw,roundsqr;zi'mu
-🆇	letterx,roundsqr;zi'mu
-🆈	lettery,roundsqr;zi'mu
-🆉	letterz,roundsqr;zi'mu
-🆎	letterab,roundsqr;zi'mu`bloodtype	25807
-
-#custom
-👖	jeans;people
-👩‍⚕️	worker;people
-👘	kimono;people
-🈚	u7121;symbols
-🇸🇲	marino;flags
-🚼	symbol;symbols
-🚯	litter;symbols
-👩‍❤️‍💋‍👩	woman;people
-📳	mode;symbols
-🇨🇱	chile;flags
-😍	eyes;people
-🇬🇷	greece;flags
-🤒	thermometer;people
-🐴	horse;animals_and_nature
-👼	angel;people
-😻	cat;people
-🙉	evil;animals_and_nature
-💙	heart;symbols
-🤳	selfie;people
-📹	camera;objects
-🎟	tickets;activity
-🇧🇲	bermuda;flags
-♎	libra;symbols
-⌛	hourglass;objects
-🎞	strip;objects
-🚎	trolleybus;travel_and_places
-🌪	tornado;animals_and_nature
-😫	face;people
-⛪	church;travel_and_places
-⏺	button;symbols
-🛋	lamp;objects
-🚔	car;travel_and_places
-🕎	menorah;symbols
-🐫	camel;animals_and_nature
-📗	book;objects
-🍛	curry;food_and_drink
-🎯	dart;activity
-👶	baby;people
-🐂	ox;animals_and_nature
-🔬	microscope;objects
-🍟	fries;food_and_drink
-🔂	one;symbols
-👩‍👧	girl;people
-🇸🇰	slovakia;flags
-👩‍👩‍👧‍👧	girl;people
-🐜	ant;animals_and_nature
-🇲🇾	malaysia;flags
-📖	book;objects
-♌	leo;symbols
-🌿	herb;animals_and_nature
-⚡	zap;animals_and_nature
-🆕	new;symbols
-🍨	cream;food_and_drink
-🍥	cake;food_and_drink
-🛄	claim;symbols
-🏣	office;travel_and_places
-🍦	icecream;food_and_drink
-©️	copyright;symbols
-🇫🇲	micronesia;flags
-🈳	u7a7a;symbols
-🍊	tangerine;food_and_drink
-🤥	face;people
-🇰🇾	islands;flags
-🎳	bowling;activity
-🗂	dividers;objects
-😋	yum;people
-💰	moneybag;objects
-🚋	train;travel_and_places
-😊	blush;people
-🍃	leaves;animals_and_nature
-🐸	frog;animals_and_nature
-🍹	drink;food_and_drink
-🏦	bank;travel_and_places
-🎪	tent;activity
-📃	curl;objects
-🇲🇶	martinique;flags
-🇨🇴	colombia;flags
-🚁	helicopter;travel_and_places
-🇵🇼	palau;flags
-🕣	clock830;symbols
-🇸🇩	sudan;flags
-🤤	face;people
-🐡	blowfish;animals_and_nature
-💺	seat;travel_and_places
-🇬🇳	guinea;flags
-🍮	custard;food_and_drink
-🇧🇯	benin;flags
-🐐	goat;animals_and_nature
-🦍	gorilla;animals_and_nature
-🍠	potato;food_and_drink
-🎈	balloon;objects
-🌞	face;animals_and_nature
-👳‍♀️	turban;people
-👩‍🔬	scientist;people
-💃	dancer;people
-🃏	joker;symbols
-🇧🇱	barthelemy;flags
-🤷	shrugging;people
-💥	boom;animals_and_nature
-🍎	apple;food_and_drink
-🇧🇦	herzegovina;flags
-🔇	mute;symbols
-🇲🇭	islands;flags
-👔	necktie;people
-❓	question;symbols
-💏	woman;people
-🇬🇧	uk;flags
-↩️	hook;symbols
-🏔	snow;travel_and_places
-🔊	sound;symbols
-🍙	ball;food_and_drink
-🇫🇮	finland;flags
-🇮🇹	it;flags
-🗓	calendar;objects
-⏹	button;symbols
-🐱	cat;animals_and_nature
-♋	cancer;symbols
-7️⃣	seven;symbols
-🇧🇬	bulgaria;flags
-👩	woman;people
-🖊	pen;objects
-🌳	tree;animals_and_nature
-🔧	wrench;objects
-🎆	fireworks;travel_and_places
-💅	care;people
-📝	memo;objects
-👨‍👦‍👦	boy;people
-🗃	box;objects
-🎋	tree;animals_and_nature
-💪	muscle;people
-🙃	face;people
-🇧🇮	burundi;flags
-🇸🇧	islands;flags
-⚫	circle;symbols
-👙	bikini;people
-🇷🇺	ru;flags
-🍗	leg;food_and_drink
-👜	handbag;people
-↪️	hook;symbols
-🇨🇫	republic;flags
-🦑	squid;animals_and_nature
-😥	relieved;people
-☃	snow;animals_and_nature
-🎻	violin;activity
-🔞	underage;symbols
-🇲🇽	mexico;flags
-🌶	pepper;food_and_drink
-👓	eyeglasses;people
-💔	heart;symbols
-🆑	cl;symbols
-👑	crown;people
-👱	man;people
-🤕	bandage;people
-👨‍🌾	farmer;people
-🤵	tuxedo;people
-⏩	forward;symbols
-⚖	scale;objects
-🏈	football;activity
-🔍	mag;objects
-🇸🇳	senegal;flags
-👩‍👩‍👧‍👦	boy;people
-🇻🇪	venezuela;flags
-💬	balloon;symbols
-🤗	hugs;people
-🕜	clock130;symbols
-⚪	circle;symbols
-Ⓜ️	m;symbols
-🇯🇪	jersey;flags
-🇫🇯	fiji;flags
-🦆	duck;animals_and_nature
-🕟	clock430;symbols
-🏉	football;activity
-🎏	flags;objects
-㊗️	congratulations;symbols
-🇸🇨	seychelles;flags
-🏘	houses;travel_and_places
-🇹🇩	chad;flags
-👩‍👧‍👧	girl;people
-🇲🇦	morocco;flags
-🤽‍♀️	polo;activity
-🌇	sunrise;travel_and_places
-📚	books;objects
-🔳	button;symbols
-🛁	bathtub;objects
-🇸🇻	salvador;flags
-🤛	left;people
-🌋	volcano;travel_and_places
-▶️	forward;symbols
-😭	sob;people
-🐋	whale2;animals_and_nature
-🎁	gift;objects
-🌴	tree;animals_and_nature
-🇾🇪	yemen;flags
-🔋	battery;objects
-🏮	lantern;objects
-📕	book;objects
-🏸	badminton;activity
-📈	trend;objects
-🇧🇾	belarus;flags
-🌠	stars;travel_and_places
-📦	package;objects
-🇧🇪	belgium;flags
-🍫	bar;food_and_drink
-📟	pager;objects
-🇳🇴	norway;flags
-🔭	telescope;objects
-🛅	luggage;symbols
-🏑	hockey;activity
-🕵️‍♀️	detective;people
-👽	alien;people
-🏪	store;travel_and_places
-🤘	metal;people
-❔	question;symbols
-🐹	hamster;animals_and_nature
-㊙️	secret;symbols
-🇪🇭	sahara;flags
-🐎	racehorse;animals_and_nature
-🌟	star2;animals_and_nature
-🙍	woman;people
-☔	umbrella;animals_and_nature
-💆	woman;people
-🐬	dolphin;animals_and_nature
-👨‍👩‍👧	girl;people
-🎤	microphone;activity
-🇨🇾	cyprus;flags
-🎢	coaster;travel_and_places
-🇵🇱	poland;flags
-🚏	busstop;travel_and_places
-🇦🇹	austria;flags
-😮	mouth;people
-🌘	moon;animals_and_nature
-🌀	cyclone;symbols
-🏡	garden;travel_and_places
-🧀	cheese;food_and_drink
-🗾	japan;travel_and_places
-👁	eye;people
-🍑	peach;food_and_drink
-🦐	shrimp;animals_and_nature
-👵	woman;people
-🐻	bear;animals_and_nature
-👺	goblin;people
-👌	hand;people
-🦏	rhinoceros;animals_and_nature
-🇧🇴	bolivia;flags
-🎒	satchel;people
-🇪🇨	ecuador;flags
-🇳🇫	island;flags
-📡	satellite;objects
-🕓	clock4;symbols
-🏀	basketball;activity
-🏒	hockey;activity
-💓	heartbeat;symbols
-🈶	u6709;symbols
-🐥	chick;animals_and_nature
-🐿	chipmunk;animals_and_nature
-👨‍❤️‍💋‍👨	man;people
-🥔	potato;food_and_drink
-😼	cat;people
-🏫	school;travel_and_places
-😐	face;people
-🇱🇸	lesotho;flags
-🏄	man;activity
-🕖	clock7;symbols
-🕷	spider;animals_and_nature
-🇳🇺	niue;flags
-👤	silhouette;people
-🍾	champagne;food_and_drink
-😲	astonished;people
-👈	left;people
-⛩	shrine;travel_and_places
-🤔	thinking;people
-💟	decoration;symbols
-🇲🇴	macau;flags
-👩‍🎤	singer;people
-🚊	tram;travel_and_places
-🇳🇷	nauru;flags
-🔄	counterclockwise;symbols
-➕	sign;symbols
-🚭	smoking;symbols
-🌾	rice;animals_and_nature
-🔩	bolt;objects
-🔖	bookmark;objects
-🔑	key;objects
-⚗	alembic;objects
-💒	wedding;travel_and_places
-❣	exclamation;symbols
-🎃	lantern;animals_and_nature
-🍭	lollipop;food_and_drink
-🕢	clock730;symbols
-🍂	leaf;animals_and_nature
-🍋	lemon;food_and_drink
-✖️	x;symbols
-💑	man;people
-🇵🇳	islands;flags
-🇦🇸	samoa;flags
-🕊	dove;animals_and_nature
-👪	boy;people
-🤠	face;people
-👾	invader;activity
-🇳🇬	nigeria;flags
-🍝	spaghetti;food_and_drink
-🇱🇦	laos;flags
-👠	heel;people
-👨‍🚀	astronaut;people
-😱	scream;people
-🇴🇲	oman;flags
-🏰	castle;travel_and_places
-💼	briefcase;people
-⬛	square;symbols
-🚵	man;activity
-🛵	scooter;travel_and_places
-🏓	pong;activity
-🛤	track;travel_and_places
-💯	100;symbols
-🎫	ticket;activity
-🤸‍♀️	cartwheeling;activity
-🇩🇿	algeria;flags
-💧	droplet;animals_and_nature
-🛃	customs;symbols
-⏸	button;symbols
-🇬🇺	guam;flags
-🇦🇪	emirates;flags
-🐃	buffalo;animals_and_nature
-⛸	skate;activity
-🏋	man;activity
-🐟	fish;animals_and_nature
-😎	sunglasses;people
-🏳	flag;objects
-®️	registered;symbols
-👩‍👩‍👧	girl;people
-🔌	plug;objects
-🇳🇨	caledonia;flags
-🗨	bubble;symbols
-🗽	liberty;travel_and_places
-1️⃣	one;symbols
-🔡	abcd;symbols
-💍	ring;people
-🥂	glasses;food_and_drink
-🏜	desert;travel_and_places
-🇲🇱	mali;flags
-📼	vhs;objects
-🇱🇨	lucia;flags
-🇹🇨	islands;flags
-⚔	swords;objects
-🙋	woman;people
-👧	girl;people
-💗	heartpulse;symbols
-🎖	military;activity
-📄	up;objects
-🏕	camping;travel_and_places
-🌫	fog;animals_and_nature
-👂	ear;people
-🗑	wastebasket;objects
-🕸	web;animals_and_nature
-🍉	watermelon;food_and_drink
-⬅️	left;symbols
-🏥	hospital;travel_and_places
-🇲🇸	montserrat;flags
-⏰	clock;objects
-🌮	taco;food_and_drink
-⛑	helmet;people
-🇭🇰	kong;flags
-🇧🇫	faso;flags
-🎷	saxophone;activity
-🦁	lion;animals_and_nature
-🇨🇩	kinshasa;flags
-👨‍👧‍👦	boy;people
-👀	eyes;people
-⛺	tent;travel_and_places
-😢	cry;people
-📎	paperclip;objects
-🎊	ball;objects
-🤣	rofl;people
-🇻🇨	grenadines;flags
-🚲	bike;travel_and_places
-🌅	sunrise;travel_and_places
-🏐	volleyball;activity
-🇸🇱	leone;flags
-⏪	rewind;symbols
-🚗	car;travel_and_places
-🕋	kaaba;travel_and_places
-🇨🇽	island;flags
-😀	grinning;people
-🍼	bottle;food_and_drink
-🐘	elephant;animals_and_nature
-👸	princess;people
-🛂	control;symbols
-🛐	worship;symbols
-👕	tshirt;people
-🇩🇲	dominica;flags
-💖	heart;symbols
-6️⃣	six;symbols
-🛡	shield;objects
-😩	weary;people
-🎲	die;activity
-🚵‍♀️	woman;activity
-🇪🇷	eritrea;flags
-💆‍♂️	man;people
-🙏	pray;people
-✌	v;people
-🆖	ng;symbols
-👦	boy;people
-📐	ruler;objects
-📀	dvd;objects
-🇰🇿	kazakhstan;flags
-🚶‍♀️	woman;people
-🏁	flag;travel_and_places
-💽	minidisc;objects
-🛥	boat;travel_and_places
-🎿	ski;activity
-👩‍❤️‍👩	woman;people
-🏟	stadium;travel_and_places
-🇺🇾	uruguay;flags
-🏅	sports;activity
-🚣‍♀️	woman;activity
-🚅	front;travel_and_places
-🚴	man;activity
-🐢	turtle;animals_and_nature
-🇬🇪	georgia;flags
-🙄	eyes;people
-🇮🇩	indonesia;flags
-🎑	scene;travel_and_places
-⛷	skier;activity
-⛳	golf;activity
-🐇	rabbit2;animals_and_nature
-⚾	baseball;activity
-🚡	tramway;travel_and_places
-🎛	knobs;objects
-👨‍💼	worker;people
-👨‍🔧	mechanic;people
-🗳	box;objects
-🌷	tulip;animals_and_nature
-👩‍👧‍👦	boy;people
-🌖	moon;animals_and_nature
-🌡	thermometer;objects
-🖕	fu;people
-🌙	moon;animals_and_nature
-🛌	bed;objects
-🏹	arrow;activity
-🍳	egg;food_and_drink
-🆗	ok;symbols
-💾	disk;objects
-🔒	lock;objects
-🇩🇪	de;flags
-🇲🇰	macedonia;flags
-♈	aries;symbols
-👻	ghost;people
-↗️	right;symbols
-💚	heart;symbols
-🇻🇺	vanuatu;flags
-😟	worried;people
-🤼‍♂️	wrestling;activity
-😵	face;people
-🤝	handshake;people
-🅿️	parking;symbols
-🇰🇮	kiribati;flags
-🇦🇿	azerbaijan;flags
-🐓	rooster;animals_and_nature
-🥑	avocado;food_and_drink
-🎱	8ball;activity
-🤦	facepalming;people
-🕶	sunglasses;people
-👩‍⚖️	judge;people
-👳	turban;people
-👥	silhouette;people
-🍯	pot;food_and_drink
-👨‍⚖️	judge;people
-🍄	mushroom;animals_and_nature
-🦋	butterfly;animals_and_nature
-🕌	mosque;travel_and_places
-🇰🇼	kuwait;flags
-👨‍👨‍👧	girl;people
-🇩🇰	denmark;flags
-◼️	square;symbols
-🤹‍♂️	juggling;activity
-🇬🇭	ghana;flags
-🇹🇼	taiwan;flags
-🇮🇸	iceland;flags
-👡	sandal;people
-⌚	watch;objects
-🌌	way;travel_and_places
-🥐	croissant;food_and_drink
-📯	horn;objects
-🇨🇿	republic;flags
-🕺	dancing;people
-🎸	guitar;activity
-🐗	boar;animals_and_nature
-🤶	claus;people
-🈵	u6e80;symbols
-🚪	door;objects
-🔀	arrows;symbols
-✂️	scissors;objects
-🌧	rain;animals_and_nature
-🇧🇧	barbados;flags
-🇸🇷	suriname;flags
-🔸	diamond;symbols
-🐼	face;animals_and_nature
-5️⃣	five;symbols
-🇬🇹	guatemala;flags
-🙆	woman;people
-👏	clap;people
-🕚	clock11;symbols
-▫️	square;symbols
-🥉	medal;activity
-😄	smile;people
-⚱	urn;objects
-🐚	shell;animals_and_nature
-🇨🇦	canada;flags
-🎂	birthday;food_and_drink
-🇰🇬	kyrgyzstan;flags
-🚉	station;travel_and_places
-🌆	sunset;travel_and_places
-🗼	tower;travel_and_places
-🐁	mouse2;animals_and_nature
-🏋️‍♀️	woman;activity
-💕	hearts;symbols
-🇬🇲	gambia;flags
-👩‍👦	boy;people
-🛳	ship;travel_and_places
-🌯	burrito;food_and_drink
-🀄	mahjong;symbols
-🎚	slider;objects
-🇼🇫	futuna;flags
-🔺	triangle;symbols
-🤜	right;people
-🇦🇷	argentina;flags
-✋	hand;people
-✈️	airplane;travel_and_places
-🍲	stew;food_and_drink
-🥃	glass;food_and_drink
-🌍	africa;animals_and_nature
-0️⃣	zero;symbols
-🕙	clock10;symbols
-📏	ruler;objects
-🍽	cutlery;food_and_drink
-🇸🇬	singapore;flags
-🇳🇮	nicaragua;flags
-✳️	asterisk;symbols
-🚇	metro;travel_and_places
-🎅	santa;people
-🇪🇹	ethiopia;flags
-4️⃣	four;symbols
-👿	imp;people
-💀	skull;people
-⚙	gear;objects
-😸	cat;people
-🇲🇷	mauritania;flags
-🥛	glass;food_and_drink
-⚓	anchor;travel_and_places
-🏤	office;travel_and_places
-😛	tongue;people
-🇿🇼	zimbabwe;flags
-🌈	rainbow;travel_and_places
-🍒	cherries;food_and_drink
-🐰	rabbit;animals_and_nature
-👨‍🔬	scientist;people
-😒	unamused;people
-🌂	umbrella;people
-🎦	cinema;symbols
-↙️	left;symbols
-😹	cat;people
-🙇‍♀️	woman;people
-🦊	face;animals_and_nature
-🍕	pizza;food_and_drink
-😦	frowning;people
-🍇	grapes;food_and_drink
-🇦🇽	islands;flags
-🐏	ram;animals_and_nature
-🕝	clock230;symbols
-🖨	printer;objects
-🅱️	b;symbols
-🇦🇴	angola;flags
-😠	angry;people
-🎵	note;symbols
-↖️	left;symbols
-👩‍💼	worker;people
-🇭🇷	croatia;flags
-🐨	koala;animals_and_nature
-🇳🇦	namibia;flags
-❇️	sparkle;symbols
-🈂️	sa;symbols
-🖥	computer;objects
-2️⃣	two;symbols
-♉	taurus;symbols
-🐕	dog2;animals_and_nature
-🦄	unicorn;animals_and_nature
-🆒	cool;symbols
-🌦	cloud;animals_and_nature
-🇪🇸	es;flags
-📅	date;objects
-🌕	moon;animals_and_nature
-🖐	splayed;people
-🕍	synagogue;travel_and_places
-📧	mail;objects
-🐲	face;animals_and_nature
-🍁	leaf;animals_and_nature
-🐧	penguin;animals_and_nature
-👨‍👧‍👧	girl;people
-🅰️	a;symbols
-🚸	crossing;symbols
-🇦🇫	afghanistan;flags
-😧	anguished;people
-🍧	ice;food_and_drink
-🇧🇶	netherlands;flags
-🇱🇰	lanka;flags
-👚	clothes;people
-👛	purse;people
-👷	man;people
-🚶	man;people
-🔵	circle;symbols
-👨‍👨‍👧‍👧	girl;people
-🕞	clock330;symbols
-🕠	clock530;symbols
-🏚	house;travel_and_places
-🌒	moon;animals_and_nature
-🛏	bed;objects
-🇵🇭	philippines;flags
-♦️	diamonds;symbols
-🇲🇬	madagascar;flags
-😤	triumph;people
-🔼	small;symbols
-*⃣	asterisk;symbols
-🏛	building;travel_and_places
-🔽	small;symbols
-🌽	corn;food_and_drink
-🚝	monorail;travel_and_places
-🇯🇲	jamaica;flags
-🐳	whale;animals_and_nature
-9️⃣	nine;symbols
-💂	guardsman;people
-🍤	shrimp;food_and_drink
-🗣	head;people
-🥞	pancakes;food_and_drink
-🔔	bell;symbols
-🖇	paperclips;objects
-🤸‍♂️	cartwheeling;activity
-⭕	o;symbols
-👨‍🍳	cook;people
-♨️	hotsprings;symbols
-🇲🇵	islands;flags
-🕗	clock8;symbols
-🕛	clock12;symbols
-🐅	tiger2;animals_and_nature
-🇨🇰	islands;flags
-⛵	sailboat;travel_and_places
-🇵🇹	portugal;flags
-👮	policeman;people
-☁️	cloud;animals_and_nature
-🍣	sushi;food_and_drink
-💢	anger;symbols
-📶	strength;symbols
-🍶	sake;food_and_drink
-📱	iphone;objects
-💮	flower;symbols
-📊	chart;objects
-🇦🇲	armenia;flags
-🇲🇳	mongolia;flags
-🇹🇴	tonga;flags
-📌	pushpin;objects
-💋	kiss;people
-🖤	heart;symbols
-🇺🇿	uzbekistan;flags
-🚽	toilet;objects
-🇵🇪	peru;flags
-🔉	sound;symbols
-🗝	key;objects
-👮‍♀️	policewoman;people
-👩‍👩‍👦‍👦	boy;people
-🇬🇵	guadeloupe;flags
-🇫🇴	islands;flags
-🐑	sheep;animals_and_nature
-🕒	clock3;symbols
-✨	sparkles;animals_and_nature
-▪️	square;symbols
-👩‍🍳	cook;people
-🔘	button;symbols
-🤙	hand;people
-👨‍🎓	student;people
-✒️	nib;objects
-🇭🇺	hungary;flags
-🇧🇼	botswana;flags
-🌵	cactus;animals_and_nature
-🏝	island;travel_and_places
-💎	gem;objects
-🍔	hamburger;food_and_drink
-🇹🇰	tokelau;flags
-😅	smile;people
-🤖	robot;people
-🔃	clockwise;symbols
-☣	biohazard;symbols
-🏬	store;travel_and_places
-🕹	joystick;objects
-🇲🇩	moldova;flags
-🚞	railway;travel_and_places
-🇷🇪	reunion;flags
-🎭	arts;activity
-🥋	uniform;activity
-🇵🇷	rico;flags
-⏬	down;symbols
-🥙	flatbread;food_and_drink
-🤾‍♂️	handball;activity
-📋	clipboard;objects
-🏎	car;travel_and_places
-🇱🇷	liberia;flags
-🈁	koko;symbols
-🇸🇿	swaziland;flags
-🐔	chicken;animals_and_nature
-🇳🇿	zealand;flags
-🎽	sash;activity
-‼️	bangbang;symbols
-🚐	minibus;travel_and_places
-🤴	prince;people
-🇮🇳	india;flags
-👫	couple;people
-😴	sleeping;people
-🇪🇬	egypt;flags
-😰	sweat;people
-🍆	eggplant;food_and_drink
-💇‍♂️	man;people
-🍷	glass;food_and_drink
-⭐	star;animals_and_nature
-🗯	bubble;symbols
-🇵🇰	pakistan;flags
-🔅	brightness;symbols
-🍞	bread;food_and_drink
-📥	tray;objects
-👷‍♀️	woman;people
-🔦	flashlight;objects
-💝	heart;symbols
-🇦🇱	albania;flags
-❗	exclamation;symbols
-⬜	square;symbols
-😞	disappointed;people
-⚛	symbol;symbols
-🐵	face;animals_and_nature
-🏺	amphora;objects
-🇵🇫	polynesia;flags
-🇲🇺	mauritius;flags
-👒	hat;people
-🚖	taxi;travel_and_places
-😌	relieved;people
-🥄	spoon;food_and_drink
-🔯	star;symbols
-🏧	atm;symbols
-🇹🇬	togo;flags
-🇩🇴	republic;flags
-🛣	motorway;travel_and_places
-🌹	rose;animals_and_nature
-🎥	camera;objects
-♣️	clubs;symbols
-🍩	doughnut;food_and_drink
-🇧🇩	bangladesh;flags
-👨‍🚒	firefighter;people
-🐞	beetle;animals_and_nature
-💊	pill;objects
-🎹	keyboard;activity
-☝	up;people
-🗻	fuji;travel_and_places
-🛶	canoe;travel_and_places
-☕	coffee;food_and_drink
-➗	sign;symbols
-🙊	evil;animals_and_nature
-🐷	pig;animals_and_nature
-🐣	chick;animals_and_nature
-💂‍♀️	guardswoman;people
-🎣	fish;activity
-💩	poop;people
-🔤	abc;symbols
-🌔	moon;animals_and_nature
-💨	dash;animals_and_nature
-💉	syringe;objects
-✡	david;symbols
-😺	cat;people
-😗	kissing;people
-🚕	taxi;travel_and_places
-✝	cross;symbols
-💇	woman;people
-🇹🇯	tajikistan;flags
-💤	zzz;people
-⛈	rain;animals_and_nature
-🎾	tennis;activity
-🌺	hibiscus;animals_and_nature
-👬	hands;people
-🏗	construction;travel_and_places
-📪	closed;objects
-👨‍🏫	teacher;people
-🌲	tree;animals_and_nature
-😽	cat;people
-🤓	face;people
-🍏	apple;food_and_drink
-🚥	light;travel_and_places
-🌬	face;animals_and_nature
-🚓	car;travel_and_places
-🚟	railway;travel_and_places
-🔕	bell;symbols
-🖼	picture;objects
-🥊	glove;activity
-🍈	melon;food_and_drink
-⏯	button;symbols
-🚺	womens;symbols
-🕕	clock6;symbols
-🇿🇦	africa;flags
-🔜	soon;symbols
-🔷	diamond;symbols
-🖲	trackball;objects
-🌥	cloud;animals_and_nature
-🇮🇪	ireland;flags
-⚒	pick;objects
-🚳	bicycles;symbols
-🥝	fruit;food_and_drink
-😑	expressionless;people
-🤧	face;people
-🏭	factory;travel_and_places
-🥓	bacon;food_and_drink
-🌱	seedling;animals_and_nature
-😆	laughing;people
-🇨🇷	rica;flags
-🔫	gun;objects
-🈯	u6307;symbols
-🚑	ambulance;travel_and_places
-🏃	man;people
-👊	facepunch;people
-🐙	octopus;animals_and_nature
-🚨	light;travel_and_places
-💲	sign;symbols
-🐽	nose;animals_and_nature
-🈷️	u6708;symbols
-☪	crescent;symbols
-🕡	clock630;symbols
-🇰🇪	kenya;flags
-😡	rage;people
-➡️	right;symbols
-⏱	stopwatch;objects
-🔏	pen;objects
-⛏	pick;objects
-〰️	dash;symbols
-🔣	symbols;symbols
-♠️	spades;symbols
-🔟	ten;symbols
-➰	loop;symbols
-🇬🇫	guiana;flags
-🇺🇸	us;flags
-🇬🇱	greenland;flags
-🕑	clock2;symbols
-#️⃣	hash;symbols
-🍱	bento;food_and_drink
-📴	off;symbols
-↔️	arrow;symbols
-🏙	cityscape;travel_and_places
-🇮🇨	islands;flags
-🔐	key;objects
-🔶	diamond;symbols
-🙎	woman;people
-🇽🇰	kosovo;flags
-🇸🇸	sudan;flags
-📞	receiver;objects
-🇰🇵	korea;flags
-🗒	notepad;objects
-🔴	circle;symbols
-☀️	sunny;animals_and_nature
-🐄	cow2;animals_and_nature
-🔠	abcd;symbols
-🎠	horse;travel_and_places
-🌨	snow;animals_and_nature
-🙎‍♂️	man;people
-🐦	bird;animals_and_nature
-🕉	om;symbols
-🇻🇦	city;flags
-🔗	link;objects
-🇵🇬	guinea;flags
-💫	dizzy;animals_and_nature
-🐀	rat;animals_and_nature
-🖋	pen;objects
-🚛	lorry;travel_and_places
-🛎	bell;objects
-⬇️	down;symbols
-🇦🇺	australia;flags
-⛹️‍♀️	woman;activity
-📵	phones;symbols
-🇫🇷	fr;flags
-⁉️	interrobang;symbols
-🇷🇸	serbia;flags
-🦈	shark;animals_and_nature
-🛀	bath;activity
-🇦🇬	barbuda;flags
-😨	fearful;people
-🇧🇹	bhutan;flags
-🚮	place;symbols
-🇦🇶	antarctica;flags
-☮	symbol;symbols
-🇼🇸	samoa;flags
-🔰	beginner;symbols
-🇮🇱	israel;flags
-◻️	square;symbols
-🆓	free;symbols
-☦	cross;symbols
-♓	pisces;symbols
-⚰	coffin;objects
-👩‍💻	technologist;people
-🇷🇼	rwanda;flags
-🆔	id;symbols
-🚾	wc;symbols
-🇹🇳	tunisia;flags
-🚦	light;travel_and_places
-🔱	trident;symbols
-🇭🇹	haiti;flags
-🕯	candle;objects
-🏢	office;travel_and_places
-🚚	truck;travel_and_places
-🏌️‍♀️	woman;activity
-🎴	cards;symbols
-🛩	airplane;travel_and_places
-📉	trend;objects
-👋	wave;people
-❕	exclamation;symbols
-🍘	cracker;food_and_drink
-😣	persevere;people
-🇿🇲	zambia;flags
-💁‍♂️	man;people
-🚂	locomotive;travel_and_places
-📢	loudspeaker;symbols
-🐠	fish;animals_and_nature
-🏊‍♀️	woman;activity
-🙈	evil;animals_and_nature
-👹	ogre;people
-⏫	up;symbols
-🌄	mountains;travel_and_places
-🔓	unlock;objects
-🔮	ball;objects
-😶	mouth;people
-💳	card;objects
-📷	camera;objects
-🍅	tomato;food_and_drink
-🇨🇭	switzerland;flags
-🐊	crocodile;animals_and_nature
-🙌	hands;people
-🎮	game;activity
-👨‍👨‍👦	boy;people
-🎰	machine;activity
-🌝	face;animals_and_nature
-🌗	moon;animals_and_nature
-🌭	hotdog;food_and_drink
-📠	fax;objects
-👐	hands;people
-✍	hand;people
-🚠	cableway;travel_and_places
-🙅‍♂️	man;people
-🛰	satellite;travel_and_places
-🎉	tada;objects
-👨‍🏭	worker;people
-😳	flushed;people
-😝	eyes;people
-🌩	lightning;animals_and_nature
-📘	book;objects
-🙋‍♂️	man;people
-🐒	monkey;animals_and_nature
-🚻	restroom;symbols
-🔹	diamond;symbols
-🤚	hand;people
-🏏	cricket;activity
-🇺🇬	uganda;flags
-💡	bulb;objects
-🏩	hotel;travel_and_places
-💹	chart;symbols
-👱‍♀️	woman;people
-👩‍🌾	farmer;people
-💛	heart;symbols
-🎬	clapper;activity
-😚	eyes;people
-🇱🇾	libya;flags
-🇹🇷	tr;flags
-🍖	bone;food_and_drink
-👩‍🏫	teacher;people
-👨‍✈️	pilot;people
-❤️	heart;symbols
-🇨🇲	cameroon;flags
-🥖	bread;food_and_drink
-🍚	rice;food_and_drink
-🏳️‍🌈	flag;objects
-🍀	clover;animals_and_nature
-🌏	asia;animals_and_nature
-📒	ledger;objects
-🇵🇲	miquelon;flags
-🇰🇳	nevis;flags
-🎺	trumpet;activity
-↕️	down;symbols
-🐝	honeybee;animals_and_nature
-🍍	pineapple;food_and_drink
-👩‍🚒	firefighter;people
-😏	smirk;people
-🚒	engine;travel_and_places
-🇲🇹	malta;flags
-🌎	americas;animals_and_nature
-✔️	mark;symbols
-❌	x;symbols
-🚈	rail;travel_and_places
-🇨🇺	cuba;flags
-🚙	car;travel_and_places
-🐶	dog;animals_and_nature
-🍿	popcorn;food_and_drink
-💿	cd;objects
-🇬🇶	guinea;flags
-🚣	man;activity
-🕔	clock5;symbols
-🦌	deer;animals_and_nature
-♿	wheelchair;symbols
-🚍	bus;travel_and_places
-🇨🇨	islands;flags
-🤢	face;people
-🇸🇭	helena;flags
-🇰🇭	cambodia;flags
-👢	boot;people
-🏴	flag;objects
-🥒	cucumber;food_and_drink
-🐩	poodle;animals_and_nature
-🐺	wolf;animals_and_nature
-♒	aquarius;symbols
-🇧🇳	brunei;flags
-🔨	hammer;objects
-🇨🇳	cn;flags
-👇	down;people
-👰	veil;people
-♻️	recycle;symbols
-📂	folder;objects
-⛹	man;activity
-🏌	man;activity
-🅾️	o2;symbols
-👩‍👩‍👦	boy;people
-🏄‍♀️	woman;activity
-🦅	eagle;animals_and_nature
-🌉	night;travel_and_places
-™️	tm;symbols
-🗿	moyai;objects
-🦉	owl;animals_and_nature
-🐭	mouse;animals_and_nature
-🇷🇴	romania;flags
-🔝	top;symbols
-📬	mail;objects
-🔥	fire;animals_and_nature
-🐖	pig2;animals_and_nature
-🙀	cat;people
-🇲🇪	montenegro;flags
-⛽	fuelpump;travel_and_places
-😔	pensive;people
-🕴	levitating;activity
-🇨🇬	brazzaville;flags
-🚩	post;objects
-♐	sagittarius;symbols
-🕘	clock9;symbols
-📭	mail;objects
-🚆	train2;travel_and_places
-👟	shoe;people
-💸	wings;objects
-🔎	right;objects
-🇬🇾	guyana;flags
-🥗	salad;food_and_drink
-🚱	water;symbols
-📁	folder;objects
-🛬	arrival;travel_and_places
-🐮	cow;animals_and_nature
-🕤	clock930;symbols
-🇯🇵	jp;flags
-🔈	speaker;symbols
-🛢	drum;objects
-🍜	ramen;food_and_drink
-🚜	tractor;travel_and_places
-🇭🇳	honduras;flags
-🍰	cake;food_and_drink
-👨	man;people
-👨‍👨‍👦‍👦	boy;people
-◀️	backward;symbols
-🇮🇲	man;flags
-🖖	salute;people
-👨‍👩‍👦‍👦	boy;people
-🤡	face;people
-🍸	cocktail;food_and_drink
-👅	tongue;people
-☠	crossbones;objects
-🥈	medal;activity
-👨‍💻	technologist;people
-⛅	sunny;animals_and_nature
-😇	innocent;people
-🍢	oden;food_and_drink
-🎗	ribbon;activity
-⛱	ground;objects
-🎼	score;activity
-◾	square;symbols
-👄	lips;people
-🕳	hole;objects
-🐯	tiger;animals_and_nature
-🇧🇿	belize;flags
-🚀	rocket;travel_and_places
-◽	square;symbols
-⛄	snowman;animals_and_nature
-🙆‍♂️	man;people
-🇲🇼	malawi;flags
-📙	book;objects
-☎️	phone;objects
-🛫	departure;travel_and_places
-💄	lipstick;people
-🇳🇵	nepal;flags
-📿	beads;objects
-💈	barber;objects
-🙁	face;people
-🇦🇩	andorra;flags
-🌜	face;animals_and_nature
-😙	eyes;people
-😷	mask;people
-🇨🇮	divoire;flags
-👎	1;people
-⏭	button;symbols
-🏆	trophy;activity
-🗞	roll;objects
-☺️	relaxed;people
-🇬🇸	islands;flags
-😘	heart;people
-🇮🇷	iran;flags
-🏯	castle;travel_and_places
-😓	sweat;people
-🕰	clock;objects
-🚫	ban;symbols
-😪	sleepy;people
-🏞	park;travel_and_places
-🛴	scooter;travel_and_places
-🐍	snake;animals_and_nature
-👩‍👦‍👦	boy;people
-🛠	wrench;objects
-👩‍🔧	mechanic;people
-👃	nose;people
-🛑	sign;symbols
-🖍	crayon;objects
-🤺	fencing;activity
-🌓	moon;animals_and_nature
-🍓	strawberry;food_and_drink
-🐈	cat2;animals_and_nature
-⛰	mountain;travel_and_places
-🕥	clock1030;symbols
-➖	sign;symbols
-⛴	ferry;travel_and_places
-😖	confounded;people
-🏠	house;travel_and_places
-🎙	microphone;objects
-🔛	on;symbols
-⛓	chains;objects
-🍬	candy;food_and_drink
-🚿	shower;objects
-🇻🇬	islands;flags
-🥜	peanuts;food_and_drink
-⚽	soccer;activity
-🚬	smoking;objects
-🇸🇽	maarten;flags
-🌰	chestnut;animals_and_nature
-🚄	side;travel_and_places
-☑️	check;symbols
-😬	grimacing;people
-😈	imp;people
-🦀	crab;animals_and_nature
-⏲	clock;objects
-👩‍🎨	artist;people
-🇸🇦	arabia;flags
-🍵	tea;food_and_drink
-🏊	man;activity
-🚴‍♀️	woman;activity
-🇱🇹	lithuania;flags
-🇮🇴	territory;flags
-🤦‍♀️	facepalming;people
-⚜	lis;symbols
-🤾‍♀️	handball;activity
-⛔	entry;symbols
-😜	eye;people
-✅	mark;symbols
-⬆️	up;symbols
-🤐	face;people
-🍡	dango;food_and_drink
-👨‍⚕️	worker;people
-😁	grin;people
-😕	confused;people
-🇧🇭	bahrain;flags
-🥅	net;activity
-ℹ️	source;symbols
-👩‍🏭	worker;people
-☹	face;people
-🇶🇦	qatar;flags
-🇵🇦	panama;flags
-📍	pushpin;objects
-😾	cat;people
-🇾🇹	mayotte;flags
-📸	flash;objects
-🎌	flags;objects
-🎄	tree;animals_and_nature
-🈲	u7981;symbols
-💱	exchange;symbols
-🚃	car;travel_and_places
-🎓	board;people
-👗	dress;people
-🇵🇸	territories;flags
-🔪	hocho;objects
-👭	hands;people
-⛲	fountain;travel_and_places
-🕧	clock1230;symbols
-🎩	tophat;people
-👯	women;people
-🏷	label;objects
-🥘	food;food_and_drink
-🇺🇦	ukraine;flags
-💘	cupid;symbols
-🏇	racing;activity
-🇳🇱	netherlands;flags
-📣	mega;symbols
-🇸🇹	principe;flags
-🥕	carrot;food_and_drink
-🇨🇻	verde;flags
-📺	tv;objects
-📔	cover;objects
-🦂	scorpion;animals_and_nature
-🇮🇶	iraq;flags
-🆚	vs;symbols
-🆎	ab;symbols
-🇹🇹	tobago;flags
-🌊	ocean;animals_and_nature
-❎	mark;symbols
-🦃	turkey;animals_and_nature
-🌐	meridians;symbols
-📫	mailbox;objects
-💵	dollar;objects
-🙇	man;people
-👍	+1;people
-🌃	stars;travel_and_places
-🐾	prints;animals_and_nature
-☢	radioactive;symbols
-👨‍❤️‍👨	man;people
-🚰	water;symbols
-🕵	detective;people
-🌤	cloud;animals_and_nature
-🇫🇰	islands;flags
-🍐	pear;food_and_drink
-🎐	chime;objects
-🇹🇭	thailand;flags
-🏂	snowboarder;activity
-✉️	email;objects
-⏮	button;symbols
-🤰	woman;people
-🚢	ship;travel_and_places
-👞	shoe;people
-🇲🇻	maldives;flags
-🔆	brightness;symbols
-👩‍🎓	student;people
-😿	face;people
-🔢	1234;symbols
-👆	2;people
-🦇	bat;animals_and_nature
-📰	newspaper;objects
-💁	woman;people
-☂	umbrella;animals_and_nature
-🇦🇼	aruba;flags
-🈹	u5272;symbols
-❄️	snowflake;animals_and_nature
-🗡	dagger;objects
-🇸🇾	syria;flags
-💜	heart;symbols
-💭	balloon;symbols
-🤼‍♀️	wrestling;activity
-🐌	snail;animals_and_nature
-💞	hearts;symbols
-🌼	blossom;animals_and_nature
-🇧🇷	brazil;flags
-🍌	banana;food_and_drink
-🎡	wheel;travel_and_places
-😃	smiley;people
-🇰🇲	comoros;flags
-➿	loop;symbols
-🚌	bus;travel_and_places
-🚤	speedboat;travel_and_places
-🍴	knife;food_and_drink
-🉑	accept;symbols
-🌑	moon;animals_and_nature
-⌨	keyboard;objects
-🤑	face;people
-🙅	woman;people
-📻	radio;objects
-🛍	shopping;objects
-✊	fist;people
-😂	joy;people
-⤵️	down;symbols
-⛎	ophiuchus;symbols
-🕐	clock1;symbols
-🎀	ribbon;objects
-🗄	cabinet;objects
-💻	computer;objects
-🇱🇻	latvia;flags
-🇬🇮	gibraltar;flags
-💐	bouquet;animals_and_nature
-🖱	mouse;objects
-🤞	fingers;people
-🇸🇪	sweden;flags
-🐤	chick;animals_and_nature
-🉐	advantage;symbols
-🗜	clamp;objects
-🏍	motorcycle;travel_and_places
-🇳🇪	niger;flags
-👨‍👧	girl;people
-💣	bomb;objects
-👨‍👦	boy;people
-♍	virgo;symbols
-📜	scroll;objects
-♥️	hearts;symbols
-🔲	button;symbols
-🎧	headphones;activity
-👩‍🚀	astronaut;people
-💴	yen;objects
-🇱🇮	liechtenstein;flags
-🇦🇮	anguilla;flags
-☸	dharma;symbols
-✏️	pencil2;objects
-🥚	egg;food_and_drink
-🆘	sos;symbols
-♏	scorpius;symbols
-👲	mao;people
-☘	shamrock;animals_and_nature
-🦎	lizard;animals_and_nature
-🛒	cart;objects
-🇬🇼	bissau;flags
-🇲🇲	myanmar;flags
-🇵🇾	paraguay;flags
-🇬🇬	guernsey;flags
-🎎	dolls;objects
-🚹	mens;symbols
-👉	right;people
-🙍‍♂️	man;people
-🇻🇮	islands;flags
-🇻🇳	vietnam;flags
-👨‍👩‍👧‍👦	boy;people
-👩‍✈️	pilot;people
-🍻	beers;food_and_drink
-🤹‍♀️	juggling;activity
-🎍	bamboo;animals_and_nature
-🇱🇧	lebanon;flags
-🎶	notes;symbols
-🇰🇷	kr;flags
-🗺	map;objects
-🌚	face;animals_and_nature
-🍺	beer;food_and_drink
-📲	calling;objects
-👨‍🎤	singer;people
-🌻	sunflower;animals_and_nature
-📤	tray;objects
-🇹🇿	tanzania;flags
-📮	postbox;objects
-👴	man;people
-🎇	sparkler;travel_and_places
-🔻	down;symbols
-♊	gemini;symbols
-📓	notebook;objects
-⤴️	up;symbols
-👨‍👩‍👧‍👧	girl;people
-🐆	leopard;animals_and_nature
-👯‍♂️	men;people
-🐛	bug;animals_and_nature
-☯	yang;symbols
-💶	euro;objects
-👣	footprints;people
-☄	comet;animals_and_nature
-🚷	pedestrians;symbols
-🚧	construction;travel_and_places
-👨‍🎨	artist;people
-📆	calendar;objects
-🇪🇪	estonia;flags
-🇩🇯	djibouti;flags
-📛	badge;symbols
-📇	index;objects
-🇲🇿	mozambique;flags
-🇹🇫	territories;flags
-🐪	camel;animals_and_nature
-🇪🇺	eu;flags
-👝	pouch;people
-📽	projector;objects
-⏳	sand;objects
-🇹🇲	turkmenistan;flags
-↘️	right;symbols
-🕦	clock1130;symbols
-🌛	face;animals_and_nature
-🤷‍♂️	shrugging;people
-📨	envelope;objects
-🇬🇦	gabon;flags
-🏨	hotel;travel_and_places
-🈸	u7533;symbols
-💌	letter;objects
-🙂	face;people
-👨‍👨‍👧‍👦	boy;people
-🇹🇱	leste;flags
-🇧🇸	bahamas;flags
-🐉	dragon;animals_and_nature
-🔁	repeat;symbols
-🥀	flower;animals_and_nature
-🏵	rosette;activity
-🈺	u55b6;symbols
-🔙	back;symbols
-🏃‍♀️	woman;people
-🇬🇩	grenada;flags
-8️⃣	eight;symbols
-🇱🇺	luxembourg;flags
-3️⃣	three;symbols
-😯	hushed;people
-🇸🇮	slovenia;flags
-🍪	cookie;food_and_drink
-🚘	automobile;travel_and_places
-🖌	paintbrush;objects
-🤽‍♂️	polo;activity
-🥁	drum;activity
-♑	capricorn;symbols
-😉	wink;people
-✴️	star;symbols
-📩	arrow;objects
-💷	pound;objects
-🏖	umbrella;travel_and_places
-🥇	medal;activity
-💦	drops;animals_and_nature
-⚠️	warning;symbols
-🔚	end;symbols
-🎨	art;activity
-📑	tabs;objects
-🌁	foggy;travel_and_places
-🇨🇼	curacao;flags
-🇹🇻	tuvalu;flags
-🇲🇨	monaco;flags
-🇸🇴	somalia;flags
-💠	inside;symbols
-🇯🇴	jordan;flags
-🆙	up;symbols
-〽️	mark;symbols
-🌸	blossom;animals_and_nature
-🈴	u5408;symbols
-
-# https://github.com/yangshann/rime-dict/blob/master/symbols.dict.yaml
-😂	xiao ku
-🤦	wu lian
-🙃	dao lian
-😰	leng han
-😰	han
-😀	da xiao
-😅	da xiao
-😁	hei hei
-😃	ha ha
-😆	ha ha
-😌	wei xiao
-😄	gao xing
-😏	he he
-😆	kai xin
+￥	ren'min'bi
+￥	ri'yuan
+💴	ri'yuan
+￥	ri'bi
+$	mei'yuan
+💵	mei'yuan
+💲	mei'yuan
+$	mei'dao
+HK$	gang'yuan
+HK$	gang'bi
+MOP$	ao'men'yuan
+MOP$	ao'men'bi
+MOP$	pu'bi
+S$	xin'jia'po'yuan
+S$	xin'jia'po'bi
+€	ou'yuan
+💶	ou'yuan
+£	ying'bang
+💷	ying'bang
+😀	xiao'lian
+😃	lu'chi'xiao
+😄	ha
+😄	ha'ha
+😄	kai'xin
+😄	xiao
 😊	xiao
-😭	da ku
-😟	pie zui
-😡	nan guo
-😢	heng
-😔	wu shi
-😰	xia ku
-😲	jing ya
-😮	chi jing
-😦	zhen jing
-😧	jing ya
-😱	ke pa
-😱	kong bu
-😨	hai pa
-😥	bei shang
-😠	nan guo
-😍	se
-😘	wen
-😘	qin
-😚	qin
-💋	wen
-😜	tu she
-😜	ke ai
-😛	tiao pi
-😴	shui
-😴	shui jiao
-😷	kou zhao
-😷	gan mao
-😇	tian shi
-🤗	yong bao
-🤗	bao
-🤔	kao lv
-🤔	xiang
-👏	gu zhang
-👏	huan ying
-👌	ok
-👌	hao
-👍	zan
-👍	ding
-👍	li hai
-👎	fan dui
-👎	dao
-👎	diss
-✌	yeah
-✌	sheng li
-🙏	qi dao
-🙏	bao you
-🙏	he shi
-✋	bu
-✋	zai jian
-💪	qiang
-💪	ji rou
-💪	duan lian
-💪	zhuang
-💗	xin
-❤	ai xin
-💔	xin sui
-💕	ai
+😄	gao'xing
+😄	han'han
+😁	xi'xi
+😁	hei'hei
+😁	lie'zui'xiao
+😆	sha'xiao
+😆	mi'yan'xiao
+😆	xiao'si
+😆	hao'ye
+😆	xiao'yun
+😅	han
+😰	han
+😓	han
+😅	leng'han
+😰	leng'han
+😓	leng'han
+😅	mao'han
+😰	mao'han
+😓	mao'han
+😅	wu'yu
+😰	wu'yu
+😓	wu'yu
+😅	gan'ga
+😰	gan'ga
+😓	gan'ga
+😅	ku'xiao
+🤣	da'xiao
+😂	da'xiao
+🤣	xiao'ku
+😂	xiao'ku
+🤣	xiao'ku'le
+😂	xiao'ku'le
+🤣	xiao'chu'yan'lei
+😂	xiao'chu'yan'lei
+🤣	da'gun
+🤣	da'gun'er
+🤣	xiao'de'da'gun
+🤣	xiao'de'da'gun'er
+🤣	xiao'de'man'di'da'gun
+🤣	xiao'de'man'di'da'gun'er
+🙂	he'he
+🙃	he'he
+🙃	dao'lian
+🙃	dian'dao
+🙃	dian'dao'de'lian
+🫠	xiao'shi
+🫥	xiao'shi
+🫠	rong'jie
+🫠	rong'hua
+😉	zha'yan
+😉	mei'yan
+😉	pao'mei'yan
+😊	wei'xiao
+😊	lian'hong
+😳	lian'hong
+😇	guang'huan
+😇	wei'xiao'tian'shi
+🥰	xi'xiao'yan'kai
+🥰	ai'xin'huan'rao
+🥰	ai'mu
+🥰	mi'lian
+🥰	xian'ru'ai'he
+🥰	zhui'ru'ai'he
+🥰	xing'fu
+😍	xi'huan
+♥️	xi'huan
+😍	hua'chi
+🤩	chong'bai
+🤩	hao'chong'bai
+🤩	hao'chong'bai'o
+🤩	xing'xing'yan
+🤩	yan'mao'xing'xing
+😘	qin'qin
+😘	fei'wen
+😘	qin'yi'ge
+😘	qin'yi'xia
+😘	bo'yi'ge
+😘	bo'er'yi'ge
+😗	jue'zui
+🙎‍♂️	jue'zui
+🙎‍♀️	jue'zui
+😚	xiu'se'qin'qin
+😙	wei'xiao'qin'qin
+🥲	han'lei'de'xiao'lian
+🥲	han'lei'xiao'lian
+🥲	xin'wei
+😋	hao'chi
+😋	jin'jin'you'wei
+😋	mei'wei
+😛	tu'she
+😜	tu'she
+😝	tu'she
+😛	tu'she'tou
+😜	tu'she'tou
+😝	tu'she'tou
+😛	lve'lve'lve
+😜	lve'lve'lve
+😝	lve'lve'lve
+😜	dan'yan'tu'she
+😜	tiao'pi
+😜	dao'dan
+🤪	sha'gua
+🤪	sha'gua'lian
+😝	mi'yan
+😝	mi'yan'tu'she
+😝	kai'wan'xiao
+😝	chao'xiao
+🤑	fa'cai
+🤑	cai'mi
+🤑	bai'jin
+🤑	jian'qian'yan'kai
+🤑	qian'yan
+🤑	qian'yan'er
+🤗	bao'bao
+🫂	bao'bao
+🤗	yong'bao
+🫂	yong'bao
+🤭	wu'zui
+🙊	wu'zui
+🤭	wu'zui'ba
+🙊	wu'zui'ba
+🤭	wu'shang'zui'ba
+🙊	wu'shang'zui'ba
+🤭	wu'zhu'zui'ba
+🙊	wu'zhu'zui'ba
+🤭	wu'zhe'zui'ba
+🙊	wu'zhe'zui'ba
+🤭	wu'zui'xiao
+🤭	wu'zhe'zui'xiao
+🤭	hao'xiao
+🫢	bu'gan'xiang'xin
+🫢	unbelievable
+🫣	tou'kan
+🫣	tou'tou'kan
+🫣	tou'qiao
+🫣	tou'tou'qiao
+🫣	dan'yan'tou'kan
+🫣	bu'gan'kan
+🫣	wo'bu'gan'kan
+🫣	hua'mian'tai'mei'wo'bu'gan'kan
+🫣	na'hua'mian'tai'mei'wo'bu'gan'kan
+🤫	xu
+🤫	an'jing
+🤫	an'jing'de'lian
+🤫	xiao'sheng
+🤫	xiao'dian'sheng
+🤫	xiao'dian'er'sheng
+🤫	xiao'sheng'dian
+🤫	xiao'sheng'dian'er
+🤫	bie'shuo'hua
+🤔	shen'si'de'lian
+🤔	shen'si
+🤔	si'kao
+🤔	qi'guai
+🤔	qi'guai'le
+🤔	xiang'yi'xiang
+🤔	xiang'xiang
+🤔	wo'xiang'xiang
+🤔	wo'zai'xiang'xiang
+🤔	rong'wo'san'si
+🤔	e
+🤔	yi'wen
+🤔	ke'neng
+🤔	bu'li'jie
+🤔	bu'ming'bai
+🤔	yi'huo
+🫡	jing'li
+🫡	zhi'jing
+🫡	zun'jing
+🫡	zun'zhong
+🫡	rui'si'bai
+🫡	respect
+🤐	bi'zui
+🤐	mi'mi
+㊙️	mi'mi
+🤐	bao'mi
+🤐	shou'mi
+🤐	bu'shuo
+🙊	bu'shuo
+🤐	bu'neng'shuo
+🤐	bu'yao'shuo
+🤐	la'shang'la'lian
+🤐	feng'kou
+🤐	jin'yan
+🤨	tiao'mei
+🤨	mei'mao'shang'tiao
+🤨	mei'mao'shang'tiao'de'lian
+😐	ping'jing
+😑	mian'wu'biao'qing
+😶	mei'zui
+😶	mei'you'zui
+😶	mei'you'zui'ba
+😶	chen'mo
+🫥	yin'xing
+🫥	yin'cang
+🫥	xu'xian'lian
+🫥	xu'xian'lun'kuo
+😶‍🌫️	yun'zhong
+😶‍🌫️	yun'zhong'de'lian
+😏	de'yi
+😏	de'yi'de'xiao
+😒	yu'men
+😒	bi'shi
+🙄	bai'yan
+🙄	bai'yan'er
+🙄	fan'bai'yan
+🙄	fan'bai'yan'er
+😬	yao'ya'qie'chi
+😬	zi'ya'lie'zui
+😬	zi'ya
+😬	yao'ya
+😮‍💨	hu'qi
+🫁	hu'qi
+😮‍💨	tan'qi
+😮‍💨	ai
+😮‍💨	wu'nai
+🤥	chang'bi'zi
+🤥	chang'bi
+🤥	pi'nuo'cao
+🤥	shuo'huang
+🤥	sa'huang
+🤥	luan'jiang
+🤥	hu'shuo
+🤥	pian'zi
+🤥	pian'ren
+🤥	pian'ren'bu
+🤥	wu'suo'pu
+🫨	huang'nao
+🫨	yao'tou'huang'nao
+🫨	chan'dou'de'lian
+🫨	meng'yao'tou
+🫨	shuai'tou
+😌	ru'shi'zhong'fu
+😌	song'kou'qi
+😌	song'le'kou'qi
+😌	song'le'yi'kou'qi
+😌	shi'ran
+😔	di'tou'you'shang
+😔	xin'shi'chong'chong
+😔	you'lv
+😔	you'shang
+😪	kun
+🥱	kun
+😪	kun'kun
+😪	kun'le
+🥱	kun'le
+😪	kun'juan
+🥱	kun'juan
+😪	kun'fa
+😪	ke'shui
+😪	da'ke'shui
+🤤	kou'shui
+🤤	liu'kou'shui
+🤤	chui'xian'san'chi
+😴	shui'jiao
+💤	shui'jiao
+🛌	shui'jiao
+😴	shui'zhe
+💤	shui'zhe
+😴	shui'zhao'le
+💤	shui'zhao'le
+😴	shui'le
+💤	shui'le
+😴	shui'mian
+💤	shui'mian
+😷	kou'zhao
+😷	dai'kou'zhao
+😷	gan'mao
+🤧	gan'mao
+😷	sheng'bing
+🤒	ti'wen'ji
+🤒	liang'ti'wen
+🤒	fa'shao
+🤕	shou'shang
+❤️‍🩹	shou'shang
+🤕	fu'shang
+🤕	beng'dai
+🤕	chan'beng'dai
+🤕	chan'man'beng'dai
+🤢	e'xin
+🤢	xiang'tu
+🤢	fan'wei
+🤮	tu
+🤮	tu'le
+🤮	ou'tu
+🤮	tu'chu'lai
+🤧	pen'ti
+🤧	da'pen'ti
+🤧	bi'ti
+🤧	xing'bi'ti
+🤧	xing'bi'zi
+🤧	bi'yan
+🥵	re
+🥵	hen're
+🥵	hao're
+🥵	fa're
+🥵	lian'fa'shao
+🥵	la
+🥵	la'si
+🥵	la'si'le
+🥵	chao'la
+🥵	chao'ji'la
+🥵	re'si
+🥵	re'si'le
+🥵	bao'la
+🥶	leng
+🥶	hen'leng
+🥶	bing'leng
+🥶	hao'leng
+🥶	leng'bing'bing
+🥶	leng'lian
+🥶	dong'jiang
+🥶	dong'jiang'le
+🥶	man'mian'han'shuang
+🥶	leng'si
+🥶	leng'si'le
+🥶	dong'si
+🥶	dong'si'le
+🥴	wei'xun
+🥴	zui'le
+🥴	he'zui
+🥴	he'zui'le
+🥴	he'duo
+🥴	he'duo'le
+🥴	hun'hun'chen'chen
+🥴	jiu'zui
+😵	yun
+😵‍💫	yun
+😵	yun'le
+😵‍💫	yun'le
+😵	wo'yun
+😵‍💫	wo'yun
+😵	tou'yun
+😵‍💫	tou'yun
+😵	yun'tou
+😵‍💫	yun'tou
+😵	tou'yun'mu'xuan
+😵‍💫	tou'yun'mu'xuan
+💫	tou'yun'mu'xuan
+😵	yun'tou'zhuan'xiang
+😵‍💫	yun'tou'zhuan'xiang
+😵	tou'yun'yan'hua
+😵‍💫	tou'yun'yan'hua
+🤯	bao'zha'tou
+🤯	bao'zha'nao
+🤯	tou'bao'zha
+🤯	nao'zi'bao'zha
+🤯	nao'dai'bao'zha
+🤯	nao'bao'zha
+🤯	da'nao'bao'zha
+🤯	bao'tou
+🤠	niu'zai
+🤠	niu'zai'mao
+🤠	niu'zai'mao'lian
+🥳	pai'dui
+🎉	pai'dui
+🥳	pai'dui'lian
+🥳	qing'zhu
+🎉	qing'zhu
+🥳	kai'pa
+🥳	kai'yin'pa
+🥳	kai'yin'pa
+🥳	party
+🥳	开party
+🥸	wei'zhuang
+🥸	wei'zhuang'de'lian
+🥸	yin'man'shen'fen
+😎	tai'yang'jing
+🕶	tai'yang'jing
+😎	mo'jing
+🕶	mo'jing
+😎	mo'jing'xiao'lian
+😎	zi'xin
+🤓	shu'dai'zi
+🤓	shu'dai'zi'lian
+🧐	dan'pian'yan'jing
+🧐	带单片眼镜的脸
+🧐	tan'jiu
+🧐	yan'jiu
+😕	kun'rao
+😕	bu'xie
+🫤	pie'zui
+🫤	bu'que'ding
+😟	dan'xin
+😟	dan'you
+🙁	bu'kai'xin
+🙁	bu'gao'xing
+🙁	bu'man
+🙁	wei'wei'bu'man
+🙁	xin'qing'bu'hao
+🙁	bu'yue
+🙁	yi'lian'bu'yue
+😮	chi'jing
+😯	chi'jing
+😲	chi'jing
+😦	chi'jing
+😧	chi'jing
+😮	jing'ya
+😯	jing'ya
+😲	jing'ya
+😦	jing'ya
+😧	jing'ya
+😮	o
+😯	hao'qi
+😲	zhen'jing
+😦	zhen'jing
+😧	zhen'jing
+😲	a
+😦	a
+😧	a
+😳	hai'xiu
+😳	xiu'se
+😳	leng'zhu
+🥺	ke'lian
+🥺	ke'lian'xi'xi
+🥺	hao'ma
+🥺	qiu'ni'le
+🙏	qiu'ni'le
+🥺	qiu'qiu'ni
+🙏	qiu'qiu'ni
+🥺	qiu'qiu'ni'le
+🙏	qiu'qiu'ni'le
+🥹	ren'zhu'lei'shui
+🥹	qiang'ren'lei'shui
+🥹	yao'ku'le
+🥹	han'lei
+🥹	wei'qu
+😦	mu'deng'kou'dai
+😨	pa
+😱	pa
+😨	ke'pa
+😱	ke'pa
+😨	hai'pa
+😱	hai'pa
+😨	kong'ju
+😱	kong'ju
+😰	jiao'lv
+😩	jiao'lv
+😰	mao'han'jiao'lv
+😰	jin'zhang
+😥	shi'wang'dan'ru'shi'zhong'fu
+😥	nan'guo'dan'shi'ran
+😢	ku
+😭	ku
+😢	ku'le
+😭	ku'le
+😢	ku'qi
+😭	ku'qi
+😢	liu'lei
+😭	liu'lei
+😢	liu'yan'lei
+😭	liu'yan'lei
+😭	da'ku
+😭	fang'sheng'da'ku
+😭	tong'ku
+😱	xia'si
+😱	xia'si'le
+😱	xia'ren
+😱	jian'jiao
+😱	kong'bu
+😱	kong'ju'jian'jiao
+😱	jing'sheng'jian'jiao
+😖	jiao'tou'lan'e
+😖	jiu'jie
+😣	ren'nai
+😞	shi'wang
+😞	nan'guo
+😓	dao'mei
+😩	pi'juan
+😩	pi'lao
+😩	pi'bei
+😩	jiao'zao
+😫	zhua'kuang
+🥱	he'qian
+🥱	ha'qian
+🥱	da'ha'qian
+🥱	da'he'qian
+😤	ao'man
+😤	zhi'gao'qi'ang
+😤	bi'zi'mao'qi
+😤	heng
+😤	heng'heng
+😡	nu
+😠	nu
+💢	nu
+😡	fen'nu
+😠	fen'nu
+💢	fen'nu
+😡	sheng'qi
+😠	sheng'qi
+💢	sheng'qi
+😡	qi'ren
+😠	qi'ren
+😡	angry
+😠	angry
+💢	angry
+😡	fa'huo
+😡	fa'biao
+😡	nu'huo'zhong'shao
+😡	fan'si
+😡	fan'si'ren
+😡	fan'si'le
+😡	fan'si'la
+😠	wei'nu
+🤬	ma'ren
+🤬	zhou'ma
+🤬	zang'hua
+🤬	shuo'zang'hua
+🤬	ni'ma'si'le
+🤬	NMSL
+🤬	cao'ni'ma
+🤬	cao'ni'ma
+🤬	sha'bi
+🤬	chu'kou'cheng'zang
+😈	e'mo
+👿	e'mo
+😈	mo'gui
+👿	mo'gui
+😈	wei'xiao'e'mo
+😈	e'mo'wei'xiao
+😈	wei'xiao'de'e'mo
+👿	sheng'qi'e'mo
+👿	e'mo'sheng'qi
+👿	sheng'qi'de'e'mo
+💀	tou'gu
+☠️	tou'gu
+💀	ku'lou
+☠️	ku'lou
+💀	ku'lou'tou
+☠️	ku'lou'tou
+💀	si'wang
+☠️	si'wang
+💩	shi
+💩	la'shi
+💩	da'bian
+💩	la'da'bian
+💩	pian'pian
+💩	la'bian'bian
+💩	ba'ba
+💩	la'ba'ba
+🤡	xiao'chou
+🤡	xiao'chou'lian
+👹	guai'wu
+👺	yao'guai
+👻	gui
+👻	gui'hun
+👻	you'ling
+👽	wai'xing'ren
+👾	guai'shou
+👾	yi'xing'guai'shou
+👾	wai'xing'guai'wu
+🤖	ji'qi'ren
+😺	kai'xin'mao
+😺	kai'xin'de'mao
+😺	kai'xin'mao'lian
+😸	wei'xiao'mao
+😸	wei'xiao'de'mao
+😸	wei'xiao'mao'lian
+😹	xiao'zhong'dai'lei
+😹	xi'ji'er'qi
+😹	xiao'chu'yan'lei'de'mao
+😻	hua'chi'mao
+😻	hua'chi'de'mao
+😻	hua'chi'mao'lian
+😼	de'yi'mao
+😼	de'yi'de'mao
+😼	de'yi'mao'lian
+😽	qin'qin'mao
+😽	qin'qin'de'mao
+😽	qin'qin'mao'lian
+🙀	kong'ju'mao
+🙀	kong'ju'de'mao
+🙀	kong'ju'mao'lian
+🙀	hai'pa'mao
+🙀	hai'pa'de'mao
+🙀	hai'pa'mao'lian
+😿	ku'qi'mao
+😿	ku'qi'de'mao
+😿	ku'qi'mao'lian
+😾	sheng'qi'mao
+😾	sheng'qi'de'mao
+😾	sheng'qi'mao'lian
+😾	jue'zui'mao
+😾	jue'zui'de'mao
+😾	jue'zui'mao'lian
+🙈	fei'li'wu'shi
+🙈	bu'kan
+🙈	meng'yan
+🙈	meng'yan'jing
+🙈	meng'zhu'yan'jing
+🙈	wo'bu'kan
+🙉	fei'li'wu'ting
+🙉	bu'ting
+🙉	du'er
+🙉	du'er'duo
+🙉	du'shang'er'duo
+🙉	du'zhu'er'duo
+🙉	du'zhe'er'duo
+🙉	wu'er
+🙉	wu'er'duo
+🙉	wu'shang'er'duo
+🙉	wu'zhu'er'duo
+🙉	wu'zhe'er'duo
+🙉	wo'bu'ting
+🙊	fei'li'wu'yan
+💌	qing'shu
+💘	yi'jian'chuan'xin
+💘	qiu'bi'te
+💘	xin'zhong'jian'le
+💝	ai'de'li'wu
+💝	xi'you'duan'dai'de'xin
+💝	shi'yi'si'dai'de'xin
+💝	song'ni'yi'ke'xin
+💖	shan'liang'de'xin
+💖	ai'xin
+♥️	ai'xin
+💗	peng'zhang'de'xin
+💗	peng'zhang'de'ai'xin
+💗	bo'dong'de'xin
+💓	xin'dong
+💓	xin'tiao
+💓	ai'qing
+💕	ai'qing
+👩‍❤️‍👨	ai'qing
+💓	love
 💕	love
+👩‍❤️‍👨	love
+♥️	love
+💞	xuan'zhuan'de'xin
+💞	wu'dong'de'xin
+💞	xin'lian'xin
+💕	liang'ke'xin
+💕	fen'se'de'xin
+🩷	fen'se'de'xin
+💟	xin'xing
+♥️	xin'xing
+💟	xin'xing'zhuang'shi
+❣️	xin'tan'hao
+💔	shang'xin
+💔	xin'sui
+💔	shi'lian
+❤️‍🔥	huo'shang'zhi'xin
+❤️‍🔥	xin'huo
+❤️‍🔥	ran'shao'de'xin
+❤️‍🔥	xin'zai'ran'shao
+❤️‍🔥	xin'zai'zhao'huo
+❤️‍🔥	ai'huo
+❤️‍🩹	xiu'fu'shou'shang'de'xin'ling
+❤️‍🩹	zhi'yu'de'xin
+❤️‍🩹	shou'shang'de'xin
+❤️‍🩹	shou'shang'de'xin'ling
+❤️‍🩹	xin'shang
+🩷	fen'xin
+🩷	fen'se'xin
+🩷	fen'hong'xin
+🧡	cheng'xin
+🧡	cheng'se'xin
+🧡	cheng'se'de'xin
+🧡	ju'xin
+🧡	ju'se'xin
+🧡	ju'se'de'xin
+💛	huang'xin
+💛	huang'se'xin
+💛	huang'se'de'xin
+💚	lv'xin
+💚	lv'se'xin
+💚	lv'se'de'xin
+💙	lan'xin
+🩵	lan'xin
+💙	lan'se'xin
+🩵	lan'se'xin
+💙	lan'se'de'xin
+🩵	lan'se'de'xin
+🩵	dan'lan'xin
+🩵	dan'lan'se'xin
+🩵	dan'lan'se'de'xin
+💜	zi'xin
+💜	zi'se'xin
+💜	zi'se'de'xin
+🤎	zong'xin
+🤎	zong'se'xin
+🤎	zong'se'de'xin
+🖤	hei'xin
+🖤	hei'se'xin
+🖤	hei'se'de'xin
+🩶	hui'xin
+🩶	hui'se'xin
+🩶	hui'se'de'xin
+🤍	bai'xin
+🤍	bai'se'xin
+🤍	bai'se'de'xin
+💋	qing
+💋	wen
+💋	qin'wen
+💋	qin'zui
+💋	chun
+👄	chun
+💋	chun'yin
+💋	hong'chun
+👄	hong'chun
+💋	wen'hen
+💋	kiss
+💋	me'me
+💋	me'me'da
+💯	yi'bai
+💯	yi'bai'fen
+💯	man'fen
+💢	huo'da
+💢	qing'jin
+💢	sheng'qi'fu'hao
+💥	bao'zha
+💦	shui'zhu
+💧	shui'zhu
+💦	shui'di
+💧	shui'di
+💨	zhen'feng
+🕳	keng
+🕳	tong
+🕳	xia'shui'dao
+💬	dui'hua'qi'pao
+🗨	dui'hua'qi'pao
+🗯	dui'hua'qi'pao
+💬	dui'hua'kuang
+🗨	dui'hua'kuang
+🗯	dui'hua'kuang
+💭	dui'hua'kuang
+👁️‍🗨️	zheng'ren
+👁️‍🗨️	wo'shi'zheng'ren
+🗨	chao'zuo'de'dui'hua'qi'pao
+🗯	fen'nu'dui'hua'qi'pao
+🗯	fen'nu'dui'hua'kuang
+💭	si'kao'qi'pao
+💭	nei'xin'huo'dong'qi'pao
+💤	shui'mian'fu'hao
+💤	ZZZ
+👋	hui'shou
+👋	bai'shou
+👋	ni'hao
+👋	zai'jian
+👋	bai'bai
+🤚	shou'bei
+🖐	shou'zhi'zhang'kai
+🖐	shou'zhi'zhang'kai'de'shou
+✋	ju'qi'de'shou
+✋	shou'zhang
+✋	ji'zhang
+✋	shou
+🖖	wa'ken'ju'shou'li
+🖖	wa'ken
+🖖	si'bo'ke
+🖖	xing'ji'mi'hang
+🫱	you'shou
+🫸	you'shou
+🫱	xiang'you'de'shou
+🫱	xiang'you'shen'de'shou
+🫱	chao'you
+🫲	zuo'shou
+🫷	zuo'shou
+🫲	xiang'zuo'de'shou
+🫲	xiang'zuo'shen'de'shou
+🫲	chao'zuo
+🫳	shou'zhang'chao'xia
+🫳	zhang'xin'chao'xia
+🫳	chao'xia
+🫳	fang'shou
+🫴	shou'zhang'chao'shang
+🫴	zhang'xin'chao'shang
+🫴	chao'shang
+🫴	shen'shou
+🫴	tai'qi
+🫷	zuo'tui
+🫷	xiang'zuo'tui
+🫷	tui'shou
+🫸	tui'shou
+🫷	xiang'zuo'tui'shou
+🫷	xiang'zuo'tui'de'shou
+🫸	you'tui
+🫸	xiang'you'tui
+🫸	xiang'you'tui'shou
+🫸	xiang'you'tui'de'shou
+👌	OK
+🙆‍♂️	OK
+🙆‍♀️	OK
+🆗	OK
+👌	hao
+🙆‍♂️	hao
+🙆‍♀️	hao
+👌	hao'de
+🙆‍♂️	hao'de
+🙆‍♀️	hao'de
+👌	hao'da
+👌	mei'wen'ti
+🤌	shou'zhi'nie'he
+🤌	nie'he
+🤌	lan'hua'zhi
+🤌	nie'shou'zhi
+🤌	shou'zhi
+🤏	yi'dian
+🕐	yi'dian
+🤏	yi'dian'er
+🤏	yi'dian'dian
+🤏	shao'liang
+🤏	shao'xu
+✌️	he'ping'shou'shi
+✌️	ye
+✌️	o'ye
+✌️	cheng'gong
+✌️	sheng'li
+✌️	ying'le
+✌️	jian'dao'shou
+✌️	ying'la
+✌️	ying'lo
+✌️	liang'ge
+✌️	di'er
+🤞	shou'zhi'jiao'cha
+🤞	jiao'cha'de'shou'zhi
+🫰	shi'zhi'he'mu'zhi'jiao'cha'de'shou
+🫰	xiang'zhi
+🫰	da'xiang'zhi
+🫰	bi'xin
+🫶	bi'xin
+🫰	bi'xin'shou'shi
+🫶	bi'xin'shou'shi
+🤟	ai'ni'shou'shi
+🤟	ai'ni'de'shou'shi
+🤟	ai'ni
+🤟	wo'ai'ni
+🤘	yao'gun
+🤘	yao'gun'shou'shi
+🤘	jin'shu'li
+🤙	da'dian'hua
+🤙	hui'dian'hua
+🤙	da'gei'wo
+🤙	gei'wo'da'dian'hua
+🤙	da'dian'hua'gei'wo
+🤙	liu'liu'liu
+👈	fan'shou'shi'zhi'xiang'zuo'zhi
+👈	xiang'zuo'zhi
+👈	xiang'zuo
+👈	wang'zuo
+👈	wang'zuo'zhi
+👈	zuo'mian
+👈	zuo'bian
+👉	fan'shou'shi'zhi'xiang'you'zhi
+👉	xiang'you'zhi
+👉	xiang'you
+👉	wang'you
+👉	wang'you'zhi
+👉	you'mian
+👉	you'bian
+👆	fan'shou'shi'zhi'xiang'shang'zhi
+👆	xiang'shang'zhi
+👆	xiang'shang
+👆	wang'shang
+👆	wang'shang'zhi
+👆	shang'mian
+👆	shang'bian
+👇	fan'shou'shi'zhi'xiang'xia'zhi
+👇	xiang'xia'zhi
+👇	xiang'xia
+👇	wang'xia
+👇	wang'xia'zhi
+👇	xia'mian
+👇	xia'bian
+🖕	zhong'zhi
+🖕	shu'zhong'zhi
+🖕	bi'zhong'zhi
+🖕	ju'zhong'zhi
+☝️	shi'zhi
+☝️	yi'ge
+☝️	di'yi
+🫵	shi'zhi'zhi'xiang'guan'cha'zhe
+🫵	zhi'xiang'guan'cha'zhe'de'shi'zhi
+🫵	ni'zi'ji
+🫵	jiu'shi'ni
+🫵	zhi'zhe
+🫵	zhi'zhe'ni
+🫵	zhi'ni
+🫵	zhi'wo
+🫵	zhi'ren
+👍	mu'zhi
+👎	mu'zhi
+👍	da'mu'zhi
+👎	da'mu'zhi
+👍	da'mu'zhi'xiang'shang
+👍	mu'zhi'xiang'shang
+👎	mu'zhi'xiang'shang
+👍	da'mu'zhi'chao'shang
+👍	mu'zhi'chao'shang
+👍	qiang
+👍	hao'qiang
+👍	bang
+👍	bang'a
+👍	zhen'bang
+👍	hao'bang
+👍	hen'bang
+👍	te'bang
+👍	fei'chang'bang
+👍	bang'bang
+👍	bang'bang'de
+👍	bang'bang'da
+👍	tai'bang
+👍	tai'bang'le
+👍	tai'bang'la
+👍	gan'de'hao
+👍	hen'hao
+👍	bu'cuo
+👍	biao'yang
+👍	niu'bi
+👍	li'hai
+👍	zan
+👍	dian'zan
+👍	jue'le
+👎	da'mu'zhi'xiang'xia
+👎	da'mu'zhi'chao'xia
+👎	mu'zhi'chao'xia
+👎	bu'hao
+👎	bu'qiang
+👎	bu'bang
+👎	tai'cha
+👎	tai'cha'le
+👎	tai'cha'la
+👎	cha'jin
+✊	ju'qi'quan'tou
+✊	ju'qi'de'quan'tou
+✊	wo'quan
+👊	wo'jin'de'quan'tou
+👊	quan'tou
+👊	chu'quan
+👊	da'ji
+👊	zhong'quan'chu'ji
+👊	da'ni
+👊	zou'ni
+👊	gan'ni
+🤛	zuo'xiang'quan
+🤛	chao'zuo'de'quan'tou
+🤛	you'gou'quan
+🤛	you'quan
+🤜	you'xiang'quan
+🤜	chao'you'de'quan'tou
+🤜	zuo'gou'quan
+🤜	zuo'quan
+👏	gu'zhang
+👏	pai'shou
+👏	pai'zhang
+👏	pa'pa'pa
+🙌	yang'shou'huan'hu
+🙌	ju'shuang'shou
+🫶	zuo'cheng'xin'xing'de'shuang'shou
+👐	shuang'shou'zhang'kai
+👐	zhang'kai'shuang'shou
+🤲	shuang'shou'shou'zhang'xiang'shang
+🤲	zhang'xin'xiang'shang'tuo'qi
+🤲	shuang'shou
+🤲	peng'zhe
+🤝	wo'shou
+🤝	he'zuo
+🤝	he'zuo'yu'kuai
+🤝	gao'ding
+🙏	shuang'shou'he'shi
+🙏	he'shi
+🙏	he'zhang
+🙏	bai'tuo
+🙏	qi'qiu
+🙏	qi'dao
+🙏	gan'xie
+🙏	xie'xie
+🙏	chao'du
+🙏	e'mi'tuo'fo
+✍️	xie'zi
+✍️	shou'xie
+💅	zhi'jia'you
+💅	tu'zhi'jia'you
+💅	mei'jia
+💅	zuo'zhi'jia
+💅	zuo'mei'jia
+🤳	zi'pai
+💪	er'tou'ji
+💪	gong'er'tou'ji
+💪	gong'er'tou
+💪	qiang'zhuang
+💪	ji'rou
+💪	xiu'ji'rou
+💪	jian'shen
+💪	jia'you
+⛽	jia'you
+💪	fen'dou
+💪	nu'li
+🦾	yi'zhi
+🦿	yi'zhi
+🦾	yi'ti
+🦿	yi'ti
+🦾	sai'bo'peng'ke
+🦿	sai'bo'peng'ke
+🦾	ji'xie'shou'bi
+🦾	ji'xie'bi
+🦿	ji'xie'tui
+🦵	tui
+🦵	tui'er
+🦵	da'tui
+🦵	lian'tui
+🦶	jiao
+🦶	zu
+🦶	ti
+🦶	cai
+🦶	jiao'ya
+🦶	jiao'ya'zi
+👂	ting
+👂	er
+👂	er'duo
+🦻	zhu'ting'qi
+🦻	ting'li'zhang'ai
+🦻	dai'zhu'ting'qi'de'er'duo
+👃	xiu
+👃	wen
+👃	bi
+👃	bi'zi
+👃	hu'xi
+🧠	da'nao
+🧠	tou'nao
+🧠	nao'hua
+🧠	nao'zi
+🧠	nao
+🫀	xin'zang
+🫀	xin'zang'qi'guan
+🫁	fei
+🫁	xi'qi
+🫁	hu'xi'zuo'yong
+🦷	ya
+🦷	ya'chi
+🦷	ya'ya
+🦴	gu'tou
+🦴	gu'ge
 👀	yan
+👁	yan
+👀	yan'jing
+👁	yan'jing
+👀	zhu'shi
+👀	guan'cha
 👀	kan
-👀	qiao
-😈	emo
-😈	mo
-💀	tou gu
-💀	ku lou
-💀	kong bu
-🤖	ji qi ren
-🤖	robot
-👮	jing cha
-💊	yao
-💊	yao wan
-💉	zhen
-💉	da zhen
-👙	bi ji ni
-👙	bikini
-👙	yong yi
-🔒	suo
-🌏	ditu
-🌐	shijie
-🗺	ditu
-🗺	world
-🌏	world
-🌏	di qiu
-🌏	earth
-🌎	world
-🌏	di qiu
-🌎	di qiu
-🌎	earch
-🌏	earch
-💰	qian
-💸	qian
-🤑	qian
-🤑	dollar
-💰	dollar
-💰	mei yuan
-💰	mei dao
-💰	dao
-💸	money
-🛀	xi zao
-🎮	game
-🎮	you xi
-🎮	wan you xi
-🎮	da you xi
-🎁	liwu
-🎉	pai dui
-🎉	party
-🎉	qing zhu
-⚡	shan dian
-⚡	dian
-🆗	ok
-🆗	hao
-☕	coffe
-☕	ka fei
-🍵	kao fei
-☕	xiu xi
-🍵	cha
-🍵	he cha
-🍺	pi jiu
-🍺	jiu
-🍺	he jiu
-🍻	gan bei
-🍻	cheers
-🍚	fan
-🍚	chi fan
-🆙	up
-🆚	vs
-⬆	shang
-⬇	xia
-⬅	zuo
-➡	you
-↖	zuo shang
-↗	you shang
-↘	you xia
-↙	zuo xia
-✔	dui
-✔	gou
-✖	cuo
-✖	cha
-©	ban quan
-©	copyright
-®	zhu ce shang biao
-®	register
-🎵	yin yue
-🎵	music
-✉	xin xi
-📨	email
-📨	you jian
-🏳	qi
-🏳	flag
-✈	fei ji
-☔	san
-🌂	san
-☔	yu san
-🌧	yu
-⛈	xia yu
-🌤	yun
-🌞	tai yang
-🌞	ri
-🌙	yue
-❇	xue
-☆	star
-★	star
-✳	xing
-🌟	xing
-★	xing
-☆	xing
-🌟	wu xing
-☆	wu xing
-🌹	hua
-🌹	rose
-🌹	mei gui
-🐧	qie
-🐼	xiong mao
+👀	kan'kan
+👁	dan'yan
+👁	yi'zhi'yan
+👁	yi'zhi'yan'jing
+👁	tong'kong
+👅	she
+👅	she'tou
+👄	kou
+👄	zui
+👄	zui'chun
+👄	zui'ba
+🫦	yao'zui'chun
+🫦	yao'zhu'zui'chun
+🫦	tiao'qing
+🫦	qing'diao
+🫦	you'huo
+👶	ying'er
+🚼	ying'er
+👶	bao'bao
+🚼	bao'bao
+👶	xiao'bao'bei
+👶	xiao'bao'bei'er
+👶	baby
+🚼	baby
+👶	guai'bao
+👶	guai'bao'bao
+🧒	er'tong
+🧒	xiao'hai
+🧒	xiao'hai'er
+🧒	hai'zi
+🧒	xiao'hai'zi
+🧒	xiao'peng'you
+🧒	xiao'pen'you
+👦	nan'hai
+👦	xiao'nan'hai
+👦	er'zi
+👧	nv'hai
+👧	xiao'nv'hai
+👧	nv'er
+👱	jin'fa
+👱‍♀️	jin'fa
+👱‍♂️	jin'fa
+👱	jin'se'tou'fa
+👱‍♀️	jin'se'tou'fa
+👱‍♂️	jin'se'tou'fa
+👱	jin'fa'nv
+👱‍♀️	jin'fa'nv
+👱	jin'fa'nv'zi
+👱‍♀️	jin'fa'nv'zi
+👱	jin'fa'nv'ren
+👱‍♀️	jin'fa'nv'ren
+👨	nan'ren
+👨	cheng'nian'nan'ren
+👨	cheng'nian'nan'xing
+👨	ba'ba
+👨	fu'qin
+👨	lao'die
+🧔	you'hu'xu'de'ren
+🧔	you'hu'zi'de'ren
+🧔	luo'sai'hu
+🧔	hu'zi
+🧔	hu'xu
+🧔	da'shu
+🧔‍♀️	chang'hu'zi'de'nv'ren
+🧔‍♀️	hu'zi'nv
+👨‍🦰	hong'fa
+👩‍🦰	hong'fa
+🦰	hong'fa
+👨‍🦰	hong'se'tou'fa
+👩‍🦰	hong'se'tou'fa
+🦰	hong'se'tou'fa
+👨‍🦰	hong'fa'nan
+👨‍🦱	hong'fa'nan
+👨‍🦰	hong'fa'nan'zi
+👨‍🦱	hong'fa'nan'zi
+👨‍🦰	hong'fa'nan'ren
+👨‍🦱	hong'fa'nan'ren
+👨‍🦱	juan'fa
+👩‍🦱	juan'fa
+🦱	juan'fa
+👨‍🦳	bai'fa
+👩‍🦳	bai'fa
+🦳	bai'fa
+👨‍🦳	bai'se'tou'fa
+👩‍🦳	bai'se'tou'fa
+👨‍🦳	bai'fa'nan
+👨‍🦳	bai'fa'nan'zi
+👨‍🦳	bai'fa'nan'ren
+👨‍🦲	guang'tou
+👩‍🦲	guang'tou
+🦲	guang'tou
+👨‍🦲	guang'tou'nan
+👨‍🦲	guang'tou'nan'zi
+👨‍🦲	guang'tou'nan'ren
+👨‍🦲	tu'ding
+👩‍🦲	tu'ding
+🦲	tu'ding
+👨‍🦲	tu'tou
+👩‍🦲	tu'tou
+🦲	tu'tou
+👨‍🦲	tou'tu
+👩‍🦲	tou'tu
+🦲	tou'tu
+👨‍🦲	tuo'fa
+👩‍🦲	tuo'fa
+🦲	tuo'fa
+👨‍🦲	he'shang
+👩	nv'ren
+👩	cheng'nian'nv'ren
+👩	cheng'nian'nv'xing
+👩	ma'ma
+👩	mu'qin
+👩	lao'ma
+👩‍🦰	hong'tou'fa
+🦰	hong'tou'fa
+👩‍🦰	hong'fa'nv
+👩‍🦰	hong'fa'nv'zi
+👩‍🦰	hong'fa'nv'ren
+👩‍🦱	juan'fa'nv
+👩‍🦱	juan'fa'nv'zi
+👩‍🦱	juan'fa'nv'ren
+👩‍🦳	bai'fa'nv
+👩‍🦳	bai'fa'nv'zi
+👩‍🦳	bai'fa'nv'ren
+👩‍🦲	guang'tou'nv
+👩‍🦲	guang'tou'nv'zi
+👩‍🦲	guang'tou'nv'ren
+👩‍🦲	ni'gu
+👱‍♂️	jin'fa'nan
+👱‍♂️	jin'fa'nan'zi
+👱‍♂️	jin'fa'nan'ren
+👴	lao'ren
+👵	lao'ren
+👴	lao'tou
+👴	lao'tou'er
+👴	lao'ye'ye
+👴	ye'ye
+👴	lao'ye
+👴	wai'gong
+👴	zu'fu
+👵	lao'tai'tai
+👵	lao'nai'nai
+👵	nai'nai
+👵	lao'lao
+👵	wai'po
+👵	zu'mu
+🙍‍♂️	zhou'zhe'mei'tou
+🙍‍♀️	zhou'zhe'mei'tou
+🙍‍♂️	zhou'zhe'mei'tou'de'ren
+🙍‍♀️	zhou'zhe'mei'tou'de'ren
+🙎‍♂️	jue'zui'de'ren
+🙎‍♀️	jue'zui'de'ren
+🙅‍♂️	jin'zhi'shou'shi
+🙅‍♀️	jin'zhi'shou'shi
+🙅‍♂️	bu
+🙅‍♀️	bu
+🙅‍♂️	bu'xing
+🙅‍♀️	bu'xing
+🙅‍♂️	fan'dui
+🙅‍♀️	fan'dui
+🙅‍♂️	ju'jue
+🙅‍♀️	ju'jue
+🙅‍♂️	bu'tong'yi
+🙅‍♀️	bu'tong'yi
+🙅‍♂️	bu'ke'yi
+🙅‍♀️	bu'ke'yi
+🙅‍♂️	da'mie
+🙅‍♀️	da'mie
+🙆‍♂️	tong'yi
+🙆‍♀️	tong'yi
+🙆‍♂️	ke'yi
+🙆‍♀️	ke'yi
+🉑	ke'yi
+💁‍♂️	fu'wu'yuan
+💁‍♀️	fu'wu'yuan
+💁‍♂️	fu'wu'sheng
+💁‍♀️	fu'wu'sheng
+💁‍♂️	nan'fu'wu'yuan
+💁‍♂️	nan'fu'wu'sheng
+💁‍♀️	nv'fu'wu'yuan
+💁‍♀️	nv'fu'wu'sheng
+🙋‍♂️	ju'shou
+🙋‍♀️	ju'shou
+🙋‍♂️	wo'zhi'dao
+🙋‍♀️	wo'zhi'dao
+🙋‍♂️	zhe'ge'wo'zhi'dao
+🙋‍♀️	zhe'ge'wo'zhi'dao
+🧏‍♂️	shi'cong'zhe
+🧏‍♀️	shi'cong'zhe
+🧏‍♂️	shi'cong
+🧏‍♀️	shi'cong
+🧏‍♂️	er'long
+🧏‍♀️	er'long
+🧏‍♂️	long'zi
+🧏‍♀️	long'zi
+🙇‍♂️	bu'hao'yi'si
+🙇‍♀️	bu'hao'yi'si
+🙇‍♂️	dui'bu'qi
+🙇‍♀️	dui'bu'qi
+🙇‍♂️	dao'qian
+🙇‍♀️	dao'qian
+🙇‍♂️	ju'gong
+🙇‍♀️	ju'gong
+🙇‍♂️	gui'qiu
+🙇‍♀️	gui'qiu
+🤦‍♂️	wu'lian
+🤦‍♀️	wu'lian
+🤦‍♂️	shou'zhang'wu'lian
+🤦‍♀️	shou'zhang'wu'lian
+🤦‍♂️	fu'e
+🤦‍♀️	fu'e
+🤦‍♂️	fu'le
+🤦‍♀️	fu'le
+🤦‍♂️	wo'fu'le
+🤦‍♀️	wo'fu'le
+🤦‍♂️	fu'le'ni'le
+🤦‍♀️	fu'le'ni'le
+🤦‍♂️	wo'fu'le'ni
+🤦‍♀️	wo'fu'le'ni
+🤦‍♂️	wo'fu'le'ni'le
+🤦‍♀️	wo'fu'le'ni'le
+🤷‍♂️	song'jian
+🤷‍♀️	song'jian
+🤷‍♂️	bu'guan'xin
+🤷‍♀️	bu'guan'xin
+🤷‍♂️	bu'zhi'dao
+🤷‍♀️	bu'zhi'dao
+🤷‍♂️	shui'zhi'dao
+🤷‍♀️	shui'zhi'dao
+🤷‍♂️	shui'zhi'dao'ne
+🤷‍♀️	shui'zhi'dao'ne
+🤷‍♂️	yu'wo'wu'guan
+🤷‍♀️	yu'wo'wu'guan
+👨‍⚕️	yi'hu'ren'yuan
+👩‍⚕️	yi'hu'ren'yuan
+👨‍⚕️	yi'sheng
+👩‍⚕️	yi'sheng
+👨‍⚕️	nan'yi'hu'ren'yuan
+👨‍⚕️	nan'yi'sheng
+👨‍⚕️	dai'fu
+👩‍⚕️	dai'fu
+👨‍⚕️	nan'dai'fu
+👩‍⚕️	nv'yi'hu'ren'yuan
+👩‍⚕️	nv'yi'sheng
+👩‍⚕️	nv'dai'fu
+👨‍🎓	xue'sheng
+👩‍🎓	xue'sheng
+👨‍🎓	da'xue'sheng
+👩‍🎓	da'xue'sheng
+👨‍🎓	nan'xue'sheng
+👨‍🎓	bi'ye
+👩‍🎓	bi'ye
+👨‍🎓	ben'ke'sheng
+👩‍🎓	ben'ke'sheng
+👩‍🎓	nv'xue'sheng
+👨‍🏫	lao'shi
+👩‍🏫	lao'shi
+👨‍🏫	jiao'shi
+👩‍🏫	jiao'shi
+👨‍🏫	nan'lao'shi
+👨‍🏫	nan'jiao'shi
+👩‍🏫	nv'lao'shi
+👩‍🏫	nv'jiao'shi
+👨‍⚖️	fa'guan
+👩‍⚖️	fa'guan
+👨‍⚖️	nan'fa'guan
+👩‍⚖️	nv'fa'guan
+👨‍🌾	nong'min
+👩‍🌾	nong'min
+👨‍🌾	nong'fu
+👩‍🌾	nong'fu
+👨‍🍳	zuo'fan
+👩‍🍳	zuo'fan
+👨‍🍳	chu'shi
+👩‍🍳	chu'shi
+👨‍🍳	da'chu
+👩‍🍳	da'chu
+👨‍🍳	nan'chu'shi
+👨‍🍳	xia'chu
+👩‍🍳	xia'chu
+👩‍🍳	nv'chu'shi
+👨‍🔧	ji'gong
+👩‍🔧	ji'gong
+👨‍🔧	shui'guan'gong
+👩‍🔧	shui'guan'gong
+👨‍🔧	dian'gong
+👩‍🔧	dian'gong
+👨‍🔧	xiu'li'gong
+👩‍🔧	xiu'li'gong
+👨‍🔧	nan'ji'gong
+👨‍🔧	nan'shui'guan'gong
+👨‍🔧	nan'dian'gong
+👨‍🔧	nan'xiu'li'gong
+👩‍🔧	nv'ji'gong
+👩‍🔧	nv'shui'guan'gong
+👩‍🔧	nv'dian'gong
+👩‍🔧	nv'xiu'li'gong
+👨‍🏭	gong'chang'gong'ren
+👩‍🏭	gong'chang'gong'ren
+👨‍🏭	nan'gong'chang'gong'ren
+👩‍🏭	nv'gong'chang'gong'ren
+👨‍💼	ban'gong'shi'zhi'yuan
+👩‍💼	ban'gong'shi'zhi'yuan
+👨‍💼	zhi'yuan
+👩‍💼	zhi'yuan
+👨‍💼	bai'ling
+👩‍💼	bai'ling
+👨‍💼	nan'ban'gong'shi'zhi'yuan
+👨‍💼	nan'zhi'yuan
+👨‍💼	nan'bai'ling
+👩‍💼	nv'ban'gong'shi'zhi'yuan
+👩‍💼	nv'zhi'yuan
+👩‍💼	nv'bai'ling
+👨‍🔬	ke'xue'jia
+👩‍🔬	ke'xue'jia
+👨‍🔬	hua'xue'jia
+👩‍🔬	hua'xue'jia
+👨‍🔬	nan'ke'xue'jia
+👨‍🔬	nan'hua'xue'jia
+👩‍🔬	nv'ke'xue'jia
+👩‍🔬	nv'hua'xue'jia
+👨‍💻	cheng'xu'yuan
+👩‍💻	cheng'xu'yuan
+👨‍💻	ma'nong
+👩‍💻	ma'nong
+👨‍💻	ma'chu
+👩‍💻	ma'chu
+👨‍💻	kai'fa'ren'yuan
+👩‍💻	kai'fa'ren'yuan
+👨‍💻	ji'shu'yuan
+👩‍💻	ji'shu'yuan
+👨‍💻	nan'cheng'xu'yuan
+👨‍💻	nan'ma'nong
+👨‍💻	nan'ma'chu
+👨‍💻	nan'kai'fa'ren'yuan
+👨‍💻	nan'ji'shu'yuan
+👩‍💻	nv'cheng'xu'yuan
+👩‍💻	nv'ma'nong
+👩‍💻	nv'ma'chu
+👩‍💻	nv'kai'fa'ren'yuan
+👩‍💻	nv'ji'shu'yuan
+👨‍🎤	ge'shou
+👩‍🎤	ge'shou
+👨‍🎤	nan'ge'shou
+👨‍🎤	yao'gun'ge'shou
+👩‍🎤	yao'gun'ge'shou
+👨‍🎤	yao'gun'nan'ge'shou
+👨‍🎤	nan'yao'gun'ge'shou
+👨‍🎤	peng'ke
+👩‍🎤	peng'ke
+👨‍🎤	zhong'jin'shu
+👩‍🎤	zhong'jin'shu
+👩‍🎤	nv'ge'shou
+👩‍🎤	yao'gun'nv'ge'shou
+👩‍🎤	nv'yao'gun'ge'shou
+👨‍🎨	yi'shu'jia
+👩‍🎨	yi'shu'jia
+👨‍🎨	nan'yi'shu'jia
+👨‍🎨	hua'jia
+👩‍🎨	hua'jia
+👨‍🎨	nan'hua'jia
+👨‍🎨	man'hua'jia
+👩‍🎨	man'hua'jia
+👨‍🎨	nan'man'hua'jia
+👩‍🎨	nv'yi'shu'jia
+👩‍🎨	nv'hua'jia
+👩‍🎨	nv'man'hua'jia
+👨‍✈️	fei'xing'yuan
+👩‍✈️	fei'xing'yuan
+👨‍✈️	nan'fei'xing'yuan
+👩‍✈️	nv'fei'xing'yuan
+👨‍🚀	yu'hang'yuan
+👩‍🚀	yu'hang'yuan
+👨‍🚀	nan'yu'hang'yuan
+👩‍🚀	nv'yu'hang'yuan
+👨‍🚒	xiao'fang'yuan
+👩‍🚒	xiao'fang'yuan
+👨‍🚒	nan'xiao'fang'yuan
+👩‍🚒	nv'xiao'fang'yuan
+👮‍♂️	jing'guan
+👮‍♀️	jing'guan
+👮‍♂️	jing'cha
+👮‍♀️	jing'cha
+👮‍♂️	nan'jing'guan
+👮‍♂️	nan'jing'cha
+👮‍♀️	nv'jing'guan
+👮‍♀️	nv'jing'cha
+🕵️‍♂️	zhen'tan
+🕵️‍♀️	zhen'tan
+🕵️‍♂️	nan'zhen'tan
+🕵️‍♀️	nv'zhen'tan
+💂‍♂️	wei'bing
+💂‍♀️	wei'bing
+💂‍♂️	wei'shi
+💂‍♀️	wei'shi
+💂‍♂️	nan'wei'bing
+💂‍♂️	nan'wei'shi
+💂‍♀️	nv'wei'bing
+💂‍♀️	nv'wei'shi
+🥷	ren'zhe
+🥷	ren'shu
+👷‍♂️	gong'ren
+👷‍♀️	gong'ren
+👷‍♂️	jian'zhu'gong
+👷‍♀️	jian'zhu'gong
+👷‍♂️	jian'zhu'gong'ren
+👷‍♀️	jian'zhu'gong'ren
+👷‍♂️	nong'min'gong
+👷‍♀️	nong'min'gong
+👷‍♂️	nan'gong'ren
+👷‍♂️	nan'jian'zhu'gong
+👷‍♂️	nan'jian'zhu'gong'ren
+👷‍♂️	nan'nong'min'gong
+👷‍♀️	nv'gong'ren
+👷‍♀️	nv'jian'zhu'gong
+👷‍♀️	nv'jian'zhu'gong'ren
+👷‍♀️	nv'nong'min'gong
+🫅	jun'zhu
+🫅	dai'wang'guan'de'ren
+🤴	wang'zi
+🤴	xiao'wang'zi
+🤴	guo'wang
+👸	gong'zhu
+👸	xiao'gong'zhu
+👸	nv'wang
+👸	nv'huang
+👳‍♂️	tou'jin
+👳‍♀️	tou'jin
+🧕	tou'jin
+👳‍♂️	dai'tou'jin
+👳‍♀️	dai'tou'jin
+👳‍♂️	dai'tou'jin'de'ren
+👳‍♀️	dai'tou'jin'de'ren
+👲	zhong'guo'mao
+👲	gua'pi'mao
+👲	di'zhu
+🧕	mu'si'lin
+🤵‍♂️	xin'lang
+🤵‍♂️	li'fu
+🤵‍♂️	yan'wei'fu
+🤵‍♂️	xi'fu
+🤵‍♂️	xi'zhuang
+🤵‍♀️	nv'xin'lang
+👰‍♂️	nan'xin'niang
+👰‍♀️	dai'tou'sha'de'ren
+👰‍♀️	tou'sha
+👰‍♀️	hun'sha
+👰‍♀️	xin'niang
+👰‍♀️	xin'niang'zi
+🤰	yun'fu
+🤰	huai'yun
+🤰	da'du'zi
+🫃	da'du'zi
+🤰	huai'le
+🤰	yun'du
+🫃	nan'ren'huai'yun
+🫃	huai'yun'de'nan'ren
+🫃	pi'jiu'du
+🫃	jiang'jun'du
+🤱	bu'ru
+👩‍🍼	bu'ru
+🤱	mu'ru
+🤱	mu'ru'wei'yang
+🤱	wei'nai
+👩‍🍼	bu'ru'de'nv'ren
+👩‍🍼	nai'ma
+👨‍🍼	bu'ru'de'nan'ren
+👨‍🍼	nai'ba
+👼	tian'shi'bao'bao
+👼	xiao'tian'shi
+👼	tian'shi
+🎅	sheng'dan'lao'ren
+🤶	sheng'dan'fu'ren
+🤶	sheng'dan'nai'nai
+🦸‍♂️	chao'ren
+🦸‍♀️	chao'ren
+🦸‍♂️	chao'ji'ying'xiong
+🦸‍♀️	chao'ji'ying'xiong
+🦸‍♂️	nan'chao'ren
+🦸‍♂️	nan'chao'ji'ying'xiong
+🦸‍♀️	nv'chao'ren
+🦸‍♀️	nv'chao'ji'ying'xiong
+🦹‍♂️	fan'pai
+🦹‍♀️	fan'pai
+🦹‍♂️	huai'dan
+🦹‍♀️	huai'dan
+🦹‍♂️	chao'ji'da'fan'pai
+🦹‍♀️	chao'ji'da'fan'pai
+🦹‍♂️	da'fan'pai
+🦹‍♀️	da'fan'pai
+🦹‍♂️	nan'fan'pai
+🦹‍♂️	nan'huai'dan
+🦹‍♂️	nan'chao'ji'da'fan'pai
+🦹‍♂️	nan'da'fan'pai
+🦹‍♀️	nv'fan'pai
+🦹‍♀️	nv'huai'dan
+🦹‍♀️	nv'chao'ji'da'fan'pai
+🦹‍♀️	nv'da'fan'pai
+🧙‍♂️	fa'shi
+🧙‍♀️	fa'shi
+🧙‍♂️	mo'fa'shi
+🧙‍♀️	mo'fa'shi
+🧙‍♂️	mo'shu'shi
+🧙‍♀️	mo'shu'shi
+🧙‍♂️	nan'fa'shi
+🧙‍♂️	nan'mo'fa'shi
+🧙‍♂️	nan'mo'shu'shi
+🧙‍♂️	nan'wu
+🧙‍♀️	nv'fa'shi
+🧙‍♀️	nv'mo'fa'shi
+🧙‍♀️	nv'mo'shu'shi
+🧙‍♀️	nv'wu
+🧚‍♂️	yao'jing
+🧚‍♀️	yao'jing
+🧚‍♂️	xiao'jing'ling
+🧚‍♀️	xiao'jing'ling
+🧚‍♂️	xiao'xian'zi
+🧚‍♀️	xiao'xian'zi
+🧚‍♀️	xiao'xian'nv
+🧛‍♂️	xi'xue'gui
+🧛‍♀️	xi'xue'gui
+🧛‍♂️	de'gu'la
+🧛‍♀️	de'gu'la
+🧛‍♂️	nan'xi'xue'gui
+🧛‍♀️	nv'xi'xue'gui
+🧜‍♂️	ren'yu
+🧜‍♀️	ren'yu
+🧜‍♂️	mei'nan'yu
+🧜‍♂️	nan'ren'yu
+🧜‍♂️	hai'wang
+🧜‍♀️	mei'ren'yu
+🧝‍♂️	jing'ling
+🧝‍♀️	jing'ling
+🧝‍♂️	nan'jing'ling
+🧝‍♂️	jing'ling'zu
+🧝‍♀️	jing'ling'zu
+🧝‍♀️	nv'jing'ling
+🧞‍♂️	a'la'ding
+🧞‍♀️	a'la'ding
+🧞‍♂️	a'la'ding'shen'deng
+🧞‍♀️	a'la'ding'shen'deng
+🧞‍♂️	deng'shen
+🧞‍♀️	deng'shen
+🧞‍♂️	nan'deng'shen
+🧞‍♀️	nv'deng'shen
+🧟‍♂️	jiang'shi
+🧟‍♀️	jiang'shi
+🧟‍♂️	sang'shi
+🧟‍♀️	sang'shi
+🧟‍♂️	xing'shi'zou'rou
+🧟‍♀️	xing'shi'zou'rou
+🧟‍♂️	nan'jiang'shi
+🧟‍♂️	nan'sang'shi
+🧟‍♂️	nan'xing'shi'zou'rou
+🧟‍♀️	nv'jiang'shi
+🧟‍♀️	nv'sang'shi
+🧟‍♀️	nv'xing'shi'zou'rou
+🧌	ju'guai
+🧌	xue'ju'ju'guai
+💆‍♂️	an'mo
+💆‍♀️	an'mo
+💆‍♂️	mei'rong
+💆‍♀️	mei'rong
+💇‍♂️	jian'tou
+💇‍♀️	jian'tou
+💇‍♂️	jian'fa
+💇‍♀️	jian'fa
+💇‍♂️	li'fa
+💇‍♀️	li'fa
+💇‍♂️	li'tou
+💇‍♀️	li'tou
+💇‍♂️	jian'tou'fa
+💇‍♀️	jian'tou'fa
+💇‍♂️	li'tou'fa
+💇‍♀️	li'tou'fa
+💇‍♂️	zuo'zao'xing
+💇‍♀️	zuo'zao'xing
+💇‍♂️	mei'rong'mei'fa
+💇‍♀️	mei'rong'mei'fa
+🚶‍♂️	zou'lu
+🚶‍♀️	zou'lu
+🚶‍♂️	tu'bu
+🚶‍♀️	tu'bu
+🚶‍♂️	xing'zou
+🚶‍♀️	xing'zou
+🧍‍♂️	zhan'zhe
+🧍‍♀️	zhan'zhe
+🧍‍♂️	zhan'li
+🧍‍♀️	zhan'li
+🧍‍♂️	zhan'li'zhe
+🧍‍♀️	zhan'li'zhe
+🧍‍♂️	zhan'li'de'nan'ren
+🧍‍♂️	ge'ge
+🧍‍♂️	di'di
+🧍‍♂️	nan'zai
+🧍‍♀️	zhan'li'de'nv'ren
+🧍‍♀️	jie'jie
+🧍‍♀️	mei'mei
+🧍‍♀️	nv'zai
+🧎‍♂️	gui'zuo
+🧎‍♀️	gui'zuo
+👨‍🦯	zhu'mang'zhang'de'ren
+👩‍🦯	zhu'mang'zhang'de'ren
+👨‍🦯	na'zhe'bai'shou'zhang'de'ren
+👩‍🦯	na'zhe'bai'shou'zhang'de'ren
+👨‍🦼	zuo'dian'dong'lun'yi'de'ren
+👩‍🦼	zuo'dian'dong'lun'yi'de'ren
+👨‍🦼	zuo'dian'dong'lun'yi'de'nan'ren
+👨‍🦼	dian'dong'lun'yi
+👩‍🦼	dian'dong'lun'yi
+🦼	dian'dong'lun'yi
+👩‍🦼	zuo'dian'dong'lun'yi'de'nv'ren
+👨‍🦽	zuo'shou'dong'lun'yi'de'ren
+👩‍🦽	zuo'shou'dong'lun'yi'de'ren
+👨‍🦽	zuo'shou'dong'lun'yi'de'nan'ren
+👨‍🦽	shou'dong'lun'yi
+👩‍🦽	shou'dong'lun'yi
+🦽	shou'dong'lun'yi
+👩‍🦽	zuo'shou'dong'lun'yi'de'nv'ren
+🏃‍♂️	pao'bu
+🏃‍♀️	pao'bu
+🏃‍♂️	pao'bu'zhe
+🏃‍♀️	pao'bu'zhe
+🏃‍♂️	ma'la'song
+🏃‍♀️	ma'la'song
+💃	tiao'wu
+🕺	tiao'wu
+💃	tiao'wu'de'nv'ren
+💃	wu'nv
+🕺	tiao'wu'de'nan'ren
+🕺	wu'zhe
+🕴	fu'zai'di'mian'shang'de'xi'zhuang'nan
+👯‍♂️	tu'xian'sheng
+👯‍♂️	tu'er'duo
+👯‍♀️	tu'er'duo
+👯‍♀️	tu'nv'lang
+🧖‍♂️	sang'na
+🧖‍♀️	sang'na
+🧖‍♂️	zheng'fang
+🧖‍♀️	zheng'fang
+🧖‍♂️	zheng'sang'na
+🧖‍♀️	zheng'sang'na
+🧖‍♂️	zheng'fang'li'de'ren
+🧖‍♀️	zheng'fang'li'de'ren
+🧖‍♂️	zheng'fang'li'de'nan'ren
+🧖‍♀️	zheng'fang'li'de'nv'ren
+🧗‍♂️	pan'yan'zhe
+🧗‍♀️	pan'yan'zhe
+🧗‍♂️	pan'pa'de'ren
+🧗‍♀️	pan'pa'de'ren
+🧗‍♂️	deng'shan'zhe
+🧗‍♀️	deng'shan'zhe
+🧗‍♂️	deng'shan
+🧗‍♀️	deng'shan
+🧗‍♂️	pan'shan
+🧗‍♀️	pan'shan
+🧗‍♂️	pan'pa'de'nan'ren
+🧗‍♀️	pan'pa'de'nv'ren
+🤺	ji'jian'zhe
+🤺	ji'jian
+🤺	ji'jian'xuan'shou
+🤺	jian'dou
+🏇	sai'ma
+🏇	qi'ma
+🏇	sai'ma'qi'shi
+⛷️	hua'xue
+⛷️	hua'xue'de'ren
+🏂	dan'ban'hua'xue
+🏂	hua'xue'ban
+🏌️‍♂️	gao'er'fu'qiu'shou
+🏌️‍♀️	gao'er'fu'qiu'shou
+🏌️‍♂️	da'gao'er'fu'de'ren
+🏌️‍♀️	da'gao'er'fu'de'ren
+🏌️‍♂️	gao'er'fu
+🏌️‍♀️	gao'er'fu
+⛳	gao'er'fu
+🏌️‍♂️	da'gao'er'fu
+🏌️‍♀️	da'gao'er'fu
+🏄‍♂️	chong'lang'zhe
+🏄‍♀️	chong'lang'zhe
+🏄‍♂️	chong'lang
+🏄‍♀️	chong'lang
+🏄‍♂️	nan'sheng'chong'lang
+🏄‍♀️	nv'sheng'chong'lang
+🚣‍♂️	hua'chuan
+🚣‍♀️	hua'chuan
+🚣‍♂️	hua'ting
+🚣‍♀️	hua'ting
+🚣‍♂️	fan'zhou
+🚣‍♀️	fan'zhou
+🏊‍♂️	you'yong'zhe
+🏊‍♀️	you'yong'zhe
+🏊‍♂️	you'yong
+🏊‍♀️	you'yong
+🏊‍♂️	yong'ke
+🏊‍♀️	yong'ke
+🏊‍♂️	nan'sheng'you'yong
+🏊‍♀️	nv'sheng'you'yong
+⛹️‍♂️	lan'qiu'yun'dong'yuan
+⛹️‍♀️	lan'qiu'yun'dong'yuan
+⛹️‍♂️	da'lan'qiu
+⛹️‍♀️	da'lan'qiu
+⛹️‍♂️	wan'lan'qiu
+⛹️‍♀️	wan'lan'qiu
+🏋️‍♂️	ju'zhong
+🏋️‍♀️	ju'zhong
+🏋️‍♂️	ju'zhong'yun'dong'yuan
+🏋️‍♀️	ju'zhong'yun'dong'yuan
+🏋️‍♂️	nan'sheng'ju'zhong
+🏋️‍♂️	nan'ju'zhong'yun'dong'yuan
+🏋️‍♀️	nv'sheng'ju'zhong
+🏋️‍♀️	nv'ju'zhong'yun'dong'yuan
+🚴‍♂️	qi'che
+🚴‍♀️	qi'che
+🚴‍♂️	qi'dan'che
+🚴‍♀️	qi'dan'che
+🚴‍♂️	qi'zi'xing'che
+🚴‍♀️	qi'zi'xing'che
+🚵‍♂️	shan'di'che
+🚵‍♀️	shan'di'che
+🚵‍♂️	shan'di'zi'xing'che
+🚵‍♀️	shan'di'zi'xing'che
+🚵‍♂️	qi'shan'di'che
+🚵‍♀️	qi'shan'di'che
+🤸‍♂️	ce'shou'fan
+🤸‍♀️	ce'shou'fan
+🤸‍♂️	fan'jin'dou
+🤸‍♀️	fan'jin'dou
+🤸‍♂️	fan'gen'tou
+🤸‍♀️	fan'gen'tou
+🤼‍♂️	shuai'jiao
+🤼‍♀️	shuai'jiao
+🤼‍♂️	shuai'jiao'xuan'shou
+🤼‍♀️	shuai'jiao'xuan'shou
+🤼‍♂️	ge'dou
+🤼‍♀️	ge'dou
+🤽‍♂️	shui'qiu
+🤽‍♀️	shui'qiu
+🤽‍♂️	wan'shui'qiu
+🤽‍♀️	wan'shui'qiu
+🤽‍♂️	nan'sheng'wan'shui'qiu
+🤽‍♀️	nv'sheng'wan'shui'qiu
+🤾‍♂️	shou'qiu
+🤾‍♀️	shou'qiu
+🤾‍♂️	wan'shou'qiu
+🤾‍♀️	wan'shou'qiu
+🤾‍♂️	da'shou'qiu
+🤾‍♀️	da'shou'qiu
+🤹‍♂️	za'shua
+🤹‍♀️	za'shua
+🤹‍♂️	pao'jie
+🤹‍♀️	pao'jie
+🤹‍♂️	pao'jie'za'shua
+🤹‍♀️	pao'jie'za'shua
+🧘‍♂️	lian'hua'zuo'de'ren
+🧘‍♀️	lian'hua'zuo'de'ren
+🧘‍♂️	lian'hua'zuo
+🧘‍♀️	lian'hua'zuo
+🧘‍♂️	quan'lian'hua'zuo
+🧘‍♀️	quan'lian'hua'zuo
+🧘‍♂️	ming'xiang
+🧘‍♀️	ming'xiang
+🧘‍♂️	yu'jia
+🧘‍♀️	yu'jia
+🧘‍♂️	pan'tui
+🧘‍♀️	pan'tui
+🧘‍♂️	da'zuo
+🧘‍♀️	da'zuo
+🧘‍♂️	yu'jia'nan
+🧘‍♂️	pan'tui'de'nan'ren
+🧘‍♀️	yu'jia'nv
+🧘‍♀️	pan'tui'de'nv'ren
+🛀	xi'zao
+🛀	xi'zao'de'ren
+🛀	pao'zao
+🛀	pao'zao'de'ren
+🛌	shui'jiao'de'ren
+🛌	tang'zai'chuang'shang'de'ren
+🛌	chuang'shang'xiu'xi
+🧑‍🤝‍🧑	qian'shou
+🧑‍🤝‍🧑	shou'la'shou
+👭	liang'ge'qian'shou'de'nv'ren
+👭	liang'ge'nv'ren
+👭	gui'mi
+👫	qing'lv
+👫	qian'shou'de'qing'lv
+👫	shou'la'shou'de'qing'lv
+👬	liang'ge'qian'shou'de'nan'ren
+👬	liang'ge'nan'ren
+👬	xiong'di
+👬	ji'you
+👬	hao'ji'you
+👬	hao'xiong'di
+👩‍❤️‍👨	lian'ai
+👩‍❤️‍👨	tan'lian'ai
+👩‍❤️‍👨	xiang'ai
+👨‍❤️‍👨	nan'tong
+👨‍❤️‍👨	nan'tong'xing'lian
+👨‍❤️‍👨	tong'xing'lian
+👩‍❤️‍👩	tong'xing'lian
+👨‍❤️‍👨	bo'li
+👩‍❤️‍👩	nv'tong
+👩‍❤️‍👩	nv'tong'xing'lian
+👩‍❤️‍👩	la'la
+👨‍👩‍👦	yi'jia'ren
+👨‍👩‍👧	yi'jia'ren
+👨‍👩‍👧‍👦	yi'jia'ren
+👨‍👩‍👦‍👦	yi'jia'ren
+👨‍👩‍👧‍👧	yi'jia'ren
+👨‍👩‍👦	yi'jia'san'kou
+👨‍👩‍👧	yi'jia'san'kou
+👨‍👩‍👦	san'kou'zhi'jia
+👨‍👩‍👧	san'kou'zhi'jia
+👨‍👩‍👧‍👦	yi'jia'si'kou
+👨‍👩‍👦‍👦	yi'jia'si'kou
+👨‍👩‍👧‍👧	yi'jia'si'kou
+👨‍👩‍👧‍👦	si'kou'zhi'jia
+👨‍👩‍👦‍👦	si'kou'zhi'jia
+👨‍👩‍👧‍👧	si'kou'zhi'jia
+👨‍👦	fu'zi
+👨‍👧	fu'nv
+👩‍👦	mu'zi
+👩‍👧	mu'nv
+🗣	jian'ying
+👤	jian'ying
+👥	jian'ying
+🫂	jian'ying
+🗣	jiang'hua
+🗣	jiang'hua'zhe
+🗣	jiang'hua'zhe'de'tou'bu'jian'ying
+🗣	tou'bu'jian'ying
+👤	ren'wu'jian'ying
+👤	ban'shen'xiang
+👥	ban'shen'xiang
+👤	tou'xiang
+👥	shuang'ren'xiang
+👥	shuang'ren
+🫂	yong'bao'de'ren
+🫂	bao'zai'yi'qi
+👣	jiao'yin
+👣	zu'ji
+🏻	fu'se
+🏼	fu'se
+🏽	fu'se
+🏾	fu'se
+🏿	fu'se
+🏻	qian'fu'se
+🏼	zhong'deng'qian'fu'se
+🏼	jiao'qian'fu'se
+🏽	zhong'deng'fu'se
+🏾	zhong'deng'shen'fu'se
+🏾	jiao'shen'fu'se
+🏿	shen'fu'se
+🦰	chi'fa
+🐵	hou
+🐒	hou
+🐵	hou'lian
+🐵	hou'tou
+🐒	hou'zi
+🐒	ma'liu
+🦍	da'xing'xing
+🦍	xing'xing
+🦧	xing'xing
+🦧	hong'mao'xing'xing
+🦧	ren'yuan
+🐶	gou
+🐕	gou
+🐶	gou'lian
+🐶	gou'tou
+🐶	xiao'gou
+🐕	xiao'gou
+🐶	Doge
+🐶	wang'chai
+🐶	wang'cai
+🐶	gou'zai
+🐕	quan
+🐕	gou'zi
+🐕	gou'gou
+🦮	dao'mang'quan
+🦮	jin'mao
+🦮	jin'mao'quan
+🦮	jin'mao'xun'hui'quan
+🐕‍🦺	gong'zuo'quan
+🐕‍🦺	fu'wu'quan
+🐩	gui'bin'quan
+🐩	juan'mao'gou
+🐺	lang
+🐺	lang'lian
+🐺	lang'tou
+🦊	hu'li
+🦊	hu'li'lian
+🦊	hu'li'tou
+🦝	huan'xiong
+🦝	xiao'huan'xiong
+🦝	gan'cui'mian
+🦝	gan'cui'mian'jun
+🐱	mao
+🐱	mao'mi
+🐈	mao'mi
+🐱	xiao'mao'mi
+🐈	xiao'mao'mi
+🐱	mao'lian
+🐱	mao'tou
+🐱	xiao'mao
+🐈	xiao'mao
+🐱	miao
+🐱	miao'miao
+🐱	miao'miao'miao
+🐱	miao'miao'jiao
+🐈	ju'mao
+🐈‍⬛	hei'mao
+🐈‍⬛	xiao'hei'mao
+🦁	shi
+🦁	shi'zi
+🦁	shi'lian
+🦁	shi'tou
+🦁	shi'zi'lian
+🦁	shi'zi'tou
+🐯	hu
+🐯	hu'lian
+🐯	hu'tou
+🐯	lao'hu
+🐅	lao'hu
+🐯	lao'hu'lian
+🐯	lao'hu'tou
+🐆	lie'bao
+🐆	bao
+🐆	bao'zi
+🐴	ma
+🐎	ma
+🐴	ma'er
+🐎	ma'er
+🐴	ma'lian
+🐴	ma'tou
+🫎	tuo'lu
+🫎	tuo'lu'lian
+🫎	tuo'lu'tou
+🫎	lu'jiao
+🫎	ma'lu
+🫏	lv
+🫏	xiao'lv
+🫏	lv'er
+🐎	xiao'ma
+🐎	jun'ma
+🦄	du'jiao'shou
+🦄	du'jiao'shou'lian
+🦄	du'jiao'shou'tou
+🦓	ban'ma
+🦌	lu
+🦌	mi'lu
+🦬	da'ye'niu
+🦬	ye'niu
+🐮	niu
+🐮	niu'lian
+🐮	niu'tou
+🐮	niu'niu
+🐮	xiao'niu
+🐂	gong'niu
+🐃	shui'niu
+🐄	nai'niu
+🐷	zhu
+🐖	zhu
+🐷	zhu'zhu
+🐖	zhu'zhu
+🐷	zhu'lian
+🐷	zhu'tou
+🐷	lan'zhu
+🐷	xiao'zhu
+🐗	ye'zhu
+🐽	zhu'bi'zi
+🐽	zhu'bi
+🐏	gong'yang
+🐑	mian'yang
+🐑	yang
+🐑	yang'yang
+🐑	xiao'yang
+🐐	shan'yang
+🐪	luo'tuo
+🐫	luo'tuo
+🐪	dan'feng'luo'tuo
+🐫	shuang'feng'luo'tuo
+🦙	yang'tuo
+🦙	cao'ni'ma
+🦒	chang'jing'lu
+🦒	qi'lin'lu
+🐘	da'xiang
+🦣	meng'ma'xiang
+🦏	xi'niu
+🦛	he'ma
+🐭	lao'shu
+🐀	lao'shu
+🐭	hao'zi
+🐀	hao'zi
+🐭	shu'lian
+🐭	shu
+🐭	lao'shu'lian
+🐭	shu'tou
+🐭	lao'shu'tou
+🐁	bai'shu
+🐁	xiao'bai'shu
+🐁	xiao'lao'shu
+🐹	cang'shu
+🐹	cang'shu'lian
+🐹	cang'shu'tou
+🐰	tu
+🐰	tu'zi
+🐇	tu'zi
+🐰	tu'lian
+🐰	tu'zi'lian
+🐰	tu'tou
+🐰	tu'zi'tou
+🐇	xiao'tu'zi
+🐇	xiao'bai'tu
+🐇	da'bai'tu
+🐿	song'shu
+🐿	hua'li'shu
+🦫	he'li
+🦫	hai'li
+🦔	ci'wei
+🦇	bian'fu
+🦇	zhi'mo
+🐻	xiong
+🐻	xiong'lian
+🐻	xiong'tou
+🐻	xiao'xiong
+🐻‍❄️	bei'ji'xiong
+🐻‍❄️	bei'ji'xiong'lian
+🐻‍❄️	bei'ji'xiong'tou
+🐨	kao'la
+🐨	shu'dai'xiong
+🐨	wu'wei'xiong
+🐼	xiong'mao
+🐼	da'xiong'mao
+🐼	mao'xiong
+🐼	pang'da
+🐼	guo'bao
+🐼	xiong'mao'lian
+🐼	xiong'mao'tou
+🐼	xiong'mao'ren
 🐼	panda
-🐼	da xiong mao
-🕐	shi jian
-🐸	qing wa
-🐸	moha
-🐸	wa
-🐸	gou
+🦥	shu'lan
+🦥	shu'lan'xian'sheng
+🦥	man'tun'tun
+🦦	shui'ta
+🦦	hai'ta
+🦨	you
+🦨	chou'you
+🦘	dai'shu
+🦡	huan
+🦡	mi'huan
+🐾	zhang'yin
+🐾	zhua'yin
+🐾	dong'wu'jiao'yin
+🦃	huo'ji
+🐔	ji
+🐔	ji'tou
+🐔	ji'ba
+🐓	gong'ji
+🐓	mu'ji
+🐓	da'gong'ji
+🐓	da'mu'ji
+🐣	fu'hua'xiao'ji
+🐣	xiao'ji
+🐤	xiao'ji
+🐥	xiao'ji
+🐣	xiao'ji'po'ke
+🐣	po'ke
+🐣	chu'sheng
+🐤	xiao'ji'tou
+🐥	xiao'ji'ji
+🐦	niao
+🐦	niao'tou
+🐦	xiao'niao
+🐧	qi'e
+🐧	qi'e'tou
+🕊	ge'zi
+🕊	he'ping'xiang'zheng
+🕊	he'ping'de'xiang'zheng
+🦅	lao'ying
+🦅	ying
+🦆	ya
+🦆	ya'zi
+🦆	xiao'ya'zi
+🦆	ga'ga
+🦢	tian'e
+🦢	bai'tian'e
+🦢	chou'xiao'ya
+🦉	mao'tou'ying
+🦉	xiao
+🦤	du'du'niao
+🪶	yu'mao
+🦩	huo'lie'niao
+🦚	kong'que
+🦜	ying'wu
+🪽	chi'bang
+🪽	tian'shi'de'chi'bang
+🪽	yu'yi
+🐦‍⬛	hei'niao
+🐦‍⬛	wu'ya
+🐦‍⬛	hei'se'xiao'niao
+🪿	e
+🪿	da'e
+🪿	e'e'e
+🐸	qing'wa
+🐸	qing'wa'tou
+🐸	qing'wa'lian
+🐸	ha'ma
+🐸	ha'ha
 🐸	ha
-∞	wu xian
-∞	wu qiong
-☭	dang
-☭	gong chan dang
-☯	taiji
-☯	yin yang
+🐊	e'yu
+🐢	wu'gui
+🐢	hai'gui
+🐢	qiu
+🦎	xi'yi
+🦎	bi'hu
+🐍	she
+🐍	she'she
+🐍	xiao'she
+🐍	yi'tiao'she
+🐍	Python
+🐲	long
+🐉	long
+🐲	long'tou
+🐲	long'wang
+🐲	zhong'guo'long
+🐉	shen'long
+🐉	ju'long
+🐉	yi'tiao'long
+🦕	kong'long
+🦖	kong'long
+🦕	wan'long
+🦕	lei'long
+🦕	liang'long
+🦖	ba'wang'long
+🦖	bao'long
+🐳	pen'shui'de'jing'yu
+🐳	pen'shui'de'jing
+🐳	pen'shui
+🐳	jing'yu
+🐋	jing'yu
+🐬	hai'tun
+🦭	hai'bao
+🦭	hai'shi
+🐟	yu
+🐟	yu'er
+🐟	xiao'yu
+🐟	xiao'yu'er
+🐠	re'dai'yu
+🐡	he'tun
+🦈	sha'yu
+🦈	da'bai'sha
+🦈	bai'sha
+🐙	zhang'yu
+🐚	hai'luo
+🐚	bei'ke
+🪸	shan'hu
+🪸	shan'hu'jiao
+🪼	shui'mu
+🪼	hai'zhe
+🐌	wo'niu
+🦋	hu'die
+🦋	feng'wei'die
+🐛	chong'zi
+🐛	mao'mao'chong
+🐛	mao'chong
+🐛	bug
+🐜	ma'yi
+🐝	mi'feng
+🐝	xiao'mi'feng
+🪲	kun'chong
+🪲	jia'chong
+🪲	sheng'jia'chong
+🐞	piao'chong
+🐞	qi'xing'piao'chong
+🦗	qu'qu
+🦗	xi'shuai
+🦗	zha'meng
+🪳	zhang'lang
+🪳	xiao'qiang
+🕷	zhi'zhu
+🕸	zhu'wang
+🕸	zhi'zhu'wang
+🦂	xie'zi
+🦟	wen'ying
+🪰	wen'ying
+🦟	wen'zi
+🦟	wen'meng
+🪰	cang'ying
+🪰	jia'ying
+🪱	ru'chong
+🪱	ji'sheng'chong
+🪱	qiu'yin
+🦠	wei'sheng'wu
+🦠	bian'xing'chong
+🦠	bing'du
+🦠	xi'jun
+💐	hua'shu
+💐	xian'hua
+💐	peng'hua
+🌸	ying'hua
+💮	bai'se'de'hua
+💮	bai'hua
+🪷	lian'hua
+🏵	hua'jie
+🏵	mei'gui'hua'jie
+🌹	mei'gui
+🌹	mei'gui'hua
+🌹	hong'mei'gui
+🥀	ku'wei'de'mei'gui
+🥀	ku'wei'de'hua
+🥀	ku'wei
+🥀	diao'xie
+🌺	fu'rong
+🌺	fu'rong'hua
+🌺	mu'jin
+🌺	mu'jin'hua
+🌻	xiang'ri'kui
+🌻	tai'yang'hua
+🌻	xiang'yang'hua
+🌻	zhui'ri'hua
+🌻	zhu'ri'hua
+🌼	hua'duo
+🌼	kai'hua
+🌼	kai'hua'le
+🌼	bo'si'ju
+🌼	chu'ju
+🌷	hua
+🌷	yu'jin'xiang
+🪻	feng'xin'zi
+🌱	you'miao
+🌱	nen'miao
+🌱	fa'ya
+🪴	pen'zai
+🪴	pen'zai'zhi'wu
+🪴	hua'pen
+🌲	chang'qing'shu
+🌲	song'shu
+🌳	shu
+🌳	shu'mu
+🌳	da'shu
+🌳	luo'ye'shu
+🌴	zong'lv
+🌴	zong'lv'shu
+🌵	xian'ren'zhang
+🌾	dao'sui
+🌾	shui'dao
+🌿	cao'ben'zhi'wu
+🌿	cao'yao
+🌿	yao'cao
+🌿	xiang'cao
+🌿	zhong'yao
+☘	san'ye'cao
+🍀	si'ye'cao
+🍀	xing'yun'cao
+🍁	feng'ye
+🍁	feng'shu'ye
+🍂	luo'ye
+🍃	ye'zi
+🍃	shu'ye
+🪹	kong'niao'chao
+🪹	kong'chao
+🪺	you'dan'de'niao'chao
+🪺	you'dan'de'chao
+🪺	niao'chao
+🍄	mo'gu
+🍄	xiao'mo'gu
+🍇	pu'tao
+🍇	ti'zi
+🍈	tian'gua
+🍈	ha'mi'gua
+🍈	xin'jiang'gua
+🍉	xi'gua
+🍉	chi'gua
+🍊	gan'ju
+🍊	ju'zi
+🍊	mi'ju
+🍋	ning'meng
+🍌	xiang'jiao
+🍍	bo'luo
+🍍	feng'li
+🥭	mang'guo
+🍎	ping'guo
+🍏	ping'guo
+🍎	xiao'ping'guo
+🍏	xiao'ping'guo
+🍎	hong'ping'guo
+🍏	qing'ping'guo
+🍏	lv'ping'guo
+🍐	li
+🍐	li'zi
+🍑	tao
+🍑	tao'zi
+🍑	xian'tao
+🍒	ying'tao
+🍓	cao'mei
+🫐	lan'mei
+🥝	qi'yi'guo
+🥝	mi'hou'tao
+🍅	xi'hong'shi
+🍅	fan'qie
+🫒	gan'lan
+🫒	huang'lan
+🫒	qing'gan'lan
+🥥	ye'zi
+🥥	ye'zi'guo
+🥑	niu'you'guo
+🥑	e'li
+🍆	qie'zi
+🥔	tu'dou
+🥔	yang'yu
+🥔	ma'ling'shu
+🥕	hu'luo'bo
+🥕	luo'bo
+🥕	hong'luo'bo
+🌽	yu'mi
+🌽	bao'mi
+🌶	hong'la'jiao
+🌶	la'jiao
+🫑	tian'jiao
+🫑	cai'jiao
+🫑	cai'jiao
+🫑	deng'long'jiao
+🥒	huang'gua
+🥒	qing'gua
+🥬	lv'ye'shu'cai
+🥬	yuan'bai'cai
+🥬	xiao'bai'cai
+🥬	bai'cai
+🥬	shu'cai
+🥦	xi'lan'hua
+🥦	hua'ye'cai
+🥦	lv'cai'hua
+🥦	qing'hua'cai
+🥦	lv'hua'ye'cai
+🧄	suan
+🧄	da'suan
+🧄	suan'xiang
+🧅	yang'cong
+🧅	cong'tou
+🧅	yang'suan
+🧅	pi'ya'zi
+🥜	hua'sheng
+🥜	luo'hua'sheng
+🫘	dou
+🫘	dou'zi
+🫘	dou'lei
+🌰	li'zi
+🌰	zhen'zi
+🫚	jiang
+🫛	wan'dou
+🫛	dou'jia
+🫛	wan'dou'jia
+🍞	mian'bao
+🥐	niu'jiao'mian'bao
+🥐	xin'yue'xing'mian'bao
+🥐	yang'jiao'mian'bao
+🥖	fa'shi'chang'gun'mian'bao
+🥖	chang'gun'mian'bao
+🥖	chang'mian'bao
+🫓	mian'bing
+🫓	da'bing
+🫓	bing
+🥨	jiao'yan'juan'bing
+🥯	bai'ji'bing
+🥯	bai'ji'quan
+🥯	mian'bao'quan
+🥯	hong'bei
+🥞	jian'bing
+🌯	jian'bing
+🥞	bo'jian'bing
+🥞	lao'bing
+🥞	dan'bing
+🧇	hua'fu'bing
+🧇	ge'zi'bing
+🧀	nai'lao
+🧀	zhi'shi
+🧀	qi'si
+🍖	rou
+🥩	rou
+🍖	rou'rou
+🥩	rou'rou
+🍖	dai'gu'rou
+🍖	pai'gu
+🍖	chi'rou
+🍗	jia'qin'tui
+🍗	jia'qin'de'tui
+🍗	ji'tui
+🍗	ji'tui'er
+🥩	rou'pai
+🥩	niu'pai
+🥩	zhu'pai
+🥩	yang'pai
+🥓	pei'gen
+🥓	yan'rou
+🍔	han'bao
+🍔	han'bao'bao
+🍟	shu'tiao
+🍕	bi'sa
+🍕	bi'sa'bing
+🍕	chi'bi'sa
+🍕	chi'bi'sa'bing
+🌭	re'gou
+🥪	san'ming'zhi
+🌮	juan'bing
+🌯	juan'bing
+🌮	mo'xi'ge'juan'bing
+🌯	mo'xi'ge'juan'bing
+🌮	mo'xi'ge'bo'bing'juan
+🌯	jian'bing'guo'zi
+🫔	mo'xi'ge'zong
+🫔	mo'xi'ge'zong'zi
+🥙	pi'ta'san'ming'zhi
+🧆	fa'la'fei
+🧆	zhong'dong'shu'cai'qiu
+🧆	you'zha'ying'zui'dou'bing
+🧆	zha'dou'wan'zi
+🧆	rou'wan
+🧆	rou'wan'zi
+🥚	ji'dan
+🥚	dan
+🥚	dan'dan
+🍳	peng'ren
+🍳	ping'di'guo
+🍳	jian'dan
+🥘	shi'wu
+🍲	shi'wu
+🥘	yi'guo'shi'wu
+🍲	yi'guo'shi'wu
+🥘	huo'guo
+🍲	huo'guo
+🫕	nai'lao'huo'guo
+🫕	zhi'shi'huo'guo
+🫕	qi'si'huo'guo
+🥣	wan'shao
+🥣	fang'zhe'shao'de'wan
+🥣	wan
+🥣	tang
+🥣	tang'wan
+🥗	sha'la
+🥗	lv'se'sha'la
+🥗	shu'cai'sha'la
+🍿	bao'mi'hua
+🧈	huang'you
+🧈	huang'ru'you
+🧂	yan
+🧂	shi'yan
+🧂	zuo'liao'ping
+🧂	zuo'liao
+🧂	tiao'wei'pin
+🥫	guan'tou
+🥫	guan'tou'shi'pin
+🍱	bian'dang
+🍱	bian'dang'he
+🍱	he'fan
+🍱	wai'mai
+🥡	wai'mai
+🍱	kuai'can
+🍱	kuai'can'he
+🍘	mi'bing
+🍘	mi'guo
+🍙	fan'tuan
+🍚	zhu'shu'de'fan
+🍚	mi'fan
+🍚	da'mi
+🍚	da'mi'fan
+🍛	ga'li
+🍛	ga'li'fan
+🍜	mao're'qi'de'wan
+🍜	la'mian
+🍜	mian'tiao
+🍜	wan'mian
+🍜	yi'wan'mian
+🍜	chi'mian
+🍝	yi'da'li'mian
+🍝	yi'da'li'mian'tiao
+🍝	yi'fen
+🍝	yi'mian
+🍠	di'gua
+🍠	kao'di'gua
+🍠	hong'shu
+🍠	kao'hong'shu
+🍠	fan'shu
+🍠	kao'fan'shu
+🍠	gan'shu
+🍠	kao'gan'shu
+🍢	guan'dong'zhu
+🍢	chuan'chuan
+🍣	shou'si
+🍤	zha'xia
+🍤	tian'fu'luo
+🍥	pan'rao'shi'zha'yu'bing
+🍥	yu'bing
+🍥	yu'ban
+🥮	yue'bing
+🥮	yue'tuan
+🥮	feng'shou'bing
+🥮	tuan'yuan'bing
+🍡	tuan'zi
+🍡	nuo'mi'tuan
+🥟	jiao'zi
+🥟	shui'jiao
+🥠	xing'yun'bing'gan
+🥡	wai'mai'he
+🥡	wai'mai'bao'zhuang
+🥡	wai'mai'tong
+🦀	pang'xie
+🦀	xie
+🦀	xie'lao'ban
+🦞	long'xia
+🦞	xiao'long'xia
+🦞	ma'la'xiao'long'xia
+🦐	xia
+🦐	da'xia
+🦐	dui'xia
+🦑	you'yu
+🦑	wu'zei
+🦑	mo'yu
+🦪	mu'li
+🦪	sheng'hao
+🦪	hao'li
+🍦	ruan'bing'qi'lin
+🍦	ruan'bing'ji'ling
+🍦	bing'qi'lin
+🍨	bing'qi'lin
+🍦	bing'ji'ling
+🍨	bing'ji'ling
+🍦	yuan'tong'bing'qi'lin
+🍦	yuan'tong'bing'ji'ling
+🍦	tian'tong
+🍧	bao'bing
+🍧	bing'sha
+🍩	you'zha'mian'quan
+🍩	tian'tian'quan
+🍪	qu'qi
+🍪	bing'gan
+🍪	qu'qi'bing'gan
+🍪	cookie
+🍪	cookies
+🎂	dan'gao
+🍰	dan'gao
+🎂	sheng'ri'dan'gao
+🍰	shui'guo'dan'gao
+🧁	zhi'bei'dan'gao
+🥧	pai
+🥧	you'su'dian'xin
+🥧	dian'xin
+🍫	qiao'ke'li
+🍫	qiao'ke'li'bang
+🍫	zhu'gu'li
+🍫	zhu'gu'li'bang
+🍬	tang'guo
+🍬	tang
+🍬	chi'tang
+🍭	bang'bang'tang
+🍮	dan'nai'gao
+🍮	tian'pin
+🍮	tian'dian
+🍮	bu'ding
+🍯	mi'guan
+🍯	feng'mi
+🍼	nai'ping
+🍼	he'nai
+🥛	yi'bei'nai
+🥛	niu'nai'bei
+🥛	niu'nai
+🥛	bei'zi
+☕	ka'fei
+☕	ka'fei'bei
+☕	he'ka'fei
+🫖	cha'hu
+🫖	yi'hu'cha
+🫖	yi'hu
+🍵	cha
+🍵	cha'shui
+🍵	cha'bei
+🍵	he'cha
+🍵	pao'cha
+🍶	qing'jiu
+🍾	kai'xiang'bin
+🍾	xiang'bin
+🍷	pu'tao'jiu
+🍷	jiu'bei
+🍷	jiu
+🍸	ji'wei'jiu
+🍹	re'dai'yin'liao
+🍹	re'dai'shui'guo'yin'liao
+🍹	shui'guo'yin'liao
+🍹	guo'yin
+🍹	leng'yin
+🍺	pi'jiu
+🍻	gan'bei
+🥂	gan'bei
+🍻	peng'bei
+🥂	peng'bei
+🥃	wei'shi'ji
+🥃	ping'di'bei
+🥃	yi'bei'jiu
+🥃	yi'bei
+🥃	bo'li'bei
+🥃	lie'jiu
+🫗	qing'dao'ye'ti
+🫗	qing'dao
+🥤	wai'dai'bei'zi
+🥤	dai'xi'guan'bei
+🥤	xi'guan'bei
+🥤	yin'liao
+🧋	bo'ba'nai'cha
+🧋	zhen'zhu'nai'cha
+🧋	nai'cha
+🧋	yi'bei'nai'cha
+🧃	guo'zhi'he
+🧃	guo'zhi
+🧉	ma'dai'cha
+🧊	bing'kuai
+🧊	bing
+🧊	jia'bing
+🥢	kuai'zi
+🍽	can'ju
+🍴	dao'cha
+🥄	shao'zi
+🥄	tang'shao
+🥄	chi'zi
+🥄	tang'chi
+🔪	dao
+🔪	cai'dao
+🔪	shui'guo'dao
+🔪	xiao'dao
+🫙	guan'zi
+🫙	ping'zi
+🫙	bo'li'ping
+🏺	shuang'er'ping
+🌐	di'qiu
+🌍	di'qiu
+🌎	di'qiu
+🌏	di'qiu
+🌐	zi'wu'xian
+🌐	jing'wei'xian
+🌍	di'qiu'yi
+🌎	di'qiu'yi
+🌏	di'qiu'yi
+🌍	ou'zhou
+🌍	fei'zhou
+🌍	ou'zhou'fei'zhou
+🌍	fei'zhou'ou'zhou
+🌍	ou'zhou'di'qiu'yi
+🌍	fei'zhou'di'qiu'yi
+🌍	ou'zhou'fei'zhou'di'qiu'yi
+🌍	ou'fei'di'qiu'yi
+🌎	mei'zhou
+🌎	mei'zhou'di'qiu'yi
+🌏	ya'zhou
+🌏	ao'zhou
+🇦🇺	ao'zhou
+🌏	ya'zhou'ao'zhou
+🌏	ao'zhou'ya'zhou
+🌏	ya'zhou'di'qiu'yi
+🌏	ao'zhou'di'qiu'yi
+🌏	ya'ao'di'qiu'yi
+🌏	ao'ya'di'qiu'yi
+🗺	shi'jie'di'tu
+🗾	ri'ben'jian'ying
+🗾	ri'ben'di'tu
+🧭	zhi'nan'zhen
+🧭	zhi'bei'zhen
+🧭	fang'xiang
+🧭	luo'pan
+🏔	xue'shan
+🏔	gao'shan
+⛰️	shan
+⛰️	shan'mai
+⛰️	shan'feng
+⛰️	shan'ding
+🌋	huo'shan
+🌋	huo'shan'pen'fa
+🌋	huo'shan'bao'fa
+🗻	fu'shi'shan
+🏕	lu'ying
+🏕	ye'ying
+🏖	tai'yang'san
+🏖	sha'tan'san
+⛱️	sha'tan'san
+🏖	du'jia
+🏜	sha'mo
+🏜	huang'mo
+🏝	huang'dao
+🏝	wu'ren'dao
+🏝	wu'ren'huang'dao
+🏞	guo'jia'gong'yuan
+🏟	ti'yu'chang
+🏟	ti'yu'guan
+🏟	zu'qiu'chang
+🏛	gu'dian'jian'zhu
+🏛	gu'jian'zhu
+🏛	bo'wu'guan
+🏗	jian'zhu'shi'gong
+🏗	shi'gong
+🚧	shi'gong
+🏗	qi'zhong'ji
+🧱	zhuan'kuai
+🧱	ban'zhuan
+🧱	ban'er'zhuan
+🧱	zhuan'tou
+🪨	yan'shi
+🪨	shi'tou
+🪵	mu'tou
+🪵	yuan'mu
+🪵	mu'cai
+🛖	xiao'wu
+🛖	meng'gu'bao
+🛖	cao'wu
+🏘	fang'wu'qun
+🏘	ju'min'qu
+🏚	fei'qi'de'fang'wu
+🏚	huang'zhai
+🏚	wei'lou
+🏠	jia
+🏠	zhu'zhai'lou
+🏠	fang'zi
+🏠	fang'wu
+🏡	dai'hua'yuan'de'lou'fang
+🏡	bie'shu
+🏢	ban'gong'lou
+🏢	xie'zi'lou
+🏣	ri'ben'you'ju
+🏣	you'ju
+🏤	you'ju
+🏤	ou'zhou'you'ju
+🏥	yi'yuan
+🏦	yin'hang
+🏨	jiu'dian
+🏨	lv'dian
+🏨	lv'guan
+🏨	bin'guan
+🏩	ai'qing'jiu'dian
+🏩	ai'qing'lv'dian
+🏩	ai'qing'lv'guan
+🏩	ai'qing'bin'guan
+🏩	qing'lv'jiu'dian
+🏩	qing'lv'lv'dian
+🏩	qing'lv'lv'guan
+🏩	qing'lv'bin'guan
+🏩	qing'ren'jiu'dian
+🏩	qing'ren'lv'dian
+🏩	qing'ren'lv'guan
+🏩	qing'ren'bin'guan
+🏪	bian'li'shang'dian
+🏪	bian'li'dian
+🏪	shang'dian
+🏪	xiao'shang'dian
+🏫	xue'xiao
+🏫	jiao'xue'lou
+🏬	bai'huo'shang'dian
+🏬	shang'chang
+🏬	chao'shi
+🏬	shang'chao
+🏭	gong'chang
+🏯	ri'ben'cheng'bao
+🏯	ri'shi'cheng'bao
+🏯	cheng'bao
+🏰	cheng'bao
+🏰	ou'zhou'cheng'bao
+🏰	ou'shi'cheng'bao
+💒	hun'li
+💒	jiao'tang
+⛪	jiao'tang
+🗼	dong'jing'ta
+🗽	zi'you'nv'shen'xiang
+🗽	zi'you'nv'shen
+⛪	sheng'tang
+🕌	qing'zhen'si
+🕌	qing'zhen
+🛕	yin'du'miao
+🛕	yin'du'si'miao
+🛕	fo'si
+🛕	miao'yu
+🕍	you'tai'jiao'hui'tang
+🕍	you'tai'jiao'tang
+⛩	shen'she
+⛩	ri'ben'shen'she
+🕋	ke'er'bai
+⛲	pen'quan
+⛲	gong'yuan
+⛺	zhang'peng
+🌁	wu'qi'long'zhao'de'qiao
+🌁	wu'meng'meng
+🌁	wu'qi
+🌁	wu'du
+🌃	xing'guang'shan'shan'de'ye'wan
+🌃	ye'wan
+🌃	wan'shang
+🌃	ban'ye
+🌃	shen'ye
+🏙	cheng'shi'jing'guan
+🏙	cheng'shi'feng'guang
+🏙	du'shi'jing'guan
+🏙	du'shi'feng'guang
+🏙	cheng'shi
+🏙	du'shi
+🌄	da'shan'ri'chu
+🌄	shan'ding'ri'chu
+🌄	shan'zhong'ri'chu
+🌄	ri'chu
+🌅	ri'chu
+🌄	xu'ri
+🌅	xu'ri
+🌄	xu'ri'dong'sheng
+🌅	xu'ri'dong'sheng
+🌆	mu'se'zhong'de'cheng'shi
+🌆	mu'se
+🌆	huang'hun
+🌆	bang'wan
+🌇	da'sha'xi'yang
+🌇	xi'yang
+🌇	ri'luo
+🌇	luo'ri
+🌉	ye'jian'de'da'qiao
+🌉	ye'jian'da'qiao
+🌉	ye'mu'xia'de'qiao
+🌉	da'qiao
+♨️	wen'quan
+♨️	xiu'xi
+🎠	xuan'zhuan'mu'ma
+🎠	you'le'yuan
+🛝	hua'ti
+🛝	hua'hua'ti
+🎡	mo'tian'lun
+🎢	guo'shan'che
+💈	li'fa'dian'zhao'pai
+💈	li'fa'dian
+🎪	ma'xi
+🎪	ma'xi'tuan
+🎪	ma'xi'tuan'zhang'peng
+🚂	zheng'qi'huo'che
+🚃	gui'dao'che
+🚄	dong'che
+🚅	dong'che
+🚄	xin'gan'xian
+🚅	xin'gan'xian
+🚄	lie'che
+🚅	lie'che
+🚄	gao'su'lie'che
+🚅	gao'su'lie'che
+🚄	gao'tie
+🚅	gao'tie
+🚅	gao'su'zi'dan'tou'lie'che
+🚅	zi'dan'tou'gao'su'lie'che
+🚆	huo'che
+🚆	lv'pi'huo'che
+🚇	di'tie
+Ⓜ️	di'tie
+🚇	di'xia'tie'lu
+🚈	qing'gui'dian'che
+🚈	qing'gui
+🚉	che'zhan
+🚉	huo'che'zhan
+🚉	zhan'tai
+🚝	dan'gui'tie'lu
+🚝	dan'gui
+🚞	shan'qu'tie'lu
+🚋	you'gui'dian'che
+🚌	gong'jiao'che
+🚍	gong'jiao'che
+🚌	gong'gong'qi'che
+🚍	gong'gong'qi'che
+🚌	gong'che
+🚍	gong'che
+🚌	da'ba
+🚍	da'ba
+🚌	ba'shi
+🚍	ba'shi
+🚎	wu'gui'dian'che
+🚎	dian'che
+🚐	mian'bao'che
+🚐	xiao'ba
+🚐	wu'ling
+🚐	wu'ling'hong'guang
+🚑	jiu'hu'che
+🚑	ji'jiu'che
+🚒	xiao'fang'che
+🚒	jiu'huo'che
+🚓	jing'che
+🚔	jing'che
+🚔	bao'jing
+🚕	chu'zu'che
+🚖	chu'zu'che
+🚕	di'shi
+🚖	di'shi
+🚗	qi'che
+🚘	qi'che
+🚗	jiao'che
+🚘	jiao'che
+🚗	xiao'qi'che
+🚘	xiao'qi'che
+🚗	xiao'jiao'che
+🚘	xiao'jiao'che
+🚗	si'jia'che
+🚘	si'jia'che
+🚗	ju
+🚙	yue'ye'che
+🚙	SUV
+🚙	xiu'xian'che
+🚙	yun'dong'xing'duo'yong'tu'che
+🛻	pi'ka
+🛻	pi'ka'che
+🚚	song'huo'che
+🚚	huo'che
+🚚	wu'liu
+🚛	tuo'che
+🚛	ka'che
+🚛	da'ka'che
+🚜	tuo'la'ji
+🏎	sai'che
+🏎	fang'cheng'shi'sai'che
+🏍	mo'tuo
+🏍	mo'tuo'che
+🛵	xiao'xing'mo'tuo'che
+🛵	dian'dong'che
+🛵	dian'ping'che
+🛵	xiao'dian'lv
+🦽	lun'yi
+♿	lun'yi
+🦽	can'ji'ren
+🛺	du'du'che
+🛺	san'beng'zi
+🛺	san'jiao'ji
+🛺	san'lun'che
+🛺	san'lun'mo'tuo'che
+🛺	zi'dong'ren'li'che
+🚲	dan'che
+🚲	zi'xing'che
+🚲	jiao'ta'che
+🛴	hua'ban'che
+🛹	hua'ban
+🛼	lun'hua
+🛼	lun'hua'xie
+🛼	han'bing
+🛼	han'bing'xie
+🛼	hua'han'bing
+🛼	si'lun'hua'bing'xie
+🚏	gong'jiao'zhan
+🚏	gong'jiao'che'zhan
+🚏	gong'gong'qi'che'zhan
+🛣	gao'su'gong'lu
+🛣	gao'su
+🛣	gong'lu
+🛤	tie'gui
+🛢	you'tong
+⛽	jia'you'zhan
+⛽	shi'you
+🛞	che'lun
+🛞	che'lun'zi
+🛞	lun'tai
+🛞	lun'zi
+🛞	gu'lu
+🛞	che'gu'lu
+🚨	jing'che'xuan'zhuan'deng
+🚨	jing'deng
+🚨	jing'che'deng
+🚨	bao'jing'deng
+🚥	jiao'tong'xin'hao'deng
+🚦	jiao'tong'xin'hao'deng
+🚥	jiao'tong'deng
+🚦	jiao'tong'deng
+🚥	xin'hao'deng
+🚦	xin'hao'deng
+🚥	hong'lv'deng
+🚦	hong'lv'deng
+🛑	ba'bian'xing
+🚧	shi'gong'fu'hao
+🚧	shi'gong'zhong
+🚧	qian'fang'shi'gong
+🚧	lu'zhang
+⚓	mao
+⚓	chuan'mao
+🛟	jiu'sheng'quan
+🛟	you'yong'quan
+🛟	yong'quan
+🛟	jiu'sheng
+⛵	fan'chuan
+🛶	du'mu'zhou
+🚤	kuai'ting
+🚤	sai'ting
+🛳	ke'lun
+🛳	ke'chuan
+⛴	lun'du
+⛴	du'lun
+⛴	du'chuan
+🛥	mo'tuo'ting
+🚢	lun'chuan
+🚢	you'lun
+🚢	hai'yun
+🚢	chuan
+✈️	fei'ji
+✈️	lv'xing
+🛩	xiao'xing'fei'ji
+🛫	fei'ji'qi'fei
+🛫	hang'ban'qi'fei
+🛫	qi'fei
+🛬	fei'ji'zhuo'lu
+🛬	hang'ban'jiang'luo
+🛬	jiang'luo
+🛬	zhuo'lu
+🪂	jiang'luo'san
+🪂	tiao'san
+💺	zuo'wei
+🚁	zhi'sheng'ji
+🚁	zhi'sheng'fei'ji
+🚟	gao'jia'tie'lu
+🚟	kong'zhong'gui'dao'lie'che
+🚟	kong'gui
+🚠	gao'shan'suo'dao
+🚠	lan'che
+🚡	lan'che
+🚡	kong'zhong'lan'che
+🛰	wei'xing
+🚀	huo'jian
+🚀	rocket
+🛸	UFO
+🛸	bu'ming'fei'xing'wu
+🛸	fei'die
+🛎	fu'wu'ling
+🧳	xing'li'xiang
+🧳	xing'li
+⌛	sha'lou
+⏳	sha'lou
+⌚	shou'biao
+⌚	shi'jian
+⏰	nao'zhong
+⏰	nao'biao
+⏱	miao'biao
+⏱	ji'shi'qi
+⏲	ding'shi'qi
+🕰	tai'zhong
+🕰	bi'lu'zhong
+🕰	zuo'zhong
+🕛	shi'er'dian
+🕛	shi'er'dian'zhong
+🕧	shi'er'dian'ban
+🕐	yi'dian'zhong
+🕜	yi'dian'ban
+🕑	liang'dian
+🕑	liang'dian'zhong
+🕝	liang'dian'ban
+🕒	san'dian
+🕒	san'dian'zhong
+🕞	san'dian'ban
+🕓	si'dian
+🕓	si'dian'zhong
+🕟	si'dian'ban
+🕔	wu'dian
+🕔	wu'dian'zhong
+🕠	wu'dian'ban
+🕕	liu'dian
+🕕	liu'dian'zhong
+🕡	liu'dian'ban
+🕖	qi'dian
+🕖	qi'dian'zhong
+🕢	qi'dian'ban
+🕗	ba'dian
+🕗	ba'dian'zhong
+🕣	ba'dian'ban
+🕘	jiu'dian
+🕘	jiu'dian'zhong
+🕤	jiu'dian'ban
+🕙	shi'dian
+🕙	shi'dian'zhong
+🕥	shi'dian'ban
+🕚	shi'yi'dian
+🕚	shi'yi'dian'zhong
+🕦	shi'yi'dian'ban
+🌑	xin'yue
+🌚	xin'yue
+🌑	shuo'yue
+🌚	shuo'yue
+🌒	mei'yue
+🌘	mei'yue
+🌒	e'mei'yue
+🌘	e'mei'yue
+🌒	can'yue
+🌘	can'yue
+🌒	yue'shi
+🌘	yue'shi
+🌓	shang'xian'yue
+🌛	shang'xian'yue
+🌔	ying'tu'yue
+🌕	man'yue
+🌝	man'yue
+🌕	yuan'yue
+🌝	yuan'yue
+🌕	yue'qiu
+🌖	kui'tu'yue
+🌗	xia'xian'yue
+🌜	xia'xian'yue
+🌙	yue'ya
+🌙	yue'liang
+🌙	wan'yue
+🌚	wei'xiao'de'xin'yue
+🌚	wei'xiao'de'shuo'yue
+🌛	wei'xiao'de'shang'xian'yue
+🌜	wei'xiao'de'xia'xian'yue
+🌡	wen'du'ji
+☀️	tai'yang
+🌞	tai'yang
+☀️	ri
+☀️	qing'tian
+🌝	wei'xiao'de'yue'liang
+🌝	wei'xiao'de'man'yue
+🌞	wei'xiao'de'tai'yang
+🪐	xing'xing
+🪐	tu'xing
+🪐	you'huan'xing'xing
+🪐	xing'qiu
+⭐	wu'jiao'xing
+⭐	xing'xing
+🌟	xing'xing
+✨	xing'xing
+🌟	shan'yao'de'xing'xing
+🌟	shan'liang'de'xing'xing
+🌠	liu'xing
+🌠	xu'yuan
+🌌	xing'kong
+🌌	yin'he
+🌌	yin'he'xi
+☁️	yun
+☁️	yun'cai
+☁️	yun'duo
+☁️	cloud
+☁️	tian'qi
+⛅	wu'yun'bi'ri
+⛅	duo'yun
+⛅	yin'tian
+⛈️	lei'zhen'yu
+⛈️	da'yu
+⛈️	xia'da'yu
+🌤	shao'yun
+🌤	qing'ou'you'yun
+🌤	bai'ri'xiao'yun
+🌧	xia'yu
+🌧	yu
+🌧	yu'yun
+🌨	xia'xue
+❄️	xia'xue
+🌨	xue'yun
+🌩	da'lei
+🌩	lei'yun
+🌪	long'juan'feng
+🌫	wu
+🌫	mai
+🌫	wu'mai
+🌬	feng'chui'fu'de'lian
+🌬	feng'chui'fu
+🌬	chui'fu
+🌬	chui'feng
+🌬	chui'kou'qi
+🌀	tai'feng
+🌀	xuan'feng
+🌀	ju'feng
+🌀	xuan'wo
+🌀	wen'xiang
+🌀	qi'xuan
+🌈	cai'hong
+🌂	shou'qi'de'san
+🌂	shou'qi'de'yu'san
+🌂	yu'san
+☂️	yu'san
+☔	yu'san
+☂️	da'san
+☔	da'san
+☂️	cheng'san
+☔	cheng'san
+☂️	san'zhuang
+⛱️	zhe'yang'san
+⚡	shan'dian
+⚡	gao'ya'dian
+❄️	xue
+❄️	xue'hua
+⛄	xue'ren
+⛄	dui'xue'ren
+☄️	hui'xing
+☄️	ha'lei
+☄️	ha'lei'hui'xing
+🔥	huo
+🔥	huo'yan
+🔥	ran'shao
+🔥	dian'ran
+🔥	zhao'huo
+🔥	zhao'huo'le
+🔥	huo'le
+💧	han'di
+💧	yi'di'shui
+💧	yi'di
+🌊	bo'lang
+🌊	lang'hua
+🌊	lang
+🌊	da'lang
+🎃	wan'sheng'jie
+🎃	nan'gua'deng
+🎃	nan'gua'tou
+🎄	sheng'dan'shu
+🎆	yan'hua
+🎇	yan'hua
+🎆	yan'huo
+🎇	yan'huo
+🎆	li'hua
+🎇	li'hua
+🧨	bian'pao
+🧨	zha'yao
+🧨	bao'zhu
+✨	shan'liang
+✨	shan'guang
+✨	shan'yao
+✨	jin'guang'shan'shan
+✨	jin'shan'shan
+🎈	qi'qiu
+🎈	qing'dian
+🎉	gong'xi
+🎉	zhu'he
+🎉	li'bin'hua
+🎉	pai'dui'li'bin'hua
+🎊	wu'cai'zhi'xie'qiu
+🎊	cai'se'sui'zhi
+🎊	sui'hua'cai'qiu
+🎊	tang'guo'qiu
+🎋	qi'xi
+🎋	qi'xi'shu
+🎋	qi'xi'jie
+🎍	men'song
+🎎	ri'ben'wa'wa
+🎎	ri'ben'ren'xing
+🎎	ri'ben'ren'ou
+🎏	li'yu'qi
+🎐	feng'ling
+🎑	zhong'qiu
+🎑	zhong'qiu'jie
+🎑	zhong'qiu'jia'jie
+🎑	guan'yue
+🎑	shang'yue
+🧧	hong'bao
+🧧	fa'hong'bao
+🎀	hu'die'jie
+🎁	li'wu
+🎁	li'pin
+🎁	li'wu'he
+🎁	li'pin'he
+🎁	bao'zhuang
+🎁	bao'zhuang'he
+🎗	si'dai
+🎗	huang'si'dai
+🎟	ru'chang'quan
+🎫	men'piao
+🎖	ju'gong'xun'zhang
+🎖	jun'gong'zhang
+🎖	xun'zhang
+🏆	jiang'bei
+🏆	guan'jun
+🏅	yun'dong'hui'jiang'pai
+🏅	jiang'pai
+🥇	jin'pai
+🥈	yin'pai
+🥉	tong'pai
+⚽	zu'qiu
+⚽	ying'shi'zu'qiu
+⚾	bang'qiu
+🥎	lei'qiu
+🏀	lan'qiu
+🏐	pai'qiu
+🏈	gan'lan'qiu
+🏉	gan'lan'qiu
+🏈	mei'shi'gan'lan'qiu
+🏈	mei'shi'zu'qiu
+🏉	ying'shi'gan'lan'qiu
+🎾	wang'qiu
+🥏	fei'pan
+🎳	bao'ling'qiu
+🎳	bao'ling'qiu'ping
+🏏	ban'qiu
+🏏	ban'qiu'pai
+🏑	qu'gun'qiu
+🏒	bing'qiu
+🥍	dai'gun'qiu
+🏓	ping'pang'qiu
+🏓	ping'pang'qiu'pai
+🏸	yu'mao'qiu
+🏸	yu'mao'qiu'pai
+🏸	qiu'pai
+🥊	quan'ji'shou'tao
+🥋	wu'shu'fu
+🥋	kong'shou'dao'fu
+🥋	tai'quan'dao'fu
+🥋	rou'dao'fu
+🥅	qiu'men'wang
+🥅	qiu'wang
+🥅	qiu'men
+⛳	gao'er'fu'qiu'dong
+⛸	liu'bing'xie
+⛸	liu'bing
+⛸	hua'bing
+🎣	diao'yu'gan
+🎣	yu'gan
+🎣	diao'gan
+🎣	diao'yu
+🤿	qian'shui'mian'zhao
+🤿	shen'qian
+🤿	qian'shui
+🎽	yun'dong'bei'xin
+🎿	hua'xue'qiao
+🎿	hua'xue'zhuang'bei
+🛷	xue'qiao
+🛷	cheng'xue'qiao
+🛷	jia'xue'qiao
+🛷	zuo'xue'qiao
+🥌	bing'shang'liu'shi
+🥌	liu'shi
+🥌	bing'hu
+🎯	ba'xin
+🎯	zheng'zhong'ba'xin'de'fei'biao
+🎯	fei'biao
+🎯	ming'zhong
+🪀	liu'liu'qiu
+🪀	you'you'qiu
+🪁	feng'zheng
+🪁	fang'feng'zheng
+🪁	feng'yuan
+🪁	zhi'yuan
+🔫	shui'qiang
+🔫	wan'ju'qiang
+🔫	zi'shui'qiang
+🎱	tai'qiu
+🎱	hei'ba
+🔮	shui'jing'qiu
+🔮	zhan'bu
+🪄	mo'fa'bang
+🪄	mo'bang
+🎮	shou'bing
+🎮	you'xi'shou'bing
+🎮	shi'pin'you'xi'shou'bing
+🎮	dian'zi'you'xi'shou'bing
+🕹	cao'kong'gan
+🕹	you'xi'cao'kong'gan
+🕹	yao'gan
+🕹	you'xi'yao'gan
+🎰	lao'hu'ji
+🎰	du'chang
+🎰	du'bo
+🎲	du'bo
+🎲	shai'zi
+🎲	tou'zi
+🎲	jiu'zhuo'you'xi
+🧩	pin'tu
+🧩	pin'tu'kuai
+🧩	pin'kuai
+🧩	pin'kuai'er
+🧸	tai'di'xiong
+🧸	tai'di
+🪅	pi'na'ta
+🪩	jing'mian'qiu
+🪩	di'si'ke
+🪆	e'luo'si'tao'wa
+🪆	tao'wa
+♠️	pu'ke
+♥️	pu'ke
+♦️	pu'ke
+♣️	pu'ke
+🃏	pu'ke
+♠️	hei'tao
+♥️	hong'tao
+♥️	ai
+♥️	xin
+♥️	hong'xin
+♦️	fang'pian
+♦️	fang'ban
+♣️	mei'hua
+♣️	cao'hua
+♟	guo'ji'xiang'qi'bing
+♟	guo'ji'xiang'qi
+🃏	da'xiao'wang
+🃏	dai'wang
+🃏	xiao'wang
+🃏	xiao'chou'pai
+🃏	gui'pai
+🃏	joker
+🀄	hong'zhong
+🀄	zhong
+🀄	ma'jiang
+🎴	hua'pu'ke'pai
+🎴	pu'ke'pai
+🎭	biao'yan'yi'shu
+🎭	mian'ju
+🖼	dai'hua'kuang'de'tu'pian
+🖼	dai'kuang'de'hua
+🖼	hua'kuang
+🖼	yi'fu'hua
+🎨	hua'hua
+🎨	tiao'se'ban
+🎨	tiao'se'pan
+🎨	yi'shu
+🎨	mei'shu
+🧵	xian'zhou
+🪡	zhen
+🪡	xiu'hua'zhen
+🪡	feng'ren'zhen
+🧶	xian'tuan
+🧶	mao'xian
+🧶	sha'xian
+🧶	mao'xian'qiu
+🪢	sheng'zi
+🪢	sheng'jie
+🪢	da'jie
+👓	yan'jing
+👓	jin'shi
+👓	jin'shi'yan
+🥽	hu'mu'jing
+🥽	yong'jing
+🥽	you'yong'jing
+🥼	shi'yan'shi'wai'yi
+🥼	bai'da'gua
+🥼	bai'da'gua'er
+🦺	an'quan'bei'xin
+🦺	jiu'sheng'yi
+👔	chen'shan'ling'dai
+👔	ling'dai
+👔	yi'fu
+👕	chen'shan
+👕	xu'shan
+👕	duan'xiu
+👕	shang'yi
+👕	T恤
+👕	T恤衫
+👕	nan'chen'shan
+👕	nan'shi'chen'shan
+👕	han'shan
+👖	niu'zai'ku
+👖	ku'zi
+🧣	wei'jin
+🧤	shou'tao
+🧥	wai'tao
+🧥	jia'ke
+🧥	jia'ke'shan
+🧦	wa'zi
+🧦	duan'wa
+👗	lian'yi'qun
+👗	chang'qun
+👗	qun'zi
+👘	he'fu
+👘	yu'yi
+🥻	sha'li
+🩱	lian'ti'yong'yi
+🩱	yong'yi
+🩱	yong'zhuang
+👙	yong'zhuang
+🩲	san'jiao'ku
+🩲	nei'ku
+🩲	di'ku
+🩳	si'jiao'ku
+🩳	duan'ku
+👙	san'dian'shi
+👙	bi'ji'ni
+👙	nei'yi
+👚	nv'zhuang
+👚	nv'shi'chen'shan
+👚	nv'chen'shan
+🪭	shan'zi
+🪭	zhe'shan
+👛	qian'bao
+👛	ling'qian'bao
+👛	nv'shi'qian'bao
+👜	shou'ti'bao
+👜	kua'bao
+👜	nv'bao
+👜	bao'bao
+👝	shou'na'bao
+👝	he'bao
+👝	pi'bao
+🛍	gou'wu'dai
+🎒	shu'bao
+🎒	shuang'jian'bao
+🎒	bei'bao
+🎒	bei'nang
+🩴	liang'xie
+👡	liang'xie
+🩴	jia'zhi'liang'xie
+🩴	sha'tan'liang'xie
+🩴	tuo'xie
+🩴	ren'zi'tuo
+👞	pi'xie
+👞	nan'xie
+👟	wang'qiu'xie
+👟	pao'xie
+👟	yun'dong'xie
+👟	ban'xie
+👟	ban'er'xie
+👟	xiu'xian'xie
+👟	xie'zi
+🥾	deng'shan'xie
+🥿	ping'di'xie
+👠	gao'gen'xie
+👠	gao'gen'er
+👠	gao'gen'er'xie
+👠	nv'xie
+👡	nv'shi'liang'xie
+👡	gao'gen'liang'xie
+👡	gao'gen'er'liang'xie
+🩰	ba'lei'wu'xie
+🩰	zu'jian'xie
+👢	gao'gen'xue
+👢	gao'gen'er'xue
+👢	nv'xue
+👢	xue'zi
+👢	chang'xue
+🪮	cha'shu
+🪮	shu'zi
+👑	wang'guan
+👑	huang'guan
+👑	huang'zu
+👒	dai'hu'die'jie'de'mao'zi
+👒	nv'mao
+👒	kuan'yan'mao
+🎩	mao'zi
+🎩	li'mao
+🎩	gao'mao
+🎓	si'fang'mao
+🎓	bi'ye'mao
+🎓	xue'shi'mao
+🧢	bang'qiu'mao
+🧢	ya'she'mao
+🪖	jun'yong'tou'kui
+🪖	tou'kui
+🪖	jun'ren
+🪖	jun'kui
+⛑️	an'quan'mao
+⛑️	bai'shi'zi'tou'kui
+⛑️	bai'shi'zi'an'quan'mao
+⛑️	shi'zi'an'quan'mao
+⛑️	shi'zi'tou'kui
+📿	nian'zhu
+💄	kou'hong
+💄	chun'gao
+💍	jie'zhi
+💍	zuan'jie
+💍	qiu'hun'jie
+💍	ding'hun'jie
+💍	xing'zuan
+💎	bao'shi
+💎	zuan'shi
+🔇	yi'jing'yin'de'yang'sheng'qi
+🔇	yang'sheng'qi'guan'bi
+🔇	jing'yin
+🔈	yang'sheng'qi
+🔉	yang'sheng'qi
+🔊	yang'sheng'qi
+🔉	zhong'deng'yin'liang
+🔉	zhong'deng'yin'liang'de'yang'sheng'qi
+🔊	da'yin'liang
+🔊	gao'yin'liang
+🔊	gao'yin'liang'de'yang'sheng'qi
+📢	gong'gong'guang'bo
+📢	la'ba
+📣	la'ba
+📣	la'ba'tong
+📣	da'la'ba
+📯	you'zheng'la'ba
+🔔	ling'dang
+🔕	jing'yin'ling'dang
+🔕	xiang'ling'guan'bi
+🔕	jin'zhi'xiang'ling
+🎼	yue'pu
+🎼	wu'xian'pu
+🎵	yin'fu
+🎶	yin'fu
+🎵	yin'yue
+🎶	yin'yue
+🎙	mai'ke'feng
+🎤	mai'ke'feng
+🎙	lu'yin'shi'mai'ke'feng
+🎙	lu'yin'mai'ke'feng
+🎚	dian'ping'hua'kuai
+🎚	hua'kuai
+🎛	kong'zhi'xuan'niu
+🎛	xuan'niu
+🎧	tou'dai'shi'er'ji
+🎧	er'ji
+📻	shou'yin'ji
+📻	wu'xian'dian
+📻	dian'tai
+🎷	sa'ke'si
+🎷	sa'ke'si'feng
+🎷	sa'ke'si'guan
+🎷	guan'xian'yue'qi
+🪗	shou'feng'qin
+🎸	ji'ta
+🎸	dian'ji'ta
+🎹	yin'yue'jian'pan
+🎹	gang'qin
+🎹	gang'qin'an'jian
+🎹	gang'qin'jian
+🎹	qin'jian
+🎺	xiao'hao
+🎻	xiao'ti'qin
+🎻	ti'qin
+🪕	ban'zhuo'qin
+🥁	gu
+🥁	da'gu
+🥁	qiao'gu
+🪘	chang'gu
+🪘	kang'jia'gu
+🪇	sha'chui
+🪈	di'zi
+🪈	chang'di
+🪈	shu'di
+📱	yi'dong'dian'hua
+📱	shou'ji
+📱	zhi'neng'shou'ji
+📲	lai'dian
+📲	shou'ji'lai'dian
+☎️	dian'hua
+☎️	gu'ding'dian'hua
+☎️	gu'hua
+☎️	zuo'ji
+📞	dian'hua'ting'tong
+📞	dian'hua'tong
+📟	chuan'hu'ji
+📟	hu'ji
+📟	xun'hu'ji
+📠	chuan'zhen
+📠	chuan'zhen'ji
+📠	fa'chuan'zhen
+🔋	dian'chi
+🔋	dian'liang
+🪫	dian'liang
+🔋	dian'yuan
+🔌	dian'yuan
+🔋	xu'dian'chi
+🪫	di'dian'liang
+🪫	dian'liang'di
+🪫	dian'chi'bu'zu
+🪫	dian'liang'bu'zu
+🔌	cha'tou
+🔌	dian'cha'tou
+🔌	dian'yuan'cha'tou
+💻	bi'ji'ben'dian'nao
+💻	ge'ren'dian'nao
+💻	shou'ti'dian'nao
+💻	bi'dian
+🖥	tai'shi'dian'nao
+🖥	dian'nao
+🖥	xian'shi'qi
+🖥	xian'shi'ping
+🖥	ji'suan'ji
+🖨	da'yin'ji
+🖨	yin'shua'ji
+⌨️	jian'pan
+⌨️	dian'nao'jian'pan
+🖱	dian'nao'shu'biao
+🖱	shu'biao
+🖲	gui'ji'qiu
+💽	guang'pan
+💽	guang'die
+💽	mi'ni'guang'pan
+💽	mi'ni'guang'die
+💽	dian'nao'guang'pan
+💾	ruan'pan
+💿	CD
+📀	DVD
+🧮	suan'pan
+🧮	da'suan'pan
+🎥	she'xiang'ji
+📹	she'xiang'ji
+🎥	she'lu'ji
+🎥	she'ying'ji
+🎥	dian'ying'she'ying'ji
+🎞	dian'ying'jiao'pian
+🎞	jiao'juan
+🎞	jiao'pian
+🎞	dian'ying
+🎞	fei'lin
+📽	dian'ying'fang'ying'ji
+📽	fang'ying'ji
+📽	shang'ying
+🎬	chang'ji
+🎬	chang'ji'ban
+🎬	da'ban
+🎬	pai'dian'ying
+🎬	action
+📺	dian'shi
+📺	dian'shi'ji
+📺	TV
+📷	xiang'ji
+📷	ka'pian'xiang'ji
+📷	zhao'xiang'ji
+📸	kai'shan'guang'deng'de'xiang'ji
+📸	pai'zhao
+📸	shan'guang'deng
+📸	shan'guang'deng'da'kai
+📼	lu'xiang'dai
+📼	lu'ying'dai
+📼	ci'dai
+🔍	fang'da'jing
+🔎	fang'da'jing
+🕯	la'zhu
+🕯	zhu'guang
+🕯	zhu'huo
+💡	deng'pao
+💡	dian'deng'pao
+💡	bai'chi'deng
+💡	deng
+💡	dian'deng
+🔦	shou'dian
+🔦	shou'dian'tong
+🔦	dian'tong
+🔦	zhao'ming
+🏮	ju'jiu'wu'deng'long
+🏮	ju'jiu'wu
+🏮	deng'long
+🏮	hong'deng'long
+🏮	da'hong'deng'long
+🏮	da'hong'deng'long'gao'gao'gua
+🪔	you'deng
+📔	bi'ji'ben
+📓	bi'ji'ben
+📒	bi'ji'ben
+📔	ji'shi'ben
+📓	ji'shi'ben
+📒	ji'shi'ben
+📔	ri'ji'ben
+📓	ri'ji'ben
+📒	ri'ji'ben
+📕	hong'se'de'shu
+📕	hong'se'shu'ben
+📕	xiao'hong'shu
+📕	di'yi'juan
+📖	shu
+📚	shu
+📖	tu'shu
+📚	tu'shu
+📖	shu'ben
+📚	shu'ben
+📖	shu'ji
+📚	shu'ji
+📖	da'kai'de'shu
+📖	da'kai'de'shu'ben
+📗	lv'se'de'shu
+📗	lv'se'shu'ben
+📗	jiao'ke'shu
+📗	di'er'juan
+📘	lan'se'de'shu
+📘	lan'se'shu'ben
+📘	di'san'juan
+📙	cheng'se'de'shu
+📙	cheng'se'shu'ben
+📙	ju'se'de'shu
+📙	ju'se'shu'ben
+📙	di'si'juan
+📒	zhang'bu
+📃	dai'juan'bian'de'zhi
+📃	juan'bian'de'zhi
+📜	juan'zhou
+📄	zhi
+📄	wen'shu
+📄	wen'jian
+📰	bao'zhi
+📰	xin'wen
+🗞	juan'qi'de'bao'zhi
+🗞	bao'zhi'juan
+📑	shu'qian'biao'qian
+📑	biao'qian'ye
+📑	ye'qian
+🔖	shu'qian
+🏷	biao'qian
+🏷	diao'pai
+💰	qian
+💰	jin'qian
+💲	jin'qian
+💰	qian'dai
+💰	gong'zi
+💰	jiang'jin
+💰	money
+🪙	ying'bi
+🪙	gang'beng
+🪙	gang'beng'er
+🪙	qian'bi
+💴	ri'yuan'chao'piao
+💵	mei'yuan'chao'piao
+💵	chao'piao
+💵	zhi'bi
+💶	ou'yuan'chao'piao
+💷	ying'bang'chao'piao
+💸	zhang'chi'bang'de'qian
+💸	zhang'le'chi'bang'de'qian
+💸	chi'bang'qian
+💸	hua'qian
+💸	qian'fei'le
+💳	xin'yong'ka
+💳	jie'ji'ka
+💳	dai'ji'ka
+💳	yin'hang'ka
+🧾	ping'ju
+🧾	fa'piao
+🧾	shou'ju
+🧾	zhang'dan
+✉️	xin'jian
+✉️	xin'feng
+✉️	xie'xin
+📧	dian'zi'you'jian
+📧	you'jian
+📧	email
+📨	lai'xin
+📨	shou'dao'lai'xin
+📨	shou'dao'you'jian
+📥	shou'dao'you'jian
+📨	xin'you'jian
+📤	fa'jian
+📤	fa'jian'xiang
+📤	fa'xin
+📤	fa'you'jian
+📥	shou'jian
+📥	shou'jian'xiang
+📥	shou'xin
+📥	shou'you'jian
+📦	bao'guo
+📦	kuai'di
+📦	zhi'xiang
+📦	zhi'xiang'zi
+📦	xiang'zi
+📦	da'bao
+📦	he'zi
+📪	xin'xiang
+📮	you'tong
+📮	you'xiang
+🗳	tou'piao
+🗳	tou'piao'xiang
+🗳	xuan'piao
+✏️	qian'bi
+✒️	gang'bi
+🖋	gang'bi
+🖊	yuan'zhu'bi
+🖌	hua'bi
+🖍	la'bi
+📝	bei'wang'lu
+📝	bei'wang
+📝	bian'jian
+💼	gong'wen'bao
+💼	gong'shi'bao
+💼	shang'ban
+💼	gong'zuo
+📁	wen'jian'jia
+📂	wen'jian'jia
+🗂	ka'pian'suo'yin'fen'ge'ka
+📅	ri'li
+📆	shou'si'ri'li
+🗒	xian'quan'bi'ji'ben
+🗒	xian'quan'ben
+🗓	xian'quan'ri'li
+📇	ka'pian'suo'yin
+📇	ka'pai'suo'yin
+📈	shang'sheng
+📈	shang'zhang
+📈	bao'zhang
+📉	xia'jiang
+📉	xia'die
+📉	bao'die
+📊	tu'biao
+📊	tiao'xing'tu
+📊	zhu'xing'tu
+📊	zhu'zhuang'tu
+📋	xie'zi'ban
+📋	jian'tie'ban
+📌	tu'ding
+📍	yuan'tu'ding
+📍	da'tou'zhen
+📎	hui'xing'zhen
+🖇	hui'xing'zhen
+📎	qu'bie'zhen
+🖇	qu'bie'zhen
+📏	zhi'chi
+📏	chi'zi
+📐	san'jiao'chi
+📐	san'jiao'ban
+✂️	jian'dao
+✂️	jian'zi
+🗃	ka'pian'he
+🗃	ka'pian'cun'dang'he
+🗄	wen'jian'gui
+🗑	fei'zhi'lou
+🗑	la'ji'tong
+🗑	la'ji'lou
+🗑	la'ji
+🔒	suo
+🔓	suo
+🔒	he'shang'de'suo
+🔒	men'suo
+🔓	men'suo
+🔒	suo'tou
+🔓	suo'tou
+🔒	shang'suo
+🔒	suo'shang
+🔒	suo'zhu
+🔓	da'kai'de'suo
+🔓	jie'suo
+🔐	jie'suo
+🔓	kai'suo
+🔏	dai'mo'shui'bi'de'suo
+🔏	yin'mi
+🔐	yi'suo'shang'dan'gua'zhe'yao'shi'de'suo
+🔐	mi'yue
+🔑	yao'shi
+🗝	yao'shi
+🗝	gu'lao'de'yao'shi
+🗝	lao'yao'shi
+🗝	jiu'yao'shi
+🗝	lao'shi'yao'shi
+🗝	fu'gu'yao'shi
+🔨	chui'zi
+🔨	tie'chui
+🪓	fu'zi
+🪓	fu'tou
+⛏️	tie'gao
+⛏️	chu'tou
+⛏️	he'zui'chu
+⚒️	chui'zi'yu'gao
+⚒️	chui'zi'he'gao
+🛠	chui'zi'he'ban'shou
+🛠	chui'zi'yu'ban'shou
+🛠	chui'zi'ban'shou
+🛠	gong'ju
+🗡	bi'shou
+🗡	duan'dao
+🗡	duan'jian
+⚔️	shuang'jian
+⚔️	shuang'jian'jiao'cha
+⚔️	zhan'dou
+⚔️	kai'zhan
+⚔️	kai'shi'zhan'dou
+⚔️	fight
+💣	zha'dan
+💣	boom
+🪃	hui'xuan'biao
+🪃	fei'xuan'biao
+🪃	hui'li'bang
+🪃	hui'li'biao
+🪃	fei'qu'lai'qi
+🪃	hui'fei'bang
+🏹	gong'jian
+🏹	gong'he'jian
+🛡	dun'pai
+🪚	shou'ju
+🪚	ju'zi
+🔧	ban'shou
+🔧	luo'si'ban'shou
+🪛	luo'si'dao
+🔩	luo'mu'ji'luo'shuan
+🔩	luo'mu'yu'luo'shuan
+🔩	luo'mu'he'luo'shuan
+🔩	luo'mu'luo'shuan
+⚙️	chi'lun
+🗜	jia'qian
+⚖️	tian'ping
+🦯	bai'shou'zhang
+🦯	shou'zhang
+🔗	lian'jie
+🔗	link
+⛓️	lian'tiao
+⛓️	tie'lian
+⛓️	suo'lian
+⛓️	lian'zi
+⛓️	tie'lian'zi
+🪝	gou'zi
+🪝	gua'gou
+🪝	tie'gou
+🪝	wan'gou
+🧰	gong'ju'xiang
+🧲	ci'tie
+🧲	xi'tie'shi
+🧲	ci'li
+🧲	ci'shi
+🪜	ti'zi
+🪜	pa'ti
+🪜	pa'ti'zi
+🪜	da'ti'zi
+🪜	fan'qiang
+🪜	ke'xue'shang'wang
+🪜	mo'fa'shang'wang
+⚗️	zheng'liu'qi
+🧪	shi'guan
+🧫	pei'yang'min
+🧬	DNA
+🧬	tuo'yang'he'tang'he'suan
+🧬	ji'yin
+🔬	xian'wei'jing
+🔭	wang'yuan'jing
+📡	wei'xing'tian'xian
+📡	tian'xian
+📡	jie'shou'tian'xian
+💉	zhu'she'qi
+💉	da'zhen
+🩸	xue'di
+🩸	di'xue
+💊	yao'wan
+💊	jiao'nang
+🩹	chuang'ke'tie
+🩹	chuang'kou'tie
+🩼	guai'zhang
+🩺	ting'zhen'qi
+🩻	X射线
+🩻	X光
+🩻	X光片
+🩻	pai'pian
+🩻	xiong'tou
+🩻	xiong'pian
+🚪	men
+🚪	fang'men
+🚪	men'zi
+🛗	dian'ti
+🛗	sheng'jiang'ji
+🪞	jing'zi
+🪞	mo'jing
+🪟	chuang'hu
+🛏	chuang
+🛋	sha'fa'he'deng
+🛋	sha'fa
+🪑	yi'zi
+🪑	deng'zi
+🚽	ma'tong
+🪠	ma'tong'xi
+🪠	chuai'zi
+🪠	ma'tong'chuai
+🪠	ma'tong'chuai'zi
+🪠	shui'ba'zi
+🪠	pi'lao'hu
+🪠	ma'tong'xi'pan
+🪠	xi'ba
+🪠	ma'tong'xi'ba
+🪠	ma'tong'shu'tong'qi
+🪠	tong'tong'le
+🪠	ma'tong'sai
+🪠	ma'tong'chou'zi
+🚿	lin'yu
+🚿	pen'tou
+🛁	yu'gang
+🪤	bu'shu'qi
+🪒	ti'dao
+🪒	ti'xu'dao
+🪒	gua'hu'dao
+🪒	shou'dong'gua'hu'dao
+🧴	ru'ye
+🧴	ru'ye'ping
+🧴	hu'fu'shuang
+🧴	xi'fa'shui
+🧴	mu'yu'lu
+🧴	xi'fa'lu
+🧷	an'quan'bie'zhen
+🧷	bie'zhen
+🧷	kou'zhen
+🧹	sao'zhou
+🧹	sao'ba
+🧹	tiao'zhou
+🧺	lan'zi
+🧺	zhu'lan
+🧺	cai'lan
+🧺	cai'lan'zi
+🧻	wei'sheng'zhi
+🧻	juan'zhi
+🧻	zhi'jin
+🪣	shui'tong
+🪣	yuan'tong
+🧼	fei'zao
+🧼	xiang'zao
+🫧	pao'pao
+🫧	qi'pao
+🪥	ya'shua
+🪥	shua'ya
+🧽	hai'mian
+🧽	qing'xi
+🧯	mie'huo'qi
+🛒	gou'wu'che
+🛒	shou'tui'che
+🚬	yan
+🚬	xiang'yan
+🚬	juan'yan
+🚬	zhi'yan
+🚬	xi'yan
+🚬	chou'yan
+🚬	kao'yan
+🚬	dian'yan
+🚬	lai'yi'gen
+🚬	lai'yi'gen'er
+🚬	yi'zhi'yan
+⚰️	guan'cai
+⚰️	ling'jiu
+🪦	mu'bei
+🪦	fen'mu
+⚱️	gu'hui'he
+⚱️	gu'hui'gang
+⚱️	feng'jin'weng
+⚱️	huang'jin'weng
+⚱️	jin'weng
+⚱️	jin'ta
+⚱️	gu'weng
+⚱️	gu'tan
+🧿	e'mo'zhi'yan
+🧿	e'mo'yan
+🧿	e'mo'de'yan
+🪬	fa'di'ma
+🪬	fa'di'ma'zhi'shou
+🗿	fu'huo'dao
+🗿	fu'huo'jie'dao
+🗿	fu'huo'jie'dao'shi'xiang
+🗿	mo'ai'shi'xiang
+🪧	biao'yu
+🪧	bu'gao
+🪧	bu'gao'pai
+🪧	biao'yu'pai
+🪪	shen'fen'zheng
+🆔	shen'fen'zheng
+🪪	ID
+🆔	ID
+🪪	jia'zhao
+🪪	zhi'zhao
+🪪	zheng'jian
+🪪	zheng'zhao
+🏧	ATM
+🏧	qu'kuan'ji
+🏧	ti'kuan'ji
+🚮	la'ji'ru'lou'biao'zhi
+🚮	la'ji'ru'lou
+🚮	la'ji'diu'qi'chu
+🚮	diu'la'ji
+🚮	reng'la'ji
+🚮	dao'la'ji
+🚰	shui'long'tou
+🚰	yin'yong'shui
+🚰	zhi'yin'shui
+🚰	yin'shui'chu
+♿	lun'yi'biao'zhi
+🚹	nan'shi'biao'zhi
+🚹	nan'shi'fu'hao
+🚹	nan'shi
+🚹	nan'ce
+🚹	nan'ce'suo
+🚹	nan'xi'shou'jian
+🚺	nv'shi'biao'zhi
+🚺	nv'shi'fu'hao
+🚺	nv'shi
+🚺	nv'ce
+🚺	nv'ce'suo
+🚺	nv'xi'shou'jian
+🚻	wei'sheng'jian
+🚾	wei'sheng'jian
+🚻	ce'suo
+🚾	ce'suo
+🚻	xi'shou'jian
+🚻	guan'xi'shi
+🚼	ying'er'fu'hao
+🚼	ying'er'biao'zhi
+🚾	WC
+🛂	hu'zhao'jian'cha'chu
+🛂	an'jian
+🛂	hu'zhao'jian'cha
+🛂	jian'cha'hu'zhao
+🛃	hai'guan
+🛃	hai'guan'jian'cha
+🛄	xing'li'ling'qu'chu
+🛄	xing'li'ling'qu
+🛄	ling'qu'xing'li
+🛅	xing'li'ji'cun'chu
+🛅	xing'li'ji'cun
+🛅	ji'cun'xing'li
+⚠️	jing'gao
+⚠️	zhu'yi
+⚠️	wei'xian
+⚠️	yu'jing
+🚸	xue'tong'guo'jie
+🚸	er'tong'guo'jie
+🚸	zhu'yi'er'tong
+🚸	dang'xin'er'tong
+⛔	jin'zhi'shi'ru
+⛔	jin'zhi'tong'xing
+⛔	qing'wu'ru'nei
+⛔	qing'wu'shi'ru
+🚫	jin'zhi
+🈲	jin'zhi
+🚫	yan'jin
+🈲	yan'jin
+🚫	bu'zhun
+🚫	bu'xu
+🚳	jin'zhi'qi'che
+🚳	jin'zhi'qi'xing
+🚳	jin'zhi'zi'xing'che
+🚭	jin'zhi'xi'yan
+🚭	qing'wu'xi'yan
+🚭	jin'yan
+🚯	wu'reng'la'ji
+🚯	wu'diu'la'ji
+🚯	qing'wu'luan'diu'la'ji
+🚯	qing'wu'luan'reng'la'ji
+🚯	jin'diu'la'ji
+🚯	jin'zhi'reng'la'ji
+🚯	jin'zhi'diu'la'ji
+🚯	jin'zhi'luan'reng'la'ji
+🚯	jin'zhi'luan'diu'la'ji
+🚱	fei'yin'yong'shui
+🚱	qing'wu'yin'yong
+🚷	jin'zhi'xing'ren
+🚷	jin'zhi'xing'ren'tong'xing
+📵	jin'zhi'shi'yong'shou'ji
+📵	jin'zhi'da'dian'hua
+🔞	shi'ba'jin
+🔞	wei'cheng'nian
+🔞	wei'cheng'nian'bu'yi
+🔞	cheng'ren
+☢️	fang'she'xing
+☢️	fu'she
+☣️	sheng'wu'wei'hai
+☣️	sheng'hua'wei'ji
+☣️	wen'yi'gong'si
+⬆️	shang
+↑	shang
+⬆️	shang'jian'tou
+↑	shang'jian'tou
+⬆️	xiang'shang'jian'tou
+↗️	you'shang
+↗	you'shang
+↗️	you'shang'jian'tou
+↗	you'shang'jian'tou
+➡️	you
+→	you
+➡️	you'jian'tou
+→	you'jian'tou
+➡️	xiang'you'jian'tou
+↘️	you'xia
+↘	you'xia
+↘️	you'xia'jian'tou
+↘	you'xia'jian'tou
+⬇️	xia
+↓	xia
+⬇️	xia'jian'tou
+↓	xia'jian'tou
+⬇️	xiang'xia'jian'tou
+↙️	zuo'xia
+↙	zuo'xia
+↙️	zuo'xia'jian'tou
+↙	zuo'xia'jian'tou
+⬅️	zuo
+←	zuo
+⬅️	zuo'jian'tou
+←	zuo'jian'tou
+⬅️	xiang'zuo'jian'tou
+↖️	zuo'shang
+↖	zuo'shang
+↖️	zuo'shang'jian'tou
+↖	zuo'shang'jian'tou
+↕️	shang'xia
+↕	shang'xia
+↕️	shang'xia'jian'tou
+↕	shang'xia'jian'tou
+↔️	zuo'you
+↔︎	zuo'you
+↔️	zuo'you'jian'tou
+↔︎	zuo'you'jian'tou
+↩️	hui'che
+🔃	chong'xin'zai'ru
+🔃	shun'shi'zhen
+🔃	shun'shi'zhen'fang'xiang
+🔃	shun'shi'zhen'chui'zhi'jian'tou
+🔄	ni'shi'zhen
+🔄	ni'shi'zhen'fang'xiang
+🔄	ni'shi'zhen'chui'zhi'jian'tou
+🔙	back
+🔙	tui'hui
+🔚	end
+🔚	jie'shu
+🔛	on
+🔛	kai'qi
+🔜	soon
+🔜	ma'shang
+🔝	top
+🛐	dao'gao
+⚛️	yuan'zi'fu'hao
+⚛️	yuan'zi
+⚛️	atom
+🕉	ao'mu
+🕉	ao'mu'fu'hao
+✡️	da'wei'zhi'xing
+☸️	fa'lun
+☯️	tai'ji
+☯️	yin'yang
+✝️	shi'zi'jia
+✝️	ji'du
+✝️	ji'du'jiao
+☦️	dong'zheng'jiao
+☦️	dong'zheng'jiao'shi'zi'jia
+☪️	xing'yue
+☮️	he'ping
+☮️	he'ping'fu'hao
+☮️	he'ping'biao'zhi
+☮️	shi'jie'he'ping
+☮️	peace
+🕎	guang'ming'jie
+🔯	liu'jiao'xing
+🔯	liu'mang'xing
+🔯	mo'fa'zhen
+🪯	xi'ke
+🪯	xi'ke'jiao
+🪯	kan'da
+🪯	kan'da'fu'hao
+♈	bai'yang'zuo
+♉	jin'niu'zuo
+♊	shuang'zi'zuo
+♋	ju'xie'zuo
+♌	shi'zi'zuo
+♍	chu'nv'zuo
+♎	tian'cheng'zuo
+♏	tian'xie'zuo
+♐	she'shou'zuo
+♑	mo'jie'zuo
+♒	shui'ping'zuo
+♓	shuang'yu'zuo
+⛎	she'fu'zuo
+🔀	sui'ji'bo'fang
+🔀	sui'ji
+🔀	jiao'cha'jian'tou
+🔁	xun'huan'bo'fang
+🔂	dan'qu'xun'huan
+▶️	bo'fang
+▶️	kai'shi
+▶️	kai'shi'bo'fang
+⏩	kuai'jin
+⏩	kuai'jin'fu'hao
+⏭️	xia'yi'shou
+⏯️	bo'fang'zan'ting
+◀️	dao'tui
+◀️	dao'tui'an'niu
+⏪	kuai'tui
+⏪	kuai'tui'fu'hao
+⏮️	shang'yi'shou
+🔼	shang'san'jiao
+🔼	tiao'gao
+⏫	kuai'shang
+🔽	xia'san'jiao
+🔽	tiao'di
+⏬	kuai'xia
+⏸️	zan'ting
+⏹️	ting'zhi
+⏺️	lu'yin
+⏺️	lu'yin'an'niu
+⏺️	kai'shi'lu'yin
+⏺️	lu'xiang
+⏺️	lu'xiang'an'niu
+⏺️	kai'shi'lu'xiang
+⏏️	tan'chu
+⏏️	tui'chu
+⏏️	tan'chu'an'niu
+⏏️	tui'chu'an'niu
+🎦	dian'ying'yuan
+🔅	liang'du
+🔆	liang'du
+🔅	liang'du'di
+🔅	di'liang'du
+🔆	liang'du'gao
+🔆	gao'liang'du
+📶	xin'hao'qiang'du'tiao
+📶	xin'hao'qiang'du
+📶	xin'hao
+📶	shou'ji'xin'hao
+🛜	wireless
+🛜	WiFi
+🛜	Wi-Fi
+🛜	wu'xian'ju'yu'wang
+🛜	wu'xian'wang
+🛜	wu'xian'wang'luo
+🛜	wang'luo
+📳	zhen'dong
+📳	zhen'dong'mo'shi
+📴	guan'ji
+📴	shou'ji'guan'ji
+📴	guan'bi'shou'ji
+♀	nv
+♀	nv'xing
 ♂	nan
-♂	man
-♂	men
-♁	nv
-♁	woman
-♁	women
-💯	bai
+♂	nan'xing
+⚧	kua'xing'bie
+🏳️‍⚧️	kua'xing'bie
+⚧	kua'xing'bie'fu'hao
+⚧	bian'xing
+✖️	sheng
+✖️	cheng'yi
+✖️	cheng'hao
+➕	jia
+➕	jia'hao
+➖	jian
+➖	jian'hao
+➗	chu
+➗	chu'yi
+➗	chu'hao
+🟰	deng'yu
+🟰	deng'hao
+🟰	deng'yu'hao
+🟰	cu'deng'hao
+‼️	shuang'gan'tan'hao
+‼️	shuang'jing'tan'hao
+‼️	shuang'tan'hao
+‼️	lia'tan'hao
+⁉️	yi'wen'jing'tan'hao
+⁉️	yi'wen'jing'tan
+⁉️	tan'wen'hao
+⁉️	tan'hao'wen'hao
+⁉️	gan'tan'hao'wen'hao
+⁉️	jing'wen
+❓	wen'hao
+❔	wen'hao
+❔	bai'se'wen'hao
+❔	bai'wen'hao
+❗	gan'tan'hao
+❕	gan'tan'hao
+❗	jing'tan'hao
+❕	jing'tan'hao
+❗	tan'hao
+❕	tan'hao
+❕	bai'se'gan'tan'hao
+❕	bai'se'jing'tan'hao
+❕	bai'se'tan'hao
+❕	bai'gan'tan'hao
+❕	bai'jing'tan'hao
+❕	bai'tan'hao
+〰️	bo'lang'xing'po'zhe'hao
+〰️	bo'lang'xian
+💱	dui'huan
+💱	wai'hui
+💱	huan'hui
+💱	hui'lv
+💱	liu'tong
+💱	huo'bi'dui'huan
+💱	chu'guo
+💲	cu'mei'yuan'fu'hao
+💲	huo'bi
+💲	jia'qian
+⚕	yi'liao'biao'zhi
+⚕	yi'liao'fu'hao
+⚕	she'zhang
+⚕	a'si'ke'le'bi'e'si
+⚕	dan'she'zhi'zhang
+♻️	huan'bao
+♻️	xun'huan
+♻️	xun'huan'zai'sheng
+♻️	xun'huan'li'yong
+♻️	hui'shou
+⚜️	bai'he'hua'shi
+⚜️	bai'he'hua
+⚜️	yuan'wei'hua
+🔱	san'cha'ji
+🔱	san'cha'ji'biao'zhi
+📛	xing'ming'pai
+🔰	ri'ben'xin'shou'jia'shi'biao'zhi
+🔰	ri'ben'chu'xue'zhe'biao'zhi
+⭕	dui
+✅	dui
+✔	dui
+⭕	da'dui
+✅	da'dui
+⭕	da'dui'le
+✅	da'dui'le
+⭕	zheng'que
+✅	zheng'que
+✔	zheng'que
+⭕	yuan'quan
+✅	dui'hao
+✔	dui'hao
+✅	dui'gou
+✔	dui'gou
+☑️	an'niu
+🔘	an'niu
+☑️	gou'xuan
+✔	gou'xuan
+☑️	fu'xuan
+☑️	fu'xuan'kuang
+☑️	fu'xuan'an'niu
+☑️	da'gou
+☑️	da'dui'gou
+❌	cuo
+❎	cuo
+❌	da'cuo
+❎	da'cuo
+❌	da'cuo'le
+❎	da'cuo'le
+❌	cuo'hao
+❎	cuo'hao
+❌	cuo'wu
+❎	cuo'wu
+❌	cha
+❎	cha
+❌	cha'cha
+❎	cha'cha
+❌	hua'cha
+❎	hua'cha
+➰	juan'qu'huan
+➿	shuang'juan'qu'huan
+〽️	ge'ji'hao
+✳️	ba'lun'fu'xing'hao
+✴️	ba'jiao'xing
+©	ban'quan
+©	ban'quan'fu'hao
+©	Copyright
+®	zhu'ce
+®	zhu'ce'biao'ji
+®	zhu'ce'shang'biao'fu'hao
+®	zhu'ce'shang'biao
+®	Registered
+™	shang'biao
+™	shang'biao'fu'hao
+™	TM
+#️⃣	jing'hao
+#️⃣	jing'hao'jian
+*️⃣	xing'hao
+*️⃣	xing'hao'jian
+0️⃣	ling
+1️⃣	yi
+2️⃣	er
+3️⃣	san
+4️⃣	si
+5️⃣	wu
+6️⃣	liu
+7️⃣	qi
+8️⃣	ba
+9️⃣	jiu
+🔟	shi
+🔠	ABCD
+🔠	ying'wen
+🔡	ying'wen
+🔠	ying'yu
+🔡	ying'yu
+🔠	la'ding'wen
+🔡	la'ding'wen
+🔠	da'xie
+🔠	ying'wen'da'xie
+🔠	da'xie'zi'mu
+🔡	abcd
+🔡	xiao'xie
+🔡	ying'wen'xiao'xie
+🔡	xiao'xie'zi'mu
+🔢	shu'zi
+🔢	yi'er'san'si
+🔣	fu'hao
+🔣	zi'fu
+🔤	abc
+🅰️	xue'xing
+🆎	xue'xing
+🅱️	xue'xing
+🅾️	xue'xing
+🅰️	A
+🅰️	A型
+🅰️	A型血
+🅰️	A血型
+🆎	AB
+🆎	AB型
+🆎	AB型血
+🆎	AB血型
+🅱️	B
+🅱️	B型
+🅱️	B型血
+🅱️	B血型
+🅾️	O
+🅾️	O型
+🅾️	O型血
+🅾️	O血型
+🆑	qing'chu
+🆑	qing'li
+🆑	clear
+🆒	cool
+🆒	ku
+🆒	chao'ku
+🆒	hen'ku
+🆒	te'bie'ku
+🆓	free
+🆓	mian'fei
+🆓	zi'you
+ℹ️	zi'xun
+ℹ️	info
+ℹ️	information
+🆔	shen'fen
+🆕	new
+🆕	xin
+🆕	xin'de
+🆕	xin'jian
+🆕	quan'xin
+🆖	NG
+🆖	chong'pai
+🅿️	ting'che
+🅿️	ting'che'chang
+🅿️	ting'che'an'niu
+🅿️	bo'che
+🅿️	parking
+🆘	SOS
+🆘	qiu'jiu'xin'hao
+🆘	qiu'jiu'xun'hao
+🆘	jiu'ming
+🆘	jiu'wo
+🆘	jiu'jiu'wo
+🆘	qiu'jiu
+🆙	up
+🆙	ding
+🆙	sheng'ji
+🆚	Vs.
+🆚	bi
+🆚	dui'jue
+🆚	dui'kang
+🆚	dui'zhan
+🆚	bi'sai
+🈁	zhe'li
+🈂️	fu'wu'fei
+🈷️	yue
+🈶	you
+🈶	you'liao
+🈶	shou'fei
+🈯	zhi
+🉐	dei
+🉐	tao'jia'huan'jia
+🈹	ge
+🈹	da'zhe
+🈚️	wu
+🈚️	mei'you
+🈲	jin
+🉑	ke
+🈸	shen
+🈸	shen'qing
+🈴	he
+🈴	he'ge
+🈳	kong
+🈳	kong'wei
+㊗️	zhu
+㊗️	zhu'fu
+㊙️	mi
+🈺	ying
+🈺	ying'ye
+🈺	kai'men'ying'ye
+🈵	man
+🈵	man'zuo
+🈵	man'le
+🈵	mei'you'kong'wei
+🔴	hong'se
+🟥	hong'se
+🟠	cheng'se
+🟧	cheng'se
+🟠	ju'se
+🟧	ju'se
+🟠	ju'huang'se
+🟧	ju'huang'se
+🟡	huang'se
+🟨	huang'se
+🟢	lv'se
+🟩	lv'se
+🔵	lan'se
+🟦	lan'se
+🟣	zi'se
+🟪	zi'se
+🟤	zong'se
+🟫	zong'se
+⚫	yuan'xing
+⚪	yuan'xing
+⚫	wei'qi
+⚪	wei'qi
+⚫	hei'bai'qi
+⚪	hei'bai'qi
+⚫	hei'se
+⬛	hei'se
+⚫	hei'zi
+⚫	hei'qi
+⚫	hei'dian
+⚫	xiao'hei'dian
+⚫	xiao'hei'dian'er
+⚪	bai'se
+⬜	bai'se
+⚪	bai'zi
+⚪	bai'qi
+⚪	bai'dian
+⚪	xiao'bai'dian
+⚪	xiao'bai'dian'er
+⚪	yuan'xiao
+⚪	tang'yuan
+⚪	xue'qiu
+⚪	xiao'yuan'dian
+⚪	xiao'yuan'dian'er
+⬛	zheng'fang'xing
+⬜	zheng'fang'xing
+⬛	fang'kuai
+⬜	fang'kuai
+⬛	fang'xing
+⬜	fang'xing
+⬛	ju'xing
+⬜	ju'xing
+⬛	hei'kuang
+⬛	xiao'hei'kuang
+⬜	bai'kuang
+⬜	xiao'bai'kuang
+◼	zhong'fang'kuai
+◻	zhong'fang'kuai
+◼	zhong'zheng'fang'xing
+◻	zhong'zheng'fang'xing
+◼	bai'se'zhong'fang'kuai
+◼	zhong'deng'fang'kuai
+◻	zhong'deng'fang'kuai
+◼	zhong'deng'zheng'fang'xing
+◻	zhong'deng'zheng'fang'xing
+◼	bai'se'zhong'deng'fang'kuai
+◻	hei'se'zhong'fang'kuai
+◻	hei'se'zhong'deng'fang'kuai
+◾	da'fang'kuai
+◽	da'fang'kuai
+◾	da'zheng'fang'xing
+◽	da'zheng'fang'xing
+◾	bai'se'da'fang'kuai
+◽	hei'se'da'fang'kuai
+▪	xiao'fang'kuai
+▫	xiao'fang'kuai
+▪	xiao'zheng'fang'xing
+▫	xiao'zheng'fang'xing
+▪	bai'se'xiao'fang'kuai
+▫	hei'se'xiao'fang'kuai
+🔶	ling'xing
+🔷	ling'xing
+🔶	da'ling'xing
+🔷	da'ling'xing
+🔶	cheng'se'ling'xing
+🔶	ju'se'ling'xing
+🔶	ju'huang'se'ling'xing
+🔶	cheng'se'da'ling'xing
+🔶	ju'se'da'ling'xing
+🔶	ju'huang'se'da'ling'xing
+🔷	lan'se'ling'xing
+🔷	lan'se'da'ling'xing
+🔸	xiao'fang'pian
+🔹	xiao'fang'pian
+🔸	xiao'ling'xing
+🔹	xiao'ling'xing
+🔸	cheng'se'xiao'ling'xing
+🔸	ju'se'xiao'ling'xing
+🔸	ju'huang'se'xiao'ling'xing
+🔹	lan'se'xiao'ling'xing
+🔺	san'jiao
+🔻	san'jiao
+🔺	san'jiao'xing
+🔻	san'jiao'xing
+🔺	zheng'san'jiao
+🔺	hong'se'zheng'san'jiao
+🔻	dao'san'jiao
+🔻	hong'se'dao'san'jiao
+🔘	dan'xuan
+🔘	dan'xuan'kuang
+🔘	dan'xuan'an'niu
+🔳	fang'xing'an'niu
+🔲	fang'xing'an'niu
+🔳	bai'xian'fang'xing'an'niu
+🔳	bai'xian'zheng'fang'xing'an'niu
+🔳	bai'se'fang'xing'an'niu
+🔳	bai'se'zheng'fang'xing'an'niu
+🔳	bai'bian'xian'fang'xing'an'niu
+🔳	bai'bian'xian'zheng'fang'xing'an'niu
+🔲	hei'xian'fang'xing'an'niu
+🔲	hei'xian'zheng'fang'xing'an'niu
+🔲	hei'se'fang'xing'an'niu
+🔲	hei'se'zheng'fang'xing'an'niu
+🔲	hei'bian'xian'fang'xing'an'niu
+🔲	hei'bian'xian'zheng'fang'xing'an'niu
+🏁	ge'zi'qi
+🏁	zhong'dian'qi
+🏁	zhong'dian
+🚩	qi'zhi
+🚩	qi'zi
+🚩	san'jiao'qi
+🚩	qi'gan'shang'de'san'jiao'qi
+🚩	qi'gan'shang'de'qi'zhi
+🚩	hong'se'qi'zhi
+🎌	jiao'cha'qi
+🏴	ju'hei'qi
+🏴	hei'qi
+🏴	hei'se'qi
+🏴	hei'se'qi'zi
+🏴	hei'se'qi'zhi
+🏳	ju'bai'qi
+🏳	bai'qi
+🏳	bai'se'qi'zi
+🏳	bai'se'qi'zhi
+🏳	ren'shu
+🏳	ren'shu'le
+🏳	tou'xiang
+🏳️‍🌈	tong'xing'qi
+🏳️‍🌈	cai'hong'qi
+🏳️‍⚧️	kua'xing'bie'qi
+🏴‍☠️	hai'dao
+🏴‍☠️	hai'dao'qi
+🏴‍☠️	hai'zei
+🏴‍☠️	hai'zei'qi
+🇦🇨	a'sen'song'dao
+🇦🇨	a'sen'song
+🇦🇩	an'dao'er
+🇦🇩	an'dao'er'gong'guo
+🇦🇪	a'la'bo'lian'he'qiu'zhang'guo
+🇦🇪	a'la'bo
+🇦🇫	a'fu'han
+🇦🇬	an'ti'gua'he'ba'bu'da
+🇦🇬	an'ba
+🇦🇮	an'gui'la
+🇦🇱	a'er'ba'ni'ya
+🇦🇱	a'er'ba'ni'ya'gong'he'guo
+🇦🇲	ya'mei'ni'ya
+🇦🇲	ya'mei'ni'ya'gong'he'guo
+🇦🇴	an'ge'la
+🇦🇴	an'ge'la'gong'he'guo
+🇦🇶	nan'ji'zhou
+🇦🇷	a'gen'ting
+🇦🇷	a'gen'ting'gong'he'guo
+🇦🇸	mei'shu'sa'mo'ya
+🇦🇸	dong'sa'mo'ya
+🇦🇹	ao'di'li
+🇦🇹	ao'di'li'gong'he'guo
+🇦🇺	ao'da'li'ya
+🇦🇺	ao'da'li'ya'lian'bang
+🇦🇼	a'lu'ba
+🇦🇽	ao'lan
+🇦🇽	ao'lan'qun'dao
+🇦🇽	a'he'wei'nan'ma
+🇦🇿	a'sai'bai'jiang
+🇦🇿	a'sai'bai'jiang'gong'he'guo
+🇧🇦	bo'si'ni'ya'he'hei'sai'ge'wei'na
+🇧🇦	bo'hei
+🇧🇧	ba'ba'duo'si
+🇧🇩	meng'jia'la'guo
+🇧🇩	meng'jia'la
+🇧🇪	bi'li'shi
+🇧🇪	bi'li'shi'wang'guo
+🇧🇫	bu'ji'na'fa'suo
+🇧🇬	bao'jia'li'ya
+🇧🇬	bao'jia'li'ya'gong'he'guo
+🇧🇭	ba'lin
+🇧🇭	ba'lin'wang'guo
+🇧🇮	bu'long'di
+🇧🇮	bu'long'di'gong'he'guo
+🇧🇯	bei'ning
+🇧🇯	bei'ning'gong'he'guo
+🇧🇱	sheng'ba'tai'le'mi
+🇧🇲	bai'mu'da
+🇧🇳	wen'lai
+🇧🇳	wen'lai'da'lu'sa'lan'guo
+🇧🇴	bo'li'wei'ya
+🇧🇴	bo'li'wei'ya'guo
+🇧🇴	duo'min'zu'bo'li'wei'ya'guo
+🇧🇶	he'shu'jia'le'bi'qu
+🇧🇷	ba'xi
+🇧🇷	ba'xi'lian'bang
+🇧🇷	ba'xi'lian'bang'gong'he'guo
+🇧🇸	ba'ha'ma
+🇧🇸	ba'ha'ma'guo
+🇧🇹	bu'dan
+🇧🇹	bu'dan'wang'guo
+🇧🇻	bu'wei'dao
+🇧🇼	bo'ci'wa'na
+🇧🇼	bo'ci'wa'na'gong'he'guo
+🇧🇾	bai'e'luo'si
+🇧🇾	bai'e
+🇧🇿	bo'li'zi
+🇨🇦	jia'na'da
+🇨🇨	ke'ke'si'ji'lin'qun'dao
+🇨🇨	ke'ke'si
+🇨🇩	gang'guo'jin
+🇨🇩	gang'guo
+🇨🇬	gang'guo
+🇨🇩	gang'guo'jin
+🇨🇫	zhong'fei'gong'he'guo
+🇨🇫	zhong'fei
+🇨🇬	gang'guo'bu
+🇨🇬	gang'guo'bu
+🇨🇭	rui'shi
+🇨🇭	rui'shi'lian'bang
+🇨🇮	ke'te'di'wa
+🇨🇮	ke'te'di'wa'gong'he'guo
+🇨🇰	ku'ke'qun'dao
+🇨🇱	zhi'li
+🇨🇱	zhi'li'gong'he'guo
+🇨🇲	ka'mai'long
+🇨🇲	ka'mai'long'gong'he'guo
+🇨🇳	zhong'guo
+🇨🇳	zhong'hua'ren'min'gong'he'guo
+🇨🇳	wu'xing'hong'qi
+🇨🇳	hong'qi
+🇨🇴	ge'lun'bi'ya
+🇨🇴	ge'lun'bi'ya'gong'he'guo
+🇨🇵	ke'li'po'dun'dao
+🇨🇷	ge'si'da'li'jia
+🇨🇷	ge'si'da'li'jia'gong'he'guo
+🇨🇺	gu'ba
+🇨🇺	gu'ba'gong'he'guo
+🇨🇻	fo'de'jiao
+🇨🇻	fo'de'jiao'gong'he'guo
+🇨🇼	ku'la'suo
+🇨🇽	sheng'dan'dao
+🇨🇾	sai'pu'lu'si
+🇨🇾	sai'pu'lu'si'gong'he'guo
+🇨🇿	jie'ke
+🇨🇿	jie'ke'gong'he'guo
+🇩🇪	de'guo
+🇩🇪	de'yi'zhi
+🇩🇪	de'yi'zhi'lian'bang'gong'he'guo
+🇩🇪	de'yi'zhi'lian'bang
+🇩🇬	di'ge'jia'xi'ya'dao
+🇩🇯	ji'bu'ti
+🇩🇯	ji'bu'ti'gong'he'guo
+🇩🇰	dan'mai
+🇩🇲	duo'mi'ni'ke
+🇩🇲	duo'mi'ni'ke'guo
+🇩🇴	duo'mi'ni'jia'gong'he'guo
+🇩🇿	a'er'ji'li'ya
+🇩🇿	a'er'ji'li'ya'min'zhu'ren'min'gong'he'guo
+🇪🇦	xiu'da'ji'mei'li'li'ya
+🇪🇦	xiu'da'he'mei'li'li'ya
+🇪🇦	xiu'da
+🇪🇦	mei'li'li'ya
+🇪🇨	e'gua'duo'er
+🇪🇨	e'gua'duo'er'gong'he'guo
+🇪🇪	ai'sha'ni'ya
+🇪🇪	ai'sha'ni'ya'gong'he'guo
+🇪🇬	ai'ji
+🇪🇭	xi'sa'ha'la
+🇪🇷	e'li'te'li'ya
+🇪🇷	e'li'te'li'ya'guo
+🇪🇸	xi'ban'ya
+🇪🇸	xi'ban'ya'wang'guo
+🇪🇹	ai'sai'e'bi'ya
+🇪🇹	ai'sai'e'bi'ya'lian'bang'min'zhu'gong'he'guo
+🇪🇺	ou'meng
+🇪🇺	ou'zhou'lian'meng
+🇫🇮	fen'lan
+🇫🇮	fen'lan'gong'he'guo
+🇫🇯	fei'ji
+🇫🇯	fei'ji'gong'he'guo
+🇫🇰	fu'ke'lan'qun'dao
+🇫🇰	ma'er'wei'na'si'qun'dao
+🇫🇲	mi'ke'luo'ni'xi'ya
+🇫🇴	fa'luo'qun'dao
+🇫🇷	fa'guo
+🇫🇷	fa'lan'xi
+🇫🇷	fa'lan'xi'gong'he'guo
+🇬🇦	jia'peng
+🇬🇧	ying'guo
+🇬🇧	ying'lun
+🇬🇧	da'bu'lie'dian'ji'bei'ai'er'lan'lian'he'wang'guo
+🇬🇩	ge'lin'na'da
+🇬🇪	ge'lu'ji'ya
+🇬🇫	fa'shu'gui'ya'na
+🇬🇬	gen'xi'dao
+🇬🇭	jia'na
+🇬🇭	jia'na'gong'he'guo
+🇬🇮	zhi'bu'luo'tuo
+🇬🇱	ge'ling'lan
+🇬🇲	gang'bi'ya
+🇬🇲	gang'bi'ya'gong'he'guo
+🇬🇳	ji'nei'ya
+🇬🇳	ji'nei'ya'gong'he'guo
+🇬🇵	gua'de'luo'pu
+🇬🇶	chi'dao'ji'nei'ya
+🇬🇷	xi'la
+🇬🇷	xi'la'gong'he'guo
+🇬🇸	nan'qiao'zhi'ya'he'nan'sang'wei'qi'qun'dao
+🇬🇹	wei'di'ma'la
+🇬🇺	guan'dao
+🇬🇼	ji'nei'ya'bi'shao
+🇬🇼	ji'nei'ya'bi'shao'gong'he'guo
+🇬🇾	gui'ya'na
+🇬🇾	gui'ya'na'he'zuo'gong'he'guo
+🇭🇰	zhong'guo'xiang'gang'te'bie'xing'zheng'qu
+🇭🇰	zhong'guo'xiang'gang
+🇭🇰	xiang'gang
+🇭🇰	xiang'gang'te'bie'xing'zheng'qu
+🇭🇲	he'de'dao'he'mai'ke'tang'na'qun'dao
+🇭🇳	hong'du'la'si
+🇭🇳	hong'du'la'si'gong'he'guo
+🇭🇷	ke'luo'di'ya
+🇭🇷	ke'luo'di'ya'gong'he'guo
+🇭🇹	hai'di
+🇭🇹	hai'di'gong'he'guo
+🇭🇺	xiong'ya'li
+🇮🇨	jia'na'li'qun'dao
+🇮🇩	yin'du'ni'xi'ya
+🇮🇩	yin'du'ni'xi'ya'gong'he'guo
+🇮🇪	ai'er'lan
+🇮🇪	ai'er'lan'gong'he'guo
+🇮🇱	yi'se'lie
+🇮🇱	yi'se'lie'guo
+🇮🇲	ma'en'dao
+🇮🇳	yin'du
+🇮🇳	yin'du'gong'he'guo
+🇮🇴	ying'shu'yin'du'yang'ling'di
+🇮🇶	yi'la'ke
+🇮🇶	yi'la'ke'gong'he'guo
+🇮🇷	yi'lang
+🇮🇷	yi'lang'yi'si'lan'gong'he'guo
+🇮🇸	bing'dao
+🇮🇹	yi'da'li
+🇮🇹	yi'da'li'gong'he'guo
+🇯🇪	ze'xi'dao
+🇯🇪	ze'xi
+🇯🇲	ya'mai'jia
+🇯🇴	yue'dan
+🇯🇴	yue'dan'ha'xi'mu'wang'guo
+🇯🇵	ri'ben
+🇯🇵	ri'ben'guo
+🇰🇪	ken'ni'ya
+🇰🇪	ken'ni'ya'gong'he'guo
+🇰🇬	ji'er'ji'si'si'tan
+🇰🇬	ji'er'ji'si'gong'he'guo
+🇰🇭	jian'pu'zhai
+🇰🇭	jian'pu'zhai'wang'guo
+🇰🇮	ji'li'ba'si
+🇰🇮	ji'li'ba'si'gong'he'guo
+🇰🇲	ke'mo'luo
+🇰🇲	ke'mo'luo'lian'meng
+🇰🇳	sheng'ji'ci'he'ni'wei'si
+🇰🇵	chao'xian
+🇰🇵	bei'chao'xian
+🇰🇵	bei'han
+🇰🇷	han'guo
+🇰🇷	nan'chao'xian
+🇰🇷	nan'han
+🇰🇼	ke'wei'te
+🇰🇼	ke'wei'te'guo
+🇰🇾	kai'man'qun'dao
+🇰🇿	ha'sa'ke'si'tan
+🇰🇿	ha'sa'ke'si'tan'gong'he'guo
+🇱🇦	lao'wo
+🇱🇦	lao'wo'ren'min'min'zhu'gong'he'guo
+🇱🇧	li'ba'nen
+🇱🇧	li'ba'nen'gong'he'guo
+🇱🇨	sheng'lu'xi'ya
+🇱🇮	lie'zhi'dun'shi'deng
+🇱🇮	lie'zhi'dun'shi'deng'gong'guo
+🇱🇰	si'li'lan'ka
+🇱🇰	si'li'lan'ka'min'zhu'she'hui'zhu'yi'gong'he'guo
+🇱🇷	li'bi'li'ya
+🇱🇷	li'bi'li'ya'gong'he'guo
+🇱🇸	lai'suo'tuo
+🇱🇸	lai'suo'tuo'wang'guo
+🇱🇹	li'tao'wan
+🇱🇹	li'tao'wan'gong'he'guo
+🇱🇺	lu'sen'bao
+🇱🇺	lu'sen'bao'da'gong'guo
+🇱🇻	la'tuo'wei'ya
+🇱🇻	la'tuo'wei'ya'gong'he'guo
+🇱🇾	li'bi'ya
+🇱🇾	li'bi'ya'guo
+🇲🇦	mo'luo'ge
+🇲🇦	mo'luo'ge'wang'guo
+🇲🇨	mo'na'ge
+🇲🇨	mo'na'ge'gong'guo
+🇲🇩	mo'er'duo'wa
+🇲🇩	mo'er'duo'wa'gong'he'guo
+🇲🇪	hei'shan
+🇲🇫	fa'shu'sheng'ma'ding
+🇲🇬	ma'da'jia'si'jia
+🇲🇬	ma'da'jia'si'jia'gong'he'guo
+🇲🇭	ma'shao'er'qun'dao
+🇲🇰	bei'ma'qi'dun
+🇲🇰	bei'ma'qi'dun'gong'he'guo
+🇲🇱	ma'li
+🇲🇱	ma'li'gong'he'guo
+🇲🇲	mian'dian
+🇲🇲	mian'dian'lian'bang
+🇲🇲	mian'dian'lian'bang'gong'he'guo
+🇲🇳	meng'gu
+🇲🇳	meng'gu'guo
+🇲🇴	zhong'guo'ao'men'te'bie'xing'zheng'qu
+🇲🇴	zhong'guo'ao'men
+🇲🇴	ao'men
+🇲🇴	ao'men'te'bie'xing'zheng'qu
+🇲🇵	bei'ma'li'ya'na'qun'dao
+🇲🇶	ma'ti'ni'ke
+🇲🇷	mao'li'ta'ni'ya
+🇲🇷	mao'li'ta'ni'ya'yi'si'lan'gong'he'guo
+🇲🇸	meng'te'sai'la'te
+🇲🇹	ma'er'ta
+🇲🇹	ma'er'ta'gong'he'guo
+🇲🇺	mao'li'qiu'si
+🇲🇺	mao'li'qiu'si'gong'he'guo
+🇲🇻	ma'er'dai'fu
+🇲🇻	ma'er'dai'fu'gong'he'guo
+🇲🇼	ma'la'wei
+🇲🇼	ma'la'wei'gong'he'guo
+🇲🇽	mo'xi'ge
+🇲🇽	mo'xi'ge'he'zhong'guo
+🇲🇾	ma'lai'xi'ya
+🇲🇿	mo'sang'bi'ke
+🇲🇿	mo'sang'bi'ke'gong'he'guo
+🇳🇦	na'mi'bi'ya
+🇳🇦	na'mi'bi'ya'gong'he'guo
+🇳🇨	xin'ka'li'duo'ni'ya
+🇳🇪	ni'ri'er
+🇳🇪	ni'ri'er'gong'he'guo
+🇳🇫	nuo'fu'ke'dao
+🇳🇬	ni'ri'li'ya
+🇳🇬	ni'ri'li'ya'lian'bang
+🇳🇬	ni'ri'li'ya'lian'bang'gong'he'guo
+🇳🇮	ni'jia'la'gua
+🇳🇮	ni'jia'la'gua'gong'he'guo
+🇳🇱	he'lan
+🇳🇱	ni'de'lan
+🇳🇴	nuo'wei
+🇳🇴	nuo'wei'wang'guo
+🇳🇵	ni'bo'er
+🇳🇷	nao'lu
+🇳🇷	nao'lu'gong'he'guo
+🇳🇺	niu'ai
+🇳🇿	xin'xi'lan
+🇴🇲	a'man
+🇴🇲	a'man'su'dan'guo
+🇵🇦	ba'na'ma
+🇵🇦	ba'na'ma'gong'he'guo
+🇵🇪	bi'lu
+🇵🇪	bi'lu'gong'he'guo
+🇵🇫	fa'shu'bo'li'ni'xi'ya
+🇵🇬	ba'bu'ya'xin'ji'nei'ya
+🇵🇬	ba'bu'ya'xin'ji'nei'ya'du'li'guo
+🇵🇭	fei'lv'bin
+🇵🇭	fei'lv'bin'gong'he'guo
+🇵🇰	ba'ji'si'tan
+🇵🇰	ba'ji'si'tan'yi'si'lan'gong'he'guo
+🇵🇱	bo'lan
+🇵🇱	bo'lan'gong'he'guo
+🇵🇲	sheng'pi'ai'er'he'mi'ke'long'qun'dao
+🇵🇳	pi'te'kai'en'qun'dao
+🇵🇷	bo'duo'li'ge
+🇵🇸	ba'le'si'tan'ling'tu
+🇵🇹	pu'tao'ya
+🇵🇹	pu'tao'ya'gong'he'guo
+🇵🇼	pa'lao
+🇵🇼	pa'lao'gong'he'guo
+🇵🇾	ba'la'gui
+🇵🇾	ba'la'gui'gong'he'guo
+🇶🇦	ka'ta'er
+🇶🇦	ka'ta'er'guo
+🇷🇪	liu'ni'wang
+🇷🇴	luo'ma'ni'ya
+🇷🇸	sai'er'wei'ya
+🇷🇸	sai'er'wei'ya'gong'he'guo
+🇷🇺	e'luo'si
+🇷🇺	e'guo
+🇷🇺	e'luo'si'lian'bang
+🇷🇼	lu'wang'da
+🇷🇼	lu'wang'da'gong'he'guo
+🇸🇦	sha'te
+🇸🇦	sha'te'a'la'bo
+🇸🇦	sha'te'a'la'bo'wang'guo
+🇸🇧	suo'luo'men'qun'dao
+🇸🇨	sai'she'er
+🇸🇨	sai'she'er'gong'he'guo
+🇸🇩	su'dan
+🇸🇩	su'dan'gong'he'guo
+🇸🇪	rui'dian
+🇸🇪	rui'dian'wang'guo
+🇸🇬	xin'jia'po
+🇸🇬	xin'jia'po'gong'he'guo
+🇸🇭	sheng'he'le'na
+🇸🇮	si'luo'wen'ni'ya
+🇸🇮	si'luo'wen'ni'ya'gong'he'guo
+🇸🇯	si'wa'er'ba'he'yang'ma'yan
+🇸🇰	si'luo'fa'ke
+🇸🇰	si'luo'fa'ke'gong'he'guo
+🇸🇱	sai'la'li'ang
+🇸🇱	sai'la'li'ang'gong'he'guo
+🇸🇲	sheng'ma'li'nuo
+🇸🇲	sheng'ma'li'nuo'gong'he'guo
+🇸🇳	sai'nei'jia'er
+🇸🇳	sai'nei'jia'er'gong'he'guo
+🇸🇴	suo'ma'li
+🇸🇴	suo'ma'li'lian'bang
+🇸🇴	suo'ma'li'lian'bang'gong'he'guo
+🇸🇷	su'li'nan
+🇸🇷	su'li'nan'gong'he'guo
+🇸🇸	nan'su'dan
+🇸🇸	nan'su'dan'gong'he'guo
+🇸🇹	sheng'duo'mei'he'pu'lin'xi'bi
+🇸🇹	sheng'duo'mei'he'pu'lin'xi'bi'min'zhu'gong'he'guo
+🇸🇻	sa'er'wa'duo
+🇸🇻	sa'er'wa'duo'gong'he'guo
+🇸🇽	he'shu'sheng'ma'ding
+🇸🇽	sheng'ma'ding
+🇸🇾	xu'li'ya
+🇸🇾	xu'li'ya'gong'he'guo
+🇸🇾	a'la'bo'xu'li'ya'gong'he'guo
+🇸🇿	si'wei'shi'lan
+🇸🇿	si'wei'shi'lan'wang'guo
+🇹🇦	te'li'si'tan'da'ku'ni'ya'qun'dao
+🇹🇦	te'li'si'tan'da'ku'ni'ya
+🇹🇨	te'ke'si'he'kai'ke'si'qun'dao
+🇹🇩	zha'de
+🇹🇩	zha'de'gong'he'guo
+🇹🇫	fa'shu'nan'bu'ling'di
+🇹🇬	duo'ge
+🇹🇬	duo'ge'gong'he'guo
+🇹🇭	tai'guo
+🇹🇭	tai'wang'guo
+🇹🇭	xian'luo
+🇹🇯	ta'ji'ke'si'tan
+🇹🇯	ta'ji'ke'si'tan'gong'he'guo
+🇹🇰	tuo'ke'lao
+🇹🇱	dong'di'wen
+🇹🇱	dong'di'wen'min'zhu'gong'he'guo
+🇹🇲	tu'ku'man'si'tan
+🇹🇳	tu'ni'si
+🇹🇳	tu'ni'si'gong'he'guo
+🇹🇴	tang'jia
+🇹🇴	tang'jia'wang'guo
+🇹🇷	tu'er'qi
+🇹🇷	tu'er'qi'gong'he'guo
+🇹🇹	te'li'ni'da'he'duo'ba'ge
+🇹🇹	te'li'ni'da'he'duo'ba'ge'gong'he'guo
+🇹🇻	tu'wa'lu
+🇹🇼	tai'wan
+🇹🇼	zhong'hua'min'guo
+🇹🇿	tan'sang'ni'ya
+🇹🇿	tan'sang'ni'ya'lian'he'gong'he'guo
+🇺🇦	wu'ke'lan
+🇺🇬	wu'gan'da
+🇺🇬	wu'gan'da'gong'he'guo
+🇺🇲	mei'guo'ben'tu'wai'xiao'dao'yu
+🇺🇳	lian'he'guo
+🇺🇸	mei'guo
+🇺🇸	mei'li'jian
+🇺🇸	mei'li'jian'he'zhong'guo
+🇺🇸	xing'tiao'qi
+🇺🇾	wu'la'gui
+🇺🇾	wu'la'gui'dong'an'gong'he'guo
+🇺🇿	wu'zi'bie'ke'si'tan
+🇺🇿	wu'zi'bie'ke'si'tan'gong'he'guo
+🇻🇦	fan'di'gang
+🇻🇦	fan'di'gang'cheng'guo
+🇻🇨	sheng'wen'sen'te'he'ge'lin'na'ding'si
+🇻🇪	wei'nei'rui'la
+🇻🇪	wei'nei'rui'la'bo'li'wa'er'gong'he'guo
+🇻🇬	ying'shu'wei'er'jing'qun'dao
+🇻🇮	mei'shu'wei'er'jing'qun'dao
+🇻🇳	yue'nan
+🇻🇳	yue'nan'she'hui'zhu'yi'gong'he'guo
+🇻🇺	wa'nu'a'tu
+🇻🇺	wa'nu'a'tu'gong'he'guo
+🇼🇫	wa'li'si'he'fu'tu'na
+🇼🇸	sa'mo'ya
+🇼🇸	sa'mo'ya'du'li'guo
+🇽🇰	ke'suo'wo
+🇽🇰	ke'suo'wo'gong'he'guo
+🇾🇪	ye'men
+🇾🇪	ye'men'gong'he'guo
+🇾🇹	ma'yue'te
+🇿🇦	nan'fei
+🇿🇦	nan'fei'gong'he'guo
+🇿🇲	zan'bi'ya
+🇿🇲	zan'bi'ya'gong'he'guo
+🇿🇼	jin'ba'bu'wei
+🇿🇼	jin'ba'bu'wei'gong'he'guo
+🏴󠁧󠁢󠁥󠁮󠁧󠁿	ying'ge'lan
+🏴󠁧󠁢󠁳󠁣󠁴󠁿	su'ge'lan
+🏴󠁧󠁢󠁷󠁬󠁳󠁿	wei'er'shi

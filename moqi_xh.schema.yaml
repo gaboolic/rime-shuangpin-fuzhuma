@@ -426,7 +426,7 @@ emojis:
   dictionary: emoji
   enable_completion: true
   prefix: "ae"
-  suffix: "'"
+  #suffix: "'"
   tips: " Emoji"
 
 easy_en_simp:

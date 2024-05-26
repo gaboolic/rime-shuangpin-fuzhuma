@@ -1,14 +1,13 @@
-# emoji.schema.yaml
+# 使用opencc/emoji.txt数据转换 转换脚本为https://github.com/gaboolic/rime-shuangpin-fuzhuma/program/emoji/deal_emoji_dict.py
 
 schema:
   schema_id: emoji
   name: Emoji
-  version: "2.2"
+  version: "2024-05-26"
   description: |
-    由Unicode中「Emoticons」部份和「Miscellaneous Symbols and Pictographs」部份合成。
-    可在Mac中輸入iOS設備通用的Emoji表情，其他系統可能需安装專門字體。
+    使用opencc/emoji.txt数据转换 转换脚本为https://github.com/gaboolic/rime-shuangpin-fuzhuma/program/emoji/deal_emoji_dict.py
   author:
-    - 雪齋 <leoyoontsaw@gmail.com>
+    - gaboolic
 
 switches:
   - name: ascii_mode
@@ -36,25 +35,19 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
+  # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[/|
+  # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
+  initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   delimiter: " '"
   algebra:
-    - "abbrev/^.+$/all/"
-    - "abbrev/^[a-z,]+;([a-z])[a-z]*'?([a-z])?[a-z]*'?([a-z])?[a-z]*`?[a-z]*$/$1$2$3/"
-    - "derive/^[a-z,]+;([a-z]+)'?([a-z]*)'?([a-z]*)`?[a-z]*$/$1$2$3/"
-    - "derive/^[^`]+`([a-z]+)$/$1/"
-    - "derive/^[a-z]+,([a-z]+)(;[a-z'`]+)?$/$1/"
-    - "derive/^([a-z]+),?[a-z]*;[a-z'`]+$/$1/"
-    - "xform/^([a-z]+),?([a-z]*);[a-z'`]+$/$1$2/"
+    - "xform/'//"
 
 translator:
   dictionary: emoji
-  spelling_hints: 1
+  spelling_hints: 0
   comment_format:
-    - "xform/;[a-z'`]*$//"
-    - "xform/^/ /"
-    - "xform/,/ (/"
-    - xform/\((.*)$/\($1\)/
+
 
 key_binder:
   import_preset: default
