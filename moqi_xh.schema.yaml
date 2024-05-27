@@ -346,7 +346,7 @@ chaifen_all:
     - "xform/-/ /"
 
 #中文转英文
-chaifen_all:
+chinese_english:
   option_name: chinese_english
   opencc_config: chinese_english.json
   tips: char

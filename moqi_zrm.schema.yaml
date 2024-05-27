@@ -11,7 +11,7 @@ schema:
   description: |
     墨奇音形 https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%A2%A8%E5%A5%87%E7%A0%81%E6%8B%86%E5%88%86%E8%A7%84%E5%88%99
   dependencies:
-    - chaizi
+    - reverse_moqima
     - radical_flypy
     - stroke
     - zrlf
@@ -40,6 +40,7 @@ engine:
   processors:
     - ascii_composer
     - recognizer
+    - lua_processor@*sbxlm.key_binder # 绑定按键
     - key_binder
     - speller
     - punctuator
@@ -61,7 +62,12 @@ engine:
     - table_translator@custom_phrase
     - table_translator@custom_phrase_kf
     - table_translator@custom_phrase_mqzg
+    - table_translator@custom_phrase_super_2jian
+    - table_translator@custom_phrase_super_3jian
+    - table_translator@custom_phrase_super_3jian_no_conflict
     - reverse_lookup_translator
+    - reverse_lookup_translator@reverse_moqima
+    - reverse_lookup_translator@reverse_chaizi
     - reverse_lookup_translator@reverse_stroke
     - reverse_lookup_translator@reverse_zrlf
     - reverse_lookup_translator@reverse_cj
@@ -80,6 +86,7 @@ engine:
     # - lua_filter@reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
     - simplifier@chaifen
     - simplifier@chaifen_all
+    - simplifier@chinese_english
     - simplifier@traditionalize                     # 简繁切换
     - simplifier@mars                               #火星文
     - uniquifier
@@ -107,7 +114,7 @@ long_word_filter:
 
 speller:
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
-  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[/
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[/|
   # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
   initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
@@ -217,6 +224,15 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
 
+# 无冲突的3简
+custom_phrase_super_3jian_no_conflict:
+  dictionary: ""
+  user_dict: custom_phrase_super_3jian_no_conflict
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
+
 custom_phrase_kf:
   dictionary: ""
   user_dict: custom_phrase_kf
@@ -233,7 +249,34 @@ custom_phrase_mqzg:
   enable_completion: false
   initial_quality: -1 #本表词和系统词重码居后
 
-reverse_lookup:
+custom_phrase_super_2jian:
+  dictionary: ""
+  user_dict: custom_phrase_super_2jian
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
+
+custom_phrase_super_3jian:
+  dictionary: ""
+  user_dict: custom_phrase_super_3jian
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
+
+reverse_moqima:
+  tag: reverse_moqima
+  dictionary: reverse_moqima
+  enable_completion: true
+  prefix: "amq"
+  suffix: "'"
+  tips: 〔墨奇反查〕
+  preedit_format:
+    # - xlit/hspnz/一丨丿丶乙/
+
+reverse_chaizi:
+  tag: reverse_chaizi
   dictionary: radical_flypy # https://github.com/mirtlecn/rime-radical-pinyin
   enable_completion: true
   prefix: "az"
@@ -290,6 +333,14 @@ chaifen_all:
   comment_format:
     - "xform/-/ /"
 
+#中文转英文
+chinese_english:
+  option_name: chinese_english
+  opencc_config: chinese_english.json
+  tips: char
+  comment_format:
+    - "xform/-/ /"
+
 # Emoji
 emoji:
   option_name: emoji
@@ -335,6 +386,13 @@ key_binder:
     # 显示墨奇码拆分的快速开关
     - { when: has_menu, accept: "Control+p", toggle: chaifen }
     - { when: has_menu, accept: "Control+l", toggle: chaifen_all }
+    - { when: has_menu, accept: "Control+e", toggle: chinese_english }
+
+
+    - { match: "[a-z]{2,3}", accept: Tab,  send_sequence: "|1" }
+    # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }
+
+
     ## 对以下4行取消注释后：启用光标回退至特定音节后、补充辅助码的功能
     ## （自然码等其他双拼用户请在 pinyin_switch.yaml 中设置）
     #- { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
@@ -349,7 +407,8 @@ recognizer:
     #punct: '^/[0-9A-Za-z]+$' # 此正则无法使用1~0进行快速选择
     punct: '^/[0-9A-z][0A-z]?[A-z]?+$' # 此正则在/+数字的情况下只能通过1~9进行快速选择，而不能使用0，其余情况皆为正常
     ## 拆字、笔画、仓颉: 
-    reverse_lookup: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
+    reverse_moqima: "^amq[A-Za-z]*$" # "[[]b[a-z]*'?$"
+    reverse_chaizi: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
     reverse_stroke: "^ab[A-Za-z]*$"
     reverse_cj: "^acj[A-Za-z]*$"
     reverse_zrlf: "^alf[A-Za-z]*$"
@@ -361,16 +420,12 @@ recognizer:
     number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
     gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
 
-menu:
-  page_size: 9 # 使用上面默认punct正则时，page_size为10，会有`/+数字`无法使用0进行快速选择的情况
-
-
 emojis:
   tag: emojis
   dictionary: emoji
   enable_completion: true
   prefix: "ae"
-  suffix: "'"
+  #suffix: "'"
   tips: " Emoji"
 
 easy_en_simp:
