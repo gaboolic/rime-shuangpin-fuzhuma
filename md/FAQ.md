@@ -133,7 +133,7 @@
     ```
     switches:
       - name: ascii_mode
-      - reset: 1               # 1为默认英文状态，0为默认中文状态
+        reset: 1               # 1为默认英文状态，0为默认中文状态
     ```
 
     

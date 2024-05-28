@@ -23,6 +23,7 @@ schema:
 
 switches:
   - name: ascii_mode
+    reset: 0 #新对话默认状态,0为中文，1为英文
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
@@ -31,7 +32,7 @@ switches:
   - name: emoji
     states: [ 💀, 😄 ]
   - name: mars
-    reset: 0 #新对话默认状态,0为中文，1为英文
+    reset: 0
     states: [ 地, 煋 ] #火星文
   - name: ascii_punct
     states: [ 。，, ．， ]
