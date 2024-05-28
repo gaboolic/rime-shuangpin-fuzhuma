@@ -86,9 +86,12 @@
 - 直接输入unicode：U开头
   ![u2ffb](readmeimg/u2ffb.png)
 
-- V模式，计算器模式 感谢[ChaosAlphard](https://github.com/ChaosAlphard)的pr
+- 计算器功能(V模式) 感谢[ChaosAlphard](https://github.com/ChaosAlphard)的[pr](https://github.com/gaboolic/rime-shuangpin-fuzhuma/pull/41)
   ![alt text](readmeimg/v_jsq.png)
 
+  - [计算器功能介绍](md/calc.md)
+  - [![PixPin_2024-05-10_02-29-13](https://private-user-images.githubusercontent.com/26186575/329484654-e260530d-a912-422f-94da-22f07385b012.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY4NzQzMTQsIm5iZiI6MTcxNjg3NDAxNCwicGF0aCI6Ii8yNjE4NjU3NS8zMjk0ODQ2NTQtZTI2MDUzMGQtYTkxMi00MjJmLTk0ZGEtMjJmMDczODViMDEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTI4VDA1MjY1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI3YzExMzAwYTU1YjZjYTYxNjllNmIwZTJiMTFkMjgyZTBjNGNjYzViYzkzNjU0MGM3MGNlMWFkNWFmNTRkOTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.itinPEhLPG0W3VQpvk_22JG78_DOzyR_EvCp_gaQ3vM)
+  
 - 英文输入：aw开头
   - ![aw](readmeimg/aw.png)
 
@@ -101,13 +104,6 @@
 
 - 分号符：
   - 因为实现分号符后，分号无法自动上屏，如果希望能使用分号符，可以进行以下操作 [分号符](md/fenhaofu.md)
-
-- 计算器功能(V模式)
-
-  - [计算器功能介绍](md/calc.md)
-  - [![PixPin_2024-05-10_02-29-13](https://private-user-images.githubusercontent.com/26186575/329484654-e260530d-a912-422f-94da-22f07385b012.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY4NzQzMTQsIm5iZiI6MTcxNjg3NDAxNCwicGF0aCI6Ii8yNjE4NjU3NS8zMjk0ODQ2NTQtZTI2MDUzMGQtYTkxMi00MjJmLTk0ZGEtMjJmMDczODViMDEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTI4VDA1MjY1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI3YzExMzAwYTU1YjZjYTYxNjllNmIwZTJiMTFkMjgyZTBjNGNjYzViYzkzNjU0MGM3MGNlMWFkNWFmNTRkOTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.itinPEhLPG0W3VQpvk_22JG78_DOzyR_EvCp_gaQ3vM)
-  
-
 
 ### 配置文件路径
 
