@@ -4,13 +4,15 @@
 
    - flypy_flypy.schema.yaml中
    - ```
-
     translator:
        dictionary: flypy_flypy.extended
      enable_completion: false
+     
      # 默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
      # 改为 1 则是只显示单字的输入码，依此类推。
      spelling_hints: 2
+
+   
 
 2. ## 开启用, .翻页
 
@@ -124,4 +126,16 @@
 
     在`patch:`下添加`"style/horizontal": true`后重新部署即可
 
-12. ...
+12. ## 新对话框设置默认英文状态
+
+    对应的方案文件下
+
+    ```
+    switches:
+      - name: ascii_mode
+      - reset: 1               # 1为默认英文状态，0为默认中文状态
+    ```
+
+    
+
+13. ...

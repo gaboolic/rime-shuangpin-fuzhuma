@@ -31,7 +31,7 @@ switches:
   - name: emoji
     states: [ 💀, 😄 ]
   - name: mars
-    reset: 0
+    reset: 0 #新对话默认状态,0为中文，1为英文
     states: [ 地, 煋 ] #火星文
   - name: ascii_punct
     states: [ 。，, ．， ]
