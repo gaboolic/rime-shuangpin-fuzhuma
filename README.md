@@ -88,9 +88,12 @@
 - 直接输入unicode：U开头
   ![u2ffb](readmeimg/u2ffb.png)
 
-- V模式，计算器模式 感谢[ChaosAlphard](https://github.com/ChaosAlphard)的pr
+- 计算器功能(V模式) 感谢[ChaosAlphard](https://github.com/ChaosAlphard)的[pr](https://github.com/gaboolic/rime-shuangpin-fuzhuma/pull/41)
   ![alt text](readmeimg/v_jsq.png)
 
+  - [计算器功能介绍](md/calc.md)
+  - ![1](md/assets/1.png)
+  
 - 英文输入：aw开头
 
   - ![aw](readmeimg/aw.png)
@@ -107,12 +110,6 @@
 - 分号符：
 
   - 因为实现分号符后，分号无法自动上屏，如果希望能使用分号符，可以进行以下操作 [分号符](md/fenhaofu.md)
-
-- 计算器功能(V模式)
-
-  - [计算器功能介绍](md/calc.md)
-  - ![1](md/assets/1.png)
-
 
 ### 配置文件路径
 
@@ -143,6 +140,8 @@
 
 2码 空格打字 tab打词，即可实现所有2码简词。已实现。todo：回显到第一候选的comment
 
+墨奇音形自然码下 e简码问题修复
+
 优化3码的场景，例如zo是做，zor首选出作
 
 两分和部件组字的码表统一，在自然码下用自然码 在小鹤下用小鹤
@@ -168,15 +167,13 @@ emoji的词库 支持双拼
 
 魔然（自然码双拼辅助码）：<https://github.com/ksqsf/rime-moran>
 
-星空键道：<https://github.com/xkinput/Rime_JD>
-
-手机版trime皮肤 <https://github.com/SivanLaai/rime-pure>
-
 细胞词库&各个发行版配置 <https://github.com/Bambooin/rimerc>
 
-拆字使用的词典 <https://github.com/mirtlecn/rime-radical-pinyin>
+az部件组字模式使用的词典 <https://github.com/mirtlecn/rime-radical-pinyin>
 
 声笔输入法 <https://github.com/sbsrf/sbsrf>
+
+星空键道：<https://github.com/xkinput/Rime_JD>
 
 英汉/汉英字典 <https://github.com/lxs602/Chinese-Mandarin-Dictionaries>
 
