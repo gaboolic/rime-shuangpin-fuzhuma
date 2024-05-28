@@ -133,6 +133,8 @@
 
 2码 空格打字 tab打词，即可实现所有2码简词。已实现。todo：回显到第一候选的comment
 
+墨奇音形自然码下 e简码问题修复
+
 优化3码的场景，例如zo是做，zor首选出作
 
 两分和部件组字的码表统一，在自然码下用自然码 在小鹤下用小鹤
@@ -158,15 +160,13 @@ emoji的词库 支持双拼
 
 魔然（自然码双拼辅助码）：<https://github.com/ksqsf/rime-moran>
 
-星空键道：<https://github.com/xkinput/Rime_JD>
-
-手机版trime皮肤 <https://github.com/SivanLaai/rime-pure>
-
 细胞词库&各个发行版配置 <https://github.com/Bambooin/rimerc>
 
-拆字使用的词典 <https://github.com/mirtlecn/rime-radical-pinyin>
+az部件组字模式使用的词典 <https://github.com/mirtlecn/rime-radical-pinyin>
 
 声笔输入法 <https://github.com/sbsrf/sbsrf>
+
+星空键道：<https://github.com/xkinput/Rime_JD>
 
 英汉/汉英字典 <https://github.com/lxs602/Chinese-Mandarin-Dictionaries>
 
