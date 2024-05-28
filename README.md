@@ -75,9 +75,11 @@
   ![datetime](readmeimg/datetime.png)
 
 - 快捷日期输入：N开头
+
   - ![Nmoshi](readmeimg/Nmoshi.png)
 
 - 符号输入`/fh`，更多符号查看`symbols_caps_v.yaml`
+
   - ![fh](readmeimg/fh.png)
 
 - 大写数字：`R开头`
@@ -90,18 +92,23 @@
   ![alt text](readmeimg/v_jsq.png)
 
   - [计算器功能介绍](md/calc.md)
+  - ![1](md/assets/1.png)
   
 - 英文输入：aw开头
+
   - ![aw](readmeimg/aw.png)
 
 - 日文输入：aj开头
+
   - ![aj](readmeimg/aj.png)
 
 - O符快符：o开头，快速输入各种符号偏旁部件，可以参考[小鹤 · 符号](md/fuhao.md)      [小鹤 · 部件](md/bujian.md)
+
   - ![ofu2](readmeimg/ofu2.png)
   - ![ofu](readmeimg/ofu.png)
 
 - 分号符：
+
   - 因为实现分号符后，分号无法自动上屏，如果希望能使用分号符，可以进行以下操作 [分号符](md/fenhaofu.md)
 
 ### 配置文件路径
