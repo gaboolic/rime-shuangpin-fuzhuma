@@ -75,9 +75,11 @@
   ![datetime](readmeimg/datetime.png)
 
 - 快捷日期输入：N开头
+
   - ![Nmoshi](readmeimg/Nmoshi.png)
 
 - 符号输入`/fh`，更多符号查看`symbols_caps_v.yaml`
+
   - ![fh](readmeimg/fh.png)
 
 - 大写数字：`R开头`
@@ -90,23 +92,26 @@
   ![alt text](readmeimg/v_jsq.png)
 
 - 英文输入：aw开头
+
   - ![aw](readmeimg/aw.png)
 
 - 日文输入：aj开头
+
   - ![aj](readmeimg/aj.png)
 
 - O符快符：o开头，快速输入各种符号偏旁部件，可以参考[小鹤 · 符号](md/fuhao.md)      [小鹤 · 部件](md/bujian.md)
+
   - ![ofu2](readmeimg/ofu2.png)
   - ![ofu](readmeimg/ofu.png)
 
 - 分号符：
+
   - 因为实现分号符后，分号无法自动上屏，如果希望能使用分号符，可以进行以下操作 [分号符](md/fenhaofu.md)
 
 - 计算器功能(V模式)
 
   - [计算器功能介绍](md/calc.md)
-  - [![PixPin_2024-05-10_02-29-13](https://private-user-images.githubusercontent.com/26186575/329484654-e260530d-a912-422f-94da-22f07385b012.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY4NzQzMTQsIm5iZiI6MTcxNjg3NDAxNCwicGF0aCI6Ii8yNjE4NjU3NS8zMjk0ODQ2NTQtZTI2MDUzMGQtYTkxMi00MjJmLTk0ZGEtMjJmMDczODViMDEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTI4VDA1MjY1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI3YzExMzAwYTU1YjZjYTYxNjllNmIwZTJiMTFkMjgyZTBjNGNjYzViYzkzNjU0MGM3MGNlMWFkNWFmNTRkOTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.itinPEhLPG0W3VQpvk_22JG78_DOzyR_EvCp_gaQ3vM)
-  
+  - ![1](md/assets/1.png)
 
 
 ### 配置文件路径
