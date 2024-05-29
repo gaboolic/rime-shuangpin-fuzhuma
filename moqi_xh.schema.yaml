@@ -336,7 +336,7 @@ chaifen:
   tips: char
   show_in_comment: true
   comment_format:
-    - "xform/-/ /"
+    - "xform/	/ /"
 
 chaifen_all:
   option_name: chaifen_all
@@ -344,7 +344,7 @@ chaifen_all:
   tips: char
   show_in_comment: true
   comment_format:
-    - "xform/-/ /"
+    - "xform/	/ /"
 
 #中文转英文
 chinese_english:
