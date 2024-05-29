@@ -28,25 +28,27 @@ def read_file(file_path):
             new_encoding2 = ""
             for pinyin in pinyin_list:
                 pinyin = pinyin[0:2]
-                new_encoding2 += pinyin
+                new_encoding2 = pinyin
 
-            #print(pinyin)
+            # print(pinyin)
 
             new_encoding3 = new_encoding2
             new_encoding4 = new_encoding2
             
             for pinyin in pinyin_list:
                 pinyin = pinyin[0:3]
-                new_encoding3 += pinyin
+                new_encoding3 = pinyin
             for pinyin in pinyin_list:
                 pinyin = pinyin[0:4]
-                new_encoding4 += pinyin
+                new_encoding4 = pinyin
             
-    
+            # print(new_encoding3)
+            # print(new_encoding4)
+
             
-            if new_encoding2 not in encode_count_map or encode_count_map[new_encoding2] < 4:
+            if new_encoding2 not in encode_count_map or encode_count_map[new_encoding2] < 1:
                 encoding = new_encoding2
-            elif new_encoding3 not in encode_count_map or encode_count_map[new_encoding3] < 4:
+            elif new_encoding3 not in encode_count_map or encode_count_map[new_encoding3] < 1:
                 encoding = new_encoding3
             else:
                 encoding = new_encoding4
@@ -66,13 +68,19 @@ def read_file(file_path):
     return list
 
 final_list = []
+write_file = open('cn_dicts_dazhu/moqi_all2.txt', 'w')
 for file_name in file_list:
     # File paths
     yaml_file_path = os.path.join('cn_dicts_moqi', file_name)
 
     for line in read_file(yaml_file_path):
+        params = line.split("\t")
+        if len(params[1])==2:
+            print(line)
+            write_file.write(line+"\n")
         final_list.append(line)
 
 # 写入多行数据到文件
-with open('cn_dicts_dazhu/moqi_all.txt', 'w') as file:
-    file.writelines('\n'.join(final_list))
+# with open('cn_dicts_dazhu/moqi_all.txt', 'w') as file:
+#     #file.writelines('\n'.join(final_list))
+#     pass
