@@ -4,10 +4,10 @@ const path = require('path');
 
 
 // dict文件的路径
-// const dictFilePath = path.join(__dirname, '../cn_dicts_xh_cangjie/', '8105.dict.yaml'); //802
-const dictFilePath = path.join(__dirname, '../cn_dicts_sancang/', '8105.dict.yaml'); //792
+// const dictFilePath = path.join(__dirname, '../cn_dicts_xh/', '8105.dict.yaml'); //802
+// const dictFilePath = path.join(__dirname, '../cn_dicts_moqi/', '8105.dict.yaml'); //792
 // const dictFilePath = path.join(__dirname, '../cn_dicts_xh/', '8105.dict.yaml'); //686
-//const dictFilePath = path.join(__dirname, '../cn_dicts_zrm/', '8105.dict.yaml'); //1487
+const dictFilePath = path.join(__dirname, '../cn_dicts_zrm/', '8105.dict.yaml'); //1487
 
 // 同步读取YAML文件
 const dictFileContent = fs.readFileSync(dictFilePath, 'utf8');
