@@ -62,6 +62,9 @@ engine:
     - table_translator@custom_phrase
     - table_translator@custom_phrase_kf
     - table_translator@custom_phrase_xhzg
+    - table_translator@custom_phrase_super_2jian
+    - table_translator@custom_phrase_super_3jian
+    - table_translator@custom_phrase_super_3jian_no_conflict
     - reverse_lookup_translator
     - reverse_lookup_translator@reverse_stroke
     - reverse_lookup_translator@reverse_zrlf
@@ -79,6 +82,7 @@ engine:
     - lua_filter@long_word_filter       # 长词优先（顺序要求：长词优先 > Emoji）
     - simplifier@emoji                  # Emoji
     # - lua_filter@reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
+    # - simplifier@chinese_english       # 中文转英文 移植了没效果
     - simplifier@traditionalize         # 简繁切换
     - simplifier@mars                   #火星文
     - uniquifier
@@ -228,6 +232,15 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
 
+# 无冲突的3简
+custom_phrase_super_3jian_no_conflict:
+  dictionary: ""
+  user_dict: custom_phrase_super_3jian_no_conflict
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
+
 custom_phrase_kf:
   dictionary: ""
   user_dict: custom_phrase_kf
@@ -239,6 +252,24 @@ custom_phrase_kf:
 custom_phrase_xhzg:
   dictionary: ""
   user_dict: custom_phrase_xhzg
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
+
+# 
+custom_phrase_super_2jian:
+  dictionary: ""
+  user_dict: custom_phrase_super_2jian
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
+
+# 
+custom_phrase_super_3jian:
+  dictionary: ""
+  user_dict: custom_phrase_super_3jian
   db_class: stabledb
   enable_sentence: false
   enable_completion: false
@@ -283,6 +314,14 @@ reverse_stroke:
   tips: 〔筆畫hspnz〕 # 〔筆畫〕
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
+
+# 中文转英文  移植了没效果
+# chinese_english:
+#   option_name: chinese_english
+#   opencc_config: chinese_english.json
+#   tips: char
+#   comment_format:
+#     - "xform/-/ /"
 
 # Emoji
 emoji:
