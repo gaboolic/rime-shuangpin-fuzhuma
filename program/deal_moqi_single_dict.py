@@ -126,10 +126,11 @@ def read_file(file_path):
             
             # print(encode_count_map)
             
-            char_list[character] = 1
+            char_list[character+pinyin] = re.sub(r'\[', '', params[1])
             list.append(f"{character}\t{encoding}")
     return list
 
+final_code_char_map = {}
 final_list = []
 write_file = open('cn_dicts_dazhu/moqi_all2.txt', 'w')
 for file_name in file_list:
@@ -140,6 +141,7 @@ for file_name in file_list:
     #print(read_file_lines)
     for line in read_file_lines:
         params = line.split("\t")
+        final_code_char_map[params[1]] = params[0]
         if len(params[1])==2:
             # print(line)
             #write_file.write(line+"\n")
@@ -151,8 +153,8 @@ with open('cn_dicts_dazhu/moqi_all.txt', 'w') as file:
     file.writelines('\n'.join(final_list))
     pass
 
-# todo 生成出简让全
-count = 0
+# 3码的 生成出简让全
+code_2_char_list = []
 with open('cn_dicts_dazhu/moqi_all.txt', 'r', encoding='utf-8') as dict_file:
     for line in dict_file:
         if not '\t' in line or line.startswith("#"):
@@ -160,7 +162,15 @@ with open('cn_dicts_dazhu/moqi_all.txt', 'r', encoding='utf-8') as dict_file:
         line = line.strip()
         params = line.split('\t')
         if len(params[1])==2:
-            print(line)
-            count+=1
+            code_2_char_list.append(params[0]+params[1])
             pass
-print(count)
+
+
+code_3_file = open("custom_phrase_3_code.txt", "w")
+for code_2_char in code_2_char_list:
+    all_code = char_list[code_2_char]
+    code_3 = all_code[0:3]
+    
+    if code_3 in final_code_char_map:
+        print(final_code_char_map[code_3]+"\t"+code_3)
+        code_3_file.write(final_code_char_map[code_3]+"\t"+code_3+"\n")
