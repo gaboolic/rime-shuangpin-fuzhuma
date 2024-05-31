@@ -162,7 +162,7 @@ with open('./program/moran.chars.dict.yaml', 'r', encoding='utf-8') as dict_file
                 encoding_post = encoding[3:]
                 
                 if character in '去我而人他有是出哦配啊算的非个和就可了在小从这吧你吗':
-                    encoding_post = encoding_post.upper()
+                    encoding_post = encoding_post[0] + encoding_post[1].upper()
                 if character not in dict_data:
                     dict_data[character] = encoding_post
 
