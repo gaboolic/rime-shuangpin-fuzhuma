@@ -64,7 +64,7 @@
 5. ## 自定义配置
 
    1. ```
-      自定义配置建议放在 对应输入法的*.custom.yaml文件中，比如小鹤+鹤辅助码：flypy_flypy.custom.yaml 文件
+      自定义配置建议放在 对应输入法的*.custom.yaml文件中,以patch开头即可，比如小鹤+鹤辅助码：flypy_flypy.custom.yaml 文件
       patch:
         #engine/translators/@last: '' ## 禁用英文单词输入功能
         #punctuator/half_shape: {} ## 恢复默认引号
@@ -118,11 +118,38 @@
 
     [image](https://private-user-images.githubusercontent.com/26186575/326491822-021f1e8f-cfae-4cd6-98fd-34834fd04653.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTUzMjYzNDksIm5iZiI6MTcxNTMyNjA0OSwicGF0aCI6Ii8yNjE4NjU3NS8zMjY0OTE4MjItMDIxZjFlOGYtY2ZhZS00Y2Q2LTk4ZmQtMzQ4MzRmZDA0NjUzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTEwVDA3MjcyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUxYTg3Njg5MjcxNjRkNjMyY2Q2NWYzYmI4MTZjMDBiZTJhNWI1MzRjYmU2MTRiOWU1MDkwMTI2NzczODY4YzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.WDEpgZZKVAs9-tWyDoe4v__UH-s9lvDxs6W-iAMb3Yc)
 
-11. ## 开启输入法横向显示/横向排列
+11. ## weasel.custom.yaml相关：横向显示、内嵌编码、自定义配色
 
     %appdata%目录下`\Roaming\Rime\weasel.custom.yaml`
 
-    ![img](https://img2024.cnblogs.com/blog/2924988/202401/2924988-20240120215424998-957649137.png)
+    ```yaml
+    # weasel.custom.yaml
+    patch:
+      style/horizontal: true      # 候選橫排
+      style/inline_preedit: true  # 內嵌編碼（僅支持TSF）
+      style/display_tray_icon: false  # 顯示托盤圖標
+      style/corner_radius: 20 # 圆角
+      style/font_face: "楷体"
+      style/font_point: 18
+      style/color_scheme: tf # 选择配色方案
+      "preset_color_schemes/tf": # 自定义配色方案
+        name: tf
+        author: d
+        text_color: 1710618
+        back_color: 16382457
+        border_color: 15658734
+        label_color: 11184810
+        hilited_text_color: 1710618
+        hilited_back_color: 15790320
+        candidate_text_color: 1710618
+        comment_text_color: 1710618
+        hilited_candidate_text_color: 1710618
+        hilited_comment_text_color: 1710618
+        hilited_candidate_back_color: 15790320
+        hilited_label_color: 11184810
+    ```
+
+    
 
     在`patch:`下添加`"style/horizontal": true`后重新部署即可
 
