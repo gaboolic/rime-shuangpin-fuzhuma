@@ -150,22 +150,20 @@ dict_data = {}
 file_list = ['tencent.dict.yaml']
 # file_list = [ 'tencent.dict.yaml']
 # Load the dict data from the provided file
-with open('./moqima.txt', 'r', encoding='utf-8') as dict_file:
-    for line in dict_file:
-        if "\t" in line:
-            character, encoding, chaifen = line.strip().split('\t')
-            if "'" not in encoding:
-                encoding_post = encoding
+# with open('./moqima.txt', 'r', encoding='utf-8') as dict_file:
+#     for line in dict_file:
+#         if "\t" in line:
+#             character, encoding, chaifen = line.strip().split('\t')
+#             if "'" not in encoding:
+#                 encoding_post = encoding
 
                 
-                if character in '去我而人他有是出哦配啊算的非个和就可了在小从这吧你吗':
-                    encoding_post = encoding.upper()
-                if character not in dict_data:
-                    dict_data[character] = encoding_post
+#                 if character in '去我而人他有是出哦配啊算的非个和就可了在小从这吧你吗':
+#                     encoding_post = encoding.upper()
+#                 if character not in dict_data:
+#                     dict_data[character] = encoding_post
 
 
-print("巴 " + dict_data['巴'])
-print("𬱖 " + dict_data['𬱖'])
 
 for file_name in file_list:
     # File paths

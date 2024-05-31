@@ -150,7 +150,7 @@ dict_data = {}
 file_list = ['8105.dict.yaml', '41448.dict.yaml', 'base.dict.yaml', 'ext.dict.yaml', 'others.dict.yaml']
 # file_list = [ 'tencent.dict.yaml']
 # Load the dict data from the provided file
-with open('./moqima.txt', 'r', encoding='utf-8') as dict_file:
+with open('./opencc/moqi_chaifen.txt', 'r', encoding='utf-8') as dict_file:
     for line in dict_file:
         if "\t" in line:
             character, encoding, chaifen = line.strip().split('\t')
