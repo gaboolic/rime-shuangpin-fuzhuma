@@ -80,8 +80,9 @@ def read_file(file_path):
         word_freq_list = sorted(word_freq_list, key=custom_sort)
         # word_freq_list = sorted(word_freq_list, key=lambda x: int(x['freq']), reverse=True)
         if combination == 'le':
-            print(combination)
-            print(word_freq_list)
+            # print(combination)
+            # print(word_freq_list)
+            pass
 
         for word in word_freq_list:
             line = word['line']
@@ -109,9 +110,6 @@ def read_file(file_path):
                 elif character == '和' and pinyin != 'he':
                     pass
                 else:
-                    print(line)
-                    # print(pinyin)
-                    print("continue")
                     continue
             
             if new_encoding2 not in encode_count_map or encode_count_map[new_encoding2] < 1:
@@ -143,7 +141,7 @@ for file_name in file_list:
     for line in read_file_lines:
         params = line.split("\t")
         if len(params[1])==2:
-            #print(line)
+            # print(line)
             #write_file.write(line+"\n")
             pass
         final_list.append(line)
@@ -152,3 +150,17 @@ for file_name in file_list:
 with open('cn_dicts_dazhu/moqi_all.txt', 'w') as file:
     file.writelines('\n'.join(final_list))
     pass
+
+# todo 生成出简让全
+count = 0
+with open('cn_dicts_dazhu/moqi_all.txt', 'r', encoding='utf-8') as dict_file:
+    for line in dict_file:
+        if not '\t' in line or line.startswith("#"):
+            continue
+        line = line.strip()
+        params = line.split('\t')
+        if len(params[1])==2:
+            print(line)
+            count+=1
+            pass
+print(count)
