@@ -8,6 +8,19 @@ file_list = ['8105.dict.yaml']
 # file_list = [ 'tencent.dict.yaml']
 # Load the dict data from the provided file
 
+# 3码的 生成出简让全
+phrase_code_2_map = {}
+with open('custom_phrase.txt', 'r', encoding='utf-8') as dict_file:
+    for line in dict_file:
+        if not '\t' in line or line.startswith("#"):
+            continue
+        line = line.strip()
+        params = line.split('\t')
+        print(params)
+        if len(params[1])==2 and len(params[0]) == 1:
+            phrase_code_2_map[params[0]] = params[1]
+            pass
+
 def custom_sort(word_freq):
     special_words = "去我而人他有是出哦配啊算的非个和就可了在小从这吧你吗"
     # 如果当前词是特定字，则将其排在最前面
@@ -25,7 +38,9 @@ def custom_sort(word_freq):
     if word_freq['word'] == '了' and pinyin != 'le':
         return (2, -int(word_freq['freq']))  # 其他词按照频率降序排列
     
-    # todo 2码字 优先级为1
+    # 2码字 优先级为1
+    if word_freq['word'] in phrase_code_2_map and phrase_code_2_map[word_freq['word']] == pinyin:
+        return (1, -int(word_freq['freq']))  # 其他词按照频率降序排列
 
     if word_freq['word'] in special_words:
         return (0, -int(word_freq['freq']))  # 将特定字排在最前面并按频率降序排列
