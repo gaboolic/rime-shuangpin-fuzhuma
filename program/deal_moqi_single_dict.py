@@ -16,7 +16,7 @@ with open('custom_phrase.txt', 'r', encoding='utf-8') as dict_file:
             continue
         line = line.strip()
         params = line.split('\t')
-        print(params)
+        # print(params)
         if len(params[1])==2 and len(params[0]) == 1:
             phrase_code_2_map[params[0]] = params[1]
             pass
@@ -127,6 +127,7 @@ def read_file(file_path):
                 elif character == '和' and pinyin != 'he':
                     pass
                 else:
+                    char_list[character+new_encoding1] = re.sub(r'\[', '', params[1])
                     continue
             
             if new_encoding2 not in encode_count_map or encode_count_map[new_encoding2] < 1:
@@ -144,6 +145,7 @@ def read_file(file_path):
             # print(encode_count_map)
             
             char_list[character+pinyin] = re.sub(r'\[', '', params[1])
+            
             list.append(f"{character}\t{encoding}")
     return list
 
@@ -167,6 +169,32 @@ for file_name in file_list:
 
 # 写入多行数据到文件
 with open('cn_dicts_dazhu/moqi_all.txt', 'w') as file:
+    file.write("""去	q
+我	w
+而	e
+人	r
+他	t
+有	y
+是	u
+出	i
+哦	o
+配	p
+啊	a
+算	s
+的	d
+非	f
+个	g
+和	h
+就	j
+可	k
+了	l
+在	z
+小	x
+从	c
+这	v
+吧	b
+你	n
+吗	m\n""")
     file.writelines('\n'.join(final_list))
     pass
 
@@ -178,16 +206,17 @@ with open('cn_dicts_dazhu/moqi_all.txt', 'r', encoding='utf-8') as dict_file:
             continue
         line = line.strip()
         params = line.split('\t')
-        if len(params[1])==2:
+        print(params[1])
+        if len(params[1])==2 or len(params[1])==1:
             code_2_char_list.append(params[0]+params[1])
             pass
 
-
+print(code_2_char_list)
 code_3_file = open("custom_phrase_3_code.txt", "w")
 for code_2_char in code_2_char_list:
     all_code = char_list[code_2_char]
     code_3 = all_code[0:3]
     
     if code_3 in final_code_char_map:
-        print(final_code_char_map[code_3]+"\t"+code_3)
+        # print(final_code_char_map[code_3]+"\t"+code_3)
         code_3_file.write(final_code_char_map[code_3]+"\t"+code_3+"\n")

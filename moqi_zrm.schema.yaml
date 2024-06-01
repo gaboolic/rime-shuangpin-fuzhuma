@@ -60,6 +60,7 @@ engine:
   translators:
     - punct_translator
     - table_translator@custom_phrase
+    - table_translator@custom_phrase_3_code
     - table_translator@custom_phrase_kf
     - table_translator@custom_phrase_mqzg
     - table_translator@custom_phrase_super_2jian
@@ -223,6 +224,15 @@ custom_phrase:
   enable_completion: false
   enable_sentence: false
   initial_quality: 1
+
+# 3码出简让全
+custom_phrase_3_code:
+  dictionary: ""
+  user_dict: custom_phrase_3_code
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: 1 #本表词和系统词重码居后
 
 # 无冲突的3简
 custom_phrase_super_3jian_no_conflict:
