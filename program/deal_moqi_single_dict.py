@@ -17,18 +17,20 @@ def custom_sort(word_freq):
     encoding = re.sub(r'\[', '', encoding)
     pinyin = encoding[0:2]
     if word_freq['word'] == '的' and pinyin != 'de':
-        return (1, -int(word_freq['freq']))  # 其他词按照频率降序排列
+        return (2, -int(word_freq['freq']))  # 其他词按照频率降序排列
     if word_freq['word'] == '哦' and pinyin != 'oo':
-        return (1, -int(word_freq['freq']))  # 其他词按照频率降序排列
+        return (2, -int(word_freq['freq']))  # 其他词按照频率降序排列
     if word_freq['word'] == '和' and pinyin != 'he':
-        return (1, -int(word_freq['freq']))  # 其他词按照频率降序排列
+        return (2, -int(word_freq['freq']))  # 其他词按照频率降序排列
     if word_freq['word'] == '了' and pinyin != 'le':
-        return (1, -int(word_freq['freq']))  # 其他词按照频率降序排列
+        return (2, -int(word_freq['freq']))  # 其他词按照频率降序排列
+    
+    # todo 2码字 优先级为1
 
     if word_freq['word'] in special_words:
         return (0, -int(word_freq['freq']))  # 将特定字排在最前面并按频率降序排列
     else:
-        return (1, -int(word_freq['freq']))  # 其他词按照频率降序排列
+        return (2, -int(word_freq['freq']))  # 其他词按照频率降序排列
 
 
 
