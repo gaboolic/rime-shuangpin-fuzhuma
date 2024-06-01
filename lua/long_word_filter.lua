@@ -28,6 +28,12 @@ function M.func(input)
         end
         if preedit_len < 1 then
             local str = cand.preedit
+            -- 去掉preedit的全拼补全
+            local pos = string.find(str, " [", 1, true)
+            if pos then
+                str = string.sub(str, 1, pos - 1)
+            end
+
             str = str:gsub("%s+", "")
             preedit_len = utf8.len(str)
         end
