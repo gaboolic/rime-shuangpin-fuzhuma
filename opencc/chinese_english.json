@@ -15,6 +15,10 @@
 					{
 						"type": "text",
 						"file": "chinese_english.txt"
+					},
+					{
+						"type": "text",
+						"file": "english_chinese.txt"
 					}
 				]
 			}
