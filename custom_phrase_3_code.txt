@@ -151,7 +151,7 @@
 泗	sid
 肃	suy
 飕	szf
-牠	tan
+牠	tany
 涛	tcd
 汰	tdd
 替	tif
