@@ -10,16 +10,14 @@ with open('opencc/english_chinese.txt', 'r', encoding='utf-8') as dict_file:
 
         english = params[0]
         chinese = params[1]
-        # print(chinese)
-        # if '\\n' in chinese:
-        #     n_index =  chinese.index('\\n')
-        #     pre_word = chinese[0:n_index]
-        #     print(pre_word)
-        #     if pre_word == english:
-        #         print("====")
-        #     chinese = chinese[n_index+2:]
-        #     #print(chinese)
+        chinese = chinese.replace(" "," ")
+        chinese = chinese.replace("@"," ")
 
-        new_line = english + "\t" + english +" "
-        new_line += chinese.replace("\\n"," ")
-        write_file.write(new_line+"\n")
+        for word in english.split("|"):
+
+            new_line = word + "\t" + word +" "
+            new_line += chinese
+            write_file.write(new_line+"\n")
+
+
+        
