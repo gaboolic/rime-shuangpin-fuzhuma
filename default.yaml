@@ -5,7 +5,7 @@ config_version: '0.40'
 
 schema_list:
   - schema: flypy_flypy # 小鹤+鹤形
-  - schema: zrm_zrm # 自然码+自然码部首辅助码
+  # - schema: zrm_zrm # 自然码+自然码部首辅助码
   - schema: moqi_xh # 墨奇码鹤拼版
   - schema: moqi_zrm # 墨奇码自然双拼版
   - schema: moqi_single_xh # 墨奇码·单字版·小鹤

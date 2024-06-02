@@ -1,0 +1,1021 @@
+## 置顶词与自定义词组在这个文件里指定 排序原则上语气词 动词 形容词>名词
+## 格式：文本-输入码-权重，其间用 Tab 符分隔。
+## 如要添加新的，可以复制已有的行，然后在其基础上修改。
+## 置顶字词
+去	q	3
+我	w	3
+而	e	3
+人	r	3
+他	t	3
+有	y	3
+是	u	3
+出	i	3
+哦	o	3
+配	p	3
+
+啊	a	3
+算	s	3
+的	d	3
+非	f	3
+个	g	3
+和	h	3
+
+就	j	3
+可	k	3
+了	l	3
+
+在	z	3
+小	x	3
+从	c	3
+这	v	3
+吧	b	3
+你	n	3
+吗	m	3
+
+不	bu	3
+把	ba	2
+
+其实	q	2
+去不去	q	1
+往往	w	2
+为什么	w	1
+而且	e	2
+饿不饿	e	1
+然后	r	2
+若不是	r	1
+同时	t	2
+特别是	t	1
+已经	y	2
+也不是	y	1
+什么	u	2
+是不是	u	1
+差点	i	2
+差不多	i	1
+偶	o	2
+平时	p	2
+怕不怕	p	1
+安装	a	2
+按理说	a	2
+虽然	s	2
+算不算	s	1
+但是	d	2
+懂不懂	d	1
+复杂	f	2
+服不服	f	1
+感觉	g	2
+怪不得	g	1
+好的	h	2
+会不会	h	1
+觉得	j	2
+既不是	j	1
+可以	k	2
+看一看	k	1
+理解	l	2
+练一练	l	1
+自己	z	2
+怎么样	z	1
+想到	x	2
+行不行	x	1
+才能	c	2
+猜不到	c	1
+只是	v	2
+准不准	v	1
+不就	b	2
+不一定	b	1
+那么	n	2
+能不能	n	1
+没有	m	2
+忙不忙	m	1
+
+# 没	mw	3
+使	ui	3
+# 大	da	1
+
+# 才	cd	2
+# 少	uc	2
+# 僧	sg	2
+# 多	do	2
+# 佛	fo	2
+# 无	wu	2
+# 肉	rz	2
+# 车	ie	2
+# 新	xb	2
+# 帅	uk	2
+# 老	lc	2
+# 将	jl	2
+又	yz	2
+# 云	yy	2
+深	uf	2
+删	uj	2
+谁	uw	2
+# 能	ng	2
+# 弄	ns	2
+# 风	fg	2
+越	yt	2
+# 水	uv	2
+# 里	li	2
+# 咋	za	2
+赞	zj	2
+# 让	rh	2
+# 虐	nt	2
+# 毛	mc	2
+兄	xs	2
+# 黑	hw	2
+# 龙	ls	2
+# 森	sf	2
+# 林	lb	2
+闹	nc	2
+# 天	tm	2
+# 地	di	2
+# 黄	hl	2
+# 牛	nq	2
+# 大	da	2
+乎	hu	2
+# 拨	bo	2
+# 床	il	2
+腻	ni	2
+阿	aa	2
+# 翁	wg	2
+恰	qx	2
+# 好	hc	2
+# 说	uo	2
+# 空	ks	2
+# 话	hx	2
+# 爱	ai	2
+# 女	nv	2
+# 当	dh	2
+# 面	mm	2
+# 色	se	2
+匆	cs	2
+# 容	rs	2
+# 怒	nu	2
+撒	sa	2
+洒	sa	1
+# 红	hs	2
+# 米	mi	2
+它	ta	2
+她	ta	1
+# 先	xm	2
+笑	xn	2
+# 穷	qs	2
+# 困	ky	2
+# 绿	lv	2
+# 囊	nh	2
+# 贼	zw	2
+# 也	ye	2
+# 万	wj	2
+# 为	ww	2
+# 和	he	3
+何	he	2
+# 楼	lz	2
+# 高	gc	2
+躺	th	2
+# 更	gg	2
+# 暖	nr	2
+# 凭	pk	2
+# 啥	ua	2
+敲	qn	2
+# 坏	hk	2
+# 应	yk	2
+# 对	dv	2
+# 难	nj	2
+# 目	mu	2
+# 光	gl	2
+# 绕	rc	2
+得	de	2
+# 亲	qb	2
+# 提	ti	2
+# 软	rr	2
+# 装	vl	2
+# 问	wf	2
+# 跑	pc	2
+# 来	ld	2
+# 您	nb	2
+# 眼	yj	2
+# 前	qm	2
+# 两	ll	2
+间	jm	2
+# 长	vh	2
+# 草	cc	2
+各	ge	2
+# 内	nw	2
+# 外	wd	2
+几	ji	2
+# 行	hh	2
+# 热	re	2
+# 搜	sz	2
+# 求	qq	2
+# 安	an	2
+# 全	qr	2
+# 藏	ch	2
+# 传	ir	2
+# 真	vf	2
+# 如	ru	2
+# 修	xq	2
+# 本	bf	2
+# 主	vu	2
+# 上	uh	2
+# 元	yr	2
+# 太	td	2
+# 岁	sv	2
+# 共	gs	2
+# 双	ul	2
+# 恩	en	2
+# 桌	vo	2
+# 边	bm	2
+混	hy	2
+# 吃	ii	2
+# 仍	rg	2
+# 需	xu	2
+# 了	le	3
+乐	le	2
+# 村	cy	2
+# 中	vs	2
+# 走	zz	2
+# 动	ds	2
+# 且	qp	2
+# 请	qk	2
+# 跟	gf	2
+# 长	ih	2
+# 路	lu	2
+# 正	vg	2
+# 顺	uy	2
+# 或	ho	2
+# 行	xk	2
+久	jq	2
+# 报	bc	2
+# 表	bn	2
+# 群	qy	2
+# 读	du	2
+# 谈	tj	2
+# 分	ff	2
+# 成	ig	2
+样	yh	2
+图	tu	2
+# 古	gu	2
+# 怪	gk	2
+# 撇	pp	2
+# 粗	cu	2
+# 乱	lr	2
+# 陈	if	2
+# 某	mz	2
+# 特	te	2
+# 强	ql	2
+# 蹦	bg	2
+# 窜	cr	2
+# 戳	io	2
+陪	pw	2
+# 料	ln	2
+# 过	go	2
+# 关	gr	2
+# 调	dn	2
+酸	sr	2
+# 发	fa	2
+# 嫩	nf	2
+# 排	pd	2
+# 开	kd	2
+# 口	kz	2
+# 要	yc	2
+# 生	ug	2
+# 抽	iz	2
+# 昂	ah	2
+# 头	tz	2
+# 每	mw	2
+# 次	ci	2
+# 旁	ph	2
+# 若	ro	2
+# 定	dk	2
+# 顿	dy	2
+# 额	ee	2
+# 经	jk	2
+# 年	nm	2
+# 只	vi	2
+# 等	dg	2
+# 盘	pj	2
+# 曾	cg	2
+# 早	zc	2
+# 数	uu	2
+# 日	ri	2
+# 听	tk	2
+# 鸟	nn	2
+# 梦	mg	2
+# 但	dj	2
+# 因	yb	2
+# 差	ia	2
+# 点	dm	2
+# 总	zs	2
+# 卷	jr	2
+# 然	rj	2
+死	si	2
+# 下	xx	2
+# 帮	bh	2
+# 凑	cz	2
+含	hj	2
+# 宁	nk	2
+# 散	sj	2
+# 最	zv	2
+# 后	hz	2
+# 推	tv	2
+# 却	qt	2
+跌	dp	2
+# 碰	pg	2
+# 贴	tp	2
+超	ic	2
+# 贵	gv	2
+# 追	vv	2
+# 买	md	2
+# 怕	pa	2
+# 卡	ka	2
+# 疼	tg	2
+# 放	fh	2
+# 浪	lh	2
+# 还	hd	2
+# 看	kj	2
+# 该	gd	2
+# 干	gj	2
+骂	ma	2
+# 亚	ya	2
+# 奥	ao	2
+# 比	bi	2
+# 赛	sd	2
+# 忙	mh	2
+# 参	cj	2
+# 与	yu	2
+于	yua	2
+# 想	xl	2
+# 哭	ku	2
+# 接	jp	2
+# 连	lm	2
+# 被	bw	2
+# 灭	mp	2
+# 团	tr	2
+# 费	fw	2
+# 用	ys	2
+加	jx	2
+# 增	zg	2
+# 够	gz	2
+# 快	kk	2
+# 否	fz	2
+# 普	pu	2
+# 系	xi	2
+# 吹	iv	2
+# 落	lo	2
+# 很	hf	2
+# 亏	kv	2
+# 么	me	2
+站	vj	2
+举	ju	2
+# 民	mb	2
+# 调	dn	2
+# 都	dz	2
+# 进	jb	2
+# 组	zu	2
+# 受	uz	2
+# 到	dc	2
+# 肯	kf	2
+# 夸	kx	2
+# 找	vc	2
+# 靠	kc	2
+# 所	so	2
+# 并	bk	2
+# 列	lp	2
+# 均	jy	2
+# 宽	kr	2
+# 纯	iy	2
+末	mo	2
+# 况	kl	2
+再	zd	2
+儿	er	2
+# 以	yi	3
+已	yi	2
+# 测	ce	2
+# 滚	gy	2
+# 剖	pz	2
+# 剋	kw	2
+# 破	po	2
+# 产	ij	2
+# 另	lk	2
+设	ue	2
+# 做	zo	2
+# 事	ui	2
+时	uio	2
+处	iu	2
+挖	wa	2
+# 坑	kg	2
+# 则	ze	2
+# 选	xr	2
+横	hg	2
+# 滨	bb	2
+区	qu	2
+# 藏	ch	2
+着	ve	2
+# 换	hr	2
+# 带	dd	2
+# 别	bp	2
+# 叫	jn	2
+# 慢	mj	2
+# 错	co	2
+# 论	ly	2
+# 白	bd	2
+# 给	gw	2
+任	rf	2
+其	qi	2
+# 催	cv	2
+# 刚	gh	2
+# 送	ss	2
+# 那	na	2
+# 些	xp	2
+# 同	ts	2
+# 学	xt	2
+# 们	mf	2
+# 冲	is	2
+# 丢	dq	2
+# 怎	zf	2
+# 办	bj	2
+# 转	vr	2
+# 冷	lg	2
+# 啦	la	2
+# 品	pb	2
+类	lw	2
+套	tc	2
+# 票	pn	2
+# 盆	pf	2
+克	ke	2
+秒	mn	2
+名	mk	2
+# 片	pm	2
+副	fu	2
+# 部	bu	2
+# 段	dr	2
+批	pi	2
+# 扎	va	2
+# 挂	gx	2
+# 拽	vk	2
+# 抗	kh	2
+# 拴	ur	2
+拖	to	2
+# 揣	ik	2
+握	wo	2
+# 抓	vx	2
+# 捏	np	2
+# 挪	no	2
+# 扫	sc	2
+# 把	ba	2
+# 扩	ko	2
+# 擦	ca	2
+流	lq	2
+六	lqw	1
+# 苏	su	2
+# 岑	cf	2
+# 欧	ou	2
+# 周	vz	2
+# 王	wh	2
+# 反	fj	2
+# 嗯	en	2
+# 欸	ei	2
+喔	oo	2
+# 哟	yo	2
+# 嘎	ga	2
+# 哈	ha	2
+# 呢	ne	2
+# 得	dw	2
+# 会	hv	2
+# 拆	id	2
+# 字	zi	2
+
+## 难道	
+一定	yd	3
+有点	yd	2
+因为	yw	3
+以为	yw	2
+培养	py	3
+便宜	py	2
+拼音	py	1
+决定	jd	3
+简单	jd	2
+所以	sy	3
+所有	sy	2
+我们	wm	3
+外卖	wm	2
+从来	cl	3
+策略	cl	2
+只能	vn	3
+指南	vn	2
+修改	xg	3
+效果	xg	2
+反正	fv	3
+分钟	fv	2
+文本	wb	3
+五笔	wb	2
+微博	wb	1
+重新	ix	3
+出现	ix	2
+程序	ix	1
+可能	kn	3
+困难	kn	2
+## 需要	
+解决	jj	3
+仅仅	jj	2
+基金	jj	1
+非常	fi
+问题	wt
+成为	iw	3
+车位	iw	2
+结果	jg	3
+价格	jg	2
+审批	up	3
+视频	up	3
+明显	mx	3
+模型	mx	2
+容易	ry	3
+## 自己	
+现在	xz	3
+选择	xz	2
+发现	fx	3
+方向	fx	2
+价值	jv	3
+简直	jv	2
+发布	fb	3
+方便	fb	2
+许多	xd	3
+新的	xd	2
+喜欢	xh	3
+信号	xh	2
+小鹤	xh	1
+本来	bl	3
+比例	bl	2
+准备	vb	3
+直播	vb	2
+指标	vb	1
+## 首先	
+## 同意	
+## 了解	理解 逻辑
+有些	yx	3
+游戏	yx	2
+目前	mq	3
+明确	mq	2
+知道	vd	3
+真的	vd	2
+根本	gb
+浪费	lf
+一直	yv
+认为	rw	3
+任务	rw	2
+哪里	nl	3
+能力	nl	2
+采纳	cn
+掌握	vw	3
+中午	vw	2
+终于	vy	3
+这样	vy	2
+东西	dx	3
+对象	dx	2
+怎么	zm	3
+在吗	zm	2
+咱们	zm	1
+这么	vm	3
+周末	vm	2
+随便	sb	3
+散步	sb	2
+而且	eq	3
+二期	eq	2
+唯一	wy	3
+我也	wy	2
+以前	yq	3
+一起	yq	2
+要求	yq	1
+联系	lx	3
+类型	lx	2
+地方	df	3
+对方	df	2
+应该	yg	3
+一个	yg	2
+聊天	lt	3
+翻译	fy	3
+反应	fy	2
+## 怎样	
+完成	wi
+一年	yn	3
+也能	yn	2
+命令	ml	3
+没了	ml	2
+提问	tw	3
+台湾	tw	3
+冲突	it	3
+传统	it	2
+欧洲	ov
+评论	pl	3
+漂亮	pl	2
+日报	rb	3
+日本	rb	2
+安静	aj	3
+按键	aj	2
+还能	hn	3
+很难	hn	2
+让你	rn	3
+热闹	rn	2
+行啊	xa	3
+西安	xa	2
+就按	ja	3
+骄傲	ja	2
+抠门	km	3
+科目	km	2
+特别	tb	3
+贴吧	tb	2
+西欧	xo
+奇怪	qg	3
+全国	qg	2
+认领	rl	3
+日历	rl	2
+人类	rl	2
+希望	xw	3
+下午	xw	2
+## 自然	
+挨打	ad	3
+安定	ad	2
+昨天	zt	3
+字体	zt	2
+烦恼	fn
+今天	jt
+检测	jc	3
+精彩	jc	2
+警察	jc	1
+明天	mt	3
+每天	mt	2
+洒脱	st	3
+三天	st	2
+宋体	st	1
+后天	ht	3
+后台	ht	2
+发送	fs	3
+粉丝	fs	3
+天天	tt	3
+调通	tt	2
+安逸	ay	3
+哎哟	ay	2
+阿姨	ay	2
+日期	rq	3
+人群	rq	2
+之前	vq	3
+正确	vq	2
+心中	xv	3
+限制	xv	2
+安排	ap
+命中	mv	3
+没准	mv	2
+提前	tq	3
+天气	tq	2
+人们	rm	3
+入门	rm	2
+热爱	ra	3
+仁爱	ra	2
+微信	wx	3
+我想	wx	2
+休假	xj	3
+现金	xj	2
+为了	wl	3
+无论	wl	2
+未来	wl	1
+安全	aq	3
+爱情	aq	2
+分类	fl	3
+法律	fl	2
+你再	nz	3
+脑子	nz	2
+算了	sl	3
+数量	sl	2
+传播	ib	3
+成本	ib	2
+走了	zl	3
+资料	zl	2
+金额	je
+登录	dl	3
+到了	dl	2
+积分	jf	3
+经费	jf	2
+没用	my	3
+美元	my	2
+申请	uq	3
+事情	uq	2
+放弃	fq	3
+番茄	fq	2
+碎片	sp	3
+赛跑	sp	2
+思考	sk	3
+三快	sk	2
+速开	sk	1
+错误	cw	3
+仓位	cw	2
+分配	fp	3
+发票	fp	2
+公平	gp	3
+股票	gp	2
+承诺	in	3
+吹牛	in	2
+合成	hi	3
+好处	hi	2
+产品	ip
+功能	gn	3
+概念	gn	2
+完全	wq
+不同	bt
+在线	zx	3
+咨询	zx	2
+普通	pt	3
+平台	pt	2
+参考	ck	3
+仓库	ck	2
+污染	wr	3
+温柔	wr	2
+微软	wr	1
+额外	ew	3
+二位	ew	2
+爱国	ag	3
+昂贵	ag	2
+儿子	ez
+原来	yl	3
+依赖	yl	2
+哪些	nx	3
+内心	nx	2
+填写	tx	3
+同学	tx	2
+腾讯	tx	1
+## 似乎	
+开通	kt	3
+开头	kt	3
+如同	rt
+今晚	jw
+偶像	ox
+代表	db	3
+的吧	db	2
+没事	ms	3
+貌似	ms	2
+马上	ms	2
+聪明	cm	3
+层面	cm	2
+而不	eb
+也没	ym	3
+页面	ym	2
+推翻	tf	3
+天赋	tf	2
+区分	qf	3
+气氛	qf	2
+安心	ax	3
+爱心	ax	2
+赔钱	pq	3
+脾气	pq	2
+反而	fe	3
+份额	fe	2
+儿科	ek
+状态	vt	3
+主题	vt	2
+沉默	im
+晚餐	wc	3
+午餐	wc	2
+千万	qw	3
+请问	qw	2
+备注	bv	3
+标准	bv	2
+讨论	tl	3
+套路	tl	2
+期间	qj	3
+请假	qj	2
+不再	bz
+奋斗	fd	3
+饭店	fd	2
+沟通	gt	3
+高铁	gt	2
+作品	zp
+缩写	sx	3
+思想	sx	2
+过程	gi
+在哪	zn	3
+怎么	zn	2
+灾难	zn	1
+害怕	hp	3
+和平	hp	2
+就在	jz	3
+加载	jz	2
+节奏	jz	1
+切换	qh	3
+情怀	qh	2
+身体	ut
+暗藏	ac	3
+哀愁	ac	2
+才不	cb	3
+从不	cb	3
+反馈	fk	3
+疯狂	fk	2
+去做	qz	3
+棋子	qz	2
+按照	av	3
+安卓	av	2
+说明	um	3
+生命	um	2
+培训	px	3
+拼写	px	2
+认真	rv	3
+日志	rv	2
+计算	js	3
+角色	js	2
+配置	pv	3
+确定	qd	3
+强大	qd	2
+缺点	qd	1
+位置	wv	3
+网站	wv	2
+文章	wv	1
+过去	gq	3
+过期	gq	2
+不是	bs	3
+不算	bs	2
+鄙视	bs	1
+不行	bx	3
+必须	bx	2
+那样	ny	3
+农业	ny	2
+万能	wn	3
+温暖	wn	2
+比如	br	3
+不然	br	2
+获取	hq	3
+好奇	hq	2
+招聘	vp	3
+照片	vp	2
+暗自	az	3
+案子	az	2
+呕吐	ot	2
+下次	xc	3
+香菜	xc	2
+从前	cq	3
+采取	cq	2
+## 安保	ab	2
+按时	au	3
+暗示	au	2
+平时	ps	3
+配送	ps	2
+配额	pe	2
+暂且	zq	3
+再去	zq	2
+思念	sn	3
+酸奶	sn	2
+索取	sq	3
+诉求	sq	2
+恩赐	ec	3
+二次	ec	2
+发帖	ft	3
+法庭	ft	2
+我在	wz	3
+文字	wz	2
+儿童	et	3
+额头	et	2
+偶尔	oe	2
+认可	rk	3
+入口	rk	2
+人口	rk	1
+其中	qv	3
+前缀	qv	2
+一片	yp	3
+硬盘	yp	2
+热点	rd	2
+安慰	aw	2
+才行	cx	3
+操心	cx	2
+块钱	kq	3
+开启	kq	2
+空气	kq	1
+人品	rp	2
+任凭	rp	1
+偶然	or	2
+开除	ki	3
+课程	ki	2
+而非	ef	3
+二份	ef	2
+失败	ub	3
+身边	ub	2
+出去	iq	3
+重启	iq	2
+红包	hb	3
+合并	hb	2
+全额	qe	3
+企鹅	qe	2
+分润	fr	3
+夫人	fr	2
+默认	mr	3
+每人	mr	2
+而这	ev	3
+二者	ev	2
+恩爱	ea	3
+嗯啊	ea	1
+辞退	ct	3
+餐厅	ct	2
+试试	us	3
+申诉	us	2
+安抚	af	3
+爱妃	af	2
+所谓	sw	3
+思维	sw	2
+暧昧	am	3
+奥秘	am	2
+就会	jh	3
+机会	jh	2
+衣服	yf	3
+运费	yf	2
+而已	ey	3
+恶意	ey	2
+安利	al	3
+案例	al	2
+还没	hm	3
+后面	hm	2
+耳机	ej	3
+二级	ej	2
+如下	rx	3
+人性	rx	2
+左边	zb	3
+资本	zb	2
+动态	dt	3
+冬天	dt	2
+爱看	ak	3
+安康	ak	2
+解耦	jo	3
+奇偶	jo	2
+艾特	at	3
+凹凸	at	2
+噩梦	em	3
+耳鸣	em	2
+饿了	el	3
+二楼	el	2
+恶心	ex	3
+恶性	ex	2
+耳朵	ed	3
+额度	ed	2
+恶搞	eg	3
+儿歌	eg	2
+耳畔	ep	3
+邪恶	xe	3
+限额	xe	2
+不饿	be	3
+榜二	be	2
+挨饿	ae	3
+饿死	es	3
+耳塞	es	2
+按日	ar	3
+爱人	ar	2
+猥琐	ws	3
+万岁	ws	2
+空白	kb	3
+恐怖	kb	2
+可怕	kp	3
+卡片	kp	2
+网课	wk	3
+文库	wk	2
+骗人	pr	3
+烹饪	pr	2
+譬如	pr	1
+发财	fc	3
+分词	fc	2
+暗算	as	3
+爱死	as	2
+群殴	qo	3
+求偶	qo	2
+不用	by	3
+不要	by	2
+并且	bq	3
+补全	bq	2
+表情	bq	1
+偶遇	oy	3
+欧元	oy	2
+干嘛	gm	3
+感冒	gm	2
+购买	gm	1
+操盘	cp	3
+彩票	cp	2
+脆皮	cp	1
+其次	qc	3
+清仓	qc	2
+物品	wp	3
+网盘	wp	2
+在看	zk	3
+做空	zk	2
+修复	xf	3
+想法	xf	2
+幸福	xf	1
+发明	fm	3
+方面	fm	2
+父母	fm	1
+而是 	eu	3
+二是 	eu	2
+二审 	eu	1
+## 收到	
+扫码	sm	3
+扫描	sm	2
+
+##	
+常用个人信息
+## 注意最后的数字控制优先级，希望排在前面的要设置得大一些
+姓名（在custom_phrase.txt里设置）	info	64
+xxx（学号/工号）	info	60
+12300001234（手机）	info	56
+xx学院/部门	info	48
+xx學校/單位	info	44
+foo@xx.com（邮箱）	info	40
