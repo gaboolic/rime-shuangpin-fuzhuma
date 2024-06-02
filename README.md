@@ -102,7 +102,12 @@
 
   - ![aj](readmeimg/aj.png)
 
-- O符快符：o开头，快速输入各种符号偏旁部件，可以参考[小鹤 · 符号](md/fuhao.md)      [小鹤 · 部件](md/bujian.md)
+- 翻译功能：
+  ctrl + E开启英汉、汉英互译。
+  - ![ink](c0d770e432c8282b9e87e6ebd06970a0.png)
+  - ![奇特](readmeimg/qite.png)
+
+- O符快符：o开头，快速输入各种符号偏旁部件，可以参考[快符](md/fuhao.md)      [部件](md/bujian.md)
 
   - ![ofu2](readmeimg/ofu2.png)
   - ![ofu](readmeimg/ofu.png)
