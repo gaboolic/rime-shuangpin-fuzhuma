@@ -21,98 +21,12 @@ schema:
     - easy_en
     - jp_sela
 
-switches:
-  - name: ascii_mode
-    reset: 0 #新对话默认状态,0为中文，1为英文
-    states: [ 中文, 西文 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
-  - name: traditionalization
-    states: [ 简, 繁 ]
-  - name: emoji
-    states: [ 💀, 😄 ]
-  - name: mars
-    reset: 0
-    states: [ 地, 煋 ] #火星文
-  - name: ascii_punct
-    states: [ 。，, ．， ]
-
-engine:
-  processors:
-    - ascii_composer
-    - recognizer
-    - lua_processor@*sbxlm.key_binder # 绑定按键
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
-  segmentors:
-    - ascii_segmentor
-    - matcher
-    - abc_segmentor
-    - punct_segmentor
-    - affix_segmentor@emojis
-    - affix_segmentor@verbatim ## not as the last of this list
-    - affix_segmentor@easy_en_simp
-    - affix_segmentor@jp_sela
-    - fallback_segmentor
-  translators:
-    - punct_translator
-    - table_translator@custom_phrase
-    - table_translator@custom_phrase_3_code
-    - table_translator@custom_phrase_kf
-    - table_translator@custom_phrase_xhzg
-    - table_translator@custom_phrase_super_2jian
-    - table_translator@custom_phrase_super_3jian
-    - table_translator@custom_phrase_super_3jian_no_conflict
-    - reverse_lookup_translator
-    - reverse_lookup_translator@reverse_moqima
-    - reverse_lookup_translator@reverse_chaizi
-    - reverse_lookup_translator@reverse_stroke
-    - reverse_lookup_translator@reverse_zrlf
-    - reverse_lookup_translator@reverse_cj
-    - script_translator
-    - lua_translator@date_translator    # 时间、日期、星期
-    - lua_translator@lunar              # 农历
-    - table_translator@emojis ## 添加注释后：停用ae模式emoji输入
-    - table_translator@easy_en_simp ## 添加注释后：停用单词输入
-    - table_translator@jp_sela ## 添加注释后：停用日语输入
-    - lua_translator@unicode            # Unicode
-    - lua_translator@number_translator  # 数字、金额大写
-    - lua_translator@calc_translator    # 计算器
-  filters:
-    - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
-    - simplifier@emoji                              # Emoji
-    # - lua_filter@reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
-    - simplifier@chaifen
-    - simplifier@chaifen_all
-    - simplifier@chinese_english
-    - simplifier@traditionalize                     # 简繁切换
-    - simplifier@mars                               #火星文
-    - uniquifier
-
-# 计算器触发关键字
-calc_translator:
-  trigger: V
-
-# Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
-date_translator:
-  date: date            # 日期： 2022-11-29
-  time: time            # 时间： 18:13
-  week: week            # 星期： 星期二
-  datetime: datetime    # ISO 8601： 2022-11-29T18:13:11+08:00
-  timestamp: timestamp  # 时间戳： 1669716794
-
-# Lua 配置：农历的触发关键字
-lunar: anl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
-# Lua 配置：长词优先
-# 提升 count 个词语，插入到第 idx 个位置。
-# 示例：将 2 个词插入到第 1  个候选项，输入 总算 得到「1总算 2纵」
-long_word_filter:
-  count: 2
-  idx: 1
+__include: moqi.yaml:/switches_engine
+__include: moqi.yaml:/phrase # 置顶
+__include: moqi.yaml:/reverse #反查配置
+__include: moqi.yaml:/opencc_config # 拆分 英汉互译 火星文
+__include: moqi.yaml:/punctuator # 标点
+__include: moqi.yaml:/guide # 引导前缀配置
 
 speller:
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
@@ -123,6 +37,7 @@ speller:
   delimiter: " '"
   ## speller 未允许 aj 表示 an
   algebra:
+    # 这一段是为了支持加载全拼词库
     # - xform/^([aoe])$/$1$1/
     # - xform/^(ang)$/ah/
     # - xform/^([^\[]*)iu$/$1Q/
@@ -230,157 +145,7 @@ translator:
     # - xform/=> */[/
     # - xform/ *<=/]/
 
-custom_phrase:
-  dictionary: ""
-  user_dict: custom_phrase
-  db_class: stabledb
-  enable_completion: false
-  enable_sentence: false
-  initial_quality: 1
-
-# 3码出简让全
-custom_phrase_3_code:
-  dictionary: ""
-  user_dict: custom_phrase_3_code
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: 1 #本表词和系统词重码居后
-
-# 无冲突的3简
-custom_phrase_super_3jian_no_conflict:
-  dictionary: ""
-  user_dict: custom_phrase_super_3jian_no_conflict
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
-
-custom_phrase_kf:
-  dictionary: ""
-  user_dict: custom_phrase_kf
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
-
-custom_phrase_xhzg:
-  dictionary: ""
-  user_dict: custom_phrase_xhzg
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
-
-# 
-custom_phrase_super_2jian:
-  dictionary: ""
-  user_dict: custom_phrase_super_2jian
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
-
-# 
-custom_phrase_super_3jian:
-  dictionary: ""
-  user_dict: custom_phrase_super_3jian
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
-
-reverse_moqima:
-  tag: reverse_moqima
-  dictionary: reverse_moqima
-  enable_completion: true
-  prefix: "amq"
-  suffix: "'"
-  tips: 〔墨奇反查〕
-  preedit_format:
-    # - xlit/hspnz/一丨丿丶乙/
-
-reverse_chaizi:
-  tag: reverse_chaizi
-  dictionary: radical_flypy # https://github.com/mirtlecn/rime-radical-pinyin
-  enable_completion: true
-  prefix: "az"
-  suffix: "'"
-  tips: 〔部件组字〕
-  preedit_format:
-    # - xlit/hspnz/一丨丿丶乙/
-
-reverse_zrlf:
-  tag: reverse_zrlf
-  dictionary: zrlf
-  enable_completion: true
-  prefix: "alf"
-  suffix: "'"
-  tips: 〔自然兩分〕
-  preedit_format:
-    # - xlit/hspnz/一丨丿丶乙/
-
-reverse_cj:
-  tag: reverse_cj
-  dictionary: cangjie5
-  enable_completion: true
-  prefix: "acj"
-  suffix: "'"
-  tips: 〔仓颉〕
-  preedit_format:
-    - xform/^acj/仓颉5:/
-    - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|
-
-reverse_stroke:
-  tag: reverse_stroke
-  dictionary: stroke # stroke
-  enable_completion: true
-  prefix: "ab"
-  suffix: "'"
-  tips: 〔筆畫hspnz〕 # 〔筆畫〕
-  preedit_format:
-    - xlit/hspnz/一丨丿丶乙/
-
-# 中英互译
-chinese_english:
-  option_name: chinese_english
-  opencc_config: chinese_english.json
-  tips: char
-  comment_format:
-    - "xform/-/ /"
-
-# Emoji
-emoji:
-  option_name: emoji
-  opencc_config: emoji.json
-  inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
-
-# 简繁切换
-traditionalize:
-  option_name: traditionalization
-  opencc_config: s2t.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json
-  tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
-  tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
-
-# 火星文切换
-mars:
-  opencc_config: martian.json 
-  option_name: mars
-
-# 标点符号
-# punctuator 下面有三个子项：
-#   full_shape 全角标点映射
-#   half_shape 半角标点映射
-#   symbols    Rime 的预设配置是以 '/' 前缀开头输出一系列字符，自定义的 symbols_caps_v.yaml 修改成了 '/' 开头。
-
-punctuator:
-  full_shape:
-    __include: default:/punctuator/full_shape  # 从 default.yaml 导入配置
-  half_shape:
-    __include: default:/punctuator/half_shape  # 从 default.yaml 导入配置
-  symbols:
-    __include: symbols_caps_v:/symbols         # 从 symbols_caps_v.yaml 导入配置
-
+# 快捷键
 key_binder:
   import_preset: default
   bindings:
@@ -405,54 +170,12 @@ key_binder:
     #- { when: composing, accept: Control+3, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}[' }
     #- { when: composing, accept: Control+4, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
 
-recognizer:
-  # import_preset: default
-  patterns:
-    uppercase: "^[A-Z].*$"
-    #punct: '^/[0-9A-Za-z]+$' # 此正则无法使用1~0进行快速选择
-    punct: '^/[0-9A-z][0A-z]?[A-z]?+$' # 此正则在/+数字的情况下只能通过1~9进行快速选择，而不能使用0，其余情况皆为正常
-    ## 拆字、笔画、仓颉: 
-    reverse_moqima: "^amq[A-Za-z]*$" # "[[]b[a-z]*'?$"
-    reverse_chaizi: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
-    reverse_stroke: "^ab[A-Za-z]*$"
-    reverse_cj: "^acj[A-Za-z]*$"
-    reverse_zrlf: "^alf[A-Za-z]*$"
 
-    emojis: "^ae[a-z]*'?$" # "^ae.*$" 
-    easy_en_simp: "^aw[a-z]*"
-    jp_sela: "^aj[a-z]*"
-    unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
-    number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
-    gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
 
-emojis:
-  tag: emojis
-  dictionary: emoji
-  enable_completion: true
-  prefix: "ae"
-  #suffix: "'"
-  tips: " Emoji"
-
-easy_en_simp:
-  tag: easy_en_simp
-  dictionary: easy_en
-  enable_completion: true
+custom_phrase_mqzg:
+  dictionary: ""
+  user_dict: custom_phrase_xhzg
+  db_class: stabledb
   enable_sentence: false
-  prefix: "aw"
-  # suffix: "'"
-  tips: "英文单词（可去元音）"
-  spelling_hints: 9
-  comment_format:
-    - xform/^.+$//
-
-jp_sela:
-  tag: jp_sela
-  dictionary: jp_sela
-  enable_completion: true
-  enable_sentence: false
-  prefix: "aj"
-  # suffix: "'"
-  tips: "日语"
-  spelling_hints: 9
-  comment_format:
-    - xform/^.+$//
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
