@@ -82,14 +82,14 @@ speller:
     - derive/[[]//
 
     ## 飞键 可选择性开启
-    # - derive/^([yh])j/$1q/
-    # - derive/^qx/qw/
+    - derive/^([y])j/$1f/
+    - derive/^qx/qw/
     # - derive/^jn/jv/
     # - derive/^mn/mv/
     # - derive/^jm/jz/
-    # - derive/^([y])h/$1g/
+    - derive/^([y])h/$1g/
     # - derive/^([rgv])f/$1m/
-    # - derive/^([rgv])c/$1n/
+    - derive/^([rgv])c/$1n/
 
 translator:
   dictionary: moqi.extended
