@@ -1,0 +1,104 @@
+# coding: utf-8
+# 小鹤音形 小字和快符
+# 该文件以UTF-8编码保存
+# 编码格式：字词+Tab符+编码（词库本身有重码则还需后面+Tab符+权重，权重大者居前，权重数字随意）
+#    === 强调一下 === 
+# 
+#   词条和编码之间的不是空格，而是Tab符，如果你不知道，就复制下面编码中的空白处
+#   或者按住键盘 G 键，切换到功能键盘，使用上面的Tab键
+# 
+#    ================
+# 
+
+一	oba	111
+丨	obl	111
+丿	obp	111
+丶	obd	111
+乛	obv	111
+乀	obn	111
+鱼	oba
+冖	obb	100
+宀	obb	99
+丷	obb	98
+疒	obb	97
+勹	obb	96
+比左部	obb	95
+艹	obc	100
+廾	obc	99
+冫	obd	100
+氵	obd	99
+⺈	obd	98
+刂	obd	97
+阝	obe	100
+卩	obe	99
+彐	obe	98
+山	obe	97
+见下部	obe	96
+扌	obf	100
+寿带上部	obf	99
+龶	obf	98
+缶	obf	97
+既左部	obg	100
+艮	obg	99
+鬼	obg	98
+革	obg	96
+骨	obg	97
+灬	obh	100
+虍	obh	99
+黑	obh	98
+余下部	obh	97
+彳	obi	100
+亍	obi	99
+虫	obi	98
+钅	obj	100
+金	obj	99
+龹	obj	98
+匚	obk	100
+冂	obk	99
+凵	obk	98
+囗	obk	97
+㠯	obk	96
+耂	obl	100
+立	obl	99
+龙	obl	98
+朩	obm
+⺧	obn	100
+牜	obn	99
+日	obo	100
+月	obo	99
+目	obo	98
+礻	obp	100
+衤	obp	99
+犭	obq	100
+求	obq	99
+具其上部	obq	98
+亻	obr
+纟	obs	100
+厶	obs	99
+龴	obs	98
+罒	obs	97
+田	obt
+饣	obu	100
+龵	obu	99
+𠂇	obu	98
+氺	obu	97
+石	obu	96
+⺮	obv	100
+豸	obv	99
+亠	obw	100
+夂	obw	99
+攵	obw	98
+文	obw	97
+忄	obx	100
+乂	obx	99
+⺍	obx	98
+⺌	obx	97
+⺗	obx	96
+讠	oby	100
+⺷	oby	99
+⺶	oby	98
+𧘇	oby	97
+羊	oby	96
+⻊	obz	100
+廴	obz	99
+辶	obz	98
