@@ -174,7 +174,7 @@ key_binder:
 
 custom_phrase_mqzg:
   dictionary: ""
-  user_dict: custom_phrase_xhzg
+  user_dict: custom_phrase/custom_phrase_xhzg
   db_class: stabledb
   enable_sentence: false
   enable_completion: false
