@@ -140,7 +140,7 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
             if frequency is not None:
                 updated_line = f"{character}\t{double_list}\t{frequency}"
             else :
-                updated_line = f"{character}\t{double_list}"
+                updated_line = f"{character}\t{double_list}\t1"
         updated_content += updated_line + '\n'
 
     # Write the updated content back to the file
