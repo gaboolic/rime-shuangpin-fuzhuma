@@ -155,6 +155,8 @@ emoji的词库 支持双拼
 引入东风破管理
 
 自动上屏的lua，例如ow os syff/
+
+英文模糊输入的lua，例如输入be*ful得到beautiful
 ```
 
 ### 鸣谢
