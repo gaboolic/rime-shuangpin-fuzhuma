@@ -64,7 +64,7 @@ switches_engine:
       - lua_translator@calc_translator    # 计算器
     filters:
       # tab置顶词回显在第一个comment中
-      # - lua_filter@*stick 
+      - lua_filter@*stick 
       - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
       - simplifier@emoji                              # Emoji
       # - lua_filter@reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
