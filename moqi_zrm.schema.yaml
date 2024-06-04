@@ -147,7 +147,7 @@ key_binder:
     - { when: has_menu, accept: "Control+e", toggle: chinese_english }
 
 
-    - { match: "[a-z]{2,3}", accept: Tab,  send_sequence: "|1" }
+    - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "|1" }
     # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }
 
 

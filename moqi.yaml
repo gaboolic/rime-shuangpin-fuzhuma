@@ -43,6 +43,7 @@ switches_engine:
       - table_translator@custom_phrase_3_code
       - table_translator@custom_phrase_kf
       - table_translator@custom_phrase_mqzg
+      - table_translator@custom_phrase_super_1jian
       - table_translator@custom_phrase_super_2jian
       - table_translator@custom_phrase_super_3jian
       - table_translator@custom_phrase_super_3jian_no_conflict
@@ -125,6 +126,14 @@ phrase:
   custom_phrase_mqzg:
     dictionary: ""
     user_dict: custom_phrase/custom_phrase_mqzg
+    db_class: stabledb
+    enable_sentence: false
+    enable_completion: false
+    initial_quality: -1 #本表词和系统词重码居后
+
+  custom_phrase_super_1jian:
+    dictionary: ""
+    user_dict: custom_phrase/custom_phrase_super_1jian
     db_class: stabledb
     enable_sentence: false
     enable_completion: false
