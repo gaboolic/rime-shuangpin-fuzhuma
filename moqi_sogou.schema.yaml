@@ -18,6 +18,7 @@ schema:
     - emoji
     - easy_en
     - jp_sela
+    - moqi_big
 
 __include: moqi.yaml:/switches_engine
 __include: moqi.yaml:/phrase # 置顶
@@ -84,6 +85,18 @@ speller:
     # - derive/^([y])h/$1g/
     # - derive/^([rgv])f/$1m/
     # - derive/^([rgv])c/$1n/
+
+big_char:
+  dictionary: moqi_big.extended
+  initial_quality: -1
+  enable_completion: false
+  enable_sentence: false
+  ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
+  ##  改为 1 则是只显示单字的输入码，依此类推。
+  spelling_hints: 1
+  comment_format:
+    - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
+  enable_user_dict: false # 是否开启自动调频
 
 translator:
   dictionary: moqi.extended

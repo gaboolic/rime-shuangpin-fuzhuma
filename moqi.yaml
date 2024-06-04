@@ -47,6 +47,7 @@ switches_engine:
       - table_translator@custom_phrase_super_2jian
       - table_translator@custom_phrase_super_3jian
       - table_translator@custom_phrase_super_3jian_no_conflict
+      - table_translator@big_char
       - reverse_lookup_translator
       - reverse_lookup_translator@reverse_moqima
       - reverse_lookup_translator@reverse_chaizi

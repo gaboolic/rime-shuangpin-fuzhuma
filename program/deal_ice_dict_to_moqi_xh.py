@@ -10,7 +10,7 @@ def write_file(file_path, content):
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(content)
 
-char_list = []
+
 # Function to update missing encodings in the file
 def update_missing_encodings(file_path, write_file_path, dict_data):
     # Read the file content
@@ -35,10 +35,6 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
         else:
             character, encoding = line.split('\t')
         
-        if "41448" in file_path:
-            if character in char_list:
-                continue
-        char_list.append(character)
         if "tencent" in file_path :
             updated_line = f"{character}\t99"
             updated_content += updated_line + '\n'
