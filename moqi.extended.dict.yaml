@@ -19,7 +19,7 @@ import_tables:
   ## 雾凇拼音 https://github.com/iDvel/rime-ice
   - cn_dicts_moqi/fix # 错误词频修复
   - cn_dicts_moqi/8105     # 字表
-  - cn_dicts_moqi/41448     # 4万字大字表 可以关闭
+  # - cn_dicts_moqi/41448     # 4万字大字表 可以关闭
   
   - cn_dicts_moqi/base     # 基础词库
   - cn_dicts_moqi/ext      # 扩展词库
