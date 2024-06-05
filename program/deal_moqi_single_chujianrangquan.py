@@ -13,8 +13,7 @@ with open('moqi_single.dict.yaml', 'r', encoding='utf-8') as dict_file:
         code = params[1]
         if len(code)!= 4:
             continue
-        if code in code_4_char_list:
-            continue
+        
         code_4_char_list.append(code)
         write_file.write(params[0]+"\t"+params[1]+"o\n")
         
