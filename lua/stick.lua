@@ -55,14 +55,15 @@ function M.func(input,env)
   for cand in input:iter() do
     local preedit_str = cand.preedit
     local preedit_len = utf8.len(preedit_str)
-    if first_cand == nil and preedit_len <=3 and isAllLetters(preedit_str) then
+    if first_cand == nil then
       first_cand = cand
-      local stick_phrase = env.fixed[preedit_str] or ""
-
-      if stick_phrase ~= nil then
-        first_cand.comment=stick_phrase
+      if preedit_len <=3 and isAllLetters(preedit_str) then
+        local stick_phrase = env.fixed[preedit_str] or ""
+        if stick_phrase ~= nil then
+          first_cand.comment=stick_phrase
+        end
+        yield(first_cand)
       end
-      yield(first_cand)
     end
     yield(cand)
   end
