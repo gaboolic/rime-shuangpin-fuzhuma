@@ -85,6 +85,8 @@ speller:
     ## 飞键 可选择性开启
     - derive/^([y])j/$1f/
     - derive/^qx/qw/
+    - derive/^qq/qo/
+    - derive/^ww/wi/
     # - derive/^jn/jv/
     # - derive/^mn/mv/
     # - derive/^jm/jz/

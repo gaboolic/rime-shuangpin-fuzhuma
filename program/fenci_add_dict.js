@@ -6,7 +6,8 @@ const nodejieba = require("nodejieba");
 
 // 进行中文分词
 // const text = "不是善茬";
-const text = "一万多件"
+var text = "输入短语的时候"
+var text = "善茬"
 nodejieba.insertWord("一万")
 const result = nodejieba.cutAll(text);
 
