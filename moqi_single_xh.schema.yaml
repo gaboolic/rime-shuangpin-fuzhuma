@@ -4,14 +4,14 @@
 
 schema:
   schema_id: moqi_single_xh
-  name: 墨奇音形·单字
+  name: 墨奇音形·顶屏版
   version: "2024-05-11"
   author:
     - gaboolic
   description: |
     墨奇音形 https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%A2%A8%E5%A5%87%E7%A0%81%E6%8B%86%E5%88%86%E8%A7%84%E5%88%99
   dependencies:
-    - chaizi
+    - reverse_moqima
     - radical_flypy
     - stroke
     - zrlf
@@ -19,95 +19,84 @@ schema:
     - easy_en
     - jp_sela
 
-switches:
-  - name: ascii_mode
-    states: [ 中文, 西文 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
-  - name: traditionalization
-    states: [ 简, 繁 ]
-  - name: emoji
-    states: [ 💀, 😄 ]
-  - name: ascii_punct
-    states: [ 。，, ．， ]
+__include: moqi.yaml:/switches_engine
 
 engine:
-  processors:
-    - ascii_composer
-    - recognizer
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
-  segmentors:
-    - ascii_segmentor
-    - matcher
-    - abc_segmentor
-    - punct_segmentor
-    - affix_segmentor@emojis
-    - affix_segmentor@verbatim ## not as the last of this list
-    - affix_segmentor@easy_en_simp
-    - affix_segmentor@jp_sela
-    - fallback_segmentor
-  translators:
-    - punct_translator
-    - table_translator
-    - table_translator@custom_phrase
-    - table_translator@custom_phrase_kf
-    - table_translator@custom_phrase_mqzg
-    - reverse_lookup_translator
-    - reverse_lookup_translator@reverse_stroke
-    - reverse_lookup_translator@reverse_zrlf
-    - reverse_lookup_translator@reverse_cj
-    # - script_translator
-    - lua_translator@date_translator    # 时间、日期、星期
-    - lua_translator@lunar              # 农历
-    - table_translator@emojis ## 添加注释后：停用ae模式emoji输入
-    - table_translator@easy_en_simp ## 添加注释后：停用单词输入
-    - table_translator@jp_sela ## 添加注释后：停用日语输入
-    - lua_translator@unicode            # Unicode
-    - lua_translator@number_translator  # 数字、金额大写
-    - lua_translator@calc_translator    # 计算器
-  filters:
-    - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
-    - simplifier@emoji                              # Emoji
-    - simplifier@traditionalize                     # 简繁切换
-    - uniquifier
+    processors:
+      - ascii_composer
+      - recognizer
+      - lua_processor@*sbxlm.key_binder # 绑定按键
+      - key_binder
+      - speller
+      - punctuator
+      - selector
+      - navigator
+      - express_editor
+    segmentors:
+      - ascii_segmentor
+      - matcher
+      - abc_segmentor
+      - punct_segmentor
+      - affix_segmentor@emojis
+      - affix_segmentor@verbatim ## not as the last of this list
+      - affix_segmentor@easy_en_simp
+      - affix_segmentor@jp_sela
+      - fallback_segmentor
+    translators:
+      - punct_translator
+      - table_translator@custom_phrase
+      - table_translator@custom_phrase_3_code
+      - table_translator@custom_phrase_kf
+      - table_translator@custom_phrase_mqzg
+      - table_translator@custom_phrase_super_1jian
+      - table_translator@custom_phrase_super_2jian
+      - table_translator@custom_phrase_super_3jian
+      - table_translator@custom_phrase_super_3jian_no_conflict
+      - table_translator@big_char
+      - reverse_lookup_translator
+      - reverse_lookup_translator@reverse_moqima
+      - reverse_lookup_translator@reverse_chaizi
+      - reverse_lookup_translator@reverse_stroke
+      - reverse_lookup_translator@reverse_zrlf
+      - reverse_lookup_translator@reverse_cj
+      - table_translator
+      - lua_translator@date_translator    # 时间、日期、星期
+      - lua_translator@lunar              # 农历
+      - table_translator@emojis ## 添加注释后：停用ae模式emoji输入
+      - table_translator@easy_en_simp ## 添加注释后：停用单词输入
+      - table_translator@jp_sela ## 添加注释后：停用日语输入
+      - lua_translator@unicode            # Unicode
+      - lua_translator@number_translator  # 数字、金额大写
+      - lua_translator@calc_translator    # 计算器
+    filters:
+      # tab置顶词回显在第一个comment中
+      - lua_filter@*stick 
+      - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
+      - simplifier@emoji                              # Emoji
+      # - lua_filter@reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
+      - simplifier@chaifen
+      - simplifier@chaifen_all
+      - simplifier@chinese_english
+      - simplifier@traditionalize                     # 简繁切换
+      - simplifier@mars                               #火星文
+      - uniquifier
 
-# 计算器触发关键字
-calc_translator:
-  trigger: V
-
-# Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
-date_translator:
-  date: date            # 日期： 2022-11-29
-  time: time            # 时间： 18:13
-  week: week            # 星期： 星期二
-  datetime: datetime    # ISO 8601： 2022-11-29T18:13:11+08:00
-  timestamp: timestamp  # 时间戳： 1669716794
-
-# Lua 配置：农历的触发关键字
-lunar: anl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
-  
-# Lua 配置：长词优先
-# 提升 count 个词语，插入到第 idx 个位置。
-# 示例：将 2 个词插入到第 1  个候选项，输入 总算 得到「1总算 2纵」
-long_word_filter:
-  count: 2
-  idx: 1
+__include: moqi.yaml:/phrase # 置顶
+__include: moqi.yaml:/reverse #反查配置
+__include: moqi.yaml:/opencc_config # 拆分 英汉互译 火星文
+__include: moqi.yaml:/punctuator # 标点
+__include: moqi.yaml:/guide # 引导前缀配置
 
 speller:
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
-  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[/|
   # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
   initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
   delimiter: " '"
   max_code_length: 5
   auto_select: true   #顶字上屏
-  auto_select_pattern: ^;.$|^[a-df-zA-DF-Z]\w{3}$|^e\w{4}$
+  auto_select_pattern: ^;.$|^[a-df-zA-DF-Z]\w{3}|^e\w{4}
 
   auto_select_unique_candidate: true
   auto_clear: max_length #manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
@@ -153,14 +142,16 @@ speller:
     # - derive/^([jqxy])u/$1v/
 
     ## 飞键 可选择性开启
-    # - derive/^([yh])j/$1q/
-    # - derive/^qx/qw/
+    - derive/^([y])j/$1f/
+    - derive/^qx/qw/
+    - derive/^qq/qo/
+    - derive/^ww/wi/
     # - derive/^jn/jv/
     # - derive/^mn/mv/
     # - derive/^jm/jz/
-    # - derive/^([y])h/$1g/
+    - derive/^([y])h/$1g/
     # - derive/^([rgv])f/$1m/
-    # - derive/^([rgv])c/$1n/
+    - derive/^([rgv])c/$1n/
 
 
     
@@ -323,8 +314,15 @@ key_binder:
     # - { when: has_menu, accept: slash, send: 3 } # 用/进行选3
     - { when: composing, accept: Control+i, send: Shift+Right }
     - { when: composing, accept: Control+o, send: Shift+Left }
+    # 显示墨奇码拆分的快速开关
+    - { when: has_menu, accept: "Control+p", toggle: chaifen }
+    - { when: has_menu, accept: "Control+l", toggle: chaifen_all }
+    - { when: has_menu, accept: "Control+e", toggle: chinese_english }
+
+
+    - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "|1" }
+    # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }
     ## 对以下4行取消注释后：启用光标回退至特定音节后、补充辅助码的功能
-    ## （自然码等其他双拼用户请在 pinyin_switch.yaml 中设置）
     #- { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
     #- { when: composing, accept: Control+2, send_sequence: '{Home}{Shift+Right}{Shift+Right}[' }
     #- { when: composing, accept: Control+3, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}[' }
