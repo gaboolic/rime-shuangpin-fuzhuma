@@ -142,6 +142,7 @@
 穹	qsb
 曲	quk
 忍	rfr
+瓤	rhy
 爇	roc
 冗	rsb
 嬬	run

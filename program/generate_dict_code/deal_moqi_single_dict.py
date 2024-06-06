@@ -10,7 +10,7 @@ file_list = ['8105.dict.yaml']
 
 # 3码的 生成出简让全
 phrase_code_2_map = {}
-with open('custom_phrase.txt', 'r', encoding='utf-8') as dict_file:
+with open('custom_phrase/custom_phrase.txt', 'r', encoding='utf-8') as dict_file:
     for line in dict_file:
         if not '\t' in line or line.startswith("#"):
             continue
