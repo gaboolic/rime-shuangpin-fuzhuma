@@ -20,6 +20,9 @@ def read_file(file_path):
             character = params[0]
             encoding = params[1]
 
+            if encoding.endswith("/"):
+                encoding = encoding[:-1].upper()
+
             # list.append(f"{character}\t{encoding}")
             list.append(f"{encoding}\t{character}")
                 
@@ -29,7 +32,7 @@ def read_file(file_path):
 final_list = []
 
 tab_list = ['custom_phrase_super_1jian.txt', 'custom_phrase_super_2jian.txt','custom_phrase_super_3jian.txt','custom_phrase_super_3jian_no_conflict.txt']
-cn_dicts_common_list = ['4jian_no_conflict.dict.yaml', 'changcijian.dict.yaml', 'changcijian3.dict.yaml']
+cn_dicts_common_list = ['4jian_no_conflict.dict.yaml', 'changcijian.dict.yaml']
 cn_dicts_moqi_list = ['word.dict.yaml']
 char_list = ['moqi_single.dict.yaml']
 

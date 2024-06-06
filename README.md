@@ -157,6 +157,8 @@ emoji的词库 支持双拼
 自动上屏的lua，例如ow os syff/
 
 英文模糊输入的lua，例如输入be*ful得到beautiful
+
+ac引导造词功能
 ```
 
 ### 鸣谢
