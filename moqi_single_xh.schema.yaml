@@ -212,98 +212,6 @@ translator:
     # - xform/=> */[/
     # - xform/ *<=/]/
 
-custom_phrase:
-  dictionary: ""
-  user_dict: custom_phrase
-  db_class: stabledb
-  enable_completion: false
-  enable_sentence: false
-  initial_quality: 1
-
-custom_phrase_kf:
-  dictionary: ""
-  user_dict: custom_phrase_kf
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
-
-custom_phrase_mqzg:
-  dictionary: ""
-  user_dict: custom_phrase_mqzg
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
-
-reverse_lookup:
-  dictionary: radical_flypy # https://github.com/mirtlecn/rime-radical-pinyin
-  enable_completion: true
-  prefix: "az"
-  suffix: "'"
-  tips: 〔部件组字〕
-  preedit_format:
-    # - xlit/hspnz/一丨丿丶乙/
-
-reverse_zrlf:
-  tag: reverse_zrlf
-  dictionary: zrlf
-  enable_completion: true
-  prefix: "alf"
-  suffix: "'"
-  tips: 〔自然兩分〕
-  preedit_format:
-    # - xlit/hspnz/一丨丿丶乙/
-
-reverse_cj:
-  tag: reverse_cj
-  dictionary: cangjie5
-  enable_completion: true
-  prefix: "acj"
-  suffix: "'"
-  tips: 〔仓颉〕
-  preedit_format:
-    - xform/^acj/仓颉5:/
-    - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|
-
-reverse_stroke:
-  tag: reverse_stroke
-  dictionary: stroke # stroke
-  enable_completion: true
-  prefix: "ab"
-  suffix: "'"
-  tips: 〔筆畫hspnz〕 # 〔筆畫〕
-  preedit_format:
-    - xlit/hspnz/一丨丿丶乙/
-
-
-# Emoji
-emoji:
-  option_name: emoji
-  opencc_config: emoji.json
-  inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
-
-
-# 简繁切换
-traditionalize:
-  option_name: traditionalization
-  opencc_config: s2t.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json
-  tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
-  tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
-  
-# 标点符号
-# punctuator 下面有三个子项：
-#   full_shape 全角标点映射
-#   half_shape 半角标点映射
-#   symbols    Rime 的预设配置是以 '/' 前缀开头输出一系列字符，自定义的 symbols_caps_v.yaml 修改成了 '/' 开头。
-punctuator:
-  full_shape:
-    __include: default:/punctuator/full_shape  # 从 default.yaml 导入配置
-  half_shape:
-    __include: default:/punctuator/half_shape  # 从 default.yaml 导入配置
-  symbols:
-    __include: symbols_caps_v:/symbols         # 从 symbols_caps_v.yaml 导入配置
-
 key_binder:
   import_preset: default
   bindings:
@@ -328,58 +236,8 @@ key_binder:
     #- { when: composing, accept: Control+3, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}[' }
     #- { when: composing, accept: Control+4, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
 
-recognizer:
-  # import_preset: default
-  patterns:
-    uppercase: "^[A-Z].*$"
-    #punct: '^/[0-9A-Za-z]+$' # 此正则无法使用1~0进行快速选择
-    punct: '^/[0-9A-z][0A-z]?[A-z]?+$' # 此正则在/+数字的情况下只能通过1~9进行快速选择，而不能使用0，其余情况皆为正常
-    ## 拆字、笔画、仓颉: 
-    reverse_lookup: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
-    reverse_stroke: "^ab[A-Za-z]*$"
-    reverse_cj: "^acj[A-Za-z]*$"
-    reverse_zrlf: "^alf[A-Za-z]*$"
-
-    emojis: "^ae[a-z]*'?$" # "^ae.*$" 
-    easy_en_simp: "^aw[a-z]*"
-    jp_sela: "^aj[a-z]*"
-    unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
-    number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
-    gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
-
 menu:
   page_size: 3
 
 
-emojis:
-  tag: emojis
-  dictionary: emoji
-  enable_completion: true
-  prefix: "ae"
-  suffix: "'"
-  tips: " Emoji"
-
-easy_en_simp:
-  tag: easy_en_simp
-  dictionary: easy_en
-  enable_completion: true
-  enable_sentence: false
-  prefix: "aw"
-  # suffix: "'"
-  tips: "英文单词（可去元音）"
-  spelling_hints: 9
-  comment_format:
-    - xform/^.+$//
-    
-jp_sela:
-  tag: jp_sela
-  dictionary: jp_sela
-  enable_completion: true
-  enable_sentence: false
-  prefix: "aj"
-  # suffix: "'"
-  tips: "日语"
-  spelling_hints: 9
-  comment_format:
-    - xform/^.+$//
 
