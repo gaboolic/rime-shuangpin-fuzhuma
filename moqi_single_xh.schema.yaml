@@ -320,7 +320,7 @@ key_binder:
     - { when: has_menu, accept: "Control+e", toggle: chinese_english }
 
 
-    - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "|1" }
+    - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
     # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }
     ## 对以下4行取消注释后：启用光标回退至特定音节后、补充辅助码的功能
     #- { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
