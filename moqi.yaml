@@ -273,8 +273,7 @@ guide:
     # import_preset: default
     patterns:
       uppercase: "^[A-Z].*$"
-      #punct: '^/[0-9A-Za-z]+$' # 此正则无法使用1~0进行快速选择
-      punct: '^/[0-9A-z][0A-z]?[A-z]?+$' # 此正则在/+数字的情况下只能通过1~9进行快速选择，而不能使用0，其余情况皆为正常
+      punct: '^/([0-9]|10|[A-z]+)$'
       ## 拆字、笔画、仓颉: 
       reverse_moqima: "^amq[A-Za-z]*$" # "[[]b[a-z]*'?$"
       reverse_chaizi: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
