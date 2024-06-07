@@ -36,7 +36,7 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
         
         
         if "tencent" in file_path :
-            updated_line = f"{character}\t99"
+            updated_line = f"{character}\t30"
             updated_content += updated_line + '\n'
             continue
         else:
