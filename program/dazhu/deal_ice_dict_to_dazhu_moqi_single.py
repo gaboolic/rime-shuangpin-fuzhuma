@@ -14,7 +14,7 @@ def read_file(file_path):
             if not '\t' in line or line.startswith("#"):
                 continue
             line = line.strip()
-            print(line)
+            # print(line)
             params = line.split('\t');
             
             character = params[0]
@@ -31,7 +31,7 @@ def read_file(file_path):
 
 final_list = []
 
-tab_list = ['custom_phrase_super_1jian.txt', 'custom_phrase_super_2jian.txt','custom_phrase_super_3jian.txt','custom_phrase_super_3jian_no_conflict.txt']
+tab_list = ['custom_phrase.txt','custom_phrase_super_1jian.txt', 'custom_phrase_super_2jian.txt','custom_phrase_super_3jian.txt','custom_phrase_super_3jian_no_conflict.txt']
 cn_dicts_common_list = ['4jian_no_conflict.dict.yaml', 'changcijian.dict.yaml']
 cn_dicts_moqi_list = ['word.dict.yaml']
 char_list = ['moqi_single.dict.yaml']
