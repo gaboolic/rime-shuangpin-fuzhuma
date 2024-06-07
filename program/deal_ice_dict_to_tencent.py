@@ -167,7 +167,9 @@ file_list = ['tencent.dict.yaml']
 
 for file_name in file_list:
     # File paths
-    yaml_file_path = os.path.join('cn_dicts', file_name)
+    cn_dicts_path = os.path.expanduser("~/vscode/rime-frost/cn_dicts")
+    yaml_file_path = os.path.join(cn_dicts_path, file_name)
+    # yaml_file_path = os.path.join('cn_dicts', file_name)
     write_file_path = os.path.join('cn_dicts_common', file_name)
 
     print(yaml_file_path)

@@ -172,7 +172,8 @@ print("𬱖 " + dict_data['𬱖'])
 
 for file_name in file_list:
     # File paths
-    yaml_file_path = os.path.join('cn_dicts', file_name)
+    cn_dicts_path = os.path.expanduser("~/vscode/rime-frost/cn_dicts")
+    yaml_file_path = os.path.join(cn_dicts_path, file_name)
     write_file_path = os.path.join('cn_dicts_zrm', file_name)
 
     print(yaml_file_path)

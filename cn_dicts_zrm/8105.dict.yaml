@@ -1167,7 +1167,7 @@ sort: by_weight
 骀	dl[mt	1
 轪	dl[id	1
 垈	dl[td	0
-但	dj[rd	75053
+但	dj[rd	8000
 单	dj[ba	7390
 淡	dj[dy	5189
 担	dj[fd	4427
@@ -1237,7 +1237,7 @@ sort: by_weight
 鱽	dk[yd	1
 舠	dk[vd	1
 帱	dk[ju	1
-的	de[bU	769384
+的	de[bU	7693840
 地	de[ty	88041
 得	de[xc	71863
 德	de[xx	7338
@@ -4105,7 +4105,7 @@ sort: by_weight
 锊	lt[jc	1
 䂮	lt[uq	0
 圙	lt[km	0
-吗	ma[kM	90285
+吗	ma[kM	60285
 马	ma[aa	17295
 妈	ma[nm	9565
 麻	ma[gl	3745
@@ -5026,7 +5026,7 @@ sort: by_weight
 葜	qw[cq	1
 袷	qw[yh	1
 髂	qw[gk	1
-前	qm[bd	39679
+前	qm[bd	29679
 钱	qm[jj	10344
 千	qm[pa	7950
 潜	qm[dt	1516
@@ -7395,9 +7395,9 @@ sort: by_weight
 铘	ye[jx	3
 倻	ye[ry	1
 馌	ye[uh	1
-一	yi[aa	352789
 以	yi[rd	65232
 已	yi[vg	37208
+一	yi[aa	35278
 意	yi[xy	36689
 衣	yi[dd	9748
 亿	yi[ry	8437
@@ -8129,7 +8129,7 @@ sort: by_weight
 𬬿	vk[jv	0
 𬶐	vk[yv	0
 这	ve[zW	176489
-着	ve[yo	16166
+着	ve[yo	161660
 者	ve[lo	15811
 折	ve[fj	2486
 哲	ve[kv	1287
@@ -8213,10 +8213,10 @@ sort: by_weight
 诤	vg[yv	8
 烝	vg[hi	1
 只	vi[kb	50502
+之	vi[dd	50002
 知	vi[uk	43972
 直	vi[aa	19024
 至	vi[tv	11991
-之	vi[dd	11738
 指	vi[fv	10991
 值	vi[rv	9204
 制	vi[dg	8708
