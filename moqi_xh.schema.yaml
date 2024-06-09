@@ -187,3 +187,11 @@ key_binder:
 
 
 
+# 3码出简让全
+custom_phrase_3_code:
+  dictionary: ""
+  user_dict: custom_phrase/custom_phrase_3_code
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: 1 #本表词和系统词重码居后
