@@ -82,14 +82,18 @@ octagram:
   enable_for_sentence:
     __patch:
       grammar:
-        language: zh-hans-t-essay-bgw
+        # language: fcitx-zh-hans
         # language: zh-hans-t-huayu-v7-bgw
-        # collocation_max_length: 4
-        # collocation_min_length: 2
-      translator/+:
-        contextual_suggestions: true
-        max_homophones: 4
-        max_homographs: 2
+        language: zh-hans-t-essay-bgw
+        collocation_max_length: 4
+        collocation_min_length: 2
+        # non_collocation_penalty: -24
+        # collocation_penalty: -6
+        # weak_collocation_penalty: -12
+        # rear_penalty: -18
+      translator/contextual_suggestions: true
+      translator/max_homophones: 4
+      translator/max_homographs: 2
 phrase:
   custom_phrase:
     dictionary: ""

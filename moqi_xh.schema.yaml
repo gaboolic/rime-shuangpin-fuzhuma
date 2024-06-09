@@ -185,5 +185,6 @@ key_binder:
     #- { when: composing, accept: Control+3, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}[' }
     #- { when: composing, accept: Control+4, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
 
-
+# 启用語言模型
+#__include: moqi:/octagram/enable_for_sentence
 
