@@ -106,6 +106,27 @@ big_char:
     - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
   enable_user_dict: false # 是否开启自动调频
 
+# 自定义词典(还不好使)
+add_user_dict:
+  tag: add_user_dict
+  dictionary: moqi.extended
+  initial_quality: -1
+  user_dict: user.custom.dict
+# ↓ 用户词典格式，tabledb（文本） 或 userdb （二进制）。
+  db_class: tabledb
+  enable_charset_filter: false
+  enable_completion: true
+  enable_encoder: true
+  enable_sentence: true
+  enable_user_dict: true
+  encode_commit_history: false
+  preedit_format:
+    
+  comment_format:
+    - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
+  prefix: "ac"
+  tips: "〔自造词〕"
+
 translator:
   dictionary: moqi.extended
   enable_completion: false

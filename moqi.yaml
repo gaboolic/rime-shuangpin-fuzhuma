@@ -33,6 +33,7 @@ switches_engine:
       - abc_segmentor
       - punct_segmentor
       - affix_segmentor@emojis
+      - affix_segmentor@add_user_dict
       - affix_segmentor@verbatim ## not as the last of this list
       - affix_segmentor@easy_en_simp
       - affix_segmentor@jp_sela
@@ -48,6 +49,7 @@ switches_engine:
       - table_translator@custom_phrase_super_3jian
       - table_translator@custom_phrase_super_3jian_no_conflict
       - table_translator@big_char
+      - script_translator@add_user_dict
       - reverse_lookup_translator
       - reverse_lookup_translator@reverse_moqima
       - reverse_lookup_translator@reverse_chaizi
@@ -275,6 +277,8 @@ guide:
       reverse_stroke: "^ab[A-Za-z]*$"
       reverse_cj: "^acj[A-Za-z]*$"
       reverse_zrlf: "^alf[A-Za-z]*$"
+      #造词
+      add_user_dict: "^ac[A-Za-z]*$"
 
       emojis: "^ae[a-z]*'?$" # "^ae.*$" 
       easy_en_simp: "^aw[a-z]*"
