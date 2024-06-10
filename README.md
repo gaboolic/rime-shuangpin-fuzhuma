@@ -16,7 +16,7 @@
   - `zrm_zrm.schema.yaml # 自然码双拼+自然码辅助码`
 - 词库文件分别为`moqi.extended.dict.yaml`（墨奇音形）、`flypy_flypy.extended.dict.yaml`（鹤拼鹤形）和`zrm_zrm.extended.dict.yaml`（自然码拼+自然码部首辅），默认只开启了我用[雾凇词库](https://github.com/iDvel/rime-ice)转换的词典文件。此外还有从其他地方获取的细胞词库，例如历史类、地名类、古诗文、计算机、动漫、电影、游戏、电商等，可自行打开注释或从[细胞词库](https://github.com/Bambooin/rimerc/tree/master/luna_pinyin)获取。如无特殊需求，词典文件只配置词即可，rime引擎会自动计算编码。
 - 注意：默认关了用户词库（为了固定词频），如有需要，修改`你使用的方案.schema.yaml enable_user_dict: true`开启
-- 默认固定词频，编辑`cn_dicts_common/user.dict.yaml`来添加自定义的词
+- 默认固定词频，编辑`cn_dicts_common/user.dict.yaml`来添加自定义的词；推荐在用户词库关闭的情况下使用ac引导造词，这样自造词是在系统词库后面，不会影响系统词的字频和词序。
 - 默认显示单字的辅助码编码，可在`你使用的方案.schema.yaml`中`translator/spelling_hints`调整为更多或不显示
 - 超级简拼：2码、3码时，按下Tab（手机上是/）自动上屏2字词、3字词，不和空格上屏的单字冲突。
 - 三字词，用e引导简码，简码取声母，如：阿波罗 eabl,差不多 eibd,巴不得 ebbd。
@@ -158,7 +158,6 @@ emoji的词库 支持双拼
 
 英文模糊输入的lua，例如输入be*ful得到beautiful
 
-ac引导造词功能
 ```
 
 ### 鸣谢
