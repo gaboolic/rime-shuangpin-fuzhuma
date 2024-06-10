@@ -93,7 +93,7 @@ speller:
     # - derive/^([rgv])f/$1m/
     # - derive/^([rgv])c/$1n/
 
-big_char:
+user_dict_set:
   dictionary: flypy_flypy.extended
   initial_quality: 0
   enable_completion: false

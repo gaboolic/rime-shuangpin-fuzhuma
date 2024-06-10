@@ -48,7 +48,8 @@ switches_engine:
       - table_translator@custom_phrase_super_2jian
       - table_translator@custom_phrase_super_3jian
       - table_translator@custom_phrase_super_3jian_no_conflict
-      - script_translator@big_char
+      - table_translator@big_char_set
+      - script_translator@user_dict_set
       - script_translator@add_user_dict
       - reverse_lookup_translator
       - reverse_lookup_translator@reverse_moqima
