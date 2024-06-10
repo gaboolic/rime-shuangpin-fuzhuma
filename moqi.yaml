@@ -40,6 +40,7 @@ switches_engine:
       - fallback_segmentor
     translators:
       - punct_translator
+      # 码表翻译器 用于仓颉、五笔等基于码表的输入方案
       - table_translator@custom_phrase
       - table_translator@custom_phrase_3_code
       - table_translator@custom_phrase_kf
@@ -49,20 +50,24 @@ switches_engine:
       - table_translator@custom_phrase_super_3jian
       - table_translator@custom_phrase_super_3jian_no_conflict
       - table_translator@big_char_set
-      - script_translator@user_dict_set
-      - script_translator@add_user_dict
+
+      - table_translator@emojis ## 添加注释后：停用ae模式emoji输入
+      - table_translator@easy_en_simp ## 添加注释后：停用单词输入
+      - table_translator@jp_sela ## 添加注释后：停用日语输入
+      # 反查翻译器
       - reverse_lookup_translator
       - reverse_lookup_translator@reverse_moqima
       - reverse_lookup_translator@reverse_chaizi
       - reverse_lookup_translator@reverse_stroke
       - reverse_lookup_translator@reverse_zrlf
       - reverse_lookup_translator@reverse_cj
+      # 脚本翻译器，用于拼音、粤拼等基于音节表的输入方案
       - script_translator
+      - script_translator@user_dict_set
+      - script_translator@add_user_dict
+      # lua翻译器
       - lua_translator@date_translator    # 时间、日期、星期
       - lua_translator@lunar              # 农历
-      - table_translator@emojis ## 添加注释后：停用ae模式emoji输入
-      - table_translator@easy_en_simp ## 添加注释后：停用单词输入
-      - table_translator@jp_sela ## 添加注释后：停用日语输入
       - lua_translator@unicode            # Unicode
       - lua_translator@number_translator  # 数字、金额大写
       - lua_translator@calc_translator    # 计算器
@@ -94,9 +99,9 @@ octagram:
         # collocation_penalty: -6
         # weak_collocation_penalty: -12
         # rear_penalty: -18
-      translator/contextual_suggestions: true
-      translator/max_homophones: 4
-      translator/max_homographs: 2
+      translator/contextual_suggestions: true # 是否使用语言模型优化输出结果〔需配合 grammar 使用〕
+      translator/max_homophones: 4 # 最大同音簇长度〔需配合 grammar 使用〕
+      translator/max_homographs: 2 # 最大同形簇长度〔需配合 grammar 使用〕
 phrase:
   custom_phrase:
     dictionary: ""
@@ -345,7 +350,7 @@ big_char_and_user_dict:
   # 大字集
   big_char_set:
     dictionary: moqi_big.extended
-    initial_quality: -1
+    initial_quality: -1 # 设置此翻译器出字优先级,-1为极低
     enable_completion: false
     enable_sentence: false
     ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
@@ -379,12 +384,12 @@ big_char_and_user_dict:
     user_dict: user.custom.dict
   # ↓ 用户词典格式，tabledb（文本） 或 userdb （二进制）。
     db_class: tabledb
-    enable_charset_filter: false
-    enable_completion: true
-    enable_encoder: true
-    enable_sentence: true
-    enable_user_dict: true
-    encode_commit_history: false
+    enable_charset_filter: false # 是否开启字符集过滤
+    enable_completion: true # 提前显示尚未输入完整码的字〔仅 table_translator 有效〕
+    enable_encoder: true # 是否开启自动造词〔仅 table_translator 有效〕
+    enable_sentence: true #  是否开启自动造句
+    enable_user_dict: true # 是否开启用户词典
+    encode_commit_history: false # 是否对已上屛词自动成词〔仅 table_translator 有效〕
     preedit_format:
       
     comment_format:
