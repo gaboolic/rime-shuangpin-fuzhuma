@@ -102,7 +102,7 @@ translator:
   comment_format:
     - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
 
-  enable_user_dict: false # 是否开启自动调频
+  enable_user_dict: true # 是否开启自动调频
   preedit_format:
     # 复制用户输入, 一份转大写保持原样, 一份由正则转为全拼显示
     # - xform/(^.*$)/\U$1\E\t => $1 <=/
