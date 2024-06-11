@@ -67,7 +67,8 @@
 兔	obt	96
 屯	obt	95
 太	obt	94
-讠	oby	100
+讠	oby	101
+訁	oby	100
 𧘇	oby	99
 鱼	oby	98
 𦍌	oby	97
@@ -87,7 +88,8 @@
 严	oby	83
 义	oby	82
 曳	oby	81
-饣	obu	100
+饣	obu	101
+飠	obu	100
 龵	obu	99
 𠂇	obu	98
 𣥂	obu	97
