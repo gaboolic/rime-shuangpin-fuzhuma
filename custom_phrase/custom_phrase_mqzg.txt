@@ -231,7 +231,8 @@
 火	obh	93
 黄	obh	92
 乎	obh	91
-钅	obj	100
+钅	obj	101
+釒	obj	100
 龹	obj	99
 丩	obj	98
 巾	obj	97
