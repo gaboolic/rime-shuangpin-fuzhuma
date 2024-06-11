@@ -87,6 +87,8 @@ speller:
     - derive/^qx/qw/
     - derive/^qq/qo/
     - derive/^ww/wi/
+    
+    - derive/^y([a-z])/e$1/ # y -> e互击
     # - derive/^jn/jv/
     # - derive/^mn/mv/
     # - derive/^jm/jz/
