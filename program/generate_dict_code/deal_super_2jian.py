@@ -42,9 +42,9 @@ for file in file_list:
 letters = string.ascii_lowercase
 combinations = [a + b for a in letters for b in letters]
 
-file_path = "custom_phrase_super_2jian.txt"
+file_path = "custom_phrase/custom_phrase_super_2jian.txt"
 with open(file_path, "w") as file:
-    file.write("## 超强2简 使用deal_super_2jian.py生成\n")
+    file.write("## 超强2简 26*26=676词空间。 使用deal_super_2jian.py生成\n")
 # 遍历字符串序列
     for combination in combinations:
         if combination not in jianpin_word_map:
@@ -58,6 +58,8 @@ with open(file_path, "w") as file:
             # 取出前三个元素
             word_freq_list = word_freq_list[:3]
             word = word_freq_list[0]['word']
-            file.write(word+"\t"+combination+"|\n")
+            if word == '但是':
+                word = '都是'
+            file.write(word+"\t"+combination+"/\n")
             # print(combination + " " + str(word_freq_list))
         # print(combination + jianpin_word_map[combination])
