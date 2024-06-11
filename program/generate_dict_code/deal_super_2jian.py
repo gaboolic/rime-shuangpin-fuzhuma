@@ -60,6 +60,16 @@ with open(file_path, "w") as file:
             word = word_freq_list[0]['word']
             if word == '但是':
                 word = '都是'
+            if word == '现在':
+                word = '选择'
+            if word == '所以':
+                word = '所有'
+            if word == '认为':
+                word = '让我'
+            if word == '自己':
+                word = '最近'
+            if word == '目前':
+                word = '明确'
             file.write(word+"\t"+combination+"/\n")
             # print(combination + " " + str(word_freq_list))
         # print(combination + jianpin_word_map[combination])
