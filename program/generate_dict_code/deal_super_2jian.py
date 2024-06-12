@@ -70,6 +70,8 @@ with open(file_path, "w") as file:
                 word = '最近'
             if word == '目前':
                 word = '明确'
+            if word == '只是':
+                word = '知识'
             file.write(word+"\t"+combination+"/\n")
             # print(combination + " " + str(word_freq_list))
         # print(combination + jianpin_word_map[combination])
