@@ -89,6 +89,7 @@ speller:
     - derive/^ww/wi/
     
     - derive/^y([a-df-qs-z])/e$1/ # y -> e互击
+    - derive/^j([a-tw-z])/f$1/ # j -> f互击
     # - derive/^jn/jv/
     # - derive/^mn/mv/
     # - derive/^jm/jz/
