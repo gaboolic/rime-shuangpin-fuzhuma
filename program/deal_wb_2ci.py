@@ -33,7 +33,7 @@ for file in file_list:
 
 print(jianpin_word_map['什么'])
 
-with open("others/2字词频表.txt", 'r', encoding='utf-8') as dict_file:
+with open("program/2字词频表.txt", 'r', encoding='utf-8') as dict_file:
     for line in dict_file:
         line = line.strip()
         if not '\t' in line or line.startswith("#"):
