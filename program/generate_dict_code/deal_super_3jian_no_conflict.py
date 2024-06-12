@@ -43,7 +43,7 @@ for i in range(ord('a'), ord('z')+1):
             combinations.append(chr(i) + chr(j) + chr(k))
 
 
-file_path = "custom_phrase_super_3jian_no_conflict.txt"
+file_path = "custom_phrase/custom_phrase_super_3jian_no_conflict.txt"
 
 no_conflict_list = []
 # 遍历字符串序列
@@ -102,7 +102,7 @@ for i in range(ord('a'), ord('z')+1):
             combinations.append(chr(i) + chr(j) + chr(k))
 
 
-file_path = "custom_phrase_super_3jian_no_conflict.txt"
+file_path = "custom_phrase/custom_phrase_super_3jian_no_conflict.txt"
 
 with open(file_path, "w") as file:
     file.write("## 超强3简 使用deal_super_3jian_no_conflict.py生成\n")
@@ -121,7 +121,7 @@ with open(file_path, "w") as file:
             # 取出前三个元素
             word_freq_list = word_freq_list[:3]
             word = word_freq_list[0]['word']
-            print(word+"\t"+combination+"|")
+            print(word+"\t"+combination+"/")
 
             file.write(word+"\t"+combination + "\n")
 

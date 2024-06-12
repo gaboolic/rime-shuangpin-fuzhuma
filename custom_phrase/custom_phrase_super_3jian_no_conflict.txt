@@ -923,7 +923,6 @@
 才能看	cnk
 从哪里	cnl
 村农民	cnm
-操你娘	cnn
 苍南派	cnp
 采暖期	cnq
 才能让	cnr
@@ -1508,6 +1507,7 @@
 而那个	eng
 二年级	enj
 而你却	enq
+恶女人	enr
 二年制	env
 而那些	enx
 二娘子	enz
@@ -2073,7 +2073,6 @@
 副主席	fvx
 纺织业	fvy
 放置在	fvz
-访问量	fwl
 服务网	fww
 芳香胺	fxa
 放心吧	fxb
@@ -2174,6 +2173,7 @@
 光存储	gci
 供参考	gck
 搞错了	gcl
+瓜菜仁	gcr
 感到很	gdh
 该地块	gdk
 规定了	gdl
@@ -2197,6 +2197,7 @@
 规范性	gfx
 更富有	gfy
 肝功能	ggn
+广告人	ggr
 盖公章	ggv
 广告位	ggw
 干哈啊	gha
@@ -2463,6 +2464,7 @@
 华藏寺	hcs
 火电厂	hdi
 幻灯片	hdp
+很多人	hdr
 好烦啊	hfa
 很发达	hfd
 会费额	hfe
@@ -3152,7 +3154,6 @@
 肌酸酐	jsg
 近三年	jsn
 计算器	jsq
-江苏省	jsu
 寄宿制	jsv
 即所谓	jsw
 近似于	jsy
@@ -3272,6 +3273,7 @@
 快餐部	kcb
 康采恩	kce
 开采权	kcq
+枯草热	kcr
 快餐厅	kct
 可擦写	kcx
 坑点儿	kde
@@ -3579,6 +3581,7 @@
 两个月	lgy
 厉害啊	lha
 拉花儿	lhe
+老好人	lhr
 灵活性	lhx
 撩汉子	lhz
 垃圾啊	lja
@@ -3588,7 +3591,6 @@
 浏览器	llq
 浏览者	llv
 蕾缪安	lma
-雷诺阿	lna
 老婆啊	lpa
 老婆饼	lpb
 零配件	lpj
@@ -3960,7 +3962,6 @@
 女儿墙	neq
 尼尔森	nes
 你额头	net
-农二师	neu
 你儿子	nez
 南方澳	nfa
 能分别	nfb
@@ -4008,7 +4009,6 @@
 南海区	nhq
 你和他	nht
 您还未	nhw
-你还要	nhy
 你家啊	nja
 拈阄儿	nje
 那几个	njg
@@ -4066,7 +4066,6 @@
 您请看	nqk
 扭曲了	nql
 暖气团	nqt
-年轻时	nqu
 内墙砖	nqv
 你签字	nqz
 女人啊	nra
@@ -4079,9 +4078,9 @@
 你让开	nrk
 男人们	nrm
 女人气	nrq
+闹嚷嚷	nrr
 能仁寺	nrs
 牛肉汤	nrt
-内容是	nru
 聂荣臻	nrv
 你认为	nrw
 耐热性	nrx
@@ -4091,7 +4090,6 @@
 倪嗣冲	nsi
 弄死你	nsn
 内斯塔	nst
-年三十	nsu
 浓缩汁	nsv
 你退啊	nta
 内涂层	ntc
@@ -4462,7 +4460,6 @@
 怕麻烦	pmf
 破灭了	pml
 怕你啊	pna
-普宁市	pnu
 陪你玩	pnw
 陪你走	pnz
 跑跑啊	ppa
@@ -4844,7 +4841,6 @@
 求偶者	qov
 青苹果	qpg
 汽配网	qpw
-侵权案	qqa
 去人啊	qra
 羟色胺	qsa
 前三场	qsi
@@ -5768,6 +5764,7 @@
 投入比	trb
 糖人儿	tre
 特任官	trg
+太让人	trr
 天然色	trs
 投融资	trz
 碳酸铵	tsa
@@ -6108,6 +6105,7 @@
 山桐子	utz
 深圳啊	uva
 顺朱儿	uve
+室主任	uvr
 生长素	uvs
 设置为	uvw
 实质性	uvx
@@ -6140,7 +6138,7 @@
 属性词	uxc
 剩下的	uxd
 手续费	uxf
-肾小管	uxg
+鼠须管	uxg
 生效后	uxh
 筛选出	uxi
 摄像机	uxj
@@ -6399,7 +6397,6 @@
 中文网	vww
 中文系	vwx
 这无疑	vwy
-中文字	vwz
 中西部	vxb
 展现层	vxc
 执行官	vxg
@@ -7099,6 +7096,7 @@
 小天鹅	xte
 希特勒	xtl
 小缇娜	xtn
+心太软	xtr
 凶杀案	xua
 修正案	xva
 线装本	xvb

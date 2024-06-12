@@ -1443,7 +1443,6 @@
 才能看	cnk/
 从哪里	cnl/
 村农民	cnm/
-操你娘	cnn/
 苍南派	cnp/
 采暖期	cnq/
 才能让	cnr/
@@ -1536,7 +1535,6 @@
 崔斯特	cst/
 才算是	csu/
 参赛者	csv/
-操死我	csw/
 彩色系	csx/
 测速仪	csy/
 采桑子	csz/
@@ -6469,7 +6467,7 @@
 了不起	lbq/
 六百人	lbr/
 礼拜四	lbs/
-罗伯特	lbt/
+路边摊	lbt/
 来表示	lbu/
 留不住	lbv/
 两不误	lbw/
@@ -11854,7 +11852,7 @@
 剩下的	uxd/
 手心儿	uxe/
 手续费	uxf/
-肾小管	uxg/
+鼠须管	uxg/
 生效后	uxh/
 筛选出	uxi/
 摄像机	uxj/

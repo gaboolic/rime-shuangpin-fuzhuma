@@ -47,7 +47,7 @@ for i in range(ord('a'), ord('z')+1):
             combinations.append(chr(i) + chr(j) + chr(k))
 
 
-file_path = "custom_phrase_super_3jian.txt"
+file_path = "custom_phrase/custom_phrase_super_3jian.txt"
 with open(file_path, "w") as file:
     file.write("## 超强3简 使用deal_super_3jian.py生成\n")
                 
@@ -68,7 +68,7 @@ with open(file_path, "w") as file:
                 word = word_freq['word']
                 print(word+"\t"+combination+"|")
 
-                file.write(word+"\t"+combination+"|" + "\n")
+                file.write(word+"\t"+combination+"/" + "\n")
 
             # print(combination + " " + str(word_freq_list))
     # print(combination + jianpin_word_map[combination])
