@@ -72,6 +72,8 @@ with open(file_path, "w") as file:
                 word = '明确'
             if word == '只是':
                 word = '知识'
+            if word == '不再':
+                word = '不在'
             file.write(word+"\t"+combination+"/\n")
             # print(combination + " " + str(word_freq_list))
         # print(combination + jianpin_word_map[combination])
