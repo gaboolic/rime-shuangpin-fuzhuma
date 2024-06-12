@@ -166,7 +166,7 @@ emoji的词库 支持双拼
 
 ### 鸣谢
 
-雾凇词库 <https://github.com/iDvel/rime-ice>
+雾凇词库 <https://github.com/iDvel/rime-ice> 白霜词库 <https://github.com/gaboolic/rime-frost>
 
 墨奇码码表 <https://github.com/gaboolic/moqima-tables>
 
