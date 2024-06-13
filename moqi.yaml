@@ -93,6 +93,7 @@ octagram:
       grammar:
         # language: fcitx-zh-hans
         # language: zh-hans-t-huayu-v7-bgw
+        # language: zh-hans-wiki-202405
         language: zh-hans-t-essay-bgw
         collocation_max_length: 4
         collocation_min_length: 2
