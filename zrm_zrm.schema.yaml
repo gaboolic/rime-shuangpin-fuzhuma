@@ -174,3 +174,5 @@ key_binder:
 
 
 
+# 启用語言模型
+#__include: moqi:/octagram/enable_for_sentence
