@@ -1,11 +1,4 @@
 ## 4码 2字词 使用deal_4code_word.py生成
----
-name: word
-version: "2024-06-05"
-sort: by_weight
-...
-# +_+
-## 4码 2字词 使用deal_4code_word.py生成
 啊啊	aaaa
 阿爸	aaba
 阿宝	aabc
