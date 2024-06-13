@@ -99,6 +99,22 @@ with open(file_path, "w") as file:
                 word = '心理'
             if combination == 'yp':
                 word = '一篇'
+            if combination == 'um':
+                word = '上面'
+            if combination == 'fz':
+                word = '否则'
+            if combination == 'qu':
+                word = '确实'
+            if combination == 'eq':
+                word = '二区'
+            if combination == 'pu':
+                word = '评审'
+            if combination == 'xd':
+                word = '兄弟'
+            if combination == 'nm':
+                word = '你们'
+            if combination == 'my':
+                word = '满意'
             file.write(word+"\t"+combination+"/\n")
             # print(combination + " " + str(word_freq_list))
         # print(combination + jianpin_word_map[combination])
