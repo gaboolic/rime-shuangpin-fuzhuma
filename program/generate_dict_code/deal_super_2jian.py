@@ -115,6 +115,8 @@ with open(file_path, "w") as file:
                 word = '你们'
             if combination == 'my':
                 word = '满意'
+            if combination == 'yb':
+                word = '一遍'
             file.write(word+"\t"+combination+"/\n")
             # print(combination + " " + str(word_freq_list))
         # print(combination + jianpin_word_map[combination])
