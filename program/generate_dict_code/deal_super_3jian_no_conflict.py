@@ -32,7 +32,7 @@ for file in file_list:
                 word_list.append(word)
                 jianpin_word_map[jianpin] = word_list
 
-
+print(jianpin_word_map)
 
 # 生成 'aaa' 到 'zzz' 的字符串序列
 combinations = []
@@ -51,7 +51,7 @@ for combination in combinations:
     if combination not in jianpin_word_map:
         no_conflict_list.append(combination)
 
-print(no_conflict_list)
+#print(no_conflict_list)
 
 import os
 import string
@@ -121,7 +121,7 @@ with open(file_path, "w") as file:
             # 取出前三个元素
             word_freq_list = word_freq_list[:3]
             word = word_freq_list[0]['word']
-            print(word+"\t"+combination+"/")
+            #print(word+"\t"+combination+"/")
 
             file.write(word+"\t"+combination + "\n")
 
