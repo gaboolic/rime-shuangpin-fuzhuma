@@ -780,6 +780,14 @@ function rime.current(context)
       return nil
     end
     return context.input:sub(segment.start + 1, segment._end)
-  end
+end
+
+--- 取出输入
+---@param context Context
+function rime.input(context)
+    return context.input
+end
   
 return rime
+
+
