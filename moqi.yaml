@@ -55,6 +55,7 @@ switches_engine:
       - table_translator@custom_phrase_super_2jian
       - table_translator@custom_phrase_super_3jian
       - table_translator@custom_phrase_super_3jian_no_conflict
+      - table_translator@custom_phrase_super_4jian_no_conflict
       - table_translator@big_char_set # 大字集
       - table_translator@emojis ## 添加注释后：停用ae模式emoji输入
       - table_translator@easy_en_simp ## 添加注释后：停用单词输入
@@ -122,6 +123,16 @@ phrase:
     enable_completion: false
     initial_quality: -1 #本表词和系统词重码居后
 
+  # 无冲突的4简
+  custom_phrase_super_4jian_no_conflict:
+    dictionary: ""
+    user_dict: custom_phrase/custom_phrase_super_4jian_no_conflict
+    db_class: stabledb
+    enable_sentence: false
+    enable_completion: false
+    initial_quality: -1 #本表词和系统词重码居后
+
+  # 快符
   custom_phrase_kf:
     dictionary: ""
     user_dict: custom_phrase/custom_phrase_kf
@@ -130,6 +141,7 @@ phrase:
     enable_completion: false
     initial_quality: -1 #本表词和系统词重码居后
 
+  # 字根
   custom_phrase_mqzg:
     dictionary: ""
     user_dict: custom_phrase/custom_phrase_mqzg
@@ -138,6 +150,7 @@ phrase:
     enable_completion: false
     initial_quality: -1 #本表词和系统词重码居后
 
+  # 超强tab 1码
   custom_phrase_super_1jian:
     dictionary: ""
     user_dict: custom_phrase/custom_phrase_super_1jian
@@ -146,6 +159,7 @@ phrase:
     enable_completion: false
     initial_quality: -1 #本表词和系统词重码居后
 
+  # 超强tab 2码
   custom_phrase_super_2jian:
     dictionary: ""
     user_dict: custom_phrase/custom_phrase_super_2jian
@@ -154,6 +168,7 @@ phrase:
     enable_completion: false
     initial_quality: -1 #本表词和系统词重码居后
 
+  # 超强tab 3码
   custom_phrase_super_3jian:
     dictionary: ""
     user_dict: custom_phrase/custom_phrase_super_3jian
