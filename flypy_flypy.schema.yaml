@@ -4,7 +4,7 @@
 
 schema:
   schema_id: flypy_flypy
-  name: 小鹤双拼+鹤形辅助
+  name: 鹤形+小鹤双拼
   version: "2024-04-24"
   author:
     - Functoreality
