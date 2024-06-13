@@ -44,7 +44,9 @@ for file in file_list:
                 continue
             params = line.split("\t")
             word = params[0]
-            
+            freq = params[2]
+            if int(freq) < 998:
+                continue
             if len(word) != 2:
                 continue
             pinyin = params[1]
@@ -124,7 +126,7 @@ for file in file_list:
 
 
 
-file_path = "custom_phrase_super_4jian_no_conflict.txt"
+file_path = "custom_phrase/custom_phrase_super_4jian_no_conflict.txt"
 
 with open(file_path, "w") as file:
     file.write("## 超强4简 使用deal_super_4jian_no_conflict.py生成\n")
