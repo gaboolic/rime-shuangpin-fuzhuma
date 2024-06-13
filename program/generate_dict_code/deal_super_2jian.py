@@ -76,11 +76,29 @@ with open(file_path, "w") as file:
                 word = '不在'
             if word == '受到':
                 word = '收到'
+            if word == '感觉':
+                word = '国家'
+            if word == '过去':
+                word = '感情'
+            if word == '认真':
+                word = '日志'
+            if word == '申请':
+                word = '失去'
+            if word == '准备':
+                word = '这边'
             
             if combination == 'jq':
                 word = '机器'
             if combination == 'yi':
                 word = '异常'
+            if combination == 'vr':
+                word = '主任'
+            if combination == 'vw':
+                word = '职位'
+            if combination == 'xl':
+                word = '心理'
+            if combination == 'yp':
+                word = '一篇'
             file.write(word+"\t"+combination+"/\n")
             # print(combination + " " + str(word_freq_list))
         # print(combination + jianpin_word_map[combination])
