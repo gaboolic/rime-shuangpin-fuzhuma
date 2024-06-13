@@ -13442,7 +13442,7 @@
 西里尔	xle/
 学雷锋	xlf/
 效率高	xlg/
-序列号	xlh/
+序列化	xlh/
 下了车	xli/
 想了解	xlj/
 希拉克	xlk/
@@ -13561,7 +13561,7 @@
 先驱者	xqv/
 星期五	xqw/
 新气象	xqx/
-小企业	xqy/
+星期一	xqy/
 向前走	xqz/
 信任案	xra/
 小日本	xrb/

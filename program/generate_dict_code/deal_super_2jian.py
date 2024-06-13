@@ -74,6 +74,8 @@ with open(file_path, "w") as file:
                 word = '知识'
             if word == '不再':
                 word = '不在'
+            if word == '受到':
+                word = '收到'
             
             if combination == 'jq':
                 word = '机器'
