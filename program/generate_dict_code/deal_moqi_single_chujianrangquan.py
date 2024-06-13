@@ -14,6 +14,7 @@ with open('moqi_single.dict.yaml', 'r', encoding='utf-8') as dict_file:
         if len(code)!= 4:
             continue
         
-        code_4_char_list.append(code)
-        write_file.write(params[0]+"\t"+params[1]+"o\n")
+        if code not in code_4_char_list:
+            code_4_char_list.append(code)
+            write_file.write(params[0]+"\t"+params[1]+"o\n")
         

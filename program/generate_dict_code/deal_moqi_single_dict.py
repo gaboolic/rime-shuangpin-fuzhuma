@@ -212,7 +212,7 @@ with open('cn_dicts_dazhu/moqi_all.txt', 'r', encoding='utf-8') as dict_file:
             pass
 
 print(code_2_char_list)
-code_3_file = open("custom_phrase_3_code.txt", "w")
+code_3_file = open("custom_phrase/custom_phrase_3_code.txt", "w")
 for code_2_char in code_2_char_list:
     all_code = char_list[code_2_char]
     code_3 = all_code[0:3]
