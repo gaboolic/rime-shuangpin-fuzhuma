@@ -57,7 +57,9 @@ end
 ---@param key_event KeyEvent
 ---@param env KeyBinderEnv
 function this.func(key_event, env)
-  local input = rime.current(env.engine.context)
+  -- local input = rime.current(env.engine.context)
+  local input = rime.input(env.engine.context)
+  -- log.info("key_binder"..input)
   if env.redirecting then
     return rime.process_results.kNoop
   end
