@@ -163,7 +163,7 @@ for file_name in file_list:
         final_code_char_map[params[1]] = params[0]
         if len(params[1])==2:
             # print(line)
-            #write_file.write(line+"\n")
+            write_file.write(line+"\n")
             pass
         final_list.append(line)
 
