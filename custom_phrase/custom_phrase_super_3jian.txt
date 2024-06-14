@@ -904,7 +904,7 @@
 不便宜	bpy/
 宝瓶座	bpz/
 不去啊	bqa/
-并且把	bqb/
+表情包	bqb/
 白千层	bqc/
 并取得	bqd/
 白求恩	bqe/
@@ -11321,7 +11321,7 @@
 上班啊	uba/
 申报表	ubb/
 十八层	ubc/
-失败的	ubd/
+说不定	ubd/
 双棒儿	ube/
 商标法	ubf/
 数百个	ubg/
