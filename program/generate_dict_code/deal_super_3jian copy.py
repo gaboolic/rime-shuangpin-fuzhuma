@@ -1,7 +1,7 @@
 import os
 import string
 
-code_3_word_list = []
+code_3_word_list = {}
 with open("program/generate_dict_code/jdh.dict.yaml", 'r') as file:
     # 逐行读取文件内容
     for line in file:
@@ -13,7 +13,7 @@ with open("program/generate_dict_code/jdh.dict.yaml", 'r') as file:
         word = params[0]
         if len(word) != 3:
             continue
-        code_3_word_list.append(word)
+        code_3_word_list[word] = 1
 
 
 jianpin_word_map = {}
@@ -63,7 +63,7 @@ for i in range(ord('a'), ord('z')+1):
             combinations.append(chr(i) + chr(j) + chr(k))
 
 
-file_path = "custom_phrase/custom_phrase_super_3jian.txt"
+file_path = "custom_phrase/custom_phrase_super_3jian_jdh.txt"
 with open(file_path, "w") as file:
     file.write("## 超强3简 使用deal_super_3jian.py生成\n")
                 

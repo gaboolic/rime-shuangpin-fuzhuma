@@ -119,6 +119,8 @@ with open(file_path, "w") as file:
                 word = '一遍'
             if combination == 'yv':
                 word = '一种'
+            if combination == 'zm':
+                word = '咱们'
             file.write(word+"\t"+combination+"/\n")
             # print(combination + " " + str(word_freq_list))
         # print(combination + jianpin_word_map[combination])
