@@ -1102,7 +1102,7 @@
 不希望	bxw/
 不小心	bxx/
 不需要	bxy/
-并选择	bxz/
+不想走	bxz/
 鼻咽癌	bya/
 不一般	byb/
 贬义词	byc/
@@ -1273,7 +1273,7 @@
 曹刚川	cgi/
 擦干净	cgj/
 从高空	cgk/
-参观了	cgl/
+错过了	cgl/
 曾购买	cgm/
 此功能	cgn/
 磁光盘	cgp/
@@ -1892,7 +1892,7 @@
 定会让	dhr/
 导火索	dhs/
 大会堂	dht/
-大会上	dhu/
+当回事	dhu/
 打寒战	dhv/
 电话网	dhw/
 导火线	dhx/
@@ -2152,7 +2152,7 @@
 大蒜素	dss/
 第三条	dst/
 第三十	dsu/
-第四章	dsv/
+第三者	dsv/
 第三位	dsw/
 第三项	dsx/
 对所有	dsy/
@@ -2176,7 +2176,7 @@
 带头人	dtr/
 大提速	dts/
 断头台	dtt/
-对他说	dtu/
+大体上	dtu/
 打头阵	dtv/
 对台湾	dtw/
 独特性	dtx/
@@ -2241,7 +2241,7 @@
 第五个	dwg/
 带问号	dwh/
 电位差	dwi/
-第五节	dwj/
+端午节	dwj/
 吊胃口	dwk/
 都忘了	dwl/
 对我们	dwm/
@@ -2279,7 +2279,7 @@
 低下头	dxt/
 大学生	dxu/
 对象中	dxv/
-当选为	dxw/
+定心丸	dxw/
 短消息	dxx/
 都需要	dxy/
 到现在	dxz/
@@ -2674,7 +2674,7 @@
 而是指	euv/
 二十五	euw/
 峨山县	eux/
-二是要	euy/
+而是要	euy/
 二十字	euz/
 饿着吧	evb/
 而这次	evc/
@@ -2809,7 +2809,7 @@
 福布斯	fbs/
 分布图	fbt/
 分布式	fbu/
-副部长	fbv/
+犯不着	fbv/
 分别为	fbw/
 放不下	fbx/
 翻白眼	fby/
@@ -2845,7 +2845,7 @@
 梵蒂冈	fdg/
 负电荷	fdh/
 房地产	fdi/
-发电机	fdj/
+放大镜	fdj/
 辅导课	fdk/
 发动了	fdl/
 防盗门	fdm/
@@ -4079,7 +4079,7 @@
 哈迪斯	hds/
 红地毯	hdt/
 很多事	hdu/
-获得者	hdv/
+很多种	hdv/
 回答我	hdw/
 好东西	hdx/
 宏定义	hdy/
@@ -4160,7 +4160,7 @@
 很好啊	hha/
 还好吧	hhb/
 黄花菜	hhc/
-厚厚的	hhd/
+狠狠地	hhd/
 红孩儿	hhe/
 换行符	hhf/
 好好干	hhg/
@@ -4839,7 +4839,7 @@
 成绩差	iji/
 成交价	ijj/
 长江口	ijk/
-成交量	ijl/
+成就了	ijl/
 陈炯明	ijm/
 出嫁女	ijn/
 出精品	ijp/
@@ -5382,7 +5382,7 @@
 见光死	jgs/
 结构图	jgt/
 结果是	jgu/
-价格战	jgv/
+紧跟着	jgv/
 交给我	jgw/
 及格线	jgx/
 几个月	jgy/
@@ -5964,7 +5964,7 @@
 开发者	kfv/
 可分为	kfw/
 开放性	kfx/
-口服液	kfy/
+咖啡因	kfy/
 孔夫子	kfz/
 肯干啊	kga/
 可改变	kgb/
@@ -13382,7 +13382,7 @@
 小城市	xiu/
 小城镇	xiv/
 想成为	xiw/
-新车型	xix/
+小程序	xix/
 新成员	xiy/
 小虫子	xiz/
 袭警案	xja/

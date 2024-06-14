@@ -710,7 +710,7 @@
 不希望	bxw
 不小心	bxx
 不需要	bxy
-并选择	bxz
+不想走	bxz
 鼻咽癌	bya
 不一般	byb
 贬义词	byc
@@ -1230,7 +1230,7 @@
 带头人	dtr
 大提速	dts
 断头台	dtt
-对他说	dtu
+大体上	dtu
 打头阵	dtv
 对台湾	dtw
 独特性	dtx
@@ -1248,7 +1248,7 @@
 第五个	dwg
 带问号	dwh
 电位差	dwi
-第五节	dwj
+端午节	dwj
 都忘了	dwl
 第五年	dwn
 第五篇	dwp
@@ -1282,7 +1282,7 @@
 低下头	dxt
 大学生	dxu
 对象中	dxv
-当选为	dxw
+定心丸	dxw
 短消息	dxx
 都需要	dxy
 到现在	dxz
@@ -1604,7 +1604,7 @@
 而是指	euv
 二十五	euw
 峨山县	eux
-二是要	euy
+而是要	euy
 二十字	euz
 饿着吧	evb
 而这次	evc
@@ -1723,7 +1723,7 @@
 福布斯	fbs
 分布图	fbt
 分布式	fbu
-副部长	fbv
+犯不着	fbv
 分别为	fbw
 放不下	fbx
 翻白眼	fby
@@ -1759,7 +1759,7 @@
 梵蒂冈	fdg
 负电荷	fdh
 房地产	fdi
-发电机	fdj
+放大镜	fdj
 辅导课	fdk
 发动了	fdl
 防盗门	fdm
@@ -3081,7 +3081,7 @@
 见光死	jgs
 结构图	jgt
 结果是	jgu
-价格战	jgv
+紧跟着	jgv
 交给我	jgw
 及格线	jgx
 几个月	jgy
