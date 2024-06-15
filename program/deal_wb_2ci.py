@@ -47,14 +47,16 @@ with open("program/2字词频表.txt", 'r', encoding='utf-8') as dict_file:
         word = params[0]
         freq = params[1]
         freq = (''.join(re.findall(r'\d+', freq)))
-        if int(freq) < 3000:
+        if int(freq) < 30000:
             break
 
         if word not in word_jianpin_map:
             continue
         jianpin = word_jianpin_map[word]
         jianpin = jianpin['jianpin']
-        print(jianpin)
+        if jianpin[0] == 'l':
+            print(jianpin)
+            print(line)
         if jianpin not in jianpin_word_map:
             word_list = []
             word_list.append(word)
@@ -68,7 +70,7 @@ with open("program/2字词频表.txt", 'r', encoding='utf-8') as dict_file:
         #print(line)
         # list.append(f"{character}\t{encoding}")
         #list.append(f"{character}\t{encoding}\t{freq}")
-print(jianpin_word_map) 
+# print(jianpin_word_map) 
 # 生成 'aa' 到 'az' 的字符串序列
 letters = string.ascii_lowercase
 combinations = [a + b for a in letters for b in letters]
