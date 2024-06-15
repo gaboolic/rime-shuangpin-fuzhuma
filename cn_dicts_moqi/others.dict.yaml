@@ -15,8 +15,8 @@ sort: by_weight
 # 一些口语读音
 空落落	ks[bg lo[ck lo[ck
 空落落	ks[bg lc[ck lc[ck
-空落落的	ks[bg lo[ck lo[ck de[bU
-空落落的	ks[bg lc[ck lc[ck de[bU
+空落落的	ks[bg lo[ck lo[ck de[bu
+空落落的	ks[bg lc[ck lc[ck de[bu
 # 「阿房宫」的注音争议比较大
 阿房宫	ee[ek ph[hf gs[bk
 阿房宫	aa[ek ph[hf gs[bk
@@ -94,14 +94,14 @@ sort: by_weight
 道行	dc[zz hh[rd
 模样	mu[md yh[my
 模样	mo[md yh[my
-有模有样	yz[uO mu[md yz[uO yh[my
-有模有样	yz[uO mo[md yz[uO yh[my
+有模有样	yz[uo mu[md yz[uo yh[my
+有模有样	yz[uo mo[md yz[uo yh[my
 一模一样	yi[aa mu[md yi[aa yh[my
 一模一样	yi[aa mo[md yi[aa yh[my
 装模作样	vl[ly mu[md zo[rv yh[my
 装模作样	vl[ly mo[md zo[rv yh[my
-人模狗样	rf[pN mu[md gz[qj yh[my
-人模狗样	rf[pN mo[md gz[qj yh[my
+人模狗样	rf[pn mu[md gz[qj yh[my
+人模狗样	rf[pn mo[md gz[qj yh[my
 模板	mu[md bj[my
 模板	mo[md bj[my
 阿弥陀佛	ee[ek mi[gx to[eb fo[rf
@@ -162,10 +162,10 @@ sort: by_weight
 卡脖子	ka[ub bo[oz zi[la
 吱声	zi[kv ug[tu
 吱声	vi[kv ug[tu
-掺和	ij[fp ho[hK
-掺和	ij[fp he[hK
-掺和	cj[fp ho[hK
-掺和	cj[fp he[hK
+掺和	ij[fp ho[hk
+掺和	ij[fp he[hk
+掺和	cj[fp ho[hk
+掺和	cj[fp he[hk
 称职	if[hx vi[ev
 称职	ig[hx vi[ev
 螺蛳粉	lo[ix si[ij ff[mf
@@ -176,10 +176,10 @@ sort: by_weight
 太行山	td[dd xk[rd uj[kl
 歇斯底里	xp[oq si[cj di[gu li[tt
 歇斯底里	jp[oq si[cj di[gu li[tt
-暖和	nr[oy ho[hK
-暖和	nr[oy he[hK
-模棱两可	mo[md lg[mw ll[ar ke[dK
-模棱两可	mo[md lk[mw ll[ar ke[dK
+暖和	nr[oy ho[hk
+暖和	nr[oy he[hk
+模棱两可	mo[md lg[mw ll[ar ke[dk
+模棱两可	mo[md lk[mw ll[ar ke[dk
 鄱阳湖	po[ce yh[eo hu[do
 鄱阳湖	pj[ce yh[eo hu[do
 脖颈	bo[oz gg[jy
@@ -266,14 +266,14 @@ sort: by_weight
 两个人
 两个飞
 两个戈
-两个厶	ll[ar ge[rL si[vd
-两个厶	ll[ar ge[rL mz[vd
+两个厶	ll[ar ge[rl si[vd
+两个厶	ll[ar ge[rl mz[vd
 两个又
 两个香
 两个面
 两个兀
 两个女
-两个𡥦	ll[ar ge[rL ni[zz
+两个𡥦	ll[ar ge[rl ni[zz
 两个臣
 两个巾
 两个左
@@ -281,11 +281,11 @@ sort: by_weight
 两个来
 两个凡
 两个夕
-两个彐	ll[ar ge[rL ji[ka
-两个𢎘	ll[ar ge[rL hj[av
-两个魚	ll[ar ge[rL yu[dh
+两个彐	ll[ar ge[rl ji[ka
+两个𢎘	ll[ar ge[rl hj[av
+两个魚	ll[ar ge[rl yu[dh
 两个明
-两个朿	ll[ar ge[rL ci[ub
+两个朿	ll[ar ge[rl ci[ub
 两个乂
 两个曰
 两个尸
@@ -297,7 +297,7 @@ sort: by_weight
 两个吉
 两个马
 两个卅
-两个巛	ll[ar ge[rL ir[vv
+两个巛	ll[ar ge[rl ir[vv
 两个止
 两个比
 两个言
@@ -305,13 +305,13 @@ sort: by_weight
 两个牛
 两个余
 两个束
-两个罒	ll[ar ge[rL mu[kl
-两个㐅	ll[ar ge[rL wu[pd
+两个罒	ll[ar ge[rl mu[kl
+两个㐅	ll[ar ge[rl wu[pd
 两个金
 两个木
 两个水
 两个火
-两个風	ll[ar ge[rL fg[ji
+两个風	ll[ar ge[rl fg[ji
 两个石
 两个口
 两个日
@@ -321,20 +321,20 @@ sort: by_weight
 两个百
 两个耳
 两个山
-两个屮	ll[ar ge[rL ie[kl
-两个屮	ll[ar ge[rL cc[kl
+两个屮	ll[ar ge[rl ie[kl
+两个屮	ll[ar ge[rl cc[kl
 两个廿
-两个卄	ll[ar ge[rL nm[al
+两个卄	ll[ar ge[rl nm[al
 两个虫
 两个虎
-两个龍	ll[ar ge[rL ls[lv
-两个馬	ll[ar ge[rL ma[mh
+两个龍	ll[ar ge[rl ls[lv
+两个馬	ll[ar ge[rl ma[mh
 两个犬
 两个人
 两个入
 两个习
-两个卪	ll[ar ge[rL jp[ed
-两个㔾	ll[ar ge[rL jp[vv
+两个卪	ll[ar ge[rl jp[ed
+两个㔾	ll[ar ge[rl jp[vv
 两个几
 两个乙
 两个大
@@ -356,16 +356,16 @@ sort: by_weight
 两个女
 两个又
 两个支
-两个隻	ll[ar ge[rL vi[ry
+两个隻	ll[ar ge[rl vi[ry
 两个古
 两个吉
 两个舌
 两个言
 两个户
 两个启
-两个來	ll[ar ge[rL ld[ur
-两个桼	ll[ar ge[rL qi[mu
-两个旡	ll[ar ge[rL ji[ay
+两个來	ll[ar ge[rl ld[ur
+两个桼	ll[ar ge[rl qi[mu
+两个旡	ll[ar ge[rl ji[ay
 两个夕
 两个歹
 两个匕
@@ -382,16 +382,16 @@ sort: by_weight
 两个竟
 两个竞
 两个兄
-两个見	ll[ar ge[rL jm[oe
-两个貝	ll[ar ge[rL bw[ob
+两个見	ll[ar ge[rl jm[oe
+两个貝	ll[ar ge[rl bw[ob
 两个辛
 两个瓜
 两个呆
 两个果
 两个鸟
 两个巢
-两个禺	ll[ar ge[rL yu[td
-两个巿	ll[ar ge[rL fu[uj
+两个禺	ll[ar ge[rl yu[td
+两个巿	ll[ar ge[rl fu[uj
 两个句
 两个奇
 两个真
@@ -405,25 +405,25 @@ sort: by_weight
 两个示
 两个至
 两个生
-两个車	ll[ar ge[rL ie[iu
-两个車	ll[ar ge[rL ju[iu
+两个車	ll[ar ge[rl ie[iu
+两个車	ll[ar ge[rl ju[iu
 两个足
-两个區	ll[ar ge[rL qu[kk
+两个區	ll[ar ge[rl qu[kk
 两个香
-两个隹	ll[ar ge[rL vv[rv
+两个隹	ll[ar ge[rl vv[rv
 两个牟
 两个豕
-两个𠂢	ll[ar ge[rL pd[iy
-两个畐	ll[ar ge[rL fu[at
-两个㣇	ll[ar ge[rL yi[hj
+两个𠂢	ll[ar ge[rl pd[iy
+两个畐	ll[ar ge[rl fu[at
+两个㣇	ll[ar ge[rl yi[hj
 两个邑
-两个堯	ll[ar ge[rL yc[tw
+两个堯	ll[ar ge[rl yc[tw
 两个秉
-两个倉	ll[ar ge[rL ch[rk
-两个東	ll[ar ge[rL ds[ir
+两个倉	ll[ar ge[rl ch[rk
+两个東	ll[ar ge[rl ds[ir
 两个善
-两个僉	ll[ar ge[rL qm[rr
-两个齒	ll[ar ge[rL ii[vr
+两个僉	ll[ar ge[rl qm[rr
+两个齒	ll[ar ge[rl ii[vr
 两个喜
 两个走
 两个止
@@ -435,20 +435,20 @@ sort: by_weight
 两个不
 两个龙
 两个乞
-两个夋	ll[ar ge[rL qy[yw
+两个夋	ll[ar ge[rl qy[yw
 两个天
 # 三叠字
 三个生
 三个秦
 三个若
-三个雲	sj[ae ge[rL yy[yy
+三个雲	sj[ae ge[rl yy[yy
 三个人
 三个刀
 三个十
 三个力
 三个原
-三个厶	sj[ae ge[rL si[vd
-三个厶	sj[ae ge[rL mz[vd
+三个厶	sj[ae ge[rl si[vd
+三个厶	sj[ae ge[rl mz[vd
 三个又
 三个口
 三个七
@@ -477,45 +477,45 @@ sort: by_weight
 三个羊
 三个耳
 三个舌
-三个屮	sj[ae ge[rL ie[kl
-三个屮	sj[ae ge[rL cc[kl
+三个屮	sj[ae ge[rl ie[kl
+三个屮	sj[ae ge[rl cc[kl
 三个虫
 三个言
 三个贝
-三个車	sj[ae ge[rL ie[iu
+三个車	sj[ae ge[rl ie[iu
 三个金
-三个隹	sj[ae ge[rL vv[rv
+三个隹	sj[ae ge[rl vv[rv
 三个雷
-三个風	sj[ae ge[rL fg[ji
-三个飛	sj[ae ge[rL fw[fc
+三个風	sj[ae ge[rl fg[ji
+三个飛	sj[ae ge[rl fw[fc
 三个香
 三个马
-三个魚	sj[ae ge[rL yu[dh
+三个魚	sj[ae ge[rl yu[dh
 三个鹿
-三个龍	sj[ae ge[rL ls[lv
+三个龍	sj[ae ge[rl ls[lv
 三个个
-三个丶	sj[ae ge[rL vu[dd
-三个丶	sj[ae ge[rL dm[dd
+三个丶	sj[ae ge[rl vu[dd
+三个丶	sj[ae ge[rl dm[dd
 三个了
 三个介
 三个企
 三个舍
-三个圥	sj[ae ge[rL lu[te
+三个圥	sj[ae ge[rl lu[te
 三个光
 三个兔
 三个全
-三个𠙽	sj[ae ge[rL kk[[
-三个𠧪	sj[ae ge[rL tn[br
-三个𠧪	sj[ae ge[rL yz[br
-三个㔾	sj[ae ge[rL jp[vv
-三个厡	sj[ae ge[rL yr[iu
+三个𠙽	sj[ae ge[rl kk[[
+三个𠧪	sj[ae ge[rl tn[br
+三个𠧪	sj[ae ge[rl yz[br
+三个㔾	sj[ae ge[rl jp[vv
+三个厡	sj[ae ge[rl yr[iu
 三个可
 三个因
 三个夏
 三个大
 三个天
 三个太
-三个𦉼	sj[ae ge[rL ku[[
+三个𦉼	sj[ae ge[rl ku[[
 三个宝
 三个宜
 三个客
@@ -525,70 +525,70 @@ sort: by_weight
 三个市
 三个文
 三个斗
-三个朿	sj[ae ge[rL ci[ub
+三个朿	sj[ae ge[rl ci[ub
 三个束
 三个林
 三个果
 三个欠
-三个𣥚	sj[ae ge[rL zz[[
+三个𣥚	sj[ae ge[rl zz[[
 三个爪
 三个妥
 三个用
 三个甲
 三个百
 三个盖
-三个県	sj[ae ge[rL xm[ox
+三个県	sj[ae ge[rl xm[ox
 三个空
-三个亇	sj[ae ge[rL ge[dl
+三个亇	sj[ae ge[rl ge[dl
 三个竹
-三个罒	sj[ae ge[rL mu[kl
-三个羗	sj[ae ge[rL ql[ys
+三个罒	sj[ae ge[rl mu[kl
+三个羗	sj[ae ge[rl ql[ys
 三个老
 三个月
 三个至
-三个興	sj[ae ge[rL xk[jb
+三个興	sj[ae ge[rl xk[jb
 三个足
-三个㖖	sj[ae ge[rL np[xk
-三个門	sj[ae ge[rL mf[ll
+三个㖖	sj[ae ge[rl np[xk
+三个門	sj[ae ge[rl mf[ll
 三个面
-三个頁	sj[ae ge[rL ye[ab
-三个鳥	sj[ae ge[rL nn[nh
+三个頁	sj[ae ge[rl ye[ab
+三个鳥	sj[ae ge[rl nn[nh
 三个男
 三个立
 三个九
 三个也
 三个加
-三个動	sj[ae ge[rL ds[vl
+三个動	sj[ae ge[rl ds[vl
 三个千
 三个方
 三个朔
 三个玉
 三个申
-三个𡿨	sj[ae ge[rL qr[vv
+三个𡿨	sj[ae ge[rl qr[vv
 三个去
 三个弓
-三个䖝	sj[ae ge[rL is[pi
-三个丿	sj[ae ge[rL pp[pp
+三个䖝	sj[ae ge[rl is[pi
+三个丿	sj[ae ge[rl pp[pp
 三个户
 三个瓜
 三个鸟
 三个米
 # 四叠字
-四个乂	si[ke ge[rL yi[pn
+四个乂	si[ke ge[rl yi[pn
 四个人
-四个厶	si[ke ge[rL si[vd
-四个厶	si[ke ge[rL mz[vd
+四个厶	si[ke ge[rl si[vd
+四个厶	si[ke ge[rl mz[vd
 四个又
 四个匕
 四个工
 四个口
 四个天
 四个小
-四个屮	si[ke ge[rL ie[kl
-四个屮	si[ke ge[rL cc[kl
+四个屮	si[ke ge[rl ie[kl
+四个屮	si[ke ge[rl cc[kl
 四个火
 四个牛
-四个魚	si[ke ge[rL yu[dh
+四个魚	si[ke ge[rl yu[dh
 四个月
 四个日
 四个林
@@ -601,19 +601,19 @@ sort: by_weight
 四个困
 四个竹
 四个老
-四个朿	si[ke ge[rL ci[ub
+四个朿	si[ke ge[rl ci[ub
 四个先
 四个金
 四个泉
 四个言
-四个門	si[ke ge[rL mf[ll
+四个門	si[ke ge[rl mf[ll
 四个果
 四个春
-四个車	si[ke ge[rL ie[iu
-四个風	si[ke ge[rL fg[ji
+四个車	si[ke ge[rl ie[iu
+四个風	si[ke ge[rl fg[ji
 四个雷
-四个雲	si[ke ge[rL yy[yy
-四个興	si[ke ge[rL xk[jb
-四个龍	si[ke ge[rL ls[lv
+四个雲	si[ke ge[rl yy[yy
+四个興	si[ke ge[rl xk[jb
+四个龍	si[ke ge[rl ls[lv
 四个土
 

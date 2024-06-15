@@ -36,7 +36,7 @@ sort: by_weight
 # +_+
 吖	aa[ky
 呵	aa[kk
-啊	aa[kK
+啊	aa[kk
 嗄	aa[kw
 腌	aa[od
 錒	aa[[
@@ -487,7 +487,7 @@ sort: by_weight
 八	ba[pn
 叐	ba[[
 叭	ba[kb
-吧	ba[kB
+吧	ba[kb
 哱	ba[kz
 哵	ba[[
 坝	ba[tr
@@ -4366,7 +4366,7 @@ sort: by_weight
 儊	iu[[
 儲	iu[[
 処	iu[[
-出	iu[vK
+出	iu[vk
 刍	iu[de
 初	iu[pd
 助	iu[ql
@@ -4999,7 +4999,7 @@ sort: by_weight
 䕺	cs[[
 䳷	cs[[
 丛	cs[ra
-从	cs[rR
+从	cs[rr
 匆	cs[bd
 叢	cs[[
 囪	cs[[
@@ -6073,7 +6073,7 @@ sort: by_weight
 旳	de[[
 棏	de[[
 淂	de[[
-的	de[bU
+的	de[bu
 蚮	de[[
 鍀	de[[
 锝	de[jc
@@ -6254,7 +6254,7 @@ sort: by_weight
 珶	di[[
 甋	di[[
 疐	di[ur
-的	di[bU
+的	di[bu
 眱	di[[
 睇	di[op
 砥	di[ud
@@ -7649,7 +7649,7 @@ sort: by_weight
 呝	ee[[
 咢	ee[[
 咹	ee[[
-哦	ee[kW
+哦	ee[kw
 噁	ee[[
 噩	ee[wk
 囮	ee[[
@@ -7914,7 +7914,7 @@ sort: by_weight
 爾	er[[
 珥	er[we
 粫	er[[
-而	er[aL
+而	er[al
 耏	er[ep
 耳	er[aa
 聏	er[[
@@ -8349,7 +8349,7 @@ sort: by_weight
 陫	fw[[
 霏	fw[yf
 靅	fw[[
-非	fw[lA
+非	fw[la
 靟	fw[[
 飛	fw[[
 飝	fw[[
@@ -9567,7 +9567,7 @@ sort: by_weight
 䪂	ge[[
 䪺	ge[[
 䫦	ge[[
-个	ge[rL
+个	ge[rl
 亇	ge[[
 仡	ge[rq
 佫	ge[[
@@ -11461,7 +11461,7 @@ sort: by_weight
 呙	he[kn
 呵	he[kk
 咊	he[[
-和	he[hK
+和	he[hk
 咼	he[[
 哬	he[[
 啝	he[[
@@ -12053,7 +12053,7 @@ sort: by_weight
 匢	hu[[
 匫	hu[[
 呼	hu[kh
-和	hu[hK
+和	hu[hk
 唬	hu[kj
 唿	hu[kx
 喖	hu[[
@@ -13242,7 +13242,7 @@ sort: by_weight
 剨	ho[[
 劐	ho[cd
 吙	ho[[
-和	ho[hK
+和	ho[hk
 咟	ho[[
 喐	ho[[
 嚄	ho[ky
@@ -15796,7 +15796,7 @@ sort: by_weight
 咎	jq[wk
 啾	jq[kh
 奺	jq[[
-就	jq[wY
+就	jq[wy
 廄	jq[[
 廏	jq[[
 廐	jq[[
@@ -17006,7 +17006,7 @@ sort: by_weight
 勀	ke[[
 勊	ke[[
 匼	ke[kk
-可	ke[dK
+可	ke[dk
 呵	ke[kk
 咳	ke[kr
 嗑	ke[km
@@ -18435,7 +18435,7 @@ sort: by_weight
 㦡	le[[
 㨋	le[[
 乐	le[pd
-了	le[vL
+了	le[vl
 仂	le[rl
 勒	le[gl
 叻	le[kl
@@ -19522,7 +19522,7 @@ sort: by_weight
 䣈	ln[[
 䨅	ln[[
 䩍	ln[[
-了	ln[vL
+了	ln[vl
 僚	ln[rx
 嘹	ln[kx
 嫽	ln[nx
@@ -21216,7 +21216,7 @@ sort: by_weight
 么	ma[ps
 亇	ma[[
 傌	ma[[
-吗	ma[kM
+吗	ma[km
 唛	ma[kw
 嗎	ma[[
 嘛	ma[km
@@ -23460,7 +23460,7 @@ sort: by_weight
 䵒	ni[[
 伱	ni[[
 伲	ni[rb
-你	ni[rX
+你	ni[rx
 倪	ni[re
 儗	ni[[
 儞	ni[[
@@ -24208,7 +24208,7 @@ sort: by_weight
 虐	nt[ha
 𤷡	nt[[
 𨵫	nt[[
-哦	oo[kW
+哦	oo[kw
 喔	oo[kt
 噢	oo[kd
 嚄	oo[ky
@@ -24662,7 +24662,7 @@ sort: by_weight
 赔	pw[kk
 轡	pw[[
 辔	pw[sk
-配	pw[yJ
+配	pw[yj
 醅	pw[yk
 錇	pw[[
 锫	pw[jk
@@ -27480,7 +27480,7 @@ sort: by_weight
 区	qu[kx
 區	qu[[
 厺	qu[[
-去	qu[tS
+去	qu[ts
 取	qu[ey
 呿	qu[[
 坥	qu[tq
@@ -28098,7 +28098,7 @@ sort: by_weight
 䛘	rf[[
 䭃	rf[[
 䴦	rf[[
-人	rf[pN
+人	rf[pn
 亻	rf[[
 仁	rf[re
 仞	rf[rr
@@ -29993,7 +29993,7 @@ sort: by_weight
 施	ui[fy
 时	ui[oc
 旹	ui[[
-是	ui[oR
+是	ui[or
 昰	ui[ov
 時	ui[[
 枾	ui[[
@@ -31286,7 +31286,7 @@ sort: by_weight
 祘	sr[[
 笇	sr[[
 筭	sr[[
-算	sr[vC
+算	sr[vc
 篹	sr[[
 蒜	sr[cx
 酸	sr[yw
@@ -31643,7 +31643,7 @@ sort: by_weight
 䵬	ta[[
 䶀	ta[[
 䶁	ta[[
-他	ta[rY
+他	ta[ry
 侤	ta[[
 傝	ta[[
 嗒	ta[kk
@@ -34554,7 +34554,7 @@ sort: by_weight
 婑	wo[[
 媉	wo[[
 幄	wo[jt
-我	wo[pD
+我	wo[pd
 挝	wo[fz
 捰	wo[[
 捾	wo[[
@@ -36254,7 +36254,7 @@ sort: by_weight
 孝	xn[lz
 宯	xn[[
 宵	xn[bo
-小	xn[lD
+小	xn[ld
 崤	xn[eo
 庨	xn[[
 彇	xn[[
@@ -40798,7 +40798,7 @@ sort: by_weight
 揂	yz[[
 攸	yz[rw
 斿	yz[[
-有	yz[uO
+有	yz[uo
 柚	yz[my
 栯	yz[[
 梄	yz[[
@@ -42218,7 +42218,7 @@ sort: by_weight
 儎	zd[[
 再	zd[ar
 哉	zd[uk
-在	zd[uT
+在	zd[ut
 宰	zd[bu
 崽	zd[ex
 扗	zd[[
@@ -43331,7 +43331,7 @@ sort: by_weight
 轍	ve[[
 辄	ve[iv
 辙	ve[iw
-这	ve[zW
+这	ve[zw
 這	ve[[
 遮	ve[zh
 銸	ve[[
@@ -43403,7 +43403,7 @@ sort: by_weight
 𪁊	ve[[
 𪐏	ve[[
 𪚥	ve[[
-这	vw[zW
+这	vw[zw
 㐱	vf[[
 㓄	vf[[
 㖘	vf[[
@@ -45460,7 +45460,7 @@ sort: by_weight
 䝋	zs[[
 䡯	zs[[
 䰌	zs[[
-从	zs[rR
+从	zs[rr
 倊	zs[[
 倧	zs[rx
 偬	zs[rx

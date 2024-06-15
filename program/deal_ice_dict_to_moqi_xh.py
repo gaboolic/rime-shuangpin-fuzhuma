@@ -156,8 +156,8 @@ with open('./opencc/moqi_chaifen.txt', 'r', encoding='utf-8') as dict_file:
             character, encoding, chaifen = line.strip().split('\t')
             if "'" not in encoding:
                 
-                if character in '去我而人他有是出哦配啊算的非个和就可了在小从这吧你吗':
-                    encoding = encoding[0] + encoding[1].upper()
+                # if character in '去我而人他有是出哦配啊算的非个和就可了在小从这吧你吗':
+                #     encoding = encoding[0] + encoding[1].upper()
                 if character not in dict_data:
                     dict_data[character] = encoding
 
