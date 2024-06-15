@@ -59,7 +59,7 @@ function M.func(input,env)
       first_cand = cand
       if preedit_len <=3 and isAllLetters(preedit_str) then
         local stick_phrase = env.fixed[preedit_str] or ""
-        if stick_phrase ~= nil then
+        if stick_phrase ~= nil and first_cand.text ~= stick_phrase then
           first_cand.comment=stick_phrase
         end
         yield(first_cand)
