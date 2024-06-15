@@ -125,6 +125,8 @@ with open(file_path, "w") as file:
                 word = '分享'
             if combination == 'av':
                 word = '安装'
+            if combination == 'vm':
+                word = '专门'
             file.write(word+"\t"+combination+"/\n")
             # print(combination + " " + str(word_freq_list))
         # print(combination + jianpin_word_map[combination])
