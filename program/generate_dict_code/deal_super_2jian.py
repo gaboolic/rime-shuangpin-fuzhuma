@@ -110,7 +110,7 @@ with open(file_path, "w") as file:
             if combination == 'pu':
                 word = '评审'
             if combination == 'xd':
-                word = '兄弟'
+                word = '许多'
             if combination == 'nm':
                 word = '你们'
             if combination == 'my':

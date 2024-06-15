@@ -3577,7 +3577,7 @@
 滚出去	giq/
 狗吃肉	gir/
 更出色	gis/
-高产田	git/
+工程图	git/
 工程师	giu/
 过程中	giv/
 广场舞	giw/
