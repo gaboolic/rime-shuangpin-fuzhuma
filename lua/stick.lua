@@ -1,4 +1,4 @@
--- doing 2码 3码时tab上屏词 置顶到第一候选的comment中
+-- 2码 3码时tab上屏词 置顶到第一候选的comment中
 -- @gaboolic
 
 local M = {}

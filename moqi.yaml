@@ -45,6 +45,7 @@ switches_engine:
       - lua_translator@unicode            # Unicode
       - lua_translator@number_translator  # 数字、金额大写
       - lua_translator@calc_translator    # 计算器
+      # - lua_translator@*slash_pop # 使用/自动上屏 开发中
       - punct_translator
       # 码表翻译器 用于仓颉、五笔等基于码表的输入方案
       - table_translator@custom_phrase # 1、2码置顶
