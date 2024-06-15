@@ -111,10 +111,12 @@ speller:
 
     - xlit/QWERTYUIOPASDFGHJKLZXCVBNM/qwertyuiopasdfghjklzxcvbnm/
 
-    - derive/^(..)[[].+$/$1/
-    - derive/^(..[[].).+$/$1/
-    # - derive/^([jqxy])u/$1v/
-    - derive/[[]// ## 取消注释后：直接引导辅助码
+    - derive|^(.+)[[](\w)(\w)$|$1| # 纯双拼的情况
+    - derive|^(.+)[[](\w)(\w)$|$1$2| # 双拼+一位辅助码的情况
+    - abbrev|^(.+)[[](\w)(\w)$|$1$2$3| # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+    - derive|^(.+)[[](\w)(\w)$|$1$2$3o| # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.+)[[](\w)(\w)$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    # - derive/[[]// ## 取消注释后：直接引导2位辅助码；否则只能引导1位辅助码或者2位辅助码加/
 
 chord_composer:
   # 字母表，包含用并击按键
