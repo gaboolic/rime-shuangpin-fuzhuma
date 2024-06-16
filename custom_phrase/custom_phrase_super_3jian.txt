@@ -14311,7 +14311,7 @@
 验证码	yvm/
 一周年	yvn/
 一张牌	yvp/
-渝中区	yvq/
+业主群	yvq/
 意中人	yvr/
 硬脂酸	yvs/
 一整天	yvt/
@@ -14819,7 +14819,7 @@
 自然界	zrj/
 总人口	zrk/
 在人类	zrl/
-在人民	zrm/
+自然码	zrm/
 最热闹	zrn/
 自然派	zrp/
 在日前	zrq/

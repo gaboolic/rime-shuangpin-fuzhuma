@@ -11944,7 +11944,6 @@
 第二杯了	debl
 大而不强	debq
 杜尔伯特	debt
-第二把手	debu
 等额本息	debx
 淡而不厌	deby
 德尔地板	dedb
@@ -42008,7 +42007,6 @@
 九七五三	jqws
 泾清渭浊	jqwv
 激情无限	jqwx
-近千万元	jqwy
 极其邪恶	jqxe
 即期消费	jqxf
 及其相关	jqxg
@@ -42826,6 +42824,7 @@
 建设单位	judw
 吉首大学	judx
 技术调研	judy
+技术动作	judz
 鸡声鹅斗	jued
 九十二分	juef
 建设二路	juel
@@ -63900,7 +63899,6 @@
 飘瓦虚舟	pwxv
 破位下行	pwxx
 破玩意儿	pwye
-盼望已久	pwyj
 陪我一起	pwyq
 潘文乐旨	pwyv
 平稳运行	pwyx
@@ -90889,7 +90887,6 @@
 中文字体	vwzt
 中无杂树	vwzu
 植物组织	vwzv
-知我罪我	vwzw
 植物资源	vwzy
 执行案号	vxah
 执行案件	vxaj
