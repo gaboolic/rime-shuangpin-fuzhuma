@@ -28,6 +28,10 @@ __include: moqi.yaml:/punctuator # 标点
 __include: moqi.yaml:/guide # 引导前缀配置
 
 speller:
+  max_code_length: 5
+  # table_translator翻译器，支持自动上屏。例如 “zmhu”可以自动上屏“怎么回事”
+  auto_select: true
+  auto_select_pattern: ^[a-z]+/|^[a-df-zA-DF-Z]\w{3}|^e\w{4}
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
   alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[/|
   # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
@@ -64,6 +68,7 @@ speller:
 
     - derive|^(.+)[[](\w)(\w)$|$1| # 纯双拼的情况
     - derive|^(.+)[[](\w)(\w)$|$1$2| # 双拼+一位辅助码的情况
+    - derive|^(.+)[[](\w)(\w)$|$1[$2| # 双拼+[一位辅助码的情况
     - abbrev|^(.+)[[](\w)(\w)$|$1$2$3| # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
     - derive|^(.+)[[](\w)(\w)$|$1$2$3o| # 整句模式下，输入syffo 出单字 增强单字性能
     - derive|^(.+)[[](\w)(\w)$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
@@ -155,16 +160,18 @@ key_binder:
 
 
     - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
+    - { match: "[a-z]{1,3}", accept: "/",  send_sequence: "/1" }
+    - { match: "[a-z]{1,3}", accept: ".",  send_sequence: "/1" }
     # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }
 
-
-    ## 对以下4行取消注释后：启用光标回退至特定音节后、补充辅助码的功能
-    #- { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
-    #- { when: composing, accept: Control+2, send_sequence: '{Home}{Shift+Right}{Shift+Right}[' }
-    #- { when: composing, accept: Control+3, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}[' }
-    #- { when: composing, accept: Control+4, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
-
-
+    ## 启用光标回退至特定音节后、补充辅助码的功能。补充完辅助码后，可以再按一次tab回到整句检查
+    - { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
+    - { when: composing, accept: Control+2, send_sequence: '{Home}{Shift+Right}{Shift+Right}[' }
+    - { when: composing, accept: Control+3, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+    - { when: composing, accept: Control+4, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+    - { when: composing, accept: Control+5, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+    - { when: composing, accept: Control+6, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+    - { when: composing, accept: Control+7, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
 
 # 启用語言模型
 #__include: moqi:/octagram/enable_for_sentence

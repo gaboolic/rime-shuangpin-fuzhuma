@@ -91,9 +91,9 @@ speller:
     ## 飞键 可选择性开启
     - derive/^([y])j/$1f/
     - derive/^qx/qw/
+    - derive/^xq/xo/
     - derive/^qq/qo/
     - derive/^ww/wi/
-    
     - derive/^y([a-df-qs-z])/e$1/ # y -> e互击
     - derive/^j([a-twyz])/f$1/ # j -> f互击
     # - derive/^jn/jv/
@@ -191,7 +191,7 @@ key_binder:
     - { when: composing, accept: Control+7, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
 
 # 启用語言模型
-__include: moqi:/octagram/enable_for_sentence
+# __include: moqi:/octagram/enable_for_sentence
 
 # 3码出简让全
 custom_phrase_3_code:
