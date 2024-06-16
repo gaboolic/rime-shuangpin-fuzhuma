@@ -15,12 +15,26 @@ function M.func(input,env,cands)
     log.info("slach_pop M.func")
     local context = env.engine.context
     -- lua文档 https://github.com/hchunhui/librime-lua/wiki/Scripting
-    if env.engine.context.input == 'uiui/' then
-        log.info("slach_pop 顶屏")
-        -- env.engine.context:clear()
-        -- env.engine:commit_text("哈哈哈哈昂昂哈")
-        context:select(1)
-        context:commit()
+    if env.engine.context.input == 'uiui/' or env.engine.context.input == 'zssr/' then
+        log.info("进入/顶屏模式")
+        local candLength = 0
+        local l = {}
+        local text = {}
+        for cand in input:iter() do
+            candLength = candLength + 1
+            text = cand.text
+            log.info(text)
+        end
+        log.info(candLength)
+        log.info(text)
+        if candLength == 1 then
+            env.engine:commit_text(text)
+        end
+
+        -- yield l 及后续的候选项
+        for _, cand in ipairs(l) do
+            yield(cand)
+        end
         log.info("done")
     end
 

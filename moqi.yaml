@@ -74,8 +74,8 @@ switches_engine:
       
     filters:
       # tab置顶词回显在第一个comment中
-      - lua_filter@*stick 
-      - lua_filter@*slash_pop # 使用/自动上屏 开发中
+      - lua_filter@*stick
+      #- lua_filter@*slash_pop # 4码时使用/自动上屏单字 开发中
       - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
       #- lua_filter@*moran_debug_filter # debug
       - simplifier@emoji                              # Emoji
@@ -86,6 +86,7 @@ switches_engine:
       - simplifier@traditionalize                     # 简繁切换
       - simplifier@mars                               #火星文
       - uniquifier
+      
 octagram:
   disable:
     __patch:
