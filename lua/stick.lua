@@ -50,7 +50,7 @@ function isAllLetters(str)
 end
 
 function M.func(input,env)
-  log.info("stick M.func")
+  -- log.info("stick M.func")
   local first_cand = nil
   for cand in input:iter() do
     local preedit_str = cand.preedit
