@@ -47,7 +47,10 @@
 # 符号
 ！	oa
 %	ob
-
+“	oz
+：“	ox	3
+说：“	ox	2
+说道：“	ox	1
 ”	oc
 、	od
 （	oh
@@ -1078,5 +1081,3 @@ m³	otl	100
 Ⅷ	oyb	30
 Ⅸ	oyj	30
 Ⅹ	oyu	30
-“	oz
-
