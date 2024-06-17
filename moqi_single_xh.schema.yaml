@@ -25,6 +25,7 @@ engine:
     processors:
       - ascii_composer
       - recognizer
+      - lua_processor@*sbxlm.popping
       - lua_processor@*sbxlm.key_binder # 绑定按键
       - key_binder
       - speller
@@ -88,6 +89,8 @@ __include: moqi.yaml:/punctuator # 标点
 __include: moqi.yaml:/guide # 引导前缀配置
 
 speller:
+  popping:
+    - {accept: "[a-z]", match: "[a-df-zA-DF-Z]\\w{3}"}
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
   alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[/|
   # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏

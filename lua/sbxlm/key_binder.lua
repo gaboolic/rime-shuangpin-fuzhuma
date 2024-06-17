@@ -68,6 +68,9 @@ function this.func(key_event, env)
   if not input then
     return rime.process_results.kNoop
   end
+  if env.engine.context == nil or env.engine.context.composition == nil or env.engine.context.composition:back() == nil then
+    return rime.process_results.kNoop
+  end
   if not env.engine.context.composition:back():has_tag("abc") then
     return rime.process_results.kNoop
   end
