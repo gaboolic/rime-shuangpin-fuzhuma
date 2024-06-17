@@ -42,6 +42,25 @@ engine:
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   delimiter: " '"
+  algebra:
+    # 只打前后2个字母 例如beul -> beautiful
+    - derive/^(\w)(\w).+(\w)(\w)$/$1$2$3$4/
+    - abbrev/^(\w).+(\w)$/$1$2/
+    - xform/^a/!/
+    - xform/^e/@/
+    - xform/^i/,/
+    - xform/^o/:/
+    - xform/^u/;/
+    - derive/[aeiou]//
+    - xlit/!@,:;/aeiou/
+    # 全小写
+    - derive/^.+$/\L$0/
+    # 全大写
+    # - derive/^.+$/\U$0/
+    # 首字母大写
+    - derive/^./\U$0/
+    - derive/^([a-z]{2})/\U$1/
+    - erase/^.$/
 
 translator:
   dictionary: easy_en
