@@ -11,7 +11,7 @@ schema:
     - Dvel
     - gaboolic （裁缝)
   description: |
-    小鹤双拼+辅助码 https://github.com/gaboolic/rime-shuangpin-fuzhuma
+    小鹤双拼+辅助码 只支持8000字左右 https://github.com/gaboolic/rime-shuangpin-fuzhuma
   dependencies:
     - reverse_moqima
     - radical_flypy
