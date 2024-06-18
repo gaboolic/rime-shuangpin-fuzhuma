@@ -54,6 +54,7 @@ speller:
     - xform/( [^aeiou])n/$1C/ # 小鹤双拼的N键的iao匹配到C键
     - xform/( \w)b/$1N/ # 小鹤双拼的B键的in匹配到N键
     - derive/ a(\w)/o$1/ # 0声母改为o
+    - derive/ an/oj/ # 0声母改为o
     - derive/ ee/oe/ # 0声母改为o
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
     - xform/^ //
