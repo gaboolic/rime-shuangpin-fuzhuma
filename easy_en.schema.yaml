@@ -54,7 +54,7 @@ speller:
     - derive/[aeiou]//
     - xlit/!@,:;/aeiou/
     # 全小写
-    - derive/^.+$/\L$0/
+    # - derive/^.+$/\L$0/
     # 全大写
     # - derive/^.+$/\U$0/
     # 首字母大写
