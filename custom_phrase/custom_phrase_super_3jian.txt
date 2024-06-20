@@ -5745,7 +5745,7 @@
 蒋万安	jwa/
 巨无霸	jwb/
 进晚餐	jwc/
-郊外的	jwd/
+经纬度	jwd/
 京味儿	jwe/
 就无法	jwf/
 就我国	jwg/
@@ -8750,7 +8750,7 @@
 品牌店	ppd/
 拍片儿	ppe/
 翩翩飞	ppf/
-枇杷膏	ppg/
+耙耙柑	ppg/
 品牌化	pph/
 碰碰车	ppi/
 品牌机	ppj/
@@ -12079,7 +12079,7 @@
 占国内	vgn/
 周国平	vgp/
 转过去	vgq/
-中国人	vgr/
+这个人	vgr/
 支公司	vgs/
 转过头	vgt/
 转过身	vgu/

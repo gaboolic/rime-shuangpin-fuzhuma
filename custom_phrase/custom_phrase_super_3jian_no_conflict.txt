@@ -3186,7 +3186,7 @@
 蒋万安	jwa
 巨无霸	jwb
 进晚餐	jwc
-郊外的	jwd
+经纬度	jwd
 京味儿	jwe
 就无法	jwf
 就我国	jwg
@@ -4463,7 +4463,7 @@
 陪你玩	pnw
 陪你走	pnz
 跑跑啊	ppa
-枇杷膏	ppg
+耙耙柑	ppg
 碰碰车	ppi
 拼拼看	ppk
 评评理	ppl

@@ -11145,6 +11145,7 @@
 冬奥比赛	dabs
 档案材料	dacl
 档案存取	dacq
+档案大小	dadx
 档案分类	dafl
 东安黑豹	dahb
 大安胡同	daht
@@ -11952,6 +11953,7 @@
 第二大节	dedj
 戴尔电脑	dedn
 第二地球	dedq
+第二单元	dedy
 东阿阿胶	deej
 杜耳恶闻	deew
 第二分队	defd
@@ -13026,6 +13028,7 @@
 打架斗殴	djdo
 大江东去	djdq
 东京地铁	djdt
+东京大学	djdx
 大家都要	djdy
 咄嗟而办	djeb
 待机而动	djed
@@ -34798,6 +34801,7 @@
 超滑导丝	ihds
 柴胡滴丸	ihdw
 晨昏定省	ihdx
+出海打鱼	ihdy
 柴火垛子	ihdz
 察哈尔路	ihel
 出航噩梦	ihem
@@ -38298,6 +38302,7 @@
 成渝地区	iydq
 常用地址	iydv
 诧异地问	iydw
+成员对象	iydx
 产业调研	iydy
 初一二班	iyeb
 长阳二村	iyec
@@ -64919,7 +64924,7 @@
 钱多事少	qduu
 秋冬时装	qduv
 启动事务	qduw
-取得实效	qdux
+气定神闲	qdux
 强度试验	qduy
 腔调十足	qduz
 禽犊之爱	qdva
@@ -87001,6 +87006,7 @@
 注册代号	vcdh
 注册登录	vcdl
 找错对象	vcdx
+致残毒药	vcdy
 这才发觉	vcfj
 政策法令	vcfl
 政策方面	vcfm
@@ -105041,6 +105047,7 @@
 永康口腔	ykkq
 要开空调	ykkt
 远客来访	yklf
+尤克里里	ykll
 一颗龙珠	yklv
 一块墓地	ykmd
 一科没过	ykmg
@@ -109725,6 +109732,7 @@
 醉而不醒	zebx
 杂而不越	zeby
 坐而待毙	zedb
+作恶多端	zedd
 灾厄盖侬	zegn
 罪恶贯盈	zegy
 祖尔祭坛	zejt
