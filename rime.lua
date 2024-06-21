@@ -21,7 +21,7 @@ unicode = require("unicode")
 number_translator = require("number_translator")
 
 -- 计算器
-calc_translator = require("calculator")
+calculator = require("calculator")
 
 -- emoji降低排序位置
 reduce_emoji_filter = require("reduce_emoji_filter")

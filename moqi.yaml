@@ -40,11 +40,11 @@ switches_engine:
       - fallback_segmentor
     translators:
        # lua翻译器
-      - lua_translator@date_translator    # 时间、日期、星期
-      - lua_translator@lunar              # 农历
-      - lua_translator@unicode            # Unicode
-      - lua_translator@number_translator  # 数字、金额大写
-      - lua_translator@calc_translator    # 计算器
+      - lua_translator@*date_translator    # 时间、日期、星期
+      - lua_translator@*lunar              # 农历
+      - lua_translator@*unicode            # Unicode
+      - lua_translator@*number_translator  # 数字、金额大写
+      - lua_translator@*calculator    # 计算器
       - punct_translator
       # 码表翻译器 用于仓颉、五笔等基于码表的输入方案
       - table_translator@custom_phrase # 1、2码置顶
@@ -76,10 +76,10 @@ switches_engine:
       # tab置顶词回显在第一个comment中
       - lua_filter@*stick
       #- lua_filter@*slash_pop # 4码时使用/自动上屏单字 开发中
-      - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
+      - lua_filter@*long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
       #- lua_filter@*moran_debug_filter # debug
       - simplifier@emoji                              # Emoji
-      # - lua_filter@reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
+      # - lua_filter@*reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
       - simplifier@chaifen
       - simplifier@chaifen_all
       - simplifier@chinese_english
@@ -345,7 +345,7 @@ guide:
       - xform/^.+$//
 
   # 计算器触发关键字
-  calc_translator:
+  calculator:
     trigger: V
 
   # Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
