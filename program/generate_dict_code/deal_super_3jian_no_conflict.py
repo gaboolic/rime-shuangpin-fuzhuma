@@ -32,7 +32,7 @@ for file in file_list:
                 word_list.append(word)
                 jianpin_word_map[jianpin] = word_list
 
-print(jianpin_word_map)
+#print(jianpin_word_map)
 
 # 生成 'aaa' 到 'zzz' 的字符串序列
 combinations = []
