@@ -6138,7 +6138,7 @@
 属性词	uxc
 剩下的	uxd
 手续费	uxf
-肾小管	uxg
+鼠须管	uxg
 说闲话	uxh
 双线程	uxi
 摄像机	uxj
