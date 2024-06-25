@@ -357,7 +357,6 @@ sort: by_weight
 闭	bi[mc	2416
 鼻	bi[zw	1980
 逼	bi[zt	1929
-屄	bi[ub	1914
 臂	bi[uo	1906
 壁	bi[ut	1828
 彼	bi[rp	1414
@@ -381,6 +380,7 @@ sort: by_weight
 裨	bi[pu	24
 薜	bi[cx	22
 哔	bi[ku	20
+屄	bi[ub	18
 愎	bi[xw	14
 吡	bi[kb	7
 跸	bi[zu	7
@@ -3126,8 +3126,8 @@ sort: by_weight
 㠇	jq[uy	0
 巨	ju[kk	7538
 举	ju[xf	6936
-居	ju[ug	5271
-局	ju[uk	4611
+局	ju[uk	5271
+居	ju[ug	4611
 具	ju[qb	4340
 据	ju[fg	4053
 句	ju[bk	2543
