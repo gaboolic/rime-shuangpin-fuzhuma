@@ -264,8 +264,7 @@ import_tables:
 闭	bim
 鼻	bizw
 逼	bizt
-屄	biu
-臂	biuo
+臂	biu
 壁	biut
 彼	bir
 碧	biw
@@ -288,6 +287,7 @@ import_tables:
 裨	bipu
 薜	bicx
 哔	biku
+屄	biub
 愎	bixw
 吡	bikb
 跸	bizu
@@ -811,7 +811,7 @@ import_tables:
 递	diz
 迪	dizy
 滴	did
-的	dibU
+的	dibu
 蒂	dic
 狄	diq
 笛	divy
@@ -1130,7 +1130,7 @@ import_tables:
 崿	eeuk
 姶	eenk
 涐	eed
-哦	eekW
+哦	eekw
 堨	eet
 𥔲	eeuk
 𫫇	eekx
@@ -2049,7 +2049,7 @@ import_tables:
 互	hua
 狐	huq
 壶	hut
-和	huhK
+和	huhk
 蝴	hui
 惚	hux
 弧	hugg
@@ -3085,8 +3085,8 @@ import_tables:
 𫘝	jtmg
 举	ju
 巨	juk
-居	juu
-局	juuk
+局	juu
+居	juug
 具	juq
 据	juf
 句	jub
@@ -5550,10 +5550,10 @@ import_tables:
 蹜	suzb
 缩	sus
 𫗧	suu
-虽	sv
+岁	sv
 随	sve
-岁	svu
-碎	svuu
+虽	svk
+碎	svu
 遂	svz
 隋	sveo
 髓	svg
