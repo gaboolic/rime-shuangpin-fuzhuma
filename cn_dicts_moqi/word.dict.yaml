@@ -1155,7 +1155,7 @@ sort: by_weight
 白丝	bdsi
 白送	bdss
 败诉	bdsu
-百岁	bdsv
+掰碎	bdsv
 白塔	bdta
 败逃	bdtc
 百态	bdtd
@@ -2848,7 +2848,7 @@ sort: by_weight
 不见	bujm
 不叫	bujn
 不解	bujp
-不久	bujq
+不就	bujq
 不倦	bujr
 不觉	bujt
 布局	buju
@@ -4679,9 +4679,9 @@ sort: by_weight
 打草	dacc
 大菜	dacd
 大仓	dach
-大慈	daci
+打词	daci
 大餐	dacj
-大错	daco
+打错	daco
 大葱	dacs
 大促	dacu
 大大	dada
@@ -11703,7 +11703,7 @@ sort: by_weight
 共处	gsiu
 公斤	gsjb
 攻击	gsji
-宫颈	gsjk
+恭敬	gsjk
 工匠	gsjl
 共建	gsjm
 公交	gsjn
@@ -19506,7 +19506,7 @@ sort: by_weight
 郊野	jnye
 教养	jnyh
 交易	jnyi
-教研	jnyj
+校验	jnyj
 较硬	jnyk
 较远	jnyr
 皎月	jnyt
@@ -20219,7 +20219,6 @@ sort: by_weight
 举动	juds
 剧毒	judu
 聚堆	judv
-句读	judz
 巨额	juee
 举发	jufa
 俱焚	juff
@@ -22914,7 +22913,7 @@ sort: by_weight
 老身	lcuf
 老生	lcug
 劳伤	lcuh
-老师	lcui
+老是	lcui
 崂山	lcuj
 老帅	lcuk
 老说	lcuo
@@ -24231,7 +24230,7 @@ sort: by_weight
 连我	lmwo
 练武	lmwu
 连心	lmxb
-联系	lmxi
+练习	lmxi
 脸形	lmxk
 联想	lmxl
 连线	lmxm
@@ -25762,7 +25761,7 @@ sort: by_weight
 马云	mayy
 麻油	mayz
 马仔	mazd
-麻子	mazi
+码字	mazi
 马鬃	mazs
 妈祖	mazu
 麻醉	mazv
@@ -34149,6 +34148,7 @@ sort: by_weight
 如厕	ruce
 入仓	ruch
 如此	ruci
+入参	rucj
 入村	rucy
 入道	rudc
 如黛	rudd
@@ -35877,7 +35877,7 @@ sort: by_weight
 随你	svni
 虽难	svnj
 遂宁	svnk
-遂平	svpk
+碎屏	svpk
 碎片	svpm
 随其	svqi
 随迁	svqm
@@ -38462,7 +38462,7 @@ sort: by_weight
 推迟	tvii
 推窗	tvil
 推崇	tvis
-推出	tviu
+退出	tviu
 忒丑	tviz
 推进	tvjb
 推挤	tvji
@@ -40583,7 +40583,7 @@ sort: by_weight
 双峰	ulfg
 双方	ulfh
 爽肤	ulfu
-双飞	ulfw
+双非	ulfw
 双杠	ulgh
 双拐	ulgk
 双管	ulgr
@@ -41928,7 +41928,7 @@ sort: by_weight
 爪牙	vcya
 招引	vcyb
 照耀	vcyc
-朝阳	vcyh
+照样	vcyh
 招眼	vcyj
 照应	vcyk
 招远	vcyr
@@ -42157,7 +42157,7 @@ sort: by_weight
 折转	vevr
 这种	vevs
 遮住	vevu
-褶皱	vevz
+这周	vevz
 哲文	vewf
 折弯	vewj
 这我	vewo
@@ -50624,7 +50624,6 @@ sort: by_weight
 盈利	ykli
 樱兰	yklj
 英灵	yklk
-英两	ykll
 楹联	yklm
 璎珞	yklo
 英烈	yklp
@@ -50673,7 +50672,7 @@ sort: by_weight
 硬塞	yksd
 营私	yksi
 迎送	ykss
-应诉	yksu
+罂粟	yksu
 鹰隼	yksy
 樱桃	yktc
 映泰	yktd
@@ -51070,7 +51069,6 @@ sort: by_weight
 用买	ysmd
 勇猛	ysmg
 用命	ysmk
-用墨	ysmo
 用煤	ysmw
 用那	ysna
 用脑	ysnc
@@ -52705,7 +52703,7 @@ sort: by_weight
 紫菜	zicd
 自测	zice
 子层	zicg
-自此	zici
+字词	zici
 自残	zicj
 自从	zics
 自存	zicy
