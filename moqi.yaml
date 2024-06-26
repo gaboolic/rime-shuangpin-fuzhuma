@@ -73,6 +73,7 @@ switches_engine:
       - script_translator@add_user_dict
       
     filters:
+      - lua_filter@*is_in_user_dict # 用户词典的词加上一个*
       # tab置顶词回显在第一个comment中
       - lua_filter@*stick
       #- lua_filter@*slash_pop # 4码时使用/自动上屏单字 开发中

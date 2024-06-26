@@ -7,7 +7,7 @@ local M = {}
 function M.init(env)
     local config = env.engine.schema.config
     env.name_space = env.name_space:gsub('^*', '')
-    M.is_in_user_dict = config:get_bool(env.name_space)
+    M.is_in_user_dict = config:get_bool(env.name_space) or true
 end
 
 function M.func(input, env)
