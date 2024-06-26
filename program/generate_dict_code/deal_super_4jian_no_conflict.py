@@ -81,7 +81,7 @@ for combination in combinations:
     if combination not in jianpin_word_map:
         no_conflict_list.append(combination)
 
-print(no_conflict_list)
+# print(no_conflict_list)
 
 import os
 import string

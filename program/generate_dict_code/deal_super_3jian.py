@@ -66,7 +66,7 @@ with open(file_path, "w") as file:
             word_freq_list = word_freq_list[:1]
             for word_freq in word_freq_list:
                 word = word_freq['word']
-                print(word+"\t"+combination+"|")
+                # print(word+"\t"+combination+"|")
 
                 file.write(word+"\t"+combination+"/" + "\n")
 
