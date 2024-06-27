@@ -131,6 +131,8 @@ with open(file_path, "w") as file:
                 word = '哥哥'
             if combination == 'vn':
                 word = '智能'
+            if combination == 'bl':
+                word = '遍历'
             file.write(word+"\t"+combination+"/\n")
             # print(combination + " " + str(word_freq_list))
         # print(combination + jianpin_word_map[combination])
