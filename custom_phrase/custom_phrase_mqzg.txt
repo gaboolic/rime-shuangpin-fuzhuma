@@ -151,12 +151,13 @@
 ㇀	oba	98
 乛	oba	97
 凹	oba	96
+纟	obs	105
+糹	obs	104
 厶	obs	100
 龴	obs	99
 巳	obs	98
 罒	obs	97
 四	obs	96
-纟	obs	95
 丝	obs	94
 三	obs	93
 氵	obd	100
