@@ -67,7 +67,32 @@ with open(file_path, "w") as file:
             for word_freq in word_freq_list:
                 word = word_freq['word']
                 # print(word+"\t"+combination+"|")
-
+                if combination == 'xgl':
+                    word = 'X光'
+                if combination == 'txu':
+                    word = 'T恤'
+                if combination == 'upj':
+                    word = 'U盘'
+                if combination == 'bvj':
+                    word = 'B站'
+                if combination == 'qbi':
+                    word = 'Q币'
+                if combination == 'qqq':
+                    word = 'QQ群'
+                if combination == 'tgq':
+                    word = 'TG群'
+                if combination == 'kxm':
+                    word = 'K线'
+                if combination == 'upv':
+                    word = 'UP主'
+                if combination == 'wwc':
+                    word = '维C'
+                if combination == 'cpj':
+                    word = 'C盘'
+                if combination == 'kge':
+                    word = 'K歌'
+                if combination == 'ptu':
+                    word = 'P图'
                 file.write(word+"\t"+combination+"/" + "\n")
 
             # print(combination + " " + str(word_freq_list))

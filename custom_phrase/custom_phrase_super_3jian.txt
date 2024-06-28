@@ -1036,7 +1036,7 @@
 不粘锅	bvg/
 标准化	bvh/
 不支持	bvi/
-保证金	bvj/
+B站	bvj/
 补助款	bvk/
 不住了	bvl/
 不知名	bvm/
@@ -1461,7 +1461,7 @@
 擦屁股	cpg/
 曾捧红	cph/
 脆皮肠	cpi/
-磁偏角	cpj/
+C盘	cpj/
 彩票卡	cpk/
 彩牌楼	cpl/
 词牌名	cpm/
@@ -6366,7 +6366,7 @@
 科学家	kxj/
 跨学科	kxk/
 可惜了	kxl/
-看行吗	kxm/
+K线	kxm/
 苛性钠	kxn/
 卡西欧	kxo/
 凯旋炮	kxp/
@@ -8849,7 +8849,7 @@
 普通人	ptr/
 帕特森	pts/
 葡萄糖	ptt/
-平台上	ptu/
+P图	ptu/
 葡萄汁	ptv/
 骈体文	ptw/
 排他性	ptx/
@@ -9020,7 +9020,7 @@
 去北方	qbf/
 七八个	qbg/
 却不会	qbh/
-七八成	qbi/
+Q币	qbi/
 前不久	qbj/
 切不可	qbk/
 起不来	qbl/
@@ -9361,7 +9361,7 @@
 亲戚们	qqm/
 求求你	qqn/
 弃权票	qqp/
-请求权	qqq/
+QQ群	qqq/
 请求人	qqr/
 氢氰酸	qqs/
 全球通	qqt/
@@ -10842,7 +10842,7 @@
 太过敏	tgm/
 退给你	tgn/
 谈个屁	tgp/
-塘沽区	tgq/
+TG群	tgq/
 托管人	tgr/
 他告诉	tgs/
 剃光头	tgt/
@@ -11246,7 +11246,7 @@
 贴心人	txr/
 土行孙	txs/
 弹性体	txt/
-通讯社	txu/
+T恤	txu/
 通行证	txv/
 提醒我	txw/
 他相信	txx/
@@ -11656,7 +11656,7 @@
 审判官	upg/
 商品化	uph/
 售票处	upi/
-收盘价	upj/
+U盘	upj/
 射频卡	upk/
 上坡路	upl/
 水平面	upm/
@@ -11667,7 +11667,7 @@
 世乒赛	ups/
 说破天	upt/
 山坡上	upu/
-审判长	upv/
+Up主	upv/
 食品网	upw/
 水平线	upx/
 售票员	upy/
@@ -13063,7 +13063,7 @@
 我正在	wvz/
 维维安	wwa/
 往往把	wwb/
-娃娃菜	wwc/
+维C	wwc/
 微微的	wwd/
 维吾尔	wwe/
 文物法	wwf/
@@ -13321,7 +13321,7 @@
 性高潮	xgi/
 膝关节	xgj/
 谢广坤	xgk/
-习惯了	xgl/
+X光	xgl/
 小规模	xgm/
 新概念	xgn/
 西瓜皮	xgp/
