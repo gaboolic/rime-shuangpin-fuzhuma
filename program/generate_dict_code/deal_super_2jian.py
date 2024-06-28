@@ -137,6 +137,8 @@ with open(file_path, "w") as file:
                 word = '往往'
             if combination == 'xz':
                 word = '下载'
+            if combination == 'ng':
+                word = '哪个'
             file.write(word+"\t"+combination+"/\n")
             # print(combination + " " + str(word_freq_list))
         # print(combination + jianpin_word_map[combination])

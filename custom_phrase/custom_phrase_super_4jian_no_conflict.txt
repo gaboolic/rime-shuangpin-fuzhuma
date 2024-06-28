@@ -7163,13 +7163,13 @@
 别忘了她	bwlt
 八窝龙乡	bwlx
 比我们差	bwmi
-百万美金	bwmj
 把我卖了	bwml
 爸我妈呢	bwmn
 百万买宅	bwmv
 不忘母训	bwmx
 不唯年龄	bwnl
 不为难你	bwnn
+不误农时	bwnu
 比我年长	bwnv
 百万年薪	bwnx
 北王平村	bwpc
@@ -9773,6 +9773,7 @@
 苍南文蛤	cnwg
 才能完成	cnwi
 草拟文件	cnwj
+猜你喜欢	cnxh
 从哪下口	cnxk
 采暖系统	cnxt
 才能显示	cnxu
@@ -22011,7 +22012,6 @@
 辐射能力	funl
 佛手排骨	fupg
 辐射平衡	fuph
-发射频率	fupl
 服饰品牌	fupp
 丰神飘洒	fups
 放手去爱	fuqa
@@ -22026,7 +22026,6 @@
 放手去做	fuqz
 浮生若梦	furm
 粉身碎骨	fusg
-肺失肃降	fusj
 腐蚀速率	fusl
 复试通过	futg
 防水涂料	futl
@@ -22433,7 +22432,7 @@
 服务基地	fwjd
 服务机构	fwjg
 肺外结核	fwjh
-服务经济	fwjj
+防伪技术	fwju
 房屋建筑	fwjv
 法无可贷	fwkd
 反王肯恩	fwke
@@ -22451,7 +22450,6 @@
 风微浪稳	fwlw
 服务类型	fwlx
 废物命长	fwmi
-房屋面积	fwmj
 非文盲率	fwml
 房屋买卖	fwmm
 服务模型	fwmx
@@ -22472,7 +22470,6 @@
 服务器端	fwqd
 夫为妻纲	fwqg
 非武器化	fwqh
-访问期间	fwqj
 服务器类	fwql
 服务群众	fwqv
 访问权限	fwqx
@@ -32057,7 +32054,6 @@
 忽然想起	hrxq
 忽然消失	hrxu
 恍然醒悟	hrxw
-华人乐队	hryd
 挥日阳戈	hryg
 忽然有了	hryl
 花容月貌	hrym
@@ -40716,6 +40712,7 @@
 基础操作	jicz
 杰出代表	jidb
 家常豆腐	jidf
+集成度高	jidg
 鸡吵鹅斗	jied
 加长峨螺	jiel
 急冲而下	jiex
@@ -40772,6 +40769,7 @@
 旧愁新恨	jixh
 解除限制	jixv
 基础语法	jiyf
+就差一个	jiyg
 解除压力	jiyl
 角翅野螟	jiym
 𫌀翅总目	jizm
@@ -42672,6 +42670,7 @@
 静态链表	jtlb
 家庭理财	jtlc
 集体领导	jtld
+家庭旅馆	jtlg
 交通落后	jtlh
 今天凉快	jtlk
 今天立秋	jtlq
@@ -63872,6 +63871,7 @@
 陪我聊聊	pwll
 赔我聊天	pwlt
 品物流形	pwlx
+排位模式	pwmu
 破碗破摔	pwpu
 佩韦佩弦	pwpx
 陪我去看	pwqk
@@ -63897,10 +63897,10 @@
 匹维溴铵	pwxa
 破位下跌	pwxd
 脾胃虚寒	pwxh
-平稳下降	pwxj
 剖完胸腔	pwxq
 脾胃虚弱	pwxr
 排位系统	pwxt
+平稳行驶	pwxu
 飘瓦虚舟	pwxv
 破位下行	pwxx
 破玩意儿	pwye
@@ -90492,6 +90492,7 @@
 只这两日	vvlr
 注重绿色	vvls
 站长论坛	vvlt
+专职律师	vvlu
 政治路线	vvlx
 猪猪乐园	vvly
 真正明白	vvmb
@@ -95993,7 +95994,6 @@
 玩世不恭	wubg
 韦氏兵鲶	wubn
 我上不去	wubq
-雾释冰融	wubr
 武术比赛	wubs
 我是备胎	wubt
 卫生标准	wubv

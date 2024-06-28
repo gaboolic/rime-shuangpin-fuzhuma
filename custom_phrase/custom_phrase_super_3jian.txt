@@ -11592,7 +11592,7 @@ T恤	txu/
 试了试	ulu/
 胜利者	ulv/
 十六位	ulw/
-生理学	ulx/
+试了下	ulx/
 是利用	uly/
 舍利子	ulz/
 什么啊	uma/
@@ -11667,7 +11667,7 @@ U盘	upj/
 世乒赛	ups/
 说破天	upt/
 山坡上	upu/
-Up主	upv/
+UP主	upv/
 食品网	upw/
 水平线	upx/
 售票员	upy/
@@ -11894,7 +11894,7 @@ Up主	upv/
 实验室	uyu/
 是一种	uyv/
 是因为	uyw/
-实用性	uyx/
+适应性	uyx/
 适用于	uyy/
 双鱼座	uyz/
 失踪案	uza/
@@ -12823,7 +12823,7 @@ Up主	upv/
 完了吗	wlm/
 为了你	wln/
 无聊哦	wlo/
-我老婆	wlp/
+伪劣品	wlp/
 为了钱	wlq/
 为了让	wlr/
 蔚蓝色	wls/
@@ -13343,7 +13343,7 @@ X光	xgl/
 新回复	xhf/
 新华光	xhg/
 笑呵呵	xhh/
-喜欢吃	xhi/
+瞎胡扯	xhi/
 相互间	xhj/
 消化科	xhk/
 学会了	xhl/
@@ -14279,7 +14279,7 @@ X光	xgl/
 一首歌	yug/
 有时候	yuh/
 以市场	yui/
-一时间	yuj/
+艺术家	yuj/
 袁世凯	yuk/
 艺术类	yul/
 有什么	yum/

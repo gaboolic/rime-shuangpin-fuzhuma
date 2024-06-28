@@ -6009,7 +6009,7 @@ U盘	upj
 世乒赛	ups
 说破天	upt
 山坡上	upu
-Up主	upv
+UP主	upv
 食品网	upw
 水平线	upx
 售票员	upy
@@ -6587,7 +6587,7 @@ Up主	upv
 完了吗	wlm
 为了你	wln
 无聊哦	wlo
-我老婆	wlp
+伪劣品	wlp
 为了钱	wlq
 为了让	wlr
 蔚蓝色	wls
@@ -7030,7 +7030,7 @@ X光	xgl
 新回复	xhf
 新华光	xhg
 笑呵呵	xhh
-喜欢吃	xhi
+瞎胡扯	xhi
 相互间	xhj
 消化科	xhk
 学会了	xhl
