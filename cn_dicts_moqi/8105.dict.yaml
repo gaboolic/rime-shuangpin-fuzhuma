@@ -1647,7 +1647,7 @@ sort: by_weight
 啡	fw[kf	745
 匪	fw[kf	729
 沸	fw[df	422
-肺	fw[ou	388
+肺	fw[oj	388
 绯	fw[sf	232
 斐	fw[fw	151
 霏	fw[yf	120
@@ -1660,7 +1660,7 @@ sort: by_weight
 腓	fw[of	18
 悱	fw[xf	13
 淝	fw[db	9
-芾	fw[cu	7
+芾	fw[cj	7
 痱	fw[bf	5
 榧	fw[mf	3
 鲱	fw[yf	3
@@ -1784,7 +1784,7 @@ sort: by_weight
 蝮	fu[iw	8
 讣	fu[yb	7
 黼	fu[yf	7
-芾	fu[cu	7
+芾	fu[cj	7
 趺	fu[zf	6
 怫	fu[xf	5
 氟	fu[qf	5
@@ -2709,7 +2709,7 @@ sort: by_weight
 墼	ji[it	3
 鹡	ji[rn	3
 剞	ji[dd	3
-戢	ji[kg	3
+戢	ji[ge	3
 虮	ji[ij	2
 伋	ji[rj	2
 垍	ji[tz	2
@@ -2718,7 +2718,7 @@ sort: by_weight
 跽	ji[zx	1
 嵴	ji[uo	1
 鲚	ji[yq	1
-蕺	ji[cg	1
+蕺	ji[ce	1
 罽	ji[sd	1
 蹐	ji[zo	1
 姞	ji[nk	1
@@ -4456,7 +4456,7 @@ sort: by_weight
 奶	nd[nn	2654
 奈	nd[du	2353
 耐	nd[ec	1657
-乃	nd[vp	1558
+乃	nd[pv	1558
 鼐	nd[no	10
 氖	nd[qn	8
 萘	nd[cu	4
@@ -4717,13 +4717,13 @@ sort: by_weight
 培	pw[tk	985
 赔	pw[bk	614
 裴	pw[fy	296
-沛	pw[du	248
+沛	pw[dj	248
 呸	pw[kp	205
 胚	pw[op	42
 帔	pw[jp	28
 辔	pw[sk	16
-霈	pw[yu	4
-旆	pw[fu	2
+霈	pw[yj	4
+旆	pw[fj	2
 醅	pw[yk	1
 锫	pw[jk	1
 衃	pw[pb	0
@@ -5758,7 +5758,7 @@ sort: by_weight
 䴓	ui[bn	0
 𫚕	ui[yj	0
 𬤊	ui[yz	0
-手	uz[py	50762
+手	uz[pf	50762
 受	uz[vy	13885
 收	uz[jw	8074
 首	uz[bz	5889
@@ -7052,9 +7052,9 @@ sort: by_weight
 序	xu[gy	1092
 旭	xu[jo	545
 叙	xu[ry	514
-吁	xu[ky	476
+嘘	xu[ky	476
 蓄	xu[ct	428
-嘘	xu[ky	327
+吁	xu[ky	327
 絮	xu[nx	284
 婿	xu[no	220
 恤	xu[xm	149

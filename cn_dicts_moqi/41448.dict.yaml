@@ -466,7 +466,7 @@ sort: by_weight
 㔜	ba[vl
 㖠	ba[ku
 㞎	ba[ub
-㧊	ba[fu
+㧊	ba[fj
 㶚	ba[do
 䃻	ba[uo
 䆉	ba[hb
@@ -572,7 +572,7 @@ sort: by_weight
 𦳺	ba[cy
 𧎱	ba[bi
 𧲧	ba[vb
-𧺡	ba[tu
+𧺡	ba[tj
 𧺺	ba[ty
 𧿏	ba[zd
 𨊹	ba[ib
@@ -955,7 +955,7 @@ sort: by_weight
 㶔	bw[dd
 㷶	bw[rh
 㸢	bw[py
-㸬	bw[nu
+㸬	bw[nj
 㸽	bw[nb
 㻗	bw[fy
 㼎	bw[gf
@@ -971,7 +971,7 @@ sort: by_weight
 䡶	bw[ix
 䥯	bw[jb
 䩀	bw[fb
-䰽	bw[yu
+䰽	bw[yj
 俻	bw[rt
 倍	bw[rk
 偝	bw[ro
@@ -992,8 +992,8 @@ sort: by_weight
 愂	bw[ux
 憊	bw[rx
 揹	bw[fo
-昁	bw[ou
-杮	bw[mu
+昁	bw[oj
+杮	bw[mj
 杯	bw[mb
 柸	bw[mp
 桮	bw[mk
@@ -1049,7 +1049,7 @@ sort: by_weight
 𡋭	bw[bt
 𡥞	bw[vz
 𡰯	bw[uj
-𢂏	bw[uu
+𢂏	bw[uj
 𢃍	bw[ju
 𢴾	bw[fx
 𢻵	bw[uy
@@ -2059,7 +2059,7 @@ sort: by_weight
 㼣	bo[bw
 䂍	bo[mu
 䊿	bo[sf
-䍨	bo[yu
+䍨	bo[yj
 䍸	bo[yc
 䑈	bo[om
 䒄	bo[vt
@@ -2067,9 +2067,9 @@ sort: by_weight
 䙏	bo[pc
 䞳	bo[tk
 䟆	bo[tf
-䟛	bo[zu
+䟛	bo[zj
 䟦	bo[zy
-䢌	bo[zu
+䢌	bo[zj
 䢪	bo[zk
 䥬	bo[jc
 䨌	bo[yy
@@ -2267,7 +2267,7 @@ sort: by_weight
 𦼭	bo[cc
 𦽮	bo[cn
 𧇚	bo[hb
-𧘟	bo[pu
+𧘟	bo[pj
 𧙄	bo[pb
 𧟱	bo[xy
 𧲯	bo[vy
@@ -7823,7 +7823,7 @@ sort: by_weight
 𨤕	ee[cd
 𨵌	ee[mk
 𨶯	ee[mh
-𨸷	ee[lv
+𨸷	ee[pv
 𨺨	ee[ek
 𩇠	ee[fm
 𩉴	ee[gv
@@ -8261,15 +8261,15 @@ sort: by_weight
 㫵	fw[of
 㭭	fw[md
 㵒	fw[db
-㸬	fw[nu
+㸬	fw[nj
 㹃	fw[fn
 㾱	fw[be
 䀟	fw[of
 䆏	fw[hg
 䈈	fw[vb
 䉬	fw[vu
-䍨	fw[yu
-䑔	fw[ju
+䍨	fw[yj
+䑔	fw[jj
 䒈	fw[vb
 䕁	fw[cm
 䕠	fw[cu
@@ -8303,7 +8303,7 @@ sort: by_weight
 暃	fw[of
 曊	fw[ob
 朏	fw[oi
-杮	fw[mu
+杮	fw[mj
 柹	fw[md
 棐	fw[fm
 榧	fw[mf
@@ -8314,7 +8314,7 @@ sort: by_weight
 淝	fw[db
 渄	fw[df
 濷	fw[ur
-犻	fw[qu
+犻	fw[qj
 狒	fw[qf
 猆	fw[fq
 疿	fw[bf
@@ -8327,12 +8327,12 @@ sort: by_weight
 绯	fw[sf
 翡	fw[fx
 肥	fw[ob
-肺	fw[ou
+肺	fw[oj
 胇	fw[of
 胏	fw[od
 胐	fw[oi
 腓	fw[of
-芾	fw[cu
+芾	fw[cj
 菲	fw[cf
 萉	fw[cb
 蕜	fw[cx
@@ -8922,7 +8922,7 @@ sort: by_weight
 艴	fu[fb
 芙	fu[cf
 芣	fu[cb
-芾	fu[cu
+芾	fu[cj
 苻	fu[cc
 茀	fu[cf
 茯	fu[cq
@@ -9093,7 +9093,7 @@ sort: by_weight
 𥳇	fu[vw
 𥷱	fu[vw
 𥼼	fu[mw
-𥾧	fu[su
+𥾧	fu[sj
 𦂊	fu[sw
 𦇁	fu[sw
 𦊦	fu[ks
@@ -9142,7 +9142,7 @@ sort: by_weight
 𨚓	fu[fe
 𨦛	fu[jq
 𨵟	fu[my
-𨺅	fu[ll
+𨺅	fu[pl
 𨾚	fu[fv
 𩂆	fu[yb
 𩂎	fu[yf
@@ -12621,7 +12621,7 @@ sort: by_weight
 鵍	hr[bn
 鹮	hr[sn
 𠂄	hr[dr
-𠟼	hr[wd
+𠟼	hr[yd
 𠺐	hr[kj
 𠻍	hr[ky
 𡄤	hr[ky
@@ -13520,7 +13520,7 @@ sort: by_weight
 嵆	ji[hu
 嵇	ji[hu
 嵴	ji[uo
-嶯	ji[ug
+嶯	ji[ue
 己	ji[kv
 帺	ji[jb
 幾	ji[gr
@@ -13540,7 +13540,7 @@ sort: by_weight
 懠	ji[xo
 懻	ji[xg
 戟	ji[ug
-戢	ji[kg
+戢	ji[ge
 技	ji[fv
 挤	ji[fq
 掎	ji[fk
@@ -13575,7 +13575,7 @@ sort: by_weight
 機	ji[mr
 橶	ji[mg
 檕	ji[im
-檝	ji[mg
+檝	ji[me
 檵	ji[my
 櫅	ji[mo
 櫭	ji[md
@@ -13593,7 +13593,7 @@ sort: by_weight
 漈	ji[du
 潗	ji[dm
 激	ji[dw
-濈	ji[dg
+濈	ji[de
 濟	ji[do
 瀱	ji[dd
 焏	ji[kh
@@ -13666,7 +13666,7 @@ sort: by_weight
 脊	ji[ro
 膌	ji[oo
 臮	ji[zr
-艥	ji[vg
+艥	ji[ve
 芨	ji[cj
 芰	ji[cv
 苙	ji[cl
@@ -13678,7 +13678,7 @@ sort: by_weight
 蓟	ji[cd
 蔇	ji[cw
 蕀	ji[cu
-蕺	ji[cg
+蕺	ji[ce
 薊	ji[cd
 薺	ji[co
 藉	ji[co
@@ -13746,7 +13746,7 @@ sort: by_weight
 雞	ji[vv
 雧	ji[rm
 霁	ji[yq
-霵	ji[yg
+霵	ji[ye
 霽	ji[yo
 革	ji[cu
 鞊	ji[gk
@@ -13815,11 +13815,11 @@ sort: by_weight
 𠹋	ji[ku
 𠼻	ji[kt
 𠿉	ji[ik
-𠿠	ji[kg
+𠿠	ji[ke
 𡁪	ji[kd
 𡁰	ji[ko
 𡃃	ji[ke
-𡅺	ji[kg
+𡅺	ji[ke
 𡇟	ji[ky
 𡋚	ji[rt
 𡜱	ji[nx
@@ -13890,11 +13890,11 @@ sort: by_weight
 𤺷	ji[ba
 𤿠	ji[tp
 𥈂	ji[oa
-𥊬	ji[og
+𥊬	ji[oe
 𥋥	ji[ot
 𥒡	ji[ui
 𥕂	ji[uo
-𥖙	ji[ug
+𥖙	ji[ue
 𥘌	ji[uj
 𥠈	ji[he
 𥠋	ji[he
@@ -13927,7 +13927,7 @@ sort: by_weight
 𦝖	ji[oo
 𦞽	ji[oo
 𦠄	ji[or
-𦠾	ji[og
+𦠾	ji[oe
 𦩧	ji[zv
 𦪱	ji[iv
 𦮯	ji[cd
@@ -13957,7 +13957,7 @@ sort: by_weight
 𧡯	ji[oj
 𧢾	ji[dw
 𧤏	ji[de
-𧥄	ji[dg
+𧥄	ji[de
 𧧃	ji[ik
 𧧟	ji[yu
 𧧩	ji[yb
@@ -14007,7 +14007,7 @@ sort: by_weight
 𩠨	ji[hz
 𩢴	ji[mk
 𩥉	ji[mb
-𩦤	ji[mg
+𩦤	ji[me
 𩨒	ji[gj
 𩩛	ji[gk
 𩯋	ji[eg
@@ -15105,7 +15105,7 @@ sort: by_weight
 掶	jp[fr
 揭	jp[fr
 搩	jp[fm
-擑	jp[fg
+擑	jp[fe
 擮	jp[fv
 擳	jp[fe
 斺	jp[fj
@@ -15367,7 +15367,7 @@ sort: by_weight
 凚	jb[du
 劤	jb[jl
 劲	jb[jl
-勁	jb[gl
+勁	jb[jl
 卺	jb[lv
 厪	jb[iw
 唫	jb[kj
@@ -15541,10 +15541,10 @@ sort: by_weight
 净	jk[dy
 凈	jk[dy
 刭	jk[jd
-剄	jk[gd
+剄	jk[jd
 劤	jk[jl
 劲	jk[jl
-勁	jk[gl
+勁	jk[jl
 坓	jk[jt
 坕	jk[vt
 坙	jk[at
@@ -15636,12 +15636,12 @@ sort: by_weight
 靚	jk[fj
 靜	jk[fy
 頚	jk[yy
-頸	jk[gy
+頸	jk[jy
 颈	jk[jy
 驚	jk[cm
 鯨	jk[yx
 鲸	jk[yx
-鵛	jk[gn
+鵛	jk[jn
 鶁	jk[wn
 鶄	jk[fn
 麖	jk[lx
@@ -16610,7 +16610,7 @@ sort: by_weight
 𨬐	jt[ij
 𨰜	jt[jc
 𨼎	jt[eb
-𨼱	jt[lg
+𨼱	jt[pg
 𩊺	jt[gy
 𩌡	jt[gk
 𩏺	jt[wy
@@ -23109,7 +23109,7 @@ sort: by_weight
 䘅	nd[si
 䯮	nd[en
 䱞	nd[yu
-乃	nd[vp
+乃	nd[pv
 佴	nd[re
 倷	nd[ru
 奈	nd[du
@@ -24606,12 +24606,12 @@ sort: by_weight
 𪊳	pc[lb
 㟝	pw[uk
 㣆	pw[gy
-㤄	pw[xu
+㤄	pw[xj
 㧩	pw[fj
 㨐	pw[fm
 㫲	pw[oz
 㳈	pw[dm
-㸬	pw[nu
+㸬	pw[nj
 㾦	pw[bk
 䂜	pw[uf
 䊃	pw[mj
@@ -24624,7 +24624,7 @@ sort: by_weight
 䫠	pw[pk
 䯱	pw[eb
 䲹	pw[bn
-伂	pw[ru
+伂	pw[rj
 佩	pw[rj
 俖	pw[rk
 呸	pw[kp
@@ -24641,15 +24641,15 @@ sort: by_weight
 抷	pw[fp
 攈	pw[fh
 斾	pw[fj
-旆	pw[fu
+旆	pw[fj
 柭	pw[my
 柸	pw[mp
 棑	pw[mf
 毰	pw[mk
-沛	pw[du
+沛	pw[dj
 浿	pw[db
 淠	pw[dw
-犻	pw[qu
+犻	pw[qj
 珮	pw[wj
 琣	pw[wk
 肧	pw[ob
@@ -24668,8 +24668,8 @@ sort: by_weight
 锫	pw[jk
 阫	pw[eb
 陪	pw[ek
-霈	pw[yu
-馷	pw[mu
+霈	pw[yj
+馷	pw[mj
 𢁖	pw[jd
 𢘀	pw[xy
 𢥐	pw[xm
@@ -24679,7 +24679,7 @@ sort: by_weight
 𤗏	pw[pk
 𤜲	pw[uq
 𤬃	pw[lg
-𥄔	pw[ou
+𥄔	pw[oj
 𥹂	pw[mp
 𦙂	pw[br
 𦸪	pw[cf
@@ -24690,7 +24690,7 @@ sort: by_weight
 𨛬	pw[fb
 𩎜	pw[wp
 𩑢	pw[by
-𩖭	pw[fu
+𩖭	pw[fj
 𩵣	pw[yb
 㾦	pf[bk
 呠	pf[kb
@@ -25382,7 +25382,7 @@ sort: by_weight
 𪕒	pk[jk
 㛘	po[nz
 㜑	po[dn
-㧊	po[fu
+㧊	po[fj
 㨇	po[du
 㩯	po[fx
 㰴	po[lq
@@ -25391,7 +25391,7 @@ sort: by_weight
 䎊	po[wx
 䘠	po[px
 䞟	po[tb
-䣪	po[yu
+䣪	po[yj
 䣮	po[yy
 䦌	po[mt
 䨰	po[yg
@@ -25473,8 +25473,8 @@ sort: by_weight
 𤖼	po[py
 𤝯	po[qq
 𤱍	po[tp
-𤽌	po[bu
-𥄔	po[ou
+𤽌	po[bj
+𥄔	po[oj
 𥗟	po[uk
 𥬒	po[vy
 𥵜	po[vf
@@ -25491,7 +25491,7 @@ sort: by_weight
 𦾕	po[ct
 𦿍	po[cf
 𧂉	po[ct
-𧘟	po[pu
+𧘟	po[pj
 𧙅	po[pk
 𧴤	po[bb
 𧻙	po[tb
@@ -27304,7 +27304,7 @@ sort: by_weight
 媝	qq[hn
 崷	qq[uy
 巯	qq[ji
-巰	qq[gi
+巰	qq[ji
 恘	qq[xm
 恷	qq[rx
 扏	qq[fj
@@ -29040,7 +29040,7 @@ sort: by_weight
 殺	ua[xu
 毮	ua[fm
 沙	ua[du
-濈	ua[dg
+濈	ua[de
 煞	ua[dh
 猀	ua[qu
 痧	ua[bu
@@ -30195,7 +30195,7 @@ sort: by_weight
 𥛨	ui[uz
 𥜰	ui[ul
 𥥥	ui[bl
-𥫴	ui[vu
+𥫴	ui[vj
 𥫽	ui[vu
 𥰰	ui[vc
 𥼶	ui[mg
@@ -30232,7 +30232,7 @@ sort: by_weight
 𨱡	ui[eu
 𨴯	ui[mu
 𨸝	ui[eu
-𨽄	ui[ll
+𨽄	ui[pl
 𩋡	ui[gt
 𩒂	ui[by
 𩗎	ui[fg
@@ -30263,7 +30263,7 @@ sort: by_weight
 夀	uz[fc
 守	uz[bc
 寿	uz[fc
-手	uz[py
+手	uz[pf
 扌	uz[aa
 授	uz[fy
 收	uz[jw
@@ -30687,7 +30687,7 @@ sort: by_weight
 𥌘	uv[ou
 𥫸	uv[vu
 𦙙	uv[ou
-𦣢	uv[iu
+𦣢	uv[ij
 𧀣	uv[cv
 𨓚	uv[zx
 𨿠	uv[qv
@@ -34909,7 +34909,7 @@ sort: by_weight
 𨂣	wu[mz
 𨑥	wu[zw
 𨖴	wu[zh
-𨡡	wu[ba
+𨡡	wu[br
 𨧗	wu[jp
 𨨡	wu[jd
 𨲬	wu[el
@@ -36914,7 +36914,7 @@ sort: by_weight
 䋲	xk[sd
 䓷	xk[cd
 䛭	xk[yg
-䣆	xk[ge
+䣆	xk[je
 䤯	xk[jp
 䮍	xk[my
 䰢	xk[gd
@@ -39994,7 +39994,7 @@ sort: by_weight
 𨳷	yi[mb
 𨹝	yi[eb
 𨻊	yi[et
-𨻏	yi[lt
+𨻏	yi[pt
 𨽹	yi[bl
 𨾓	yi[gv
 𩂒	yi[ys
@@ -44159,7 +44159,7 @@ sort: by_weight
 𤃲	vi[dx
 𤆒	vi[ph
 𤓕	vi[jh
-𤖞	vi[pg
+𤖞	vi[pe
 𤛱	vi[jn
 𤞂	vi[qt
 𤞌	vi[qq
@@ -45055,7 +45055,7 @@ sort: by_weight
 𨒉	vv[zd
 𨧨	vv[jn
 𨪗	vv[jn
-𨺵	vv[lu
+𨺵	vv[pu
 𨾻	vv[rl
 𩛵	vv[ul
 𩜀	vv[ut
