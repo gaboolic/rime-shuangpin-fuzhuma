@@ -100,7 +100,7 @@
 砍	kju
 夼	kld
 扩	kof
-喇	lak
+揦	laf
 粼	lbm
 耢	lcl
 坜	lit
@@ -124,7 +124,7 @@
 哪	nek
 昵	nio
 甯	nkb
-娘	nln
+嬢	nln
 袅	nnn
 努	nun
 噢	ook
@@ -153,7 +153,7 @@
 肃	suy
 碎	svu
 飕	szf
-牠	tany
+牠	tan
 涛	tcd
 汰	tdd
 替	tif
@@ -282,7 +282,6 @@
 搒	bhff/
 鼻	bizw/
 逼	bizt/
-臂	biuo/
 壁	biut/
 匕	bipv/
 毙	bibb/
@@ -470,7 +469,7 @@
 菪	dhcu/
 𣗋	dhmx/
 迪	dizy/
-的	dibU/
+的	dibu/
 笛	divy/
 邸	diue/
 涤	didm/
@@ -579,7 +578,7 @@
 轭	eeiv/
 苊	eecv/
 锇	eejw/
-哦	eekW/
+哦	eekw/
 𫫇	eekx/
 洱	erde/
 陑	eree/
@@ -652,7 +651,7 @@
 拊	fufc/
 蝮	fuiw/
 黼	fuyf/
-芾	fucu/
+芾	fucj/
 怫	fuxf/
 蜉	fuiz/
 黻	fuyy/
@@ -683,7 +682,7 @@
 琈	fuwz/
 𫖯	fuvy/
 匪	fwkf/
-肺	fwou/
+肺	fwoj/
 斐	fwfw/
 翡	fwfx/
 吠	fwkq/
@@ -691,7 +690,7 @@
 蜚	fwfi/
 腓	fwof/
 淝	fwdb/
-芾	fwcu/
+芾	fwcj/
 朏	fwoi/
 棐	fwfm/
 剕	fwfd/
@@ -920,7 +919,7 @@
 谼	hsgg/
 𬭎	hsjs/
 户	hudu/
-和	huhK/
+和	huhk/
 弧	hugg/
 唬	hukj/
 沪	hudh/
@@ -1012,7 +1011,7 @@
 榇	ifmm/
 疢	ifbh/
 煁	ifhb/
-称	ighx/
+程	ighw/
 丞	igla/
 骋	igmk/
 秤	ighp/
@@ -1211,7 +1210,7 @@
 墼	jiit/
 鹡	jirn/
 剞	jidd/
-戢	jikg/
+戢	jige/
 虮	jiij/
 伋	jirj/
 垍	jitz/
@@ -1219,7 +1218,7 @@
 洎	jidz/
 跽	jizx/
 嵴	jiuo/
-蕺	jicg/
+蕺	jice/
 罽	jisd/
 蹐	jizo/
 漈	jidu/
@@ -1409,7 +1408,7 @@
 㵐	jtdq/
 𫔎	jtjk/
 𫘝	jtmg/
-局	juuk/
+居	juug/
 剧	juud/
 拒	jufj/
 矩	juuj/
@@ -1441,7 +1440,6 @@
 澽	judu/
 娵	juny/
 秬	juhj/
-崌	juug/
 砠	juuq/
 弆	juqc/
 泃	judj/
@@ -1539,6 +1537,7 @@
 醌	kyyb/
 抠	kzfq/
 芤	kzcv/
+喇	lakd/
 旯	laoj/
 砬	laul/
 菈	lacl/
@@ -1835,7 +1834,7 @@
 眇	mnou/
 鹋	mncn/
 缪	mnsp/
-摩	mogu/
+磨	mogu/
 抹	mofw/
 墨	molt/
 没	modu/
@@ -2007,7 +2006,7 @@
 镨	pujo/
 镤	pujf/
 墣	putf/
-旆	pwfu/
+旆	pwfj/
 醅	pwyk/
 锫	pwjk/
 掊	pzfk/
@@ -2260,11 +2259,11 @@
 鹔	suyn/
 傃	surx/
 蹜	suzb/
-碎	svuu/
 隋	sveo/
 邃	svzu/
 隧	sveu/
 燧	svhu/
+尿	svuu/
 眭	svot/
 𫟦	sviu/
 嗖	szky/
@@ -2394,9 +2393,10 @@
 饨	tyut/
 暾	tyow/
 刹	uaxd/
-沙	uadu/
+煞	uadh/
 鲨	uady/
 唼	uakn/
+挲	uadu/
 稍	ucho/
 劭	ucdl/
 苕	ucck/
@@ -2415,7 +2415,7 @@
 厍	ueii/
 拾	uefk/
 𪨶	ueui/
-伸	ufru/
+什	ufru/
 渗	ufdp/
 参	ufsp/
 莘	ufcx/
@@ -2519,8 +2519,8 @@
 漴	uldu/
 槊	uonm/
 妁	uonu/
-术	uumd/
 树	uumc/
+术	uumd/
 叔	uuuy/
 淑	uudy/
 墅	uult/
@@ -3095,7 +3095,7 @@
 峃	xtxu/
 绪	xuso/
 叙	xury/
-嘘	xuky/
+吁	xuky/
 婿	xuno/
 诩	xuyx/
 顼	xuwy/
@@ -3611,3 +3611,4 @@
 咀	zvkq/
 鄹	zzee/
 鲰	zzyy/
+

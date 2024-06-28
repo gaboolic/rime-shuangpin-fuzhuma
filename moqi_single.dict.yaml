@@ -1326,7 +1326,7 @@ import_tables:
 蝮	fuiw
 讣	fuy
 黼	fuyf
-芾	fucu
+芾	fucj
 趺	fuz
 怫	fuxf
 氟	fuq
@@ -1372,7 +1372,7 @@ import_tables:
 啡	fwk
 匪	fwkf
 沸	fwd
-肺	fwou
+肺	fwoj
 绯	fws
 斐	fwfw
 霏	fwy
@@ -1385,7 +1385,7 @@ import_tables:
 腓	fwof
 悱	fwx
 淝	fwdb
-芾	fwcu
+芾	fwcj
 痱	fwb
 榧	fwm
 鲱	fwyf
@@ -2280,8 +2280,8 @@ import_tables:
 𬘭	ifs
 成	ig
 城	igt
-程	igh
-称	ighx
+称	igh
+程	ighw
 承	igl
 诚	igy
 盛	igi
@@ -2700,7 +2700,7 @@ import_tables:
 墼	jiit
 鹡	jirn
 剞	jidd
-戢	jikg
+戢	jige
 虮	jiij
 伋	jirj
 垍	jitz
@@ -2709,7 +2709,7 @@ import_tables:
 跽	jizx
 嵴	jiuo
 鲚	jiyq
-蕺	jicg
+蕺	jice
 罽	jisd
 蹐	jizo
 姞	jink
@@ -2811,8 +2811,8 @@ import_tables:
 虹	jli
 间	jm
 见	jmk
-剑	jmq
 件	jmr
+剑	jmq
 建	jmz
 键	jmj
 渐	jmd
@@ -3449,14 +3449,15 @@ import_tables:
 筘	kzv
 眍	kzo
 𫸩	kzg
-啦	la
-拉	laf
+拉	la
+啦	lak
 辣	lax
 垃	lat
 腊	lao
-喇	lak
+喇	lakd
 蜡	lai
 落	lac
+揦	laf
 剌	lau
 邋	laz
 旯	laoj
@@ -4282,8 +4283,8 @@ import_tables:
 默	mol
 模	mom
 摸	mof
-摩	mogu
 磨	mogu
+摩	mogu
 漠	mod
 抹	mofw
 墨	molt
@@ -4418,7 +4419,7 @@ import_tables:
 奶	nd
 奈	ndd
 耐	nde
-乃	ndv
+乃	ndp
 鼐	ndn
 氖	ndq
 萘	ndc
@@ -4864,7 +4865,7 @@ import_tables:
 帔	pwj
 辔	pws
 霈	pwy
-旆	pwfu
+旆	pwfj
 醅	pwyk
 锫	pwjk
 珮	pww
@@ -5968,9 +5969,9 @@ import_tables:
 杀	uax
 刹	uaxd
 莎	uac
-煞	uad
+沙	uad
 纱	uas
-沙	uadu
+煞	uadh
 厦	uai
 霎	uay
 砂	uau
@@ -6035,8 +6036,8 @@ import_tables:
 神	ufp
 身	ufz
 甚	ufc
-什	ufr
-伸	ufru
+伸	ufr
+什	ufru
 沈	ufd
 审	ufb
 申	ufo
@@ -6255,8 +6256,8 @@ import_tables:
 腨	uro
 书	uu
 数	uum
-术	uumd
 树	uumc
+术	uumd
 属	uuu
 熟	uuw
 叔	uuuy
@@ -7500,9 +7501,9 @@ import_tables:
 序	xug
 旭	xuj
 叙	xury
-吁	xuk
+嘘	xuk
 蓄	xuc
-嘘	xuky
+吁	xuky
 絮	xun
 婿	xuno
 恤	xux
