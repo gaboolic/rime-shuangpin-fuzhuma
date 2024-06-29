@@ -5904,7 +5904,7 @@ C盘	cpj/
 快点啊	kda/
 课代表	kdb/
 看丹村	kdc/
-肯定的	kdd/
+空荡荡	kdd/
 坑点儿	kde/
 快递费	kdf/
 看到过	kdg/
@@ -13832,7 +13832,7 @@ X光	xgl/
 一般人	ybr/
 银白色	ybs/
 有不同	ybt/
-有不少	ybu/
+也不是	ybu/
 与本站	ybv/
 一百万	ybw/
 也必须	ybx/
