@@ -141,6 +141,10 @@ with open(file_path, "w") as file:
                 word = '哪个'
             if combination == 'cv':
                 word = '从中'
+            if combination == 'dx':
+                word = '对象'
+            if combination == 'vq':
+                word = '追求'
             file.write(word+"\t"+combination+"/\n")
             # print(combination + " " + str(word_freq_list))
         # print(combination + jianpin_word_map[combination])
