@@ -192,6 +192,11 @@ translator:
     # - xform/=> */[/
     # - xform/ *<=/]/
 
+reverse_lookup:
+  tags: [ reverse_moqima,radical_flypy,reverse_stroke,reverse_zrlf,reverse_cj]
+  overwrite_comment: true
+  dictionary: flypy_flypy.extended # 提示码词表
+
 # 快捷键
 key_binder:
   import_preset: default

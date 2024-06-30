@@ -33,6 +33,14 @@ switches_engine:
       - abc_segmentor
       - punct_segmentor
       - affix_segmentor@emojis
+
+      # 反查方案 去掉前缀
+      - affix_segmentor@reverse_moqima
+      - affix_segmentor@radical_flypy
+      - affix_segmentor@reverse_stroke
+      - affix_segmentor@reverse_zrlf
+      - affix_segmentor@reverse_cj
+
       - affix_segmentor@add_user_dict
       - affix_segmentor@verbatim ## not as the last of this list
       - affix_segmentor@easy_en_simp
@@ -62,23 +70,28 @@ switches_engine:
       - table_translator@jp_sela ## 添加注释后：停用日语输入
       # 反查翻译器
       - reverse_lookup_translator
-      - reverse_lookup_translator@reverse_moqima
-      - reverse_lookup_translator@reverse_chaizi
-      - reverse_lookup_translator@reverse_stroke
-      - reverse_lookup_translator@reverse_zrlf
-      - reverse_lookup_translator@reverse_cj
+      - table_translator@reverse_moqima
+      - table_translator@radical_flypy
+      - table_translator@reverse_stroke
+      - table_translator@reverse_zrlf
+      - table_translator@reverse_cj
       # 脚本翻译器，用于拼音、粤拼等基于音节表的输入方案
       - script_translator
       - script_translator@user_dict_set
       - script_translator@add_user_dict
       
     filters:
+      # lua的filter：
       - lua_filter@*is_in_user_dict # 用户词典的词加上一个*
       # tab置顶词回显在第一个comment中
       - lua_filter@*stick
       #- lua_filter@*slash_pop # 4码时使用/自动上屏单字 开发中
       - lua_filter@*long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
       #- lua_filter@*moran_debug_filter # debug
+
+      # 反查的filter
+      - reverse_lookup_filter@reverse_lookup
+
       - simplifier@emoji                              # Emoji
       # - lua_filter@*reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
       - simplifier@chaifen
@@ -191,8 +204,8 @@ reverse:
     preedit_format:
       # - xlit/hspnz/一丨丿丶乙/
 
-  reverse_chaizi:
-    tag: reverse_chaizi
+  radical_flypy:
+    tag: radical_flypy
     dictionary: radical_flypy # https://github.com/mirtlecn/rime-radical-pinyin
     enable_completion: true
     prefix: "az"
@@ -231,6 +244,18 @@ reverse:
     tips: 〔筆畫hspnz〕 # 〔筆畫〕
     preedit_format:
       - xlit/hspnz/一丨丿丶乙/
+
+      - affix_segmentor@reverse_moqima
+      - affix_segmentor@radical_flypy
+      - affix_segmentor@reverse_stroke
+      - affix_segmentor@reverse_zrlf
+      - affix_segmentor@reverse_cj
+
+  reverse_lookup:
+    tags: [ reverse_moqima,radical_flypy,reverse_stroke,reverse_zrlf,reverse_cj]
+    overwrite_comment: true
+    # 可以改为全拼+音调+释义的码表
+    dictionary: moqi_big.extended # 提示码词表
   
 opencc_config:
   # 显示墨奇码拆分
@@ -299,7 +324,7 @@ guide:
       punct: '^/([0-9]|10|[A-z]+)$'
       ## 拆字、笔画、仓颉: 
       reverse_moqima: "^amq[A-Za-z]*$" # "[[]b[a-z]*'?$"
-      reverse_chaizi: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
+      radical_flypy: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
       reverse_stroke: "^ab[A-Za-z]*$"
       reverse_cj: "^acj[A-Za-z]*$"
       reverse_zrlf: "^alf[A-Za-z]*$"
