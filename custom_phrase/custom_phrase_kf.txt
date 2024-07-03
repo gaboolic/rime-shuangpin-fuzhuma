@@ -92,7 +92,7 @@
 ‖	ofbd	72
 ∶	ofbd	71
 ＂	ofbd	70
-	ofbd	69
+'	ofbd	69
 ｀	ofbd	68
 ｜	ofbd	67
 点数u	ofd	100

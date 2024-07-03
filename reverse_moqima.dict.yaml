@@ -4,6 +4,10 @@ name: reverse_moqima
 version: "20240526"
 sort: original
 use_preset_vocabulary: false
+columns:
+  - text
+  - code
+  - comment
 ...
 吖	kzya	口丫
 呵	kzke	口可
