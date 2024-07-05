@@ -96,7 +96,8 @@
 # 僧	sg	2
 # 多	do	2
 # 佛	fo	2
-# 无	wu	2
+无	wu	2
+务	wuw	2
 # 肉	rz	2
 # 车	ie	2
 # 新	xb	2
@@ -162,7 +163,8 @@
 # 绿	lv	2
 # 囊	nh	2
 # 贼	zw	2
-# 也	ye	2
+也	ye	2
+业	yel	2
 # 万	wj	2
 # 为	ww	2
 # 和	he	3
@@ -184,14 +186,14 @@
 # 绕	rc	2
 得	de	2
 # 亲	qb	2
-# 提	ti	2
+提	ti	2
 # 软	rr	2
 # 装	vl	2
 # 问	wf	2
 # 跑	pc	2
 # 来	ld	2
 # 您	nb	2
-# 眼	yj	2
+眼	yj	2
 # 前	qm	2
 # 两	ll	2
 间	jm	2
@@ -204,11 +206,11 @@
 # 行	hh	2
 # 热	re	2
 # 搜	sz	2
-# 求	qq	2
+求	qq	2
 # 安	an	2
 # 全	qr	2
 # 藏	ch	2
-# 传	ir	2
+传	ir	2
 # 真	vf	2
 # 如	ru	2
 # 修	xq	2
@@ -236,7 +238,7 @@
 # 且	qp	2
 # 请	qk	2
 # 跟	gf	2
-# 长	ih	2
+长	ih	2
 # 路	lu	2
 # 正	vg	2
 # 顺	uy	2
@@ -366,7 +368,7 @@
 站	vj	2
 举	ju	2
 # 民	mb	2
-# 调	dn	2
+调	dn	2
 # 都	dz	2
 # 进	jb	2
 # 组	zu	2
@@ -388,6 +390,7 @@
 儿	er	2
 # 以	yi	3
 已	yi	2
+依	yir	2
 # 测	ce	2
 # 滚	gy	2
 # 剖	pz	2
@@ -434,7 +437,7 @@
 # 办	bj	2
 # 转	vr	2
 # 冷	lg	2
-# 啦	la	2
+拉	la	2
 # 品	pb	2
 类	lw	2
 套	tc	2

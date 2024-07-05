@@ -128,7 +128,7 @@ phrase:
     db_class: stabledb
     enable_completion: false
     enable_sentence: false
-    initial_quality: 1
+    initial_quality: 100000
 
   # 无冲突的3简
   custom_phrase_super_3jian_no_conflict:
