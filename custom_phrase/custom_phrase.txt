@@ -140,21 +140,21 @@
 # 好	hc	2
 # 说	uo	2
 # 空	ks	2
-# 话	hx	2
+话	hx	2
 # 爱	ai	2
 # 女	nv	2
 # 当	dh	2
 # 面	mm	2
 # 色	se	2
 匆	cs	2
-# 容	rs	2
+容	rs	2
 # 怒	nu	2
 撒	sa	2
 洒	sa	1
 # 红	hs	2
 # 米	mi	2
 它	ta	2
-她	ta	1
+#她	ta	1
 # 先	xm	2
 笑	xn	2
 # 穷	qs	2
@@ -267,10 +267,10 @@
 陪	pw	2
 # 料	ln	2
 # 过	go	2
-# 关	gr	2
+关	gr	2
 # 调	dn	2
 酸	sr	2
-# 发	fa	2
+发	fa	2
 # 嫩	nf	2
 # 排	pd	2
 # 开	kd	2

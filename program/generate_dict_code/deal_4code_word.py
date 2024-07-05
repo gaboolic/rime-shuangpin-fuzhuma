@@ -42,7 +42,7 @@ for file in file_list:
             word_freq["word"] = word
             word_freq["freq"] = freq
 
-            if int(freq) < 998:
+            if int(freq) < 1:
                 continue
             if jianpin not in jianpin_word_map:
                 word_list = []
