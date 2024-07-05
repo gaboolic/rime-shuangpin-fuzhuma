@@ -59,6 +59,23 @@ default_str = """
 宁愿	ny/
 妹妹	mm/
 面积	mj/
+领取	lq/
+理念	ln/
+良好	lh/
+渴望	kw/
+记者	jv/
+继续	jx/
+创造	iz/
+出来	il/
+很快	hk/
+共同	gt/
+公开	gk/
+公安	ga/
+否认	fr/
+发帖	ft/
+当初	di/
+盎司	as/
+爱心	ax/
 """
 default_map = {}
 for line in default_str.split("\n"):
