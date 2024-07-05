@@ -147,7 +147,7 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
     write_file(write_file_path, updated_content)
 
 dict_data = {}
-file_list = ['tencent.dict.yaml']
+file_list = ['tencent.dict.yaml','tencent_core.dict.yaml']
 # file_list = [ 'tencent.dict.yaml']
 # Load the dict data from the provided file
 # with open('./moqima.txt', 'r', encoding='utf-8') as dict_file:
