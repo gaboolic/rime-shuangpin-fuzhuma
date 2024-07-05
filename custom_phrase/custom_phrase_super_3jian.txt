@@ -11222,7 +11222,7 @@ UP主	upv/
 剩下的	uxd/
 是邪恶	uxe/
 手续费	uxf/
-肾小管	uxg/
+鼠须管	uxg/
 生小孩	uxh/
 筛选出	uxi/
 数学家	uxj/
@@ -11792,7 +11792,7 @@ UP主	upv/
 战争中	vvv/
 蜘蛛网	vvw/
 蜘蛛侠	vvx/
-专注于	vvy/
+中州韵	vvy/
 驻扎在	vvz/
 坠亡案	vwa/
 中文版	vwb/
@@ -12766,7 +12766,7 @@ X光	xgl/
 西里尔	xle/
 训练法	xlf/
 效率高	xlg/
-训练后	xlh/
+小狼毫	xlh/
 新浪潮	xli/
 想了解	xlj/
 夏洛克	xlk/

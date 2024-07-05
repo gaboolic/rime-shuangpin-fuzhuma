@@ -93,6 +93,12 @@ with open(file_path, "w") as file:
                     word = 'K歌'
                 if combination == 'ptu':
                     word = 'P图'
+                if combination == 'uxg':
+                    word = '鼠须管'
+                if combination == 'xlh':
+                    word = '小狼毫'
+                if combination == 'vvy':
+                    word = '中州韵'
                 file.write(word+"\t"+combination+"/" + "\n")
 
             # print(combination + " " + str(word_freq_list))
