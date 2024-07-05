@@ -178,7 +178,6 @@
 五	wua
 辛	xbl
 夕	xip
-形	xkk
 相	xlm
 嫌	xmn
 箫	xnv
@@ -2971,6 +2970,7 @@
 𠅤	xiwx/
 𫘬	ximd/
 𬭳	xijk/
+形	xkkp/
 兴	xkxb/
 邢	xkke/
 刑	xkkd/
