@@ -195,7 +195,8 @@
 # 您	nb	2
 眼	yj	2
 # 前	qm	2
-# 两	ll	2
+量	ll	2
+凉	lld	2
 间	jm	2
 # 长	vh	2
 # 草	cc	2
@@ -209,7 +210,7 @@
 求	qq	2
 # 安	an	2
 # 全	qr	2
-# 藏	ch	2
+藏	ch	2
 传	ir	2
 # 真	vf	2
 # 如	ru	2
@@ -239,7 +240,8 @@
 # 请	qk	2
 # 跟	gf	2
 长	ih	2
-# 路	lu	2
+路	lu	2
+露	luy	2
 # 正	vg	2
 # 顺	uy	2
 # 或	ho	2

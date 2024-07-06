@@ -147,6 +147,7 @@ phrase:
     enable_sentence: false
     enable_completion: false
     initial_quality: -1 #本表词和系统词重码居后
+    # initial_quality: 1 #比系统词靠后，比无词靠前  等后面4jian_no_conflict只留下成语和常用词，再改为1
 
   # 快符
   custom_phrase_kf:
