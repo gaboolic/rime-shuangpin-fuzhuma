@@ -135,7 +135,7 @@ with open(file_path, "w") as file:
     # 遍历字符串序列
     # combinations 所有
     # no_conflict_list 不冲突
-    for combination in no_conflict_list:
+    for combination in combinations:
         if combination not in jianpin_word_map:
             # print(combination)
             pass
