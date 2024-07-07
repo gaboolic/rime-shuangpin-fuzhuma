@@ -6,7 +6,6 @@ sort: by_weight
 ...
 # +_+
 ## 4码 2字词 使用deal_4code_word.py生成
-## 4码 2字词 使用deal_4code_word.py生成
 啊啊	aaaa
 啊嗷	aaao
 阿巴	aaba
@@ -6059,7 +6058,6 @@ sort: by_weight
 得动	deds
 德都	dedu
 得对	dedv
-的都	dedz
 德尔	deer
 德法	defa
 得分	deff
@@ -6101,7 +6099,7 @@ sort: by_weight
 的啦	dela
 德林	delb
 得来	deld
-的了	dele
+得了	dele
 得利	deli
 德兰	delj
 得令	delk
@@ -6114,15 +6112,13 @@ sort: by_weight
 的绿	delv
 得嘞	delw
 德伦	dely
-的吗	dema
-的么	deme
+德玛	dema
 的门	demf
 得名	demk
 得免	demm
 德牧	demu
 的美	demw
 的那	dena
-的呢	dene
 得你	deni
 德农	dens
 德平	depk
@@ -6147,7 +6143,7 @@ sort: by_weight
 的头	detz
 得胜	deug
 得上	deuh
-的是	deui
+的事	deui
 的说	deuo
 得数	deuu
 的水	deuv
@@ -13676,6 +13672,7 @@ sort: by_weight
 给药	gwyc
 给爷	gwye
 给以	gwyi
+给予	gwyu
 给足	gwzu
 挂啊	gxaa
 挂碍	gxai
