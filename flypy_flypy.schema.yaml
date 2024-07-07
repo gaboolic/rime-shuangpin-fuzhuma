@@ -235,3 +235,13 @@ custom_phrase_mqzg:
   enable_sentence: false
   enable_completion: false
   initial_quality: -1 #本表词和系统词重码居后
+
+
+# 3码出简让全 如果不需要，可以删掉。有错码，反馈给我
+custom_phrase_3_code:
+  dictionary: ""
+  user_dict: custom_phrase/custom_phrase_3_code_for_xh
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: 1 #本表词和系统词重码居后
