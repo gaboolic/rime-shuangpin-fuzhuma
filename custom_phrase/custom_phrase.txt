@@ -395,6 +395,7 @@
 已	yi	2
 亿	yir	2
 依	yiry	2
+依	yiry/	2
 # 测	ce	2
 # 滚	gy	2
 # 剖	pz	2
