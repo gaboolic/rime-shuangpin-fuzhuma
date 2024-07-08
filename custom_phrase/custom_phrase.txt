@@ -344,18 +344,18 @@
 # 赛	sd	2
 # 忙	mh	2
 # 参	cj	2
-# 与	yu	2
+与	yu	2
 于	yua	2
 # 想	xl	2
 # 哭	ku	2
-# 接	jp	2
-# 连	lm	2
-# 被	bw	2
-# 灭	mp	2
-# 团	tr	2
+接	jp	2
+连	lm	2
+被	bw	2
+灭	mp	2
+团	tr	2
 飞	fw	2
 费	fwf	2
-# 用	ys	2
+用	ys	2
 加	jx	2
 # 增	zg	2
 # 够	gz	2
