@@ -81,6 +81,7 @@ switches_engine:
       - script_translator@add_user_dict
       
     filters:
+      # - lua_filter@*laneChangeAndSpace_Filter   # 把<br>替换为换行
       # lua的filter：
       - lua_filter@*is_in_user_dict # 用户词典的词加上一个*
       # tab置顶词回显在第一个comment中
