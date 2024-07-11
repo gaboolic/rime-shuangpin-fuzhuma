@@ -109,10 +109,11 @@ octagram:
   enable_for_sentence:
     __patch:
       grammar:
-        # language: fcitx-zh-hans
-        # language: zh-hans-t-huayu-v7-bgw
-        # language: zh-hans-wiki-202405
-        language: zh-hans-t-essay-bgw
+        # language: fcitx-zh-hans # 小企鹅模型
+        # language: zh-hans-t-huayu-v7-bgw # 华宇模型
+        # language: zh-hans-wiki-202405 # 维基模型
+        # language: zh-hans-t-essay-bgw # rime官方模型
+        # language: zh-moqi # 墨奇训练的模型 暂时是负向作用，不要使用
         collocation_max_length: 4
         collocation_min_length: 2
         # non_collocation_penalty: -24
