@@ -180,3 +180,11 @@ key_binder:
 
 # 启用語言模型
 #__include: moqi:/octagram/enable_for_sentence
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase/custom_phrase_zrm
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 100000
