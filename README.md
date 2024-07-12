@@ -120,11 +120,17 @@
 ### 配置文件路径
 
 - windows %APPDATA%\Rime
-- mac ~/Library/Rime
-- linux ~/.local/share/fcitx5/rime
-- android <https://github.com/fcitx5-android/fcitx5-android> /Android/adata/org.fcitx.fcitx5.android/files/data/rime
+- mac [鼠须管](https://github.com/rime/squirrel)为~/Library/Rime，[fcitx5-mac版](https://github.com/fcitx-contrib/fcitx5-macos)为~/.local/share/fcitx5/rime
+- linux [fcitx5-rime](https://github.com/fcitx/fcitx5-rime)在~/.local/share/fcitx5/rime，flatpak版的在~/.var/app/org.fcitx.Fcitx5/data/fcitx5/rime
+- android [fcitx5-安卓版](https://github.com/fcitx5-android/fcitx5-android)为 /Android/data/org.fcitx.fcitx5.android/files/data/rime ，[同文](https://github.com/osfans/trime)为 /rime
+- ios [仓输入法](https://github.com/imfuxiao/Hamster) 目前已内置，也可以通过【输入方案设置 - 右上角加号 - 方案下载 - 覆盖并部署】来更新墨奇音形。
 
 推荐直接用git管理配置，首次：例如mac可以打开~/Library文件夹，然后`git clone --depth 1 https://github.com/gaboolic/rime-shuangpin-fuzhuma Rime`  后面在Rime文件夹执行`git pull`即可
+
+现在也支持[东风破](https://github.com/rime/plum)，选择配方（recipes/*.recipe.yaml）来进行安装或更新：
+
+- ℞ 安装或更新全部文件 `bash rime-install gaboolic/rime-shuangpin-fuzhuma:recipes/full`
+- ℞ 安装或更新所有词库文件 `bash rime-install gaboolic/rime-shuangpin-fuzhuma:recipes/all_dicts`
 
 ### 飞键 模糊音相关
 
