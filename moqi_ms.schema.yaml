@@ -143,6 +143,11 @@ translator:
     # - xform/=> */[/
     # - xform/ *<=/]/
 
+__patch:
+  user_dict_set/prism: moqi_ms
+  add_user_dict/prism: moqi_ms
+  big_char_set/prism: moqi_big_ms
+
 # 快捷键
 key_binder:
   import_preset: default

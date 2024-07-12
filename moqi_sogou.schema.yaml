@@ -151,6 +151,11 @@ translator:
     # - xform/=> */[/
     # - xform/ *<=/]/
 
+__patch:
+  user_dict_set/prism: moqi_sogou
+  add_user_dict/prism: moqi_sogou
+  big_char_set/prism: moqi_big_sogou
+
 # 快捷键
 key_binder:
   import_preset: default

@@ -141,6 +141,11 @@ translator:
     # - xform/=> */[/
     # - xform/ *<=/]/
 
+__patch:
+  user_dict_set/prism: moqi_zrm
+  add_user_dict/prism: moqi_zrm
+  big_char_set/prism: moqi_big_zrm
+
 
 # 快捷键
 key_binder:
