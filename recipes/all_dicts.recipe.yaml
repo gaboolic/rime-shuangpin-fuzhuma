@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 recipe:
-  Rx: others/recipes/all_dicts
+  Rx: recipes/all_dicts
   args:
   description: >-
     所有词库安装、更新

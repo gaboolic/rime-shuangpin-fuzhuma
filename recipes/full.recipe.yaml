@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 recipe:
-  Rx: others/recipes/full
+  Rx: recipes/full
   args:
   description: >-
     完整安装、更新
