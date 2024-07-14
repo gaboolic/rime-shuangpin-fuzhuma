@@ -65,7 +65,8 @@ function M.func(input, env)
             if utf8.len(preedit_str) <= 3 and isAllLetters(preedit_str) then
                 local stick_phrase = env.fixed[preedit_str] or ""
                 if stick_phrase ~= "" and first_cand.text ~= stick_phrase then
-                    first_cand.comment = stick_phrase .. "⚡"  -- 在注释后面加上闪电符号，表示快速输入，不想要置空
+                    -- first_cand.comment = stick_phrase .. "⚡"  -- 在注释后面加上闪电符号，表示快速输入，不想要置空
+                    first_cand.comment = stick_phrase
                 end
                 yield(first_cand)
                 found = true

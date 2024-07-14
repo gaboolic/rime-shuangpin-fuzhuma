@@ -81,13 +81,11 @@ switches_engine:
       - script_translator@add_user_dict
       
     filters:
-      # - lua_filter@*laneChangeAndSpace_Filter   # 把<br>替换为换行
       # lua的filter：
+      #- lua_filter@*laneChangeAndSpace_Filter   # 把<br>替换为换行
       - lua_filter@*is_in_user_dict # 用户词典的词加上一个*
-      # tab置顶词回显在第一个comment中
-      - lua_filter@*stick
-      #- lua_filter@*slash_pop # 4码时使用/自动上屏单字 开发中
-      - lua_filter@*long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
+      - lua_filter@*stick # tab置顶词回显在第一个comment中
+      #- lua_filter@*long_word_filter                       # 长词优先（顺序要求：长词优先 > Emoji）
       #- lua_filter@*moran_debug_filter # debug
 
       # 反查的filter
