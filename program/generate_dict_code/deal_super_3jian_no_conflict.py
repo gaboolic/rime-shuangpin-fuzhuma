@@ -76,6 +76,7 @@ for file in file_list:
                 continue
             pinyin = params[1]
             shengmus = pinyin.split(" ")
+            #print(line)
             jianpin = shengmus[0][0] + shengmus[1][0] + shengmus[2][0]
 
             word_freq = {}
@@ -148,6 +149,10 @@ with open(file_path, "w") as file:
                 word = 'K歌'
             if combination == 'ptu':
                 word = 'P图'
+            if combination == 'lbt':
+                word = '路边摊'
+            if combination == 'zrm':
+                word = '自然码'
             file.write(word+"\t"+combination + "\n")
 
             # print(combination + " " + str(word_freq_list))

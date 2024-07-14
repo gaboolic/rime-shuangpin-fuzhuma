@@ -99,6 +99,20 @@ with open(file_path, "w") as file:
                     word = '小狼毫'
                 if combination == 'vvy':
                     word = '中州韵'
+                if combination == 'lbt':
+                    word = '路边摊'
+                if combination == 'zrm':
+                    word = '自然码'
+                if combination == 'xqy':
+                    word = '星期一'
+                if combination == 'shu':
+                    word = '俗话说'
+                if combination == 'ulx':
+                    word = '试了下'
+                if combination == 'kdd':
+                    word = '空荡荡'
+                if combination == 'dyz':
+                    word = '多音字'
                 file.write(word+"\t"+combination+"/" + "\n")
 
             # print(combination + " " + str(word_freq_list))

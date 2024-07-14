@@ -76,6 +76,12 @@ default_str = """
 当初	di/
 盎司	as/
 爱心	ax/
+牛逼	nb/
+版本	bb/
+怎样	zy/
+老是	lu/
+肯定	kd/
+同意	ty/
 """
 default_map = {}
 for line in default_str.split("\n"):
