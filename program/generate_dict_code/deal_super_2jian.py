@@ -82,6 +82,7 @@ default_str = """
 老是	lu/
 肯定	kd/
 同意	ty/
+渐渐	jj/
 """
 default_map = {}
 for line in default_str.split("\n"):
