@@ -113,6 +113,8 @@ with open(file_path, "w") as file:
                     word = '空荡荡'
                 if combination == 'dyz':
                     word = '多音字'
+                if combination == 'urf':
+                    word = '输入法'
                 file.write(word+"\t"+combination+"/" + "\n")
 
             # print(combination + " " + str(word_freq_list))

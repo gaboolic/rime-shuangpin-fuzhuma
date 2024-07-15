@@ -153,6 +153,8 @@ with open(file_path, "w") as file:
                 word = '路边摊'
             if combination == 'zrm':
                 word = '自然码'
+            if combination == 'urf':
+                word = '输入法'
             file.write(word+"\t"+combination + "\n")
 
             # print(combination + " " + str(word_freq_list))
