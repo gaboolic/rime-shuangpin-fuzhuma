@@ -187,6 +187,33 @@ key_binder:
     - { when: composing, accept: Control+6, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
     - { when: composing, accept: Control+7, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
 
+    # 大写辅助码加到整句第一个音节，例如iuyyfw默认是楚云飞，按下shift+u (iuu yy fw)变成出运费
+    - { when: has_menu, accept: Shift+A, send_sequence: "{Shift+Right}a{Shift+Right}" }
+    - { when: has_menu, accept: Shift+B, send_sequence: "{Shift+Right}b{Shift+Right}" }
+    - { when: has_menu, accept: Shift+C, send_sequence: "{Shift+Right}c{Shift+Right}" }
+    - { when: has_menu, accept: Shift+D, send_sequence: "{Shift+Right}d{Shift+Right}" }
+    - { when: has_menu, accept: Shift+E, send_sequence: "{Shift+Right}e{Shift+Right}" }
+    - { when: has_menu, accept: Shift+F, send_sequence: "{Shift+Right}f{Shift+Right}" }
+    - { when: has_menu, accept: Shift+G, send_sequence: "{Shift+Right}g{Shift+Right}" }
+    - { when: has_menu, accept: Shift+H, send_sequence: "{Shift+Right}h{Shift+Right}" }
+    - { when: has_menu, accept: Shift+I, send_sequence: "{Shift+Right}i{Shift+Right}" }
+    - { when: has_menu, accept: Shift+J, send_sequence: "{Shift+Right}j{Shift+Right}" }
+    - { when: has_menu, accept: Shift+K, send_sequence: "{Shift+Right}k{Shift+Right}" }
+    - { when: has_menu, accept: Shift+L, send_sequence: "{Shift+Right}l{Shift+Right}" }
+    - { when: has_menu, accept: Shift+M, send_sequence: "{Shift+Right}m{Shift+Right}" }
+    - { when: has_menu, accept: Shift+N, send_sequence: "{Shift+Right}n{Shift+Right}" }
+    - { when: has_menu, accept: Shift+O, send_sequence: "{Shift+Right}o{Shift+Right}" }
+    - { when: has_menu, accept: Shift+P, send_sequence: "{Shift+Right}p{Shift+Right}" }
+    - { when: has_menu, accept: Shift+Q, send_sequence: "{Shift+Right}q{Shift+Right}" }
+    - { when: has_menu, accept: Shift+R, send_sequence: "{Shift+Right}r{Shift+Right}" }
+    - { when: has_menu, accept: Shift+S, send_sequence: "{Shift+Right}s{Shift+Right}" }
+    - { when: has_menu, accept: Shift+T, send_sequence: "{Shift+Right}t{Shift+Right}" }
+    - { when: has_menu, accept: Shift+U, send_sequence: "{Shift+Right}u{Shift+Right}" }
+    - { when: has_menu, accept: Shift+V, send_sequence: "{Shift+Right}v{Shift+Right}" }
+    - { when: has_menu, accept: Shift+W, send_sequence: "{Shift+Right}w{Shift+Right}" }
+    - { when: has_menu, accept: Shift+X, send_sequence: "{Shift+Right}x{Shift+Right}" }
+    - { when: has_menu, accept: Shift+Y, send_sequence: "{Shift+Right}y{Shift+Right}" }
+    - { when: has_menu, accept: Shift+Z, send_sequence: "{Shift+Right}z{Shift+Right}" }
 # 启用語言模型
 # __include: moqi:/octagram/enable_for_sentence
 
