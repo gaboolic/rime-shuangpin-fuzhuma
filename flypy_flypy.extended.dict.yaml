@@ -19,7 +19,6 @@ use_preset_vocabulary: false
 
 import_tables:
   ## 雾凇拼音 https://github.com/iDvel/rime-ice
-  - cn_dicts_xh/fix # 错误词频修复
   - cn_dicts_xh/8105     # 字表
   - cn_dicts_xh/extchars
   
@@ -27,7 +26,6 @@ import_tables:
   - cn_dicts_xh/ext      # 扩展词库
   # - cn_dicts_xh/others   # 一些杂项 容错音和错字 可以不开
 
-  - cn_dicts_common/tencent_core # 精简的腾讯词库
   # - cn_dicts_common/tencent  # 腾讯词向量（大词库，部署时间较长 选择性开启）
   - cn_dicts_common/user # 用户自定义词典
   # - cn_dicts_common/chengyu   # 成语

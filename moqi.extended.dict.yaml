@@ -16,8 +16,7 @@ sort: by_weight  #字典初始排序，可選original或by_weight
 use_preset_vocabulary: false
 
 import_tables:
-  ## 雾凇拼音 https://github.com/iDvel/rime-ice
-  - cn_dicts_moqi/fix # 错误词频修复
+  ## 转换自 https://github.com/gaboolic/rime-frost
   - cn_dicts_moqi/8105     # 字表
   # - cn_dicts_moqi/41448     # 4万字大字表 可以关闭
   
@@ -25,13 +24,13 @@ import_tables:
   - cn_dicts_moqi/ext      # 扩展词库
   # - cn_dicts_moqi/others   # 一些杂项 容错音和错字 可以不开
 
-  - cn_dicts_common/tencent_core # 精简的腾讯词库
   # - cn_dicts_common/tencent  # 腾讯词向量（大词库，部署时间较长 选择性开启）
   - cn_dicts_common/user # 用户自定义词典
   # - cn_dicts_common/chengyu   # 成语
   - cn_dicts_common/changcijian   # 多字
   - cn_dicts_common/changcijian3   # 3字
 
+  - cn_dicts_moqi/cell # 细胞词库
   # - cn_dicts_cell/luna_pinyin.poetry    # 细胞词库 古诗文
   # - cn_dicts_cell/luna_pinyin.place  # 细胞词库 地名
   # - cn_dicts_cell/luna_pinyin.computer

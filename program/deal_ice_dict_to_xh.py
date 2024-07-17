@@ -176,3 +176,11 @@ for file_name in file_list:
     print(yaml_file_path)
     # Update missing encodings in the file
     update_missing_encodings(yaml_file_path, write_file_path, dict_data)
+
+
+yaml_file_path = os.path.join('cn_dicts_dazhu', 'cell.dict.yaml')
+write_file_path = os.path.join('cn_dicts_xh', 'cell.dict.yaml')
+
+print(yaml_file_path)
+# Update missing encodings in the file
+update_missing_encodings(yaml_file_path, write_file_path, dict_data)
