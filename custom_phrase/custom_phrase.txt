@@ -406,6 +406,7 @@
 设	ue	2
 # 做	zo	2
 # 事	ui	2
+十	uia	2
 时	uio	2
 处	iu	2
 挖	wa	2
