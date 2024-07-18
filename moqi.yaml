@@ -12,7 +12,6 @@ switches_engine:
       states: [ 不拆, 扌斥 ]
     - name: big_char_set
       states: [ 大字集, 小字集 ]
-      reset: 1
     - name: mars
       reset: 0
       states: [ 地, 煋 ] #火星文
