@@ -22,8 +22,11 @@ switcher:
   save_options:
     - ascii_mode
     - full_shape
+    - traditionalization
     - emoji
-    - simplification
+    - chaifen
+    - big_char_set # 大字集 小字集
+    - mars
     - ascii_punct
   fold_options: true
   abbreviate_options: true
