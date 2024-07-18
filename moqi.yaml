@@ -10,6 +10,9 @@ switches_engine:
       states: [ 💀, 😄 ]
     - name: chaifen
       states: [ 不拆, 扌斥 ]
+    - name: big_char_set
+      states: [ 大字集, 小字集 ]
+      reset: 1
     - name: mars
       reset: 0
       states: [ 地, 煋 ] #火星文
@@ -96,6 +99,7 @@ switches_engine:
       - simplifier@chaifen
       - simplifier@chaifen_all
       - simplifier@chinese_english
+      - simplifier@big_char_set # 一定要放到traditionalize之前，否则当traditionalize是繁体时，会被该过滤器把繁体字过滤掉，从而无法输入繁体字
       - simplifier@traditionalize                     # 简繁切换
       - simplifier@mars                               #火星文
       - uniquifier
@@ -396,6 +400,7 @@ big_char_and_user_dict:
   # 大字集
   big_char_set:
     dictionary: moqi_big.extended
+    option_name: big_char_set
     initial_quality: -1 # 设置此翻译器出字优先级,-1为极低
     enable_completion: false
     enable_sentence: false
