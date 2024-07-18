@@ -32,6 +32,7 @@ import_tables:
   - cn_dicts_common/changcijian   # 多字
   - cn_dicts_common/changcijian3   # 3字
   
+  - cn_dicts_xh/cell # 细胞词库
   # - cn_dicts_cell/luna_pinyin.poetry    # 细胞词库 古诗文
   # - cn_dicts_cell/luna_pinyin.place  # 细胞词库 地名
   # - cn_dicts_cell/luna_pinyin.computer
