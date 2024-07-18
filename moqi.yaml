@@ -330,7 +330,7 @@ guide:
       reverse_moqima: "^amq[A-Za-z]*$" # "[[]b[a-z]*'?$"
       radical_flypy: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
       reverse_stroke: "^ab[A-Za-z]*$"
-      reverse_cj: "^acj[A-Za-z]*$"
+      reverse_cj: "^arj[A-Za-z]*$"
       reverse_zrlf: "^alf[A-Za-z]*$"
       #造词
       add_user_dict: "^ac[A-Za-z]*$"

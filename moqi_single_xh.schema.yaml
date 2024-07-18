@@ -56,7 +56,7 @@ engine:
       - table_translator@big_char
       - reverse_lookup_translator
       - reverse_lookup_translator@reverse_moqima
-      - reverse_lookup_translator@reverse_chaizi
+      - reverse_lookup_translator@radical_flypy
       - reverse_lookup_translator@reverse_stroke
       - reverse_lookup_translator@reverse_zrlf
       - reverse_lookup_translator@reverse_cj
