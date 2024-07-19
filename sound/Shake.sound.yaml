@@ -1,0 +1,9 @@
+sound: 
+  - basic_hat_snare_1.wav
+  - basic_hat_snare_2.wav
+  - basic_kick_clap_1.wav
+  - basic_kick_clap_2.wav
+
+folder: Shake
+keyset: 
+  - {min: KEYCODE_UNKNOWN, max: KEYCODE_PROFILE_SWITCH, inOrder: false, sounds: [0, 1, 2, 3] }  #兜底全部按键

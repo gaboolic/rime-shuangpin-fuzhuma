@@ -1,0 +1,42 @@
+sound: 
+  - pianodb5.wav       #0
+  - pianobb5.wav       #
+  - pianobb6.wav       #
+  - pianodb4.wav       #
+  - pianodb6.wav       #
+  - return.wav         #5
+  - delete.wav         #6
+  - Sound_A.wav        #7
+  - Sound_B.wav        #
+  - Sound_C.wav        #
+  - Sound_D.wav        #
+  - Sound_E.wav        #
+  - Sound_F.wav        #
+  - Sound_G.wav        #
+  - Sound_H.wav        #
+  - Sound_I.wav        #
+  - Sound_J.wav        #
+  - Sound_K.wav        #
+  - Sound_L.wav        #
+  - Sound_M.wav        #
+  - Sound_N.wav        #
+  - Sound_O.wav        #
+  - Sound_P.wav        #
+  - Sound_Q.wav        #
+  - Sound_R.wav        #
+  - Sound_S.wav        #
+  - Sound_T.wav        #
+  - Sound_U.wav        #
+  - Sound_V.wav        #
+  - Sound_W.wav        #
+  - Sound_X.wav        #
+  - Sound_Y.wav        #
+  - Sound_Z.wav        #32
+  - space.wav          #33
+folder: piano
+keyset: 
+  - {keys: [q, w, e, r, t, y, u, i, o, p, a, s, d, f, g, h, j, k, l, z, x, c, v, b, n, m], inOrder: true, sounds: [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32] }
+  - {min: KEYCODE_SPACE  , max: KEYCODE_SPACE  , inOrder: false, sounds: [33] }
+  - {keys: [KEYCODE_DEL, KEYCODE_FORWARD_DEL], inOrder: false, sounds: [6] }
+  - {keys: [NUMPAD_ENTER, ENTER], inOrder: true, sounds: [5]}
+  - {min: KEYCODE_UNKNOWN, max: KEYCODE_PROFILE_SWITCH, inOrder: true, sounds: [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32] }  #兜底全部按键

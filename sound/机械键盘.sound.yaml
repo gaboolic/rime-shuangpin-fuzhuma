@@ -1,0 +1,16 @@
+sound:
+  - 2.wav        # sound 0
+  - 3.wav        # sound 1
+  - 4.wav        # sound 2
+  - 5.wav        # sound 3
+  - click.wav        # sound 4
+  - del.wav        # sound 5
+  - enter.wav     # sound 6
+  - space.wav    # sound 7
+
+folder: jixiejianpan
+keyset:
+  - {keys: [KEYCODE_DEL, KEYCODE_FORWARD_DEL], inOrder: false, sounds: [5] }
+  - {keys: [NUMPAD_ENTER, ENTER], inOrder: true, sounds: [6]}
+  - {min: KEYCODE_SPACE  , max: KEYCODE_SPACE  , inOrder: false, sounds: [7] }
+  - {min: KEYCODE_UNKNOWN, max: KEYCODE_PROFILE_SWITCH, inOrder: false, sounds: [0, 1, 2, 3, 4, 5, 6, 7] }  #兜底全部按键
