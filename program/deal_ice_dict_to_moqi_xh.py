@@ -48,6 +48,7 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
         pinyin_list = encoding.split(" ")
         double_list = ""
         pinyin_index = 0
+        #print(line)
         for pinyin in pinyin_list:
             if len(pinyin) == 2:
                 double_pinyin = pinyin
@@ -167,7 +168,7 @@ with open('./opencc/moqi_chaifen.txt', 'r', encoding='utf-8') as dict_file:
 print("巴 " + dict_data['巴'])
 print("𬱖 " + dict_data['𬱖'])
 
-for file_name in file_list:
+for file_name in []:
     # File paths
     cn_dicts_path = os.path.expanduser("~/vscode/rime-frost/cn_dicts")
     yaml_file_path = os.path.join(cn_dicts_path, file_name)
