@@ -3058,7 +3058,7 @@ preset_keyboards:
   default:
     name: 默认26键
     author: 'amzxyz'
-    ascii_mode: 0
+    ascii_mode: 1
     label_transform: uppercase   #键盘字母转化为大写
     lock: true #切换程序时记忆键盘
     width: 10
@@ -3089,7 +3089,7 @@ preset_keyboards:
           hint: 7,
           __include: styl/key,
         }
-      - { click: 'i', long_click: '*', swipe_down: 8, __include: styl/key }
+      - { click: 'i', long_click: '°C', swipe_down: 8, __include: styl/key }
       - { click: 'o', long_click: '(', swipe_down: 9, __include: styl/key }
       - { click: 'p', long_click: ')', swipe_down: 0, __include: styl/key }
       # 第 2 行
@@ -3097,14 +3097,14 @@ preset_keyboards:
       - { click: 'a', long_click: select_all, __include: styl/key }
       - {
           click: 's',
-          long_click: '-',
+          long_click: '_',
           swipe_down: '~',
           hint: '~',
           __include: styl/key,
         }
       - {
           click: 'd',
-          long_click: '_',
+          long_click: 'jianhao',
           swipe_down: '<',
           hint: '<',
           __include: styl/key,
@@ -3118,44 +3118,44 @@ preset_keyboards:
         }
       - {
           click: 'g',
-          long_click: '=',
+          long_click: 'dengyu',
           swipe_down: kb_edit,
           hint: '<ɪ>',
           __include: styl/key,
         }
       - {
           click: 'h',
-          long_click: '[',
-          swipe_down: '{',
-          hint: '{',
+          long_click: '*',
+          swipe_down: '×',
+          hint: '×',
           __include: styl/key,
         }
       - {
           click: 'j',
-          long_click: ']',
-          swipe_down: '}',
-          hint: '}',
+          long_click: 'xiegang',
+          swipe_down: '÷',
+          hint: '÷',
           __include: styl/key,
         }
-      - { click: 'k', long_click: ':', __include: styl/key }
-      - { click: 'l', long_click: ';', __include: styl/key }
+      - { click: 'k', long_click: '"', swipe_down: '￥', hint: '￥', __include: styl/key }
+      - { click: 'l', long_click: "danyinhao", __include: styl/key }
       # 第 3 行
 #      - { click: Shift_L, composing: split_word, width: 15 }   原来的样子
       - { click: Shift_L, width: 15 }
-      - { click: 'z', long_click: '`', __include: styl/key }
+      - { click: 'z',long_click: 'fanyinhao', __include: styl/key }
       - { click: 'x', long_click: cut, __include: styl/key }
       - { click: 'c', long_click: copy, __include: styl/key }
       - { click: 'v', long_click: paste, __include: styl/key }
       - {
           click: 'b',
-          long_click: '/',
+          long_click: '√',
 #          swipe_down: '|',
 #          hint: '|',
           __include: styl/key,
         }
       - {
           click: 'n',
-          long_click: '"',
+          long_click: ':',
 #          hint: '✜',
 #          swipe_up: Up,
 #          swipe_down: Down,
@@ -3163,7 +3163,7 @@ preset_keyboards:
 #          swipe_right: Right,
           __include: styl/key,
         }
-      - { click: 'm', long_click: "'", __include: styl/key }
+      - { click: 'm', long_click: 'fenhao', __include: styl/key }
       - { click: BS, swipe_up: Escape, width: 15 }
       # 第 4 行
       - {
@@ -3181,7 +3181,8 @@ preset_keyboards:
           __include: styl/off_key,
           __patch: conf/key_height_last,
         }  
-      - { click: ',', 
+      - { click: 'douhao', 
+          label: '，',
           long_click: '、', 
           width: 11, 
           __include: styl/off_key, } 
@@ -3196,9 +3197,10 @@ preset_keyboards:
           hilited_key_back_color: hilited_space_back_color,
         }      
       - {
-          click: '.',
-          long_click: '?',
-          composing: select_second,
+          click: 'juhao',
+          label: '。',
+          long_click: '  ?',
+#          composing: select_second,
           width: 11,
           __include: styl/off_key,
         }
@@ -3485,8 +3487,19 @@ preset_keys:
   kb_func: { label: '❖', send: Eisu_toggle, select: func }
   # 自定义按键
   BS: { label: '⌫', repeatable: true, send: BackSpace }
-  select_second: { label: '.', send: . }
+#  select_second: { label: '.', send: . }
 #  split_word: { label: "'分词", send: apostrophe }     #取消分词功能
+
+#符号键盘区，解决中文状态下shift锁定导致的符号映射发生变化的问题,由于已经合理布置需要的符号，没必要这种变化
+  xiegang: { label: "/", text: "/" }
+  jianhao: { label: "-", text: "-" }
+  fanyinhao: { label: "`", text: "`" }
+  dengyu: { label: "=", text: "=" }
+  danyinhao: { label: "'", text: "'" }
+  fenhao: { label: ";", text: ";" }
+  douhao: { label: ",", text: "," }
+  juhao: { label: ".", text: "." }
+
 
   kb_sym1: { label: '◀', send: Eisu_toggle, select: symbols }
   kb_sym2: { label: '▶', send: Eisu_toggle, select: sym211 }
