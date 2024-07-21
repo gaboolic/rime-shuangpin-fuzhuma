@@ -42,3 +42,5 @@ print(folders)
 print(files)
 
 zip_folders_and_files('rime-all-schemas.zip', folders, files)
+
+# 需要把产物上传至https://github.com/imfuxiao/HamsterInputSchemas
