@@ -24,8 +24,21 @@ def zip_folders_and_files(zip_name, folders, files):
                 zipf.write(file, os.path.basename(file))  
   
 # todo
-folders = ['cn_dicts_zrm', 'cn_dicts_common','custom_phrase','lua','opencc']  
-files = ['default.yaml', 'zrm_zrm.schema.yaml','zrm_zrm.extended.dict.yaml',
-         'symbols_caps_v.yaml','rime.lua','moqi.yaml'
-         ]  
-zip_folders_and_files('rime-ios端仓输入法专用压缩包.zip', folders, files)
+remove_list = ['cn_dicts_dazhu','program','recipes','./','build','sync','.DS_Store']
+folders = []
+# 使用 os 模块中的 listdir 函数列出指定文件夹中的所有文件和子目录
+files = []
+file_names = os.listdir("./")
+# 打印出所有找到的文件名
+for file_name in file_names:
+    print(file_name)
+    if file_name not in remove_list and '.userdb' not in file_name and '.git' not in file_name and '.idea' not in file_name and '.zip' not in file_name and 'custom' not in file_name:
+        if os.path.isdir(os.path.join("./", file_name)):
+            folders.append(file_name)
+        else:
+            files.append(file_name)
+
+print(folders)
+print(files)
+
+zip_folders_and_files('rime-所有方案全家桶.zip', folders, files)
