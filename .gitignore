@@ -1,6 +1,7 @@
 # Project exclude paths
 /venv/
 /cn_dicts_dazhu/
+/cn_dicts_temp/
 /cn_dicts_sancang/
 /cn_dicts_xh_cangjie/
 sancang.dict.yaml
@@ -30,3 +31,6 @@ sync/
 *.custom.yaml
 *.custom.*
 program/generate_dict_code/jdh.dict.yaml
+
+# 压缩包
+*.zip

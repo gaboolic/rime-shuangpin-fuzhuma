@@ -28,4 +28,4 @@ folders = ['cn_dicts_xh', 'cn_dicts_common','custom_phrase','lua','opencc']
 files = ['default.yaml', 'flypy_flypy.schema.yaml','flypy_flypy.extended.dict.yaml',
          'symbols_caps_v.yaml','rime.lua','moqi.yaml'
          ]  
-zip_folders_and_files('rime-墨奇版小鹤双拼鹤形.zip', folders, files)
+zip_folders_and_files('rime-flypy-flypy.zip', folders, files)

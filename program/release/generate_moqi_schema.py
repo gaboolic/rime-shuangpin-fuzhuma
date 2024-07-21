@@ -32,4 +32,4 @@ files = ['default.yaml',
          'moqi.extended.dict.yaml',
          'symbols_caps_v.yaml','rime.lua','moqi.yaml'
          ]  
-zip_folders_and_files('rime-墨奇音形全家桶(4万字支持小鹤自然码微软搜狗双拼辅).zip', folders, files)
+zip_folders_and_files('rime-moqi-schemas.zip', folders, files)

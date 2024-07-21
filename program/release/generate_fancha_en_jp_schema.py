@@ -32,4 +32,4 @@ files = ['cangjie5.dict.yaml','cangjie5.schema.yaml','easy_en.dict.yaml','easy_e
          'reverse_moqima.dict.yaml','reverse_moqima.schema.yaml',
          'zrlf.dict.yaml','zrlf.schema.yaml'
          ]  
-zip_folders_and_files('反查-英语-日语等.zip', folders, files)
+zip_folders_and_files('rime-reverse-and-english-and-emoji.zip', folders, files)

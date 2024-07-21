@@ -6,7 +6,7 @@ with open('./opencc/moqi_chaifen.txt', 'r', encoding='utf-8') as dict_file:
             line = f"{character}={encoding}"
             line_list.append(line)
 
-write_file_name = "墨奇码辅助码for手心输入法.txt"
+write_file_name = "shouxin-moqi-aux-code-for-shouxin-input-method.txt"
 write_file = open(write_file_name, 'w')
 
 for line in line_list:

@@ -28,4 +28,4 @@ folders = ['cn_dicts_zrm', 'cn_dicts_common','custom_phrase','lua','opencc']
 files = ['default.yaml', 'zrm_zrm.schema.yaml','zrm_zrm.extended.dict.yaml',
          'symbols_caps_v.yaml','rime.lua','moqi.yaml'
          ]  
-zip_folders_and_files('rime-墨奇版自然码双拼辅助码.zip', folders, files)
+zip_folders_and_files('rime-zrm-zrm.zip', folders, files)
