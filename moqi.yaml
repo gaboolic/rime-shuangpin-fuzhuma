@@ -87,6 +87,7 @@ switches_engine:
       #- lua_filter@*laneChangeAndSpace_Filter   # 把<br>替换为换行
       - lua_filter@*is_in_user_dict # 用户词典的词加上一个*
       - lua_filter@*stick # tab置顶词回显在第一个comment中
+      # - lua_filter@*moqi.jianma_show # 当用户用全码"womf"输入“我们”时，回显简码提示"wm"
       #- lua_filter@*long_word_filter                       # 长词优先（顺序要求：长词优先 > Emoji）
       # - lua_filter@*moran_debug_filter # debug
 
