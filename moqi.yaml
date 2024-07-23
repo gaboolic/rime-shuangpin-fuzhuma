@@ -233,11 +233,11 @@ reverse:
     tag: reverse_cj
     dictionary: cangjie5
     enable_completion: true
-    prefix: "acj"
+    prefix: "arj"
     suffix: "'"
     tips: 〔仓颉〕
     preedit_format:
-      - xform/^acj/仓颉5:/
+      - xform/^arj/仓颉5:/
       - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|
 
   reverse_stroke:
