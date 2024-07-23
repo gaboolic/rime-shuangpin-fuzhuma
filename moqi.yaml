@@ -250,12 +250,6 @@ reverse:
     preedit_format:
       - xlit/hspnz/一丨丿丶乙/
 
-      - affix_segmentor@reverse_moqima
-      - affix_segmentor@radical_flypy
-      - affix_segmentor@reverse_stroke
-      - affix_segmentor@reverse_zrlf
-      - affix_segmentor@reverse_cj
-
   reverse_lookup:
     tags: [ reverse_moqima,radical_flypy,reverse_stroke,reverse_zrlf,reverse_cj]
     overwrite_comment: true
