@@ -167,8 +167,9 @@ with open('./opencc/moqi_chaifen.txt', 'r', encoding='utf-8') as dict_file:
 
 print("巴 " + dict_data['巴'])
 print("𬱖 " + dict_data['𬱖'])
+print("㪱 " + dict_data['㪱'])
 
-for file_name in []:
+for file_name in file_list:
     # File paths
     cn_dicts_path = os.path.expanduser("~/vscode/rime-frost/cn_dicts")
     yaml_file_path = os.path.join(cn_dicts_path, file_name)
