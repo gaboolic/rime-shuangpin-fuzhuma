@@ -98,6 +98,7 @@
 # 佛	fo	2
 无	wu	2
 务	wuw	2
+误	wuy	2
 # 肉	rz	2
 # 车	ie	2
 # 新	xb	2
