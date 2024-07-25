@@ -103,7 +103,7 @@ speller:
     # - derive/^jm/jz/
     - derive/^([y])h/$1g/
     # - derive/^([rgv])f/$1m/
-    - derive/^([rgv])c/$1n/
+    - derive/^([rsgv])c/$1n/
 
 
 __include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
