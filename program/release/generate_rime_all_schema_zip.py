@@ -32,7 +32,7 @@ file_names = os.listdir("./")
 # 打印出所有找到的文件名
 for file_name in file_names:
     print(file_name)
-    if file_name not in remove_list and '.userdb' not in file_name and '.git' not in file_name and '.idea' not in file_name and '.zip' not in file_name and 'custom' not in file_name:
+    if file_name not in remove_list and '.userdb' not in file_name and '.git' not in file_name and '.idea' not in file_name and '.zip' not in file_name and 'custom.' not in file_name:
         if os.path.isdir(os.path.join("./", file_name)):
             folders.append(file_name)
         else:
