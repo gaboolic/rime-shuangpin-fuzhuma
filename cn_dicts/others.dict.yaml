@@ -59,8 +59,8 @@ sort: by_weight
 街溜子	jie;rt;ii;ri,xg,xi;hn;pg;tf; liu;dt;dt;dl;ew;kb;iq; zi;la;va;aa,vh;nd;hi;bb;
 街溜子	gai;rt;ii;ri,xg,xi;hn;pg;tf; liu;dt;dt;dl;ew;kb;iq; zi;la;va;aa,vh;nd;hi;bb;
 # 「錤」这个字念 ji，但是台湾媒体都会念成 qi，他的英文名 Ming-Chi Kuo 也是接近 qi
-郭明錤	guo;we;we;ex;yl;gh;yb; ming;oo;oo;oo;ab;ov;je; ji;jb;jq;cc;zz;qa;
-郭明錤	guo;we;we;ex;yl;gh;yb; ming;oo;oo;oo;ab;ov;je; qi;jb;jq;cc;zz;qa;
+郭明錤	guo;we;we;ex;yl;gh;yb; ming;oo;oo;oo;ab;ov;je; ji;jb;;jq;cc;zz;qa;
+郭明錤	guo;we;we;ex;yl;gh;yb; ming;oo;oo;oo;ab;ov;je; qi;jb;;jq;cc;zz;qa;
 # 「镐 gao hao」的发音，多为韩国人名，不知道 🤷‍♂️，词库里为 gao，这里额外加上 hao 音
 李昌镐	li;mz;mz;mz;dd;eh;sb; chang;oo;oo;oo;aa;oo;jj; hao;jk;jk;jg;ob;zg;qy;
 曹世镐	cao;co;ao;oc,co;ta;fy;gm; shi;cv;av;ca,cv,aa;pt;la;an; hao;jk;jk;jg;ob;zg;qy;
@@ -266,14 +266,14 @@ sort: by_weight
 两个人
 两个飞
 两个戈
-两个厶	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; si;vd;ad,si,vd;vi,xi;ks;cn;
-两个厶	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; mou;vd;ad,si,vd;vi,xi;ks;cn;
+两个厶	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; si;vd;;ad,si,vd;vi,xi;ks;cn;
+两个厶	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; mou;vd;;ad,si,vd;vi,xi;ks;cn;
 两个又
 两个香
 两个面
 两个兀
 两个女
-两个𡥦	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; ni;zz;zz;nd;hh;bb;
+两个𡥦	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; ni;zz;;zz;nd;hh;bb;
 两个臣
 两个巾
 两个左
@@ -281,11 +281,11 @@ sort: by_weight
 两个来
 两个凡
 两个夕
-两个彐	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; ji;ka;aa,vh,xt;nm,sm,xm;bj;vn,zz;
-两个𢎘	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; han;av;ss;nm;nn;
-两个魚	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; yu;dh;dd,dh;nf;wv;qo;
+两个彐	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; ji;ka;;aa,vh,xt;nm,sm,xm;bj;vn,zz;
+两个𢎘	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; han;av;;;ss;nm;nn;
+两个魚	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; yu;dh;;dd,dh;nf;wv;qo;
 两个明
-两个朿	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; ci;ub;ad,mk;db;em;gm;
+两个朿	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; ci;ub;;ad,mk;db;em;gm;
 两个乂
 两个曰
 两个尸
@@ -297,7 +297,7 @@ sort: by_weight
 两个吉
 两个马
 两个卅
-两个巛	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; chuan;vv;aa,vv;vv,xv;oc;vn;
+两个巛	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; chuan;vv;;aa,vv;vv,xv;oc;vn;
 两个止
 两个比
 两个言
@@ -305,13 +305,13 @@ sort: by_weight
 两个牛
 两个余
 两个束
-两个罒	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; mu;kl;aa,si;wl;ys;lh;
-两个㐅	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; wu;pd;pd;kk;bi;qt;
+两个罒	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; mu;kl;;aa,si;wl;ys;lh;
+两个㐅	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; wu;pd;;pd;kk;bi;qt;
 两个金
 两个木
 两个水
 两个火
-两个風	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; feng;ji;ji;hi;ot;mt;
+两个風	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; feng;ji;;ji;hi;ot;mt;
 两个石
 两个口
 两个日
@@ -321,20 +321,20 @@ sort: by_weight
 两个百
 两个耳
 两个山
-两个屮	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; che;kl;aa,ck;ul;sc;bh,zz;
-两个屮	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; cao;kl;aa,ck;ul;sc;bh,zz;
+两个屮	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; che;kl;;aa,ck;ul;sc;bh,zz;
+两个屮	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; cao;kl;;aa,ck;ul;sc;bh,zz;
 两个廿
-两个卄	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; nian;al;aa,ck;jj;lc;ag;
+两个卄	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; nian;al;;aa,ck;jj;lc;ag;
 两个虫
 两个虎
-两个龍	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; long;lv;dg,lg;yp;tl;ue;
-两个馬	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; ma;mh;ad,ah;sf;nm;cg;
+两个龍	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; long;lv;;dg,lg;yp;tl;ue;
+两个馬	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; ma;mh;;ad,ah;sf;nm;cg;
 两个犬
 两个人
 两个入
 两个习
-两个卪	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; jie;ed;ed;si;zj;by;
-两个㔾	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; jie;vv;aa;su;zj;bn;
+两个卪	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; jie;ed;;ed;si;zj;by;
+两个㔾	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; jie;vv;;aa;su;zj;bn;
 两个几
 两个乙
 两个大
@@ -356,16 +356,16 @@ sort: by_weight
 两个女
 两个又
 两个支
-两个隻	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; zhi;ry;vy,yv;oe,xe;ur;wy;
+两个隻	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; zhi;ry;;vy,yv;oe,xe;ur;wy;
 两个古
 两个吉
 两个舌
 两个言
 两个户
 两个启
-两个來	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; lai;ur;ad,mc,mr;do;ej;sw;
-两个桼	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; qi;mu;mu;de;ej;sw;
-两个旡	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; ji;ay;ag;mu;du;aq;
+两个來	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; lai;ur;;ad,mc,mr;do;ej;sw;
+两个桼	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; qi;mu;;mu;de;ej;sw;
+两个旡	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; ji;ay;;ag;mu;du;aq;
 两个夕
 两个歹
 两个匕
@@ -382,8 +382,8 @@ sort: by_weight
 两个竟
 两个竞
 两个兄
-两个見	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; jian;oe;oe;bu;ej;hq;
-两个貝	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; bei;ob;ad,ob;bc;ob;mh;
+两个見	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; jian;oe;;oe;bu;ej;hq;
+两个貝	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; bei;ob;;ad,ob;bc;ob;mh;
 两个辛
 两个瓜
 两个呆
@@ -391,7 +391,7 @@ sort: by_weight
 两个鸟
 两个巢
 两个禺	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; yu;td;ld;ad,od;wi;qv;jm;
-两个巿	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; fu;uj;aa,aj;jb;fr;gm;
+两个巿	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; fu;uj;;aa,aj;jb;fr;gm;
 两个句
 两个奇
 两个真
@@ -408,22 +408,22 @@ sort: by_weight
 两个車	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; che;iu;al;aa;jj;yc;lg;
 两个車	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; ju;iu;al;aa;jj;yc;lg;
 两个足
-两个區	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; qu;kk;kp;sr;nd;ak;
+两个區	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; qu;kk;;kp;sr;nd;ak;
 两个香
 两个隹	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; zhui;rv;rf;pa,rv;og,xg;ui;wy;
 两个牟
 两个豕
-两个𠂢	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; pai;iy;pp;hv;xt;re;
-两个畐	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; fu;at;at;mw;fd;gk;
-两个㣇	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; yi;hj;jj,jx;vb;be;xg;
+两个𠂢	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; pai;iy;;pp;hv;xt;re;
+两个畐	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; fu;at;;at;mw;fd;gk;
+两个㣇	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; yi;hj;;jj,jx;vb;be;xg;
 两个邑
-两个堯	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; yao;tw;tw,wy;gu;gg;ff;
+两个堯	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; yao;tw;;tw,wy;gu;gg;ff;
 两个秉
-两个倉	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; cang;rk;rk;or;jm;wy;
-两个東	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; dong;ir;ad,mo;dw;eo;gj;
+两个倉	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; cang;rk;;rk;or;jm;wy;
+两个東	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; dong;ir;;ad,mo;dw;eo;gj;
 两个善
-两个僉	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; qian;rr;rc;oo;jd;wg;
-两个齒	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; chi;vr;vk;yo;lc;hb,hw;
+两个僉	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; qian;rr;;rc;oo;jd;wg;
+两个齒	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; chi;vr;;vk;yo;lc;hb,hw;
 两个喜
 两个走
 两个止
@@ -435,20 +435,20 @@ sort: by_weight
 两个不
 两个龙
 两个乞
-两个夋	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; qun;yw;sw,wb;ie;kh;cw;
+两个夋	liang;ar;ad;ad;mb;ml;gm; ge;rl;rl;ra,pa;ol,xl;jg;wh; qun;yw;;sw,wb;ie;kh;cw;
 两个天
 # 三叠字
 三个生
 三个秦
 三个若
-三个雲	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; yun;yy;yy;mi;tb;ff;
+三个雲	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; yun;yy;;yy;mi;tb;ff;
 三个人
 三个刀
 三个十
 三个力
 三个原
-三个厶	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; si;vd;ad,si,vd;vi,xi;ks;cn;
-三个厶	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; mou;vd;ad,si,vd;vi,xi;ks;cn;
+三个厶	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; si;vd;;ad,si,vd;vi,xi;ks;cn;
+三个厶	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; mou;vd;;ad,si,vd;vi,xi;ks;cn;
 三个又
 三个口
 三个七
@@ -477,8 +477,8 @@ sort: by_weight
 三个羊
 三个耳
 三个舌
-三个屮	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; che;kl;aa,ck;ul;sc;bh,zz;
-三个屮	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; cao;kl;aa,ck;ul;sc;bh,zz;
+三个屮	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; che;kl;;aa,ck;ul;sc;bh,zz;
+三个屮	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; cao;kl;;aa,ck;ul;sc;bh,zz;
 三个虫
 三个言
 三个贝
@@ -486,36 +486,36 @@ sort: by_weight
 三个金
 三个隹	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; zhui;rv;rf;pa,rv;og,xg;ui;wy;
 三个雷
-三个風	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; feng;ji;ji;hi;ot;mt;
-三个飛	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; fei;fc;ff,yd;no;cf;nu;
+三个風	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; feng;ji;;ji;hi;ot;mt;
+三个飛	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; fei;fc;;ff,yd;no;cf;nu;
 三个香
 三个马
-三个魚	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; yu;dh;dd,dh;nf;wv;qo;
+三个魚	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; yu;dh;;dd,dh;nf;wv;qo;
 三个鹿
-三个龍	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; long;lv;dg,lg;yp;tl;ue;
+三个龍	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; long;lv;;dg,lg;yp;tl;ue;
 三个个
-三个丶	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; zhu;dd;dd,dm;ii,xi;id;yy,zz;
-三个丶	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; dian;dd;dd,dm;ii,xi;id;yy,zz;
+三个丶	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; zhu;dd;;dd,dm;ii,xi;id;yy,zz;
+三个丶	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; dian;dd;;dd,dm;ii,xi;id;yy,zz;
 三个了
 三个介
 三个企
 三个舍
-三个圥	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; lu;te;te,uw;gu;gp;fq;
+三个圥	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; lu;te;;te,uw;gu;gp;fq;
 三个光
 三个兔
 三个全
-三个𠙽	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; kuai;ku;ug;gm;fb;
-三个𠧪	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; tiao;br;br;yo;yr;hl;
-三个𠧪	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; you;br;br;yo;yr;hl;
-三个㔾	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; jie;vv;aa;su;zj;bn;
-三个厡	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; yuan;iu;iq;me;xu;dr;
+三个𠙽	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; kuai;;;ku;ug;gm;fb;
+三个𠧪	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; tiao;br;;br;yo;yr;hl;
+三个𠧪	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; you;br;;br;yo;yr;hl;
+三个㔾	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; jie;vv;;aa;su;zj;bn;
+三个厡	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; yuan;iu;;iq;me;xu;dr;
 三个可
 三个因
 三个夏
 三个大
 三个天
 三个太
-三个𦉼	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; ku;sd;wk;ym;ld;
+三个𦉼	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; ku;;;sd;wk;ym;ld;
 三个宝
 三个宜
 三个客
@@ -525,50 +525,50 @@ sort: by_weight
 三个市
 三个文
 三个斗
-三个朿	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; ci;ub;ad,mk;db;em;gm;
+三个朿	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; ci;ub;;ad,mk;db;em;gm;
 三个束
 三个林
 三个果
 三个欠
-三个𣥚	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; zou;vy,yv;hm;tm;td;
+三个𣥚	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; zou;;;vy,yv;hm;tm;td;
 三个爪
 三个妥
 三个用
 三个甲
 三个百
 三个盖
-三个県	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; xian;ox;ox;bf;qa;hn;
+三个県	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; xian;ox;;ox;bf;qa;hn;
 三个空
-三个亇	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; ge;dl;da,ra;nn,on,xn;xg;qh;
+三个亇	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; ge;dl;;da,ra;nn,on,xn;xg;qh;
 三个竹
-三个罒	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; mu;kl;aa,si;wl;ys;lh;
-三个羗	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; qiang;ys;qs,ys;ti;ga;ud;
+三个罒	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; mu;kl;;aa,si;wl;ys;lh;
+三个羗	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; qiang;ys;;qs,ys;ti;ga;ud;
 三个老
 三个月
 三个至
-三个興	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; xing;jb;ba,jb,tb;hc;pm;vm,wf;
+三个興	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; xing;jb;;ba,jb,tb;hc;pm;vm,wf;
 三个足
-三个㖖	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; nie;xk;kx;yr;nd;uk;
-三个門	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; men;ll;aa,vh,xa;an;am;uh;
+三个㖖	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; nie;xk;;kx;yr;nd;uk;
+三个門	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; men;ll;;aa,vh,xa;an;am;uh;
 三个面
-三个頁	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; ye;ab;ab;mc;wy;dm;
-三个鳥	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; niao;nh;pd,ph;hf;xn;wv;
+三个頁	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; ye;ab;;ab;mc;wy;dm;
+三个鳥	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; niao;nh;;pd,ph;hf;xn;wv;
 三个男
 三个立
 三个九
 三个也
 三个加
-三个動	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; dong;vl;lv;hs;ld;tg;
+三个動	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; dong;vl;;lv;hs;ld;tg;
 三个千
 三个方
 三个朔
 三个玉
 三个申
-三个𡿨	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; quan;vv;ho;ae;nn;
+三个𡿨	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; quan;vv;;;ho;ae;nn;
 三个去
 三个弓
-三个䖝	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; chong;pi;pi;hi;tc;tj;
-三个丿	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; pie;pp;px;hh,xh;tp;tt,zz;
+三个䖝	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; chong;pi;;pi;hi;tc;tj;
+三个丿	san;ae;ae;aa;mm;ts;dg; ge;rl;rl;ra,pa;ol,xl;jg;wh; pie;pp;;px;hh,xh;tp;tt,zz;
 三个户
 三个瓜
 三个鸟
@@ -576,19 +576,19 @@ sort: by_weight
 # 四叠字
 四个乂	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; yi;pn;pn;pd,yi;kk,xk;bi;qt;
 四个人
-四个厶	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; si;vd;ad,si,vd;vi,xi;ks;cn;
-四个厶	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; mou;vd;ad,si,vd;vi,xi;ks;cn;
+四个厶	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; si;vd;;ad,si,vd;vi,xi;ks;cn;
+四个厶	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; mou;vd;;ad,si,vd;vi,xi;ks;cn;
 四个又
 四个匕
 四个工
 四个口
 四个天
 四个小
-四个屮	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; che;kl;aa,ck;ul;sc;bh,zz;
-四个屮	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; cao;kl;aa,ck;ul;sc;bh,zz;
+四个屮	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; che;kl;;aa,ck;ul;sc;bh,zz;
+四个屮	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; cao;kl;;aa,ck;ul;sc;bh,zz;
 四个火
 四个牛
-四个魚	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; yu;dh;dd,dh;nf;wv;qo;
+四个魚	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; yu;dh;;dd,dh;nf;wv;qo;
 四个月
 四个日
 四个林
@@ -601,19 +601,19 @@ sort: by_weight
 四个困
 四个竹
 四个老
-四个朿	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; ci;ub;ad,mk;db;em;gm;
+四个朿	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; ci;ub;;ad,mk;db;em;gm;
 四个先
 四个金
 四个泉
 四个言
-四个門	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; men;ll;aa,vh,xa;an;am;uh;
+四个門	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; men;ll;;aa,vh,xa;an;am;uh;
 四个果
 四个春
 四个車	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; che;iu;al;aa;jj;yc;lg;
-四个風	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; feng;ji;ji;hi;ot;mt;
+四个風	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; feng;ji;;ji;hi;ot;mt;
 四个雷
-四个雲	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; yun;yy;yy;mi;tb;ff;
-四个興	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; xing;jb;ba,jb,tb;hc;pm;vm,wf;
-四个龍	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; long;lv;dg,lg;yp;tl;ue;
+四个雲	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; yun;yy;;yy;mi;tb;ff;
+四个興	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; xing;jb;;ba,jb,tb;hc;pm;vm,wf;
+四个龍	si;ke;ke;aa,ke;wc;ys;lh; ge;rl;rl;ra,pa;ol,xl;jg;wh; long;lv;;dg,lg;yp;tl;ue;
 四个土
 

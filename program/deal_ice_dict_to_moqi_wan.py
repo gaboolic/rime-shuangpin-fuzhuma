@@ -157,8 +157,9 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
             encoding_post_list = ''
             for key, value in dict_data.items():
                 if character_encoding_pre not in value:
-                    #print(line)
+                    encoding_post_list += ';'
                     continue
+                    
                 encoding_post_list += ','.join(value.get(character_encoding_pre))
                 encoding_post_list += ';'
 
