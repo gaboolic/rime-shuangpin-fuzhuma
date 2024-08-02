@@ -42,8 +42,6 @@ speller:
   algebra:
     # todo全拼转双拼
     __include: moqi_speller.yaml:/zrm_speller # 自然码双拼
-    __patch:
-      __include: moqi_speller.yaml:/moqi_aux # 墨奇辅助码
 
 
 __include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
@@ -66,6 +64,8 @@ __patch:
   user_dict_set/prism: moqi_wan_zrm
   add_user_dict/prism: moqi_wan_zrm
   big_char_set/prism: moqi_wan_big_zrm
+  speller/algebra/+:
+    __include: moqi_speller.yaml:/moqi_aux
 
 
 # 快捷键
