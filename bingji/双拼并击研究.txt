@@ -1,0 +1,494 @@
+
+拼音频率统计：
+de     4.86%
+shi    4.54%
+wo     2.91%
+yi     2.64%
+bu     2.32%
+zhe    2.02%
+ta     1.80%
+le     1.70%
+ye     1.47%
+zhi    1.45%
+you    1.44%
+xiang  1.27%
+dao    1.20%
+guo    1.15%
+shuo   1.07%
+li     1.06%
+na     1.03%
+ji     1.03%
+zai    1.02%
+wei    0.99%
+gao    0.97%
+jiu    0.96%
+ren    0.95%
+ni     0.92%
+mei    0.91%
+hui    0.90%
+chu    0.84%
+zi     0.83%
+ri     0.80%
+qi     0.80%
+zuo    0.79%
+jing   0.72%
+jia    0.71%
+lai    0.68%
+me     0.67%
+da     0.67%
+he     0.64%
+ba     0.64%
+ge     0.63%
+hao    0.62%
+dian   0.58%
+xian   0.58%
+shen   0.57%
+hou    0.57%
+hua    0.57%
+men    0.56%
+ke     0.55%
+yao    0.54%
+jian   0.52%
+xie    0.51%
+shang  0.51%
+yang   0.51%
+hai    0.50%
+di     0.50%
+jie    0.50%
+xiao   0.49%
+zhong  0.48%
+yu     0.48%
+xing   0.46%
+fa     0.46%
+er     0.44%
+kou    0.44%
+qing   0.43%
+qu     0.43%
+yan    0.41%
+fang   0.41%
+sheng  0.41%
+ying   0.41%
+suo    0.40%
+kan    0.40%
+yin    0.40%
+dui    0.40%
+ma     0.40%
+wen    0.39%
+jin    0.39%
+ci     0.39%
+qian   0.39%
+wu     0.38%
+xin    0.38%
+xi     0.38%
+zheng  0.37%
+dou    0.37%
+ran    0.36%
+ru     0.36%
+hen    0.35%
+guan   0.35%
+zhen   0.34%
+fu     0.34%
+gai    0.34%
+bi     0.33%
+si     0.33%
+xia    0.32%
+jiao   0.32%
+shu    0.32%
+ming   0.30%
+dang   0.29%
+jue    0.29%
+ti     0.29%
+bei    0.28%
+shou   0.27%
+zhao   0.26%
+cai    0.26%
+lian   0.26%
+neng   0.26%
+gong   0.26%
+fan    0.26%
+huo    0.26%
+chang  0.26%
+que    0.25%
+ben    0.25%
+jiang  0.25%
+mian   0.25%
+dai    0.25%
+cong   0.25%
+yuan   0.25%
+cheng  0.24%
+bian   0.24%
+ban    0.24%
+tong   0.24%
+ting   0.23%
+ding   0.23%
+dong   0.23%
+du     0.23%
+zhu    0.22%
+tian   0.22%
+kai    0.22%
+gen    0.22%
+bao    0.22%
+wan    0.21%
+tou    0.21%
+ju     0.21%
+fen    0.21%
+bang   0.20%
+liang  0.20%
+gan    0.20%
+cha    0.20%
+wang   0.19%
+xu     0.19%
+xue    0.19%
+suan   0.19%
+yong   0.19%
+xiu    0.19%
+duo    0.19%
+pian   0.18%
+an     0.18%
+tai    0.18%
+zen    0.18%
+zui    0.17%
+sha    0.17%
+lao    0.17%
+nian   0.17%
+bing   0.16%
+rang   0.16%
+bai    0.16%
+pin    0.16%
+gang   0.15%
+tan    0.15%
+dan    0.15%
+zhang  0.15%
+mu     0.14%
+sui    0.14%
+fei    0.14%
+wai    0.14%
+quan   0.13%
+shao   0.13%
+lu     0.13%
+ne     0.13%
+ceng   0.13%
+she    0.12%
+gu     0.12%
+a      0.12%
+nan    0.12%
+biao   0.12%
+cuo    0.12%
+zao    0.12%
+hu     0.11%
+deng   0.11%
+zong   0.11%
+gei    0.11%
+teng   0.10%
+san    0.10%
+duan   0.10%
+tiao   0.10%
+nv     0.10%
+bie    0.10%
+yue    0.10%
+liu    0.10%
+nin    0.10%
+zhan   0.09%
+zou    0.09%
+en     0.09%
+chi    0.09%
+mi     0.09%
+su     0.09%
+pai    0.09%
+tu     0.09%
+guai   0.08%
+tui    0.08%
+kuang  0.08%
+ling   0.08%
+nei    0.08%
+mo     0.08%
+nao    0.08%
+kong   0.08%
+mou    0.08%
+te     0.08%
+guang  0.08%
+song   0.08%
+mao    0.07%
+ken    0.07%
+chuang 0.07%
+qin    0.07%
+man    0.07%
+can    0.07%
+chao   0.07%
+rong   0.07%
+shui   0.07%
+ping   0.07%
+luo    0.07%
+chuan  0.07%
+zhuan  0.07%
+pa     0.07%
+cun    0.07%
+ya     0.06%
+geng   0.06%
+chong  0.06%
+feng   0.06%
+qie    0.06%
+peng   0.06%
+chen   0.06%
+ze     0.06%
+kuai   0.06%
+la     0.06%
+tao    0.06%
+huan   0.06%
+lun    0.06%
+che    0.06%
+ku     0.06%
+qiang  0.06%
+liao   0.06%
+zhuang 0.05%
+po     0.05%
+bin    0.05%
+zu     0.05%
+chou   0.05%
+gou    0.05%
+xun    0.05%
+fou    0.05%
+ai     0.05%
+huai   0.05%
+miao   0.05%
+gui    0.05%
+hun    0.04%
+mai    0.04%
+lv     0.04%
+lei    0.04%
+mang   0.04%
+kao    0.04%
+shan   0.04%
+diao   0.04%
+lie    0.04%
+pan    0.04%
+meng   0.04%
+ce     0.04%
+xiong  0.04%
+chan   0.04%
+xuan   0.04%
+tuo    0.04%
+qiao   0.04%
+zhuo   0.04%
+han    0.04%
+juan   0.04%
+bo     0.03%
+za     0.03%
+lin    0.03%
+pi     0.03%
+se     0.03%
+cang   0.03%
+lia    0.03%
+pang   0.03%
+qiu    0.03%
+rao    0.03%
+ga     0.03%
+yun    0.03%
+ruo    0.03%
+shun   0.03%
+zhun   0.03%
+qun    0.03%
+pao    0.03%
+tang   0.03%
+kun    0.03%
+chun   0.02%
+leng   0.02%
+pei    0.02%
+sou    0.02%
+e      0.02%
+nai    0.02%
+zhou   0.02%
+gua    0.02%
+luan   0.02%
+huang  0.02%
+shuang 0.02%
+dun    0.02%
+lang   0.02%
+ou     0.02%
+lou    0.02%
+niu    0.02%
+cao    0.02%
+pu     0.02%
+die    0.02%
+niang  0.01%
+lve    0.01%
+kui    0.01%
+zhui   0.01%
+nu     0.01%
+nong   0.01%
+piao   0.01%
+kang   0.01%
+diu    0.01%
+hong   0.01%
+lan    0.01%
+cou    0.01%
+re     0.01%
+ao     0.01%
+zang   0.01%
+zhai   0.01%
+chui   0.01%
+tie    0.01%
+hei    0.01%
+min    0.01%
+cui    0.01%
+zeng   0.01%
+sao    0.01%
+zhua   0.01%
+heng   0.01%
+o      0.01%
+fo     0.01%
+pou    0.01%
+zan    0.01%
+sai    0.01%
+qia    0.01%
+zha    0.01%
+long   0.01%
+rou    0.01%
+rui    0.01%
+cu     0.01%
+ka     0.01%
+tun    0.01%
+reng   0.01%
+chai   0.01%
+kuo    0.01%
+sa     0.01%
+chuo   0.00%
+chuai  0.00%
+mie    0.00%
+wa     0.00%
+ca     0.00%
+sun    0.00%
+ruan   0.00%
+niao   0.00%
+ning   0.00%
+jun    0.00%
+pen    0.00%
+ha     0.00%
+nuo    0.00%
+sang   0.00%
+shua   0.00%
+qiong  0.00%
+keng   0.00%
+kua    0.00%
+nie    0.00%
+kuan   0.00%
+shuai  0.00%
+zun    0.00%
+cuan   0.00%
+nuan   0.00%
+miu    0.00%
+run    0.00%
+sen    0.00%
+shai   0.00%
+nen    0.00%
+yo     0.00%
+ang    0.00%
+jiong  0.00%
+
+声母频率
+d      10.40% d
+y      8.05% f
+sh     7.94% sf
+zh     6.17% df
+j      5.66% s
+x      5.56% x
+b      5.33% e
+l      5.18% se
+h      4.74% v
+t      4.63% t
+g      4.28% g
+m      4.18% c
+z      3.67% z
+w      3.59% w
+n      3.27% b
+q      3.09% q
+ch     2.76% af
+f      2.37% ef
+r      2.22% r
+k      2.00% we
+s      1.46% sd
+c      1.42% wf
+p      0.81% wg
+0声母 a
+
+韵母频率
+i      14.07% i
+e      12.96% k
+u      7.54% u
+a      5.90% h
+ai     5.04% l
+en     4.34% m
+ing  uai    0.16%  4.30% jk
+ou     4.23% ou
+ao     4.10% ho
+ian    4.09% ji
+an     4.04% j
+ang    3.21% n
+uo o      1.42%     2.96% o
+ong iong   0.07%   2.60% op
+ei     2.44% kl
+eng    2.31% kn
+ui   v      0.20%  1.87%  ui
+in     1.61% in
+uan    1.54% jo
+iang  uang   0.50%  1.44% lh
+iao    1.40% io
+iu  er     0.44%    1.28% il
+ie     1.16% p
+ia  ua     0.58%   0.93% hi
+ue ve     0.01%    0.68% jl
+un     0.60% y
+
+绘制键盘
+
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\begin{document}
+\begin{tikzpicture}
+
+% Draw keys
+\foreach \x in {0,...,9}{
+    \draw (\x*1.2,0) rectangle ++(1.2,1);
+}
+
+% Label keys (row 1)
+\foreach \x/\content in {0/q, 1/w, 2/e, 3/r, 4/t, 5/y, 6/u, 7/i, 8/o, 9/p}{
+    \node at (\x*1.2 + 0.2, 0.8) {\content};
+}
+% Label keys (row 1)
+\foreach \x/\content in {0/q-il, 1/w-kl, 2/0-k, 3/r-jo, 4/t-jl, 5/f-y, 6/sf-u, 7/af-i, 8/0-o, 9/wg-p}{
+    \node at (\x*1.2 + 0.6, 0.2) {\content};
+}
+
+% Draw keys
+\foreach \x in {0,...,8}{
+    \draw (\x*1.2 +0.5,-1) rectangle ++(1.2,1);
+}
+
+% Label keys (row 2)
+\foreach \x/\content in {0/a, 1/s, 2/d, 3/f, 4/g, 5/h, 6/j, 7/k, 8/l}{
+    \node at (\x*1.2 + 0.7, -0.2) {\content};
+}
+% Label keys (row 2)
+\foreach \x/\content in {0/a-h, 1/sd-op, 2/d-l, 3/ef-m, 4/g-nk, 5/v-n, 6/s-j, 7/we-jk, 8/se-hl}{
+    \node at (\x*1.2 + 1.1, -0.8) {\content};
+}
+
+% Draw keys
+\foreach \x in {0,...,7}{
+    \draw (\x*1.2 + 1.4,-2) rectangle ++(1.2,1);
+}
+
+% Label keys (row 3)
+\foreach \x/\content in {0/z, 1/x, 2/c, 3/v, 4/b, 5/n, 6/m}{
+    \node at (\x*1.2 + 1.6, -1.2) {\content};
+}
+% Label keys (row 3)
+\foreach \x/\content in {0/z-uo, 1/x-hi, 2/wf-ho, 3/df-ui, 4/e-ni, 5/b-io, 6/c-ji}{
+    \node at (\x*1.2 + 2, -1.8) {\content};
+}
+
+\end{tikzpicture}
+\end{document}

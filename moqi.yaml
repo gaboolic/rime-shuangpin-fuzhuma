@@ -1,0 +1,443 @@
+switches_engine:  
+  switches:
+    - name: ascii_mode
+      states: [ 中文, 西文 ]
+    - name: full_shape
+      states: [ 半角, 全角 ]
+    - name: traditionalization
+      states: [ 简, 繁 ]
+    - name: emoji
+      states: [ 💀, 😄 ]
+    - name: chaifen
+      states: [ 不拆, 扌斥 ]
+    - name: big_char_set
+      states: [ 大字集, 小字集 ]
+    - name: mars
+      reset: 0
+      states: [ 地, 煋 ] #火星文
+    - name: ascii_punct
+      states: [ 。，, ．， ]
+
+  engine:
+    processors:
+      - ascii_composer
+      - recognizer
+      - lua_processor@*sbxlm.key_binder # 绑定按键
+      - key_binder
+      - speller
+      - punctuator
+      - selector
+      - navigator
+      - express_editor
+    segmentors:
+      - ascii_segmentor
+      - matcher
+      - abc_segmentor
+      - punct_segmentor
+      - affix_segmentor@emojis
+
+      # 反查方案 去掉前缀
+      - affix_segmentor@reverse_moqima
+      - affix_segmentor@radical_flypy
+      - affix_segmentor@reverse_stroke
+      - affix_segmentor@reverse_zrlf
+      - affix_segmentor@reverse_cj
+
+      - affix_segmentor@add_user_dict
+      - affix_segmentor@verbatim ## not as the last of this list
+      - affix_segmentor@easy_en_simp
+      - affix_segmentor@jp_sela
+      - fallback_segmentor
+    translators:
+       # lua翻译器
+      - lua_translator@*date_translator    # 时间、日期、星期
+      - lua_translator@*lunar              # 农历
+      - lua_translator@*unicode            # Unicode
+      - lua_translator@*number_translator  # 数字、金额大写
+      - lua_translator@*calculator    # 计算器
+      - punct_translator
+      # 码表翻译器 用于仓颉、五笔等基于码表的输入方案
+      - table_translator@custom_phrase # 1、2码置顶
+      - table_translator@custom_phrase_3_code # 3码出简让全
+      - table_translator@custom_phrase_kf # 快符
+      - table_translator@custom_phrase_mqzg # 字根
+      - table_translator@custom_phrase_super_1jian # 1、2、3码时的tab上屏词
+      - table_translator@custom_phrase_super_2jian
+      - table_translator@custom_phrase_super_3jian
+      - table_translator@custom_phrase_super_3jian_no_conflict
+      - table_translator@custom_phrase_super_4jian_no_conflict
+      - table_translator@big_char_set # 大字集
+      - table_translator@emojis ## 添加注释后：停用ae模式emoji输入
+      - table_translator@easy_en_simp ## 添加注释后：停用单词输入
+      - table_translator@jp_sela ## 添加注释后：停用日语输入
+      # 反查翻译器
+      - reverse_lookup_translator
+      - table_translator@reverse_moqima
+      - table_translator@radical_flypy
+      - table_translator@reverse_stroke
+      - table_translator@reverse_zrlf
+      - table_translator@reverse_cj
+      # 脚本翻译器，用于拼音、粤拼等基于音节表的输入方案
+      - script_translator
+      - script_translator@user_dict_set
+      - script_translator@add_user_dict
+      
+    filters:
+      # lua的filter：
+      #- lua_filter@*laneChangeAndSpace_Filter   # 把<br>替换为换行
+      - lua_filter@*is_in_user_dict # 用户词典的词加上一个*
+      - lua_filter@*stick # tab置顶词回显在第一个comment中
+      # - lua_filter@*moqi.jianma_show # 当用户用全码"womf"输入“我们”时，回显简码提示"wm"
+      #- lua_filter@*long_word_filter                       # 长词优先（顺序要求：长词优先 > Emoji）
+      # - lua_filter@*moran_debug_filter # debug
+
+      # 反查的filter
+      - reverse_lookup_filter@reverse_lookup
+
+      - simplifier@emoji                              # Emoji
+      # - lua_filter@*reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
+      - simplifier@chaifen
+      - simplifier@chaifen_all
+      - simplifier@chinese_english
+      - simplifier@big_char_set # 一定要放到traditionalize之前，否则当traditionalize是繁体时，会被该过滤器把繁体字过滤掉，从而无法输入繁体字
+      - simplifier@traditionalize                     # 简繁切换
+      - simplifier@mars                               #火星文
+      - uniquifier
+      
+octagram:
+  disable:
+    __patch:
+      grammar: {}
+  enable_for_sentence:
+    __patch:
+      grammar:
+        # language: fcitx-zh-hans # 小企鹅模型
+        # language: zh-hans-t-huayu-v7-bgw # 华宇模型
+        # language: zh-hans-wiki-202405 # 维基模型
+        # language: zh-hans-t-essay-bgw # rime官方模型
+        # language: zhs-moqi # 墨奇训练的模型 聊胜于无
+        collocation_max_length: 4
+        collocation_min_length: 2
+        # non_collocation_penalty: -24
+        # collocation_penalty: -6
+        # weak_collocation_penalty: -12
+        # rear_penalty: -18
+      translator/contextual_suggestions: true # 是否使用语言模型优化输出结果〔需配合 grammar 使用〕
+      translator/max_homophones: 4 # 最大同音簇长度〔需配合 grammar 使用〕
+      translator/max_homographs: 2 # 最大同形簇长度〔需配合 grammar 使用〕
+phrase:
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase/custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 100000
+
+  # 无冲突的3简
+  custom_phrase_super_3jian_no_conflict:
+    dictionary: ""
+    user_dict: custom_phrase/custom_phrase_super_3jian_no_conflict
+    db_class: stabledb
+    enable_sentence: false
+    enable_completion: false
+    initial_quality: -1 #本表词和系统词重码居后
+
+  # 无冲突的4简
+  custom_phrase_super_4jian_no_conflict:
+    dictionary: ""
+    user_dict: custom_phrase/custom_phrase_super_4jian_no_conflict
+    db_class: stabledb
+    enable_sentence: false
+    enable_completion: false
+    initial_quality: -1 #本表词和系统词重码居后
+    # initial_quality: 1 #比系统词靠后，比无词靠前  等后面4jian_no_conflict只留下成语和常用词，再改为1
+
+  # 快符
+  custom_phrase_kf:
+    dictionary: ""
+    user_dict: custom_phrase/custom_phrase_kf
+    db_class: stabledb
+    enable_sentence: false
+    enable_completion: false
+    initial_quality: -1 #本表词和系统词重码居后
+
+  # 字根
+  custom_phrase_mqzg:
+    dictionary: ""
+    user_dict: custom_phrase/custom_phrase_mqzg
+    db_class: stabledb
+    enable_sentence: false
+    enable_completion: false
+    initial_quality: -1 #本表词和系统词重码居后
+
+  # 超强tab 1码
+  custom_phrase_super_1jian:
+    dictionary: ""
+    user_dict: custom_phrase/custom_phrase_super_1jian
+    db_class: stabledb
+    enable_sentence: false
+    enable_completion: false
+    initial_quality: -1 #本表词和系统词重码居后
+
+  # 超强tab 2码
+  custom_phrase_super_2jian:
+    dictionary: ""
+    user_dict: custom_phrase/custom_phrase_super_2jian
+    db_class: stabledb
+    enable_sentence: false
+    enable_completion: false
+    initial_quality: -1 #本表词和系统词重码居后
+
+  # 超强tab 3码
+  custom_phrase_super_3jian:
+    dictionary: ""
+    user_dict: custom_phrase/custom_phrase_super_3jian
+    db_class: stabledb
+    enable_sentence: false
+    enable_completion: false
+    initial_quality: -1 #本表词和系统词重码居后
+
+reverse:
+  reverse_moqima:
+    tag: reverse_moqima
+    dictionary: reverse_moqima
+    enable_completion: true
+    prefix: "amq"
+    suffix: "'"
+    tips: 〔墨奇反查〕
+    preedit_format:
+      # - xlit/hspnz/一丨丿丶乙/
+
+  radical_flypy:
+    tag: radical_flypy
+    dictionary: radical_flypy # https://github.com/mirtlecn/rime-radical-pinyin
+    enable_completion: true
+    prefix: "az"
+    suffix: "'"
+    tips: 〔部件组字〕
+    preedit_format:
+      # - xlit/hspnz/一丨丿丶乙/
+
+  reverse_zrlf:
+    tag: reverse_zrlf
+    dictionary: zrlf
+    enable_completion: true
+    prefix: "alf"
+    suffix: "'"
+    tips: 〔自然兩分〕
+    preedit_format:
+      # - xlit/hspnz/一丨丿丶乙/
+
+  reverse_cj:
+    tag: reverse_cj
+    dictionary: cangjie5
+    enable_completion: true
+    prefix: "arj"
+    suffix: "'"
+    tips: 〔仓颉〕
+    preedit_format:
+      - xform/^arj/仓颉5:/
+      - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|
+
+  reverse_stroke:
+    tag: reverse_stroke
+    dictionary: stroke # stroke
+    enable_completion: true
+    prefix: "ab"
+    suffix: "'"
+    tips: 〔筆畫hspnz〕 # 〔筆畫〕
+    preedit_format:
+      - xlit/hspnz/一丨丿丶乙/
+
+  reverse_lookup:
+    tags: [ reverse_moqima,radical_flypy,reverse_stroke,reverse_zrlf,reverse_cj]
+    overwrite_comment: true
+    # 可以改为全拼+音调+释义的码表
+    dictionary: moqi_big.extended # 提示码词表
+  
+opencc_config:
+  # 显示墨奇码拆分
+  chaifen:
+    option_name: chaifen
+    opencc_config: moqi_chaifen.json
+    tips: char
+    show_in_comment: true
+    comment_format:
+      - "xform/	/ /"
+
+  chaifen_all:
+    option_name: chaifen_all
+    opencc_config: moqi_chaifen_all.json
+    tips: char
+    show_in_comment: true
+    comment_format:
+      - "xform/	/ /"
+
+  #中文转英文
+  chinese_english:
+    option_name: chinese_english
+    opencc_config: chinese_english.json
+    tips: char
+    comment_format:
+      - "xform/-/ /"
+
+  # Emoji
+  emoji:
+    option_name: emoji
+    opencc_config: emoji.json
+    inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
+
+
+  # 简繁切换
+  traditionalize:
+    option_name: traditionalization
+    opencc_config: s2t.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json
+    tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
+    tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
+
+  # 火星文切换
+  mars:
+    opencc_config: martian.json 
+    option_name: mars
+    
+punctuator:
+  # 标点符号
+  # punctuator 下面有三个子项：
+  #   full_shape 全角标点映射
+  #   half_shape 半角标点映射
+  #   symbols    Rime 的预设配置是以 '/' 前缀开头输出一系列字符，自定义的 symbols_caps_v.yaml 修改成了 '/' 开头。
+  punctuator:
+    full_shape:
+      __include: default:/punctuator/full_shape  # 从 default.yaml 导入配置
+    half_shape:
+      __include: default:/punctuator/half_shape  # 从 default.yaml 导入配置
+    symbols:
+      __include: symbols_caps_v:/symbols         # 从 symbols_caps_v.yaml 导入配置
+
+guide:
+  recognizer:
+    # import_preset: default
+    patterns:
+      uppercase: "^[A-Z].*$"
+      punct: '^/([0-9]|10|[A-z]+)$'
+      ## 拆字、笔画、仓颉: 
+      reverse_moqima: "^amq[A-Za-z]*$" # "[[]b[a-z]*'?$"
+      radical_flypy: "^az[a-z]*'?$" # "[[]b[a-z]*'?$"
+      reverse_stroke: "^ab[A-Za-z]*$"
+      reverse_cj: "^arj[A-Za-z]*$"
+      reverse_zrlf: "^alf[A-Za-z]*$"
+      #造词
+      add_user_dict: "^ac[A-Za-z]*$"
+
+      emojis: "^ae[a-z]*'?$" # "^ae.*$" 
+      easy_en_simp: "^aw[a-z]*"
+      jp_sela: "^aj[a-z]*"
+      unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
+      number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
+      gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
+
+  emojis:
+    tag: emojis
+    dictionary: emoji
+    enable_completion: true
+    prefix: "ae"
+    #suffix: "'"
+    tips: " Emoji"
+
+  easy_en_simp:
+    tag: easy_en_simp
+    dictionary: easy_en
+    enable_completion: true
+    enable_sentence: false
+    prefix: "aw"
+    # suffix: "'"
+    tips: "英文单词（可去元音）"
+    spelling_hints: 9
+    comment_format:
+      - xform/^.+$//
+      
+  jp_sela:
+    tag: jp_sela
+    dictionary: jp_sela
+    enable_completion: true
+    enable_sentence: false
+    prefix: "aj"
+    # suffix: "'"
+    tips: "日语"
+    spelling_hints: 9
+    comment_format:
+      - xform/^.+$//
+
+  # 计算器触发关键字
+  calculator:
+    trigger: V
+
+  # Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
+  date_translator:
+    date: date            # 日期： 2022-11-29
+    time: time            # 时间： 18:13
+    week: week            # 星期： 星期二
+    datetime: datetime    # ISO 8601： 2022-11-29T18:13:11+08:00
+    timestamp: timestamp  # 时间戳： 1669716794
+
+  # Lua 配置：农历的触发关键字
+  lunar: anl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
+  # Lua 配置：长词优先
+  # 提升 count 个词语，插入到第 idx 个位置。
+  # 示例：将 2 个词插入到第 1  个候选项，输入 总算 得到「1总算 2纵」
+  long_word_filter:
+    count: 2
+    idx: 1
+
+big_char_and_user_dict:
+  # 大字集
+  big_char_set:
+    dictionary: moqi_big.extended
+    option_name: big_char_set
+    initial_quality: -1 # 设置此翻译器出字优先级,-1为极低
+    enable_completion: false
+    enable_sentence: false
+    ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
+    ##  改为 1 则是只显示单字的输入码，依此类推。
+    spelling_hints: 1
+    comment_format:
+      - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
+
+    enable_user_dict: false # 是否开启自动调频
+
+
+  user_dict_set:
+    dictionary: moqi.extended
+    initial_quality: 0
+    enable_completion: false
+    enable_sentence: false
+    ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
+    ##  改为 1 则是只显示单字的输入码，依此类推。
+    spelling_hints: 1
+    comment_format:
+      - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
+    enable_user_dict: true # 是否开启自动调频
+    user_dict: user.custom.dict
+    db_class: tabledb
+
+  # 自定义词典加词(ac引导)
+  add_user_dict:
+    tag: add_user_dict
+    dictionary: moqi.extended
+    initial_quality: -1
+    user_dict: user.custom.dict
+  # ↓ 用户词典格式，tabledb（文本） 或 userdb （二进制）。
+    db_class: tabledb
+    enable_charset_filter: false # 是否开启字符集过滤
+    enable_completion: true # 提前显示尚未输入完整码的字〔仅 table_translator 有效〕
+    enable_encoder: true # 是否开启自动造词〔仅 table_translator 有效〕
+    enable_sentence: true #  是否开启自动造句
+    enable_user_dict: true # 是否开启用户词典
+    encode_commit_history: false # 是否对已上屛词自动成词〔仅 table_translator 有效〕
+    preedit_format:
+      
+    comment_format:
+      - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
+    prefix: "ac"
+    tips: "〔自造词〕"

@@ -1,0 +1,161 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: double_pinyin_zrm
+  name: zrm并击雙拼
+  version: "0.15"
+  author:
+    - 佛振 <chen.sst@gmail.com>
+    - 并击雙拼-@gaboolic
+  description: |
+    朙月拼音＋并击雙拼方案。
+  dependencies:
+    - stroke
+
+switches:
+  - name: ascii_mode
+    reset: 1
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+
+engine:
+  processors:
+    - ascii_composer
+    - chord_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - script_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - erase/^xx$/
+    - derive/^([jqxy])u$/$1v/
+    - derive/^([aoe])([ioun])$/$1$1$2/
+    - xform/^([aoe])(ng)?$/$1$1$2/
+    - xform/iu$/Q/
+    - xform/[iu]a$/W/
+    - xform/[uv]an$/R/
+    - xform/[uv]e$/T/
+    - xform/ing$|uai$/Y/
+    - xform/^sh/U/
+    - xform/^ch/I/
+    - xform/^zh/V/
+    - xform/uo$/O/
+    - xform/[uv]n$/P/
+    - xform/i?ong$/S/
+    - xform/[iu]ang$/D/
+    - xform/(.)en$/$1F/
+    - xform/(.)eng$/$1G/
+    - xform/(.)ang$/$1H/
+    - xform/ian$/M/
+    - xform/(.)an$/$1J/
+    - xform/iao$/C/
+    - xform/(.)ao$/$1K/
+    - xform/(.)ai$/$1L/
+    - xform/(.)ei$/$1Z/
+    - xform/ie$/X/
+    - xform/ui$/V/
+    - xform/(.)ou$/$1B/
+    - xform/in$/N/
+    - xlit/QWRTYUIOPSDFGHMJCKLZXVBN/qwrtyuiopsdfghmjcklzxvbn/
+    #- abbrev/^(.).+$/$1/
+
+
+chord_composer:
+  # 字母表，包含用并击按键
+  # 击键一律以字母表顺序排列
+  alphabet: "aqzswxdecfrvgtbhynjumki,lo.;p',./"
+  algebra:
+    # - "xform/^,$/,/"
+    # - "xform/^\.$/./"
+    # 定义左手11键       
+    - xform/^at(?![左右])/y左/
+    - xform/^ar(?![左右])/u左/
+    - xform/^ae(?![左右])/i左/
+    - xform/^aw(?![左右])/o左/
+    - xform/^qf(?![左右])/p左/
+    - xform/^as(?![左右])/l左/
+    - xform/^ad(?![左右])/k左/
+    - xform/^af(?![左右])/j左/
+    - xform/^ag(?![左右])/h左/
+    - xform/^ac(?![左右])/m左/
+    - xform/^av(?![左右])/n左/
+
+    # 定义右手15键
+    - xform/jp(?![左右])$/q右/
+    - xform/jo(?![左右])$/w右/
+    - xform/ji(?![左右])$/e右/
+    - xform/ul(?![左右])$/r右/
+    - xform/yl(?![左右])$/t右/
+    - xform/l;(?![左右])$/s右/
+    - xform/kl(?![左右])$/d右/
+    - xform/jk(?![左右])$/f右/
+    - xform/hl(?![左右])$/g右/    
+    - xform/mk(?![左右])$/z右/
+    - xform/nk(?![左右])$/x右/
+    - xform/ml(?![左右])$/c右/
+    - xform/nl(?![左右])$/v右/
+    - xform/ni(?![左右])$/b右/
+    - xform/;(?![左右])$/a右/
+  # 并击完成后套用式样
+  output_format:
+    - "xform/^(.*)左/$1/"
+    - "xform/^(.*)右$/$1/"
+    - "xform/^(.*)左(.*)右$/$1$2/"
+      
+ # 并击过程中套用式样  
+  prompt_format:
+    # 加方括号
+    - "xform/^(.*)$/[$1]/" 
+
+translator:
+  dictionary: luna_pinyin
+  prism: double_pinyin
+  # preedit_format:
+
+
+reverse_lookup:
+  dictionary: stroke
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔筆畫〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+  comment_format:
+    - xform/([nl])v/$1ü/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

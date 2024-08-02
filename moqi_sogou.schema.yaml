@@ -1,0 +1,227 @@
+# Rime schema
+# encoding: utf-8
+# https://github.com/gaboolic/rime-shuangpin-fuzhuma
+
+schema:
+  schema_id: moqi_sogou
+  name: 墨奇音形+搜狗双拼
+  version: "2024-05-12"
+  author:
+    - gaboolic
+  description: |
+    墨奇音形 https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%A2%A8%E5%A5%87%E7%A0%81%E6%8B%86%E5%88%86%E8%A7%84%E5%88%99
+  dependencies:
+    - reverse_moqima
+    - radical_flypy
+    - stroke
+    - zrlf
+    - emoji
+    - easy_en
+    - jp_sela
+    - moqi_big
+
+__include: moqi.yaml:/switches_engine
+__include: moqi.yaml:/phrase # 置顶
+__include: moqi.yaml:/reverse #反查配置
+__include: moqi.yaml:/opencc_config # 拆分 英汉互译 火星文
+__include: moqi.yaml:/punctuator # 标点
+__include: moqi.yaml:/guide # 引导前缀配置
+
+speller:
+  max_code_length: 5
+  # table_translator翻译器，支持自动上屏。例如 “zmhu”可以自动上屏“怎么回事”
+  auto_select: true
+  auto_select_pattern: ^[a-z]+/|^[a-df-zA-DF-Z]\w{3}|^e\w{4}
+  # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[/|;
+  # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
+  initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
+  delimiter: " '"
+  ## speller 未允许 aj 表示 an
+  algebra:
+    - xform/^/ /
+    - xform/( \w)w/$1Z/ # 小鹤双拼的W键的ei匹配到Z键
+    - xform/( \w)y/$1P/ # 小鹤双拼的Y键的un匹配到P键
+    - xform/( \w)p/$1X/ # 小鹤双拼的P键的ie匹配到X键
+    - xform/( \w)d/$1L/ # 小鹤双拼的D键的ai匹配到L键
+    - xform/( [gkhvuirzcs])k/$1Y/ # 小鹤双拼的K键的uai匹配到Y键
+    - xform/( \w)k/$1;/ # 小鹤双拼的K键的ing匹配到;键
+    - xform/( \w)l/$1D/ # 小鹤双拼的L键的iang和uang匹配到D键
+    - xform/( \w)z/$1B/ # 小鹤双拼的Z键的ou匹配到B键
+    - xform/( \w)x/$1W/ # 小鹤双拼的X键的ia和ua匹配到W键
+    - xform/( \w)c/$1K/ # 小鹤双拼的C键的ao匹配到K键
+    - xform/( [^aeiou])n/$1C/ # 小鹤双拼的N键的iao匹配到C键
+    - xform/( \w)b/$1N/ # 小鹤双拼的B键的in匹配到N键
+    - derive/ a(\w)/o$1/ # 0声母改为o
+    - derive/ an/oj/ # 0声母改为o
+    - derive/ ee/oe/ # 0声母改为o
+    - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
+    - xform/^ //
+    
+    # - derive/^qx/qw/
+    # - derive/^jn/jv/
+    # - derive/^mn/mv/
+    # - derive/^jm/jz/
+    # - derive/^([y])h/$1g/
+    # - derive/^([rgv])f/$1m/
+    # - derive/^([rgv])c/$1n/
+
+    # 模糊音 可选择性开启
+    # - derive/^z([a-z])/v$1/
+    # - derive/^c([a-z])/i$1/
+    # - derive/^s([a-z])/u$1/
+    # - derive/^v([a-z])/z$1/
+    # - derive/^i([a-z])/c$1/
+    # - derive/^u([a-z])/s$1/
+
+    # - derive/^([jqxy])u/$1v/ # 开启jv=ju的模式
+
+    - derive|^(.+)[[](\w)(\w)$|$1| # 纯双拼的情况
+    - derive|^(.+)[[](\w)(\w)$|$1$2| # 双拼+一位辅助码的情况
+    - derive|^(.+)[[](\w)(\w)$|$1[$2| # 双拼+[一位辅助码的情况
+    - abbrev|^(.+)[[](\w)(\w)$|$1$2$3| # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+    - derive|^(.+)[[](\w)(\w)$|$1$2$3o| # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.+)[[](\w)(\w)$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    # - derive/[[]// ## 取消注释后：直接引导2位辅助码；否则只能引导1位辅助码或者2位辅助码加/
+
+    ## 飞键 可选择性开启
+    # - derive/^([yh])j/$1q/
+    # - derive/^qx/qw/
+    # - derive/^jn/jv/
+    # - derive/^mn/mv/
+    # - derive/^jm/jz/
+    # - derive/^([y])h/$1g/
+    # - derive/^([rgv])f/$1m/
+    # - derive/^([rgv])c/$1n/
+
+__include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
+
+translator:
+  dictionary: moqi.extended
+  initial_quality: 10000
+  prism: moqi_sogou
+  enable_completion: false
+  ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
+  ##  改为 1 则是只显示单字的输入码，依此类推。
+  spelling_hints: 1
+  comment_format:
+    - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
+
+  enable_user_dict: false # 是否开启自动调频
+  preedit_format:
+    # 复制用户输入, 一份转大写保持原样, 一份由正则转为全拼显示
+    # - xform/(^.*$)/\U$1\E\t => $1 <=/
+    # # 小鹤双拼转全拼, 忽略辅码
+    # - xform/([ '][aoe])(\w)\w{0,2}/$1$2/
+    # - xform/([ ']\w)([aeiou])\w{0,2}/$1$2/
+    # - xform/([ '][bpmfdtnljqx])n\w{0,2}/$1iao/
+    # - xform/([ ']\w)g\w{0,2}/$1eng/
+    # - xform/([ ']\w)q\w{0,2}/$1iu/
+    # - xform/([ ']\w)w\w{0,2}/$1ei/
+    # - xform/([ '][dtnlgkhjqxyvuirzcs])r\w{0,2}/$1uan/
+    # - xform/([ ']\w)t\w{0,2}/$1ve/
+    # - xform/([ ']\w)y\w{0,2}/$1un/
+    # - xform/([ '][dtnlgkhvuirzcs])o\w{0,2}/$1uo/
+    # - xform/([ ']\w)p\w{0,2}/$1ie/
+    # - xform/([ '][jqx])s\w{0,2}/$1iong/
+    # - xform/([ ']\w)s\w{0,2}/$1ong/
+    # - xform/([ ']\w)d\w{0,2}/$1ai/
+    # - xform/([ ']\w)f\w{0,2}/$1en/
+    # - xform/([ ']\w)h\w{0,2}/$1ang/
+    # - xform/([ ']\w)j\w{0,2}/$1an/
+    # - xform/([ '][gkhvuirzcs])k\w{0,2}/$1uai/
+    # - xform/([ ']\w)k\w{0,2}/$1ing/
+    # - xform/([ '][jqxnl])l\w{0,2}/$1iang/
+    # - xform/([ ']\w)l\w{0,2}/$1uang/
+    # - xform/([ ']\w)z\w{0,2}/$1ou/
+    # - xform/([ '][gkhvuirzcs])x\w{0,2}/$1ua/
+    # - xform/([ ']\w)x\w{0,2}/$1ia/
+    # - xform/([ ']\w)c\w{0,2}/$1ao/
+    # - xform/([ '][dtgkhvuirzcs])v\w{0,2}/$1ui/
+    # - xform/([ ']\w)b\w{0,2}/$1in/
+    # - xform/([ ']\w)m\w{0,2}/$1ian/
+    # - "xform/(^|[ '])v/$1zh/"
+    # - "xform/(^|[ '])i/$1ch/"
+    # - "xform/(^|[ '])u/$1sh/"
+    # - xform/([ '][jqxy])v\w{0,2}/$1u/
+    # - xform/([ '][nl])v\w{0,2}/$1ü/
+    # # 双拼编码大写转回小写
+    # - xform/(^[^a-z=<>]*)/\L$1\E/
+    # - xform/=> */[/
+    # - xform/ *<=/]/
+
+__patch:
+  user_dict_set/prism: moqi_sogou
+  add_user_dict/prism: moqi_sogou
+  big_char_set/prism: moqi_big_sogou
+
+# 快捷键
+key_binder:
+  import_preset: default
+  bindings:
+    #- { when: composing, accept: Tab, send: '[' } ## 取消注释后：tab引导辅助码
+    - { when: composing, accept: Control+m, send: Return }
+    - { when: composing, accept: Control+w, send: Control+BackSpace }
+    # - { when: has_menu, accept: semicolon, send: 2 }
+    # - { when: has_menu, accept: slash, send: 3 } # 用/进行选3
+    - { when: composing, accept: Control+i, send: Shift+Right }
+    - { when: composing, accept: Control+o, send: Shift+Left }
+    # 显示墨奇码拆分的快速开关
+    - { when: has_menu, accept: "Control+p", toggle: chaifen }
+    - { when: has_menu, accept: "Control+l", toggle: chaifen_all }
+    - { when: has_menu, accept: "Control+e", toggle: chinese_english }
+
+
+    - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
+    - { match: "[a-z]{1,3}", accept: "/",  send_sequence: "/1" }
+    - { match: "[a-z]{1,3}", accept: ".",  send_sequence: "/1" }
+    # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }
+
+    ## 启用光标回退至特定音节后、补充辅助码的功能。补充完辅助码后，可以再按一次tab回到整句检查
+    - { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
+    - { when: composing, accept: Control+2, send_sequence: '{Home}{Shift+Right}{Shift+Right}[' }
+    - { when: composing, accept: Control+3, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+    - { when: composing, accept: Control+4, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+    - { when: composing, accept: Control+5, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+    - { when: composing, accept: Control+6, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+    - { when: composing, accept: Control+7, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+
+    # 大写辅助码加到整句第一个音节，例如iuyyfw默认是楚云飞，按下shift+u (iuu yy fw)变成出运费
+    - { when: has_menu, accept: Shift+A, send_sequence: "{Shift+Right}a{Shift+Right}" }
+    - { when: has_menu, accept: Shift+B, send_sequence: "{Shift+Right}b{Shift+Right}" }
+    - { when: has_menu, accept: Shift+C, send_sequence: "{Shift+Right}c{Shift+Right}" }
+    - { when: has_menu, accept: Shift+D, send_sequence: "{Shift+Right}d{Shift+Right}" }
+    - { when: has_menu, accept: Shift+E, send_sequence: "{Shift+Right}e{Shift+Right}" }
+    - { when: has_menu, accept: Shift+F, send_sequence: "{Shift+Right}f{Shift+Right}" }
+    - { when: has_menu, accept: Shift+G, send_sequence: "{Shift+Right}g{Shift+Right}" }
+    - { when: has_menu, accept: Shift+H, send_sequence: "{Shift+Right}h{Shift+Right}" }
+    - { when: has_menu, accept: Shift+I, send_sequence: "{Shift+Right}i{Shift+Right}" }
+    - { when: has_menu, accept: Shift+J, send_sequence: "{Shift+Right}j{Shift+Right}" }
+    - { when: has_menu, accept: Shift+K, send_sequence: "{Shift+Right}k{Shift+Right}" }
+    - { when: has_menu, accept: Shift+L, send_sequence: "{Shift+Right}l{Shift+Right}" }
+    - { when: has_menu, accept: Shift+M, send_sequence: "{Shift+Right}m{Shift+Right}" }
+    - { when: has_menu, accept: Shift+N, send_sequence: "{Shift+Right}n{Shift+Right}" }
+    - { when: has_menu, accept: Shift+O, send_sequence: "{Shift+Right}o{Shift+Right}" }
+    - { when: has_menu, accept: Shift+P, send_sequence: "{Shift+Right}p{Shift+Right}" }
+    - { when: has_menu, accept: Shift+Q, send_sequence: "{Shift+Right}q{Shift+Right}" }
+    - { when: has_menu, accept: Shift+R, send_sequence: "{Shift+Right}r{Shift+Right}" }
+    - { when: has_menu, accept: Shift+S, send_sequence: "{Shift+Right}s{Shift+Right}" }
+    - { when: has_menu, accept: Shift+T, send_sequence: "{Shift+Right}t{Shift+Right}" }
+    - { when: has_menu, accept: Shift+U, send_sequence: "{Shift+Right}u{Shift+Right}" }
+    - { when: has_menu, accept: Shift+V, send_sequence: "{Shift+Right}v{Shift+Right}" }
+    - { when: has_menu, accept: Shift+W, send_sequence: "{Shift+Right}w{Shift+Right}" }
+    - { when: has_menu, accept: Shift+X, send_sequence: "{Shift+Right}x{Shift+Right}" }
+    - { when: has_menu, accept: Shift+Y, send_sequence: "{Shift+Right}y{Shift+Right}" }
+    - { when: has_menu, accept: Shift+Z, send_sequence: "{Shift+Right}z{Shift+Right}" }
+# 启用語言模型
+# __include: moqi:/octagram/enable_for_sentence
+
+# 3码出简让全
+custom_phrase_3_code:
+  dictionary: ""
+  user_dict: custom_phrase/custom_phrase_3_code
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: 1 #本表词和系统词重码居后

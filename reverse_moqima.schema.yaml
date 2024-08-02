@@ -1,0 +1,41 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: reverse_moqima
+  name: "墨奇码反查"
+  version: "1"
+  description: |
+    墨奇码反查，只使用首末双形
+  dependencies:
+    - reverse_moqima
+
+engine:
+  processors:
+    - key_binder
+    - speller
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+  translators:
+    - echo_translator
+    - table_translator
+  filters:
+    - uniquifier
+
+key_binder:
+  __include: default:/key_binder?
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[/|
+  # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
+  initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
+  delimiter: " '"
+  ## speller 未允许 aj 表示 an
+  algebra:
+
+translator:
+  dictionary: reverse_moqima

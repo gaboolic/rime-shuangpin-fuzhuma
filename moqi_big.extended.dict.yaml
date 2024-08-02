@@ -1,0 +1,21 @@
+# Rime dictionary
+# encoding: utf-8
+# https://github.com/gaboolic/rime-shuangpin-fuzhuma
+# 墨奇音形词库
+# rime配置的部署位置：
+# ~/.local/share/fcitx5/rime 或者 ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+# 
+#
+
+---
+name: moqi_big.extended
+version: "2024.05.11"
+sort: by_weight  #字典初始排序，可選original或by_weight
+use_preset_vocabulary: false
+
+import_tables:
+  - cn_dicts_moqi/8105     # 8105
+  - cn_dicts_moqi/41448     # 4万字大字表
+...

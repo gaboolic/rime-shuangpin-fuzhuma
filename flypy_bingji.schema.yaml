@@ -1,0 +1,406 @@
+# 双拼并击的一个demo - gaboolic
+# https://github.com/gaboolic/rime-shuangpin-fuzhuma
+# encoding: utf-8
+
+schema:
+  schema_id: flypy_bingji
+  name: 乱序并击 + 鹤形
+  version: "0.1"
+  author:
+    - Functoreality
+    - 双拼并击@gaboolic
+  description: |
+    并击双拼
+  dependencies:
+    - luna_pinyin
+    - chaizi
+    - stroke
+    - zrlf
+    - emoji
+    - easy_en
+
+switches:
+  - name: ascii_mode
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    reset: 1
+    states: [ 漢字, 汉字 ]
+  - name: emoji
+    states: [ 💀, 😄 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - chord_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - affix_segmentor@quanpin
+    - affix_segmentor@emojis
+    - affix_segmentor@verbatim ## not as the last of this list
+    - affix_segmentor@soft_capslock
+    - affix_segmentor@dbpy_flypy_help
+    - affix_segmentor@easy_en_simp
+    - affix_segmentor@tex_translator
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@custom_phrase
+    - reverse_lookup_translator
+    - reverse_lookup_translator@reverse_stroke
+    - reverse_lookup_translator@reverse_zrlf
+    - script_translator
+    - script_translator@quanpin
+    - table_translator@emojis
+    - table_translator@soft_capslock
+    - table_translator@dbpy_flypy_help
+    - lua_translator@tex_translator
+    - lua_translator@func_translator
+    - lua_translator@date_translator    # 时间、日期、星期
+    - table_translator@easy_en_simp ## 添加注释后：停用单词输入
+  filters:
+    - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
+    - simplifier@emoji                              # Emoji
+    - simplifier@traditionalize                     # 简繁切换
+    - uniquifier
+
+# Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
+date_translator:
+  date: date            # 日期： 2022-11-29
+  time: time            # 时间： 18:13
+  week: week            # 星期： 星期二
+  datetime: datetime    # ISO 8601： 2022-11-29T18:13:11+08:00
+  timestamp: timestamp  # 时间戳： 1669716794
+  
+# Lua 配置：长词优先
+# 提升 count 个词语，插入到第 idx 个位置。
+# 示例：将 2 个词插入到第 1  个候选项，输入 总算 得到「1总算 2纵」
+long_word_filter:
+  count: 2
+  idx: 1
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  initials: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  ## speller a引导0声母
+  algebra:
+    - derive/^ao(.*)$/AC$1/
+    - derive/^an(.*)$/AJ$1/
+    - derive/^ai(.*)$/AD$1/
+
+    - derive/^ei(.*)$/AW$1/
+    - derive/^er(.*)$/AQ$1/
+    - derive/^oo(.*)$/AO$1/
+    - derive/^ou(.*)$/AB$1/
+    - derive/^ee(.*)$/AE$1/
+    - derive/^en(.*)$/AF$1/
+
+    - xlit/QWERTYUIOPASDFGHJKLZXCVBNM/qwertyuiopasdfghjklzxcvbnm/
+
+    - derive|^(.+)[[](\w)(\w)$|$1| # 纯双拼的情况
+    - derive|^(.+)[[](\w)(\w)$|$1$2| # 双拼+一位辅助码的情况
+    - abbrev|^(.+)[[](\w)(\w)$|$1$2$3| # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+    - derive|^(.+)[[](\w)(\w)$|$1$2$3o| # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.+)[[](\w)(\w)$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+    # - derive/[[]// ## 取消注释后：直接引导2位辅助码；否则只能引导1位辅助码或者2位辅助码加/
+
+chord_composer:
+  # 字母表，包含用并击按键
+  # 击键一律以字母表顺序排列
+  alphabet: "aqzswxdecfrvgtbhynjumki,lo.;p',./"
+  algebra:
+    # - "xform/^,$/,/"
+    # - "xform/^\.$/./"
+    # 定义左手
+    - xform/^sf(?![左右])/u左/
+    - xform/^df(?![左右])/v左/
+    - xform/^se(?![左右])/l左/
+    - xform/^af(?![左右])/i左/
+    - xform/^we(?![左右])/k左/
+    - xform/^wf(?![左右])/c左/
+    - xform/^wg(?![左右])/p左/
+    - xform/^sd(?![左右])/s左/
+    - xform/^ef(?![左右])/f左/
+
+    - xform/^f(?![左右])/y左/
+    - xform/^s(?![左右])/j左/
+    - xform/^e(?![左右])/b左/
+    - xform/^v(?![左右])/h左/
+    - xform/^c(?![左右])/m左/
+    - xform/^b(?![左右])/n左/
+
+    # 实际用不到左手e o
+    - xform/^er(?![左右])/e左/
+    - xform/^qw(?![左右])/o左/
+
+    # - xform/^d(?![左右])/d左/
+    # - xform/^x(?![左右])/x左/
+    # - xform/^t(?![左右])/t左/
+    # - xform/^g(?![左右])/g左/
+    # - xform/^z(?![左右])/z左/
+    # - xform/^w(?![左右])/w左/
+    # - xform/^q(?![左右])/q左/
+    # - xform/^r(?![左右])/r左/
+
+    # 定义右手
+    - xform/uo(?![左右])$/z右/
+    - xform/ho(?![左右])$/c右/
+    - xform/ji(?![左右])$/m右/
+    - xform/op(?![左右])$/s右/
+    - xform/kl(?![左右])$/w右/
+    - xform/nk(?![左右])$/g右/
+    - xform/ui(?![左右])$/v右/
+    - xform/ni(?![左右])$/b右/
+    - xform/jo(?![左右])$/r右/
+    - xform/io(?![左右])$/n右/
+    - xform/il(?![左右])$/q右/
+    - xform/hi(?![左右])$/x右/
+    - xform/jl(?![左右])$/t右/
+    - xform/kl(?![左右])$/q右/ #er
+    - xform/hl(?![左右])$/l右/
+    - xform/jk(?![左右])$/k右/
+
+    - xform/n(?![左右])$/h右/
+    - xform/k(?![左右])$/e右/
+    - xform/h(?![左右])$/a右/
+    - xform/l(?![左右])$/d右/
+    - xform/m(?![左右])$/f右/
+
+    # - xform/u(?![左右])$/u右/
+    # - xform/o(?![左右])$/o右/
+    # - xform/i(?![左右])$/i右/
+    # - xform/p(?![左右])$/p右/
+    # - xform/y(?![左右])$/y右/
+    # - xform/j(?![左右])$/j右/
+
+   
+  # 并击完成后套用式样
+  output_format:
+    - "xform/^(.*)左/$1/"
+    - "xform/^(.*)右$/$1/"
+    - "xform/^(.*)左(.*)右$/$1$2/"
+    - xlit/QWERTYUIOPASDFGHJKLZXCVBNM/qwertyuiopasdfghjklzxcvbnm/
+
+ # 并击过程中套用式样  
+  prompt_format:
+    # 加方括号
+    # - "xform/^(.*)$/[$1]/" 
+
+translator:
+  dictionary: flypy_flypy.extended
+  prism: flypy_bingji
+  enable_completion: false
+  spelling_hints: 1
+  comment_format:
+    - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
+
+  enable_user_dict: false # 是否开启自动调频 
+  # preedit_format:
+    # - "xform/((^|[ '])[bpmfdtnljqx])n/$1iao/"
+    # - "xform/((^|[ '])\\w)g/$1eng/"
+    # - "xform/((^|[ '])\\w)q/$1iu/"
+    # - "xform/((^|[ '])\\w)w/$1ei/"
+    # - "xform/((^|[ '])[dtnlgkhjqxyvuirzcs])r/$1uan/"
+    # - "xform/((^|[ '])\\w)t/$1ve/"
+    # - "xform/((^|[ '])\\w)y/$1un/"
+    # - "xform/((^|[ '])[dtnlgkhvuirzcs])o/$1uo/"
+    # - "xform/((^|[ '])\\w)p/$1ie/"
+    # - "xform/((^|[ '])[jqx])s/$1iong/"
+    # - "xform/((^|[ '])\\w)s/$1ong/"
+    # - "xform/((^|[ '])\\w)d/$1ai/"
+    # - "xform/((^|[ '])\\w)f/$1en/"
+    # - "xform/((^|[ '])\\w)h/$1ang/"
+    # - "xform/((^|[ '])\\w)j/$1an/"
+    # - "xform/((^|[ '])[gkhvuirzcs])k/$1uai/"
+    # - "xform/((^|[ '])\\w)k/$1ing/"
+    # - "xform/((^|[ '])[jqxnl])l/$1iang/"
+    # - "xform/((^|[ '])\\w)l/$1uang/"
+    # - "xform/((^|[ '])\\w)z/$1ou/"
+    # - "xform/((^|[ '])[gkhvuirzcs])x/$1ua/"
+    # - "xform/((^|[ '])\\w)x/$1ia/"
+    # - "xform/((^|[ '])\\w)c/$1ao/"
+    # - "xform/((^|[ '])[dtgkhvuirzcs])v/$1ui/"
+    # - "xform/((^|[ '])\\w)b/$1in/"
+    # - "xform/((^|[ '])\\w)m/$1ian/"
+    # - "xform/(^|[ '])([aoe])\\2(\\w)/$1$2$3/"
+    # - "xform/(^|[ '])v/$1zh/"
+    # - "xform/(^|[ '])i/$1ch/"
+    # - "xform/(^|[ '])u/$1sh/"
+    # - "xform/((^|[ '])[jqxy])v/$1u/"
+    # - "xform/((^|[ '])[nl])v/$1ü/"
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase_bj
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+
+
+
+reverse_lookup:
+  dictionary: chaizi_flypy # stroke
+  enable_completion: true
+  prefix: "ab"
+  suffix: "'"
+  tips: 〔部件组字〕 # 〔筆畫〕
+  preedit_format:
+    # - xlit/hspnz/一丨丿丶乙/
+
+
+reverse_zrlf:
+  tag: reverse_zrlf
+  dictionary: zrlf # stroke
+  enable_completion: true
+  prefix: "olf"
+  suffix: "'"
+  tips: 〔自然兩分〕
+  preedit_format:
+    # - xlit/hspnz/一丨丿丶乙/
+
+reverse_stroke:
+  tag: reverse_stroke
+  dictionary: stroke # stroke
+  enable_completion: true
+  prefix: "ob"
+  suffix: "'"
+  tips: 〔筆畫〕 # 〔筆畫〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+
+# Emoji
+emoji:
+  option_name: emoji
+  opencc_config: emoji.json
+  inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
+
+
+# 简繁切换
+traditionalize:
+  option_name: traditionalization
+  opencc_config: s2t.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json
+  tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
+  tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
+  
+# 标点符号
+# punctuator 下面有三个子项：
+#   full_shape 全角标点映射
+#   half_shape 半角标点映射
+#   symbols    Rime 的预设配置是以 '/' 前缀开头输出一系列字符，自定义的 symbols_caps_v.yaml 修改成了 'V' 开头。
+punctuator:
+  full_shape:
+    __include: default:/punctuator/full_shape  # 从 default.yaml 导入配置
+  half_shape:
+    __include: default:/punctuator/half_shape  # 从 default.yaml 导入配置
+  symbols:
+    __include: symbols_caps_v:/symbols         # 从 symbols_caps_v.yaml 导入配置
+
+key_binder:
+  import_preset: default
+  bindings:
+    #- { when: composing, accept: Tab, send: '[' } ## 取消注释后：tab引导辅助码
+    - { when: composing, accept: Control+m, send: Return }
+    - { when: composing, accept: Control+w, send: Control+BackSpace }
+    - { when: has_menu, accept: semicolon, send: 2 }
+    # - { when: has_menu, accept: slash, send: 3 } # 用/进行选3
+    - { when: composing, accept: Control+i, send: Shift+Right }
+    - { when: composing, accept: Control+o, send: Shift+Left }
+    ## 对以下4行取消注释后：启用光标回退至特定音节后、补充辅助码的功能
+    ## （自然码等其他双拼用户请在 pinyin_switch.yaml 中设置）
+    #- { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
+    #- { when: composing, accept: Control+2, send_sequence: '{Home}{Shift+Right}{Shift+Right}[' }
+    #- { when: composing, accept: Control+3, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+    #- { when: composing, accept: Control+4, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+
+recognizer:
+  # import_preset: default
+  patterns:
+    uppercase: "^[A-Z].*$"
+    punct: '^/[015-9A-Za-z]+$' ## use "/er" instead of "/2"
+    ## associate schemes: 
+    # reverse_lookup: "^ab[a-z]*'?$" # "[[]b[a-z]*'?$"
+    # reverse_stroke: "^ob[A-Za-z]*$"
+    # reverse_zrlf: "^olf[A-Za-z]*$"
+    # quanpin: "^ap[a-z]*'?$"
+    # emojis: "^ae[a-z]*'?$" # "^ae.*$" 
+    # verbatim: "^as.*$"
+    # soft_capslock: "^au.*$"
+    # dbpy_flypy_help: "^ac.*$"
+    # easy_en_simp: "^aw[a-z]*"
+    # tex_translator: "^al(.*)$"
+    # func_translator: "^af(.*)$"
+
+menu:
+  page_size: 8
+
+quanpin:
+  tag: quanpin
+  dictionary: luna_pinyin
+  prism: luna_pinyin
+  enable_completion: true
+  prefix: "ap"
+  suffix: "'"
+  tips: "全拼"
+emojis:
+  tag: emojis
+  dictionary: emoji
+  enable_completion: true
+  prefix: "ae"
+  suffix: "'"
+  tips: " Emoji"
+verbatim:
+  tag: verbatim ## english; ascii
+  prefix: "as"
+  tips: "cii"
+soft_capslock:
+  dictionary: ""
+  user_dict: uppercase
+  tag: soft_capslock
+  prefix: "au"
+  tips: "临时大写"
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: true
+  initial_quality: 1
+dbpy_flypy_help:
+  dictionary: ""
+  user_dict: dbpy_flypy_help
+  tag: dbpy_flypy_help
+  prefix: "ac"
+  tips: "小鹤双拼查键"
+  db_class: stabledb
+  enable_completion: true
+  enable_sentence: false
+  initial_quality: 1
+easy_en_simp:
+  tag: easy_en_simp
+  dictionary: easy_en
+  enable_completion: true
+  enable_sentence: false
+  prefix: "aw"
+  # suffix: "'"
+  tips: "英文单词（可去元音）"
+  spelling_hints: 9
+  comment_format:
+    - xform/^.+$//
+tex_translator:
+  tag: tex_translator
+  prefix: "al"
+  tips: " TeX 公式"
+

@@ -1,0 +1,22 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: recipes/full
+  args:
+  description: >-
+    完整安装、更新
+install_files: >-
+  cn_dicts_cell/*.*
+  cn_dicts_common/*.*
+  cn_dicts_moqi/*.*
+  cn_dicts_xh/*.*
+  cn_dicts_zrm/*.*
+  custom_phrase/*.*
+  opencc/*.*
+  *.dict.yaml
+  *.yaml
+  *.gram
+  *.lua
+  lua/*.*
+  lua/cold_word_drop/*.*
+  lua/sbxlm/*.*

@@ -1,0 +1,15 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: recipes/zrm
+  args:
+  description: >-
+    自然码词库安装、更新
+install_files: >-
+  cn_dicts_cell/*.*
+  cn_dicts_common/*.*
+  cn_dicts_zrm/*.*
+  custom_phrase/*.*
+  opencc/*.*
+  *.dict.yaml
+  *.yaml

@@ -1,0 +1,16 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: recipes/all_dicts
+  args:
+  description: >-
+    所有词库安装、更新
+install_files: >-
+  cn_dicts_cell/*.*
+  cn_dicts_common/*.*
+  cn_dicts_moqi/*.*
+  cn_dicts_xh/*.*
+  cn_dicts_zrm/*.*
+  custom_phrase/*.*
+  opencc/*.*
+  *.dict.yaml
