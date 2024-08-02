@@ -4,7 +4,7 @@
 
 schema:
   schema_id: moqi_wan_zrm
-  name: 墨奇音形+自然码双拼
+  name: 墨奇音形+自然码双拼·万
   version: "2024-05-11"
   author:
     - gaboolic
@@ -42,7 +42,8 @@ speller:
   algebra:
     # todo全拼转双拼
     __include: moqi_speller.yaml:/zrm_speller # 自然码双拼
-    __include: moqi_speller.yaml:/moqi_aux # 墨奇辅助码
+    __patch:
+      __include: moqi_speller.yaml:/moqi_aux # 墨奇辅助码
 
 
 __include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
