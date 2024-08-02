@@ -41,15 +41,8 @@ speller:
   ## speller 未允许 aj 表示 an
   algebra:
     # todo全拼转双拼
-
-    - derive|^(.+);(\w)(\w)$|$1| # 纯双拼的情况
-    - derive|^(.+);(\w)(\w)$|$1$2| # 双拼+一位辅助码的情况
-    - derive|^(.+);(\w)(\w)$|$1[$2| # 双拼+[一位辅助码的情况
-    - abbrev|^(.+);(\w)(\w)$|$1$2$3| # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
-    - derive|^(.+);(\w)(\w)$|$1$2$3o| # 整句模式下，输入syffo 出单字 增强单字性能
-    - derive|^(.+);(\w)(\w)$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
-    # - derive/[[]// ## 取消注释后：直接引导2位辅助码；否则只能引导1位辅助码或者2位辅助码加/
-
+    __include: moqi_speller.yaml:/zrm_speller # 自然码双拼
+    __include: moqi_speller.yaml:/moqi_aux # 墨奇辅助码
 
 
 __include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
@@ -67,46 +60,6 @@ translator:
 
   enable_user_dict: false # 是否开启自动调频
   preedit_format:
-    # 复制用户输入, 一份转大写保持原样, 一份由正则转为全拼显示
-    # - xform/(^.*$)/\U$1\E\t => $1 <=/
-    # # 小鹤双拼转全拼, 忽略辅码
-    # - xform/([ '][aoe])(\w)\w{0,2}/$1$2/
-    # - xform/([ ']\w)([aeiou])\w{0,2}/$1$2/
-    # - xform/([ '][bpmfdtnljqx])n\w{0,2}/$1iao/
-    # - xform/([ ']\w)g\w{0,2}/$1eng/
-    # - xform/([ ']\w)q\w{0,2}/$1iu/
-    # - xform/([ ']\w)w\w{0,2}/$1ei/
-    # - xform/([ '][dtnlgkhjqxyvuirzcs])r\w{0,2}/$1uan/
-    # - xform/([ ']\w)t\w{0,2}/$1ve/
-    # - xform/([ ']\w)y\w{0,2}/$1un/
-    # - xform/([ '][dtnlgkhvuirzcs])o\w{0,2}/$1uo/
-    # - xform/([ ']\w)p\w{0,2}/$1ie/
-    # - xform/([ '][jqx])s\w{0,2}/$1iong/
-    # - xform/([ ']\w)s\w{0,2}/$1ong/
-    # - xform/([ ']\w)d\w{0,2}/$1ai/
-    # - xform/([ ']\w)f\w{0,2}/$1en/
-    # - xform/([ ']\w)h\w{0,2}/$1ang/
-    # - xform/([ ']\w)j\w{0,2}/$1an/
-    # - xform/([ '][gkhvuirzcs])k\w{0,2}/$1uai/
-    # - xform/([ ']\w)k\w{0,2}/$1ing/
-    # - xform/([ '][jqxnl])l\w{0,2}/$1iang/
-    # - xform/([ ']\w)l\w{0,2}/$1uang/
-    # - xform/([ ']\w)z\w{0,2}/$1ou/
-    # - xform/([ '][gkhvuirzcs])x\w{0,2}/$1ua/
-    # - xform/([ ']\w)x\w{0,2}/$1ia/
-    # - xform/([ ']\w)c\w{0,2}/$1ao/
-    # - xform/([ '][dtgkhvuirzcs])v\w{0,2}/$1ui/
-    # - xform/([ ']\w)b\w{0,2}/$1in/
-    # - xform/([ ']\w)m\w{0,2}/$1ian/
-    # - "xform/(^|[ '])v/$1zh/"
-    # - "xform/(^|[ '])i/$1ch/"
-    # - "xform/(^|[ '])u/$1sh/"
-    # - xform/([ '][jqxy])v\w{0,2}/$1u/
-    # - xform/([ '][nl])v\w{0,2}/$1ü/
-    # # 双拼编码大写转回小写
-    # - xform/(^[^a-z=<>]*)/\L$1\E/
-    # - xform/=> */[/
-    # - xform/ *<=/]/
 
 __patch:
   user_dict_set/prism: moqi_wan_zrm

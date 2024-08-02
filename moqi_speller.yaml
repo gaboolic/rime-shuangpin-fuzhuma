@@ -1,0 +1,47 @@
+zrm_speller:
+    - erase/^xx;.*$/
+    - derive/^([jqxy])u;.*$/$1v/
+    - derive/^([aoe])([ioun]);.*$/$1$1$2/
+    - xform/^([aoe])(ng)?;.*$/$1$1$2/
+    - xform/iu;.*$/Ⓠ/
+    - xform/[iu]a;.*$/Ⓦ/
+    - xform/[uv]an;.*$/Ⓡ/
+    - xform/[uv]e;.*$/Ⓣ/
+    - xform/ing$|uai;.*$/Ⓨ/
+    - xform/^sh/Ⓤ/
+    - xform/^ch/Ⓘ/
+    - xform/^zh/Ⓥ/
+    - xform/uo;.*$/Ⓞ/
+    - xform/[uv]n;.*$/Ⓟ/
+    - xform/(.)i?ong;.*$/$1Ⓢ/
+    - xform/[iu]ang;.*$/Ⓓ/
+    - xform/(.)en;.*$/$1Ⓕ/
+    - xform/(.)eng;.*$/$1Ⓖ/
+    - xform/(.)ang;.*$/$1Ⓗ/
+    - xform/ian;.*$/Ⓜ/
+    - xform/(.)an;.*$/$1Ⓙ/
+    - xform/iao;.*$/Ⓒ/
+    - xform/(.)ao;.*$/$1Ⓚ/
+    - xform/(.)ai;.*$/$1Ⓛ/
+    - xform/(.)ei;.*$/$1Ⓩ/
+    - xform/ie;.*$/Ⓧ/
+    - xform/ui;.*$/Ⓥ/
+    - xform/(.)ou;.*$/$1Ⓑ/
+    - xform/in;.*$/Ⓝ/
+    - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
+
+moqi_aux:
+    - derive|^(.+);(\w)(\w)$|$1| # 纯双拼的情况
+    - derive|^(.+);(\w)(\w)$|$1$2| # 双拼+一位辅助码的情况
+    - derive|^(.+);(\w)(\w)$|$1[$2| # 双拼+[一位辅助码的情况
+    - abbrev|^(.+);(\w)(\w)$|$1$2$3| # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+    - derive|^(.+);(\w)(\w)$|$1$2$3o| # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.+);(\w)(\w)$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
+
+flypy_aux:
+    - derive|^(.+);.+;(\w)(\w)$|$1| # 纯双拼的情况
+    - derive|^(.+);.+;(\w)(\w)$|$1$2| # 双拼+一位辅助码的情况
+    - derive|^(.+);.+;(\w)(\w)$|$1[$2| # 双拼+[一位辅助码的情况
+    - abbrev|^(.+);.+;(\w)(\w)$|$1$2$3| # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+    - derive|^(.+);.+;(\w)(\w)$|$1$2$3o| # 整句模式下，输入syffo 出单字 增强单字性能
+    - derive|^(.+);.+;(\w)(\w)$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
