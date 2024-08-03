@@ -109,6 +109,38 @@ def get_pre2_aux_code_map(file_list):
                                 dict_data[character].append(encoding_pre)
     return dict_data
 
+def get_hu_aux_code_map(file_list):
+    dict_data = {}
+    for file in file_list:
+        with open(file, 'r', encoding='utf-8') as dict_file:
+            for line in dict_file:
+                if "\t" in line:
+                    # 的	〔白勹丶&nbsp;·&nbsp;unid〕
+                    params = line.strip().split('\t')
+                    character = params[0]
+                    encoding = params[1][1:-1]
+                    encodeings = encoding.split("&nbsp;·&nbsp;")
+                    chaifen = encodeings[0]
+                    all_code = encodeings[1]
+                    #print(encoding)
+                    shoumo = all_code[0]
+
+                    #print(line)
+                    if len(chaifen) == 1:
+                        shoumo += all_code[-1]
+                    else:
+                        shoumo += all_code[len(chaifen)-1]
+                    
+                    
+                    #print(shoumo)
+                    
+                    if character not in dict_data:
+                        dict_data[character] = [shoumo]
+                    else:
+                        if shoumo not in dict_data[character]:
+                            dict_data[character].append(shoumo)
+    return dict_data
+
 
 # Function to update missing encodings in the file
 def update_missing_encodings(file_path, write_file_path, dict_data):
@@ -196,7 +228,8 @@ dict_data['moqi'] = get_aux_code_map(['./opencc/moqi_chaifen.txt','./opencc/moqi
 dict_data['xh'] = get_xh_aux_code_map(['./program/flypydz.yaml'])
 dict_data['zrm'] = get_zrm_aux_code_map(['./program/moran.chars.dict.yaml'])
 dict_data['cj'] = get_shoumo_aux_code_map(['./cangjie5.dict.yaml'])
-dict_data['hm'] = get_pre2_aux_code_map(['./program/tiger.dict.yaml'])
+# dict_data['hm'] = get_pre2_aux_code_map(['./program/tiger.dict.yaml'])
+dict_data['hm'] = get_hu_aux_code_map(['./program/hu_cf.txt'])
 dict_data['wb'] = get_pre2_aux_code_map(['./program/wubi86.dict.yaml'])
 
 print(dict_data['moqi']['火'])
