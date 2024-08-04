@@ -36,31 +36,32 @@ flypy_speller:
     - derive/^([jqxy])u(;.*)$/$1v$2/
     - derive/^([aoe])([ioun])/$1$1$2/
     - xform/^([aoe])(ng)?/$1$1$2/
-    - xform/iu/Ⓠ/
-    - xform/(.)ei/$1Ⓦ/
-    - xform/uan/Ⓡ/
-    - xform/[uv]e/Ⓣ/
-    - xform/un/Ⓨ/
+    - xform/iu(;.*)/Ⓠ$1/
+    - xform/(.)ei(;.*)/$1Ⓦ$2/
+    - xform/uan(;.*)/Ⓡ$1/
+    - xform/[uv]e(;.*)/Ⓣ$1/
+    - xform/un(;.*)/Ⓨ$1/
     - xform/^sh/Ⓤ/
     - xform/^ch/Ⓘ/
     - xform/^zh/Ⓥ/
-    - xform/uo/Ⓞ/
-    - xform/ie/Ⓟ/
-    - xform/(.)i?ong/$1Ⓢ/
-    - xform/ing|uai/Ⓚ/
-    - xform/(.)ai/$1Ⓓ/
+    - xform/uo(;.*)/Ⓞ$1/
+    - xform/ie(;.*)/Ⓟ$1/
+    - xform/(.)i?ong(;.*)/$1Ⓢ$2/
+    - xform/ing(;.*)/Ⓚ$1/
+    - xform/uai(;.*)/Ⓚ$1/
+    - xform/(.)ai(;.*)/$1Ⓓ$2/
     - xform/(.)eng(;.*)/$1Ⓖ$2/
     - xform/(.)en(;.*)/$1Ⓕ$2/
-    - xform/[iu]ang/Ⓛ/
-    - xform/(.)ang/$1Ⓗ/
-    - xform/ian/Ⓜ/
-    - xform/(.)an/$1Ⓙ/
-    - xform/(.)ou/$1Ⓩ/
+    - xform/[iu]ang(;.*)/Ⓛ$1/
+    - xform/(.)ang(;.*)/$1Ⓗ$2/
+    - xform/ian(;.*)/Ⓜ$1/
+    - xform/(.)an(;.*)/$1Ⓙ$2/
+    - xform/(.)ou(;.*)/$1Ⓩ$2/
     - xform/iao(;.*)/Ⓝ$1/
-    - xform/[iu]a/Ⓧ/
-    - xform/(.)ao/$1Ⓒ/
-    - xform/ui/Ⓥ/
-    - xform/in/Ⓑ/
+    - xform/[iu]a(;.*)/Ⓧ$1/
+    - xform/(.)ao(;.*)/$1Ⓒ$2/
+    - xform/ui(;.*)/Ⓥ$1/
+    - xform/in(;.*)/Ⓑ$1/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwrtyuiopsdfghjklzxcvbnm/
 
 ms_speller:
