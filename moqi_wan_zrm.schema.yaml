@@ -61,12 +61,17 @@ translator:
   enable_user_dict: false # 是否开启自动调频
   preedit_format:
 
+aux_patch:
+  __include: moqi_speller.yaml:/zrm_aux
+  __append:
+    __include: moqi_speller.yaml:/moqi_aux
+
 __patch:
   user_dict_set/prism: moqi_wan_zrm
   add_user_dict/prism: moqi_wan_zrm
   big_char_set/prism: moqi_wan_big_zrm
   speller/algebra/+:
-    __include: moqi_speller.yaml:/moqi_aux
+    __include: aux_patch
 
 
 # 快捷键
