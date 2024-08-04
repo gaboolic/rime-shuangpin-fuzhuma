@@ -13,6 +13,7 @@ schema_list:
   # - schema: moqi_ms # 墨奇辅助码微软双拼版 大词库版本 非自动上屏，支持4万字
   # - schema: flypy_bingji # 并击
   - schema: moqi_wan_zrm
+  - schema: moqi_wan_flypy
 
 switcher:
   caption: 〔方案選單〕
