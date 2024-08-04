@@ -67,6 +67,8 @@ aux_patch:
     __include: moqi_speller.yaml:/common_aux
 
 __patch:
+  add_user_dict/dictionary: moqi_wan.extended
+  user_dict_set/dictionary: moqi_wan.extended
   user_dict_set/prism: moqi_wan_sogou
   add_user_dict/prism: moqi_wan_sogou
   big_char_set/prism: moqi_wan_big_sogou
