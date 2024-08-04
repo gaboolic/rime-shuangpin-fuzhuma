@@ -14,6 +14,7 @@ schema_list:
   # - schema: flypy_bingji # 并击
   - schema: moqi_wan_zrm
   - schema: moqi_wan_flypy
+  - schema: moqi_wan_ms
 
 switcher:
   caption: 〔方案選單〕
