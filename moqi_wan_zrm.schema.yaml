@@ -56,7 +56,7 @@ translator:
   ##  改为 1 则是只显示单字的输入码，依此类推。
   spelling_hints: 1
   comment_format:
-    - "xform/(^|[ '])[^[]+[[]/$1/" ## todo 编码提示只显示辅助码部分
+    __include: moqi_speller.yaml:/zrm_aux_show
 
   enable_user_dict: false # 是否开启自动调频
   preedit_format:
