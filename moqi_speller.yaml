@@ -7,7 +7,7 @@ zrm_speller:
     - xform/[iu]a;.*$/Ⓦ/
     - xform/[uv]an;.*$/Ⓡ/
     - xform/[uv]e;.*$/Ⓣ/
-    - xform/ing$|uai;.*$/Ⓨ/
+    - xform/ing;.*$|uai;.*$/Ⓨ/
     - xform/^sh/Ⓤ/
     - xform/^ch/Ⓘ/
     - xform/^zh/Ⓥ/
