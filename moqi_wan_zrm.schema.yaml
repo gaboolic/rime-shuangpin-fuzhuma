@@ -64,7 +64,7 @@ translator:
 aux_patch:
   __include: moqi_speller.yaml:/zrm_aux
   __append:
-    __include: moqi_speller.yaml:/moqi_aux
+    __include: moqi_speller.yaml:/common_aux
 
 __patch:
   user_dict_set/prism: moqi_wan_zrm

@@ -61,9 +61,9 @@ translator:
   preedit_format:
 
 aux_patch:
-  #__include: moqi_speller.yaml:/hu_aux
+  __include: moqi_speller.yaml:/moqi_aux
   __append:
-    __include: moqi_speller.yaml:/moqi_aux
+    __include: moqi_speller.yaml:/common_aux
 
 __patch:
   translator/prism: moqi_wan_flypymo
