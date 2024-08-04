@@ -18,7 +18,9 @@ def get_aux_code_map(file_list):
             for line in dict_file:
                 if "\t" not in line:
                     continue
-                character, encoding, chaifen = line.strip().split('\t')
+                params = line.strip().split('\t')
+                character = params[0]
+                encoding = params[1]
                 if "'" not in encoding:
                     if character not in dict_data:
                         dict_data[character] = [encoding]
@@ -227,6 +229,8 @@ file_list = ['8105.dict.yaml', '41448.dict.yaml', 'base.dict.yaml', 'ext.dict.ya
 dict_data['moqi'] = get_aux_code_map(['./opencc/moqi_chaifen.txt','./opencc/moqi_chaifen_rongcuo.txt'])
 dict_data['xh'] = get_xh_aux_code_map(['./program/flypydz.yaml'])
 dict_data['zrm'] = get_zrm_aux_code_map(['./program/moran.chars.dict.yaml'])
+dict_data['jdh'] = get_aux_code_map(['./program/简单鹤有理版V6.0.3手心辅助码.txt'])
+
 dict_data['cj'] = get_shoumo_aux_code_map(['./cangjie5.dict.yaml'])
 # dict_data['hm'] = get_pre2_aux_code_map(['./program/tiger.dict.yaml'])
 dict_data['hm'] = get_hu_aux_code_map(['./program/hu_cf.txt'])
