@@ -40,7 +40,8 @@ speller:
   delimiter: " '"
   ## speller 未允许 aj 表示 an
   algebra:
-    # todo全拼转双拼
+    # ^(.+?);.*$
+    #- derive|^(.+?);.*$|$1| # 纯双拼的情况
     __include: moqi_speller.yaml:/zrm_speller # 自然码双拼
 
 
