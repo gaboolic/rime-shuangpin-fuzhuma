@@ -99,7 +99,7 @@ ms_speller:
     - xform/^(\w+?)[iu]a(;.*)/$1Ⓦ$2/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
 
-sogou_spwller:
+sogou_speller:
     - derive/^([jqxy])u(;.*)$/$1v$2/
     - derive/^([aoe].*)(;.*)$/o$1$2/
     - xform/^([ae])(.*)(;.*)$/$1$1$2$3/
@@ -132,6 +132,37 @@ sogou_spwller:
     - xform/^(\w+?)in(;.*)$/$1Ⓝ$2/
     - xform/^(\w+?)ing(;.*)$/$1;$2/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
+
+abc_speller:
+    - xform/^zh/Ⓐ/
+    - xform/^ch/Ⓔ/
+    - xform/^sh/Ⓥ/
+    - xform/^([aoe].*)(;.*)$/Ⓞ$1$2/
+    - xform/^(\w+?)ei(;.*)$/$1Ⓠ$2/
+    - xform/^(\w+?)ian(;.*)$/$1Ⓦ$2/
+    - xform/^(\w+?)er(;.*)$/$1Ⓡ$2/
+    - xform/^(\w+?)iu(;.*)$/$1Ⓡ$2/
+    - xform/^(\w+?)[iu]ang(;.*)$/$1Ⓣ$2/
+    - xform/^(\w+?)ing(;.*)$/$1Ⓨ$2/
+    - xform/^(\w+?)uo(;.*)$/$1Ⓞ$2/
+    - xform/^(\w+?)uan(;.*)$/$1Ⓟ$2/
+    - xform/^(\w+?)i?ong(;.*)$/$1Ⓢ$2/
+    - xform/^(\w+?)[iu]a(;.*)$/$1Ⓓ$2/
+    - xform/^(\w+?)en(;.*)$/$1Ⓕ$2/
+    - xform/^(\w+?)eng(;.*)$/$1Ⓖ$2/
+    - xform/^(\w+?)ang(;.*)$/$1Ⓗ$2/
+    - xform/^(\w+?)an(;.*)$/$1Ⓙ$2/
+    - xform/^(\w+?)iao(;.*)$/$1Ⓩ$2/
+    - xform/^(\w+?)ao(;.*)$/$1Ⓚ$2/
+    - xform/^(\w+?)in(;.*)$/$1Ⓒ$2/
+    - xform/^(\w+?)uai(;.*)$/$1Ⓒ$2/
+    - xform/^(\w+?)ai(;.*)$/$1Ⓛ$2/
+    - xform/^(\w+?)ie(;.*)$/$1Ⓧ$2/
+    - xform/^(\w+?)ou(;.*)$/$1Ⓑ$2/
+    - xform/^(\w+?)un(;.*)$/$1Ⓝ$2/
+    - xform/^(\w+?)[uv]e(;.*)$/$1Ⓜ$2/
+    - xform/^(\w+?)ui(;.*)$/$1Ⓜ$2/
+    - xlit/ⓆⓌⒺⓇⓉⓎⓄⓅⒶⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwertyopasdfghjklzxcvbnm/
 
 
 
