@@ -3,8 +3,8 @@
 # https://github.com/gaboolic/rime-shuangpin-fuzhuma
 
 schema:
-  schema_id: moqi_wan_zrm
-  name: 墨奇音形万+自然码双拼·自然码
+  schema_id: moqi_wan_jdh
+  name: 墨奇音形万+小鹤双拼·简单鹤
   version: "2024-05-11"
   author:
     - gaboolic
@@ -42,7 +42,7 @@ speller:
   algebra:
     # ^(.+?);.*$
     #- derive|^(.+?);.*$|$1| # 纯双拼的情况
-    __include: moqi_speller.yaml:/zrm_speller # 自然码双拼
+    __include: moqi_speller.yaml:/flypy_speller # 小鹤双拼
 
 
 __include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
@@ -50,26 +50,26 @@ __include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
 translator:
   dictionary: moqi_wan.extended
   initial_quality: 10000
-  prism: moqi_wan_zrm
   enable_completion: false
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
   ##  改为 1 则是只显示单字的输入码，依此类推。
   spelling_hints: 1
   comment_format:
-    __include: moqi_speller.yaml:/zrm_aux_show
+    __include: moqi_speller.yaml:/jdh_aux_show
 
   enable_user_dict: false # 是否开启自动调频
   preedit_format:
 
 aux_patch:
-  __include: moqi_speller.yaml:/zrm_aux
+  __include: moqi_speller.yaml:/jdh_aux
   __append:
     __include: moqi_speller.yaml:/moqi_aux
 
 __patch:
-  user_dict_set/prism: moqi_wan_zrm
-  add_user_dict/prism: moqi_wan_zrm
-  big_char_set/prism: moqi_wan_big_zrm
+  translator/prism: moqi_wan_jdh
+  user_dict_set/prism: moqi_wan_jdh
+  add_user_dict/prism: moqi_wan_jdh
+  big_char_set/prism: moqi_wan_big_jdh
   speller/algebra/+:
     __include: aux_patch
 
@@ -137,7 +137,7 @@ key_binder:
 
 custom_phrase:
   dictionary: ""
-  user_dict: custom_phrase/custom_phrase_zrm
+  user_dict: custom_phrase/custom_phrase
   db_class: stabledb
   enable_completion: false
   enable_sentence: false

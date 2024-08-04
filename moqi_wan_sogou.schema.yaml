@@ -4,7 +4,7 @@
 
 schema:
   schema_id: moqi_wan_sogou
-  name: 墨奇音形+搜狗双拼·万
+  name: 墨奇音形万+搜狗双拼·墨奇
   version: "2024-05-11"
   author:
     - gaboolic
@@ -56,17 +56,22 @@ translator:
   ##  改为 1 则是只显示单字的输入码，依此类推。
   spelling_hints: 1
   comment_format:
-    - "xform/(^|[ '])[^[]+[[]/$1/" ## todo 编码提示只显示辅助码部分
+    __include: moqi_speller.yaml:/moqi_aux_show
 
   enable_user_dict: false # 是否开启自动调频
   preedit_format:
+
+aux_patch:
+  # __include: moqi_speller.yaml:/hu_aux
+  __append:
+    __include: moqi_speller.yaml:/moqi_aux
 
 __patch:
   user_dict_set/prism: moqi_wan_sogou
   add_user_dict/prism: moqi_wan_sogou
   big_char_set/prism: moqi_wan_big_sogou
   speller/algebra/+:
-    __include: moqi_speller.yaml:/moqi_aux
+    __include: aux_patch
 
 
 # 快捷键
