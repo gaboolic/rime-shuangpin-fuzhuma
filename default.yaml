@@ -15,6 +15,7 @@ schema_list:
   - schema: moqi_wan_zrm
   - schema: moqi_wan_flypy
   - schema: moqi_wan_ms
+  - schema: moqi_wan_sogou
 
 switcher:
   caption: 〔方案選單〕

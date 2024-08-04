@@ -96,6 +96,40 @@ ms_speller:
     - xform/[iu]a/Ⓦ/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
 
+sogou_spwller:
+    - derive/^([jqxy])u(;.*)$/$1v$2/
+    - derive/^([aoe].*)(;.*)$/o$1$2/
+    - xform/^([ae])(.*)(;.*)$/$1$1$2$3/
+    - xform/iu(;.*)$/Ⓠ$1/
+    - xform/[iu]a(;.*)$/Ⓦ$1/
+    - xform/er(;.*)$/Ⓡ$1/
+    - xform/[uv]an(;.*)$/Ⓡ$1/
+    - xform/[uv]e(;.*)$/Ⓣ$1/
+    - xform/v(;.*)$/Ⓨ$1/
+    - xform/uai(;.*)$/Ⓨ$1/
+    - xform/^sh/Ⓤ/
+    - xform/^ch/Ⓘ/
+    - xform/^zh/Ⓥ/
+    - xform/uo(;.*)$/Ⓞ$1/
+    - xform/[uv]n(;.*)$/Ⓟ$1/
+    - xform/(.)i?ong(;.*)$/$1Ⓢ$2/
+    - xform/[iu]ang(;.*)$/Ⓓ$1/
+    - xform/(.)en(;.*)$/$1Ⓕ$2/
+    - xform/(.)eng(;.*)$/$1Ⓖ$2/
+    - xform/(.)ang(;.*)$/$1Ⓗ$2/
+    - xform/ian(;.*)$/Ⓜ$1/
+    - xform/(.)an(;.*)$/$1Ⓙ$2/
+    - xform/iao(;.*)$/Ⓒ$1/
+    - xform/(.)ao(;.*)$/$1Ⓚ$2/
+    - xform/(.)ai(;.*)$/$1Ⓛ$2/
+    - xform/(.)ei(;.*)$/$1Ⓩ$2/
+    - xform/ie(;.*)$/Ⓧ$1/
+    - xform/ui(;.*)$/Ⓥ$1/
+    - xform/(.)ou(;.*)$/$1Ⓑ$2/
+    - xform/in(;.*)$/Ⓝ$1/
+    - xform/ing(;.*)$/;$1/
+    - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
+
 
 
 # 墨奇;鹤形;自然码;简单鹤;仓颉首末;虎码首末;五笔前2
@@ -118,24 +152,18 @@ moqi_aux:
 
 flypy_aux:
     - xform|^(.{2});.*?;(.*?);.*$|$1;$2|
-    __include: moqi_aux
 
 zrm_aux:
     - xform|^(.{2});.*?;.*?;(.*?);.*$|$1;$2|
-    __include: moqi_aux
 
 jdh_aux:
     - xform|^(.{2});.*?;.*?;.*?;(.*?);.*$|$1;$2|
-    __include: moqi_aux
 
 cj_aux:
     - xform|^(.{2});.*?;.*?;.*?;.*?;(.*?);.*$|$1;$2|
-    __include: moqi_aux
 
 hu_aux:
     - xform|^(.{2});.*?;.*?;.*?;.*?;.*?;(.*?);.*$|$1;$2|
-    __include: moqi_aux
 
 wb_aux:
     - xform|^(.{2});.*?;.*?;.*?;.*?;.*?;.*?;(.*?);.*$|$1;$2|
-    __include: moqi_aux

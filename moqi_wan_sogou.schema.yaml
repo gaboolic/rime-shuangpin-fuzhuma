@@ -3,8 +3,8 @@
 # https://github.com/gaboolic/rime-shuangpin-fuzhuma
 
 schema:
-  schema_id: moqi_wan_zrm
-  name: 墨奇音形+自然码双拼·万
+  schema_id: moqi_wan_sogou
+  name: 墨奇音形+搜狗双拼·万
   version: "2024-05-11"
   author:
     - gaboolic
@@ -33,7 +33,7 @@ speller:
   auto_select: true
   auto_select_pattern: ^[a-z]+/|^[a-df-zA-DF-Z]\w{3}|^e\w{4}
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
-  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[/|
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[/|;
   # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
   initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
@@ -42,7 +42,7 @@ speller:
   algebra:
     # ^(.+?);.*$
     #- derive|^(.+?);.*$|$1| # 纯双拼的情况
-    __include: moqi_speller.yaml:/zrm_speller # 自然码双拼
+    __include: moqi_speller.yaml:/sogou_speller # 自然码双拼
 
 
 __include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
@@ -50,7 +50,7 @@ __include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
 translator:
   dictionary: moqi_wan.extended
   initial_quality: 10000
-  prism: moqi_wan_zrm
+  prism: moqi_wan_sogou
   enable_completion: false
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
   ##  改为 1 则是只显示单字的输入码，依此类推。
@@ -62,9 +62,9 @@ translator:
   preedit_format:
 
 __patch:
-  user_dict_set/prism: moqi_wan_zrm
-  add_user_dict/prism: moqi_wan_zrm
-  big_char_set/prism: moqi_wan_big_zrm
+  user_dict_set/prism: moqi_wan_sogou
+  add_user_dict/prism: moqi_wan_sogou
+  big_char_set/prism: moqi_wan_big_sogou
   speller/algebra/+:
     __include: moqi_speller.yaml:/moqi_aux
 
@@ -76,7 +76,7 @@ key_binder:
     #- { when: composing, accept: Tab, send: '[' } ## 取消注释后：tab引导辅助码
     - { when: composing, accept: Control+m, send: Return }
     - { when: composing, accept: Control+w, send: Control+BackSpace }
-    - { when: has_menu, accept: semicolon, send: 2 }
+    # - { when: has_menu, accept: semicolon, send: 2 }
     # - { when: has_menu, accept: slash, send: 3 } # 用/进行选3
     - { when: composing, accept: Control+i, send: Shift+Right }
     - { when: composing, accept: Control+o, send: Shift+Left }
