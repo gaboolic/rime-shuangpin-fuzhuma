@@ -68,33 +68,35 @@ ms_speller:
     - derive/^([jqxy])u(;.*)$/$1v$2/
     - derive/^([aoe].*)(;.*)$/o$1$2/
     - xform/^([ae])(.*)(;.*)$/$1$1$2$3/
-    - xform/iu/Ⓠ/
-    - xform/er|[uv]an/Ⓡ/
-    - xform/[uv]e/Ⓣ/
-    - xform/v$|uai/Ⓨ/
+    - xform/^(\w+?)iu(;.*)/$1Ⓠ$2/
+    - xform/^(\w+?)er(;.*)/$1Ⓡ$2/
+    - xform/^(\w+?)[uv]an(;.*)/$1Ⓡ$2/
+    - xform/^(\w+?)[uv]e(;.*)/$1Ⓣ$2/
+    - xform/^(\w+?)v(;.*)/$1Ⓨ$2/
+    - xform/^(\w+?)uai(;.*)/$1Ⓨ$2/
     - xform/^sh/Ⓤ/
     - xform/^ch/Ⓘ/
     - xform/^zh/Ⓥ/
-    - xform/uo/Ⓞ/
-    - xform/[uv]n/Ⓟ/
-    - xform/(.)i?ong/$1Ⓢ/
-    - xform/[iu]ang/Ⓓ/
-    - xform/(.)eng/$1Ⓖ/
-    - xform/(.)en/$1Ⓕ/
-    - xform/(.)ang/$1Ⓗ/
-    - xform/ian/Ⓜ/
-    - xform/(.)an/$1Ⓙ/
-    - xform/iao/Ⓒ/
-    - xform/(.)ao/$1Ⓚ/
-    - xform/(.)ai/$1Ⓛ/
-    - xform/(.)ei/$1Ⓩ/
-    - xform/ie(;.*)/Ⓧ$1/
-    - xform/ui/Ⓥ/
+    - xform/^(\w+?)uo(;.*)/$1Ⓞ$2/
+    - xform/^(\w+?)[uv]n(;.*)/$1Ⓟ$2/
+    - xform/^(\w+?)i?ong(;.*)/$1Ⓢ$2/
+    - xform/^(\w+?)[iu]ang(;.*)/$1Ⓓ$2/
+    - xform/^(\w+?)eng(;.*)/$1Ⓖ$2/
+    - xform/^(\w+?)en(;.*)/$1Ⓕ$2/
+    - xform/^(\w+?)ang(;.*)/$1Ⓗ$2/
+    - xform/^(\w+?)ian(;.*)/$1Ⓜ$2/
+    - xform/^(\w+?)an(;.*)/$1Ⓙ$2/
+    - xform/^(\w+?)iao(;.*)/$1Ⓒ$2/
+    - xform/^(\w+?)ao(;.*)/$1Ⓚ$2/
+    - xform/^(\w+?)ai(;.*)/$1Ⓛ$2/
+    - xform/^(\w+?)ei(;.*)/$1Ⓩ$2/
+    - xform/^(\w+?)ie(;.*)/$1Ⓧ$2/
+    - xform/^(\w+?)ui(;.*)/$1Ⓥ$2/
     - derive/Ⓣ/Ⓥ/
-    - xform/(.)ou(;.*)/$1Ⓑ$2/
-    - xform/ing(;.*)/;$1/
-    - xform/in/Ⓝ/
-    - xform/[iu]a/Ⓦ/
+    - xform/^(\w+?)ou(;.*)/$1Ⓑ$2/
+    - xform/^(\w+?)ing(;.*)/$1;$2/
+    - xform/^(\w+?)in(;.*)/$1Ⓝ$2/
+    - xform/^(\w+?)[iu]a(;.*)/$1Ⓦ$2/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
 
 sogou_spwller:
