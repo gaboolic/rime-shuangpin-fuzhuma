@@ -34,8 +34,8 @@ zrm_speller:
 flypy_speller:
     #- erase/^xx$/
     - derive/^([jqxy])u(;.*)$/$1v$2/
-    - derive/^([aoe])([ioun])/$1$1$2/
-    - xform/^([aoe])(ng)?/$1$1$2/
+    - derive/^([aoe])([ioun])(;.*)$/$1$1$2$3/
+    - xform/^([aoe])(ng)?(;.*)$/$1$1$2$3/
     - xform/^(\w+?)iu(;.*)/$1Ⓠ$2/
     - xform/^(\w+?)ei(;.*)/$1Ⓦ$2/
     - xform/^(\w+?)uan(;.*)/$1Ⓡ$2/
