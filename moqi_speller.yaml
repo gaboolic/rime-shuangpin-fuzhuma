@@ -8,9 +8,6 @@ zrm_speller:
     - xform/^(\w+?)[uv]e(;.*)$/$1Ⓣ$2/
     - xform/^(\w+?)ing(;.*)$/$1Ⓨ$2/
     - xform/^(\w+?)uai(;.*)$/$1Ⓨ$2/
-    - xform/^sh/Ⓤ/
-    - xform/^ch/Ⓘ/
-    - xform/^zh/Ⓥ/
     - xform/^(\w+?)uo(;.*)$/$1Ⓞ$2/
     - xform/^(\w+?)[uv]n(;.*)$/$1Ⓟ$2/
     - xform/^(\w+?)i?ong(;.*)$/$1Ⓢ$2/
@@ -29,6 +26,9 @@ zrm_speller:
     - xform/^(\w+?)ou(;.*)$/$1Ⓑ$2/
     - xform/^(\w+?)in(;.*)$/$1Ⓝ$2/
     - xform/^(\w+?)[iu]a(;.*)$/$1Ⓦ$2/
+    - xform/^sh/Ⓤ/
+    - xform/^ch/Ⓘ/
+    - xform/^zh/Ⓥ/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
 
 flypy_speller:
@@ -41,9 +41,6 @@ flypy_speller:
     - xform/^(\w+?)uan(;.*)/$1Ⓡ$2/
     - xform/^(\w+?)[uv]e(;.*)/$1Ⓣ$2/
     - xform/^(\w+?)un(;.*)/$1Ⓨ$2/
-    - xform/^sh/Ⓤ/
-    - xform/^ch/Ⓘ/
-    - xform/^zh/Ⓥ/
     - xform/^(\w+?)uo(;.*)/$1Ⓞ$2/
     - xform/^(\w+?)ie(;.*)/$1Ⓟ$2/
     - xform/^(\w+?)i?ong(;.*)/$1Ⓢ$2/
@@ -62,6 +59,9 @@ flypy_speller:
     - xform/^(\w+?)ao(;.*)/$1Ⓒ$2/
     - xform/^(\w+?)ui(;.*)/$1Ⓥ$2/
     - xform/^(\w+?)in(;.*)/$1Ⓑ$2/
+    - xform/^sh/Ⓤ/
+    - xform/^ch/Ⓘ/
+    - xform/^zh/Ⓥ/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwrtyuiopsdfghjklzxcvbnm/
 
 ms_speller:
@@ -74,9 +74,6 @@ ms_speller:
     - xform/^(\w+?)[uv]e(;.*)/$1Ⓣ$2/
     - xform/^(\w+?)v(;.*)/$1Ⓨ$2/
     - xform/^(\w+?)uai(;.*)/$1Ⓨ$2/
-    - xform/^sh/Ⓤ/
-    - xform/^ch/Ⓘ/
-    - xform/^zh/Ⓥ/
     - xform/^(\w+?)uo(;.*)/$1Ⓞ$2/
     - xform/^(\w+?)[uv]n(;.*)/$1Ⓟ$2/
     - xform/^(\w+?)i?ong(;.*)/$1Ⓢ$2/
@@ -97,6 +94,9 @@ ms_speller:
     - xform/^(\w+?)ing(;.*)/$1;$2/
     - xform/^(\w+?)in(;.*)/$1Ⓝ$2/
     - xform/^(\w+?)[iu]a(;.*)/$1Ⓦ$2/
+    - xform/^sh/Ⓤ/
+    - xform/^ch/Ⓘ/
+    - xform/^zh/Ⓥ/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
 
 sogou_speller:
@@ -110,9 +110,6 @@ sogou_speller:
     - xform/^(\w+?)[uv]e(;.*)$/$1Ⓣ$2/
     - xform/^(\w+?)v(;.*)$/$1Ⓨ$2/
     - xform/^(\w+?)uai(;.*)$/$1Ⓨ$2/
-    - xform/^sh/Ⓤ/
-    - xform/^ch/Ⓘ/
-    - xform/^zh/Ⓥ/
     - xform/^(\w+?)uo(;.*)$/$1Ⓞ$2/
     - xform/^(\w+?)[uv]n(;.*)$/$1Ⓟ$2/
     - xform/^(\w+?)i?ong(;.*)$/$1Ⓢ$2/
@@ -131,12 +128,12 @@ sogou_speller:
     - xform/^(\w+?)ou(;.*)$/$1Ⓑ$2/
     - xform/^(\w+?)in(;.*)$/$1Ⓝ$2/
     - xform/^(\w+?)ing(;.*)$/$1;$2/
+    - xform/^sh/Ⓤ/
+    - xform/^ch/Ⓘ/
+    - xform/^zh/Ⓥ/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
 
 abc_speller:
-    - xform/^zh/Ⓐ/
-    - xform/^ch/Ⓔ/
-    - xform/^sh/Ⓥ/
     - xform/^([aoe].*)(;.*)$/Ⓞ$1$2/
     - xform/^(\w+?)ei(;.*)$/$1Ⓠ$2/
     - xform/^(\w+?)ian(;.*)$/$1Ⓦ$2/
@@ -162,6 +159,9 @@ abc_speller:
     - xform/^(\w+?)un(;.*)$/$1Ⓝ$2/
     - xform/^(\w+?)[uv]e(;.*)$/$1Ⓜ$2/
     - xform/^(\w+?)ui(;.*)$/$1Ⓜ$2/
+    - xform/^zh/Ⓐ/
+    - xform/^ch/Ⓔ/
+    - xform/^sh/Ⓥ/
     - xlit/ⓆⓌⒺⓇⓉⓎⓄⓅⒶⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwertyopasdfghjklzxcvbnm/
 
 ziguang_speller:
@@ -170,11 +170,8 @@ ziguang_speller:
     - xform/^(\w+?)en(;.*)$/$1Ⓦ$2/
     - xform/^(\w+?)eng(;.*)$/$1Ⓣ$2/
     - xform/^(\w+?)in$|uai(;.*)$/$1Ⓨ$2/
-    - xform/^zh/Ⓤ/
-    - xform/^sh/Ⓘ/
     - xform/^(\w+?)uo(;.*)$/$1Ⓞ$2/
     - xform/^(\w+?)ai(;.*)$/$1Ⓟ$2/
-    - xform/^ch/Ⓐ/
     - xform/^(\w+?)[iu]ang(;.*)$/$1Ⓖ$2/
     - xform/^(\w+?)ang(;.*)$/$1Ⓢ$2/  # ang should be placed after iang/uang
     - xform/^(\w+?)ie(;.*)$/$1Ⓓ$2/
@@ -194,6 +191,9 @@ ziguang_speller:
     - xform/^(\w+?)un(;.*)$/$1Ⓜ$2/
     - xform/^(\w+?)ao(;.*)$/$1Ⓠ$2/ # ao should be placed after iao
     - xform/^(\w+?)an(;.*)$/$1Ⓡ$2/ # an should be placed after uan/ian
+    - xform/^zh/Ⓤ/
+    - xform/^sh/Ⓘ/
+    - xform/^ch/Ⓐ/
     - xlit/ⓌⓉⓎⓊⒾⓄⓅⒶⒼⓈⒹⒻⒽⒿⓀⓁⓏⓍⒷⓃⓂⓆⓇ/wtyuiopagsdfhjklzxbnmqr/
 
 
