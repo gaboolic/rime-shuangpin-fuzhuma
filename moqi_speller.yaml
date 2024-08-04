@@ -164,6 +164,38 @@ abc_speller:
     - xform/^(\w+?)ui(;.*)$/$1Ⓜ$2/
     - xlit/ⓆⓌⒺⓇⓉⓎⓄⓅⒶⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwertyopasdfghjklzxcvbnm/
 
+ziguang_speller:
+    - derive/^([jqxy])u(;.*)$/$1v$2/
+    - xform/^([aoe].*)(;.*)$/Ⓞ$1$2/  # 添上固定的零聲母o，先標記爲大寫O
+    - xform/^(\w+?)en(;.*)$/$1Ⓦ$2/
+    - xform/^(\w+?)eng(;.*)$/$1Ⓣ$2/
+    - xform/^(\w+?)in$|uai(;.*)$/$1Ⓨ$2/
+    - xform/^zh/Ⓤ/
+    - xform/^sh/Ⓘ/
+    - xform/^(\w+?)uo(;.*)$/$1Ⓞ$2/
+    - xform/^(\w+?)ai(;.*)$/$1Ⓟ$2/
+    - xform/^ch/Ⓐ/
+    - xform/^(\w+?)[iu]ang(;.*)$/$1Ⓖ$2/
+    - xform/^(\w+?)ang(;.*)$/$1Ⓢ$2/  # ang should be placed after iang/uang
+    - xform/^(\w+?)ie(;.*)$/$1Ⓓ$2/
+    - xform/^(\w+?)ian(;.*)$/$1Ⓕ$2/
+    - xform/^(\w+?)i?ong(;.*)$/$1Ⓗ$2/
+    - xform/^(\w+?)er(;.*)$/$1Ⓙ$2/
+    - xform/^(\w+?)iu(;.*)$/$1Ⓙ$2/
+    - xform/^(\w+?)ei(;.*)$/$1Ⓚ$2/
+    - xform/^(\w+?)uan(;.*)$/$1Ⓛ$2/
+    - xform/^(\w+?)ing(;.*)$/$1;$2/
+    - xform/^(\w+?)ou(;.*)$/$1Ⓩ$2/
+    - xform/^(\w+?)[iu]a(;.*)$/$1Ⓧ$2/
+    - xform/^(\w+?)iao(;.*)$/$1Ⓑ$2/
+    - xform/^(\w+?)ue(;.*)$/$1Ⓝ$2/
+    - xform/^(\w+?)ui(;.*)$/$1Ⓝ$2/
+    - xform/^(\w+?)ve(;.*)$/$1Ⓝ$2/
+    - xform/^(\w+?)un(;.*)$/$1Ⓜ$2/
+    - xform/^(\w+?)ao(;.*)$/$1Ⓠ$2/ # ao should be placed after iao
+    - xform/^(\w+?)an(;.*)$/$1Ⓡ$2/ # an should be placed after uan/ian
+    - xlit/ⓌⓉⓎⓊⒾⓄⓅⒶⒼⓈⒹⒻⒽⒿⓀⓁⓏⓍⒷⓃⓂⓆⓇ/wtyuiopagsdfhjklzxbnmqr/
+
 
 
 # 墨奇;鹤形;自然码;简单鹤;仓颉首末;虎码首末;五笔前2
