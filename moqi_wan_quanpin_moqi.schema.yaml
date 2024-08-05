@@ -41,8 +41,7 @@ speller:
   ## speller 未允许 aj 表示 an
   algebra:
     # ^(.+?);.*$
-    #- derive|^(.+?);.*$|$1| # 纯双拼的情况
-    __include: moqi_speller.yaml:/quanpin_speller # 小鹤双拼
+    __include: moqi_speller.yaml:/quanpin_speller # 全拼
 
 
 __include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
