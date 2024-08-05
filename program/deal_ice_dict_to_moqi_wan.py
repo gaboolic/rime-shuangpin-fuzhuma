@@ -227,7 +227,7 @@ file_list = ['8105.dict.yaml', '41448.dict.yaml', 'base.dict.yaml', 'ext.dict.ya
 
 
 dict_data['moqi'] = get_aux_code_map(['./opencc/moqi_chaifen.txt','./opencc/moqi_chaifen_rongcuo.txt'])
-dict_data['xh'] = get_xh_aux_code_map(['./program/flypydz.yaml'])
+dict_data['xh'] = get_xh_aux_code_map(['./program/flypydz.yaml','./program/flypydz_g.yaml'])
 dict_data['zrm'] = get_zrm_aux_code_map(['./program/moran.chars.dict.yaml'])
 dict_data['jdh'] = get_aux_code_map(['./program/简单鹤有理版V6.0.3手心辅助码.txt'])
 
