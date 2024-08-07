@@ -144,3 +144,12 @@ custom_phrase:
   enable_completion: false
   enable_sentence: false
   initial_quality: 100000
+
+# 3码出简让全
+custom_phrase_3_code:
+  dictionary: ""
+  user_dict: custom_phrase/custom_phrase_3_code
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: 1 #本表词和系统词重码居后

@@ -155,6 +155,8 @@ with open(file_path, "w") as file:
                 word = '自然码'
             if combination == 'urf':
                 word = '输入法'
+            if combination == 'fvm':
+                word = '辅助码'
             file.write(word+"\t"+combination + "\n")
 
             # print(combination + " " + str(word_freq_list))
