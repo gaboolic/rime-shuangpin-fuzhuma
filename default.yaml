@@ -17,6 +17,7 @@ schema_list:
   - schema: moqi_wan_ms
   - schema: moqi_wan_sogou
   - schema: moqi_wan_flypyhu
+  - schema: moqi_wan_flypymo
   - schema: moqi_wan_jdh
   - schema: moqi_wan_quanpin_moqi
 
