@@ -33,10 +33,6 @@ jobs:
       run: |
         python program/release/generate_xh_schema.py
 
-    - name: generate_zrm_schema.py
-      run: |
-        python program/release/generate_zrm_schema.py
-
     - name: generate_fancha_en_jp.py
       run: |
         python program/release/generate_fancha_en_jp_schema.py
@@ -78,16 +74,6 @@ jobs:
       with:
         asset_path: rime-flypy-flypy.zip
         asset_name: rime-flypy-flypy.zip
-        asset_content_type: application/zip
-        upload_url: ${{ github.event.release.upload_url }}
-
-    - name: Upload rime-zrm
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
-      with:
-        asset_path: rime-zrm-zrm.zip
-        asset_name: rime-zrm-zrm.zip
         asset_content_type: application/zip
         upload_url: ${{ github.event.release.upload_url }}
 
