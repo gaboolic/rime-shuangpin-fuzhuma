@@ -3,7 +3,7 @@
 # https://github.com/gaboolic/rime-shuangpin-fuzhuma
 
 schema:
-  schema_id: moqi_wan_ms
+  schema_id: moqi_wan_ms_wb
   name: 墨奇万象+微软双拼·五笔
   version: "2024-05-11"
   author:

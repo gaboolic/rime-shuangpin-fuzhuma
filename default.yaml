@@ -14,7 +14,7 @@ schema_list:
   # - schema: flypy_bingji # 并击
   - schema: moqi_wan_zrm # 墨奇万象·自然码+自然码部首辅助码
   - schema: moqi_wan_flypy # 墨奇万象·小鹤+鹤形 鹤形+鹤拼, 小鹤官方就只有8000字左右
-  - schema: moqi_wan_ms # 墨奇万象·微软+五笔
+  - schema: moqi_wan_ms_wb # 墨奇万象·微软+五笔
   - schema: moqi_wan_sogou # 墨奇万象·搜狗+墨奇形
   - schema: moqi_wan_flypyhu # 墨奇万象·小鹤+虎形
   - schema: moqi_wan_flypymo # 墨奇万象·小鹤+墨奇形
