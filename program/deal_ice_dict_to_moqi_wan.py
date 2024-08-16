@@ -249,3 +249,14 @@ for file_name in file_list:
     print(yaml_file_path)
     # Update missing encodings in the file
     update_missing_encodings(yaml_file_path, write_file_path, dict_data)
+
+# 细胞词库
+for file_name in os.listdir(os.path.expanduser("~/vscode/rime-frost/cn_dicts_cell")):
+    # File paths
+    cn_dicts_path = os.path.expanduser("~/vscode/rime-frost/cn_dicts_cell")
+    yaml_file_path = os.path.join(cn_dicts_path, file_name)
+    write_file_path = os.path.join('cn_dicts_cell', file_name)
+
+    print(yaml_file_path)
+    # Update missing encodings in the file
+    update_missing_encodings(yaml_file_path, write_file_path, dict_data)

@@ -1,0 +1,18 @@
+# Rime dictionary
+# encoding: utf-8
+# 计算机 互联网相关
+#
+---
+name: computer
+version: "2024-07-19"
+sort: by_weight
+...
+入参	ru;pn;pn;pd;ee;oh;ju;ty; can;sp;sp;sp;pu;ih;ke;cd;	50
+出参	chu;uu;vk;ck,aa;pp;uu;sm;bm; can;sp;sp;sp;pu;ih;ke;cd;	10
+强依赖	qiang;gi;gi;gs;rf;ni;bc;xk; yi;ry;ry;ry;xk;ov;jt;wy; lai;ub;ur;uf;dm;do;xo;gk;	38
+弱依赖	ruo;gg;gd;gd;rf;nm;bw;xu; yi;ry;ry;ry;xk;ov;jt;wy; lai;ub;ur;uf;dm;do;xo;gk;	4
+发版	fa;fy;vd;ay,fd,vy,yd;rh;ie;si;v,nt; ban;py;py;pf;ul;le,xe;ar;th;	111
+竞业	jing;lx;le;lx;bk;yu;ip;uk; ye;la;la;aa;pd;tc,xc;cy;og;	194
+父级目录	fu;bx;bx;bi,pd;fy;ck;hb;wq; ji;sj;sj;sj;eh;ve;ic;xe; mu;ke;ka;aa,om,mu;ss;bu;qm;hh; lu;eu;eu;au,ua,vu;so;ne;bk;vi;	0
+会邀	hui;ry;rs;ry;ep;oi;jb;wf; yao;zw;zw;zj,zw;sq;yk;uu;ry;	0
+

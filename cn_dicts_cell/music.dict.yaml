@@ -1,0 +1,33 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 音乐相关
+
+---
+name: music
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+点弦	dian;vh;lh;hv;pn;yf,xf;yc;hk; xian;gx;gy;gx;rp;ni;bi;xy;	0
+琶音	pa;wb;wb;bw,wb;at;mu;nm;gg; yin;lo;lo;lo;cc;ya;xy;uj;	365
+中央音	zhong;kl;ll;aa,ka;op;ll;dg;k,kh; yang;kr;lg;ad,kd;px;lk;mm;md; yin;lo;lo;lo;cc;ya;xy;uj;	0
+纯律	chun;st;st;st;er;vu;is;xg; lv;ry;iy;xy;hp;hq;wb;tv;	287
+协和音程	xie;ub;ub;ub;sf;jc;nh;fl; he;hk;hk;hk;uo;hr;xd;t,tk; yin;lo;lo;lo;cc;ya;xy;uj; cheng;hw;hw;hi;ua;hg;xn;tk;	42
+不协和音程	bu;ab;ad;ad,ax;dh;mf;cb;i,gi; xie;ub;ub;ub;sf;jc;nh;fl; he;hk;hk;hk;uo;hr;xd;t,tk; yin;lo;lo;lo;cc;ya;xy;uj; cheng;hw;hw;hi;ua;hg;xn;tk;	42
+无调性	wu;ay;ay;ag,ay,ee;uk;mu;du;fq; diao;yk;yk;yv;co;ir;sd;ym; xing;xu;xu;xu;na;pm;hl;nt;	214
+平行五度	ping;au;au;aa,gb;ds;mj;eh;gu; xing;rd;ii;xd,xi;hs;hn;px;tf; wu;aw;aa;aa;gg;mm;wu;gg; du;gy;gy;gy;rl;ie;xr;ya;	13
+单调音乐	dan;bu;bl;ba,bd;fs;cj;hn;uj; diao;yk;yk;yv;co;ir;sd;ym; yin;lo;lo;lo;cc;ya;xy;uj; yue;px;pd;pd,px;ui;hd;by;qi;	0
+复调音乐	fu;pw;pw;pw,rw,wo;ej;oe;eh;tj; tiao;yk;yk;yv;co;ir;sd;ym; yin;lo;lo;lo;cc;ya;xy;uj; le;px;pd;pd,px;ui;hd;by;qi;	240
+复调	fu;pw;pw;pw,rw,wo;ej;oe;eh;tj; diao;yk;yk;yv;co;ir;sd;ym;	871
+滑奏	hua;do;dg;dg;kc;eb;kf;im; zou;it;ft;ft,tf;ux;qk;am;dw;	9
+符头	fu;vc;vc;vf;nw,nk;hi;rk;tw; tou;dd;dd;dd;hx;yk,xk;wm;ud;	35
+符干	fu;vc;vc;vf;nw,nk;hi;rk;tw; gan;au;au;aa;ss;mj;eg;fg;	48
+延音线	yan;zv;zv;zv;uq;nm,nv;tu;th; yin;lo;lo;lo;cc;ya;xy;uj; xian;sj;sj;sj;ea;vj;ip;xg;	18
+连音线	lian;zi;zi;zi;tq;yq;yu;lp; yin;lo;lo;lo;cc;ya;xy;uj; xian;sj;sj;sj;ea;vj;ip;xg;	19
+延音	yan;zv;zv;zv;uq;nm,nv;tu;th; yin;lo;lo;lo;cc;ya;xy;uj;	203
+还原记号	huan;zb;zb;zb;dq;yf;cu;gi; yuan;ix;ix;ix;ri;mf;xy;dr; ji;yj;yj;yj;ct;iu;sv;yn; hao;kk;kv;kk;or;rs;da;kg;	7
+歌芮拉	ge;kq;dr;qg;je;mo;ze;sk; rui;cn;cn;cn;ze;tb;lj;am; la;fl;fl;fl;jb;qt;ui;ru;	18
+拿火	na;ru;ru;uh;eo;oq;ju;wg; huo;br,rb;dr;dd;tt;ff;ch;oo;	150
+瑞声	rui;we;we;we;ab;mb;nl;gm; sheng;tu;up;um;gp;gh;gc;fn;	37
+打品	da;fd;fd;fd;jj;qn;ua;rs; pin;kk;kk;kk;oo;rr;dd;kk;	121
