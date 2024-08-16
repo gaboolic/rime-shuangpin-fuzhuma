@@ -232,7 +232,7 @@ key_binder:
 
 
     - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
-    - { match: "[a-z]{1,3}", accept: "/",  send_sequence: "/1" }
+    - { match: "[a-z]{1,3}", accept: slash,  send_sequence: "/1" }
     - { match: "[a-z]{1,3}", accept: ".",  send_sequence: "/1" }
     # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }
     ## 对以下4行取消注释后：启用光标回退至特定音节后、补充辅助码的功能

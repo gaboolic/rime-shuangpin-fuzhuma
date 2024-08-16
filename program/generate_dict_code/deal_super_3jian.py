@@ -115,6 +115,12 @@ with open(file_path, "w") as file:
                     word = '多音字'
                 if combination == 'urf':
                     word = '输入法'
+                if combination == 'fvm':
+                    word = '辅助码'
+                if combination == 'agu':
+                    word = 'A股'
+                if combination == 'bic':
+                    word = 'B超'
                 file.write(word+"\t"+combination+"/" + "\n")
 
             # print(combination + " " + str(word_freq_list))
