@@ -30,6 +30,30 @@ import_tables:
   - cn_dicts_common/changcijian   # 多字
   - cn_dicts_common/changcijian3   # 3字
 
+  # 细胞词库
+  - cn_dicts_cell/medication
+  - cn_dicts_cell/industry_product
+  - cn_dicts_cell/exthot
+  - cn_dicts_cell/chess
+  - cn_dicts_cell/chess2
+  - cn_dicts_cell/animal
+  - cn_dicts_cell/game
+  - cn_dicts_cell/idiom
+  - cn_dicts_cell/sport
+  - cn_dicts_cell/media
+  - cn_dicts_cell/shulihua
+  - cn_dicts_cell/food
+  - cn_dicts_cell/inputmethod
+  - cn_dicts_cell/history
+  - cn_dicts_cell/place
+  - cn_dicts_cell/geography
+  - cn_dicts_cell/name2
+  - cn_dicts_cell/literature
+  - cn_dicts_cell/music
+  - cn_dicts_cell/computer
+  - cn_dicts_cell/composite
+  - cn_dicts_cell/name
+  
   # - cn_dicts/cell # 细胞词库
   # - cn_dicts_cell/luna_pinyin.poetry    # 细胞词库 古诗文
   # - cn_dicts_cell/luna_pinyin.place  # 细胞词库 地名
