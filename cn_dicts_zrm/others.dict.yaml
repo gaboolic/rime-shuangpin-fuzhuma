@@ -45,16 +45,16 @@ sort: by_weight
 千里走单骑	qm[pa li[aa zb[tv dj[ba qi[mq	100
 千里走单骑	qm[pa li[aa zb[tv dj[ba ji[mq	100
 # 「街」的粤语和东北话读音及常见的两种写法
-仆街	pu[rb jx[ri	37
-仆街	pu[rb gl[ri	37
-扑街	pu[fb jx[ri	1315
-扑街	pu[fb gl[ri	1315
-扑街仔	pu[fb jx[ri zl[rz	20
-扑街仔	pu[fb gl[ri zl[rz	20
-仆街仔	pu[rb jx[ri zl[rz	0
-仆街仔	pu[rb gl[ri zl[rz	0
-街溜子	jx[ri lq[dl zi[aa	70
-街溜子	gl[ri lq[dl zi[aa	70
+仆街	pu[rb jx[xg	37
+仆街	pu[rb gl[xg	37
+扑街	pu[fb jx[xg	1315
+扑街	pu[fb gl[xg	1315
+扑街仔	pu[fb jx[xg zl[rz	20
+扑街仔	pu[fb gl[xg zl[rz	20
+仆街仔	pu[rb jx[xg zl[rz	0
+仆街仔	pu[rb gl[xg zl[rz	0
+街溜子	jx[xg lq[dl zi[aa	70
+街溜子	gl[xg lq[dl zi[aa	70
 # 「錤」这个字念 ji，但是台湾媒体都会念成 qi，他的英文名 Ming-Chi Kuo 也是接近 qi
 郭明錤	go[ex my[oo ji[jq	38
 郭明錤	go[ex my[oo qi[jq	38
@@ -276,7 +276,7 @@ sort: by_weight
 两个夕	ld[ad ge[ra xi[pd	0
 两个彐	ld[ad ge[ra ji[aa	0
 两个𢎘	ld[ad ge[ra hj[[	0
-两个魚	ld[ad ge[ra yu[dd	0
+两个魚	ld[ad ge[ra yu[dh	0
 两个明	ld[ad ge[ra my[oo	0
 两个朿	ld[ad ge[ra ci[ad	0
 两个乂	ld[ad ge[ra yi[pd	0
@@ -318,7 +318,7 @@ sort: by_weight
 两个虫	ld[ad ge[ra is[ad	0
 两个虎	ld[ad ge[ra hu[hj	0
 两个龍	ld[ad ge[ra ls[dg	0
-两个馬	ld[ad ge[ra ma[ad	0
+两个馬	ld[ad ge[ra ma[ah	0
 两个犬	ld[ad ge[ra qr[dd	0
 两个入	ld[ad ge[ra ru[pd	0
 两个习	ld[ad ge[ra xi[ga	0
@@ -358,7 +358,7 @@ sort: by_weight
 两个欠	ld[ad ge[ra qm[dr	0
 两个子	ld[ad ge[ra zi[aa	0
 两个予	ld[ad ge[ra yu[sa	0
-两个享	ld[ad ge[ra xd[dz	0
+两个享	ld[ad ge[ra xd[wz	0
 两个立	ld[ad ge[ra li[da	0
 两个音	ld[ad ge[ra yn[lo	0
 两个竟	ld[ad ge[ra jy[le	0
@@ -467,7 +467,7 @@ sort: by_weight
 三个飛	sj[aa ge[ra fz[ff	0
 三个香	sj[aa ge[ra xd[ho	0
 三个马	sj[aa ge[ra ma[aa	0
-三个魚	sj[aa ge[ra yu[dd	0
+三个魚	sj[aa ge[ra yu[dh	0
 三个鹿	sj[aa ge[ra lu[gb	0
 三个龍	sj[aa ge[ra ls[dg	0
 三个个	sj[aa ge[ra ge[ra	0
@@ -529,7 +529,7 @@ sort: by_weight
 三个門	sj[aa ge[ra mf[aa	0
 三个面	sj[aa ge[ra mm[aa	0
 三个頁	sj[aa ge[ra ye[ab	0
-三个鳥	sj[aa ge[ra nc[pd	0
+三个鳥	sj[aa ge[ra nc[ph	0
 三个男	sj[aa ge[ra nj[tl	0
 三个立	sj[aa ge[ra li[da	0
 三个九	sj[aa ge[ra jq[py	3
@@ -565,7 +565,7 @@ sort: by_weight
 四个屮	si[aa ge[ra ck[aa	0
 四个火	si[aa ge[ra ho[dd	0
 四个牛	si[aa ge[ra nq[pa	0
-四个魚	si[aa ge[ra yu[dd	0
+四个魚	si[aa ge[ra yu[dh	0
 四个月	si[aa ge[ra yt[oy	1860
 四个日	si[aa ge[ra ri[aa	0
 四个林	si[aa ge[ra ln[mm	0
