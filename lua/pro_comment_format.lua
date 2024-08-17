@@ -1,4 +1,4 @@
---@amzxyz https://github.com/amzxyz/rime_wanxiang_pinyin
+--@amzxyz https://github.com/amzxyz/wanxiang_pinyin
 --由于comment_format不管你的表达式怎么写，只能获得一类输出，导致的结果只能用于一个功能类别
 --如果依赖lua_filter载入多个lua也只能实现一些单一的、不依赖原始注释的功能，有的时候不可避免的发生一些逻辑冲突
 --所以此脚本专门为了协调各式需求，逻辑优化，实现参数自定义，功能可开关，相关的配置跟着方案文件走，如下所示：
@@ -280,9 +280,9 @@ function C.init(env)
     C.input_str = env.engine.context.input  -- 获取当前输入的字符串
     -- 定义固定词典文件的路径
     local paths = {
-        rime_api.get_user_data_dir() .. "/custom_phrase/custom_phrase_super_1jian.txt",
-        rime_api.get_user_data_dir() .. "/custom_phrase/custom_phrase_super_2jian.txt",
-        rime_api.get_user_data_dir() .. "/custom_phrase/custom_phrase_super_3jian.txt"
+        rime_api.get_user_data_dir() .. "/jm_dicts/custom_phrase_super_1jian.txt",
+        rime_api.get_user_data_dir() .. "/jm_dicts/custom_phrase_super_2jian.txt",
+        rime_api.get_user_data_dir() .. "/jm_dicts/custom_phrase_super_3jian.txt"
     }
     -- 遍历每个路径，加载固定词典
     for _, path in ipairs(paths) do
