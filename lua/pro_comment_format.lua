@@ -280,9 +280,9 @@ function C.init(env)
     C.input_str = env.engine.context.input  -- 获取当前输入的字符串
     -- 定义固定词典文件的路径
     local paths = {
-        rime_api.get_user_data_dir() .. "/jm_dicts/custom_phrase_super_1jian.txt",
-        rime_api.get_user_data_dir() .. "/jm_dicts/custom_phrase_super_2jian.txt",
-        rime_api.get_user_data_dir() .. "/jm_dicts/custom_phrase_super_3jian.txt"
+        rime_api.get_user_data_dir() .. "/custom_phrase/custom_phrase_super_1jian.txt",
+        rime_api.get_user_data_dir() .. "/custom_phrase/custom_phrase_super_2jian.txt",
+        rime_api.get_user_data_dir() .. "/custom_phrase/custom_phrase_super_3jian.txt"
     }
     -- 遍历每个路径，加载固定词典
     for _, path in ipairs(paths) do
