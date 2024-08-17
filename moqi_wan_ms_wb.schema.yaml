@@ -65,9 +65,8 @@ translator:
   enable_completion: false
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
   ##  改为 1 则是只显示单字的输入码，依此类推。
-  spelling_hints: 1
-  comment_format:
-    __include: moqi_speller.yaml:/wb_aux_show
+  spelling_hints: 10      #将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
+  comment_format: {comment}  #将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
 
   enable_user_dict: false # 是否开启自动调频
   preedit_format:
