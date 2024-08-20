@@ -165,10 +165,7 @@ end
 
 local FZ = {}
 
-function FZ.init(env)
-    -- 初始化逻辑，加载配置文件中的设定
-    local config = env.engine.schema.config
-end
+
 function FZ.run(cand, env, initial_comment)
     local length = utf8.len(cand.text)
     local final_comment = nil
@@ -183,59 +180,24 @@ function FZ.run(cand, env, initial_comment)
             table.insert(segments, segment)
         end
 
-        -- 根据 fuzhu_type 选择处理逻辑
-        if env.settings.fuzhu_type == "moqi" then
-            -- 提取每个片段的第一个分号到第二个分号之间的内容
+        -- 定义 fuzhu_type 与匹配模式的映射表
+        local patterns = {
+            moqi = "[^;]*;([^;]*);",
+            flypy = "[^;]*;[^;]*;([^;]*);",
+            zrm = "[^;]*;[^;]*;[^;]*;([^;]*);",
+            jdh = "[^;]*;[^;]*;[^;]*;[^;]*;([^;]*);",
+            cj = "[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;([^;]*);",
+            tiger = "[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;([^;]*);",
+            wubi = "[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;([^;]*);"
+        }
+
+        -- 获取当前 fuzhu_type 对应的模式
+        local pattern = patterns[env.settings.fuzhu_type]
+
+        if pattern then
+            -- 提取匹配内容
             for _, segment in ipairs(segments) do
-                local match = segment:match("[^;]*;([^;]*);")
-                if match then
-                    table.insert(fuzhu_comments, match)
-                end
-            end
-        elseif env.settings.fuzhu_type == "flypy" then
-            -- 提取每个片段的第二个分号到第三个分号之间的内容
-            for _, segment in ipairs(segments) do
-                local match = segment:match("[^;]*;[^;]*;([^;]*);")
-                if match then
-                    table.insert(fuzhu_comments, match)
-                end
-            end
-        elseif env.settings.fuzhu_type == "zrm" then
-            -- 提取每个片段的第三个分号到第四个分号之间的内容
-            for _, segment in ipairs(segments) do
-                local match = segment:match("[^;]*;[^;]*;[^;]*;([^;]*);")
-                if match then
-                    table.insert(fuzhu_comments, match)
-                end
-            end
-        elseif env.settings.fuzhu_type == "jdh" then
-            -- 提取每个片段的第四个分号到第五个分号之间的内容
-            for _, segment in ipairs(segments) do
-                local match = segment:match("[^;]*;[^;]*;[^;]*;[^;]*;([^;]*);")
-                if match then
-                    table.insert(fuzhu_comments, match)
-                end
-            end
-        elseif env.settings.fuzhu_type == "cj" then
-            -- 提取每个片段的第五个分号到第六个分号之间的内容
-            for _, segment in ipairs(segments) do
-                local match = segment:match("[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;([^;]*);")
-                if match then
-                    table.insert(fuzhu_comments, match)
-                end
-            end
-        elseif env.settings.fuzhu_type == "tager" then
-            -- 提取每个片段的第六个分号到第七个分号之间的内容
-            for _, segment in ipairs(segments) do
-                local match = segment:match("[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;([^;]*);")
-                if match then
-                    table.insert(fuzhu_comments, match)
-                end
-            end
-        elseif env.settings.fuzhu_type == "wubi" then
-            -- 提取每个片段的第七个分号到第八个分号之间的内容
-            for _, segment in ipairs(segments) do
-                local match = segment:match("[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;([^;]*);")
+                local match = segment:match(pattern)
                 if match then
                     table.insert(fuzhu_comments, match)
                 end
@@ -244,6 +206,7 @@ function FZ.run(cand, env, initial_comment)
             -- 如果类型不匹配，返回空字符串
             return ""
         end
+
         -- 将提取的拼音片段用空格连接起来
         if #fuzhu_comments > 0 then
             final_comment = table.concat(fuzhu_comments, "/")
@@ -270,7 +233,7 @@ function C.init(env)
         corrector_type = config:get_string("pro_comment_format/corrector_type") or "{comment}",  -- 提示类型
         fuzhu_code_enabled = config:get_bool("pro_comment_format/fuzhu_code") or false,  -- 辅助码提醒功能
         candidate_length = tonumber(config:get_string("pro_comment_format/candidate_length")) or 1,  -- 候选词长度
-        fuzhu_type = config:get_string("pro_comment_format/fuzhu_code/fuzhu_type") or "zrm"  -- 辅助码类型
+        fuzhu_type = config:get_string("pro_comment_format/fuzhu_type") or ""  -- 辅助码类型
     }
 -- #########################
 -- 一起初始化简码前置
@@ -319,95 +282,86 @@ function C.func(input, env)
     -- 调用全局初始共享环境
     C.init(env)
     CR.init(env)
-    FZ.init(env)
 
-    local first_cand = nil           -- 用于简码前置存储第一候选词
-    local found = false              -- 用于简码前置的有无候选词判断
-    local processed_candidates = {}  -- 用于存储进一步处理后的候选词
+    local first_cand = nil  -- 用于简码前置存储第一候选词
+    local processed_candidates = {}  -- 用于存储处理后的候选词
+    local identifier = env.settings.jiancode_identifier  -- 使用占位符的逻辑
+    local found = false  -- 用于简码前置的有无候选词判断
 
     -- 遍历输入的候选词
     for cand in input:iter() do
-        -- 对候选词进行进一步处理（辅助码提示和错词提醒）
         local initial_comment = cand.comment  -- 保存候选词的初始注释
         local final_comment = initial_comment  -- 初始化最终注释为初始注释
-        -- 1. 辅助码提示模块处理（适用于所有候选词）
-        if env.settings.fuzhu_code_enabled then
-            local fz_comment = FZ.run(cand, env, initial_comment)
-            if fz_comment then
-                final_comment = fz_comment  -- 更新最终注释为辅助码提示的结果
-            end
-        else
-            -- 如果辅助码显示被关闭，则清空注释
-            final_comment = ""
-        end
-        -- 2. 错词提醒模块处理（适用于所有候选词）
-        if env.settings.corrector_enabled then
-            local cr_comment = CR.run(cand, env, initial_comment)
-            if cr_comment then
-                final_comment = cr_comment  -- 更新最终注释为错词提醒的结果
-            end
-        end
-        -- 应用最终注释到候选词
-        if final_comment ~= initial_comment then
-            cand:get_genuine().comment = final_comment
-        end
 
-        table.insert(processed_candidates, cand)  -- 存储进一步处理后的候选词
-    end
-
-    -- 存储简码处理的候选词
-    local initial_candidates = {}  -- 用于存储简码处理后的候选词
-    local identifier = env.settings.jiancode_identifier   -- 使用占位符的逻辑，将 jiancode_identifier 添加到注释中
-    local jiancode_identifier            -- 使用占位符的逻辑，将 jiancode_identifier 添加到注释中
-    if env.settings.jiancode_priority then 
-    -- 遍历所有进一步处理后的候选词
-        for _, cand in ipairs(processed_candidates) do
+        -- 简码前置逻辑
+        if env.settings.jiancode_priority and not found then
             if not first_cand then
                 first_cand = cand
                 local preedit_str = cand.preedit
                 if utf8.len(preedit_str) <= 3 and isAllLetters(preedit_str) then
                     local jiancode_priority = env.fixed[preedit_str] or ""
-                    if jiancode_priority ~= "" and first_cand.text ~= jiancode_priority then              
+                    if jiancode_priority ~= "" and first_cand.text ~= jiancode_priority then
+                        -- 替换占位符并更新注释
                         if identifier:find("{identifier}") then
-                            jiancode_identifier = identifier:gsub("{identifier}", jiancode_priority)
+                            final_comment = identifier:gsub("{identifier}", jiancode_priority)
                         else
-                            jiancode_identifier = jiancode_priority .. identifier
+                            final_comment = jiancode_priority .. identifier
                         end
-                        first_cand.comment = jiancode_identifier
+                        cand:get_genuine().comment = final_comment
+                        table.insert(processed_candidates, cand)  -- 存储第一个简码处理后的候选词
+                        found = true
+                        goto continue  -- 跳过其他处理逻辑，直接插入候选词
                     end
-                    table.insert(initial_candidates, first_cand)  -- 存储简码处理后的第一个候选词
-                    found = true
-                else
-                    table.insert(initial_candidates, cand)  -- 存储其他候选词
                 end
-            else
-                table.insert(initial_candidates, cand)  -- 存储其他候选词
             end
         end
 
-    -- 如果没有找到匹配的候选词，显示固定词典内容作为第一候选词
-        if not found then
-            local preedit_str = env.engine.context.input
-            local jiancode_priority = env.fixed[preedit_str] or ""
-            if jiancode_priority ~= "" then
-                if identifier:find("{identifier}") then
-                    local comment = identifier:gsub("{identifier}", "")
-                    local candidate_word = jiancode_priority
-                    table.insert(initial_candidates, create_candidate(candidate_word, comment)) --这种情况不显示注释了，简码词已经被设置为候选词因此注释为空，而且没有其它候选词因此任何注释都是多余的
-                end
+        -- 处理辅助码提示
+        if env.settings.fuzhu_code_enabled then
+            local fz_comment = FZ.run(cand, env, initial_comment)
+            if fz_comment then
+                final_comment = fz_comment
+            end
+        else
+            -- 如果辅助码显示被关闭，则清空注释
+            final_comment = ""
+        end
+
+        -- 处理错词提醒
+        if env.settings.corrector_enabled then
+            local cr_comment = CR.run(cand, env, initial_comment)
+            if cr_comment then
+                final_comment = cr_comment
             end
         end
-    -- 输出简码处理后的候选词
-        for _, cand in ipairs(initial_candidates) do
-           yield(cand)
+
+        -- 更新最终注释
+        if final_comment ~= initial_comment then
+            cand:get_genuine().comment = final_comment
         end
-    else
-        for _, cand in ipairs(processed_candidates) do
-           yield(cand)
+
+        table.insert(processed_candidates, cand)  -- 存储其他候选词
+
+        ::continue::
+    end
+
+    -- 如果简码前置开启且没有找到匹配的候选词，手动插入一个
+    if env.settings.jiancode_priority and not found then
+        local preedit_str = env.engine.context.input
+        local jiancode_priority = env.fixed[preedit_str] or ""
+        if jiancode_priority ~= "" then
+            if identifier:find("{identifier}") then
+                local comment = identifier:gsub("{identifier}", "")
+                table.insert(processed_candidates, create_candidate(jiancode_priority, comment))
+            end
         end
     end
-end
 
+    -- 输出处理后的候选词
+    for _, cand in ipairs(processed_candidates) do
+        yield(cand)
+    end
+end
 return {
     CR = CR,
     FZ = FZ,
