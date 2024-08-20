@@ -12,9 +12,6 @@
 --  candidate_length: 3                 # 候选词辅助码提醒的生效长度，0为关闭  但同时清空其它，应当使用上面开关来处理    
 --  fuzhu_type: zrm                     # 用于匹配对应的辅助码注释显示，可选显示类型有：moqi, flypy, zrm, jdh, cj, tiger, wubi,选择一个填入，应与上面辅助码类型一致
 --
---  jiancode_priority: false             # 简码前置：开启即查询 1-3 简码的词库回显到第一个候选词的注释里，可配合快捷键设置上屏       
---  jiancode_identifier: "{identifier}⚡" #回显样式定义：假设值为 "*{identifier}*", 然后注释会被生成为 "*注释*" 的形式。如果值为 "⚡", 则注释会显示为 "注释⚡"，清空⚡也是默认值
---
 --  corrector: true                     # 启用错音错词提醒，例如输入 geiyu 给予 获得 jiyu 提示
 --  corrector_type: "{comment}"         # 新增一个显示类型，比如"【{comment}】" 
 
@@ -227,94 +224,24 @@ function C.init(env)
 
     -- 获取 pro_comment_format 配置项
     env.settings = {
-        jiancode_priority = config:get_bool("pro_comment_format/jiancode_priority") or false,  -- 简码前置功能
-        jiancode_identifier = config:get_string("pro_comment_format/jiancode_identifier") or "⚡",  -- 简码标识符
         corrector_enabled = config:get_bool("pro_comment_format/corrector") or false,  -- 错音错词提醒功能
         corrector_type = config:get_string("pro_comment_format/corrector_type") or "{comment}",  -- 提示类型
         fuzhu_code_enabled = config:get_bool("pro_comment_format/fuzhu_code") or false,  -- 辅助码提醒功能
         candidate_length = tonumber(config:get_string("pro_comment_format/candidate_length")) or 1,  -- 候选词长度
         fuzhu_type = config:get_string("pro_comment_format/fuzhu_type") or ""  -- 辅助码类型
     }
--- #########################
--- 一起初始化简码前置
--- #########################
-    env.fixed = {}
-    env.name_space = env.name_space:gsub("^*", "")
-    C.input_str = env.engine.context.input  -- 获取当前输入的字符串
-    -- 定义固定词典文件的路径
-    local paths = {
-        rime_api.get_user_data_dir() .. "/jm_dicts/custom_phrase_super_1jian.txt",
-        rime_api.get_user_data_dir() .. "/jm_dicts/custom_phrase_super_2jian.txt",
-        rime_api.get_user_data_dir() .. "/jm_dicts/custom_phrase_super_3jian.txt"
-    }
-    -- 遍历每个路径，加载固定词典
-    for _, path in ipairs(paths) do
-        local file = io.open(path, "r")
-        if not file then
-            return
-        end
-        -- 逐行读取文件内容
-        for line in file:lines() do
-            if string.sub(line, 1, 1) == "#" then
-                goto continue
-            end
-            -- 匹配编码和词条内容
-            local code, content = line:match("([^\t]+)\t([^\t]+)")
-            if content and code then
-                content = string.sub(content, 1, -2)  -- 去除词条内容末尾的换行符
-                env.fixed[content] = code  -- 将编码和词条内容存储到 env.fixed 表中
-            end
-            ::continue::
-        end
-        file:close()  -- 关闭文件
-    end 
 end 
--- 检查字符串是否全为字母
-local function isAllLetters(str)
-    return not (string.find(str, "[^%a]"))
-end
-
--- 创建候选词
-local function create_candidate(text, comment)
-    return Candidate("word", 0, string.len(text), text, comment)
-end
 function C.func(input, env)
     -- 调用全局初始共享环境
     C.init(env)
     CR.init(env)
 
-    local first_cand = nil  -- 用于简码前置存储第一候选词
     local processed_candidates = {}  -- 用于存储处理后的候选词
-    local identifier = env.settings.jiancode_identifier  -- 使用占位符的逻辑
-    local found = false  -- 用于简码前置的有无候选词判断
 
     -- 遍历输入的候选词
     for cand in input:iter() do
         local initial_comment = cand.comment  -- 保存候选词的初始注释
         local final_comment = initial_comment  -- 初始化最终注释为初始注释
-
-        -- 简码前置逻辑
-        if env.settings.jiancode_priority and not found then
-            if not first_cand then
-                first_cand = cand
-                local preedit_str = cand.preedit
-                if utf8.len(preedit_str) <= 3 and isAllLetters(preedit_str) then
-                    local jiancode_priority = env.fixed[preedit_str] or ""
-                    if jiancode_priority ~= "" and first_cand.text ~= jiancode_priority then
-                        -- 替换占位符并更新注释
-                        if identifier:find("{identifier}") then
-                            final_comment = identifier:gsub("{identifier}", jiancode_priority)
-                        else
-                            final_comment = jiancode_priority .. identifier
-                        end
-                        cand:get_genuine().comment = final_comment
-                        table.insert(processed_candidates, cand)  -- 存储第一个简码处理后的候选词
-                        found = true
-                        goto continue  -- 跳过其他处理逻辑，直接插入候选词
-                    end
-                end
-            end
-        end
 
         -- 处理辅助码提示
         if env.settings.fuzhu_code_enabled then
@@ -341,20 +268,6 @@ function C.func(input, env)
         end
 
         table.insert(processed_candidates, cand)  -- 存储其他候选词
-
-        ::continue::
-    end
-
-    -- 如果简码前置开启且没有找到匹配的候选词，手动插入一个
-    if env.settings.jiancode_priority and not found then
-        local preedit_str = env.engine.context.input
-        local jiancode_priority = env.fixed[preedit_str] or ""
-        if jiancode_priority ~= "" then
-            if identifier:find("{identifier}") then
-                local comment = identifier:gsub("{identifier}", "")
-                table.insert(processed_candidates, create_candidate(jiancode_priority, comment))
-            end
-        end
     end
 
     -- 输出处理后的候选词
