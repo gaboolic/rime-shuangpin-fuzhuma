@@ -1,7 +1,15 @@
 # Rime schema
 # encoding: utf-8
 # https://github.com/gaboolic/rime-shuangpin-fuzhuma
+#Lua 配置: 超级注释模块
+pro_comment_format:                   # 超级注释，子项配置 true 开启，false 关闭
+  fuzhu_code: true                    # 启用辅助码提醒，用于辅助输入练习辅助码，成熟后可关闭
+  candidate_length: 1                 # 候选词辅助码提醒的生效长度，0为关闭  但同时清空其它，应当使用上面开关来处理    
+  fuzhu_type: zrm                     # 用于匹配对应的辅助码注释显示，可选显示类型有：moqi, flypy, zrm, jdh, cj, tiger, wubi,选择一个填入，应与上面辅助码类型一致
 
+  corrector: true                     # 启用错音错词提醒，例如输入 geiyu 给予 获得 jiyu 提示
+  corrector_type: "{comment}"         # 新增一个显示类型，比如"【{comment}】" 
+  
 schema:
   schema_id: moqi_wan_zrm
   name: 墨奇万象+自然码双拼·自然码
@@ -54,9 +62,8 @@ translator:
   enable_completion: false
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
   ##  改为 1 则是只显示单字的输入码，依此类推。
-  spelling_hints: 1
-  comment_format:
-    __include: moqi_speller.yaml:/zrm_aux_show
+  spelling_hints: 10      #将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
+  comment_format: {comment}  #将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
 
   enable_user_dict: false # 是否开启自动调频
   preedit_format:

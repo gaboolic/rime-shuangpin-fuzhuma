@@ -2,6 +2,7 @@
 # encoding: utf-8
 # https://github.com/gaboolic/rime-shuangpin-fuzhuma
 
+
 schema:
   schema_id: moqi_sogou
   name: 墨奇音形+搜狗双拼

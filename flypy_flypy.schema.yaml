@@ -2,6 +2,7 @@
 # encoding: utf-8
 # https://github.com/gaboolic/rime-shuangpin-fuzhuma
 
+
 schema:
   schema_id: flypy_flypy
   name: 鹤形+小鹤双拼

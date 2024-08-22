@@ -2,6 +2,7 @@
 # https://github.com/gaboolic/rime-shuangpin-fuzhuma
 # encoding: utf-8
 
+
 schema:
   schema_id: flypy_bingji
   name: 乱序并击 + 鹤形
