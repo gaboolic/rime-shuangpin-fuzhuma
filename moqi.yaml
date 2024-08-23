@@ -81,6 +81,7 @@ switches_engine:
       - script_translator
       - script_translator@user_dict_set
       - script_translator@add_user_dict
+      - lua_translator@*force_gc          # 暴力 GC 降低内存
       
     filters:
       # lua的filter：
