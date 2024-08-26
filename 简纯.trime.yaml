@@ -22,8 +22,8 @@ conf:
     key_press_offset_x: 2
     key_press_offset_y: 2
     keys/+:
-      - width: 100 #底部留白开关，0为关，1~100开
-        height: 6 #底部留白
+      - width: 0 #底部留白开关，0为关，1~100开
+        height: 1 #底部留白
   key_height_last: # 第4行 按键高度
     height: 50
   # 数字、编辑、功能键盘配置
@@ -86,11 +86,17 @@ pure:
 
 
 style:
-  __include: trime:/style
+#  __include: trime:/style
   color_scheme: default #默认配色方案
-  keyboard_height: 260 #锁定键盘高度，避免切换时键盘高度变化而造成闪烁
+  keyboard_height: 280 #锁定键盘高度，避免切换时键盘高度变化而造成闪烁
   keyboard_height_land: 200 #锁定横屏下键盘高度，避免切换时键盘高度变化而造成闪烁
   horizontal: true #水平模式。改变方向键的功能 （true：方向键适配横排候选；false：方向键适配竖排候选）
+  keyboard_padding: 5 #竖屏模式下，屏幕左右两侧与键盘的距离（曲面屏减少误触）
+  keyboard_padding_left: 0 #竖屏屏模式下，左手键盘布局，屏幕左侧与键盘的距离
+  keyboard_padding_right: 40 #竖屏屏模式下，左手键盘布局，屏幕右侧与键盘的距离
+  keyboard_padding_bottom: 5 #竖屏模式下，屏幕下边缘与键盘的距离（避免误触发全面屏手势）
+  keyboard_padding_land: 0 #横屏模式下，屏幕左右两侧与键盘的距离（避免横屏按键过度拉伸变形）
+  keyboard_padding_land_bottom: 0 #横屏模式下，屏幕下侧与键盘的距离
   reset_ascii_mode: false #显示键盘时重置为中文状态
   speech_opencc_config: t2s.json #语音输入简繁转换
   auto_caps: false #自动句首大写:true|false|ascii
@@ -165,14 +171,14 @@ style:
   # 候选区
   ## 候选
   candidate_use_cursor: true #高亮候选项
-  candidate_view_height: 33 #候选区高度
+  candidate_view_height: 30 #候选区高度
   candidate_padding: 5 #候选项内边距
   candidate_spacing: 0.5 #候选间距
   candidate_font: han.ttf #候选字型
   candidate_text_size: 21 #候选字号
   ## 编码
   comment_on_top: false #编码提示在上方或右侧
-  comment_height: 15 #编码提示区高度
+  comment_height: 18 #编码提示区高度
   comment_font: comment.ttf #编码提示字型
   comment_text_size: 15 #编码提示字号
 
@@ -185,7 +191,7 @@ style:
   key_height: 62 #键高
   key_width: 10.2 #键宽，占屏幕宽的百分比
   round_corner: 10 #按键圆角半径
-  shadow_radius: 0.0 #按键阴影半径
+  shadow_radius: 0.0#按键阴影半径
   key_font: symbol.ttf #键盘字型
   latin_font: latin.ttf #西文字型
   hanb_font: hanb.ttf #扩充字型
@@ -227,7 +233,7 @@ style:
     margin_y: 1 #竖直边距
     border: 0 #边框宽度
     round_corner: 2 #窗口圆角
-    elevation: 0 #阴影(>=Android5.0)
+    elevation: 2 #阴影(>=Android5.0)
     alpha: 0xff #透明度(0-255)
     #background: background.png #颜色或者backgrounds目录下的图片文件名
     # 样式
@@ -244,7 +250,7 @@ style:
     line_spacing_multiplier: 1.1 #候选词的行间距(倍数)
 
 fallback_colors:
-  __include: trime:/fallback_colors
+#  __include: trime:/fallback_colors
   # 悬浮窗
   border_color: back_color #悬浮窗边框
   label_color: hilited_text_color #标签（候选序号）
@@ -510,6 +516,7 @@ preset_color_schemes:
     # menu_text_color: off_sym_text_color #菜单文字 ※
     # hilited_menu_back_color: key_back_color #高亮菜单背景 ※
     # hilited_menu_text_color: enter_sym_back_color #高亮菜单文字 ※
+
 
 # 按键样式
 styl:
@@ -3164,7 +3171,7 @@ preset_keyboards:
           __include: styl/key,
         }
       - { click: 'm', long_click: 'fenhao', __include: styl/key }
-      - { click: BS, swipe_up: Escape, width: 15 }
+      - { click: BS, width: 15 }
       # 第 4 行
       - {
           click: Keyboard_symbols,
@@ -3175,20 +3182,20 @@ preset_keyboards:
         }     
       - {
           click: Keyboard_number,
- #         long_click: Menu,
-          composing: Left,
+          composing: "/",
           width: 12,      
           __include: styl/off_key,
           __patch: conf/key_height_last,
         }  
       - { click: 'douhao', 
-          label: '，',
+          label: ' ，',
           long_click: '、', 
           width: 11, 
-          __include: styl/off_key, } 
+          __include: styl/key, 
+          } 
       - {
           click: space,                        
-          long_click: VOICE_ASSIST,
+#          long_click: VOICE_ASSIST,
           swipe_up: Clear,
           swipe_down: liquid_keyboard_clipboard,
           key_symbol_offset_x: 0,
@@ -3198,17 +3205,14 @@ preset_keyboards:
         }      
       - {
           click: 'juhao',
-          label: '。',
-          long_click: '  ?',
-#          composing: select_second,
+          label: ' 。',
+          long_click: '? ',
           width: 11,
-          __include: styl/off_key,
+          __include: styl/key,
         }
-#新增一个输入时向右的按键，平时是中英文切换键
       - {
           click: 'Mode_switch',
-#          long_click: '?',
-          composing: Right,
+          composing: Escape,
           width: 11,
           __include: styl/off_key,  
         }
@@ -3224,6 +3228,38 @@ preset_keyboards:
           hilited_key_symbol_color: enter_symbol_color,
           key_symbol_offset_x: 0,
         }
+#下面新增最后一排按钮
+      - {
+          click: IME_switch1,
+          width: 20,      
+          __include: styl/menu,
+          height: 25,
+        }
+      - {
+          click: Left,
+          width: 20, 
+          height: 25,     
+          __include: styl/menu,
+        }  
+      - {
+          click: 'VOICE_ASSIST',
+          width: 20,
+          height: 25,
+          __include: styl/menu,
+        }
+      - {
+          click: Right,
+          width: 20, 
+          height: 25,     
+          __include: styl/menu,
+        } 
+      - {
+          click: 'Back1',
+          width: 20,
+          height: 25,
+          __include: styl/menu,
+        }
+
   letter:
     ascii_mode: 1
     lock: false
@@ -3335,7 +3371,41 @@ preset_keyboards:
 
 
 android_keys:
-  __include: trime:/android_keys
+  # 仅供编辑键盘时参考，实际不产生任何效果
+  when:
+    ascii: 西文標籤
+    paging: 翻頁標籤
+    has_menu: 選單標籤
+    composing: 輸入狀態標籤
+    #always: 始終
+    #hover: 滑過
+    combo: 並擊
+    click: 單按
+    long_click: 長按
+    #double_click: 雙按
+    swipe_left: 左滑
+    swipe_right: 右滑
+    swipe_up: 上滑
+    swipe_down: 下滑
+  property:
+    width: 寬度
+    height: 高度
+    gap: 間隔
+    preview: 預覽
+    hint: 提示
+    label: 標籤
+    states: 狀態標籤
+    repeatable: 連續按鍵
+    functional: 功能鍵
+    shift_lock: Shift鎖定 #ascii_long: 英文長按中文單按鎖定, long: 長按鎖定, click: 單按鎖定
+  action:
+    command: 命令
+    option: 參數
+    select: 選擇
+    toggle: 狀態
+    send: 按鍵
+    text: 文字
+    commit: 上屏
 
 preset_keys:
   # 安卓
@@ -3350,7 +3420,11 @@ preset_keys:
   POWER: { label: 电源, send: POWER }
   SEARCH: { label: 搜寻, send: Find }
   SLEEP: { label: 休眠, send: SLEEP }
-  VOICE_ASSIST: { label: 语音输入, send: VOICE_ASSIST }
+
+  VOICE_ASSIST: { label: 🎤, send: VOICE_ASSIST } #用于底部语音输入按钮  
+  Back1: { label: 🔽, send: BACK }  #用于底部收起键盘
+  IME_switch1: { label: 🌐, send: LANGUAGE_SWITCH } #用于底部弹出对话框选择输入法
+
   VOLUME_DOWN: { label: 音量-, send: VOLUME_DOWN }
   VOLUME_UP: { label: 音量+, send: VOLUME_UP }
   VOLUME_MUTE: { label: 静音, send: VOLUME_MUTE }
@@ -3398,8 +3472,8 @@ preset_keys:
   Deploy: { label: 部署, command: broadcast, option: 'com.osfans.trime.deploy' }
   Sync: { label: 同步, command: broadcast, option: 'com.osfans.trime.sync' }
   # 编辑
-#  Shift_L: { label: Shift, functional: false, send: Shift_L, shift_lock: ascii_long }
-  Shift_L: { label: Shift, send: Shift_L, shift_lock: long }
+  Shift_L: { label: Shift, send: Shift_L, shift_lock: ascii_long }
+#  Shift_L: { label: Shift, send: Shift_L, shift_lock: long }
   Return: { label: Enter, send: Return }
   Return1: { label: 回车, send: Return }
   Hide: { label: '▼', send: BACK }
@@ -3476,6 +3550,7 @@ preset_keys:
     { toggle: ascii_mode, send: Mode_switch, states: [' ', 'ascii'] }
   Keyboard_switch: { label: 键盘, send: Eisu_toggle, select: .next }
   Back: { label: 返回, send: Eisu_toggle, select: .default }
+
   Keyboard_default: { label: ' ', send: Eisu_toggle, select: .default }
   kb_qwerty: { label: ' ', send: Eisu_toggle, select: default }
   Keyboard_letter: { label: ' ', send: Eisu_toggle, select: letter }
