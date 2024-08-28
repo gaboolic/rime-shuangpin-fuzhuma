@@ -25,7 +25,9 @@ function CR.init(env)
     if delimiter and #delimiter > 0 and delimiter:sub(1,1) ~= ' ' then
         env.delimiter = delimiter:sub(1,1)
     end
-    env.settings.corrector_type = env.settings.corrector_type:gsub('^*', '')
+    if env.settings ~= nil then
+        env.settings.corrector_type = env.settings.corrector_type:gsub('^*', '')
+    end
     CR.style = config:get_string("pro_comment_format/corrector_type") or '{comment}'
     CR.corrections = {
         -- 错音
@@ -222,14 +224,20 @@ local C = {}
 function C.init(env)
     local config = env.engine.schema.config
 
-    -- 获取 pro_comment_format 配置项
-    env.settings = {
-        corrector_enabled = config:get_bool("pro_comment_format/corrector") or false,  -- 错音错词提醒功能
-        corrector_type = config:get_string("pro_comment_format/corrector_type") or "{comment}",  -- 提示类型
-        fuzhu_code_enabled = config:get_bool("pro_comment_format/fuzhu_code") or false,  -- 辅助码提醒功能
-        candidate_length = tonumber(config:get_string("pro_comment_format/candidate_length")) or 1,  -- 候选词长度
-        fuzhu_type = config:get_string("pro_comment_format/fuzhu_type") or ""  -- 辅助码类型
-    }
+    if (config:get_map("pro_comment_format") ~= nil) then
+        -- 获取 pro_comment_format 配置项
+        env.settings = {
+            corrector_enabled = config:get_bool("pro_comment_format/corrector") or false,  -- 错音错词提醒功能
+            corrector_type = config:get_string("pro_comment_format/corrector_type") or "{comment}",  -- 提示类型
+            fuzhu_code_enabled = config:get_bool("pro_comment_format/fuzhu_code") or false,  -- 辅助码提醒功能
+            candidate_length = tonumber(config:get_string("pro_comment_format/candidate_length")) or 1,  -- 候选词长度
+            fuzhu_type = config:get_string("pro_comment_format/fuzhu_type") or ""  -- 辅助码类型
+        }
+    else
+        log.info("env.settings = nil")
+        env.settings = nil
+    end
+    
 end 
 function C.func(input, env)
     -- 调用全局初始共享环境
@@ -238,41 +246,46 @@ function C.func(input, env)
 
     local processed_candidates = {}  -- 用于存储处理后的候选词
 
-    -- 遍历输入的候选词
-    for cand in input:iter() do
-        local initial_comment = cand.comment  -- 保存候选词的初始注释
-        local final_comment = initial_comment  -- 初始化最终注释为初始注释
-
-        -- 处理辅助码提示
-        if env.settings.fuzhu_code_enabled then
-            local fz_comment = FZ.run(cand, env, initial_comment)
-            if fz_comment then
-                final_comment = fz_comment
+    if (env.settings == nil) then
+        for cand in input:iter() do
+            yield(cand)
+        end
+    else
+        -- 遍历输入的候选词
+        for cand in input:iter() do
+            local initial_comment = cand.comment  -- 保存候选词的初始注释
+            local final_comment = initial_comment  -- 初始化最终注释为初始注释
+            -- 处理辅助码提示
+            if env.settings.fuzhu_code_enabled then
+                local fz_comment = FZ.run(cand, env, initial_comment)
+                if fz_comment then
+                    final_comment = fz_comment
+                end
+            else
+                -- 如果辅助码显示被关闭，则清空注释
+                final_comment = ""
             end
-        else
-            -- 如果辅助码显示被关闭，则清空注释
-            final_comment = ""
-        end
 
-        -- 处理错词提醒
-        if env.settings.corrector_enabled then
-            local cr_comment = CR.run(cand, env, initial_comment)
-            if cr_comment then
-                final_comment = cr_comment
+            -- 处理错词提醒
+            if env.settings.corrector_enabled then
+                local cr_comment = CR.run(cand, env, initial_comment)
+                if cr_comment then
+                    final_comment = cr_comment
+                end
             end
+
+            -- 更新最终注释
+            if final_comment ~= initial_comment then
+                cand:get_genuine().comment = final_comment
+            end
+
+            table.insert(processed_candidates, cand)  -- 存储其他候选词
         end
 
-        -- 更新最终注释
-        if final_comment ~= initial_comment then
-            cand:get_genuine().comment = final_comment
+        -- 输出处理后的候选词
+        for _, cand in ipairs(processed_candidates) do
+            yield(cand)
         end
-
-        table.insert(processed_candidates, cand)  -- 存储其他候选词
-    end
-
-    -- 输出处理后的候选词
-    for _, cand in ipairs(processed_candidates) do
-        yield(cand)
     end
 end
 return {
