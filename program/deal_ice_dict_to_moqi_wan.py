@@ -29,6 +29,24 @@ def get_aux_code_map(file_list):
                             dict_data[character].append(encoding)
     return dict_data
 
+def get_shouxin_aux_code_map(file_list):
+    dict_data = {}
+    for file in file_list:
+        with open(file, 'r', encoding='utf-8') as dict_file:
+            for line in dict_file:
+                if "=" not in line:
+                    continue
+                params = line.strip().split('=')
+                character = params[0]
+                encoding = params[1]
+                if "'" not in encoding:
+                    if character not in dict_data:
+                        dict_data[character] = [encoding]
+                    else:
+                        if encoding not in dict_data[character]:
+                            dict_data[character].append(encoding)
+    return dict_data
+
 def get_xh_aux_code_map(file_list):
     dict_data = {}
     for file in file_list:
@@ -235,10 +253,11 @@ dict_data['cj'] = get_shoumo_aux_code_map(['./cangjie5.dict.yaml'])
 # dict_data['hm'] = get_pre2_aux_code_map(['./program/tiger.dict.yaml'])
 dict_data['hm'] = get_hu_aux_code_map(['./program/hu_cf.txt'])
 dict_data['wb'] = get_pre2_aux_code_map(['./program/wubi86.dict.yaml'])
-
+dict_data['hx'] = get_shouxin_aux_code_map(['./program/汉心手心辅助码双码.txt'])
 print(dict_data['moqi']['火'])
 print(dict_data['xh']['火'])
 print(dict_data['zrm']['火'])
+print(dict_data['hx']['火'])
 
 for file_name in file_list:
     # File paths
