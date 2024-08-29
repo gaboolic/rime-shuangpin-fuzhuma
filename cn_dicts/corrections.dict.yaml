@@ -1,7 +1,7 @@
 # Rime dictionary			
 # encoding: utf-8			
 #错音措辞对照表
-...				
+---
 name: corrections
 version: "2024-08-29"
 sort: by_weight
@@ -10,7 +10,7 @@ columns:
   - code
   - weight
   - comment	
-...			
+...
 ### 错音			
 馄饨	hun;ub;ub;uk;ga;np;qv;qn;ub; tun;ut;ut;ut;gr;nu;qs;qn;ut;	898	
 馄饨	hun;ub;ub;uk;ga;np;qv;qn;ub; dun;ut;ut;ut;gr;nu;qs;qn;ut;	898	hún tun
