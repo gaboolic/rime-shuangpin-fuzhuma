@@ -253,7 +253,7 @@ function C.func(input, env)
     else
         -- 遍历输入的候选词
         for cand in input:iter() do
-            if cand.type == 'completion' or deal_count > 20 then
+            if cand.type == 'completion' then
                 yield(cand)
                 goto continue
             end
