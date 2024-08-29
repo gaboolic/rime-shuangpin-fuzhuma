@@ -137,7 +137,7 @@ sogou_speller:
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
 
 abc_speller:
-    - xform/^([aoe].*)(;.*)$/Ⓞ$1$2/
+    - xform/^([aoe].*)(;.*)$/o$1$2/
     - xform/^(\w+?)ei(;.*)$/$1Ⓠ$2/
     - xform/^(\w+?)ian(;.*)$/$1Ⓦ$2/
     - xform/^(\w+?)er(;.*)$/$1Ⓡ$2/
