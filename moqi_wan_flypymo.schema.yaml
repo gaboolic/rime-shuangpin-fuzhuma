@@ -149,7 +149,7 @@ custom_phrase:
   db_class: stabledb
   enable_completion: false
   enable_sentence: false
-  initial_quality: 100000
+  initial_quality: 100001
 
 # 3码出简让全
 custom_phrase_3_code:
