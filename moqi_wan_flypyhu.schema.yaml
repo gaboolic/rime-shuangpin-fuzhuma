@@ -98,6 +98,8 @@ key_binder:
     - { when: has_menu, accept: "Control+p", toggle: chaifen }
     - { when: has_menu, accept: "Control+l", toggle: chaifen_all }
     - { when: has_menu, accept: "Control+e", toggle: chinese_english }
+        #开启关闭辅助码显示
+    - { when: has_menu, accept: "Control+q", toggle: fuzhu_switch }
 
 
     - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
