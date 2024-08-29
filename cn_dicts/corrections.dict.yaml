@@ -1,7 +1,7 @@
 # Rime dictionary			
 # encoding: utf-8			
 #错音措辞对照表
----			
+...				
 name: corrections
 version: "2024-08-29"
 sort: by_weight
