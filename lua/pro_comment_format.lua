@@ -245,7 +245,7 @@ function C.func(input, env)
     CR.init(env)
 
     local processed_candidates = {}  -- 用于存储处理后的候选词
-
+    local deal_count = 1
     if (env.settings == nil) then
         for cand in input:iter() do
             yield(cand)
@@ -253,6 +253,13 @@ function C.func(input, env)
     else
         -- 遍历输入的候选词
         for cand in input:iter() do
+            if cand.type == 'completion' or deal_count > 20 then
+                yield(cand)
+                goto continue
+            end
+            deal_count = deal_count + 1
+            -- log.info(cand.type)
+            -- log.info(cand.text)
             local initial_comment = cand.comment  -- 保存候选词的初始注释
             local final_comment = initial_comment  -- 初始化最终注释为初始注释
             -- 处理辅助码提示
@@ -278,14 +285,15 @@ function C.func(input, env)
             if final_comment ~= initial_comment then
                 cand:get_genuine().comment = final_comment
             end
-
-            table.insert(processed_candidates, cand)  -- 存储其他候选词
+            
+            yield(cand)
+            ::continue::
         end
 
         -- 输出处理后的候选词
-        for _, cand in ipairs(processed_candidates) do
-            yield(cand)
-        end
+        -- for _, cand in ipairs(processed_candidates) do
+        --     yield(cand)
+        -- end
     end
 end
 return {
