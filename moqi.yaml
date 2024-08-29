@@ -8,6 +8,9 @@ switches_engine:
       states: [ 简, 繁 ]
     - name: emoji
       states: [ 💀, 😄 ]
+    - name: fuzhu_switch
+      reset: 1
+      states: [ 无, 辅 ]
     - name: chaifen
       states: [ 不拆, 扌斥 ]
     - name: big_char_set
@@ -402,9 +405,8 @@ big_char_and_user_dict:
     enable_sentence: false
     ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
     ##  改为 1 则是只显示单字的输入码，依此类推。
-    spelling_hints: 1
-    comment_format:
-      - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
+    spelling_hints: 10
+    comment_format: {comment}
 
     enable_user_dict: false # 是否开启自动调频
 
@@ -416,9 +418,8 @@ big_char_and_user_dict:
     enable_sentence: false
     ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
     ##  改为 1 则是只显示单字的输入码，依此类推。
-    spelling_hints: 1
-    comment_format:
-      - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
+    spelling_hints: 10
+    comment_format: {comment}
     enable_user_dict: true # 是否开启自动调频
     user_dict: user.custom.dict
     db_class: tabledb
@@ -438,8 +439,7 @@ big_char_and_user_dict:
     enable_user_dict: true # 是否开启用户词典
     encode_commit_history: false # 是否对已上屛词自动成词〔仅 table_translator 有效〕
     preedit_format:
-      
-    comment_format:
-      - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
+    
+    comment_format: {comment}
     prefix: "ac"
     tips: "〔自造词〕"
