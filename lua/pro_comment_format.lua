@@ -160,6 +160,7 @@ function C.init(env)
         else
             env.settings.fuzhu_code_enabled = false
         end
+    else
         env.settings = nil
     end
 end
