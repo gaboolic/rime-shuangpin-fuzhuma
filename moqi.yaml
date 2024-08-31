@@ -103,7 +103,7 @@ switches_engine:
       - simplifier@traditionalize                     # 简繁切换
       - simplifier@mars                               #火星文
       - reverse_lookup_filter@reverse_lookup
-      - lua_filter@*pro_comment_format                #超级注释模块，支持错词错音提示、任意长度辅助码显示，支持个性化配置和关闭相应的功能，详情搜索pro_comment_format进行详细配置
+      - lua_filter@*pro_comment_format                #超级注释模块，支持错词错音提示、任意长度辅助码显示，支持个性化配置和关闭相应的功能，支持az部件组字专属注释，详情搜索pro_comment_format进行详细配置
       - uniquifier
 
       
