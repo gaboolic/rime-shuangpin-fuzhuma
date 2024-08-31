@@ -136,7 +136,6 @@ end
 -- 部件组字返回的注释（radical_pinyin）
 -- ################################
 local AZ = {}
--- 处理函数，只负责处理候选词的注释
 function AZ.run(cand, env, initial_comment)
     local final_comment = nil  -- 初始化最终注释为空
     local fuzhu_comments = {}
@@ -162,38 +161,33 @@ local ZH = {}
 function ZH.init(env)
     local config = env.engine.schema.config
 
-    -- 检查是否存在 pro_comment_format 配置
-    if config:get_map("pro_comment_format") ~= nil then
-        -- 获取 pro_comment_format 配置项
-        env.settings = {
-            corrector_enabled = config:get_bool("pro_comment_format/corrector") or true,  -- 错音错词提醒功能
-            corrector_type = config:get_string("pro_comment_format/corrector_type") or "{comment}",  -- 提示类型
-            fuzhu_code_enabled = config:get_bool("pro_comment_format/fuzhu_code") or false,  -- 辅助码提醒功能
-            candidate_length = tonumber(config:get_string("pro_comment_format/candidate_length")) or 1,  -- 候选词长度
-            fuzhu_type = config:get_string("pro_comment_format/fuzhu_type") or ""  -- 辅助码类型
-        }
+    -- 获取 pro_comment_format 配置项
+    env.settings = {
+        corrector_enabled = config:get_bool("pro_comment_format/corrector") or true,  -- 错音错词提醒功能
+        corrector_type = config:get_string("pro_comment_format/corrector_type") or "{comment}",  -- 提示类型
+        fuzhu_code_enabled = config:get_bool("pro_comment_format/fuzhu_code") or true,  -- 辅助码提醒功能，这样做即时不用开关也能配置来调整
+        candidate_length = tonumber(config:get_string("pro_comment_format/candidate_length")) or 1,  -- 候选词长度
+        fuzhu_type = config:get_string("pro_comment_format/fuzhu_type") or ""  -- 辅助码类型
+    }
 
-        -- 检查开关状态
-        local is_fuzhu_enabled = env.engine.context:get_option("fuzhu_switch")
-
-        -- 根据开关状态设置辅助码功能
-        if is_fuzhu_enabled then
-            env.settings.fuzhu_code_enabled = true
-        else
-            env.settings.fuzhu_code_enabled = false
-        end
-    else --否则配之各一个空表而不是nil
-        env.settings = {}
+    -- 检查开关状态
+    local is_fuzhu_enabled = env.engine.context:get_option("fuzhu_switch")
+    
+    -- 根据开关状态设置辅助码功能
+    if is_fuzhu_enabled then
+        env.settings.fuzhu_code_enabled = true
+    else
+        env.settings.fuzhu_code_enabled = false
     end
 end
 
 function ZH.func(input, env)
-    -- 初始化
+    -- 初始化环境
     ZH.init(env)
     CR.init(env)
-    local context = env.engine.context
 
-    -- 检查输入状态以确定是否进入部件拆字模式
+    local context = env.engine.context
+    -- 进一步检测输入状态的变化，匹配部件组字状态
     if context.input:len() == 0 then
         env.is_radical_mode = false  -- 当输入被清空时，退出部件拆字模式
     elseif context.input:find("^az") then
@@ -201,51 +195,48 @@ function ZH.func(input, env)
     else
         env.is_radical_mode = false  -- 其他情况退出模式
     end
---检查到空表直接跳过逻辑处理
-    if (env.settings == nil) then
-        for cand in input:iter() do
-            yield(cand)  -- 直接输出候选词
-        end
-    else
-        -- 如果配置不为空遍历输入的候选词
-        for cand in input:iter() do          
-            local initial_comment = cand.comment
-            local final_comment = initial_comment
-            -- 如果处于部件组字模式，使用 AZ 处理
-            if env.is_radical_mode then
-                local az_comment = AZ.run(cand, env, initial_comment)
-                if az_comment then
-                    final_comment = az_comment
-                end
-            else      -- 如果不在部件组字的模式
-                --则处理辅助码提示
-                if env.settings.fuzhu_code_enabled then
-                    local fz_comment = FZ.run(cand, env, initial_comment)
-                    if fz_comment then
-                        final_comment = fz_comment
-                    end
-                else
-                        -- 如果辅助码显示被关闭或未生成注释，则清空注释
-                    final_comment = ""
-                end              
-                -- 有错词错音提示数据则覆盖
-                if env.settings.corrector_enabled then
-                    local cr_comment = CR.run(cand, env, initial_comment)
-                    if cr_comment then
-                        final_comment = cr_comment
-                    end
-                end
+
+    -- 遍历输入的候选词
+    for cand in input:iter() do
+        local initial_comment = cand.comment
+        local final_comment = initial_comment
+
+        -- 处理辅助码提示
+        if env.settings.fuzhu_code_enabled then
+            local fz_comment = FZ.run(cand, env, initial_comment)
+            if fz_comment then
+                final_comment = fz_comment
             end
-            -- 更新最终注释
-            if final_comment ~= initial_comment then
-                cand:get_genuine().comment = final_comment
-            end          
-            yield(cand)  -- 输出当前候选词
+        else
+            -- 如果辅助码显示被关闭，则清空注释
+            final_comment = ""
 
         end
+
+        -- 处理错音错词提示
+        if env.settings.corrector_enabled then
+            local cr_comment = CR.run(cand, env, initial_comment)
+            if cr_comment then
+                final_comment = cr_comment
+            end
+        end
+
+        -- 处理部件组字模式注释
+        if env.is_radical_mode then
+            local az_comment = AZ.run(cand, env, initial_comment)
+            if az_comment then
+                final_comment = az_comment
+            end
+        end
+
+        -- 更新最终注释
+        if final_comment ~= initial_comment then
+            cand:get_genuine().comment = final_comment
+        end
+
+        yield(cand)  -- 输出当前候选词
     end
 end
-
 return {
     CR = CR,
     FZ = FZ,
