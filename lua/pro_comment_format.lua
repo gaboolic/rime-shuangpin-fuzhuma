@@ -136,6 +136,7 @@ end
 -- 部件组字返回的注释（radical_pinyin）
 -- ################################
 local AZ = {}
+-- 处理函数，只负责处理候选词的注释
 function AZ.run(cand, env, initial_comment)
     local final_comment = nil  -- 初始化最终注释为空
     local fuzhu_comments = {}
@@ -144,45 +145,58 @@ function AZ.run(cand, env, initial_comment)
     local pattern = patterns[env.settings.fuzhu_type]
 
     if pattern then
-        -- 提取拼音和辅助码
-        local pinyin = initial_comment:match("^%(([^;]+)")  -- 提取注释中的第一个部分作为拼音
-        local fuzhu = initial_comment:match(pattern)    -- 根据模式提取对应的辅助码
+        local pinyins = {}  -- 存储多个拼音
+        local fuzhu = nil   -- 辅助码
+
+        -- 使用空格将注释分割成多个片段
+        local segments = {}
+        for segment in initial_comment:gmatch("[^%s]+") do
+            table.insert(segments, segment)
+        end
+
+        -- 遍历分割后的片段，提取拼音和辅助码
+        for _, segment in ipairs(segments) do
+            local pinyin = segment:match("^[^;]+")  -- 提取注释中的拼音部分
+            local fz = segment:match(pattern)  -- 根据模式提取对应的辅助码
+
+            if pinyin then
+                table.insert(pinyins, pinyin)  -- 收集拼音
+            end
+
+            if fz then
+                fuzhu = fz  -- 获取第一个辅助码
+            end
+        end
 
         -- 生成最终注释
-        if pinyin and fuzhu then
-            final_comment = string.format("〔音%s 辅%s〕", pinyin, fuzhu)
+        if #pinyins > 0 and fuzhu then
+            local pinyin_str = table.concat(pinyins, ",")  -- 用逗号分隔多个拼音
+            final_comment = string.format("〔音%s 辅%s〕", pinyin_str, fuzhu)
         end
     end
+    
     return final_comment or ""  -- 确保返回最终值
 end
-
 -- 主函数：根据优先级处理候选词的注释
 local ZH = {}
 function ZH.init(env)
     local config = env.engine.schema.config
 
-    -- 获取 pro_comment_format 配置项
+    -- 检查开关状态
+    local is_fuzhu_enabled = env.engine.context:get_option("fuzhu_switch")
+
+    -- 设置辅助码功能
     env.settings = {
         corrector_enabled = config:get_bool("pro_comment_format/corrector") or true,  -- 错音错词提醒功能
         corrector_type = config:get_string("pro_comment_format/corrector_type") or "{comment}",  -- 提示类型
-        fuzhu_code_enabled = config:get_bool("pro_comment_format/fuzhu_code") or true,  -- 辅助码提醒功能，这样做即时不用开关也能配置来调整
+        fuzhu_code_enabled = is_fuzhu_enabled,  -- 辅助码提醒功能通过开关控制
         candidate_length = tonumber(config:get_string("pro_comment_format/candidate_length")) or 1,  -- 候选词长度
         fuzhu_type = config:get_string("pro_comment_format/fuzhu_type") or ""  -- 辅助码类型
     }
-
-    -- 检查开关状态
-    local is_fuzhu_enabled = env.engine.context:get_option("fuzhu_switch")
-    
-    -- 根据开关状态设置辅助码功能
-    if is_fuzhu_enabled then
-        env.settings.fuzhu_code_enabled = true
-    else
-        env.settings.fuzhu_code_enabled = false
-    end
 end
 
 function ZH.func(input, env)
-    -- 初始化环境
+    -- 初始化
     ZH.init(env)
     CR.init(env)
 
