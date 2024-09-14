@@ -4,6 +4,8 @@
 
 重磅发布2：现在词库独立演进维护，改为使用745396750字的高质量语料，进行分词，重新统计字频、词频，归一化的[白霜词库](https://github.com/gaboolic/rime-frost)，白霜词库是目前rime方案下最好的词库，在不使用智能模型的情况下可以超越使用智能模型的词库方案。
 
+重磅发布3：墨奇万象词库版，通过拼写运算实现的各种双拼和辅助码排列组合。例如小鹤双拼+虎码首末，微软双拼+墨奇码，自然码双拼+五笔前两码，紫光双拼+仓颉首末码等等。支持的双拼、辅助码运算规则在<https://github.com/gaboolic/rime-shuangpin-fuzhuma/blob/main/moqi_speller.yaml>
+
 更新日志：[更新日志.md](md/update-log.md)
 
 在线试用：[墨奇音形顶屏版](https://my-rime.vercel.app/?plum=gaboolic/rime-shuangpin-fuzhuma@master:moqi_single_xh)
