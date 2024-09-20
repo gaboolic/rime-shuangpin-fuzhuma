@@ -16,6 +16,6 @@ sort: by_weight  #字典初始排序，可選original或by_weight
 use_preset_vocabulary: false
 
 import_tables:
-  - cn_dicts_moqi/8105     # 8105
-  - cn_dicts_moqi/41448     # 4万字大字表
+  - cn_dicts/8105     # 8105
+  - cn_dicts/41448     # 4万字大字表
 ...
