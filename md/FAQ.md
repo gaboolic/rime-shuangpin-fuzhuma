@@ -101,7 +101,7 @@
 
 8. ## 快符，o符，分号符
 
-   1. o符快符使用可以参考：[https://flypy.cc/#/fh](https://flypy.cc/#/fh。)   [#19](https://github.com/gaboolic/rime-shuangpin-fuzhuma/issues/19)   [#13](https://github.com/gaboolic/rime-shuangpin-fuzhuma/issues/13)
+   1. o符快符使用可以参考：[https://flypy.cc/#/fh](https://flypy.cc/#/fh)   [#19](https://github.com/gaboolic/rime-shuangpin-fuzhuma/issues/19)   [#13](https://github.com/gaboolic/rime-shuangpin-fuzhuma/issues/13)
    2. 举例：
       希腊字母
       ofxx αβγ
