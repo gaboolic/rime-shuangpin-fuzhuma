@@ -58,7 +58,7 @@ __include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
 translator:
   dictionary: moqi_wan.extended
   initial_quality: 10000
-  prism: moqi_wan_sogou
+  prism: moqi_wan_abc_mo
   enable_completion: false
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
   ##  改为 1 则是只显示单字的输入码，依此类推。
@@ -76,9 +76,9 @@ aux_patch:
 __patch:
   add_user_dict/dictionary: moqi_wan.extended
   user_dict_set/dictionary: moqi_wan.extended
-  user_dict_set/prism: moqi_wan_sogou
-  add_user_dict/prism: moqi_wan_sogou
-  big_char_set/prism: moqi_wan_big_sogou
+  user_dict_set/prism: moqi_wan_abc_mo
+  add_user_dict/prism: moqi_wan_abc_mo
+  big_char_set/prism: moqi_wan_big_abc_mo
   speller/algebra/+:
     __include: aux_patch
 

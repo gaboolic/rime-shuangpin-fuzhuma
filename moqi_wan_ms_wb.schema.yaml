@@ -76,9 +76,9 @@ aux_patch:
 __patch:
   add_user_dict/dictionary: moqi_wan.extended
   user_dict_set/dictionary: moqi_wan.extended
-  user_dict_set/prism: moqi_wan_ms
-  add_user_dict/prism: moqi_wan_ms
-  big_char_set/prism: moqi_wan_big_ms
+  user_dict_set/prism: moqi_wan_ms_wb
+  add_user_dict/prism: moqi_wan_ms_wb
+  big_char_set/prism: moqi_wan_big_ms_wb
   speller/algebra/+:
     __include: aux_patch
 
