@@ -38,6 +38,8 @@ files = [
          'moqi_wan_zrm_hx.schema.yaml',
          'moqi_wan_zrm.schema.yaml',
 
+         'moqi_single_xh.schema.yaml','moqi_single.dict.yaml',
+
          'moqi_big.schema.yaml','moqi_big.extended.dict.yaml',
          'symbols_caps_v.yaml','rime.lua','moqi.yaml',
          

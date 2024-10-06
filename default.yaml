@@ -4,11 +4,12 @@
 config_version: '0.40'
 
 schema_list:
-  - schema: moqi_xh # 墨奇辅助码 鹤拼版 大词库版本 非自动上屏，支持4万字
+  - schema: moqi_wan_flypymo # 墨奇万象·小鹤+墨奇形
+  #- schema: moqi_xh # 墨奇辅助码 鹤拼版 大词库版本 非自动上屏，支持4万字
   #- schema: moqi_zrm # 墨奇辅助码 自然双拼版 大词库版本 非自动上屏，支持4万字
   #- schema: flypy_flypy # 鹤形+鹤拼, 小鹤官方就只有8000字左右
   #- schema: zrm_zrm # 自然码+自然码部首辅助码
-  - schema: moqi_single_xh # 墨奇码·顶屏版·小鹤双拼，为了4码自动上屏 只收录了8000字
+  
   # - schema: moqi_sogou # 墨奇辅助码搜狗双拼版 大词库版本 非自动上屏，支持4万字
   # - schema: moqi_ms # 墨奇辅助码微软双拼版 大词库版本 非自动上屏，支持4万字
   # - schema: flypy_bingji # 并击
@@ -18,10 +19,12 @@ schema_list:
   # - schema: moqi_wan_ms_wb # 墨奇万象·微软+五笔
   # - schema: moqi_wan_sogou # 墨奇万象·搜狗+墨奇形
   # - schema: moqi_wan_flypyhu # 墨奇万象·小鹤+虎形
-  - schema: moqi_wan_flypymo # 墨奇万象·小鹤+墨奇形
+  
   # - schema: moqi_wan_jdh  # 墨奇万象·小鹤+简单鹤
   # - schema: moqi_wan_quanpin_moqi  # 墨奇万象·全拼+墨奇形
   # - schema: moqi_wan_abc_mo # 墨奇万象+智能abc双拼·墨奇
+
+  - schema: moqi_single_xh # 墨奇码·顶屏版·小鹤双拼，为了4码自动上屏 只收录了8000字
 
 
 switcher:
