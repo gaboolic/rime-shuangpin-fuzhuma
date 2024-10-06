@@ -25,9 +25,22 @@ def zip_folders_and_files(zip_name, folders, files):
   
 # 使用示例  
 folders = ['cn_dicts', 'cn_dicts_common','custom_phrase','lua','opencc']  
-files = ['default.yaml', 'moqi_speller.yaml','moqi_wan_jdh.schema.yaml','moqi_wan.extended.dict.yaml',
+files = [
+    'default.yaml', 'moqi_speller.yaml','moqi_wan.extended.dict.yaml',
+         'moqi_wan_abc_mo.schema.yaml',
+         'moqi_wan_flypy.schema.yaml',
+         'moqi_wan_flypyhu.schema.yaml',
+         'moqi_wan_flypymo.schema.yaml',
+         'moqi_wan_jdh.schema.yaml',
+         'moqi_wan_ms_wb.schema.yaml',
+         'moqi_wan_quanpin_moqi.schema.yaml',
+         'moqi_wan_sogou.schema.yaml',
+         'moqi_wan_zrm_hx.schema.yaml',
+         'moqi_wan_zrm.schema.yaml',
+
          'moqi_big.schema.yaml','moqi_big.extended.dict.yaml',
          'symbols_caps_v.yaml','rime.lua','moqi.yaml',
+         
          'cangjie5.dict.yaml','cangjie5.schema.yaml','easy_en.dict.yaml','easy_en.schema.yaml',
          'emoji.dict.yaml','emoji.schema.yaml',
          'jp_sela.dict.yaml','jp_sela.schema.yaml',
@@ -35,4 +48,4 @@ files = ['default.yaml', 'moqi_speller.yaml','moqi_wan_jdh.schema.yaml','moqi_wa
          'reverse_moqima.dict.yaml','reverse_moqima.schema.yaml',
          'zrlf.dict.yaml','zrlf.schema.yaml'
          ]  
-zip_folders_and_files('rime-moqi-wan-jdh-schemas.zip', folders, files)
+zip_folders_and_files('rime-moqi-wanxiang-schemas.zip', folders, files)
