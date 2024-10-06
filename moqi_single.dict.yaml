@@ -15,7 +15,7 @@ version: "2024.05.11"
 sort: original  #字典初始排序，可選original或by_weight
 use_preset_vocabulary: false
 import_tables:
-  - cn_dicts_moqi/word   # 2字
+  - cn_dicts_common/word   # 2字
   - cn_dicts_common/4jian_no_conflict   # 4字
   - cn_dicts_common/changcijian   # 多字
   - cn_dicts_common/changcijian3   # 3字
