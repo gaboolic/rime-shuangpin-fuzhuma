@@ -24,7 +24,7 @@ def zip_folders_and_files(zip_name, folders, files):
                 zipf.write(file, os.path.basename(file))  
   
 # 使用示例  
-folders = ['cn_dicts', 'cn_dicts_common','custom_phrase','lua','opencc']  
+folders = ['cn_dicts', 'cn_dicts_cell', 'cn_dicts_common','custom_phrase','lua','opencc']  
 files = [
     'default.yaml', 'moqi_speller.yaml','moqi_wan.extended.dict.yaml',
          'moqi_wan_abc_mo.schema.yaml',

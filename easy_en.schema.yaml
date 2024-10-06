@@ -45,7 +45,6 @@ speller:
   algebra:
     # 只打前后2个字母 例如beul -> beautiful
     - derive/^(\w)(\w).+(\w)(\w)$/$1$2$3$4/
-    - abbrev/^(\w).+(\w)$/$1$2/
     - xform/^a/!/
     - xform/^e/@/
     - xform/^i/,/
