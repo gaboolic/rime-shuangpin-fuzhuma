@@ -22,6 +22,7 @@ import_tables:
   
   - cn_dicts/base     # 基础词库
   - cn_dicts/ext      # 扩展词库
+  - cn_dicts/corrections   # 纠错词库一定要开启
   # - cn_dicts/others   # 一些杂项 容错音和错字 可以不开
 
   # - cn_dicts_common/tencent  # 腾讯词向量（大词库，部署时间较长 选择性开启）
