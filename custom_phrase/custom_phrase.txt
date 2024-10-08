@@ -401,7 +401,7 @@
 依	yiry	2
 依	yiry/	2
 # 测	ce	2
-# 滚	gy	2
+滚	gy	2
 # 剖	pz	2
 # 剋	kw	2
 # 破	po	2
