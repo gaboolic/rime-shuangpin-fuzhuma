@@ -57,7 +57,7 @@ default_str = """
 批准	pv/
 怄气	oq/
 宁愿	ny/
-妹妹	mm/
+慢慢	mm/
 面积	mj/
 领取	lq/
 理念	ln/
@@ -83,6 +83,15 @@ default_str = """
 肯定	kd/
 同意	ty/
 渐渐	jj/
+思维	sw/
+时刻	uk/
+三年	sn/
+空气	kq/
+而言	ey/
+错过	cg/
+粗暴	cb/
+暗部	ab/
+阿尔	ae/
 """
 default_map = {}
 for line in default_str.split("\n"):
