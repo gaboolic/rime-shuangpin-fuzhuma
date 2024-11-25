@@ -1094,7 +1094,7 @@ use_preset_vocabulary: false
 光电地震计	guang;xe;xw;ea,xw;hk;fu;mg;iq; dian;ov,yv;lv;ag,og;ee;lu;oa;jn; di;ty;ty;ty;gr,ga;gd;ge;f,fb; zhen;yi;yn;yi;yh;mv;tf;fd; ji;yu;yu;yu;cs;ij;sn;yf;	0
 光化学氧化剂	guang;xe;xw;ea,xw;hk;fu;mg;iq; hua;rb;rb;rb;xa;op;jv;wx; xue;xz;xz;dz,zb;ha;fd;kh;ip; yang;qy;qy;qy;sp;oq;vg;rn; hua;rb;rb;rb;xa;op;jv;wx; ji;qd;wd;dq;ji;yn;qp;yj;	0
 光弹性实验	guang;xe;xw;ea,xw;hk;fu;mg;iq; tan;gu;gl;gd;rs;nj;bn;xu; xing;xu;xu;xu;na;pm;hl;nt; shi;bd;bd;bt;ix;jk;wm;pu; yan;mq;ma;ma,mq;zd;nm;nf;cw;	0
-光学图象处理	guang;xe;xw;ea,xw;hk;fu;mg;iq; xue;xz;xz;dz,zb;ha;fd;kh;ip; tu;kd;kd;kd;nh;wy;rw;lt; xiang;du;dn;du,pd,ua;gh;no;wx;qj; chu;wb;wb;wb;jh;ho,hy,xy;hy;th; li;wl;wl;wl;ag;mg;nd;gj;	0
+光学图像处理	guang;xe;xw;ea,xw;hk;fu;mg;iq; xue;xz;xz;dz,zb;ha;fd;kh;ip; tu;kd;kd;kd;nh;wy;rw;lt; xiang;ru;rn;rx;xh;oo;jw;wq; chu;wb;wb;wb;jh;ho,hy,xy;hy;th; li;wl;wl;wl;ag;mg;nd;gj;	0
 硅孔雀石	gui;ut;ut;ug;tg;mg;mg;df; kong;zv;zv;zg;ar;nu;ha;bn; que;xv;uf;vx,xv;ia;fg;yu;iw; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;	1
 硅铝层	gui;ut;ut;ug;tg;mg;mg;df; lv;jk;jk;jl;do;or;zd;qk; ceng;uy;us;uy;qp;si;cb;nf;	0
 硅铝矿物	gui;ut;ut;ug;tg;mg;mg;df; lv;jk;jk;jl;do;or;zd;qk; kuang;ug;ug;ug;tr;mi;mx;dy; wu;nw;nw;nw;bi;hh;qe;tr;	2
@@ -1965,8 +1965,8 @@ use_preset_vocabulary: false
 舒善河组	shu;ry;rl;yu,uy;ep;on;ji;wf; shan;yk;yk;yk,ka,kq;fo;tr;gd;ud; he;dk;dk;dk;kj;er;kz;is; zu;sq;sq;sq;eu;vm;if;xe;	0
 竖向地震荷载	shu;ll;ll;ly;pb;lt;pi;jc; xiang;pk;pk;pk;uo;hr;td;tm; di;ty;ty;ty;gr,ga;gd;ge;f,fb; zhen;yi;yn;yi;yh;mv;tf;fd; he;ck;ck;ch;zj;tr;lz;aw; zai;gi;ui;gi,ig;st,ha;jq;ny;fa;	0
 数字地震图	shu;mw;mw;wl;lj;fk;ph;ov; zi;bz;bz;bz;ia;jd;wh;pb; di;ty;ty;ty;gr,ga;gd;ge;f,fb; zhen;yi;yn;yi;yh;mv;tf;fd; tu;kd;kd;kd;nh;wy;rw;lt;	0
-数字图象处理	shu;mw;mw;wl;lj;fk;ph;ov; zi;bz;bz;bz;ia;jd;wh;pb; tu;kd;kd;kd;nh;wy;rw;lt; xiang;du;dn;du,pd,ua;gh;no;wx;qj; chu;wb;wb;wb;jh;ho,hy,xy;hy;th; li;wl;wl;wl;ag;mg;nd;gj;	4
-数字图象镶嵌	shu;mw;mw;wl;lj;fk;ph;ov; zi;bz;bz;bz;ia;jd;wh;pb; tu;kd;kd;kd;nh;wy;rw;lt; xiang;du;dn;du,pd,ua;gh;no;wx;qj; xiang;jf;jy;jx,jy;dh;ov;zf;qy; qian;uq;er;uq;pe;uo;ve;ma;	0
+数字图像处理	shu;mw;mw;wl;lj;fk;ph;ov; zi;bz;bz;bz;ia;jd;wh;pb; tu;kd;kd;kd;nh;wy;rw;lt; xiang;ru;rn;rx;xh;oo;jw;wq; chu;wb;wb;wb;jh;ho,hy,xy;hy;th; li;wl;wl;wl;ag;mg;nd;gj;	4
+数字图像镶嵌	shu;mw;mw;wl;lj;fk;ph;ov; zi;bz;bz;bz;ia;jd;wh;pb; tu;kd;kd;kd;nh;wy;rw;lt; xiang;ru;rn;rx;xh;oo;jw;wq; xiang;jf;jy;jx,jy;dh;ov;zf;qy; qian;uq;er;uq;pe;uo;ve;ma;	0
 数字相关法	shu;mw;mw;wl;lj;fk;ph;ov; zi;bz;bz;bz;ia;jd;wh;pb; xiang;mo;mo;mo;ws;du;eq;sh; guan;bt;bt;bt,qd;fx;tk;hm;ud; fa;dq;ds;dq;kp;ei;kk;if;	0
 衰落区	shuai;yv;wy;yv,wy;ih;yv;tf;yk; luo;ck;ck;cl;zo,rr;tr;ls;ai; qu;kx;kx;ki;dr;sk;nb;aq;	0
 双摆地震仪	shuang;yy;yy;yy;ll;ee,xe;rr;cc; bai;fq;fs;fb;jp;qi;uk;rl; di;ty;ty;ty;gr,ga;gd;ge;f,fb; zhen;yi;yn;yi;yh;mv;tf;fd; yi;ry;ry;ry;xy,xh;ok,xk;jb;wy;	0
@@ -2074,14 +2074,13 @@ use_preset_vocabulary: false
 土壤组合	tu;ua;ua;aa;gg;gg;gt;ff; rang;tf;ty;tx,ty;gh;gv;gf;fy; zu;sq;sq;sq;eu;vm;if;xe; he;rk;rk;rk;eo;or;jd;wg;	0
 土蠕	tu;ua;ua;aa;gg;gg;gt;ff; ru;ie;ie;ix;fb;lb;cl;jf;	0
 土体蠕动	tu;ua;ua;aa;gg;gg;gt;ff; ti;rb;rb;rb;xd;om;jf;ws; ru;ie;ie;ix;fb;lb;cl;jf; dong;yl;el;ly,yl;uu;ms;bs;fc;	0
-图象重叠	tu;kd;kd;kd;nh;wy;rw;lt; xiang;du;dn;du,pd,ua;gh;no;wx;qj; chong;ql;pa;pa,ql;sg;hg;ld;tg; die;yq;yq;qr,qu,yy;lu;em;rf;cc;	0
-图象复合	tu;kd;kd;kd;nh;wy;rw;lt; xiang;du;dn;du,pd,ua;gh;no;wx;qj; fu;pw;pw;pw,rw,wo;ej;oe;eh;tj; he;rk;rk;rk;eo;or;jd;wg;	0
-图象几何测定	tu;kd;kd;kd;nh;wy;rw;lt; xiang;du;dn;du,pd,ua;gh;no;wx;qj; ji;pv;pv;py;ii;hn;oj;mt; he;rk;rk;rk;xj;or;jz;ws; ce;dd;dd;dz;ki;en;kp;im; ding;bz;br;bp;ie;jo;wt;pg;	0
-图象模拟	tu;kd;kd;kd;nh;wy;rw;lt; xiang;du;dn;du,pd,ua;gh;no;wx;qj; mo;md;md;mm;wx;dk;em;sa; ni;fr;fr;fy;je;qo;uj;rn;	0
-图象识别	tu;kd;kd;kd;nh;wy;rw;lt; xiang;du;dn;du,pd,ua;gh;no;wx;qj; shi;yv;yb;yv;cf;ic;sh;yk; bie;kd;kd;dl;oi;rn,xn;dp;kl;	0
-图象数据磁带	tu;kd;kd;kd;nh;wy;rw;lt; xiang;du;dn;du,pd,ua;gh;no;wx;qj; shu;mw;mw;wl;lj;fk;ph;ov; ju;fg;fk;fj;jo;qr;uc;rn; ci;uy;uy;uz;tp;mi;mi;du; dai;cj;fj;jb;zy;tb;lr;gk;	0
-图象数字化	tu;kd;kd;kd;nh;wy;rw;lt; xiang;du;dn;du,pd,ua;gh;no;wx;qj; shu;mw;mw;wl;lj;fk;ph;ov; zi;bz;bz;bz;ia;jd;wh;pb; hua;rb;rb;rb;xa;op;jv;wx;	0
-图象投影变换	tu;kd;kd;kd;nh;wy;rw;lt; xiang;du;dn;du,pd,ua;gh;no;wx;qj; tou;fu;fy;fu;jl;qe;ur;rm; ying;op;op;pj;vu;ah;oe;jy; bian;wy;wy;wy,yy;il;ye;zr;yo; huan;fr;fd;fh;jx;qk,xk;um;rq;	0
+图像重叠	tu;kd;kd;kd;nh;wy;rw;lt; xiang;ru;rn;rx;xh;oo;jw;wq; chong;ql;pa;pa,ql;sg;hg;ld;tg; die;yq;yq;qr,qu,yy;lu;em;rf;cc;	0
+图像复合	tu;kd;kd;kd;nh;wy;rw;lt; xiang;ru;rn;rx;xh;oo;jw;wq; fu;pw;pw;pw,rw,wo;ej;oe;eh;tj; he;rk;rk;rk;eo;or;jd;wg;	0
+图像几何测定	tu;kd;kd;kd;nh;wy;rw;lt; xiang;ru;rn;rx;xh;oo;jw;wq; ji;pv;pv;py;ii;hn;oj;mt; he;rk;rk;rk;xj;or;jz;ws; ce;dd;dd;dz;ki;en;kp;im; ding;bz;br;bp;ie;jo;wt;pg;	0
+图像模拟	tu;kd;kd;kd;nh;wy;rw;lt; xiang;ru;rn;rx;xh;oo;jw;wq; mo;md;md;mm;wx;dk;em;sa; ni;fr;fr;fy;je;qo;uj;rn;	0
+图像数据磁带	tu;kd;kd;kd;nh;wy;rw;lt; xiang;ru;rn;rx;xh;oo;jw;wq; shu;mw;mw;wl;lj;fk;ph;ov; ju;fg;fk;fj;jo;qr;uc;rn; ci;uy;uy;uz;tp;mi;mi;du; dai;cj;fj;jb;zy;tb;lr;gk;	0
+图像数字化	tu;kd;kd;kd;nh;wy;rw;lt; xiang;ru;rn;rx;xh;oo;jw;wq; shu;mw;mw;wl;lj;fk;ph;ov; zi;bz;bz;bz;ia;jd;wh;pb; hua;rb;rb;rb;xa;op;jv;wx;	0
+图像投影变换	tu;kd;kd;kd;nh;wy;rw;lt; xiang;ru;rn;rx;xh;oo;jw;wq; tou;fu;fy;fu;jl;qe;ur;rm; ying;op;op;pj;vu;ah;oe;jy; bian;wy;wy;wy,yy;il;ye;zr;yo; huan;fr;fd;fh;jx;qk,xk;um;rq;	0
 推覆体	tui;fv;ff;fv;ja;qg;uu;rw; fu;xw;xw;xf;pj;me;vh;st; ti;rb;rb;rb;xd;om;jf;ws;	1
 退水曲线	tui;zg;zg;zg;sq;yv;iu;ve; shui;ln;ln;ad,uv;oo;ee;ks;ii; qu;kc;la;aa,oa;vp,pd;tw,xw;yq;ma; xian;sj;sj;sj;ea;vj;ip;xg;	0
 托尔期	tuo;fq;fq;fq,ft;ja;qp;ur;rt; er;dx;dx;dx,xd;gi;nf;xy;qi; qi;co;qo;oq,qo;vl;tb;zv;ad;	0

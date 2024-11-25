@@ -30,6 +30,7 @@ use_preset_vocabulary: false
 功能薄膜	gong;gl;gl;gl,lg;pu;ms;us;al; neng;sb;sb;sb;pa;ip;kv;ce; bao;cc;cc;cc,cp;zk;ti;lk;ai; mo;od;od;om;lx;bk;vm;ea;	2
 挂历印刷	gua;ft;ft;fg;jg;qg;ug;rf; li;il;il;il;ru;ms,xs;xs;dl; yin;pe;pe;ey,pe;ub;hl;bz;qg; shua;ud;ud;dj;qi;sn;cp;nm;	0
 刮墨刀	gua;ud;qd;du;si;hn;ap;td; mo;lt;ht;th,ht;ng;wg;pg;lf; dao;vp;vp;gp,pg;ii;sh;pd;vn;	0
+瓜米石	gua;in,vd;pn;pd;uh;ho;yg;rc; mi;bm;dm;dd;ll;fd;pm;oy; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;	1
 海报印刷	hai;dm;dm;dm;kh;ey;kk;it; bao;fy;fy;fy;jl;qe;ur;rb; yin;pe;pe;ey,pe;ub;hl;bz;qg; shua;ud;ud;dj;qi;sn;cp;nm;	6
 降解薄膜	jiang;ef;el;ef,ej;bp;nq;tv;bt; jie;dn;dn;jn;gb;nq;xq;qe; bao;cc;cc;cc,cp;zk;ti;lk;ai; mo;od;od;om;lx;bk;vm;ea;	0
 胶辊	jiao;of;ox;oj;ly;bk;vb;eu; gun;ib;ib;ik;ta;kp;yv;lj;	1
