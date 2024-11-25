@@ -541,6 +541,7 @@ use_preset_vocabulary: true
 俄罗斯蓝猫	e;rw;rw;rw;xa;oi;jp;wt;rg; luo;sx;sx;sx;af;wi;yl;lq;sx; si;cj;qj;jq,qj;vp;tl;zt;ad;qj; lan;cm;cm;cj;za;tt;la;aj;cm; mao;qt;qt;qm;bw;kw;mq;qt;qt;	2
 哈瓦那棕猫	ha;kk;kk;kh;oo;rr;dd;kw;kk; wa;ad;ad;ad;dh;mi;rw;gn;ad; na;ve;ve;el;rb;sl;at;vf;ve; zong;mu;mx;mz;wi;df;ef;sp;lx; mao;qt;qt;qm;bw;kw;mq;qt;qt;	0
 加拿大无毛猫	jia;lk;lk;lk,kl;uo;kr;sd;lk;lk; na;ru;ru;uh;eo;oq;ju;wg;ru; da;ar;un;ad;xx;kk;md;dd;an; wu;ay;ay;ag,ay,ee;uk;mu;du;fq;av; mao;pv;pv;pg;ur;hu;vm;tf;pv; mao;qt;qt;qm;bw;kw;mq;qt;qt;	1
+无毛猫	wu;ay;ay;ag,ay,ee;uk;mu;du;fq;av; mao;pv;pv;pg;ur;hu;vm;tf;pv; mao;qt;qt;qm;bw;kw;mq;qt;qt;	1
 金吉拉	jin;rb;ra;ra,pa;ed;cc;zj;qq;ra; ji;tk;uk;ku,uk;go;gr;gd;fk;uk; la;fl;fl;fl;jb;qt;ui;ru;fl;	10
 科拉特猫	ke;hd;hu;hd;us;hj;xj;tu;hu; la;fl;fl;fl;jb;qt;ui;ru;fl; te;nc;nc;ns;bk;hi;qk;tr;nc; mao;qt;qt;qm;bw;kw;mq;qt;qt;	0
 柯尼斯卷毛猫	ke;mk;mk;mk;wj;dr;ez;ss;lk; ni;ub;ub;ub;qa;sp;cv;nx;ub; si;cj;qj;jq,qj;vp;tl;zt;ad;qj; juan;jv;jv;ef,je;ft;fu;hz;ud;dv; mao;pv;pv;pg;ur;hu;vm;tf;pv; mao;qt;qt;qm;bw;kw;mq;qt;qt;	0
@@ -576,4 +577,8 @@ use_preset_vocabulary: true
 英国短毛猫	ying;cy;cy;cy;zx;tk;lm;am;cy; guo;ky;ky;ky;na;wi;ri;l,lg;wy; duan;ub;ua;ud;ed;ot;oz;td;ud; mao;pv;pv;pg;ur;hu;vm;tf;pv; mao;qt;qt;qm;bw;kw;mq;qt;qt;	7
 云猫	yun;ag,es;es;es,se;up;mi;by;fc;ev; mao;qt;qt;qm;bw;kw;mq;qt;qt;	31
 重点色短毛猫	zhong;ql;pa;pa,ql;sg;hg;ld;tg;pa; dian;vh;lh;hv;pn;yf,xf;yc;hk;ve; se;db;db;db;gt;nu;xm;qc;eb; duan;ub;ua;ud;ed;ot;oz;td;ud; mao;pv;pv;pg;ur;hu;vm;tf;pv; mao;qt;qt;qm;bw;kw;mq;qt;qt;	0
-
+金渐层	jin;rb;ra;ra,pa;ed;cc;zj;qq;ra; jian;dj;dj;dv;kp;el;kt;il;dj; ceng;uy;us;uy;qp;si;cb;nf;uv;	1
+银渐层	yin;jg;jg;jg;dh;ov;zi;qv;jh; jian;dj;dj;dv;kp;el;kt;il;dj; ceng;uy;us;uy;qp;si;cb;nf;uv;	1
+黑渐层	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; jian;dj;dj;dv;kp;el;kt;il;dj; ceng;uy;us;uy;qp;si;cb;nf;uv;	1
+白渐层	bai;po;po;pa,po;ss;ha;ub;rr;po; jian;dj;dj;dv;kp;el;kt;il;dj; ceng;uy;us;uy;qp;si;cb;nf;uv;	1
+虎斑猫	hu;hj;hj;hj;pi;yn,yu;zh;ha;aj; ban;ww;ww;ww;aj,aa;mg;nn;gy;ww; mao;qt;qt;qm;bw;kw;mq;qt;qt;	3
