@@ -17,9 +17,8 @@ schema:
   author:
     - gaboolic
   description: |
-    墨奇辅助码 自然码双拼版 大词库版本 非自动上屏，支持4万字 https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%A2%A8%E5%A5%87%E7%A0%81%E6%8B%86%E5%88%86%E8%A7%84%E5%88%99
+    鹤形码 小鹤双拼版 大词库版本 非自动上屏，支持4万字 https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%A2%A8%E5%A5%87%E7%A0%81%E6%8B%86%E5%88%86%E8%A7%84%E5%88%99
   dependencies:
-    - reverse_moqima
     - radical_flypy
     - stroke
     - zrlf
@@ -28,12 +27,12 @@ schema:
     - jp_sela
     - moqi_big
 
-__include: moqi.yaml:/switches_engine
-__include: moqi.yaml:/phrase # 置顶
-__include: moqi.yaml:/reverse #反查配置
-__include: moqi.yaml:/opencc_config # 拆分 英汉互译 火星文
-__include: moqi.yaml:/punctuator # 标点
-__include: moqi.yaml:/guide # 引导前缀配置
+__include: flypy.yaml:/switches_engine
+__include: flypy.yaml:/phrase # 置顶
+__include: flypy.yaml:/reverse #反查配置
+__include: flypy.yaml:/opencc_config # 拆分 英汉互译 火星文
+__include: flypy.yaml:/punctuator # 标点
+__include: flypy.yaml:/guide # 引导前缀配置
 
 speller:
   max_code_length: 5
@@ -53,7 +52,7 @@ speller:
     __include: moqi_speller.yaml:/flypy_speller # 小鹤双拼
 
 
-__include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
+__include: flypy.yaml:/big_char_and_user_dict # 大字集、自造词
 
 translator:
   dictionary: moqi_wan.extended
@@ -94,7 +93,7 @@ key_binder:
     # - { when: has_menu, accept: slash, send: 3 } # 用/进行选3
     - { when: composing, accept: Control+i, send: Shift+Right }
     - { when: composing, accept: Control+o, send: Shift+Left }
-    # 显示墨奇码拆分的快速开关
+    # 显示鹤形码拆分的快速开关
     - { when: has_menu, accept: "Control+p", toggle: chaifen }
     - { when: has_menu, accept: "Control+l", toggle: chaifen_all }
     - { when: has_menu, accept: "Control+e", toggle: chinese_english }
