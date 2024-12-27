@@ -1,11 +1,11 @@
-﻿ # Rime dictionary
- # encoding: utf-8
- #
- # LiangFen - LiangFen
- #
- #   derived from scim-table-zh LiangFen table.
- #
- # 本词库将原词库拼音转换为小鹤双拼，有缺码或错误的字修改后在其后加注释。
+﻿	# Rime dictionary
+	# encoding: utf-8
+	#
+	# LiangFen - LiangFen
+	#
+	#   derived from scim-table-zh LiangFen table.
+	#
+	# 本词库将原词库拼音转换为小鹤双拼，有缺码或错误的字修改后在其后加注释。
 
 ---
 name: "xhlf"
@@ -25,7 +25,7 @@ min_phrase_weight: 100
 丅	hguu
 丆	hgpp
 万	hgyi
-丈	hgdm #原码为hengshui，据官网两分字元：一(丈) 丶，改为hgdm
+丈	hgdm	#原码为hengshui，据官网两分字元：一(丈) 丶，改为hgdm
 三	erhg
 上	buhg
 下	hgbu
@@ -163,7 +163,7 @@ min_phrase_weight: 100
 亏	hgkc
 亐	eryi
 云	ersi
-互	hgji # 彐jì
+互	hgji	# 彐jì
 亓	hgqi
 五	gsyi
 井	cchg
@@ -267,7 +267,7 @@ min_phrase_weight: 100
 价	rfjp
 仸	rfyc
 仹	rffg
-仺	rfji # 彐jì
+仺	rfji	# 彐jì
 任	rfrf
 仼	rfwh
 份	rfff
@@ -1054,7 +1054,7 @@ min_phrase_weight: 100
 刊	gjdc
 刋	qmdc
 刌	cydc
-刍	dcji # 彐jì
+刍	dcji	# 彐jì
 刎	wudc
 刏	qidc
 刐	djdc
@@ -1410,7 +1410,7 @@ min_phrase_weight: 100
 卮	ihfj
 卯	pper
 印	pper
-印	jier # 彐jì。增补冗余
+印	jier	# 彐jì。增补冗余
 危	daoe
 卲	vcer
 即	gfer
@@ -2351,7 +2351,7 @@ min_phrase_weight: 100
 圚	kzgv
 圛	kzxk
 圜	kzhr
-圝	kzlr # 䜌（luán）
+圝	kzlr	# 䜌（luán）
 圞	kzlr
 土	uihg
 圠	tuyi
@@ -2861,7 +2861,7 @@ min_phrase_weight: 100
 夘	xier
 夙	jidd
 多	xixi
-夛	jixi # 彐jì
+夛	jixi	# 彐jì
 夜	erwf
 夝	xiug
 夞	wdii
@@ -3505,7 +3505,7 @@ min_phrase_weight: 100
 宜	gdqp
 宝	gdyu
 实	gdtz
-実	gdiy # 宀 𡗗(春上)
+実	gdiy	# 宀 𡗗(春上)
 宠	gdls
 审	gduf
 客	gdge
@@ -3597,7 +3597,7 @@ min_phrase_weight: 100
 寸	hgdm
 对	yzcy
 寺	tucy
-寻	jicy # 彐jì
+寻	jicy	# 彐jì
 导	sicy
 寽	vccy
 対	wfcy
@@ -3613,7 +3613,7 @@ min_phrase_weight: 100
 專	uicy
 尉	uicy
 尊	qqcy
-尋	jicy # 彐jì
+尋	jicy	# 彐jì
 尌	vucy
 對	yecy
 導	dccy
@@ -4121,7 +4121,7 @@ min_phrase_weight: 100
 帄	jbdk
 帅	uujb
 帆	jbfj
-帇	jijb # 彐jì
+帇	jijb	# 彐jì
 师	uuza
 帉	jbff
 帊	jbba
@@ -4140,7 +4140,7 @@ min_phrase_weight: 100
 帗	jbba
 帘	xtjb
 帙	jbui
-帚	jijb # 彐jì
+帚	jijb	# 彐jì
 帛	bdjb
 帜	jbvi
 帝	erjb
@@ -4450,21 +4450,21 @@ min_phrase_weight: 100
 彍	gsgl
 彎	lrgs
 彏	gsjt
-彐	yier # 原码为kouheng，据官网字元乙(彐) 二(一)改为yier。彐有两音：1.jì：2.xue曾作为雪二简字，已停用。以下子元“彐”的编码原为“xue”的都改为“ji”
+彐	yier	# 原码为kouheng，据官网字元乙(彐) 二(一)改为yier。彐有两音：1.jì：2.xue曾作为雪二简字，已停用。以下子元“彐”的编码原为“xue”的都改为“ji”
 彑	yihg
 归	uuji
 当	xnji
-彔	jiuv # 彐jì
-录	jiuv # 彐jì
-彖	jiui # 彐jì
+彔	jiuv	# 彐jì
+录	jiuv	# 彐jì
+彖	jiui	# 彐jì
 彗	fgji
-彘	jiui # 彐jì
-彙	jigo # 彐jì
-彚	jigo # 彐jì
-彛	jicc # 彐jì
-彜	jicc # 彐jì
-彝	jicc # 彐jì
-彞	jicc # 彐jì
+彘	jiui	# 彐jì
+彙	jigo	# 彐jì
+彚	jigo	# 彐jì
+彛	jicc	# 彐jì
+彜	jicc	# 彐jì
+彝	jicc	# 彐jì
+彞	jicc	# 彐jì
 彟	xyho
 彠	xyho
 彡	pppp
@@ -6958,7 +6958,7 @@ min_phrase_weight: 100
 椙	muih
 椚	mumf
 椛	muhx
-検	muqm #木 佥(㑒)
+検	muqm	#木 佥(㑒)
 椝	gvmu
 椞	ximu
 椟	mumd
@@ -8839,7 +8839,7 @@ min_phrase_weight: 100
 灲	hodc
 灳	bcho
 灴	hogs
-灵	jiho # 彐jì
+灵	jiho	# 彐jì
 灶	hotu
 灷	hocc
 灸	jqho
@@ -8910,7 +8910,7 @@ min_phrase_weight: 100
 点	vjho
 為	dmho
 炻	houi
-炼	hods #火东
+炼	hods	#火东
 炽	hovi
 炾	hoxs
 炿	hovz
@@ -12501,7 +12501,7 @@ min_phrase_weight: 100
 绀	sigj
 绁	siui
 绂	siba
-练	sids #纟东
+练	sids	#纟东
 组	siqp
 绅	siuf
 细	sitm
@@ -12699,7 +12699,7 @@ min_phrase_weight: 100
 羆	sixs
 羇	siqi
 羈	sima
-羉	silr # 䜌（luán）
+羉	silr	# 䜌（luán）
 羊	bagj
 羋	hgui
 羌	yher
@@ -12946,8 +12946,8 @@ min_phrase_weight: 100
 聽	erxb
 聾	lser
 聿	yuui
-聿	jiui # 彐jì。增补冗余
-肀	jiuu # 彐jì
+聿	jiui	# 彐jì。增补冗余
+肀	jiuu	# 彐jì
 肁	huyu
 肂	ddyu
 肃	yuba
@@ -13441,7 +13441,7 @@ min_phrase_weight: 100
 艫	vzlu
 艬	vztu
 艭	vzul
-艮	jiuv # 彐jì
+艮	jiuv	# 彐jì
 良	dmgf
 艰	yzgf
 艱	jbgf
@@ -19494,7 +19494,7 @@ min_phrase_weight: 100
 騐	manm
 騑	mafw
 騒	mais
-験	maqm # 佥(㑒)qīan
+験	maqm	# 佥(㑒)qīan
 騔	mahe
 騕	mayc
 騖	mcma
@@ -20619,7 +20619,7 @@ min_phrase_weight: 100
 鹵	vjmi
 鹶	lujb
 鹷	lulk
-鹸	luqm # 佥(㑒)qīan
+鹸	luqm	# 佥(㑒)qīan
 鹹	luxm
 鹺	luia
 鹻	lujm
@@ -21668,7 +21668,7 @@ min_phrase_weight: 100
 㚎	dakl
 㚏	dacc
 㚐	dada
-㚑	jida # 彐jì
+㚑	jida	# 彐jì
 㚒	daru
 㚓	damu
 㚔	dagj
@@ -21898,7 +21898,7 @@ min_phrase_weight: 100
 㝴	yrcy
 㝵	djcy
 㝶	sicy
-㝷	jicy # 彐jì
+㝷	jicy	# 彐jì
 㝸	xnmc
 㝹	uctu
 㝺	jmuc
@@ -21949,7 +21949,7 @@ min_phrase_weight: 100
 㞧	ujnd
 㞨	ujzi
 㞩	ujfj
-㞪	jiuj # 彐jì
+㞪	jiuj	# 彐jì
 㞫	ujvi
 㞬	ujgs
 㞭	dauj
@@ -22234,8 +22234,8 @@ min_phrase_weight: 100
 㣄	gsqu
 㣅	gsri
 㣆	gsyu
-㣇	jijb # 彐jì
-㣈	jijb # 彐jì
+㣇	jijb	# 彐jì
+㣈	jijb	# 彐jì
 㣉	gsuj
 㣊	wfuj
 㣋	jkuj
@@ -22699,7 +22699,7 @@ min_phrase_weight: 100
 㪕	vopu
 㪖	lupu
 㪗	pzpu
-㪘	qmwf # 佥(㑒)qīan
+㪘	qmwf	# 佥(㑒)qīan
 㪙	gowf
 㪚	xiwf
 㪛	ufpu
@@ -23115,7 +23115,7 @@ min_phrase_weight: 100
 㰵	zuqm
 㰶	jqqm
 㰷	siqm
-㰸	qmqm # 佥(㑒)qīan
+㰸	qmqm	# 佥(㑒)qīan
 㰹	xmqm
 㰺	jxqm
 㰻	vuqm
@@ -27822,7 +27822,7 @@ min_phrase_weight: 100
 𠃘	ihyi
 𠃙	jqjq
 𠃚	klyi
-𠃛	jiyi # 彐jì
+𠃛	jiyi	# 彐jì
 𠃜	uiuu
 𠃝	yixn
 𠃞	hgyi
@@ -27831,7 +27831,7 @@ min_phrase_weight: 100
 𠃡	yiyi
 𠃢	kluu
 𠃣	yiuc
-𠃤	jiir # 彐jì
+𠃤	jiir	# 彐jì
 𠃥	yiww
 𠃦	yzyi
 𠃧	fwfw
@@ -28158,7 +28158,7 @@ min_phrase_weight: 100
 𠈨	rfva
 𠈩	rfjb
 𠈪	rfgr
-𠈫	rfjr #龹（卷上）码原缺
+𠈫	rfjr	#龹（卷上）码原缺
 𠈬	rftu
 𠈭	rflc
 𠈮	rfzu
@@ -29076,7 +29076,7 @@ min_phrase_weight: 100
 𠖾	uvmo
 𠖿	uvys
 𠗀	vsuv
-𠗁	jirf # 彐jì
+𠗁	jirf	# 彐jì
 𠗂	uvge
 𠗃	uvyb
 𠗄	uvdo
@@ -29219,7 +29219,7 @@ min_phrase_weight: 100
 𠙍	jiis
 𠙎	vuji
 𠙏	iaji
-𠙐	jirs # 彐jì
+𠙐	jirs	# 彐jì
 𠙑	viji
 𠙒	jibw
 𠙓	tuji
@@ -29230,7 +29230,7 @@ min_phrase_weight: 100
 𠙘	jice
 𠙙	gxji
 𠙚	hgji
-𠙛	jiji # 彐jì
+𠙛	jiji	# 彐jì
 𠙜	xkfj
 𠙝	jlji
 𠙞	ycji
@@ -29498,7 +29498,7 @@ min_phrase_weight: 100
 𠝤	vsdc
 𠝥	kvdc
 𠝦	ujdc
-𠝧	jidc # 彐jì
+𠝧	jidc	# 彐jì
 𠝨	rfia
 𠝩	iydc
 𠝪	jqdc
@@ -30473,7 +30473,7 @@ min_phrase_weight: 100
 𠬳	jqyz
 𠬴	yzsj
 𠬵	miyz
-𠬶	jiyz # 彐jì
+𠬶	jiyz	# 彐jì
 𠬷	wuyz
 𠬸	hvyz
 𠬹	yzsi
@@ -30508,11 +30508,11 @@ min_phrase_weight: 100
 𠭖	vcyz
 𠭗	buyz
 𠭘	ddjk
-𠭙	jiyz # 彐jì
+𠭙	jiyz	# 彐jì
 𠭚	yzfj
 𠭛	csyz
 𠭜	mcyz
-𠭜	jiyz # 彐jì。增补冗余
+𠭜	jiyz	# 彐jì。增补冗余
 𠭝	pmfj
 𠭞	yzkz
 𠭟	ytyz
@@ -30707,7 +30707,7 @@ min_phrase_weight: 100
 𠰜	kzhu
 𠰝	sikz
 𠰞	pplv
-𠰟	jikz # 彐jì
+𠰟	jikz	# 彐jì
 𠰠	kzju
 𠰡	kzyi
 𠰢	kzbj
@@ -33149,7 +33149,7 @@ min_phrase_weight: 100
 𡖦	wdnj
 𡖧	dovi
 𡖨	doan
-𡖩	jido # 彐jì
+𡖩	jido	# 彐jì
 𡖪	dozd
 𡖫	dovz
 𡖬	doxm
@@ -34039,7 +34039,7 @@ min_phrase_weight: 100
 𡤠	nvli
 𡤡	nvgr
 𡤢	nvlo
-𡤣	nvlr # 䜌（luán）
+𡤣	nvlr	# 䜌（luán）
 𡤤	nvyc
 𡤥	nvhw
 𡤦	nvyi
@@ -34570,7 +34570,7 @@ min_phrase_weight: 100
 𡬳	vccy
 𡬴	rfcy
 𡬵	xicy
-𡬶	jicy # 彐jì
+𡬶	jicy	# 彐jì
 𡬷	zecy
 𡬸	ircy
 𡬹	ircy
@@ -35780,7 +35780,7 @@ min_phrase_weight: 100
 𡿭	irir
 𡿮	erir
 𡿯	riir
-𡿰	jiir # 彐jì
+𡿰	jiir	# 彐jì
 𡿱	hgrf
 𡿲	irys
 𡿳	irys
@@ -35847,7 +35847,7 @@ min_phrase_weight: 100
 𢀰	hggs
 𢀱	jusu
 𢀲	juld
-𢀳	jiyi # 彐jì
+𢀳	jiyi	# 彐jì
 𢀴	ihsi
 𢀵	sisi
 𢀶	gssi
@@ -36089,7 +36089,7 @@ min_phrase_weight: 100
 𢄢	yijb
 𢄣	jbhv
 𢄤	vjjb
-𢄥	jijb # 彐jì
+𢄥	jijb	# 彐jì
 𢄦	jbnn
 𢄧	zujb
 𢄨	jbyb
@@ -36585,7 +36585,7 @@ min_phrase_weight: 100
 𢌒	glli
 𢌓	glyi
 𢌔	gllk
-𢌕	gllr #“丱”码原缺，该字三音：guàn、kuàng、luǎn。该字与“卵”形近，故取luan
+𢌕	gllr	#“丱”码原缺，该字三音：guàn、kuàng、luǎn。该字与“卵”形近，故取luan
 𢌖	gltk
 𢌗	viui
 𢌘	viuj
@@ -36659,7 +36659,7 @@ min_phrase_weight: 100
 𢍜	qqcc
 𢍝	trcc
 𢍞	yycc
-𢍟	jicc # 彐jì
+𢍟	jicc	# 彐jì
 𢍠	gvcc
 𢍡	qxcc
 𢍢	micc
@@ -36721,7 +36721,7 @@ min_phrase_weight: 100
 𢎚	gsdm
 𢎛	gsdm
 𢎜	klyi
-𢎝	jiyi # 彐jì
+𢎝	jiyi	# 彐jì
 𢎞	gsyi
 𢎟	gsuu
 𢎠	gsuu
@@ -36899,55 +36899,55 @@ min_phrase_weight: 100
 𢑌	gsmw
 𢑍	gsfu
 𢑎	gsfu
-𢑏	ppji # 彐jì
-𢑐	xnji # 彐jì
-𢑑	jiji # 彐jì
-𢑒	jinv # 彐jì
-𢑓	jifu # 彐jì
-𢑔	jikz # 彐jì
-𢑕	jili # 彐jì
-𢑖	jijx # 彐jì
-𢑗	jiuv # 彐jì
-𢑘	jiuv # 彐jì
-𢑙	jiuv # 彐jì
-𢑚	jiji # 彐jì
-𢑛	jixn # 彐jì
-𢑜	jitm # 彐jì
-𢑝	jiyb # 彐jì
-𢑞	jijb # 彐jì
-𢑟	jifa # 彐jì
-𢑠	jiye # 彐jì
-𢑡	jiui # 彐jì
-𢑢	jijb # 彐jì
-𢑣	jigv # 彐jì
-𢑤	jiuu # 彐jì
-𢑥	jigo # 彐jì
-𢑦	jivc # 彐jì
-𢑧	jiuu # 彐jì
+𢑏	ppji	# 彐jì
+𢑐	xnji	# 彐jì
+𢑑	jiji	# 彐jì
+𢑒	jinv	# 彐jì
+𢑓	jifu	# 彐jì
+𢑔	jikz	# 彐jì
+𢑕	jili	# 彐jì
+𢑖	jijx	# 彐jì
+𢑗	jiuv	# 彐jì
+𢑘	jiuv	# 彐jì
+𢑙	jiuv	# 彐jì
+𢑚	jiji	# 彐jì
+𢑛	jixn	# 彐jì
+𢑜	jitm	# 彐jì
+𢑝	jiyb	# 彐jì
+𢑞	jijb	# 彐jì
+𢑟	jifa	# 彐jì
+𢑠	jiye	# 彐jì
+𢑡	jiui	# 彐jì
+𢑢	jijb	# 彐jì
+𢑣	jigv	# 彐jì
+𢑤	jiuu	# 彐jì
+𢑥	jigo	# 彐jì
+𢑦	jivc	# 彐jì
+𢑧	jiuu	# 彐jì
 𢑨	lulu
-𢑩	jijb # 彐jì
-𢑪	jiju # 彐jì
-𢑫	jilu # 彐jì
-𢑬	jild # 彐jì
-𢑭	jijb # 彐jì
-𢑮	jifw # 彐jì
-𢑯	jimu # 彐jì
+𢑩	jijb	# 彐jì
+𢑪	jiju	# 彐jì
+𢑫	jilu	# 彐jì
+𢑬	jild	# 彐jì
+𢑭	jijb	# 彐jì
+𢑮	jifw	# 彐jì
+𢑯	jimu	# 彐jì
 𢑰	gsji
-𢑱	jida # 彐jì
-𢑲	jisi # 彐jì
-𢑳	jive # 彐jì
-𢑴	jida # 彐jì
-𢑵	jifj # 彐jì
-𢑶	jiwu # 彐jì
-𢑷	jijb # 彐jì
+𢑱	jida	# 彐jì
+𢑲	jisi	# 彐jì
+𢑳	jive	# 彐jì
+𢑴	jida	# 彐jì
+𢑵	jifj	# 彐jì
+𢑶	jiwu	# 彐jì
+𢑷	jijb	# 彐jì
 𢑸	erjb
 𢑹	hvya
 𢑺	ybjb
-𢑻	jiig # 彐jì
+𢑻	jiig	# 彐jì
 𢑼	wujb
-𢑽	jibu # 彐jì
+𢑽	jibu	# 彐jì
 𢑾	lubc
-𢑿	jimu # 彐jì
+𢑿	jimu	# 彐jì
 𢒀	nduj
 𢒁	nduj
 𢒂	jquj
@@ -36967,7 +36967,7 @@ min_phrase_weight: 100
 𢒐	zouj
 𢒑	csuj
 𢒒	fuuj
-𢒓	jiuj # 彐jì
+𢒓	jiuj	# 彐jì
 𢒔	uiuj
 𢒕	viuj
 𢒖	houj
@@ -38244,7 +38244,7 @@ min_phrase_weight: 100
 𢦍	gepp
 𢦎	jqge
 𢦏	tuge
-𢦐	jige # 彐jì
+𢦐	jige	# 彐jì
 𢦑	gepp
 𢦒	fgge
 𢦓	wudc
@@ -39516,7 +39516,7 @@ min_phrase_weight: 100
 𢺅	uzqm
 𢺆	uzfj
 𢺇	uzyc
-𢺈	uzlr # 䜌（luán）
+𢺈	uzlr	# 䜌（luán）
 𢺉	uzid
 𢺊	uzwh
 𢺋	njuz
@@ -39699,7 +39699,7 @@ min_phrase_weight: 100
 𢼼	xnpu
 𢼽	gupu
 𢼾	bupu
-𢼿	jipu # 彐jì
+𢼿	jipu	# 彐jì
 𢽀	dapu
 𢽁	ccpu
 𢽂	pull
@@ -39736,7 +39736,7 @@ min_phrase_weight: 100
 𢽡	ujwf
 𢽢	ripu
 𢽣	xmpu
-𢽤	jiwf # 彐jì
+𢽤	jiwf	# 彐jì
 𢽥	cspu
 𢽦	kspu
 𢽧	vzpu
@@ -40332,7 +40332,7 @@ min_phrase_weight: 100
 𣆵	rijq
 𣆶	mmri
 𣆷	ritu
-𣆸	jiyz # 彐jì
+𣆸	jiyz	# 彐jì
 𣆹	riqp
 𣆺	rixn
 𣆻	riyz
@@ -40394,7 +40394,7 @@ min_phrase_weight: 100
 𣇳	riqi
 𣇴	mkri
 𣇵	rimk
-𣇶	jiri # 彐jì
+𣇶	jiri	# 彐jì
 𣇷	rifh
 𣇸	hvri
 𣇹	uvri
@@ -41268,8 +41268,8 @@ min_phrase_weight: 100
 𣕝	mutu
 𣕞	mujl
 𣕟	qbmu
-𣕠	jimu # 彐jì
-𣕡	jimu # 彐jì
+𣕠	jimu	# 彐jì
+𣕡	jimu	# 彐jì
 𣕢	muhx
 𣕣	uidd
 𣕤	uuuu
@@ -42595,7 +42595,7 @@ min_phrase_weight: 100
 𣪌	dzuu
 𣪍	uiuu
 𣪎	uiyt
-𣪏	jiuu # 彐jì
+𣪏	jiuu	# 彐jì
 𣪐	kluu
 𣪑	biuu
 𣪒	kekc
@@ -42632,7 +42632,7 @@ min_phrase_weight: 100
 𣪱	qiuu
 𣪲	yeuu
 𣪳	keqm
-𣪴	jiuu # 彐jì
+𣪴	jiuu	# 彐jì
 𣪵	vjuu
 𣪶	cjuu
 𣪷	jquu
@@ -43596,7 +43596,7 @@ min_phrase_weight: 100
 𣹵	uver
 𣹶	uvwf
 𣹷	uvjb
-𣹸	uvjr #龹（卷上）
+𣹸	uvjr	#龹（卷上）
 𣹹	wusj
 𣹺	uvuv
 𣹻	bdqr
@@ -44315,7 +44315,7 @@ min_phrase_weight: 100
 𤅄	uvlm
 𤅅	uvlb
 𤅆	uvye
-𤅇	uvlr # 䜌（luán）
+𤅇	uvlr	# 䜌（luán）
 𤅈	uvjq
 𤅉	uvlh
 𤅊	uvxm
@@ -44523,7 +44523,7 @@ min_phrase_weight: 100
 𤈔	tuho
 𤈕	doho
 𤈖	seho
-𤈗	jiho # 彐jì
+𤈗	jiho	# 彐jì
 𤈘	holp
 𤈙	hoyi
 𤈚	vcho
@@ -47317,7 +47317,7 @@ min_phrase_weight: 100
 𤳾	gsjl
 𤳿	vctm
 𤴀	tmyc
-𤴁	tmyi # 原码为xue。宐（yí），同宜。
+𤴁	tmyi	# 原码为xue。宐（yí），同宜。
 𤴂	tmis
 𤴃	tmtc
 𤴄	tmda
@@ -47853,7 +47853,7 @@ min_phrase_weight: 100
 𤼖	bkis
 𤼗	bkzu
 𤼘	bklw
-𤼙	bklr # 䜌（luán）码原缺
+𤼙	bklr	# 䜌（luán）码原缺
 𤼚	bkid
 𤼛	bkui
 𤼜	bkis
@@ -49636,7 +49636,7 @@ min_phrase_weight: 100
 𥘍	uiuv
 𥘎	uiuj
 𥘏	uigj
-𥘐	jiui # 彐jì
+𥘐	jiui	# 彐jì
 𥘑	uicy
 𥘒	uiyi
 𥘓	uiia
@@ -49704,7 +49704,7 @@ min_phrase_weight: 100
 𥙑	uigl
 𥙒	liqu
 𥙓	liys
-𥙔	uian #礻（shì）
+𥙔	uian	#礻（shì）
 𥙕	uilc
 𥙖	uigs
 𥙗	uikz
@@ -50931,7 +50931,7 @@ min_phrase_weight: 100
 𥬜	vuer
 𥬝	vubd
 𥬞	vuer
-𥬟	vuiy # 𡗗(春上)
+𥬟	vuiy	# 𡗗(春上)
 𥬠	vuiu
 𥬡	vuyz
 𥬢	vuzo
@@ -51145,7 +51145,7 @@ min_phrase_weight: 100
 𥯲	vudd
 𥯳	vuee
 𥯴	vuyz
-𥯵	jivu # 彐jì
+𥯵	jivu	# 彐jì
 𥯶	vuku
 𥯷	vuju
 𥯸	vuvu
@@ -52229,7 +52229,7 @@ min_phrase_weight: 100
 𦀮	sinq
 𦀯	siju
 𦀰	situ
-𦀱	jisi # 彐jì
+𦀱	jisi	# 彐jì
 𦀲	sijy
 𦀳	siuz
 𦀴	simh
@@ -52487,7 +52487,7 @@ min_phrase_weight: 100
 𦄰	sigo
 𦄱	sipu
 𦄲	sisu
-𦄳	jisi # 彐jì
+𦄳	jisi	# 彐jì
 𦄴	sivd
 𦄵	sixi
 𦄶	sijp
@@ -52654,7 +52654,7 @@ min_phrase_weight: 100
 𦇗	sixr
 𦇘	sihe
 𦇙	siju
-𦇚	jisu # 彐jì
+𦇚	jisu	# 彐jì
 𦇛	sild
 𦇜	siys
 𦇝	siyk
@@ -53073,7 +53073,7 @@ min_phrase_weight: 100
 𦍺	yhzi
 𦍻	yhts
 𦍼	yhgf
-𦍽	jiyh # 彐jì
+𦍽	jiyh	# 彐jì
 𦍾	yhzi
 𦍿	yhyc
 𦎀	yhda
@@ -53250,10 +53250,10 @@ min_phrase_weight: 100
 𦐫	uiyu
 𦐬	yuhe
 𦐭	yufw
-𦐮	jiri # 彐jì
-𦐯	jiru # 彐jì
+𦐮	jiri	# 彐jì
+𦐯	jiru	# 彐jì
 𦐰	gvyu
-𦐱	jiyu # 彐jì
+𦐱	jiyu	# 彐jì
 𦐲	yuri
 𦐳	biyu
 𦐴	xuyu
@@ -54111,7 +54111,7 @@ min_phrase_weight: 100
 𦞈	ythz
 𦞉	rzjp
 𦞊	rzjb
-𦞋	jirz # 彐jì
+𦞋	jirz	# 彐jì
 𦞌	ythg
 𦞍	jirz
 𦞎	ytyj
@@ -54431,12 +54431,12 @@ min_phrase_weight: 100
 𦣈	ytbu
 𦣉	whsz
 𦣊	njyt
-𦣋	ytlr # 䜌（luán）码原缺
+𦣋	ytlr	# 䜌（luán）码原缺
 𦣌	ytlb
 𦣍	ytmw
 𦣎	ytnj
 𦣏	lryt
-𦣐	ytlr # 䜌（luán）码原缺
+𦣐	ytlr	# 䜌（luán）码原缺
 𦣑	ytsu
 𦣒	ytjt
 𦣓	ldpg
@@ -56586,7 +56586,7 @@ min_phrase_weight: 100
 𧄳	ccqn
 𧄴	wjye
 𧄵	cclp
-𧄶	cclr # 䜌（luán）
+𧄶	cclr	# 䜌（luán）
 𧄷	ccnn
 𧄸	ccqp
 𧄹	ccui
@@ -58166,7 +58166,7 @@ min_phrase_weight: 100
 𧝟	ihyi
 𧝠	yisj
 𧝡	yida
-𧝢	yijr #龹（卷上）
+𧝢	yijr	#龹（卷上）
 𧝣	gsyi
 𧝤	yisi
 𧝥	yima
@@ -58832,7 +58832,7 @@ min_phrase_weight: 100
 𧧹	rfyj
 𧧺	yjtu
 𧧻	yjzo
-𧧼	yjyi # 宐yi
+𧧼	yjyi	# 宐yi
 𧧽	yjfg
 𧧾	yjbw
 𧧿	ycyj
@@ -59398,7 +59398,7 @@ min_phrase_weight: 100
 𧰯	uihs
 𧰰	uiyz
 𧰱	uiyz
-𧰲	jiui # 彐jì
+𧰲	jiui	# 彐jì
 𧰳	hgui
 𧰴	uigz
 𧰵	uiuu
@@ -59406,7 +59406,7 @@ min_phrase_weight: 100
 𧰷	uimu
 𧰸	uipi
 𧰹	uiiu
-𧰺	jiui # 彐jì
+𧰺	jiui	# 彐jì
 𧰻	uilk
 𧰼	dcui
 𧰽	aoui
@@ -59420,7 +59420,7 @@ min_phrase_weight: 100
 𧱅	uiyi
 𧱆	uice
 𧱇	uiyu
-𧱈	jiui # 彐jì
+𧱈	jiui	# 彐jì
 𧱉	uihv
 𧱊	uiyz
 𧱋	tmui
@@ -59477,7 +59477,7 @@ min_phrase_weight: 100
 𧱾	uiqr
 𧱿	uiys
 𧲀	uiqm
-𧲁	jijb # 彐jì
+𧲁	jijb	# 彐jì
 𧲂	uilb
 𧲃	uimb
 𧲄	uiww
@@ -60194,7 +60194,7 @@ min_phrase_weight: 100
 𧽋	zzwu
 𧽌	zzgu
 𧽍	zzvf
-𧽎	zzyc #䍃（yáo）
+𧽎	zzyc	#䍃（yáo）
 𧽏	zzsz
 𧽐	zzqm
 𧽑	zzji
@@ -60880,7 +60880,7 @@ min_phrase_weight: 100
 𨇹	zuwg
 𨇺	zujt
 𨇻	zumi
-𨇼	zulr # 䜌（luán）
+𨇼	zulr	# 䜌（luán）
 𨇽	zulo
 𨇾	zuho
 𨇿	zujm
@@ -61150,7 +61150,7 @@ min_phrase_weight: 100
 𨌇	ieui
 𨌈	ieuf
 𨌉	ieyr
-𨌊	ieyi # 宐yi
+𨌊	ieyi	# 宐yi
 𨌋	ieqi
 𨌌	ieba
 𨌍	iexb
@@ -61387,7 +61387,7 @@ min_phrase_weight: 100
 𨏴	ienp
 𨏵	iewf
 𨏶	lrie
-𨏷	ielr # 䜌（luán）
+𨏷	ielr	# 䜌（luán）
 𨏸	iebk
 𨏹	iejt
 𨏺	ievz
@@ -61417,7 +61417,7 @@ min_phrase_weight: 100
 𨐒	guxb
 𨐓	vcxb
 𨐔	doxb
-𨐕	jixb # 彐jì
+𨐕	jixb	# 彐jì
 𨐖	uaxb
 𨐗	xbts
 𨐘	uaxb
@@ -62103,7 +62103,7 @@ min_phrase_weight: 100
 𨛀	dqer
 𨛁	yher
 𨛂	hoer
-𨛃	jier # 彐jì
+𨛃	jier	# 彐jì
 𨛄	kler
 𨛅	doer
 𨛆	bwer
@@ -62130,7 +62130,7 @@ min_phrase_weight: 100
 𨛛	uiyi
 𨛜	yiyi
 𨛝	ccyi
-𨛞	jier # 彐jì
+𨛞	jier	# 彐jì
 𨛟	ccer
 𨛠	yzer
 𨛡	yrer
@@ -63951,7 +63951,7 @@ min_phrase_weight: 100
 𨷸	mfxi
 𨷹	mfho
 𨷺	mfgv
-𨷻	mflr # 䜌（luán）码原缺
+𨷻	mflr	# 䜌（luán）码原缺
 𨷼	mfui
 𨷽	mfyj
 𨷾	mfmf
@@ -64337,7 +64337,7 @@ min_phrase_weight: 100
 𨽺	mmli
 𨽻	bili
 𨽼	lili
-𨽽	jili # 彐jì
+𨽽	jili	# 彐jì
 𨽾	uhli
 𨽿	tdli
 𨾀	svli
@@ -64413,7 +64413,7 @@ min_phrase_weight: 100
 𨿆	aivv
 𨿇	vvrz
 𨿈	jnsi
-𨿉	jivv # 彐jì
+𨿉	jivv	# 彐jì
 𨿊	izvv
 𨿋	jkvv
 𨿌	fuvv
@@ -65640,7 +65640,7 @@ min_phrase_weight: 100
 𩒑	klye
 𩒒	ihye
 𩒓	gsye
-𩒔	jiye # 彐jì
+𩒔	jiye	# 彐jì
 𩒕	niye
 𩒖	gjye
 𩒗	tsye
@@ -68607,7 +68607,7 @@ min_phrase_weight: 100
 𪀨	ycnn
 𪀩	donn
 𪀪	xqnn
-𪀫	jinn # 彐jì
+𪀫	jinn	# 彐jì
 𪀬	hvnn
 𪀭	tsnn
 𪀮	hcnn
@@ -69817,7 +69817,7 @@ min_phrase_weight: 100
 𪓢	jqmm
 𪓣	yrmm
 𪓤	gvmm
-𪓥	jimm # 彐jì
+𪓥	jimm	# 彐jì
 𪓦	yumm
 𪓧	ifmm
 𪓨	bdmm
@@ -70624,7 +70624,7 @@ min_phrase_weight: 100
 𪠩	ueyz
 𪠪	yiyz
 𪠫	grfj
-𪠬	jiyz # 彐jì
+𪠬	jiyz	# 彐jì
 𪠭	fjzu
 𪠮	rsyz
 𪠯	quyz
@@ -70989,7 +70989,7 @@ min_phrase_weight: 100
 𪦖	nvmu
 𪦗	nvnv
 𪦘	nvhe
-𪦙	ntee #莪（é）
+𪦙	ntee	#莪（é）
 𪦚	nvbd
 𪦛	nvtm
 𪦜	nvvu
@@ -71290,8 +71290,8 @@ min_phrase_weight: 100
 𪫃	diyr
 𪫄	gsul
 𪫅	gsyu
-𪫆	uvji # 彐jì
-𪫇	jiye # 彐jì
+𪫆	uvji	# 彐jì
+𪫇	jiye	# 彐jì
 𪫈	uivf
 𪫉	riuj
 𪫊	xkfg
@@ -71895,7 +71895,7 @@ min_phrase_weight: 100
 𪴠	muxu
 𪴡	mujk
 𪴢	mucu
-𪴣	rsye #原编码mue，有误。据官网改为（榕頁）
+𪴣	rsye	#原编码mue，有误。据官网改为（榕頁）
 𪴤	mujt
 𪴥	mubc
 𪴦	lbcy
@@ -74498,7 +74498,7 @@ min_phrase_weight: 100
 𫝑	vili
 𫝒	uuui
 𫝓	uiba
-𫝔	tuyr #土元
+𫝔	tuyr	#土元
 𫝕	ihdm
 𫝖	dcba
 𫝗	ihzi
@@ -74506,7 +74506,7 @@ min_phrase_weight: 100
 𫝙	xluh
 𫝚	kzyy
 𫝛	xlts
-𫝜	kzza #口雑（同雜）
+𫝜	kzza	#口雑（同雜）
 𫝝	kzgj
 𫝞	kzwu
 𫝟	tuli
@@ -75245,7 +75245,7 @@ min_phrase_weight: 100
 𫨾	yayz
 𫨿	xlyz
 𫩀	muyz
-𫩁	jiyz # 彐jì
+𫩁	jiyz	# 彐jì
 𫩂	eryz
 𫩃	uzbi
 𫩄	ieuz
@@ -75479,7 +75479,7 @@ min_phrase_weight: 100
 𫬨	kzyk
 𫬩	uhbf
 𫬪	lblb
-𫬫	jikz # 彐jì
+𫬫	jikz	# 彐jì
 𫬬	kzji
 𫬭	kzxx
 𫬮	wusv
@@ -75832,7 +75832,7 @@ min_phrase_weight: 100
 𫲉	nvfg
 𫲊	nvxy
 𫲋	nvln
-𫲌	jinv # 彐jìv
+𫲌	jinv	# 彐jìv
 𫲍	nvmu
 𫲎	nvmu
 𫲏	nvmj
@@ -76226,7 +76226,7 @@ min_phrase_weight: 100
 𫸓	virf
 𫸔	viye
 𫸕	jmia
-𫸖	jbcc # 彐jì
+𫸖	jbcc	# 彐jì
 𫸗	ytcc
 𫸘	xicc
 𫸙	sicc
@@ -76274,9 +76274,9 @@ min_phrase_weight: 100
 𫹃	gser
 𫹄	pixt
 𫹅	vzda
-𫹆	jiyb # 彐jì
-𫹇	jixi # 彐jì
-𫹈	jicc # 彐jì
+𫹆	jiyb	# 彐jì
+𫹇	jixi	# 彐jì
+𫹈	jicc	# 彐jì
 𫹉	yzuj
 𫹊	uzuj
 𫹋	rfuu
@@ -76690,13 +76690,13 @@ min_phrase_weight: 100
 𫿣	lbwf
 𫿤	lswf
 𫿥	tdgj
-𫿦	jiwf # 彐jì
+𫿦	jiwf	# 彐jì
 𫿧	qrwf
 𫿨	fhdm
 𫿩	fgwf
 𫿪	cewf
-𫿫	jiwf # 彐jì
-𫿬	jiwf # 彐jì
+𫿫	jiwf	# 彐jì
+𫿬	jiwf	# 彐jì
 𫿭	wfer
 𫿮	vgwf
 𫿯	wfcc
@@ -76827,7 +76827,7 @@ min_phrase_weight: 100
 𬁬	jkmc
 𬁭	zfga
 𬁮	zgtm
-𬁯	jiri # 彐jì
+𬁯	jiri	# 彐jì
 𬁰	ytui
 𬁱	ytcd
 𬁲	ytme
@@ -77449,7 +77449,7 @@ min_phrase_weight: 100
 𬋚	pcxi
 𬋛	hohg
 𬋜	hovv
-𬋝	jiho # 彐jì
+𬋝	jiho	# 彐jì
 𬋞	holi
 𬋟	honh
 𬋠	yjho
@@ -78227,7 +78227,7 @@ min_phrase_weight: 100
 𬗤	siyc
 𬗥	sida
 𬗦	siyi
-𬗧	jisi # 彐jì
+𬗧	jisi	# 彐jì
 𬗨	sibw
 𬗩	sivo
 𬗪	sulk
@@ -79752,7 +79752,7 @@ min_phrase_weight: 100
 𬯙	erlr
 𬯚	erdm
 𬯛	erqr
-𬯜	aarv #原码为：阿内（anei），改为阿芮（arui）
+𬯜	aarv	#原码为：阿内（anei），改为阿芮（arui）
 𬯝	erxb
 𬯞	eryz
 𬯟	erwf
@@ -79764,7 +79764,7 @@ min_phrase_weight: 100
 𬯥	ertm
 𬯦	erlq
 𬯧	eryi
-𬯨	erly # 䜌（luán）码原缺
+𬯨	erly	# 䜌（luán）码原缺
 𬯩	aald
 𬯪	vvvi
 𬯫	vvtu
@@ -80471,7 +80471,7 @@ min_phrase_weight: 100
 𬺶	hgyi
 𬺷	hgpp
 𬺸	bayi
-𬺹	jihg # 彐jì
+𬺹	jihg	# 彐jì
 𬺺	kzyi
 𬺻	hgpp
 𬺼	dkye
@@ -82352,7 +82352,7 @@ min_phrase_weight: 100
 𭘏	bala
 𭘐	ligs
 𭘑	ihjb
-𭘒	jijb # 彐jì
+𭘒	jijb	# 彐jì
 𭘓	jbwu
 𭘔	jbwu
 𭘕	jbww
@@ -82539,12 +82539,12 @@ min_phrase_weight: 100
 𭛊	dijx
 𭛋	bwgs
 𭛌	qluv
-𭛍	jimc # 彐jì
-𭛎	jini # 彐jì
-𭛏	jidz # 彐jì
-𭛐	jizu # 彐jì
-𭛑	jijp # 彐jì
-𭛒	jijy # 彐jì
+𭛍	jimc	# 彐jì
+𭛎	jini	# 彐jì
+𭛏	jidz	# 彐jì
+𭛐	jizu	# 彐jì
+𭛑	jijp	# 彐jì
+𭛒	jijy	# 彐jì
 𭛓	ysuj
 𭛔	yruj
 𭛕	ujuu
@@ -82643,7 +82643,7 @@ min_phrase_weight: 100
 𭜲	xbli
 𭜳	vgxb
 𭜴	xbdc
-𭜵	jixb # 彐jì
+𭜵	jixb	# 彐jì
 𭜶	tuxb
 𭜷	muxb
 𭜸	xbxn
@@ -84585,7 +84585,7 @@ min_phrase_weight: 100
 𭻈	qujx
 𭻉	rftm
 𭻊	tmdm
-𭻋	jiri # 彐jì
+𭻋	jiri	# 彐jì
 𭻌	xitm
 𭻍	yatm
 𭻎	jxlp
@@ -84744,7 +84744,7 @@ min_phrase_weight: 100
 𭽧	pixm
 𭽨	pinm
 𭽩	piww
-𭽪	jipi # 彐jì
+𭽪	jipi	# 彐jì
 𭽫	pijy
 𭽬	ccpi
 𭽭	piuu
@@ -84776,7 +84776,7 @@ min_phrase_weight: 100
 𭾇	iymb
 𭾈	qumb
 𭾉	yzmb
-𭾊	jimb # 彐jì
+𭾊	jimb	# 彐jì
 𭾋	yimb
 𭾌	tumb
 𭾍	qimb
@@ -85590,15 +85590,15 @@ min_phrase_weight: 100
 𮊵	wayh
 𮊶	geyh
 𮊷	yixy
-𮊸	jiri # 彐jì
+𮊸	jiri	# 彐jì
 𮊹	vsyu
 𮊺	ffyu
 𮊻	yuwf
 𮊼	mbyu
 𮊽	yuig
 𮊾	yugs
-𮊿	jixb # 彐jì
-𮋀	jixn # 彐jì
+𮊿	jixb	# 彐jì
+𮋀	jixn	# 彐jì
 𮋁	yuhe
 𮋂	yujn
 𮋃	keyu
@@ -88994,9 +88994,9 @@ min_phrase_weight: 100
 𰐠	yrdj
 𰐡	wjho
 𰐢	kvwj
-𰐣	jila # 彐jì
+𰐣	jila	# 彐jì
 𰐤	ugji
-𰐥	jiff # 彐jì
+𰐥	jiff	# 彐jì
 𰐦	nquj
 𰐧	liuj
 𰐨	bkuj
@@ -89884,8 +89884,8 @@ min_phrase_weight: 100
 𰞚	ijho
 𰞛	hogj
 𰞜	igho
-𰞝	hoji # 彐jì
-𰞞	jiho # 彐jì
+𰞝	hoji	# 彐jì
+𰞞	jiho	# 彐jì
 𰞟	uzho
 𰞠	khho
 𰞡	uuho
@@ -93316,7 +93316,7 @@ min_phrase_weight: 100
 𱔇	kzfu
 𱔈	kzcc
 𱔉	kzvo
-𱔊	kzxm #口䝨（賢）
+𱔊	kzxm	#口䝨（賢）
 𱔋	heyj
 𱔌	kzls
 𱔍	kzdz
@@ -93374,7 +93374,7 @@ min_phrase_weight: 100
 𱕁	kzxi
 𱕂	tcii
 𱕃	kzxx
-𱕄	kzjn #口剿
+𱕄	kzjn	#口剿
 𱕅	kzli
 𱕆	kzku
 𱕇	kzuv
@@ -93420,7 +93420,7 @@ min_phrase_weight: 100
 𱕯	kzan
 𱕰	kzlw
 𱕱	kztk
-𱕲	kzyy #口藴
+𱕲	kzyy	#口藴
 𱕳	kzjk
 𱕴	wulv
 𱕵	djjt
@@ -93915,7 +93915,7 @@ min_phrase_weight: 100
 𱝞	gsgo
 𱝟	luhg
 𱝠	jijb
-𱝡	jifj # 彐jì
+𱝡	jifj	# 彐jì
 𱝢	luuj
 𱝣	pguj
 𱝤	bauj
@@ -95555,7 +95555,7 @@ min_phrase_weight: 100
 𱷆	xtgx
 𱷇	xtyu
 𱷈	xtbw
-𱷉	xtjq #“糾”码原缺
+𱷉	xtjq	#“糾”码原缺
 𱷊	xtyz
 𱷋	ksis
 𱷌	xtys
@@ -95736,7 +95736,7 @@ min_phrase_weight: 100
 𱹻	siul
 𱹼	sizd
 𱹽	masi
-𱹾	jisi # 彐jì
+𱹾	jisi	# 彐jì
 𱹿	sivj
 𱺀	sivl
 𱺁	siqi
@@ -95750,7 +95750,7 @@ min_phrase_weight: 100
 𱺉	sitm
 𱺊	sibw
 𱺋	gsxi
-𱺌	jixi # 彐jì
+𱺌	jixi	# 彐jì
 𱺍	sikl
 𱺎	sibm
 𱺏	sibu
@@ -95887,7 +95887,7 @@ min_phrase_weight: 100
 𱼒	ytvi
 𱼓	yttu
 𱼔	ytif
-𱼕	ytjx #“戛”码原缺
+𱼕	ytjx	#“戛”码原缺
 𱼖	ytqk
 𱼗	ytdr
 𱼘	jmba
@@ -96123,7 +96123,7 @@ min_phrase_weight: 100
 𱿾	qmis
 𱿿	isdp
 𲀀	isvd
-𲀁	isjx #戛（jía）
+𲀁	isjx	#戛（jía）
 𲀂	isse
 𲀃	isbg
 𲀄	isxu
@@ -96528,7 +96528,7 @@ min_phrase_weight: 100
 𲆓	hoer
 𲆔	lker
 𲆕	kzer
-𲆖	jier # 彐jì
+𲆖	jier	# 彐jì
 𲆗	yeer
 𲆘	xler
 𲆙	iaer
@@ -96656,7 +96656,7 @@ min_phrase_weight: 100
 𲈓	jbia
 𲈔	jbgv
 𲈕	jbqm
-𲈖	jbjx #戛（jía）
+𲈖	jbjx	#戛（jía）
 𲈗	jbvh
 𲈘	jbgd
 𲈙	jbsu
@@ -96777,7 +96777,7 @@ min_phrase_weight: 100
 𲊌	yuvv
 𲊍	yumo
 𲊎	lkrf
-𲊏	yuqm #雨潛（qían潜繁体）
+𲊏	yuqm	#雨潛（qían潜繁体）
 𲊐	yuri
 𲊑	yydv
 𲊒	yumj
@@ -96959,7 +96959,7 @@ min_phrase_weight: 100
 𲍂	bkyu
 𲍃	xmzd
 𲍄	yuyi
-𲍅	yuee #鱼咢
+𲍅	yuee	#鱼咢
 𲍆	yump
 𲍇	yuyi
 𲍈	yuwh
