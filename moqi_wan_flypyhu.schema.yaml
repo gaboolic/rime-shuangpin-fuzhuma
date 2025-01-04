@@ -64,7 +64,7 @@ translator:
   spelling_hints: 10      #将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
   comment_format: {comment}  #将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
 
-  enable_user_dict: false # 是否开启自动调频
+  enable_user_dict: ture # 是否开启自动调频
   preedit_format:
 
 aux_patch:
