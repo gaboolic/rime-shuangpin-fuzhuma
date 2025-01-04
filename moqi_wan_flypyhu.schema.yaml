@@ -50,7 +50,6 @@ speller:
   algebra:
     # ^(.+?);.*$
     #- derive|^(.+?);.*$|$1| # 纯双拼的情况
-    - abbrev/^(.).+$/$1/  # 首字母简拼，开启后会导致 3 个字母时 kj'x 变成 k'jx 的问题
     __include: moqi_speller.yaml:/flypy_speller # 小鹤双拼
 
 
