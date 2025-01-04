@@ -59,8 +59,6 @@ engine:
       - reverse_lookup_translator@reverse_moqima
       - reverse_lookup_translator@radical_flypy
       - reverse_lookup_translator@reverse_stroke
-      - reverse_lookup_translator@reverse_zrlf
-      - reverse_lookup_translator@reverse_cj
       - table_translator
       - lua_translator@*date_translator    # 时间、日期、星期
       - lua_translator@*lunar              # 农历

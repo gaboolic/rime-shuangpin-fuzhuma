@@ -62,7 +62,6 @@ engine:
     - table_translator@custom_phrase
     - reverse_lookup_translator
     - reverse_lookup_translator@reverse_stroke
-    - reverse_lookup_translator@reverse_zrlf
     - script_translator
     - script_translator@quanpin
     - table_translator@emojis
@@ -265,16 +264,6 @@ reverse_lookup:
     # - xlit/hspnz/一丨丿丶乙/
 
 
-reverse_zrlf:
-  tag: reverse_zrlf
-  dictionary: zrlf # stroke
-  enable_completion: true
-  prefix: "olf"
-  suffix: "'"
-  tips: 〔自然兩分〕
-  preedit_format:
-    # - xlit/hspnz/一丨丿丶乙/
-
 reverse_stroke:
   tag: reverse_stroke
   dictionary: stroke # stroke
@@ -337,7 +326,6 @@ recognizer:
     ## associate schemes: 
     # reverse_lookup: "^ab[a-z]*'?$" # "[[]b[a-z]*'?$"
     # reverse_stroke: "^ob[A-Za-z]*$"
-    # reverse_zrlf: "^olf[A-Za-z]*$"
     # quanpin: "^ap[a-z]*'?$"
     # emojis: "^ae[a-z]*'?$" # "^ae.*$" 
     # verbatim: "^as.*$"
