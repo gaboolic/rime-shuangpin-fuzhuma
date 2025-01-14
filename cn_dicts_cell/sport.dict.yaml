@@ -1420,7 +1420,7 @@ use_preset_vocabulary: true
 返先天	fan;zy;zy;zf;uq;ye;xu;rc;zy; xian;ne;ne;ne,en;bk;hu;qp;tf;pe; tian;ad;ad;ad;ue;mk;fm;gd;ad;	1
 反指	fan;iy;py;py;ul;he;xr;rc;py; zhi;fo;fo;fv;jv;qa;uo;rx;fo;	10
 焚修	fen;mh;mh;hl;wt;df;ec;ss;lh; xiu;rp;rp;rp;xu;oh;je;wh;rp;	0
-封金匮	feng;tc;tc;cg;gk;gi;gk;ff;tc; jin;rb;ra;ra,pa;ed;cc;zj;qq;ra; kui;kb;kr;kg;dr;so;no;ak;kr;	0
+封金匮	feng;tc;tc;cg;gk;gi;gk;ff;tc; jin;rb;ra;ra,pa;ed;cc;zj;qq;ra; gui;kb;kr;kg;dr;so;no;ak;kr;	0
 佛无大小	fo;rf;rf;rf;xp;on;jt;wx;rf; wu;ay;ay;ag,ay,ee;uk;mu;du;fq;av; da;ar;un;ad;xx;kk;md;dd;an; xiao;lb;ld;ad;ii;nc;yx;ih;vd;	0
 复车	fu;pw;pw;pw,rw,wo;ej;oe;eh;tj;pw; che;au;al;aa;tt;kq;yc;lg;aa;	0
 复鹿	fu;pw;pw;pw,rw,wo;ej;oe;eh;tj;pw; lu;gb;gb;gb,lb;ra;ip;xl;yn;gb;	0
@@ -13274,4 +13274,3 @@ use_preset_vocabulary: true
 羽人	yu;xx;xx;xx;dd;sm;zv;nn;xx; ren;pn;pn;pd;ee;oo;jr;w,ww;pn;	62
 中杆	zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; gan;mg;mg;mg;ws;dj;ee;sf;lg;	365
 中羽	zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; yu;xx;xx;xx;dd;sm;zv;nn;xx;	184
-
