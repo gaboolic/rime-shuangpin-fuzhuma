@@ -92,6 +92,7 @@ default_str = """
 粗暴	cb/
 暗部	ab/
 阿尔	ae/
+昵称	ni/
 """
 default_map = {}
 for line in default_str.split("\n"):

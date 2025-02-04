@@ -279,6 +279,7 @@ use_preset_vocabulary: true
 中国食犬	zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; guo;ky;ky;ky;na;wi;ri;l,lg;wy; shi;rg;rl;rl,pd;eh;ov;qs;wy;rh; quan;dd;dd;dd,ad;bb;ik;mq;dg;dd;	0
 中国狮子犬	zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; guo;ky;ky;ky;na;wi;ri;l,lg;wy; shi;qj;qj;qu;by;kb;mr;qt;qj; zi;la;va;aa,vh;aa;nd;hi;bb;va; quan;dd;dd;dd,ad;bb;ik;mq;dg;dd;	0
 中国无毛犬	zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; guo;ky;ky;ky;na;wi;ri;l,lg;wy; wu;ay;ay;ag,ay,ee;uk;mu;du;fq;av; mao;pv;pv;pg;ur;hu;vm;tf;pv; quan;dd;dd;dd,ad;bb;ik;mq;dg;dd;	0
+无毛犬	wu;ay;ay;ag,ay,ee;uk;mu;du;fq;av; mao;pv;pv;pg;ur;hu;vm;tf;pv; quan;dd;dd;dd,ad;bb;ik;mq;dg;dd;	0
 仓鼠	cang;rv;rv;re;et;ou;jz;wb;rv; shu;jv;jv;ju;sr;hv;ps;vn;jv;	679
 鹿鹿	lu;gb;gb;gb,lb;ra;ip;xl;yn;gb; lu;gb;gb;gb,lb;ra;ip;xl;yn;gb;	20
 猛虎	meng;qm;qm;qm;ba;kt;ma;qt;qm; hu;hj;hj;hj;pi;yn,yu;zh;ha;aj;	527
@@ -288,6 +289,7 @@ use_preset_vocabulary: true
 白化	bai;po;po;pa,po;ss;ha;ub;rr;po; hua;rb;rb;rb;xa;op;jv;wx;rb;	226
 白化蛋白石基因	bai;po;po;pa,po;ss;ha;ub;rr;po; hua;rb;rb;rb;xa;op;jv;wx;rb; dan;zi;vi;ip,pi;rf;ni;tc;nh;vi; bai;po;po;pa,po;ss;ha;ub;rr;po; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; ji;ct;qt;tq,qt;vg;tg;zg;ad;qt; yin;kd;kd;kd;nx;wk;rm;ld;wd;	0
 彩虹	cai;cp;pp;pc;hu;bh;ye;es;pp; hong;ig;ig;ig;fp;lm;cu;ja;ig;	2276
+彩狸	cai;cp;pp;pc;hu;bh;ye;es;pp; li;ql;ql;ql;bg;kg;md;qt;ql;	1
 蛋白石	dan;zi;vi;ip,pi;rf;ni;tc;nh;vi; bai;po;po;pa,po;ss;ha;ub;rr;po; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak;	7
 蛋白石基因	dan;zi;vi;ip,pi;rf;ni;tc;nh;vi; bai;po;po;pa,po;ss;ha;ub;rr;po; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; ji;ct;qt;tq,qt;vg;tg;zg;ad;qt; yin;kd;kd;kd;nx;wk;rm;ld;wd;	0
 蛋白石肉桂基因	dan;zi;vi;ip,pi;rf;ni;tc;nh;vi; bai;po;po;pa,po;ss;ha;ub;rr;po; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; rou;nr;nr;ad,kr;oe;oo;mj;mw;nr; gui;mt;mt;mg;wg;dg;eg;sf;lt; ji;ct;qt;tq,qt;vg;tg;zg;ad;qt; yin;kd;kd;kd;nx;wk;rm;ld;wd;	0
