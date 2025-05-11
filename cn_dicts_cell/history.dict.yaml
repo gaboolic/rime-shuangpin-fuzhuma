@@ -1898,7 +1898,7 @@ use_preset_vocabulary: false
 文襄	wen;wx;wx;wi,dd;jj;yk;vw;yy;wx; xiang;yf;wy;wy,ya;ih;yv;tf;yk;wh;	24
 文宣叱奴皇后	wen;wx;wx;wi,dd;jj;yk;vw;yy;wx; xuan;bd;ba;bg;id;jm;wf;pg;gd; chi;kb;kb;kb;oa;rp;dv;kx;kb; nu;ny;ny;ny;yl;ve;br;vc;ny; huang;bw;bw;bw;sa;hg;un;rg;bw; hou;ik;pk;pk;uo;hr;xd;rg;pk;	0
 武帝阿史那皇后	wu;yv;av;vy,yv;dr;mm;fs;ga;vg; di;wj;wj;jb,wj,lj;iy;yb;ir;up;wj; a;ek;ek;ek;bj;nr;tz;bs;ek; shi;kn;ln;ad,ki;oy;lk;db;kq;an; na;ve;ve;el;rb;sl;at;vf;ve; huang;bw;bw;bw;sa;hg;un;rg;bw; hou;ik;pk;pk;uo;hr;xd;rg;pk;	0
-乌丸轨	wu;pa;pa;pa;ud;pm;xu;qn;pa; wan;ld;pd;jd,pd;uh;ki;ki;vy;pd; gui;ij;ij;ij;tr;kn;yk;lv;ij;	1
+乌丸轨	wu;pa;pa;pa;ud;pm;xu;qn;pa; wan;jd;pd;jd,pd;uh;ki;ki;vy;pd; gui;ij;ij;ij;tr;kn;yk;lv;ij;	1
 武威公主	wu;yv;av;vy,yv;dr;mm;fs;ga;vg; wei;wn;xn,ad,wn;gn,ng,wn;rh;iv;nb;dg;ng; gong;bs;bs;sb,bs;fp;ci;hk;wc;bv; zhu;wt;dw;dw;ig;yg;in;y,yg;wt;	0
 武邑公主	wu;yv;av;vy,yv;dr;mm;fs;ga;vg; yi;kb;kb;kb;ot;ru,xu;dm;kc;kb; gong;bs;bs;sb,bs;fp;ci;hk;wc;bv; zhu;wt;dw;dw;ig;yg;in;y,yg;wt;	0
 吴遵世	wu;kt;kt;kt;ox;rk;dm;kg;kt; zun;zc;zc;zz;fq;yi;hu;us;zc; shi;cv;av;ca,cv,aa;vr;pt;la;an;av;	0
@@ -6442,7 +6442,7 @@ use_preset_vocabulary: false
 范思贤	fan;cv;cv;ce,cf;zt;tu;lz;ai;cv; si;tx;tx;tx,xt;wn;wp;qh;ln;tx; xian;lb;lr;by;pm;lo;po;jc;ar;	0
 范松	fan;cv;cv;ce,cf;zt;tu;lz;ai;cv; song;mg;ms;mg;wp;di;ek;sw;lv;	0
 范泰恒	fan;cv;cv;ce,cf;zt;tu;lz;ai;cv; tai;iu;fu;fu,uf;uo;qe;ak;dw;au; heng;xd;xa;xg;nd;pm;hf;ng;xd;	0
-梵天丸	fan;mf;mf;fl,mf;wh;di;ei;ss;lf; tian;ad;ad;ad;ue;mk;fm;gd;ad; wan;ld;pd;jd,pd;uh;ki;ki;vy;pd;	0
+梵天丸	fan;mf;mf;fl,mf;wh;di;ei;ss;lf; tian;ad;ad;ad;ue;mk;fm;gd;ad; wan;jd;pd;jd,pd;uh;ki;ki;vy;pd;	0
 范庭兰	fan;cv;cv;ce,cf;zt;tu;lz;ai;cv; ting;gw;gz;gt;rq;ig;xu;yt;gr; lan;bs;bs;bs,qe;fu;tm;ht;uf;es;	0
 范廷镇	fan;cv;cv;ce,cf;zt;tu;lz;ai;cv; ting;zw;zr;zr;sq;ng;tu;tf;zr; zhen;jb;jb;jv;df;oc;zh;qf;jb;	0
 樊通润	fan;md;md;dm;wx;dk;em;sq;ld; tong;zy;zy;zy;pq;yb;ku;ce;zy; run;dw;dw;dr;ka;eg;kn;iu;dw;	0
@@ -17259,7 +17259,7 @@ use_preset_vocabulary: false
 余贲民	yu;rm;rh;rb,rd,rh;ef;od;jx;wt;rx; ben;ub;ur;bh;sm;jo;no;fa;ur; min;vv;vv;ag,kq,vg;rr;rp;dm;n,na;vv;	0
 俞必达	yu;rd;rd;rd,ry;ei;on;jp;wg;rd; bi;xp;dd;dd,xp;nu;ph;ht;nt;dd; da;zd;zd;zd;xq;yk,xk;mu;dp;zd;	0
 俞弁	yu;rd;rd;rd,ry;ei;on;jp;wg;rd; bian;sc;sc;cs,sc;pp;it,xt;kl;ca;va;	0
-御弁丸	yu;re;ie;xx;hb;hl;wz;tr;re; bian;sc;sc;cs,sc;pp;it,xt;kl;ca;va; wan;ld;pd;jd,pd;uh;ki;ki;vy;pd;	0
+御弁丸	yu;re;ie;xx;hb;hl;wz;tr;re; bian;sc;sc;cs,sc;pp;it,xt;kl;ca;va; wan;jd;pd;jd,pd;uh;ki;ki;vy;pd;	0
 虞搏	yu;ht;ht;hw;px;yk;zm;ha;at; bo;fc;fc;fc,ff;jk;qi;uk;rg;fc;	0
 余伯泉	yu;rm;rh;rb,rd,rh;ef;od;jx;wt;rx; bo;rb;rb;rb;xs;oa;ju;wr;rb; quan;bu;bu;bu,ub;so;he;uk;ri;bu;	0
 俞粲	yu;rd;rd;rd,ry;ei;on;jp;wg;rd; can;dm;lm;my;pl;yd;gp;hq;am;	0
