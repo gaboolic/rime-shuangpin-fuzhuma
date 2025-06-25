@@ -42,6 +42,21 @@ speller:
   ## ue ve
   algebra:
     - xform/^/ /
+    
+    # 微软双拼零声母处理 - 必须在其他转换之前进行
+    - xform/( )aa/$1OA/         # aa -> oa
+    - xform/( )ee/$1OE/         # ee -> oe
+    - xform/( )ai/$1OL/         # ai -> ol  
+    - xform/( )an/$1OJ/         # an -> oj
+    - xform/( )ah/$1OH/         # ah -> oh
+    - xform/( )ao/$1OK/         # ao -> ok
+    - xform/( )ei/$1OZ/         # ei -> oz
+    - xform/( )en/$1OF/         # en -> of
+    - xform/( )eg/$1OG/         # eg -> og
+    - xform/( )er/$1OR/         # er -> or
+    - xform/( )ou/$1OB/         # ou -> ob
+    
+    # 小鹤双拼转微软双拼的键位映射
     - xform/( \w)w/$1Z/ # 小鹤双拼的W键的ei匹配到微软双拼的Z键
     - xform/( \w)y/$1P/ # 小鹤双拼的Y键的un匹配到微软双拼的P键
     - xform/( \w)p/$1X/ # 小鹤双拼的P键的ie匹配到微软双拼的X键
@@ -56,7 +71,7 @@ speller:
     - xform/( \w)b/$1N/ # 小鹤双拼的B键的in匹配到微软双拼的N键
     - derive/( [nl])v/$1Y/ # 小鹤双拼的V键的v匹配到微软双拼的Y键
     - derive/( \w)t/$1V/  #t->v ue
-    - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
+    - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
     - xform/^ //
     
 
