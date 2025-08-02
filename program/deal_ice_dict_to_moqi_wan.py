@@ -1,6 +1,8 @@
 import os
 from collections import OrderedDict
 
+root_path = "D:\\vscode_proj\\rime-frost"
+
 # Function to read a file
 def read_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -165,6 +167,7 @@ def get_hu_aux_code_map(file_list):
 # Function to update missing encodings in the file
 def update_missing_encodings(file_path, write_file_path, dict_data):
     # Read the file content
+    print("update_missing_encodings file_path:"+file_path)
     file_content = read_file(file_path)
 
     # Split the content into lines
@@ -173,6 +176,7 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
     # Create an updated content variable
     updated_content = ''
 
+    print(len(lines))
     # Process each line
     for line in lines:
         if '\t' not in line or line.startswith("#"):
@@ -235,6 +239,7 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
         updated_content += updated_line + '\n'
 
     # Write the updated content back to the file
+    print("write_file_path:")
     print(write_file_path)
     write_file(write_file_path, updated_content)
 
@@ -261,7 +266,7 @@ print(dict_data['hx']['火'])
 
 for file_name in file_list:
     # File paths
-    cn_dicts_path = os.path.expanduser("~/vscode/rime-frost/cn_dicts")
+    cn_dicts_path = os.path.join(root_path, "cn_dicts")
     yaml_file_path = os.path.join(cn_dicts_path, file_name)
     write_file_path = os.path.join('cn_dicts', file_name)
 
@@ -270,9 +275,10 @@ for file_name in file_list:
     update_missing_encodings(yaml_file_path, write_file_path, dict_data)
 
 # 细胞词库
-for file_name in os.listdir(os.path.expanduser("~/vscode/rime-frost/cn_dicts_cell")):
+cell_path =  os.path.join(root_path, "cn_dicts_cell")
+for file_name in os.listdir(cell_path):
     # File paths
-    cn_dicts_path = os.path.expanduser("~/vscode/rime-frost/cn_dicts_cell")
+    cn_dicts_path = cell_path
     yaml_file_path = os.path.join(cn_dicts_path, file_name)
     write_file_path = os.path.join('cn_dicts_cell', file_name)
 
