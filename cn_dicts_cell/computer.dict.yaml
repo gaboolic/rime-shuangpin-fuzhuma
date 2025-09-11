@@ -7,13 +7,15 @@ name: computer
 version: "2024-07-19"
 sort: by_weight
 ...
-入参	ru;pn;pn;pd;ee;oh;ju;ty;pn; can;sp;sp;sp;pu;ih;ke;cd;vp;	50
-出参	chu;uu;vk;ck,aa;pp;uu;sm;bm;va; can;sp;sp;sp;pu;ih;ke;cd;vp;	10
-强依赖	qiang;gi;gi;gs;rf;ni;bc;xk;gi; yi;ry;ry;ry;xk;ov;jt;wy;rh; lai;ub;ur;uf;dm;do;xo;gk;ur;	38
-弱依赖	ruo;gg;gd;gd;rf;nm;bw;xu;gd; yi;ry;ry;ry;xk;ov;jt;wy;rh; lai;ub;ur;uf;dm;do;xo;gk;ur;	4
-发版	fa;fy;vd;ay,fd,vy,yd;rh;ie;si;v,nt;vy; ban;py;py;pf;ul;le,xe;ar;th;py;	111
-竞业	jing;lx;le;lx;bk;yu;ip;uk;le; ye;la;la;aa;pd;tc,xc;cy;og;aa;	194
-父级目录	fu;bx;bx;bi,pd;fy;ck;hb;wq;bx; ji;sj;sj;sj;eh;ve;ic;xe;sj; mu;ke;ka;aa,om,mu;ss;bu;qm;hh;we; lu;eu;eu;au,ua,vu;so;ne;bk;vi;vu;	0
-会邀	hui;ry;rs;ry;ep;oi;jb;wf;rv; yao;zw;zw;zj,zw;sq;yk;uu;ry;zw;	0
-主域名	zhu;wt;dw;dw;ig;yg;in;y,yg;wt; yu;ta;ta;th;gd,ga;gm;gf;fa;tg; ming;xk;xk;xk;fo;nr;ld;qk;xk;	26
+入参	ru;pn;pn;pd;ee;oh;ju;ty;pn;pn; can;sp;sp;sp;pu;ih;ke;cd;vp;pp;	50
+出参	chu;uu;vk;ck,aa;pp;uu;sm;bm;va;va; can;sp;sp;sp;pu;ih;ke;cd;vp;pp;	10
+强依赖	qiang;gi;gi;gs;rf;ni;bc;xk;gi;gs; yi;ry;ry;ry;xk;ov;jt;wy;rh;ry; lai;ub;ur;uf;dm;do;xo;gk;ur;uf;	38
+弱依赖	ruo;gg;gd;gd;rf;nm;bw;xu;gd;gd; yi;ry;ry;ry;xk;ov;jt;wy;rh;ry; lai;ub;ur;uf;dm;do;xo;gk;ur;uf;	4
+发版	fa;fy;vd;ay,fd,vy,yd;rh;ie;si;v,nt;vy;yv; ban;py;py;pf;ul;le,xe;ar;th;py;pf;	111
+竞业	jing;lx;le;lx;bk;yu;ip;uk;le;lx; ye;la;la;aa;pd;tc,xc;cy;og;aa;aa;	194
+父级目录	fu;bx;bx;bi,pd;fy;ck;hb;wq;bx;bx; ji;sj;sj;sj;eh;ve;ic;xe;sj;sj; mu;ke;ka;aa,om,mu;ss;bu;qm;hh;we;ka; lu;eu;eu;au,ua,vu;so;ne;bk;vi;vu;uv;	0
+会邀	hui;ry;rs;ry;ep;oi;jb;wf;rv;ry; yao;zw;zw;zj,zw;sq;yk;uu;ry;zw;zw;	0
+主域名	zhu;wt;dw;dw;ig;yg;in;y,yg;wt;wd; yu;ta;ta;th;gd,ga;gm;gf;fa;tg;th; ming;xk;xk;xk;fo;nr;ld;qk;xk;xk;	26
+
+
 

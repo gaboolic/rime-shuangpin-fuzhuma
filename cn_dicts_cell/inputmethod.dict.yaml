@@ -7,112 +7,114 @@ name: inputmethod
 version: "2024-07-13"
 sort: by_weight
 ...
-打词	da;fd;fd;fd;jj;qn;ua;rs;fd; ci;yk;yk;ys;co;ir;sd;yn;yk;	0
-朙月拼音	ming;ko;;oj;;wb;rv;lw;; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe; pin;fk;fk;fb;jp;qt,qj;ul;ru;fk; yin;lo;lo;lo;cc;ya;xy;uj;lo;	2
-墨奇音形	mo;lt;ht;th,ht;ng;wg;pg;lf;ht; qi;dk;dk;dk;xj;kr;mz;ds;dk; yin;lo;lo;lo;cc;ya;xy;uj;lo; xing;kp;kp;pk;uu;mh;fe;ga;kp;	0
-伽布里克	ga;rk;rk;rj;xo;or;jd;wl;rk; bu;uj;uj;ju,uj;sy;kb;nr;dm;aj; li;tt;la;aa,tt;vg;wg;dl;jf;aa; ke;ux,ge;ue;eg,ux;sk;ju;cp;dq;ue;	0
-墨奇音形的作者是伽布里克	mo;lt;ht;th,ht;ng;wg;pg;lf;ht; qi;dk;dk;dk;xj;kr;mz;ds;dk; yin;lo;lo;lo;cc;ya;xy;uj;lo; xing;kp;kp;pk;uu;mh;fe;ga;kp; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu; zuo;rv;rv;rv;xu;os;jw;wt;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo; shi;oz;or;op,ov;ve;ao;ot;j,jg;or; ga;rk;rk;rj;xo;or;jd;wl;rk; bu;uj;uj;ju,uj;sy;kb;nr;dm;aj; li;tt;la;aa,tt;vg;wg;dl;jf;aa; ke;ux,ge;ue;eg,ux;sk;ju;cp;dq;ue;	0
-爱次漏的小栏还	ai;vy;py;vy;hl;be;yr;ep;py; ci;dq;dr;dq;fe;io,mo;we;uq;dr; lou;dy;dy;dl,dy;ky;eb;kt;in;dy; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu; xiao;lb;ld;ad;ii;nc;yx;ih;vd; lan;ml;ms;ml;wu;dm;et;su;ls; hai;zb;zb;zb;dq;yf;cu;gi;zb;	0
-白霜词库	bai;po;po;pa,po;ss;ha;ub;rr;po; shuang;yo;yo;yx;ys;mu;tq;fs;ym; ci;yk;yk;ys;co;ir;sd;yn;yk; ku;gi;gi;gi;rt;iq;xy;yl;gi;	0
-白霜拼音	bai;po;po;pa,po;ss;ha;ub;rr;po; shuang;yo;yo;yx;ys;mu;tq;fs;ym; pin;fk;fk;fb;jp;qt,qj;ul;ru;fk; yin;lo;lo;lo;cc;ya;xy;uj;lo;	0
-白霜拼音的作者是伽布里克	bai;po;po;pa,po;ss;ha;ub;rr;po; shuang;yo;yo;yx;ys;mu;tq;fs;ym; pin;fk;fk;fb;jp;qt,qj;ul;ru;fk; yin;lo;lo;lo;cc;ya;xy;uj;lo; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu; zuo;rv;rv;rv;xu;os;jw;wt;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo; shi;oz;or;op,ov;ve;ao;ot;j,jg;or; ga;rk;rk;rj;xo;or;jd;wl;rk; bu;uj;uj;ju,uj;sy;kb;nr;dm;aj; li;tt;la;aa,tt;vg;wg;dl;jf;aa; ke;ux,ge;ue;eg,ux;sk;ju;cp;dq;ue;	0
-雾凇词库	wu;yl;yl;yw;yu;ms;ts;ft;yl; song;dg;ds;ds;fp;ii;wk;us;dv; ci;yk;yk;ys;co;ir;sd;yn;yk; ku;gi;gi;gi;rt;iq;xy;yl;gi;	0
-雾凇拼音	wu;yl;yl;yw;yu;ms;ts;ft;yl; song;dg;ds;ds;fp;ii;wk;us;dv; pin;fk;fk;fb;jp;qt,qj;ul;ru;fk; yin;lo;lo;lo;cc;ya;xy;uj;lo;	0
-大竹	da;ar;un;ad;xx;kk;md;dd;an; zhu;gg;pl,gg;gg;nn;hh;ru;tt;pd;	39
-聆竹听风	ling;es;es;el;dp;si;qk;bw;ev; zhu;gg;pl,gg;gg;nn;hh;ru;tt;pd; ting;kj;kj;kj;op;rl;dt;kr;kj; feng;jx;jx;ji;iy;hk;ob;mq;jx;	0
-魔然	mo;gg;gg;gm,mg;ds;ii;za;ys;gv; ran;xh;ph;hq;fn;bf;vc;qd;pe;	0
-雾凇鹤	wu;yl;yl;yw;yu;ms;ts;ft;yl; song;dg;ds;ds;fp;ii;wk;us;dv; he;bn;dn;nv;ic;om;wx;pw;dn;	0
-小鹤音形	xiao;lb;ld;ad;ii;nc;yx;ih;vd; he;bn;dn;nv;ic;om;wx;pw;dn; yin;lo;lo;lo;cc;ya;xy;uj;lo; xing;kp;kp;pk;uu;mh;fe;ga;kp;	0
-小鹤音形作者是何海峰	xiao;lb;ld;ad;ii;nc;yx;ih;vd; he;bn;dn;nv;ic;om;wx;pw;dn; yin;lo;lo;lo;cc;ya;xy;uj;lo; xing;kp;kp;pk;uu;mh;fe;ga;kp; zuo;rv;rv;rv;xu;os;jw;wt;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo; shi;oz;or;op,ov;ve;ao;ot;j,jg;or; he;rk;rk;rk;xj;or;jz;ws;rk; hai;dm;dm;dm;kh;ey;kk;it;dm; feng;uf;ef;uf;pa;uj;va;mt;sf;	0
-哲豆音形	zhe;fk;fk;kv;jo;qr;ud;rr;fk; dou;ab;aa;aa,aq;dd;mt;zd;gk;aa; yin;lo;lo;lo;cc;ya;xy;uj;lo; xing;kp;kp;pk;uu;mh;fe;ga;kp;	0
-鹤形	he;bn;dn;nv;ic;om;wx;pw;dn; xing;kp;kp;pk;uu;mh;fe;ga;kp;	10
-雾凇自然	wu;yl;yl;yw;yu;ms;ts;ft;yl; song;dg;ds;ds;fp;ii;wk;us;dv; zi;po;po;pa,po;ss;hu;oi;th;pm; ran;xh;ph;hq;fn;bf;vc;qd;pe;	0
-墨奇	mo;lt;ht;th,ht;ng;wg;pg;lf;ht; qi;dk;dk;dk;xj;kr;mz;ds;dk;	0
-墨奇码	mo;lt;ht;th,ht;ng;wg;pg;lf;ht; qi;dk;dk;dk;xj;kr;mz;ds;dk; ma;um;um;um;tz;mm;mn;dc;um;	0
-汉心码	han;dy;dy;dy;kl;ee;kr;ic;dy; xin;dd;dd;dd;nn;pp;hx;ny;dd; ma;um;um;um;tz;mm;mn;dc;um;	0
-汉心码作者晡时之光	han;dy;dy;dy;kl;ee;kr;ic;dy; xin;dd;dd;dd;nn;pp;hx;ny;dd; ma;um;um;um;tz;mm;mn;dc;um; zuo;rv;rv;rv;xu;os;jw;wt;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo; bu;of;of;of;vh;ab;on;jg;of; shi;oc;oc;oc;vk;ai;ok;jf;oc; zhi;dn;dn;dd;hh;io;ri;pp;dn; guang;xe;xw;ea,xw;hk;fu;mg;iq;ee;	0
-天码	tian;ad;ad;ad;ue;mk;fm;gd;ad; ma;um;um;um;tz;mm;mn;dc;um;	1
-天码输入法的作者是宋天	tian;ad;ad;ad;ue;mk;fm;gd;ad; ma;um;um;um;tz;mm;mn;dc;um; shu;id;id;iy;ti;kn;yp;lw;id; ru;pn;pn;pd;ee;oh;ju;ty;pn; fa;dq;ds;dq;kp;ei;kk;if;dv; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu; zuo;rv;rv;rv;xu;os;jw;wt;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo; shi;oz;or;op,ov;ve;ao;ot;j,jg;or; song;bm;bm;bm;iw;jd,xd;we;ps;gl; tian;ad;ad;ad;ue;mk;fm;gd;ad;	0
-易学码	yi;ow;ow;ow;vi;ah;oe;jq;ow; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez; ma;um;um;um;tz;mm;mn;dc;um;	0
-墨奇辅助码	mo;lt;ht;th,ht;ng;wg;pg;lf;ht; qi;dk;dk;dk;xj;kr;mz;ds;dk; fu;if;if;if;th;kb;yn;lg;if; zhu;ql;ql;lq,ql;pu;bs;fs;eg;ql; ma;um;um;um;tz;mm;mn;dc;um;	0
-矧码	shen;ul;ul;uy;ep;ol;og;td;uy; ma;um;um;um;tz;mm;mn;dc;um;	0
-空明码	kong;bg;bg;xg,bg;ip;jm;eu;pw;gg; ming;oo;oo;oo;vl;ab;ov;je;oo; ma;um;um;um;tz;mm;mn;dc;um;	0
-并击	bing;bk;bk;bk,qc;fp;tt,xt;hl;ua;ek; ji;fk;ak;aa,eu,fk;gp;qu;um;fm;aa;	10
-星空键道	xing;ou;ou;ou;va;am;ol;jt;ou; kong;bg;bg;xg,bg;ip;jm;eu;pw;gg; jian;jy;jz;jj;dq;oq;zu;qv;jj; dao;zz;zz;zu;fq;yu;hu;ut;zm;	0
-星猫键道	xing;ou;ou;ou;va;am;ol;jt;ou; mao;qt;qt;qm;bw;kw;mq;qt;qt; jian;jy;jz;jj;dq;oq;zu;qv;jj; dao;zz;zz;zu;fq;yu;hu;ut;zm;	0
-天行键	tian;ad;ad;ad;ue;mk;fm;gd;ad; xing;rd;ii;xd,xi;hs;hn;px;tf;rd; jian;jy;jz;jj;dq;oq;zu;qv;jj;	0
-灵形速影	ling;eh;eh;hx,xh;st;sf;bc;vo;vh; xing;kp;kp;pk;uu;mh;fe;ga;kp; su;zu;zu;zu;dq;yl;xu;gk;zu; ying;op;op;pj;vu;ah;oe;jy;op;	0
-飞码	fei;vd;vd;yd;rh;no,xo;cf;nu;vd; ma;um;um;um;tz;mm;mn;dc;um;	1
-字源	zi;bz;bz;bz;ia;jd;wh;pb;gz; yuan;dx;dx;dy;ki;ef;ky;id;dx;	87
-虎鹤	hu;hj;hj;hj;pi;yn,yu;zh;ha;aj; he;bn;dn;nv;ic;om;wx;pw;dn;	18
-鹤虎	he;bn;dn;nv;ic;om;wx;pw;dn; hu;hj;hj;hj;pi;yn,yu;zh;ha;aj;	0
-龙码	long;yp;ud;ad;sh;ip;tl;dx;ab; ma;um;um;um;tz;mm;mn;dc;um;	0
-猫码	mao;qt;qt;qm;bw;kw;mq;qt;qt; ma;um;um;um;tz;mm;mn;dc;um;	0
-声笔	sheng;tu;up;um;gp;gh;gc;fn;up; bi;vm;vm;vm;nr;hu;rv;tt;vm;	0
-声笔输入法	sheng;tu;up;um;gp;gh;gc;fn;up; bi;vm;vm;vm;nr;hu;rv;tt;vm; shu;id;id;iy;ti;kn;yp;lw;id; ru;pn;pn;pd;ee;oh;ju;ty;pn; fa;dq;ds;dq;kp;ei;kk;if;dv;	0
-声笔输入法作者戴石麟	sheng;tu;up;um;gp;gh;gc;fn;up; bi;vm;vm;vm;nr;hu;rv;tt;vm; shu;id;id;iy;ti;kn;yp;lw;id; ru;pn;pn;pd;ee;oh;ju;ty;pn; fa;dq;ds;dq;kp;ei;kk;if;dv; zuo;rv;rv;rv;xu;os;jw;wt;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo; dai;gg;ub;gg,gy;sf,ha;jc;nh;fa;bg; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; lin;lf;gl;ll;rp;iq;xv;yn;ga;	0
-戴石麟	dai;gg;ub;gg,gy;sf,ha;jc;nh;fa;bg; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; lin;lf;gl;ll;rp;iq;xv;yn;ga;	0
-声笔飞码	sheng;tu;up;um;gp;gh;gc;fn;up; bi;vm;vm;vm;nr;hu;rv;tt;vm; fei;vd;vd;yd;rh;no,xo;cf;nu;vd; ma;um;um;um;tz;mm;mn;dc;um;	0
-跟打器	gen;zg;zg;zg;gh;rv;pi;kh;zh; da;fd;fd;fd;jj;qn;ua;rs;fd; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	0
-极速跟打器	ji;mj,mn;mj;mj;wh;de;ec;se;lj; su;zu;zu;zu;dq;yl;xu;gk;zu; gen;zg;zg;zg;gh;rv;pi;kh;zh; da;fd;fd;fd;jj;qn;ua;rs;fd; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	0
-木易跟打器	mu;ur;un,an;ad;ww;dd;em;ss;un; yi;ow;ow;ow;vi;ah;oe;jq;ow; gen;zg;zg;zg;gh;rv;pi;kh;zh; da;fd;fd;fd;jj;qn;ua;rs;fd; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	0
-出简让全	chu;uu;vk;ck,aa;pp;uu;sm;bm;va; jian;vo;vo;vj;nv;ha;ro;tu;vo; rang;yu;yu;yu;cu,cd;im;sf;yh;yu; quan;rw;rw;rw;ea;og;jn;wg;rw;	0
-出简无全	chu;uu;vk;ck,aa;pp;uu;sm;bm;va; jian;vo;vo;vj;nv;ha;ro;tu;vo; wu;ay;ay;ag,ay,ee;uk;mu;du;fq;av; quan;rw;rw;rw;ea;og;jn;wg;rw;	0
-无简无全	wu;ay;ay;ag,ay,ee;uk;mu;du;fq;av; jian;vo;vo;vj;nv;ha;ro;tu;vo; wu;ay;ay;ag,ay,ee;uk;mu;du;fq;av; quan;rw;rw;rw;ea;og;jn;wg;rw;	0
-以词定字	yi;lr;vr;rd,ry;re;vo;vj;c,ny;vr; ci;yk;yk;ys;co;ir;sd;yn;yk; ding;bz;br;bp;ie;jo;wt;pg;gr; zi;bz;bz;bz;ia;jd;wh;pb;gz;	0
-容错码	rong;bg;bk;bg;io;jr;wh;pw;gk; cuo;jo;jo;jx;dv;oa;zo;qa;jo; ma;um;um;um;tz;mm;mn;dc;um;	0
-无理码	wu;ay;ay;ag,ay,ee;uk;mu;du;fq;av; li;wl;wl;wl;ag;mg;nd;gj;wl; ma;um;um;um;tz;mm;mn;dc;um;	1
-有理码	you;uo;uo;ou,uo;sl;kb;nv;e,de;ao; li;wl;wl;wl;ag;mg;nd;gj;wl; ma;um;um;um;tz;mm;mn;dc;um;	0
-随心码	sui;eo;ez;ey,ez;bq;nb,xk;tu;bd;eo; xin;dd;dd;dd;nn;pp;hx;ny;dd; ma;um;um;um;tz;mm;mn;dc;um;	0
-标顶	biao;mu;mx;mu;wi;df;ef;sf;lx; ding;dy;dr;dy,yd;jm;mo;aw;sd;dr;	0
-顶功	ding;dy;dr;dy,yd;jm;mo;aw;sd;dr; gong;gl;gl;gl,lg;pu;ms;us;al;gl;	0
-前两码	qian;bd;bd;bd,qd;fi;tn;hp;ue;ed; liang;ar;ad;ad;de;mb;ml;gm;ad; ma;um;um;um;tz;mm;mn;dc;um;	2
-后两码	hou;ik;pk;pk;uo;hr;xd;rg;pk; liang;ar;ad;ad;de;mb;ml;gm;ad; ma;um;um;um;tz;mm;mn;dc;um;	0
-首形	shou;bz;bz;qz;fs;tu;ho;ut;em; xing;kp;kp;pk;uu;mh;fe;ga;kp;	0
-末形	mo;am;an;ad,am;ee;dj;fe;gs;an; xing;kp;kp;pk;uu;mh;fe;ga;kp;	0
-顶屏	ding;dy;dr;dy,yd;jm;mo;aw;sd;dr; ping;uk;uk;ub;qp;st;cl;nu;uk;	0
-飞键	fei;vd;vd;yd;rh;no,xo;cf;nu;vd; jian;jy;jz;jj;dq;oq;zu;qv;jj;	0
-主翻译器	zhu;wt;dw;dw;ig;yg;in;y,yg;wt; fan;cx;px;yf;hd;hm;tz;to;fx; yi;yf;yl;yf;cp;iq;su;yc;ya; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	0
-五笔输入法作者是王永民	wu;aw;aa;aa;gg;mm;wu;gg;aa; bi;vm;vm;vm;nr;hu;rv;tt;vm; shu;id;id;iy;ti;kn;yp;lw;id; ru;pn;pn;pd;ee;oh;ju;ty;pn; fa;dq;ds;dq;kp;ei;kk;if;dv; zuo;rv;rv;rv;xu;os;jw;wt;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo; shi;oz;or;op,ov;ve;ao;ot;j,jg;or; wang;at;at;aa;aa;mg;nw;gg;at; yong;du;dn;dd;hh;ie;ik;yn;dn; min;vv;vv;ag,kq,vg;rr;rp;dm;n,na;vv;	0
-王旁青头戋五一	wang;at;at;aa;aa;mg;nw;gg;at; pang;wf;wf;wf,lf;if;ys;il;up;wf; qing;fo;fo;of,fo;al;qb;av;ge;ao; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; jian;ga;ad;ad,ga;aa;ij,xj;fp;gg;ad; wu;aw;aa;aa;gg;mm;wu;gg;aa; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;	0
-土士二干十寸雨	tu;ua;ua;aa;gg;gg;gt;ff;ua; shi;ua;ua;aa;gg;jm;gs;fg;ua; er;aa;aa;aa;uu;mm;me;fg;aa; gan;au;au;aa;ss;mj;eg;fg;au; shi;al;al;aa;ss;jj;ns;fg;aa; cun;ud;ad;ad;kk;di;kc;fg;ad; yu;ad;ad;ad;yy;my;tv;fg;ad;	1
-一二还有革字底	yi;aa;aa;aa;dd;mm;fi;g,gg;aa; er;aa;aa;aa;uu;mm;me;fg;aa; hai;zb;zb;zb;dq;yf;cu;gi;zb; you;uo;uo;ou,uo;sl;kb;nv;e,de;ao; ge;cu;nl;aa,ca;vs;tj;tg;af;ca; zi;bz;bz;bz;ia;jd;wh;pb;gz; di;gu;gd;gd;rh;im,ii;xi;yq;gd;	0
-大犬三羊古石厂	da;ar;un;ad;xx;kk;md;dd;an; quan;dd;dd;dd,ad;bb;ik;mq;dg;dd; san;ae;ae;aa;uu;mm;ts;dg;ae; yang;bf;bl;da;fp;tq;gy;ud;ea; gu;uk;uk;uk;so;jr;cg;dg;uk; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; chang;ap;ap;ap;rr;mh;xc;dg;ap;	2
-木丁西	mu;ur;un,an;ad;ww;dd;em;ss;un; ding;al;al;aa;jj;mn;ad;sg;av; xi;ak,wk;aa;aa;pp;mw;vx;sg;aa;	1
-工戈草头右框七	gong;aa;aa;aa;pp;mm;ug;a,aa;aa; ge;yp;ad;ad;aa,ha;ii;pg;ag;ad; cao;cu;cu;cz;zs;tj;ln;aj;cu; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; you;uk;uk;ku,uk;so;kr;nd;dk;ak; kuang;mw;mw;mk;wr;dg;en;sa;lw; qi;av;av;ag;aa;ju;rq;ag;av;	1
-王旁青头戋五一土士二干十寸雨	wang;at;at;aa;aa;mg;nw;gg;at; pang;wf;wf;wf,lf;if;ys;il;up;wf; qing;fo;fo;of,fo;al;qb;av;ge;ao; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; jian;ga;ad;ad,ga;aa;ij,xj;fp;gg;ad; wu;aw;aa;aa;gg;mm;wu;gg;aa; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; tu;ua;ua;aa;gg;gg;gt;ff;ua; shi;ua;ua;aa;gg;jm;gs;fg;ua; er;aa;aa;aa;uu;mm;me;fg;aa; gan;au;au;aa;ss;mj;eg;fg;au; shi;al;al;aa;ss;jj;ns;fg;aa; cun;ud;ad;ad;kk;di;kc;fg;ad; yu;ad;ad;ad;yy;my;tv;fg;ad;	0
-王旁青头戋五一土士二干十寸雨一二还有革字底大犬三羊古石厂木丁西工戈草头右框七	wang;at;at;aa;aa;mg;nw;gg;at; pang;wf;wf;wf,lf;if;ys;il;up;wf; qing;fo;fo;of,fo;al;qb;av;ge;ao; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; jian;ga;ad;ad,ga;aa;ij,xj;fp;gg;ad; wu;aw;aa;aa;gg;mm;wu;gg;aa; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; tu;ua;ua;aa;gg;gg;gt;ff;ua; shi;ua;ua;aa;gg;jm;gs;fg;ua; er;aa;aa;aa;uu;mm;me;fg;aa; gan;au;au;aa;ss;mj;eg;fg;au; shi;al;al;aa;ss;jj;ns;fg;aa; cun;ud;ad;ad;kk;di;kc;fg;ad; yu;ad;ad;ad;yy;my;tv;fg;ad; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; er;aa;aa;aa;uu;mm;me;fg;aa; hai;zb;zb;zb;dq;yf;cu;gi;zb; you;uo;uo;ou,uo;sl;kb;nv;e,de;ao; ge;cu;nl;aa,ca;vs;tj;tg;af;ca; zi;bz;bz;bz;ia;jd;wh;pb;gz; di;gu;gd;gd;rh;im,ii;xi;yq;gd; da;ar;un;ad;xx;kk;md;dd;an; quan;dd;dd;dd,ad;bb;ik;mq;dg;dd; san;ae;ae;aa;uu;mm;ts;dg;ae; yang;bf;bl;da;fp;tq;gy;ud;ea; gu;uk;uk;uk;so;jr;cg;dg;uk; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; chang;ap;ap;ap;rr;mh;xc;dg;ap; mu;ur;un,an;ad;ww;dd;em;ss;un; ding;al;al;aa;jj;mn;ad;sg;av; xi;ak,wk;aa;aa;pp;mw;vx;sg;aa; gong;aa;aa;aa;pp;mm;ug;a,aa;aa; ge;yp;ad;ad;aa,ha;ii;pg;ag;ad; cao;cu;cu;cz;zs;tj;ln;aj;cu; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; you;uk;uk;ku,uk;so;kr;nd;dk;ak; kuang;mw;mw;mk;wr;dg;en;sa;lw; qi;av;av;ag;aa;ju;rq;ag;av;	0
-宇浩输入法	yu;by;by;by;is;jd;wn;pg;gy; hao;dk;dk;dg;ko;er;kd;it;dk; shu;id;id;iy;ti;kn;yp;lw;id; ru;pn;pn;pd;ee;oh;ju;ty;pn; fa;dq;ds;dq;kp;ei;kk;if;dv;	1
-宇浩输入法作者是朱宇浩	yu;by;by;by;is;jd;wn;pg;gy; hao;dk;dk;dg;ko;er;kd;it;dk; shu;id;id;iy;ti;kn;yp;lw;id; ru;pn;pn;pd;ee;oh;ju;ty;pn; fa;dq;ds;dq;kp;ei;kk;if;dv; zuo;rv;rv;rv;xu;os;jw;wt;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo; shi;oz;or;op,ov;ve;ao;ot;j,jg;or; zhu;pw;pw,nn;pw;ee;hd;ta;ri;pw; yu;by;by;by;is;jd;wn;pg;gy; hao;dk;dk;dg;ko;er;kd;it;dk;	0
-光華	guang;xe;xw;ea,xw;hk;fu;mg;iq;ee; hua;cf;;ca;;tj;lu;ag;;	1
-星陳	xing;ou;ou;ou;va;am;ol;jt;ou; chen;ed;;ed;;nw;to;bg;;	0
-卿云	qing;pg;pe;mg,mj;ub;hl;bi;qt;pe; yun;ag,es;es;es,se;up;mi;by;fc;ev;	16
-识别码	shi;yv;yb;yv;cf;ic;sh;yk;yb; bie;kd;kd;dl;oi;rn,xn;dp;kl;kd; ma;um;um;um;tz;mm;mn;dc;um;	145
-音托	yin;lo;lo;lo;cc;ya;xy;uj;lo; tuo;fq;fq;fq,ft;ja;qp;ur;rt;fq;	0
-回头码	hui;kk;kk;kk;no;wr;rd;lk;wk; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; ma;um;um;um;tz;mm;mn;dc;um;	0
-音形码	yin;lo;lo;lo;cc;ya;xy;uj;lo; xing;kp;kp;pk;uu;mh;fe;ga;kp; ma;um;um;um;tz;mm;mn;dc;um;	2
-冰雪拼音	bing;du;du;du;fo;ie;wk;ui;du; xue;ye;ye;yx;ys;mm;tb;fv;ya; pin;fk;fk;fb;jp;qt,qj;ul;ru;fk; yin;lo;lo;lo;cc;ya;xy;uj;lo;	0
-冰雪拼音作者蓝落萧	bing;du;du;du;fo;ie;wk;ui;du; xue;ye;ye;yx;ys;mm;tb;fv;ya; pin;fk;fk;fb;jp;qt,qj;ul;ru;fk; yin;lo;lo;lo;cc;ya;xy;uj;lo; zuo;rv;rv;rv;xu;os;jw;wt;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo; lan;cm;cm;cj;za;tt;la;aj;cm; luo;ck;ck;cl;zo,rr;tr;ls;ai;ck; xiao;cb;cs;cs;zf;tl;lh;av;cs;	0
-亾师	wang;vr;;ra,rv;er;vo,xo;fw;wn;; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	0
-蔃师	qiang;ci;ci;cq;zf;ti;lc;ax;ci; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	0
-蒻师	ruo;cg;cd;cr;zf;tm;lw;ax;cd; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	0
-爱师	ai;vy;py;vy;hl;be;yr;ep;py; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	0
-晡时之光	bu;of;of;of;vh;ab;on;jg;of; shi;oc;oc;oc;vk;ai;ok;jf;oc; zhi;dn;dn;dd;hh;io;ri;pp;dn; guang;xe;xw;ea,xw;hk;fu;mg;iq;ee;	0
-鲸师	jing;yx;ax;yj;qi;nf;wy;qg;ex; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	0
-清凉鹤	qing;do;do;dq;kl;eb;kv;ig;do; liang;dx;dx;dj;fi;if;wy;uy;dx; he;bn;dn;nv;ic;om;wx;pw;dn;	0
-九重魔鹤	jiu;pv;pv;py;ur;kn;kj;vt;pv; zhong;ql;pa;pa,ql;sg;hg;ld;tg;pa; mo;gg;gg;gm,mg;ds;ii;za;ys;gv; he;bn;dn;nv;ic;om;wx;pw;dn;	0
-鲸凉鹤	jing;yx;ax;yj;qi;nf;wy;qg;ex; liang;dx;dx;dj;fi;if;wy;uy;dx; he;bn;dn;nv;ic;om;wx;pw;dn;	0
-看打	kan;uo;uo;ou,uo;os;hu;uq;rh;pm; da;fd;fd;fd;jj;qn;ua;rs;fd;	0
-跟打	gen;zg;zg;zg;gh;rv;pi;kh;zh; da;fd;fd;fd;jj;qn;ua;rs;fd;	45
-想打	xiang;mx;mx;xx;wn;dp;eh;sh;lx; da;fd;fd;fd;jj;qn;ua;rs;fd;	703
-自在飞扬	zi;po;po;pa,po;ss;hu;oi;th;pm; zai;ut;ut;ta,ut;sg;kg;ng;d,dh;at; fei;vd;vd;yd;rh;no,xo;cf;nu;vd; yang;fp;fp;fy;ju;qh;ue;rn;fp;	0
-苗师	miao;ct;ct;ct;zw;tw;lq;al;ct; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	1
-墨奇码拆	mo;lt;ht;th,ht;ng;wg;pg;lf;ht; qi;dk;dk;dk;xj;kr;mz;ds;dk; ma;um;um;um;tz;mm;mn;dc;um; chai;fi;fi;fi;jh;qy;ui;rr;fi;	0
-墨奇码拆字规则	mo;lt;ht;th,ht;ng;wg;pg;lf;ht; qi;dk;dk;dk;xj;kr;mz;ds;dk; ma;um;um;um;tz;mm;mn;dc;um; chai;fi;fi;fi;jh;qy;ui;rr;fi; zi;bz;bz;bz;ia;jd;wh;pb;gz; gui;fj;fe;fj,jf;ek;qu;he;fw;fj; ze;bd;kd;bd,db;mi;bn;op;mj;bd;	0
-仓输入法	cang;rv;rv;re;et;ou;jz;wb;rv; shu;id;id;iy;ti;kn;yp;lw;id; ru;pn;pn;pd;ee;oh;ju;ty;pn; fa;dq;ds;dq;kp;ei;kk;if;dv;	0
-混输模式	hun;db;db;dk;ka;ep;kv;ij;db; shu;id;id;iy;ti;kn;yp;lw;id; mo;md;md;mm;wx;dk;em;sa;ld; shi;yg;yg;gy,yg;ap;im;pu;aa;gg;	0
-小字集	xiao;lb;ld;ad;ii;nc;yx;ih;vd; zi;bz;bz;bz;ia;jd;wh;pb;gz; ji;rm;rm;mv,vm;xw;od;ue;wy;rl;	0
-大字集	da;ar;un;ad;xx;kk;md;dd;an; zi;bz;bz;bz;ia;jd;wh;pb;gz; ji;rm;rm;mv,vm;xw;od;ue;wy;rl;	0
-整句模式	zheng;uv;uv;vi,vw;dr,ur;dm;xs;gk;uv; ju;bk;bk;gk,kg,pk;ii;pr;gj;qk;pk; mo;md;md;mm;wx;dk;em;sa;ld; shi;yg;yg;gy,yg;ap;im;pu;aa;gg;	0
-字词模式	zi;bz;bz;bz;ia;jd;wh;pb;gz; ci;yk;yk;ys;co;ir;sd;yn;yk; mo;md;md;mm;wx;dk;em;sa;ld; shi;yg;yg;gy,yg;ap;im;pu;aa;gg;	0
+打词	da;fd;fd;fd;jj;qn;ua;rs;fd;fd; ci;yk;yk;ys;co;ir;sd;yn;yk;ys;	0
+朙月拼音	ming;ko;;oj;;wb;rv;lw;;; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;pa; pin;fk;fk;fb;jp;qt,qj;ul;ru;fk;fb; yin;lo;lo;lo;cc;ya;xy;uj;lo;lr;	2
+墨奇音形	mo;lt;ht;th,ht;ng;wg;pg;lf;ht;ht; qi;dk;dk;dk;xj;kr;mz;ds;dk;dk; yin;lo;lo;lo;cc;ya;xy;uj;lo;lr; xing;kp;kp;pk;uu;mh;fe;ga;kp;kp;	0
+伽布里克	ga;rk;rk;rj;xo;or;jd;wl;rk;rj; bu;uj;uj;ju,uj;sy;kb;nr;dm;aj;ja; li;tt;la;aa,tt;vg;wg;dl;jf;aa;aa; ke;ux,ge;ue;eg,ux;sk;ju;cp;dq;ue;ux;	0
+墨奇音形的作者是伽布里克	mo;lt;ht;th,ht;ng;wg;pg;lf;ht;ht; qi;dk;dk;dk;xj;kr;mz;ds;dk;dk; yin;lo;lo;lo;cc;ya;xy;uj;lo;lr; xing;kp;kp;pk;uu;mh;fe;ga;kp;kp; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu;bu; zuo;rv;rv;rv;xu;os;jw;wt;rv;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo;ur; shi;oz;or;op,ov;ve;ao;ot;j,jg;or;rn; ga;rk;rk;rj;xo;or;jd;wl;rk;rj; bu;uj;uj;ju,uj;sy;kb;nr;dm;aj;ja; li;tt;la;aa,tt;vg;wg;dl;jf;aa;aa; ke;ux,ge;ue;eg,ux;sk;ju;cp;dq;ue;ux;	0
+爱次漏的小栏还	ai;vy;py;vy;hl;be;yr;ep;py;yp; ci;dq;dr;dq;fe;io,mo;we;uq;dr;dq; lou;dy;dy;dl,dy;ky;eb;kt;in;dy;dy; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu;bu; xiao;lb;ld;ad;ii;nc;yx;ih;vd;vd; lan;ml;ms;ml;wu;dm;et;su;ls;ml; hai;zb;zb;zb;dq;yf;cu;gi;zb;zb;	0
+白霜词库	bai;po;po;pa,po;ss;ha;ub;rr;po;rp; shuang;yo;yo;yx;ys;mu;tq;fs;ym;yx; ci;yk;yk;ys;co;ir;sd;yn;yk;ys; ku;gi;gi;gi;rt;iq;xy;yl;gi;gi;	0
+白霜拼音	bai;po;po;pa,po;ss;ha;ub;rr;po;rp; shuang;yo;yo;yx;ys;mu;tq;fs;ym;yx; pin;fk;fk;fb;jp;qt,qj;ul;ru;fk;fb; yin;lo;lo;lo;cc;ya;xy;uj;lo;lr;	0
+白霜拼音的作者是伽布里克	bai;po;po;pa,po;ss;ha;ub;rr;po;rp; shuang;yo;yo;yx;ys;mu;tq;fs;ym;yx; pin;fk;fk;fb;jp;qt,qj;ul;ru;fk;fb; yin;lo;lo;lo;cc;ya;xy;uj;lo;lr; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu;bu; zuo;rv;rv;rv;xu;os;jw;wt;rv;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo;ur; shi;oz;or;op,ov;ve;ao;ot;j,jg;or;rn; ga;rk;rk;rj;xo;or;jd;wl;rk;rj; bu;uj;uj;ju,uj;sy;kb;nr;dm;aj;ja; li;tt;la;aa,tt;vg;wg;dl;jf;aa;aa; ke;ux,ge;ue;eg,ux;sk;ju;cp;dq;ue;ux;	0
+雾凇词库	wu;yl;yl;yw;yu;ms;ts;ft;yl;yw; song;dg;ds;ds;fp;ii;wk;us;dv;ds; ci;yk;yk;ys;co;ir;sd;yn;yk;ys; ku;gi;gi;gi;rt;iq;xy;yl;gi;gi;	0
+雾凇拼音	wu;yl;yl;yw;yu;ms;ts;ft;yl;yw; song;dg;ds;ds;fp;ii;wk;us;dv;ds; pin;fk;fk;fb;jp;qt,qj;ul;ru;fk;fb; yin;lo;lo;lo;cc;ya;xy;uj;lo;lr;	0
+大竹	da;ar;un;ad;xx;kk;md;dd;an;an; zhu;gg;pl,gg;gg;nn;hh;ru;tt;pd;dp;	39
+聆竹听风	ling;es;es;el;dp;si;qk;bw;ev;el; zhu;gg;pl,gg;gg;nn;hh;ru;tt;pd;dp; ting;kj;kj;kj;op;rl;dt;kr;kj;kj; feng;jx;jx;ji;iy;hk;ob;mq;jx;xp;	0
+魔然	mo;gg;gg;gm,mg;ds;ii;za;ys;gv;gg; ran;xh;ph;hq;fn;bf;vc;qd;pe;ep;	0
+雾凇鹤	wu;yl;yl;yw;yu;ms;ts;ft;yl;yw; song;dg;ds;ds;fp;ii;wk;us;dv;ds; he;bn;dn;nv;ic;om;wx;pw;dn;nd;	0
+小鹤音形	xiao;lb;ld;ad;ii;nc;yx;ih;vd;vd; he;bn;dn;nv;ic;om;wx;pw;dn;nd; yin;lo;lo;lo;cc;ya;xy;uj;lo;lr; xing;kp;kp;pk;uu;mh;fe;ga;kp;kp;	0
+小鹤音形作者是何海峰	xiao;lb;ld;ad;ii;nc;yx;ih;vd;vd; he;bn;dn;nv;ic;om;wx;pw;dn;nd; yin;lo;lo;lo;cc;ya;xy;uj;lo;lr; xing;kp;kp;pk;uu;mh;fe;ga;kp;kp; zuo;rv;rv;rv;xu;os;jw;wt;rv;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo;ur; shi;oz;or;op,ov;ve;ao;ot;j,jg;or;rn; he;rk;rk;rk;xj;or;jz;ws;rk;rk; hai;dm;dm;dm;kh;ey;kk;it;dm;dm; feng;uf;ef;uf;pa;uj;va;mt;sf;uf;	0
+哲豆音形	zhe;fk;fk;kv;jo;qr;ud;rr;fk;vk; dou;ab;aa;aa,aq;dd;mt;zd;gk;aa;aa; yin;lo;lo;lo;cc;ya;xy;uj;lo;lr; xing;kp;kp;pk;uu;mh;fe;ga;kp;kp;	0
+鹤形	he;bn;dn;nv;ic;om;wx;pw;dn;nd; xing;kp;kp;pk;uu;mh;fe;ga;kp;kp;	10
+雾凇自然	wu;yl;yl;yw;yu;ms;ts;ft;yl;yw; song;dg;ds;ds;fp;ii;wk;us;dv;ds; zi;po;po;pa,po;ss;hu;oi;th;pm;mp; ran;xh;ph;hq;fn;bf;vc;qd;pe;ep;	0
+墨奇	mo;lt;ht;th,ht;ng;wg;pg;lf;ht;ht; qi;dk;dk;dk;xj;kr;mz;ds;dk;dk;	0
+墨奇码	mo;lt;ht;th,ht;ng;wg;pg;lf;ht;ht; qi;dk;dk;dk;xj;kr;mz;ds;dk;dk; ma;um;um;um;tz;mm;mn;dc;um;um;	0
+汉心码	han;dy;dy;dy;kl;ee;kr;ic;dy;dy; xin;dd;dd;dd;nn;pp;hx;ny;dd;dd; ma;um;um;um;tz;mm;mn;dc;um;um;	0
+汉心码作者晡时之光	han;dy;dy;dy;kl;ee;kr;ic;dy;dy; xin;dd;dd;dd;nn;pp;hx;ny;dd;dd; ma;um;um;um;tz;mm;mn;dc;um;um; zuo;rv;rv;rv;xu;os;jw;wt;rv;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo;ur; bu;of;of;of;vh;ab;on;jg;of;rf; shi;oc;oc;oc;vk;ai;ok;jf;oc;rc; zhi;dn;dn;dd;hh;io;ri;pp;dn;dn; guang;xe;xw;ea,xw;hk;fu;mg;iq;ee;ee;	0
+天码	tian;ad;ad;ad;ue;mk;fm;gd;ad;da; ma;um;um;um;tz;mm;mn;dc;um;um;	1
+天码输入法的作者是宋天	tian;ad;ad;ad;ue;mk;fm;gd;ad;da; ma;um;um;um;tz;mm;mn;dc;um;um; shu;id;id;iy;ti;kn;yp;lw;id;iy; ru;pn;pn;pd;ee;oh;ju;ty;pn;pn; fa;dq;ds;dq;kp;ei;kk;if;dv;dq; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu;bu; zuo;rv;rv;rv;xu;os;jw;wt;rv;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo;ur; shi;oz;or;op,ov;ve;ao;ot;j,jg;or;rn; song;bm;bm;bm;iw;jd,xd;we;ps;gl;bm; tian;ad;ad;ad;ue;mk;fm;gd;ad;da;	0
+易学码	yi;ow;ow;ow;vi;ah;oe;jq;ow;rw; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;ez; ma;um;um;um;tz;mm;mn;dc;um;um;	0
+墨奇辅助码	mo;lt;ht;th,ht;ng;wg;pg;lf;ht;ht; qi;dk;dk;dk;xj;kr;mz;ds;dk;dk; fu;if;if;if;th;kb;yn;lg;if;if; zhu;ql;ql;lq,ql;pu;bs;fs;eg;ql;ql; ma;um;um;um;tz;mm;mn;dc;um;um;	0
+矧码	shen;ul;ul;uy;ep;ol;og;td;uy;uy; ma;um;um;um;tz;mm;mn;dc;um;um;	0
+空明码	kong;bg;bg;xg,bg;ip;jm;eu;pw;gg;bg; ming;oo;oo;oo;vl;ab;ov;je;oo;ry; ma;um;um;um;tz;mm;mn;dc;um;um;	0
+并击	bing;bk;bk;bk,qc;fp;tt,xt;hl;ua;ek;ek; ji;fk;ak;aa,eu,fk;gp;qu;um;fm;aa;aa;	10
+星空键道	xing;ou;ou;ou;va;am;ol;jt;ou;ru; kong;bg;bg;xg,bg;ip;jm;eu;pw;gg;bg; jian;jy;jz;jj;dq;oq;zu;qv;jj;jj; dao;zz;zz;zu;fq;yu;hu;ut;zm;zu;	0
+星猫键道	xing;ou;ou;ou;va;am;ol;jt;ou;ru; mao;qt;qt;qm;bw;kw;mq;qt;qt;qm; jian;jy;jz;jj;dq;oq;zu;qv;jj;jj; dao;zz;zz;zu;fq;yu;hu;ut;zm;zu;	0
+天行键	tian;ad;ad;ad;ue;mk;fm;gd;ad;da; xing;rd;ii;xd,xi;hs;hn;px;tf;rd;rd; jian;jy;jz;jj;dq;oq;zu;qv;jj;jj;	0
+灵形速影	ling;eh;eh;hx,xh;st;sf;bc;vo;vh;ha; xing;kp;kp;pk;uu;mh;fe;ga;kp;kp; su;zu;zu;zu;dq;yl;xu;gk;zu;zu; ying;op;op;pj;vu;ah;oe;jy;op;jp;	0
+飞码	fei;vd;vd;yd;rh;no,xo;cf;nu;vd;vd; ma;um;um;um;tz;mm;mn;dc;um;um;	1
+字源	zi;bz;bz;bz;ia;jd;wh;pb;gz;bz; yuan;dx;dx;dy;ki;ef;ky;id;dx;dy;	87
+虎鹤	hu;hj;hj;hj;pi;yn,yu;zh;ha;aj;ja; he;bn;dn;nv;ic;om;wx;pw;dn;nd;	18
+鹤虎	he;bn;dn;nv;ic;om;wx;pw;dn;nd; hu;hj;hj;hj;pi;yn,yu;zh;ha;aj;ja;	0
+龙码	long;yp;ud;ad;sh;ip;tl;dx;ab;ba; ma;um;um;um;tz;mm;mn;dc;um;um;	0
+猫码	mao;qt;qt;qm;bw;kw;mq;qt;qt;qm; ma;um;um;um;tz;mm;mn;dc;um;um;	0
+声笔	sheng;tu;up;um;gp;gh;gc;fn;up;up; bi;vm;vm;vm;nr;hu;rv;tt;vm;vm;	0
+声笔输入法	sheng;tu;up;um;gp;gh;gc;fn;up;up; bi;vm;vm;vm;nr;hu;rv;tt;vm;vm; shu;id;id;iy;ti;kn;yp;lw;id;iy; ru;pn;pn;pd;ee;oh;ju;ty;pn;pn; fa;dq;ds;dq;kp;ei;kk;if;dv;dq;	0
+声笔输入法作者戴石麟	sheng;tu;up;um;gp;gh;gc;fn;up;up; bi;vm;vm;vm;nr;hu;rv;tt;vm;vm; shu;id;id;iy;ti;kn;yp;lw;id;iy; ru;pn;pn;pd;ee;oh;ju;ty;pn;pn; fa;dq;ds;dq;kp;ei;kk;if;dv;dq; zuo;rv;rv;rv;xu;os;jw;wt;rv;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo;ur; dai;gg;ub;gg,gy;sf,ha;jc;nh;fa;bg;gg; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak;ka; lin;lf;gl;ll;rp;iq;xv;yn;ga;ll;	0
+戴石麟	dai;gg;ub;gg,gy;sf,ha;jc;nh;fa;bg;gg; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak;ka; lin;lf;gl;ll;rp;iq;xv;yn;ga;ll;	0
+声笔飞码	sheng;tu;up;um;gp;gh;gc;fn;up;up; bi;vm;vm;vm;nr;hu;rv;tt;vm;vm; fei;vd;vd;yd;rh;no,xo;cf;nu;vd;vd; ma;um;um;um;tz;mm;mn;dc;um;um;	0
+跟打器	gen;zg;zg;zg;gh;rv;pi;kh;zh;zn; da;fd;fd;fd;jj;qn;ua;rs;fd;fd; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;kk;	0
+极速跟打器	ji;mj,mn;mj;mj;wh;de;ec;se;lj;mj; su;zu;zu;zu;dq;yl;xu;gk;zu;zu; gen;zg;zg;zg;gh;rv;pi;kh;zh;zn; da;fd;fd;fd;jj;qn;ua;rs;fd;fd; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;kk;	0
+木易跟打器	mu;ur;un,an;ad;ww;dd;em;ss;un;un; yi;ow;ow;ow;vi;ah;oe;jq;ow;rw; gen;zg;zg;zg;gh;rv;pi;kh;zh;zn; da;fd;fd;fd;jj;qn;ua;rs;fd;fd; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;kk;	0
+出简让全	chu;uu;vk;ck,aa;pp;uu;sm;bm;va;va; jian;vo;vo;vj;nv;ha;ro;tu;vo;vj; rang;yu;yu;yu;cu,cd;im;sf;yh;yu;yu; quan;rw;rw;rw;ea;og;jn;wg;rw;rw;	0
+出简无全	chu;uu;vk;ck,aa;pp;uu;sm;bm;va;va; jian;vo;vo;vj;nv;ha;ro;tu;vo;vj; wu;ay;ay;ag,ay,ee;uk;mu;du;fq;av;av; quan;rw;rw;rw;ea;og;jn;wg;rw;rw;	0
+无简无全	wu;ay;ay;ag,ay,ee;uk;mu;du;fq;av;av; jian;vo;vo;vj;nv;ha;ro;tu;vo;vj; wu;ay;ay;ag,ay,ee;uk;mu;du;fq;av;av; quan;rw;rw;rw;ea;og;jn;wg;rw;rw;	0
+以词定字	yi;lr;vr;rd,ry;re;vo;vj;c,ny;vr;rv; ci;yk;yk;ys;co;ir;sd;yn;yk;ys; ding;bz;br;bp;ie;jo;wt;pg;gr;bn; zi;bz;bz;bz;ia;jd;wh;pb;gz;bz;	0
+容错码	rong;bg;bk;bg;io;jr;wh;pw;gk;bg; cuo;jo;jo;jx;dv;oa;zo;qa;jo;jx; ma;um;um;um;tz;mm;mn;dc;um;um;	0
+无理码	wu;ay;ay;ag,ay,ee;uk;mu;du;fq;av;av; li;wl;wl;wl;ag;mg;nd;gj;wl;wl; ma;um;um;um;tz;mm;mn;dc;um;um;	1
+有理码	you;uo;uo;ou,uo;sl;kb;nv;e,de;ao;ya; li;wl;wl;wl;ag;mg;nd;gj;wl;wl; ma;um;um;um;tz;mm;mn;dc;um;um;	0
+随心码	sui;eo;ez;ey,ez;bq;nb,xk;tu;bd;eo;ey; xin;dd;dd;dd;nn;pp;hx;ny;dd;dd; ma;um;um;um;tz;mm;mn;dc;um;um;	0
+标顶	biao;mu;mx;mu;wi;df;ef;sf;lx;mu; ding;dy;dr;dy,yd;jm;mo;aw;sd;dr;dy;	0
+顶功	ding;dy;dr;dy,yd;jm;mo;aw;sd;dr;dy; gong;gl;gl;gl,lg;pu;ms;us;al;gl;gl;	0
+前两码	qian;bd;bd;bd,qd;fi;tn;hp;ue;ed;ed; liang;ar;ad;ad;de;mb;ml;gm;ad;ad; ma;um;um;um;tz;mm;mn;dc;um;um;	2
+后两码	hou;ik;pk;pk;uo;hr;xd;rg;pk;kp; liang;ar;ad;ad;de;mb;ml;gm;ad;ad; ma;um;um;um;tz;mm;mn;dc;um;um;	0
+首形	shou;bz;bz;qz;fs;tu;ho;ut;em;ez; xing;kp;kp;pk;uu;mh;fe;ga;kp;kp;	0
+末形	mo;am;an;ad,am;ee;dj;fe;gs;an;an; xing;kp;kp;pk;uu;mh;fe;ga;kp;kp;	0
+顶屏	ding;dy;dr;dy,yd;jm;mo;aw;sd;dr;dy; ping;uk;uk;ub;qp;st;cl;nu;uk;ub;	0
+飞键	fei;vd;vd;yd;rh;no,xo;cf;nu;vd;vd; jian;jy;jz;jj;dq;oq;zu;qv;jj;jj;	0
+主翻译器	zhu;wt;dw;dw;ig;yg;in;y,yg;wt;wd; fan;cx;px;yf;hd;hm;tz;to;fx;fy; yi;yf;yl;yf;cp;iq;su;yc;ya;ya; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;kk;	0
+五笔输入法作者是王永民	wu;aw;aa;aa;gg;mm;wu;gg;aa;aa; bi;vm;vm;vm;nr;hu;rv;tt;vm;vm; shu;id;id;iy;ti;kn;yp;lw;id;iy; ru;pn;pn;pd;ee;oh;ju;ty;pn;pn; fa;dq;ds;dq;kp;ei;kk;if;dv;dq; zuo;rv;rv;rv;xu;os;jw;wt;rv;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo;ur; shi;oz;or;op,ov;ve;ao;ot;j,jg;or;rn; wang;at;at;aa;aa;mg;nw;gg;at;ta; yong;du;dn;dd;hh;ie;ik;yn;dn;dn; min;vv;vv;ag,kq,vg;rr;rp;dm;n,na;vv;vv;	0
+王旁青头戋五一	wang;at;at;aa;aa;mg;nw;gg;at;ta; pang;wf;wf;wf,lf;if;ys;il;up;wf;fd; qing;fo;fo;of,fo;al;qb;av;ge;ao;ya; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd;dd; jian;ga;ad;ad,ga;aa;ij,xj;fp;gg;ad;ad; wu;aw;aa;aa;gg;mm;wu;gg;aa;aa; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;aa;	0
+土士二干十寸雨	tu;ua;ua;aa;gg;gg;gt;ff;ua;ua; shi;ua;ua;aa;gg;jm;gs;fg;ua;ua; er;aa;aa;aa;uu;mm;me;fg;aa;aa; gan;au;au;aa;ss;mj;eg;fg;au;ua; shi;al;al;aa;ss;jj;ns;fg;aa;aa; cun;ud;ad;ad;kk;di;kc;fg;ad;ad; yu;ad;ad;ad;yy;my;tv;fg;ad;ad;	1
+一二还有革字底	yi;aa;aa;aa;dd;mm;fi;g,gg;aa;aa; er;aa;aa;aa;uu;mm;me;fg;aa;aa; hai;zb;zb;zb;dq;yf;cu;gi;zb;zb; you;uo;uo;ou,uo;sl;kb;nv;e,de;ao;ya; ge;cu;nl;aa,ca;vs;tj;tg;af;ca;aa; zi;bz;bz;bz;ia;jd;wh;pb;gz;bz; di;gu;gd;gd;rh;im,ii;xi;yq;gd;gd;	0
+大犬三羊古石厂	da;ar;un;ad;xx;kk;md;dd;an;an; quan;dd;dd;dd,ad;bb;ik;mq;dg;dd;dd; san;ae;ae;aa;uu;mm;ts;dg;ae;ea; yang;bf;bl;da;fp;tq;gy;ud;ea;ea; gu;uk;uk;uk;so;jr;cg;dg;uk;uk; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak;ka; chang;ap;ap;ap;rr;mh;xc;dg;ap;ap;	2
+木丁西	mu;ur;un,an;ad;ww;dd;em;ss;un;un; ding;al;al;aa;jj;mn;ad;sg;av;av; xi;ak,wk;aa;aa;pp;mw;vx;sg;aa;aa;	1
+工戈草头右框七	gong;aa;aa;aa;pp;mm;ug;a,aa;aa;aa; ge;yp;ad;ad;aa,ha;ii;pg;ag;ad;ad; cao;cu;cu;cz;zs;tj;ln;aj;cu;cz; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd;dd; you;uk;uk;ku,uk;so;kr;nd;dk;ak;ka; kuang;mw;mw;mk;wr;dg;en;sa;lw;mw; qi;av;av;ag;aa;ju;rq;ag;av;av;	1
+王旁青头戋五一土士二干十寸雨	wang;at;at;aa;aa;mg;nw;gg;at;ta; pang;wf;wf;wf,lf;if;ys;il;up;wf;fd; qing;fo;fo;of,fo;al;qb;av;ge;ao;ya; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd;dd; jian;ga;ad;ad,ga;aa;ij,xj;fp;gg;ad;ad; wu;aw;aa;aa;gg;mm;wu;gg;aa;aa; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;aa; tu;ua;ua;aa;gg;gg;gt;ff;ua;ua; shi;ua;ua;aa;gg;jm;gs;fg;ua;ua; er;aa;aa;aa;uu;mm;me;fg;aa;aa; gan;au;au;aa;ss;mj;eg;fg;au;ua; shi;al;al;aa;ss;jj;ns;fg;aa;aa; cun;ud;ad;ad;kk;di;kc;fg;ad;ad; yu;ad;ad;ad;yy;my;tv;fg;ad;ad;	0
+王旁青头戋五一土士二干十寸雨一二还有革字底大犬三羊古石厂木丁西工戈草头右框七	wang;at;at;aa;aa;mg;nw;gg;at;ta; pang;wf;wf;wf,lf;if;ys;il;up;wf;fd; qing;fo;fo;of,fo;al;qb;av;ge;ao;ya; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd;dd; jian;ga;ad;ad,ga;aa;ij,xj;fp;gg;ad;ad; wu;aw;aa;aa;gg;mm;wu;gg;aa;aa; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;aa; tu;ua;ua;aa;gg;gg;gt;ff;ua;ua; shi;ua;ua;aa;gg;jm;gs;fg;ua;ua; er;aa;aa;aa;uu;mm;me;fg;aa;aa; gan;au;au;aa;ss;mj;eg;fg;au;ua; shi;al;al;aa;ss;jj;ns;fg;aa;aa; cun;ud;ad;ad;kk;di;kc;fg;ad;ad; yu;ad;ad;ad;yy;my;tv;fg;ad;ad; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;aa; er;aa;aa;aa;uu;mm;me;fg;aa;aa; hai;zb;zb;zb;dq;yf;cu;gi;zb;zb; you;uo;uo;ou,uo;sl;kb;nv;e,de;ao;ya; ge;cu;nl;aa,ca;vs;tj;tg;af;ca;aa; zi;bz;bz;bz;ia;jd;wh;pb;gz;bz; di;gu;gd;gd;rh;im,ii;xi;yq;gd;gd; da;ar;un;ad;xx;kk;md;dd;an;an; quan;dd;dd;dd,ad;bb;ik;mq;dg;dd;dd; san;ae;ae;aa;uu;mm;ts;dg;ae;ea; yang;bf;bl;da;fp;tq;gy;ud;ea;ea; gu;uk;uk;uk;so;jr;cg;dg;uk;uk; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak;ka; chang;ap;ap;ap;rr;mh;xc;dg;ap;ap; mu;ur;un,an;ad;ww;dd;em;ss;un;un; ding;al;al;aa;jj;mn;ad;sg;av;av; xi;ak,wk;aa;aa;pp;mw;vx;sg;aa;aa; gong;aa;aa;aa;pp;mm;ug;a,aa;aa;aa; ge;yp;ad;ad;aa,ha;ii;pg;ag;ad;ad; cao;cu;cu;cz;zs;tj;ln;aj;cu;cz; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd;dd; you;uk;uk;ku,uk;so;kr;nd;dk;ak;ka; kuang;mw;mw;mk;wr;dg;en;sa;lw;mw; qi;av;av;ag;aa;ju;rq;ag;av;av;	0
+宇浩输入法	yu;by;by;by;is;jd;wn;pg;gy;by; hao;dk;dk;dg;ko;er;kd;it;dk;dg; shu;id;id;iy;ti;kn;yp;lw;id;iy; ru;pn;pn;pd;ee;oh;ju;ty;pn;pn; fa;dq;ds;dq;kp;ei;kk;if;dv;dq;	1
+宇浩输入法作者是朱宇浩	yu;by;by;by;is;jd;wn;pg;gy;by; hao;dk;dk;dg;ko;er;kd;it;dk;dg; shu;id;id;iy;ti;kn;yp;lw;id;iy; ru;pn;pn;pd;ee;oh;ju;ty;pn;pn; fa;dq;ds;dq;kp;ei;kk;if;dv;dq; zuo;rv;rv;rv;xu;os;jw;wt;rv;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo;ur; shi;oz;or;op,ov;ve;ao;ot;j,jg;or;rn; zhu;pw;pw,nn;pw;ee;hd;ta;ri;pw;wp; yu;by;by;by;is;jd;wn;pg;gy;by; hao;dk;dk;dg;ko;er;kd;it;dk;dg;	0
+光華	guang;xe;xw;ea,xw;hk;fu;mg;iq;ee;ee; hua;cf;;ca;;tj;lu;ag;;;	1
+星陳	xing;ou;ou;ou;va;am;ol;jt;ou;ru; chen;ed;;ed;;nw;to;bg;;;	0
+卿云	qing;pg;pe;mg,mj;ub;hl;bi;qt;pe;jp; yun;ag,es;es;es,se;up;mi;by;fc;ev;ed;	16
+识别码	shi;yv;yb;yv;cf;ic;sh;yk;yb;yv; bie;kd;kd;dl;oi;rn,xn;dp;kl;kd;ld; ma;um;um;um;tz;mm;mn;dc;um;um;	145
+音托	yin;lo;lo;lo;cc;ya;xy;uj;lo;lr; tuo;fq;fq;fq,ft;ja;qp;ur;rt;fq;fq;	0
+回头码	hui;kk;kk;kk;no;wr;rd;lk;wk;kk; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd;dd; ma;um;um;um;tz;mm;mn;dc;um;um;	0
+音形码	yin;lo;lo;lo;cc;ya;xy;uj;lo;lr; xing;kp;kp;pk;uu;mh;fe;ga;kp;kp; ma;um;um;um;tz;mm;mn;dc;um;um;	2
+冰雪拼音	bing;du;du;du;fo;ie;wk;ui;du;du; xue;ye;ye;yx;ys;mm;tb;fv;ya;ya; pin;fk;fk;fb;jp;qt,qj;ul;ru;fk;fb; yin;lo;lo;lo;cc;ya;xy;uj;lo;lr;	0
+冰雪拼音作者蓝落萧	bing;du;du;du;fo;ie;wk;ui;du;du; xue;ye;ye;yx;ys;mm;tb;fv;ya;ya; pin;fk;fk;fb;jp;qt,qj;ul;ru;fk;fb; yin;lo;lo;lo;cc;ya;xy;uj;lo;lr; zuo;rv;rv;rv;xu;os;jw;wt;rv;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo;ur; lan;cm;cm;cj;za;tt;la;aj;cm;cm; luo;ck;ck;cl;zo,rr;tr;ls;ai;ck;cl; xiao;cb;cs;cs;zf;tl;lh;av;cs;cs;	0
+亾师	wang;vr;;ra,rv;er;vo,xo;fw;wn;;; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;ja;	0
+蔃师	qiang;ci;ci;cq;zf;ti;lc;ax;ci;; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;ja;	0
+蒻师	ruo;cg;cd;cr;zf;tm;lw;ax;cd;; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;ja;	0
+爱师	ai;vy;py;vy;hl;be;yr;ep;py;yp; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;ja;	0
+晡时之光	bu;of;of;of;vh;ab;on;jg;of;rf; shi;oc;oc;oc;vk;ai;ok;jf;oc;rc; zhi;dn;dn;dd;hh;io;ri;pp;dn;dn; guang;xe;xw;ea,xw;hk;fu;mg;iq;ee;ee;	0
+鲸师	jing;yx;ax;yj;qi;nf;wy;qg;ex;yj; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;ja;	0
+清凉鹤	qing;do;do;dq;kl;eb;kv;ig;do;dq; liang;dx;dx;dj;fi;if;wy;uy;dx;dj; he;bn;dn;nv;ic;om;wx;pw;dn;nd;	0
+九重魔鹤	jiu;pv;pv;py;ur;kn;kj;vt;pv;pv; zhong;ql;pa;pa,ql;sg;hg;ld;tg;pa;pa; mo;gg;gg;gm,mg;ds;ii;za;ys;gv;gg; he;bn;dn;nv;ic;om;wx;pw;dn;nd;	0
+鲸凉鹤	jing;yx;ax;yj;qi;nf;wy;qg;ex;yj; liang;dx;dx;dj;fi;if;wy;uy;dx;dj; he;bn;dn;nv;ic;om;wx;pw;dn;nd;	0
+看打	kan;uo;uo;ou,uo;os;hu;uq;rh;pm;mp; da;fd;fd;fd;jj;qn;ua;rs;fd;fd;	0
+跟打	gen;zg;zg;zg;gh;rv;pi;kh;zh;zn; da;fd;fd;fd;jj;qn;ua;rs;fd;fd;	45
+想打	xiang;mx;mx;xx;wn;dp;eh;sh;lx;xx; da;fd;fd;fd;jj;qn;ua;rs;fd;fd;	703
+自在飞扬	zi;po;po;pa,po;ss;hu;oi;th;pm;mp; zai;ut;ut;ta,ut;sg;kg;ng;d,dh;at;ta; fei;vd;vd;yd;rh;no,xo;cf;nu;vd;vd; yang;fp;fp;fy;ju;qh;ue;rn;fp;fp;	0
+苗师	miao;ct;ct;ct;zw;tw;lq;al;ct;ct; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;ja;	1
+墨奇码拆	mo;lt;ht;th,ht;ng;wg;pg;lf;ht;ht; qi;dk;dk;dk;xj;kr;mz;ds;dk;dk; ma;um;um;um;tz;mm;mn;dc;um;um; chai;fi;fi;fi;jh;qy;ui;rr;fi;fi;	0
+墨奇码拆字规则	mo;lt;ht;th,ht;ng;wg;pg;lf;ht;ht; qi;dk;dk;dk;xj;kr;mz;ds;dk;dk; ma;um;um;um;tz;mm;mn;dc;um;um; chai;fi;fi;fi;jh;qy;ui;rr;fi;fi; zi;bz;bz;bz;ia;jd;wh;pb;gz;bz; gui;fj;fe;fj,jf;ek;qu;he;fw;fj;fj; ze;bd;kd;bd,db;mi;bn;op;mj;bd;bd;	0
+仓输入法	cang;rv;rv;re;et;ou;jz;wb;rv;rv; shu;id;id;iy;ti;kn;yp;lw;id;iy; ru;pn;pn;pd;ee;oh;ju;ty;pn;pn; fa;dq;ds;dq;kp;ei;kk;if;dv;dq;	0
+混输模式	hun;db;db;dk;ka;ep;kv;ij;db;dk; shu;id;id;iy;ti;kn;yp;lw;id;iy; mo;md;md;mm;wx;dk;em;sa;ld;mm; shi;yg;yg;gy,yg;ap;im;pu;aa;gg;gg;	0
+小字集	xiao;lb;ld;ad;ii;nc;yx;ih;vd;vd; zi;bz;bz;bz;ia;jd;wh;pb;gz;bz; ji;rm;rm;mv,vm;xw;od;ue;wy;rl;rm;	0
+大字集	da;ar;un;ad;xx;kk;md;dd;an;an; zi;bz;bz;bz;ia;jd;wh;pb;gz;bz; ji;rm;rm;mv,vm;xw;od;ue;wy;rl;rm;	0
+整句模式	zheng;uv;uv;vi,vw;dr,ur;dm;xs;gk;uv;uv; ju;bk;bk;gk,kg,pk;ii;pr;gj;qk;pk;kp; mo;md;md;mm;wx;dk;em;sa;ld;mm; shi;yg;yg;gy,yg;ap;im;pu;aa;gg;gg;	0
+字词模式	zi;bz;bz;bz;ia;jd;wh;pb;gz;bz; ci;yk;yk;ys;co;ir;sd;yn;yk;ys; mo;md;md;mm;wx;dk;em;sa;ld;mm; shi;yg;yg;gy,yg;ap;im;pu;aa;gg;gg;	0
+
+
 

@@ -8,247 +8,249 @@ name: name
 version: "2024-05-21"
 sort: by_weight
 ...
-季伯	ji;hz;hz;hz;ua;hd;xh;tb;hz; bo;rb;rb;rb;xs;oa;ju;wr;rb;	0
-季伯长	ji;hz;hz;hz;ua;hd;xh;tb;hz; bo;rb;rb;rb;xs;oa;ju;wr;rb; zhang;pn;pn;pd;uh;po;pc;ta;pn;	0
-季伯常	ji;hz;hz;hz;ua;hd;xh;tb;hz; bo;rb;rb;rb;xs;oa;ju;wr;rb; chang;xj;xj;jk,xd,dd;hy;fb;sr;ip;ej;	0
-季伯英	ji;hz;hz;hz;ua;hd;xh;tb;hz; bo;rb;rb;rb;xs;oa;ju;wr;rb; ying;cy;cy;cy;zx;tk;lm;am;cy;	0
-季伯达	ji;hz;hz;hz;ua;hd;xh;tb;hz; bo;rb;rb;rb;xs;oa;ju;wr;rb; da;zd;zd;zd;xq;yk,xk;mu;dp;zd;	0
-季伯初	ji;hz;hz;hz;ua;hd;xh;tb;hz; bo;rb;rb;rb;xs;oa;ju;wr;rb; chu;pd;pd;yd;hi;lh;tp;pu;pd;	0
-远坂凛	yuan;zy;ze;zy;uq;yu;mu;fq;ze; ban;ty;ty;tf;gl;ge;gr;fr;ty; lin;du;dx;db,du;fi;if;wf;uy;dx;	166
-弓凛	gong;vv;vv;ag,vg;rr;nn;bg;xn;vv; lin;du;dx;db,du;fi;if;wf;uy;dx;	20
-小林薫	xiao;lb;ld;ad;ii;nc;yx;ih;vd; lin;mm;mm;mm;ww;dd;ee;ss;ll; xun;ch;;cx;;tf,xf;lp;at;;	0
-和田薫	he;hk;hk;hk;uo;hr;xd;t,tk;hk; tian;ku;ku;aa;ww;ww;qt;ll;wu; xun;ch;;cx;;tf,xf;lp;at;;	17
-八千草薫	ba;pn;pn;pd;ff;ho;hb;wt;pn; qian;pu;pu;pa;;hj;lq;tf;pu; cao;cu;cu;cz;zs;tj;ln;aj;cu; xun;ch;;cx;;tf,xf;lp;at;;	0
-栗本薫	li;xm;xm;xm;pw;md;ve;ss;xl; ben;ma;aa;aa,ma;wd;dm;ef;sg;aa; xun;ch;;cx;;tf,xf;lp;at;;	0
-高村薫	gao;wk;wk;wk;io;yr;gg;ym;wk; cun;mc;mc;mc;wk;di;ek;sf;lc; xun;ch;;cx;;tf,xf;lp;at;;	0
-明石薫	ming;oo;oo;oo;vl;ab;ov;je;oo; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; xun;ch;;cx;;tf,xf;lp;at;;	0
-吉田薫	ji;tk;uk;ku,uk;go;gr;gd;fk;uk; tian;ku;ku;aa;ww;ww;qt;ll;wu; xun;ch;;cx;;tf,xf;lp;at;;	0
-岩元薫	yan;uu;eu;uu;pt;ur;vm;md;sk; yuan;aw;ee;aw,ee;uk;mu;mp;fq;ee; xun;ch;;cx;;tf,xf;lp;at;;	0
-真嗣	zhen;ub;ub;uj;sf;jc;nh;fh;ub; si;kk;kk;ks,sc;oo;rr;dd;km;kk;	3366
-渚薰	zhu;do;do;dv;kv;ea;ko;if;do; xun;ch;ch;cx;zn;tf;lp;at;ce;	1007
-庵薰	an;gd;gd;gd,gy;re;iu;xa;yd;gd; xun;ch;ch;cx;zn;tf;lp;at;ce;	32
+季伯	ji;hz;hz;hz;ua;hd;xh;tb;hz;hz; bo;rb;rb;rb;xs;oa;ju;wr;rb;rb;	0
+季伯长	ji;hz;hz;hz;ua;hd;xh;tb;hz;hz; bo;rb;rb;rb;xs;oa;ju;wr;rb;rb; zhang;pn;pn;pd;uh;po;pc;ta;pn;pn;	0
+季伯常	ji;hz;hz;hz;ua;hd;xh;tb;hz;hz; bo;rb;rb;rb;xs;oa;ju;wr;rb;rb; chang;xj;xj;jk,xd,dd;hy;fb;sr;ip;ej;ed;	0
+季伯英	ji;hz;hz;hz;ua;hd;xh;tb;hz;hz; bo;rb;rb;rb;xs;oa;ju;wr;rb;rb; ying;cy;cy;cy;zx;tk;lm;am;cy;cy;	0
+季伯达	ji;hz;hz;hz;ua;hd;xh;tb;hz;hz; bo;rb;rb;rb;xs;oa;ju;wr;rb;rb; da;zd;zd;zd;xq;yk,xk;mu;dp;zd;zd;	0
+季伯初	ji;hz;hz;hz;ua;hd;xh;tb;hz;hz; bo;rb;rb;rb;xs;oa;ju;wr;rb;rb; chu;pd;pd;yd;hi;lh;tp;pu;pd;yd;	0
+远坂凛	yuan;zy;ze;zy;uq;yu;mu;fq;ze;zy; ban;ty;ty;tf;gl;ge;gr;fr;ty;tf; lin;du;dx;db,du;fi;if;wf;uy;dx;du;	166
+弓凛	gong;vv;vv;ag,vg;rr;nn;bg;xn;vv;vv; lin;du;dx;db,du;fi;if;wf;uy;dx;du;	20
+小林薫	xiao;lb;ld;ad;ii;nc;yx;ih;vd;vd; lin;mm;mm;mm;ww;dd;ee;ss;ll;mm; xun;ch;;cx;;tf,xf;lp;at;;;	0
+和田薫	he;hk;hk;hk;uo;hr;xd;t,tk;hk;hk; tian;ku;ku;aa;ww;ww;qt;ll;wu;ku; xun;ch;;cx;;tf,xf;lp;at;;;	17
+八千草薫	ba;pn;pn;pd;ff;ho;hb;wt;pn;pn; qian;pu;pu;pa;;hj;lq;tf;pu;up; cao;cu;cu;cz;zs;tj;ln;aj;cu;cz; xun;ch;;cx;;tf,xf;lp;at;;;	0
+栗本薫	li;xm;xm;xm;pw;md;ve;ss;xl;xm; ben;ma;aa;aa,ma;wd;dm;ef;sg;aa;aa; xun;ch;;cx;;tf,xf;lp;at;;;	0
+高村薫	gao;wk;wk;wk;io;yr;gg;ym;wk;kd; cun;mc;mc;mc;wk;di;ek;sf;lc;mc; xun;ch;;cx;;tf,xf;lp;at;;;	0
+明石薫	ming;oo;oo;oo;vl;ab;ov;je;oo;ry; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak;ka; xun;ch;;cx;;tf,xf;lp;at;;;	0
+吉田薫	ji;tk;uk;ku,uk;go;gr;gd;fk;uk;uk; tian;ku;ku;aa;ww;ww;qt;ll;wu;ku; xun;ch;;cx;;tf,xf;lp;at;;;	0
+岩元薫	yan;uu;eu;uu;pt;ur;vm;md;sk;uu; yuan;aw;ee;aw,ee;uk;mu;mp;fq;ee;ee; xun;ch;;cx;;tf,xf;lp;at;;;	0
+真嗣	zhen;ub;ub;uj;sf;jc;nh;fh;ub;vb; si;kk;kk;ks,sc;oo;rr;dd;km;kk;ks;	3366
+渚薰	zhu;do;do;dv;kv;ea;ko;if;do;dv; xun;ch;ch;cx;zn;tf;lp;at;ce;cx;	1007
+庵薰	an;gd;gd;gd,gy;re;iu;xa;yd;gd;gd; xun;ch;ch;cx;zn;tf;lp;at;ce;cx;	32
 #Q薰	qq xun
-贞薰	zhen;bb;lr;bb;pm;yo;yo;hm;ar; xun;ch;ch;cx;zn;tf;lp;at;ce;	32
-嗣香	si;kk;kk;ks,sc;oo;rr;dd;km;kk; xiang;ho;ho;ho;uv;ha;xo;tj;ho;	1
-嗣丽	si;kk;kk;ks,sc;oo;rr;dd;km;kk; li;ad;ad;ad;dh;mb;fv;gm;ad;	1
-薰嗣	xun;ch;ch;cx;zn;tf;lp;at;ce; si;kk;kk;ks,sc;oo;rr;dd;km;kk;	5
-薰丽	xun;ch;ch;cx;zn;tf;lp;at;ce; li;ad;ad;ad;dh;mb;fv;gm;ad;	0
-棚町薰	peng;mo;mo;mp;wl;db;ev;se;lo; ting;td;td;td;wj;wn;qa;ls;td; xun;ch;ch;cx;zn;tf;lp;at;ce;	0
-莫伊莱	mo;cd;cd;cd,ct;zx;tk;lm;aj;cd; yi;ry,rp;ry;ry;xu;ok;jt;wv;ry; lai;cl;cl;cl;zl,zf;tt;lh;ag;cl;	2
-龙丹妮	long;yp;ud;ad;sh;ip;tl;dx;ab; dan;kd;pa;pd;oi,oz,ud,uz,od;by;mz;my;pa; ni;nb;nb;nn;ya;vp;bv;vn;nb;	144
-龚琳娜	gong;lg;lb;lg;sf;ic;th;dx;lb; lin;wm;wm;wl;aw;md;ne;gs;wl; na;ne;ne;nn;yb;vl;bt;vv;ne;	257
-龚翔宇	gong;lg;lb;lg;sf;ic;th;dx;lb; xiang;yx;yx;yy;fd;tm;gz;ud;ex; yu;by;by;by;is;jd;wn;pg;gy;	154
-丁威迪	ding;al;al;aa;jj;mn;ad;sg;av; wei;wn;xn,ad,wn;gn,ng,wn;rh;iv;nb;dg;ng; di;zy;zy;zy;vq;yw;du;mp;zy;	113
-黛博拉	dai;rh;rh;hd;xn;of;jp;wa;re; bo;uc;uc;uc,uf;sk;ji;nk;fg;uc; la;fl;fl;fl;jb;qt;ui;ru;fl;	152
-黄子韬	huang;cb;cb;ad,cb;zy;tc;nh;am;cb; zi;la;va;aa,vh;aa;nd;hi;bb;va; tao;wj;wj;wj,wy;us;qx;gp;fn;wj;	277
-黄雨萱	huang;cb;cb;ad,cb;zy;tc;nh;am;cb; yu;ad;ad;ad;yy;my;tv;fg;ad; xuan;cd;ca;cx;zd;tm;lf;ap;cd;	124
-黄旭东	huang;cb;cb;ad,cb;zy;tc;nh;am;cb; xu;jo;jo;oj,jo;uv;ka;ko;vj;jo; dong;ax;ad;ad,qx;di,ai;kd;ry;ai;ad;	224
-黄有龙	huang;cb;cb;ad,cb;zy;tc;nh;am;cb; you;uo;uo;ou,uo;sl;kb;nv;e,de;ao; long;yp;ud;ad;sh;ip;tl;dx;ab;	101
-麦瑞克	mai;fw;fw;fw;aj;qe;ah;gt;aw; rui;we;we;we;ab;mb;nl;gm;we; ke;ux,ge;ue;eg,ux;sk;ju;cp;dq;ue;	1022
-麦道夫	mai;fw;fw;fw;aj;qe;ah;gt;aw; dao;zz;zz;zu;fq;yu;hu;ut;zm; fu;er;an;ad,er;ee;qo;hf;fw;an;	165
-亥姆霍兹	hai;wr;wr;wr,dd;ie;yo;kh;yn;wr; mu;nm;nm;nm;yh;vi;bk;vx;nm; huo;yv;yf;yv;ya;mg;tu;fw;ya; zi;by;by;by,qy;fp;ti;hi;ux;es;	100
-亨特拉尔	heng;wl;wl;wl,lk;ip;yn;gr;yb;wl; te;nc;nc;ns;bk;hi;qk;tr;nc; la;fl;fl;fl;jb;qt;ui;ru;fl; er;dx;dx;dx,xd;gi;nf;xy;qi;ex;	141
-伊东丰雄	yi;ry,rp;ry;ry;xu;ok;jt;wv;ry; dong;ax;ad;ad,qx;di,ai;kd;ry;ai;ad; feng;sl,af,al;al;aa;aa;qj;af;dh;aa; xiong;uv;uf;vh,vs;sa;kg;nu;dc;aa;	163
-伊卡尔迪	yi;ry,rp;ry;ry;xu;ok;jt;wv;ry; ka;ub;ub;bx,ub;ph;yy;yy;hh;ub; er;dx;dx;dx,xd;gi;nf;xy;qi;ex; di;zy;zy;zy;vq;yw;du;mp;zy;	160
-伊坂幸太郎	yi;ry,rp;ry;ry;xu;ok;jt;wv;ry; ban;ty;ty;tf;gl;ge;gr;fr;ty; xing;tg;tg;tu,ty;gs;gj;gg;fu;tu; tai;dd;dd;dd;xh;ki;mi;dy;dd; lang;le;de;el;hb;il;it;yv;de;	123
-伊巴卡	yi;ry,rp;ry;ry;xu;ok;jt;wv;ry; ba;sl;sl,vv;ag,kg,vg;tt;au;mb;cn;vv; ka;ub;ub;bx,ub;ph;yy;yy;hh;ub;	404
-伊戈达拉	yi;ry,rp;ry;ry;xu;ok;jt;wv;ry; ge;yp;ad;ad;aa,ha;ii;pg;ag;ad; da;zd;zd;zd;xq;yk,xk;mu;dp;zd; la;fl;fl;fl;jb;qt;ui;ru;fl;	351
-伊斯科	yi;ry,rp;ry;ry;xu;ok;jt;wv;ry; si;cj;qj;jq,qj;vp;tl;zt;ad;qj; ke;hd;hu;hd;us;hj;xj;tu;hu;	218
-妃英理	fei;nj;nj;nj;yt;vu;bv;vn;nj; ying;cy;cy;cy;zx;tk;lm;am;cy; li;wl;wl;wl;ag;mg;nd;gj;wl;	204
-姆巴佩	mu;nm;nm;nm;yh;vi;bk;vx;nm; ba;sl;sl,vv;ag,kg,vg;tt;au;mb;cn;vv; pei;rj;rj;rb,rj;xy;ob;jr;wm;rj;	1543
-姚主席	yao;nv;nd;nv;yh;vo;bw;vi;nv; zhu;wt;dw;dw;ig;yg;in;y,yg;wt; xi;gj;gj;jc,gj;ry;ib;xr;ya;gj;	161
-姆希塔良	mu;nm;nm;nm;yh;vi;bk;vx;nm; xi;xj;xj;ju,ib,ij;yy;kb;br;qd;xj; ta;tk;tk;td,th;go;gr;gd;fa;tk; liang;dg;dg;dg;hh;iv;ii;yv;dh;	196
-徐涛	xu;rm;ih;xy;hf;hd;wx;tw;rx; tao;dc;dc;du;kk;ei;kk;id;dc;	3258
-腿姐	tui;og;oz;ot;lq;bv;vu;ev;oh; jie;nq;nq;nq;yu;vm;bf;ve;nq;	3152
-武磊	wu;yv;av;vy,yv;dr;mm;fs;ga;vg; lei;uu;uu;uu;tt;mr;mm;dd;uk;	3149
-艾顿	ai;cx;cx;ci;zy;tk,xk;lb;aq;cx; dun;ty;tr;yt;dm;po;fw;gb;tr;	1736
-卫庄	wei;ea;va,ea;ea,ga;bd;sm;zf;bg;ea; zhuang;gt;gt;gt;rg;ig;xg;yf;gt;	2184
-夏洛	xia;bw;aw;wz,aw;dj;me;fh;dh;aw; luo;dk;dk;dg;ko;er;ks;it;dk;	1628
-羽生	yu;xx;xx;xx;dd;sm;zv;nn;xx; sheng;pf;pf;na;eg,aa;hm;ls;tg;pa;	1550
-德善	de;rx;ix;xx;hn;hp;wh;tf;rx; shan;yk;yk;yk,ka,kq;fo;tr;gd;ud;ek;	1482
-成德善	cheng;wv;wv;gg,wg;rh;is;na;dn;vg; de;rx;ix;xx;hn;hp;wh;tf;rx; shan;yk;yk;yk,ka,kq;fo;tr;gd;ud;ek;	0
-哈莉	ha;kk;kk;kh;oo;rr;dd;kw;kk; li;cd;cd;cl;zi;tn;lp;at;cd;	1479
-短短的	duan;ub;ua;ud;ed;ot;oz;td;ud; duan;ub;ua;ud;ed;ot;oz;td;ud; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu;	1444
-没地去	mei;du;dy;du;kl;ee;kr;im;dy; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qu;ts;ts;ts;gp;gi;gk;fc;tv;	0
-知群	zhi;uk;uk;uk,ku;eo;or;od;td;uk; qun;yy;yy;yj;rp;sq;bg;vt;yy;	1435
-来答	lai;am;an;am,wb;uf,ef;dt;ah;go;an; da;vk;vk;vh;no;hr;rd;tw;vk;	1433
-唐军	tang;gk;gk;gk;ro;ir;xd;yv;gk; jun;bi;bi;bi;it;bq;wy;pl;gi;	1336
-迪伦	di;zy;zy;zy;vq;yw;du;mp;zy; lun;rl;rb;rl;;op;jj;ww;rb;	1259
-白玲	bai;po;po;pa,po;ss;ha;ub;rr;po; ling;ws;ws;wl;ap;mi;nk;gw;wv;	1171
-郎平	lang;le;de;el;hb;il;it;yv;de; ping;au;au;aa,gb;ds;mj;eh;gu;au;	1137
-米莱	mi;bm;dm;dd;ll;fd;pm;oy;dl; lai;cl;cl;cl;zl,zf;tt;lh;ag;cl;	1095
-韩烁	han;uw;uw;uw,wu;sp;js;ng;fj;uw; shuo;hl;hl;hl,hy;ti;fd;cy;oq;hl;	1085
-德约	de;rx;ix;xx;hn;hp;wh;tf;rx; yue;su;su;su;eh;vi;ii;xq;su;	1058
-适马	shi;zu;zk;zu;sq;yr;au;td;zk; ma;va;va;aa,vh;zz;nm;nm;cn;va;	1036
-朱婷	zhu;pw;pw,nn;pw;ee;hd;ta;ri;pw; ting;nd;nd;nt;yj;vn;ba;vy;nd;	1018
-秦廷	qin;ih;fh;hf,fh;uw;qd;ax;dw;ah; ting;zw;zr;zr;sq;ng;tu;tf;zr;	1009
-王澍	wang;at;at;aa;aa;mg;nw;gg;at; shu;dc;dc;dc,du;kk;ei;kk;if;dc;	990
-盛瑾	sheng;im;im;mi;ra;it;na;dn;im; jin;ww;wa;wj;aa,ag;mm;na;ga;wa;	985
-罗夏	luo;sx;sx;sx;af;wi;yl;lq;sx; xia;bw;aw;wz,aw;dj;me;fh;dh;aw;	974
-魔禁	mo;gg;gg;gm,mg;ds;ii;za;ys;gv; jin;mu;mx;ul;wi;df;ef;ss;lx;	955
-许稚	xu;yw;yw;yw;cs;ij;sn;yt;yu; zhi;hv;hf;hv;ua;hg;xu;tw;ha;	942
-直子	zhi;uq;uq;aa,uq;sd,su;jm;nf;fh;ua; zi;la;va;aa,vh;aa;nd;hi;bb;va;	938
-阿泽	a;ek;ek;ek;bj;nr;tz;bs;ek; ze;df;dl;df;kp;eq;ku;ic;da;	931
-西昊	xi;ak,wk;aa;aa;pp;mw;vx;sg;aa; hao;ot;ot;ot;vx;ak;om;jg;ot;	882
-立信	li;wb;wa;da;bb;yt;il;uu;wa; xin;rk;rk;ry;xc;or;js;wy;rk;	874
-梁博	liang;dm;dm;mb;kw;ed;ke;iv;dl; bo;uc;uc;uc,uf;sk;ji;nk;fg;uc;	833
-戈恩	ge;yp;ad;ad;aa,ha;ii;pg;ag;ad; en;yx;kx;xy;nn;wp;rh;ld;wx;	818
-晴子	qing;oo;oo;oq;vl;ab;ov;jg;oo; zi;la;va;aa,vh;aa;nd;hi;bb;va;	815
-伯格	bo;rb;rb;rb;xs;oa;ju;wr;rb; ge;mk;mk;mg;wo;dr;es;st;lk;	796
-博子	bo;uc;uc;uc,uf;sk;ji;nk;fg;uc; zi;la;va;aa,vh;aa;nd;hi;bb;va;	762
-莱万	lai;cl;cl;cl;zl,zf;tt;lh;ag;cl; wan;av;ap;ag,ap;du;ms;fp;dn;ap;	758
-大超	da;ar;un;ad;xx;kk;md;dd;an; chao;tk;tk;zv;qo;gr;pd;fh;tk;	752
-慕若	mu;cx;cx;cx,xm;zi;tp;lh;aj;cd; ruo;ck;ck;cy;zo;tr;ld;ad;ck;	740
-今敏	jin;rv;rv;ra,rv;er;on;ja;wy;rv; min;pw;pw;wm;ej;ok;eh;tx;mw;	740
-泽北	ze;df;dl;df;kp;eq;ku;ic;da; bei;lb;lb;ap,bj;la;lp;av;ux;ab;	736
-燕姿	yan;ch;nh,ah;ch,hb;vn;tf;lc;au;ce; zi;dn;dn;nc;fy;iv,mv;wb;uq;dn;	711
-俞佩彤	yu;rd;rd;rd,ry;ei;on;jp;wg;rd; pei;rj;rj;rb,rj;xy;ob;jr;wm;rj; tong;dp;dp;pd;ou,uu;bh;me;my;dp;	100
-梅罗	mei;mm;mm;mm;wh;dy;ek;st;lm; luo;sx;sx;sx;af;wi;yl;lq;sx;	688
-平成	ping;au;au;aa,gb;ds;mj;eh;gu;au; cheng;wv;wv;gg,wg;rh;is;na;dn;vg;	688
-切嗣	qie;qd;qd;dq,qd;ai;ph;rp;av;qd; si;kk;kk;ks,sc;oo;rr;dd;km;kk;	687
-江歌	jiang;dg;dg;dg;kp;em;ku;ia;dg; ge;kq;dr;qg;je;mo;ze;sk;gr;	670
-灰原	hui;uh;uh;hu,uh;st;kf;nc;do;ah; yuan;ix;ix;ix;ri;mf;xy;dr;ix;	647
-扎导	zha;fv;fv;fg;jr;qu,xu;ua;rn;fv; dao;sc;sc;cs,sc;tk;ri;vk;nf;vc;	678
-比伯	bi;bb;bb;bb;aa;pp;vv;xx;bb; bo;rb;rb;rb;xs;oa;ju;wr;rb;	666
-元起	yuan;aw;ee;aw,ee;uk;mu;mp;fq;ee; qi;tj;tj;zj;qt;gu;pv;fh;tj;	654
-林奇	lin;mm;mm;mm;ww;dd;ee;ss;ll; qi;dk;dk;dk;xj;kr;mz;ds;dk;	594
-李陵	li;mz;mz;mz;wa;dd;eh;sb;lz; ling;ew;ew;el,ew;bj;ne;th;bf;ew;	586
-艺兴	yi;cv;cv;cy;zr;tn;la;an;cy; xing;xb;xb;ba,db;hf;fc;kh;iw;eb;	528
-小津	xiao;lb;ld;ad;ii;nc;yx;ih;vd; jin;dy;dy;dy;kp;eq;kb;iv;da;	528
-郑微	zheng;be;be;eg;fb;tl,xl;ht;ud;ee; wei;rj;iw;xw;hj,hi;hk;wh;tm;rw;	525
-马内	ma;va;va;aa,vh;zz;nm;nm;cn;va; nei;kr;ld;ad,kr;oe;ob,xb;mj;mw;ad;	509
-伍迪	wu;rw;rw;rw;xg;om;jw;wg;rw; di;zy;zy;zy;vq;yw;du;mp;zy;	508
-黄章	huang;cb;cb;ad,cb;zy;tc;nh;am;cb; zhang;lu;lu;lz;cs;yj;xn;uj;lu;	497
-友盟	you;uy;uy;yu,uy;sl;ke;nr;dc;ay; meng;om;om;mm;va;at;oa;je;om;	490
-雪穗	xue;ye;ye;yx;ys;mm;tb;fv;ya; sui;hx;hx;hh;un;hp;xh;tg;hx;	473
-穆迪	mu;hp;hp;hp;uu;hh;xe;tr;hp; di;zy;zy;zy;vq;yw;du;mp;zy;	467
-痛仰	tong;by;by;by;mp;kb;at;uc;by; yang;re;re;re,ry;xb;ol;jz;wq;re;	467
-淘系	tao;df;df;df,dt;kp;eu;ka;iq;df; xi;px;px;ps;ui;hf;ti;tx;px;	458
-富坚	fu;bt;bt;bf,bt;iw;jw;wq;pg;gt; jian;lt;lt;ty;pg;lg;pg;jc;at;	453
-某音	mou;gm;gm;gm,mg;vw;td;ze;af;gl; yin;lo;lo;lo;cc;ya;xy;uj;lo;	454
-王攀	wang;at;at;aa;aa;mg;nw;gg;at; pan;mu;mu;ud,mu,uf;wo;dq;eu;sq;lu;	447
-纪淮	ji;sj;sj;sj;et;vu;iv;xn;sj; huai;dv;df;dv;ka;eg,xg;ku;iw;da;	446
-西决	xi;ak,wk;aa;aa;pp;mw;vx;sg;aa; jue;dg;dg;dd,dg;fx;ik;wj;un;dn;	445
-素媛	su;fx;fx;sf,fs;ai;qf;ai;gx;ax; yuan;ny;ny;ny;yl;ve;br;ve;ny;	428
-快本	kuai;xg;xg;xd,xg;nx;pk;hj;nn;xn; ben;ma;aa;aa,ma;wd;dm;ef;sg;aa;	427
-饶毅	rao;uw;uw;uy;gk;nu;qp;qn;ue; yi;lu;ly;lu,uu,uy;bl;ye;ir;ue;ly;	435
-当贝	dang;xe;xe;xx;hs;fm;yb;iv;ea; bei;kr;kr;ad,kr;mm;bo;ob;mh;ar;	423
-肖途	xiao;xo;xo;ox,xo;hl;fb;yv;ie;eo; tu;zm;zh;zy;eq;yd;ju;wt;zx;	417
-复星	fu;pw;pw;pw,rw,wo;ej;oe;eh;tj;pw; xing;ou;ou;ou;va;am;ol;jt;ou;	384
-石昊	shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; hao;ot;ot;ot;vx;ak;om;jg;ot;	383
-蒙氏	meng;cu;cu,cn;cm,cu;zh;to;lj;ap;cn; shi;pv;pv;pg;ur;hp;bs;qa;pv;	378
-赵姬	zhao;tx;tx;zi;qy;gk;pb;fh;tx; ji;ni;nl,ni;ni;yr;vl;bq;va;na;	378
-范雎	fan;cv;cv;ce,cf;zt;tu;lz;ai;cv; ju;qv;qf;qv,vq;pa;bg;fu;eg;qa;	375
-杨紫	yang;mp;mp;my;wu;dh;ee;sn;lp; zi;vx;vx;sc;ri;yf;si;hx;vx;	358
-黄洋	huang;cb;cb;ad,cb;zy;tc;nh;am;cb; yang;dy;dy;dy;kp;eq;kg;iu;dy;	367
-柯哀	ke;mk;mk;mk;wj;dr;ez;ss;lk; ai;yk;wy;wy,yk;ih;yv;td;ye;wh;	338
-刚铎	gang;kd;kd;dg;oi;bn;mp;mq;gd; duo;jf;jl;jf;dp;oq;zu;qc;ja;	337
-拓海	tuo;fu;fu;fu;jt;qr;um;rd;fk; hai;dm;dm;dm;kh;ey;kk;it;dm;	332
-林静	lin;mm;mm;mm;ww;dd;ee;ss;ll; jing;fy;fl;qv;ap;qd;ab;ge;qv;	331
-波洛	bo;dp;dy;dp;kl;ee;kr;ih;dy; luo;dk;dk;dg;ko;er;ks;it;dk;	332
-某度	mou;gm;gm;gm,mg;vw;td;ze;af;gl; du;gy;gy;gy;rl;ie;xr;ya;gy;	317
-武周	wu;yv;av;vy,yv;dr;mm;fs;ga;vg; zhou;kk;kk;kj,kk;oo,uo;br;md;mf;pk;	315
-张剑	zhang;gi;gi;gi;rh;no;bp;xt;gi; jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd;	315
-黄峥	huang;cb;cb;ad,cb;zy;tc;nh;am;cb; zheng;uy;el;uv;pp;ud;vb;mq;sv;	315
-高思	gao;wk;wk;wk;io;yr;gg;ym;wk; si;tx;tx;tx,xt;wn;wp;qh;ln;tx;	315
-蒙特卡洛	meng;cu;cu,cn;cm,cu;zh;to;lj;ap;cn; te;nc;nc;ns;bk;hi;qk;tr;nc; ka;ub;ub;bx,ub;ph;yy;yy;hh;ub; luo;dk;dk;dg;ko;er;ks;it;dk;	314
-霍尊	huo;yv;yf;yv;ya;mg;tu;fw;ya; zun;bc;bc;cq,qc;fk;ti;hk;us;ec;	305
-值乎	zhi;rq;rq;rv;xd,xu;om;jf;wf;rv; hu;pl;pl;pa;up;hd;tn;tu;pv;	303
-宋眠	song;bm;bm;bm;iw;jd,xd;we;ps;gl; mian;om;om;om;sr;bp;qd;hn;mm;	303
-彭越	peng;tp;up;pd,up;gu;gh;he;fk;up; yue;tl;tv;zy;qh;gv;pn;fh;tg;	302
-于敏	yu;au;al;aa;ss;md;fn;gf;av; min;pw;pw;wm;ej;ok;eh;tx;mw;	301
-途锐	tu;zm;zh;zy;eq;yd;ju;wt;zx; rui;jx;je;jd;dk;ou;zp;qu;je;	298
-任然	ren;rw;rr;rr;xd;og;jg;wt;rr; ran;xh;ph;hq;fn;bf;vc;qd;pe;	298
-渣叔	zha;dd;da;di;kd;em;kf;is;dd; shu;uy;uy;yx;pl;ye;yr;hi;uy;	297
-余得水	yu;rm;rh;rb,rd,rh;ef;od;jx;wt;rx; de;rc;ic;xc;hk;hi;wk;tj;rc; shui;ln;ln;ad,uv;oo;ee;ks;ii;vn;	297
-眉庄	mei;uo;vo;om,uo;qs;au;cq;nh;vm; zhuang;gt;gt;gt;rg;ig;xg;yf;gt;	296
-李泌	li;mz;mz;mz;wa;dd;eh;sb;lz; mi;db;db;db;ku;eh;kt;in;db;	282
-唐探	tang;gk;gk;gk;ro;ir;xd;yv;gk; tan;fm;fm;fm,fu;jw;qd;ue;rp;fl;	277
-李信	li;mz;mz;mz;wa;dd;eh;sb;lz; xin;rk;rk;ry;xc;or;js;wy;rk;	276
-乐夏	yue;px;pd;pd,px;ui;hd;by;qi;pd; xia;bw;aw;wz,aw;dj;me;fh;dh;aw;	271
-顾星染	gu;iy;ir;ye;rm;mo;xw;db;ir; xing;ou;ou;ou;va;am;ol;jt;ou; ran;dm;dm;mg,mj;kw;ed;ke;iv;dl;	266
-某鱼	mou;gm;gm;gm,mg;vw;td;ze;af;gl; yu;da;da;da;qq;nm;wv;qg;ea;	261
-黄轩	huang;cb;cb;ad,cb;zy;tc;nh;am;cb; xuan;ig;ig;ig;ts;kj;ye;lf;ig;	259
-圣墟	sheng;yt;yt;ty,yt;lg;eg;rg;cf;yt; xu;ty;ty;tx;gd;gc,gm;gc;fh;ty;	258
-朗道	lang;lo;do;ol;hl;ib;iv;yv;do; dao;zz;zz;zu;fq;yu;hu;ut;zm;	253
-川崎	chuan;pl;pl;pa;up;ll;oc;kt;pa; qi;uk;ek;uq;pj;ur;vz;md;sk;	252
-田静	tian;ku;ku;aa;ww;ww;qt;ll;wu; jing;fy;fl;qv;ap;qd;ab;ge;qv;	251
-静茹	jing;fy;fl;qv;ap;qd;ab;ge;qv; ru;ck;ck;cr;zo;tr;ld;av;ck;	251
-花粥	hua;cb;cb;ch;za;tp;lv;aw;cb; zhou;gm;gg;gg,mg;rr;nn;bb;xo;gg;	250
-莫迪	mo;cd;cd;cd,ct;zx;tk;lm;aj;cd; di;zy;zy;zy;vq;yw;du;mp;zy;	247
-艾梅柏	ai;cx;cx;ci;zy;tk,xk;lb;aq;cx; mei;mm;mm;mm;wh;dy;ek;st;lm; bai;mb;mb;mb;ws;da;eu;sr;lb;	246
-某乎	mou;gm;gm;gm,mg;vw;td;ze;af;gl; hu;pl;pl;pa;up;hd;tn;tu;pv;	246
-顾曾	gu;iy;ir;ye;rm;mo;xw;db;ir; ceng;bo;bo;ob,bo;fv;ca;ho;ul;eo;	246
-光遇	guang;xe;xw;ea,xw;hk;fu;mg;iq;ee; yu;zd;zy;zy;vq;yb;qu;jm;zd;	244
-速激	su;zu;zu;zu;dq;yl;xu;gk;zu; ji;dw;dw;dj,dw;kj;ek;kh;ir;dw;	243
-有赞	you;uo;uo;ou,uo;sl;kb;nv;e,de;ao; zan;nb;nr;bx;bm;ho;qo;tf;xr;	236
-哭悲	ku;kq;kq;kq,qk;ob;rk;dm;kk;kq; bei;fx;fx;xf,fx;pn;lp;rh;dj;fx;	229
-北语	bei;lb;lb;ap,bj;la;lp;av;ux;ab; yu;yk;yk;yw;co;ir;sd;yg;yk;	223
-二看	er;aa;aa;aa;uu;mm;me;fg;aa; kan;uo;uo;ou,uo;os;hu;uq;rh;pm;	223
-数院	shu;mw;mw;wl;lj;fk;ph;ov;mw; yuan;ey;ee;ew;bk;nu;tp;bp;ee;	223
-理塘	li;wl;wl;wl;ag;mg;nd;gj;wl; tang;tk;tk;tt;go;gr;gd;fy;tk;	223
-骨相	gu;go;lo;go,ob,og;cc;bb;fg;me;ao; xiang;mo;mo;mo;ws;du;eq;sh;lm;	222
-隋末	sui;eo;eo;eo;bl;nb;tv;bd;eo; mo;am;an;ad,am;ee;dj;fe;gs;an;	222
-花材	hua;cb;cb;ch;za;tp;lv;aw;cb; cai;mc;mc;mc;wu;dh;et;sf;lc;	222
-炖菜	dun;ht;ht;ht;tr;fu;cs;og;ht; cai;cc;cm;cc;zw;td;le;ae;cl;	222
-带教	dai;cj;fj;jb;zy;tb;lr;gk;aj; jiao;lw;lw;wx;gj;jk;qh;ft;uw;	222
-亮司	liang;wj;wj;wj,jb;ii;yn,yu;go;yp;wj; si;vk;vk;gk,ka;ro;sr;ad;ng;vk;	223
-秦奋	qin;ih;fh;hf,fh;uw;qd;ax;dw;ah; fen;dt;dt;dt;xw;kw;mq;dl;dt;	221
-老饭骨	lao;lb;lb;bl,lb;ga;jp;ql;ft;ub; fan;uy;uy;uf;gl;ne;qr;qn;uy; gu;go;lo;go,ob,og;cc;bb;fg;me;ao;	0
-赛睿	sai;bb;br;bb;im;jo;wo;pf;gr; rui;bo;lo;bo,or;ps;yu;gq;hp;am;	219
-墓主	mu;ct;ct;tm,ct;zg;tg;lg;aj;ct; zhu;wt;dw;dw;ig;yg;in;y,yg;wt;	218
-打本	da;fd;fd;fd;jj;qn;ua;rs;fd; ben;ma;aa;aa,ma;wd;dm;ef;sg;aa;	217
-实车	shi;bd;bd;bt;ix;jk;wm;pu;gd; che;au;al;aa;tt;kq;yc;lg;aa;	217
-花活	hua;cb;cb;ch;za;tp;lv;aw;cb; huo;du;dk;du;ko;er;ka;it;dk;	217
-陆鸿	lu;ej;ej;ej;bp;nu;tm;bf;ej; hong;dn;dn;dn,nj;kc;em;kx;ia;dn;	209
-陆奇	lu;ej;ej;ej;bp;nu;tm;bf;ej; qi;dk;dk;dk;xj;kr;mz;ds;dk;	208
-御坂	yu;re;ie;xx;hb;hl;wz;tr;re; ban;ty;ty;tf;gl;ge;gr;fr;ty;	199
-微视	wei;rj;iw;xw;hj,hi;hk;wh;tm;rw; shi;pj;pe;ju,uj;hk;iu;fe;py;pj;	199
-酷安	ku;yk;yk;yg;po;mr;yd;sg;yk; an;bn;bn;bn;iy;jv;wb;pv;gn;	198
-魏冉	wei;hg;hg;gw;us;hi;xa;tv;hv; ran;kt;la;aa,kt;og;gb;mg;mf;aa;	197
-郑薇	zheng;be;be;eg;fb;tl,xl;ht;ud;ee; wei;cj;cw;cw;zi,zj;tk;lh;at;cw;	194
-蔡澜	cai;cu;cx;cj;zi;tf;lf;aw;cx; lan;dj;dj;dl;kf;ew;kh;iu;dj;	193
-武忠祥	wu;yv;av;vy,yv;dr;mm;fs;ga;vg; zhong;vx;vx;xv;on;lp;dh;kh;vx; xiang;py;py;uy;hp;iq;fg;py;py;	193
-浪姐	lang;dl;dl;dl;kh;ev;ki;iy;dh; jie;nq;nq;nq;yu;vm;bf;ve;nq;	191
-胜七	sheng;ou;ou;ou;la;bm;vl;et;ou; qi;av;av;ag;aa;ju;rq;ag;av;	191
-莫蒂	mo;cd;cd;cd,ct;zx;tk;lm;aj;cd; di;cj;cj;cd;zy;tb;lr;au;cj;	188
-玄策	xuan;wy;wy;wy;ip;yi;zi;yx;ws; ce;vu;vn;vc;nh;hb;rm;tg;vn;	187
-莎翁	sha;cu;cu;cu;zi;th;lt;ai;cu; weng;gx;bx;yg;fd;cm;hz;wc;bx;	186
-狄俄涅索斯	di;qh;qh;qh;bt;kf;mc;qt;qh; e;rw;rw;rw;xa;oi;jp;wt;rg; nie;dt;dt;dn,dt;kg;eg;kg;ij;dt; suo;ux;ux;sb,us;si;jf;ni;fp;ux; si;cj;qj;jq,qj;vp;tl;zt;ad;qj;	186
-曼恩	man;oy;oy;oy;vl;ae;or;jl;oy; en;yx;kx;xy;nn;wp;rh;ld;wx;	186
-伯明顿	bo;rb;rb;rb;xs;oa;ju;wr;rb; ming;oo;oo;oo;vl;ab;ov;je;oo; dun;ty;tr;yt;dm;po;fw;gb;tr;	186
-游卡	you;dz;dz;dz;ka;ed;kh;iy;dz; ka;ub;ub;bx,ub;ph;yy;yy;hh;ub;	181
-旷视	kuang;og;og;og;vr;ai;ox;jy;og; shi;pj;pe;ju,uj;hk;iu;fe;py;pj;	178
-胡斐	hu;go;uo;og;sl;jb;cv;de;uo; fei;fw;fw;wf;pj;lk;rv;dj;fx;	176
-倪匡	ni;re;re;re;xk;ou;jp;wv;re; kuang;kw;kw;kw;dr;sg;nn;ag;kw;	175
-牛客	niu;pu;pl;pa;bb;hq;qn;rh;pa; ke;bk;bk;bg;io;jr;ws;pt;gk;	174
-乙一	yi;vv;vv;aa,vv,yy;rr;nu;ai;nn;vv; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;	174
-甜薪	tian;ug;qg;ug;sv;hm;az;td;qg; xin;cj;cj;cx;zp;tl;lt;au;cj;	169
-杨慧兰	yang;mp;mp;my;wu;dh;ee;sn;lp; hui;fx;fx;xh,fx;an;qp;ah;dh;fx; lan;bs;bs;bs,qe;fu;tm;ht;uf;es;	166
-管虎	guan;vl;vk;vg;nd;hr;rk;tp;vg; hu;hj;hj;hj;pi;yn,yu;zh;ha;aj;	161
-安欣	an;bn;bn;bn;iy;jv;wb;pv;gn; xin;jq;jr;qj,jq;ue;ho;te;rq;jr;	153
-缠师	chan;sl;sl;sl;eg;vg;id;xy;sl; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	152
-武藤	wu;yv;av;vy,yv;dr;mm;fs;ga;vg; teng;cu;cu;ct;zo;te;lk;ae;cu;	151
-博人	bo;uc;uc;uc,uf;sk;ji;nk;fg;uc; ren;pn;pn;pd;ee;oo;jr;w,ww;pn;	149
-同程	tong;kk;kk;kk;oo;br;md;m,mg;ak; cheng;hw;hw;hi;ua;hg;xn;tk;hw;	147
-五竹	wu;aw;aa;aa;gg;mm;wu;gg;aa; zhu;gg;pl,gg;gg;nn;hh;ru;tt;pd;	136
-双笙	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; sheng;vu;vu;vu;na;hm;rl;tt;vu;	136
-灵汐	ling;eh;eh;hx,xh;st;sf;bc;vo;vh; xi;dx;dx;dx;kf;ei;kl;iq;dx;	136
-途家	tu;zm;zh;zy;eq;yd;ju;wt;zx; jia;bu;bu;bu;ih;jo;wj;pe;gn;	129
-堆糖	dui;tv;tf;tv;ga;gg;gu;fw;ta; tang;mk;mk;mt;lo;fr;pd;oy;mk;	134
-泰格	tai;iu;fu;fu,uf;uo;qe;ak;dw;au; ge;mk;mk;mg;wo;dr;es;st;lk;	128
-关谷	guan;bt;bt;bt,qd;fx;tk;hm;ud;et; gu;bk;bk;bk,kr;fo;cr;hg;ww;bk;	123
-齐绍安	qi;wl;wl;wa,wp;jp;yl;qq;yj;wa; shao;sk;sk;sv;eo;vr;id;xv;sk; an;bn;bn;bn;iy;jv;wb;pv;gn;	123
-韩立	han;uw;uw;uw,wu;sp;js;ng;fj;uw; li;wb;wa;da;bb;yt;il;uu;wa;	122
-剑南	jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd; nan;ug;ug,ag;ua,uy;ss;jj;ng;fm;uu;	120
-菊厂	ju;cm;cm;cj,cm;zl;td;lp;aq;cm; chang;ap;ap;ap;rr;mh;xc;dg;ap;	119
-曾哥	ceng;bo;bo;ob,bo;fv;ca;ho;ul;eo; ge;kk;dk;kd,kk,dk;jj;mr;zz;sk;ak;	110
-金妮	jin;rb;ra;ra,pa;ed;cc;zj;qq;ra; ni;nb;nb;nn;ya;vp;bv;vn;nb;	110
-庄生	zhuang;gt;gt;gt;rg;ig;xg;yf;gt; sheng;pf;pf;na;eg,aa;hm;ls;tg;pa;	109
-董酒	dong;cv;cv;cv;zg;tg;ld;at;cv; jiu;dy;dy;dy;kd;ew;ky;is;dy;	108
-席慕容	xi;gj;gj;jc,gj;ry;ib;xr;ya;gj; mu;cx;cx;cx,xm;zi;tp;lh;aj;cd; rong;bg;bk;bg;io;jr;wh;pw;gk;	106
-霍奇	huo;yv;yf;yv;ya;mg;tu;fw;ya; qi;dk;dk;dk;xj;kr;mz;ds;dk;	105
-云村	yun;ag,es;es;es,se;up;mi;by;fc;ev; cun;mc;mc;mc;wk;di;ek;sf;lc;	101
-华数	hua;ru;ru;uh;xs;oj;jn;wx;ru; shu;mw;mw;wl;lj;fk;ph;ov;mw;	101
-牧原	mu;nw;nw;nw;bj;hk;qh;tr;nw; yuan;ix;ix;ix;ri;mf;xy;dr;ix;	101
-拉斯	la;fl;fl;fl;jb;qt;ui;ru;fl; si;cj;qj;jq,qj;vp;tl;zt;ad;qj;	86
+贞薰	zhen;bb;lr;bb;pm;yo;yo;hm;ar;ba; xun;ch;ch;cx;zn;tf;lp;at;ce;cx;	32
+嗣香	si;kk;kk;ks,sc;oo;rr;dd;km;kk;ks; xiang;ho;ho;ho;uv;ha;xo;tj;ho;hr;	1
+嗣丽	si;kk;kk;ks,sc;oo;rr;dd;km;kk;ks; li;ad;ad;ad;dh;mb;fv;gm;ad;ad;	1
+薰嗣	xun;ch;ch;cx;zn;tf;lp;at;ce;cx; si;kk;kk;ks,sc;oo;rr;dd;km;kk;ks;	5
+薰丽	xun;ch;ch;cx;zn;tf;lp;at;ce;cx; li;ad;ad;ad;dh;mb;fv;gm;ad;ad;	0
+棚町薰	peng;mo;mo;mp;wl;db;ev;se;lo;mp; ting;td;td;td;wj;wn;qa;ls;td;td; xun;ch;ch;cx;zn;tf;lp;at;ce;cx;	0
+莫伊莱	mo;cd;cd;cd,ct;zx;tk;lm;aj;cd;cd; yi;ry,rp;ry;ry;xu;ok;jt;wv;ry;ry; lai;cl;cl;cl;zl,zf;tt;lh;ag;cl;cl;	2
+龙丹妮	long;yp;ud;ad;sh;ip;tl;dx;ab;ba; dan;kd;pa;pd;oi,oz,ud,uz,od;by;mz;my;pa;pd; ni;nb;nb;nn;ya;vp;bv;vn;nb;nn;	144
+龚琳娜	gong;lg;lb;lg;sf;ic;th;dx;lb;lg; lin;wm;wm;wl;aw;md;ne;gs;wl;wl; na;ne;ne;nn;yb;vl;bt;vv;ne;nn;	257
+龚翔宇	gong;lg;lb;lg;sf;ic;th;dx;lb;lg; xiang;yx;yx;yy;fd;tm;gz;ud;ex;yy; yu;by;by;by;is;jd;wn;pg;gy;by;	154
+丁威迪	ding;al;al;aa;jj;mn;ad;sg;av;av; wei;wn;xn,ad,wn;gn,ng,wn;rh;iv;nb;dg;ng;ng; di;zy;zy;zy;vq;yw;du;mp;zy;zy;	113
+黛博拉	dai;rh;rh;hd;xn;of;jp;wa;re;dh; bo;uc;uc;uc,uf;sk;ji;nk;fg;uc;uc; la;fl;fl;fl;jb;qt;ui;ru;fl;fl;	152
+黄子韬	huang;cb;cb;ad,cb;zy;tc;nh;am;cb;cb; zi;la;va;aa,vh;aa;nd;hi;bb;va;va; tao;wj;wj;wj,wy;us;qx;gp;fn;wj;wj;	277
+黄雨萱	huang;cb;cb;ad,cb;zy;tc;nh;am;cb;cb; yu;ad;ad;ad;yy;my;tv;fg;ad;ad; xuan;cd;ca;cx;zd;tm;lf;ap;cd;cx;	124
+黄旭东	huang;cb;cb;ad,cb;zy;tc;nh;am;cb;cb; xu;jo;jo;oj,jo;uv;ka;ko;vj;jo;jr; dong;ax;ad;ad,qx;di,ai;kd;ry;ai;ad;ad;	224
+黄有龙	huang;cb;cb;ad,cb;zy;tc;nh;am;cb;cb; you;uo;uo;ou,uo;sl;kb;nv;e,de;ao;ya; long;yp;ud;ad;sh;ip;tl;dx;ab;ba;	101
+麦瑞克	mai;fw;fw;fw;aj;qe;ah;gt;aw;wa; rui;we;we;we;ab;mb;nl;gm;we;we; ke;ux,ge;ue;eg,ux;sk;ju;cp;dq;ue;ux;	1022
+麦道夫	mai;fw;fw;fw;aj;qe;ah;gt;aw;wa; dao;zz;zz;zu;fq;yu;hu;ut;zm;zu; fu;er;an;ad,er;ee;qo;hf;fw;an;an;	165
+亥姆霍兹	hai;wr;wr;wr,dd;ie;yo;kh;yn;wr;dd; mu;nm;nm;nm;yh;vi;bk;vx;nm;nm; huo;yv;yf;yv;ya;mg;tu;fw;ya;ya; zi;by;by;by,qy;fp;ti;hi;ux;es;es;	100
+亨特拉尔	heng;wl;wl;wl,lk;ip;yn;gr;yb;wl;ld; te;nc;nc;ns;bk;hi;qk;tr;nc;ns; la;fl;fl;fl;jb;qt;ui;ru;fl;fl; er;dx;dx;dx,xd;gi;nf;xy;qi;ex;xp;	141
+伊东丰雄	yi;ry,rp;ry;ry;xu;ok;jt;wv;ry;ry; dong;ax;ad;ad,qx;di,ai;kd;ry;ai;ad;ad; feng;sl,af,al;al;aa;aa;qj;af;dh;aa;aa; xiong;uv;uf;vh,vs;sa;kg;nu;dc;aa;aa;	163
+伊卡尔迪	yi;ry,rp;ry;ry;xu;ok;jt;wv;ry;ry; ka;ub;ub;bx,ub;ph;yy;yy;hh;ub;ub; er;dx;dx;dx,xd;gi;nf;xy;qi;ex;xp; di;zy;zy;zy;vq;yw;du;mp;zy;zy;	160
+伊坂幸太郎	yi;ry,rp;ry;ry;xu;ok;jt;wv;ry;ry; ban;ty;ty;tf;gl;ge;gr;fr;ty;tf; xing;tg;tg;tu,ty;gs;gj;gg;fu;tu;tu; tai;dd;dd;dd;xh;ki;mi;dy;dd;dd; lang;le;de;el;hb;il;it;yv;de;ea;	123
+伊巴卡	yi;ry,rp;ry;ry;xu;ok;jt;wv;ry;ry; ba;sl;sl,vv;ag,kg,vg;tt;au;mb;cn;vv;vv; ka;ub;ub;bx,ub;ph;yy;yy;hh;ub;ub;	404
+伊戈达拉	yi;ry,rp;ry;ry;xu;ok;jt;wv;ry;ry; ge;yp;ad;ad;aa,ha;ii;pg;ag;ad;ad; da;zd;zd;zd;xq;yk,xk;mu;dp;zd;zd; la;fl;fl;fl;jb;qt;ui;ru;fl;fl;	351
+伊斯科	yi;ry,rp;ry;ry;xu;ok;jt;wv;ry;ry; si;cj;qj;jq,qj;vp;tl;zt;ad;qj;qj; ke;hd;hu;hd;us;hj;xj;tu;hu;hd;	218
+妃英理	fei;nj;nj;nj;yt;vu;bv;vn;nj;nj; ying;cy;cy;cy;zx;tk;lm;am;cy;cy; li;wl;wl;wl;ag;mg;nd;gj;wl;wl;	204
+姆巴佩	mu;nm;nm;nm;yh;vi;bk;vx;nm;nm; ba;sl;sl,vv;ag,kg,vg;tt;au;mb;cn;vv;vv; pei;rj;rj;rb,rj;xy;ob;jr;wm;rj;rj;	1543
+姚主席	yao;nv;nd;nv;yh;vo;bw;vi;nv;nv; zhu;wt;dw;dw;ig;yg;in;y,yg;wt;wd; xi;gj;gj;jc,gj;ry;ib;xr;ya;gj;gj;	161
+姆希塔良	mu;nm;nm;nm;yh;vi;bk;vx;nm;nm; xi;xj;xj;ju,ib,ij;yy;kb;br;qd;xj;xb; ta;tk;tk;td,th;go;gr;gd;fa;tk;tk; liang;dg;dg;dg;hh;iv;ii;yv;dh;dn;	196
+徐涛	xu;rm;ih;xy;hf;hd;wx;tw;rx;ry; tao;dc;dc;du;kk;ei;kk;id;dc;du;	3258
+腿姐	tui;og;oz;ot;lq;bv;vu;ev;oh;yn; jie;nq;nq;nq;yu;vm;bf;ve;nq;nq;	3152
+武磊	wu;yv;av;vy,yv;dr;mm;fs;ga;vg;vg; lei;uu;uu;uu;tt;mr;mm;dd;uk;uu;	3149
+艾顿	ai;cx;cx;ci;zy;tk,xk;lb;aq;cx;cx; dun;ty;tr;yt;dm;po;fw;gb;tr;ya;	1736
+卫庄	wei;ea;va,ea;ea,ga;bd;sm;zf;bg;ea;va; zhuang;gt;gt;gt;rg;ig;xg;yf;gt;gt;	2184
+夏洛	xia;bw;aw;wz,aw;dj;me;fh;dh;aw;wa; luo;dk;dk;dg;ko;er;ks;it;dk;dg;	1628
+羽生	yu;xx;xx;xx;dd;sm;zv;nn;xx;xx; sheng;pf;pf;na;eg,aa;hm;ls;tg;pa;pa;	1550
+德善	de;rx;ix;xx;hn;hp;wh;tf;rx;rx; shan;yk;yk;yk,ka,kq;fo;tr;gd;ud;ek;ek;	1482
+成德善	cheng;wv;wv;gg,wg;rh;is;na;dn;vg;gv; de;rx;ix;xx;hn;hp;wh;tf;rx;rx; shan;yk;yk;yk,ka,kq;fo;tr;gd;ud;ek;ek;	0
+哈莉	ha;kk;kk;kh;oo;rr;dd;kw;kk;kh; li;cd;cd;cl;zi;tn;lp;at;cd;cl;	1479
+短短的	duan;ub;ua;ud;ed;ot;oz;td;ud;ud; duan;ub;ua;ud;ed;ot;oz;td;ud;ud; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu;bu;	1444
+没地去	mei;du;dy;du;kl;ee;kr;im;dy;dy; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty;ty; qu;ts;ts;ts;gp;gi;gk;fc;tv;td;	0
+知群	zhi;uk;uk;uk,ku;eo;or;od;td;uk;uk; qun;yy;yy;yj;rp;sq;bg;vt;yy;jy;	1435
+来答	lai;am;an;am,wb;uf,ef;dt;ah;go;an;an; da;vk;vk;vh;no;hr;rd;tw;vk;vh;	1433
+唐军	tang;gk;gk;gk;ro;ir;xd;yv;gk;gk; jun;bi;bi;bi;it;bq;wy;pl;gi;bi;	1336
+迪伦	di;zy;zy;zy;vq;yw;du;mp;zy;zy; lun;rl;rb;rl;;op;jj;ww;rb;rl;	1259
+白玲	bai;po;po;pa,po;ss;ha;ub;rr;po;rp; ling;ws;ws;wl;ap;mi;nk;gw;wv;wl;	1171
+郎平	lang;le;de;el;hb;il;it;yv;de;ea; ping;au;au;aa,gb;ds;mj;eh;gu;au;aa;	1137
+米莱	mi;bm;dm;dd;ll;fd;pm;oy;dl;md; lai;cl;cl;cl;zl,zf;tt;lh;ag;cl;cl;	1095
+韩烁	han;uw;uw;uw,wu;sp;js;ng;fj;uw;uw; shuo;hl;hl;hl,hy;ti;fd;cy;oq;hl;hl;	1085
+德约	de;rx;ix;xx;hn;hp;wh;tf;rx;rx; yue;su;su;su;eh;vi;ii;xq;su;su;	1058
+适马	shi;zu;zk;zu;sq;yr;au;td;zk;zu; ma;va;va;aa,vh;zz;nm;nm;cn;va;va;	1036
+朱婷	zhu;pw;pw,nn;pw;ee;hd;ta;ri;pw;wp; ting;nd;nd;nt;yj;vn;ba;vy;nd;nt;	1018
+秦廷	qin;ih;fh;hf,fh;uw;qd;ax;dw;ah;ha; ting;zw;zr;zr;sq;ng;tu;tf;zr;zr;	1009
+王澍	wang;at;at;aa;aa;mg;nw;gg;at;ta; shu;dc;dc;dc,du;kk;ei;kk;if;dc;dc;	990
+盛瑾	sheng;im;im;mi;ra;it;na;dn;im;im; jin;ww;wa;wj;aa,ag;mm;na;ga;wa;wa;	985
+罗夏	luo;sx;sx;sx;af;wi;yl;lq;sx;sx; xia;bw;aw;wz,aw;dj;me;fh;dh;aw;wa;	974
+魔禁	mo;gg;gg;gm,mg;ds;ii;za;ys;gv;gg; jin;mu;mx;ul;wi;df;ef;ss;lx;lu;	955
+许稚	xu;yw;yw;yw;cs;ij;sn;yt;yu;yw; zhi;hv;hf;hv;ua;hg;xu;tw;ha;ha;	942
+直子	zhi;uq;uq;aa,uq;sd,su;jm;nf;fh;ua;ua; zi;la;va;aa,vh;aa;nd;hi;bb;va;va;	938
+阿泽	a;ek;ek;ek;bj;nr;tz;bs;ek;ek; ze;df;dl;df;kp;eq;ku;ic;da;da;	931
+西昊	xi;ak,wk;aa;aa;pp;mw;vx;sg;aa;aa; hao;ot;ot;ot;vx;ak;om;jg;ot;rt;	882
+立信	li;wb;wa;da;bb;yt;il;uu;wa;da; xin;rk;rk;ry;xc;or;js;wy;rk;ry;	874
+梁博	liang;dm;dm;mb;kw;ed;ke;iv;dl;dm; bo;uc;uc;uc,uf;sk;ji;nk;fg;uc;uc;	833
+戈恩	ge;yp;ad;ad;aa,ha;ii;pg;ag;ad;ad; en;yx;kx;xy;nn;wp;rh;ld;wx;yx;	818
+晴子	qing;oo;oo;oq;vl;ab;ov;jg;oo;rq; zi;la;va;aa,vh;aa;nd;hi;bb;va;va;	815
+伯格	bo;rb;rb;rb;xs;oa;ju;wr;rb;rb; ge;mk;mk;mg;wo;dr;es;st;lk;mg;	796
+博子	bo;uc;uc;uc,uf;sk;ji;nk;fg;uc;uc; zi;la;va;aa,vh;aa;nd;hi;bb;va;va;	762
+莱万	lai;cl;cl;cl;zl,zf;tt;lh;ag;cl;cl; wan;av;ap;ag,ap;du;ms;fp;dn;ap;ag;	758
+大超	da;ar;un;ad;xx;kk;md;dd;an;an; chao;tk;tk;zv;qo;gr;pd;fh;tk;zv;	752
+慕若	mu;cx;cx;cx,xm;zi;tp;lh;aj;cd;cd; ruo;ck;ck;cy;zo;tr;ld;ad;ck;cy;	740
+今敏	jin;rv;rv;ra,rv;er;on;ja;wy;rv;rv; min;pw;pw;wm;ej;ok;eh;tx;mw;mw;	740
+泽北	ze;df;dl;df;kp;eq;ku;ic;da;da; bei;lb;lb;ap,bj;la;lp;av;ux;ab;ba;	736
+燕姿	yan;ch;nh,ah;ch,hb;vn;tf;lc;au;ce;ea; zi;dn;dn;nc;fy;iv,mv;wb;uq;dn;cn;	711
+俞佩彤	yu;rd;rd;rd,ry;ei;on;jp;wg;rd;rd; pei;rj;rj;rb,rj;xy;ob;jr;wm;rj;rj; tong;dp;dp;pd;ou,uu;bh;me;my;dp;dp;	100
+梅罗	mei;mm;mm;mm;wh;dy;ek;st;lm;mm; luo;sx;sx;sx;af;wi;yl;lq;sx;sx;	688
+平成	ping;au;au;aa,gb;ds;mj;eh;gu;au;aa; cheng;wv;wv;gg,wg;rh;is;na;dn;vg;gv;	688
+切嗣	qie;qd;qd;dq,qd;ai;ph;rp;av;qd;dv; si;kk;kk;ks,sc;oo;rr;dd;km;kk;ks;	687
+江歌	jiang;dg;dg;dg;kp;em;ku;ia;dg;dg; ge;kq;dr;qg;je;mo;ze;sk;gr;gq;	670
+灰原	hui;uh;uh;hu,uh;st;kf;nc;do;ah;ha; yuan;ix;ix;ix;ri;mf;xy;dr;ix;iq;	647
+扎导	zha;fv;fv;fg;jr;qu,xu;ua;rn;fv;fv; dao;sc;sc;cs,sc;tk;ri;vk;nf;vc;cv;	678
+比伯	bi;bb;bb;bb;aa;pp;vv;xx;bb;bv; bo;rb;rb;rb;xs;oa;ju;wr;rb;rb;	666
+元起	yuan;aw;ee;aw,ee;uk;mu;mp;fq;ee;ee; qi;tj;tj;zj;qt;gu;pv;fh;tj;zj;	654
+林奇	lin;mm;mm;mm;ww;dd;ee;ss;ll;mm; qi;dk;dk;dk;xj;kr;mz;ds;dk;dk;	594
+李陵	li;mz;mz;mz;wa;dd;eh;sb;lz;mz; ling;ew;ew;el,ew;bj;ne;th;bf;ew;ew;	586
+艺兴	yi;cv;cv;cy;zr;tn;la;an;cy;cy; xing;xb;xb;ba,db;hf;fc;kh;iw;eb;eb;	528
+小津	xiao;lb;ld;ad;ii;nc;yx;ih;vd;vd; jin;dy;dy;dy;kp;eq;kb;iv;da;da;	528
+郑微	zheng;be;be;eg;fb;tl,xl;ht;ud;ee;ge; wei;rj;iw;xw;hj,hi;hk;wh;tm;rw;rw;	525
+马内	ma;va;va;aa,vh;zz;nm;nm;cn;va;va; nei;kr;ld;ad,kr;oe;ob,xb;mj;mw;ad;ad;	509
+伍迪	wu;rw;rw;rw;xg;om;jw;wg;rw;rw; di;zy;zy;zy;vq;yw;du;mp;zy;zy;	508
+黄章	huang;cb;cb;ad,cb;zy;tc;nh;am;cb;cb; zhang;lu;lu;lz;cs;yj;xn;uj;lu;lz;	497
+友盟	you;uy;uy;yu,uy;sl;ke;nr;dc;ay;ya; meng;om;om;mm;va;at;oa;je;om;rm;	490
+雪穗	xue;ye;ye;yx;ys;mm;tb;fv;ya;ya; sui;hx;hx;hh;un;hp;xh;tg;hx;hh;	473
+穆迪	mu;hp;hp;hp;uu;hh;xe;tr;hp;hp; di;zy;zy;zy;vq;yw;du;mp;zy;zy;	467
+痛仰	tong;by;by;by;mp;kb;at;uc;by;by; yang;re;re;re,ry;xb;ol;jz;wq;re;re;	467
+淘系	tao;df;df;df,dt;kp;eu;ka;iq;df;df; xi;px;px;ps;ui;hf;ti;tx;px;xp;	458
+富坚	fu;bt;bt;bf,bt;iw;jw;wq;pg;gt;bt; jian;lt;lt;ty;pg;lg;pg;jc;at;ta;	453
+某音	mou;gm;gm;gm,mg;vw;td;ze;af;gl;gm; yin;lo;lo;lo;cc;ya;xy;uj;lo;lr;	454
+王攀	wang;at;at;aa;aa;mg;nw;gg;at;ta; pan;mu;mu;ud,mu,uf;wo;dq;eu;sq;lu;mu;	447
+纪淮	ji;sj;sj;sj;et;vu;iv;xn;sj;sj; huai;dv;df;dv;ka;eg,xg;ku;iw;da;da;	446
+西决	xi;ak,wk;aa;aa;pp;mw;vx;sg;aa;aa; jue;dg;dg;dd,dg;fx;ik;wj;un;dn;dn;	445
+素媛	su;fx;fx;sf,fs;ai;qf;ai;gx;ax;xa; yuan;ny;ny;ny;yl;ve;br;ve;ny;ny;	428
+快本	kuai;xg;xg;xd,xg;nx;pk;hj;nn;xn;xn; ben;ma;aa;aa,ma;wd;dm;ef;sg;aa;aa;	427
+饶毅	rao;uw;uw;uy;gk;nu;qp;qn;ue;uw; yi;lu;ly;lu,uu,uy;bl;ye;ir;ue;ly;ly;	435
+当贝	dang;xe;xe;xx;hs;fm;yb;iv;ea;ea; bei;kr;kr;ad,kr;mm;bo;ob;mh;ar;ra;	423
+肖途	xiao;xo;xo;ox,xo;hl;fb;yv;ie;eo;ey; tu;zm;zh;zy;eq;yd;ju;wt;zx;zy;	417
+复星	fu;pw;pw;pw,rw,wo;ej;oe;eh;tj;pw;wp; xing;ou;ou;ou;va;am;ol;jt;ou;ru;	384
+石昊	shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak;ka; hao;ot;ot;ot;vx;ak;om;jg;ot;rt;	383
+蒙氏	meng;cu;cu,cn;cm,cu;zh;to;lj;ap;cn;cn; shi;pv;pv;pg;ur;hp;bs;qa;pv;pv;	378
+赵姬	zhao;tx;tx;zi;qy;gk;pb;fh;tx;zx; ji;ni;nl,ni;ni;yr;vl;bq;va;na;ni;	378
+范雎	fan;cv;cv;ce,cf;zt;tu;lz;ai;cv;cv; ju;qv;qf;qv,vq;pa;bg;fu;eg;qa;qa;	375
+杨紫	yang;mp;mp;my;wu;dh;ee;sn;lp;mp; zi;vx;vx;sc;ri;yf;si;hx;vx;cx;	358
+黄洋	huang;cb;cb;ad,cb;zy;tc;nh;am;cb;cb; yang;dy;dy;dy;kp;eq;kg;iu;dy;dy;	367
+柯哀	ke;mk;mk;mk;wj;dr;ez;ss;lk;mk; ai;yk;wy;wy,yk;ih;yv;td;ye;wh;dn;	338
+刚铎	gang;kd;kd;dg;oi;bn;mp;mq;gd;gd; duo;jf;jl;jf;dp;oq;zu;qc;ja;ja;	337
+拓海	tuo;fu;fu;fu;jt;qr;um;rd;fk;fu; hai;dm;dm;dm;kh;ey;kk;it;dm;dm;	332
+林静	lin;mm;mm;mm;ww;dd;ee;ss;ll;mm; jing;fy;fl;qv;ap;qd;ab;ge;qv;qv;	331
+波洛	bo;dp;dy;dp;kl;ee;kr;ih;dy;dp; luo;dk;dk;dg;ko;er;ks;it;dk;dg;	332
+某度	mou;gm;gm;gm,mg;vw;td;ze;af;gl;gm; du;gy;gy;gy;rl;ie;xr;ya;gy;gy;	317
+武周	wu;yv;av;vy,yv;dr;mm;fs;ga;vg;vg; zhou;kk;kk;kj,kk;oo,uo;br;md;mf;pk;kp;	315
+张剑	zhang;gi;gi;gi;rh;no;bp;xt;gi;gi; jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd;rd;	315
+黄峥	huang;cb;cb;ad,cb;zy;tc;nh;am;cb;cb; zheng;uy;el;uv;pp;ud;vb;mq;sv;uv;	315
+高思	gao;wk;wk;wk;io;yr;gg;ym;wk;kd; si;tx;tx;tx,xt;wn;wp;qh;ln;tx;tx;	315
+蒙特卡洛	meng;cu;cu,cn;cm,cu;zh;to;lj;ap;cn;cn; te;nc;nc;ns;bk;hi;qk;tr;nc;ns; ka;ub;ub;bx,ub;ph;yy;yy;hh;ub;ub; luo;dk;dk;dg;ko;er;ks;it;dk;dg;	314
+霍尊	huo;yv;yf;yv;ya;mg;tu;fw;ya;ya; zun;bc;bc;cq,qc;fk;ti;hk;us;ec;qc;	305
+值乎	zhi;rq;rq;rv;xd,xu;om;jf;wf;rv;rv; hu;pl;pl;pa;up;hd;tn;tu;pv;pv;	303
+宋眠	song;bm;bm;bm;iw;jd,xd;we;ps;gl;bm; mian;om;om;om;sr;bp;qd;hn;mm;mm;	303
+彭越	peng;tp;up;pd,up;gu;gh;he;fk;up;up; yue;tl;tv;zy;qh;gv;pn;fh;tg;zg;	302
+于敏	yu;au;al;aa;ss;md;fn;gf;av;av; min;pw;pw;wm;ej;ok;eh;tx;mw;mw;	301
+途锐	tu;zm;zh;zy;eq;yd;ju;wt;zx;zy; rui;jx;je;jd;dk;ou;zp;qu;je;jd;	298
+任然	ren;rw;rr;rr;xd;og;jg;wt;rr;rr; ran;xh;ph;hq;fn;bf;vc;qd;pe;ep;	298
+渣叔	zha;dd;da;di;kd;em;kf;is;dd;di; shu;uy;uy;yx;pl;ye;yr;hi;uy;uy;	297
+余得水	yu;rm;rh;rb,rd,rh;ef;od;jx;wt;rx;rd; de;rc;ic;xc;hk;hi;wk;tj;rc;rc; shui;ln;ln;ad,uv;oo;ee;ks;ii;vn;vn;	297
+眉庄	mei;uo;vo;om,uo;qs;au;cq;nh;vm;mv; zhuang;gt;gt;gt;rg;ig;xg;yf;gt;gt;	296
+李泌	li;mz;mz;mz;wa;dd;eh;sb;lz;mz; mi;db;db;db;ku;eh;kt;in;db;db;	282
+唐探	tang;gk;gk;gk;ro;ir;xd;yv;gk;gk; tan;fm;fm;fm,fu;jw;qd;ue;rp;fl;fm;	277
+李信	li;mz;mz;mz;wa;dd;eh;sb;lz;mz; xin;rk;rk;ry;xc;or;js;wy;rk;ry;	276
+乐夏	yue;px;pd;pd,px;ui;hd;by;qi;pd;pd; xia;bw;aw;wz,aw;dj;me;fh;dh;aw;wa;	271
+顾星染	gu;iy;ir;ye;rm;mo;xw;db;ir;iy; xing;ou;ou;ou;va;am;ol;jt;ou;ru; ran;dm;dm;mg,mj;kw;ed;ke;iv;dl;dm;	266
+某鱼	mou;gm;gm;gm,mg;vw;td;ze;af;gl;gm; yu;da;da;da;qq;nm;wv;qg;ea;pa;	261
+黄轩	huang;cb;cb;ad,cb;zy;tc;nh;am;cb;cb; xuan;ig;ig;ig;ts;kj;ye;lf;ig;ig;	259
+圣墟	sheng;yt;yt;ty,yt;lg;eg;rg;cf;yt;yt; xu;ty;ty;tx;gd;gc,gm;gc;fh;ty;tx;	258
+朗道	lang;lo;do;ol;hl;ib;iv;yv;do;yd; dao;zz;zz;zu;fq;yu;hu;ut;zm;zu;	253
+川崎	chuan;pl;pl;pa;up;ll;oc;kt;pa;pa; qi;uk;ek;uq;pj;ur;vz;md;sk;uq;	252
+田静	tian;ku;ku;aa;ww;ww;qt;ll;wu;ku; jing;fy;fl;qv;ap;qd;ab;ge;qv;qv;	251
+静茹	jing;fy;fl;qv;ap;qd;ab;ge;qv;qv; ru;ck;ck;cr;zo;tr;ld;av;ck;cr;	251
+花粥	hua;cb;cb;ch;za;tp;lv;aw;cb;ch; zhou;gm;gg;gg,mg;rr;nn;bb;xo;gg;gg;	250
+莫迪	mo;cd;cd;cd,ct;zx;tk;lm;aj;cd;cd; di;zy;zy;zy;vq;yw;du;mp;zy;zy;	247
+艾梅柏	ai;cx;cx;ci;zy;tk,xk;lb;aq;cx;cx; mei;mm;mm;mm;wh;dy;ek;st;lm;mm; bai;mb;mb;mb;ws;da;eu;sr;lb;mb;	246
+某乎	mou;gm;gm;gm,mg;vw;td;ze;af;gl;gm; hu;pl;pl;pa;up;hd;tn;tu;pv;pv;	246
+顾曾	gu;iy;ir;ye;rm;mo;xw;db;ir;iy; ceng;bo;bo;ob,bo;fv;ca;ho;ul;eo;er;	246
+光遇	guang;xe;xw;ea,xw;hk;fu;mg;iq;ee;ee; yu;zd;zy;zy;vq;yb;qu;jm;zd;zd;	244
+速激	su;zu;zu;zu;dq;yl;xu;gk;zu;zu; ji;dw;dw;dj,dw;kj;ek;kh;ir;dw;dj;	243
+有赞	you;uo;uo;ou,uo;sl;kb;nv;e,de;ao;ya; zan;nb;nr;bx;bm;ho;qo;tf;xr;xb;	236
+哭悲	ku;kq;kq;kq,qk;ob;rk;dm;kk;kq;xq; bei;fx;fx;xf,fx;pn;lp;rh;dj;fx;fx;	229
+北语	bei;lb;lb;ap,bj;la;lp;av;ux;ab;ba; yu;yk;yk;yw;co;ir;sd;yg;yk;yw;	223
+二看	er;aa;aa;aa;uu;mm;me;fg;aa;aa; kan;uo;uo;ou,uo;os;hu;uq;rh;pm;mp;	223
+数院	shu;mw;mw;wl;lj;fk;ph;ov;mw;mw; yuan;ey;ee;ew;bk;nu;tp;bp;ee;ew;	223
+理塘	li;wl;wl;wl;ag;mg;nd;gj;wl;wl; tang;tk;tk;tt;go;gr;gd;fy;tk;tt;	223
+骨相	gu;go;lo;go,ob,og;cc;bb;fg;me;ao;ya; xiang;mo;mo;mo;ws;du;eq;sh;lm;mm;	222
+隋末	sui;eo;eo;eo;bl;nb;tv;bd;eo;ey; mo;am;an;ad,am;ee;dj;fe;gs;an;an;	222
+花材	hua;cb;cb;ch;za;tp;lv;aw;cb;ch; cai;mc;mc;mc;wu;dh;et;sf;lc;mc;	222
+炖菜	dun;ht;ht;ht;tr;fu;cs;og;ht;ht; cai;cc;cm;cc;zw;td;le;ae;cl;cc;	222
+带教	dai;cj;fj;jb;zy;tb;lr;gk;aj;ja; jiao;lw;lw;wx;gj;jk;qh;ft;uw;xw;	222
+亮司	liang;wj;wj;wj,jb;ii;yn,yu;go;yp;wj;jd; si;vk;vk;gk,ka;ro;sr;ad;ng;vk;kv;	223
+秦奋	qin;ih;fh;hf,fh;uw;qd;ax;dw;ah;ha; fen;dt;dt;dt;xw;kw;mq;dl;dt;dt;	221
+老饭骨	lao;lb;lb;bl,lb;ga;jp;ql;ft;ub;ub; fan;uy;uy;uf;gl;ne;qr;qn;uy;uf; gu;go;lo;go,ob,og;cc;bb;fg;me;ao;ya;	0
+赛睿	sai;bb;br;bb;im;jo;wo;pf;gr;bb; rui;bo;lo;bo,or;ps;yu;gq;hp;am;ma;	219
+墓主	mu;ct;ct;tm,ct;zg;tg;lg;aj;ct;ct; zhu;wt;dw;dw;ig;yg;in;y,yg;wt;wd;	218
+打本	da;fd;fd;fd;jj;qn;ua;rs;fd;fd; ben;ma;aa;aa,ma;wd;dm;ef;sg;aa;aa;	217
+实车	shi;bd;bd;bt;ix;jk;wm;pu;gd;bt; che;au;al;aa;tt;kq;yc;lg;aa;aa;	217
+花活	hua;cb;cb;ch;za;tp;lv;aw;cb;ch; huo;du;dk;du;ko;er;ka;it;dk;du;	217
+陆鸿	lu;ej;ej;ej;bp;nu;tm;bf;ej;ej; hong;dn;dn;dn,nj;kc;em;kx;ia;dn;dn;	209
+陆奇	lu;ej;ej;ej;bp;nu;tm;bf;ej;ej; qi;dk;dk;dk;xj;kr;mz;ds;dk;dk;	208
+御坂	yu;re;ie;xx;hb;hl;wz;tr;re;rx; ban;ty;ty;tf;gl;ge;gr;fr;ty;tf;	199
+微视	wei;rj;iw;xw;hj,hi;hk;wh;tm;rw;rw; shi;pj;pe;ju,uj;hk;iu;fe;py;pj;uj;	199
+酷安	ku;yk;yk;yg;po;mr;yd;sg;yk;yg; an;bn;bn;bn;iy;jv;wb;pv;gn;bn;	198
+魏冉	wei;hg;hg;gw;us;hi;xa;tv;hv;wg; ran;kt;la;aa,kt;og;gb;mg;mf;aa;at;	197
+郑薇	zheng;be;be;eg;fb;tl,xl;ht;ud;ee;ge; wei;cj;cw;cw;zi,zj;tk;lh;at;cw;cw;	194
+蔡澜	cai;cu;cx;cj;zi;tf;lf;aw;cx;cj; lan;dj;dj;dl;kf;ew;kh;iu;dj;dl;	193
+武忠祥	wu;yv;av;vy,yv;dr;mm;fs;ga;vg;vg; zhong;vx;vx;xv;on;lp;dh;kh;vx;vx; xiang;py;py;uy;hp;iq;fg;py;py;uy;	193
+浪姐	lang;dl;dl;dl;kh;ev;ki;iy;dh;dl; jie;nq;nq;nq;yu;vm;bf;ve;nq;nq;	191
+胜七	sheng;ou;ou;ou;la;bm;vl;et;ou;yu; qi;av;av;ag;aa;ju;rq;ag;av;av;	191
+莫蒂	mo;cd;cd;cd,ct;zx;tk;lm;aj;cd;cd; di;cj;cj;cd;zy;tb;lr;au;cj;cd;	188
+玄策	xuan;wy;wy;wy;ip;yi;zi;yx;ws;dd; ce;vu;vn;vc;nh;hb;rm;tg;vn;vn;	187
+莎翁	sha;cu;cu;cu;zi;th;lt;ai;cu;cu; weng;gx;bx;yg;fd;cm;hz;wc;bx;gy;	186
+狄俄涅索斯	di;qh;qh;qh;bt;kf;mc;qt;qh;qh; e;rw;rw;rw;xa;oi;jp;wt;rg;rw; nie;dt;dt;dn,dt;kg;eg;kg;ij;dt;dt; suo;ux;ux;sb,us;si;jf;ni;fp;ux;ux; si;cj;qj;jq,qj;vp;tl;zt;ad;qj;qj;	186
+曼恩	man;oy;oy;oy;vl;ae;or;jl;oy;ry; en;yx;kx;xy;nn;wp;rh;ld;wx;yx;	186
+伯明顿	bo;rb;rb;rb;xs;oa;ju;wr;rb;rb; ming;oo;oo;oo;vl;ab;ov;je;oo;ry; dun;ty;tr;yt;dm;po;fw;gb;tr;ya;	186
+游卡	you;dz;dz;dz;ka;ed;kh;iy;dz;dz; ka;ub;ub;bx,ub;ph;yy;yy;hh;ub;ub;	181
+旷视	kuang;og;og;og;vr;ai;ox;jy;og;rg; shi;pj;pe;ju,uj;hk;iu;fe;py;pj;uj;	178
+胡斐	hu;go;uo;og;sl;jb;cv;de;uo;gy; fei;fw;fw;wf;pj;lk;rv;dj;fx;fw;	176
+倪匡	ni;re;re;re;xk;ou;jp;wv;re;re; kuang;kw;kw;kw;dr;sg;nn;ag;kw;wa;	175
+牛客	niu;pu;pl;pa;bb;hq;qn;rh;pa;pa; ke;bk;bk;bg;io;jr;ws;pt;gk;bg;	174
+乙一	yi;vv;vv;aa,vv,yy;rr;nu;ai;nn;vv;vv; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;aa;	174
+甜薪	tian;ug;qg;ug;sv;hm;az;td;qg;ug; xin;cj;cj;cx;zp;tl;lt;au;cj;cx;	169
+杨慧兰	yang;mp;mp;my;wu;dh;ee;sn;lp;mp; hui;fx;fx;xh,fx;an;qp;ah;dh;fx;fx; lan;bs;bs;bs,qe;fu;tm;ht;uf;es;es;	166
+管虎	guan;vl;vk;vg;nd;hr;rk;tp;vg;vg; hu;hj;hj;hj;pi;yn,yu;zh;ha;aj;ja;	161
+安欣	an;bn;bn;bn;iy;jv;wb;pv;gn;bn; xin;jq;jr;qj,jq;ue;ho;te;rq;jr;jq;	153
+缠师	chan;sl;sl;sl;eg;vg;id;xy;sl;sl; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;ja;	152
+武藤	wu;yv;av;vy,yv;dr;mm;fs;ga;vg;vg; teng;cu;cu;ct;zo;te;lk;ae;cu;ct;	151
+博人	bo;uc;uc;uc,uf;sk;ji;nk;fg;uc;uc; ren;pn;pn;pd;ee;oo;jr;w,ww;pn;pn;	149
+同程	tong;kk;kk;kk;oo;br;md;m,mg;ak;ka; cheng;hw;hw;hi;ua;hg;xn;tk;hw;hw;	147
+五竹	wu;aw;aa;aa;gg;mm;wu;gg;aa;aa; zhu;gg;pl,gg;gg;nn;hh;ru;tt;pd;dp;	136
+双笙	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy;yy; sheng;vu;vu;vu;na;hm;rl;tt;vu;vu;	136
+灵汐	ling;eh;eh;hx,xh;st;sf;bc;vo;vh;ha; xi;dx;dx;dx;kf;ei;kl;iq;dx;dx;	136
+途家	tu;zm;zh;zy;eq;yd;ju;wt;zx;zy; jia;bu;bu;bu;ih;jo;wj;pe;gn;bn;	129
+堆糖	dui;tv;tf;tv;ga;gg;gu;fw;ta;ta; tang;mk;mk;mt;lo;fr;pd;oy;mk;mt;	134
+泰格	tai;iu;fu;fu,uf;uo;qe;ak;dw;au;ua; ge;mk;mk;mg;wo;dr;es;st;lk;mg;	128
+关谷	guan;bt;bt;bt,qd;fx;tk;hm;ud;et;et; gu;bk;bk;bk,kr;fo;cr;hg;ww;bk;bk;	123
+齐绍安	qi;wl;wl;wa,wp;jp;yl;qq;yj;wa;wa; shao;sk;sk;sv;eo;vr;id;xv;sk;sv; an;bn;bn;bn;iy;jv;wb;pv;gn;bn;	123
+韩立	han;uw;uw;uw,wu;sp;js;ng;fj;uw;uw; li;wb;wa;da;bb;yt;il;uu;wa;da;	122
+剑南	jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd;rd; nan;ug;ug,ag;ua,uy;ss;jj;ng;fm;uu;ua;	120
+菊厂	ju;cm;cm;cj,cm;zl;td;lp;aq;cm;cm; chang;ap;ap;ap;rr;mh;xc;dg;ap;ap;	119
+曾哥	ceng;bo;bo;ob,bo;fv;ca;ho;ul;eo;er; ge;kk;dk;kd,kk,dk;jj;mr;zz;sk;ak;ka;	110
+金妮	jin;rb;ra;ra,pa;ed;cc;zj;qq;ra;ra; ni;nb;nb;nn;ya;vp;bv;vn;nb;nn;	110
+庄生	zhuang;gt;gt;gt;rg;ig;xg;yf;gt;gt; sheng;pf;pf;na;eg,aa;hm;ls;tg;pa;pa;	109
+董酒	dong;cv;cv;cv;zg;tg;ld;at;cv;cv; jiu;dy;dy;dy;kd;ew;ky;is;dy;dy;	108
+席慕容	xi;gj;gj;jc,gj;ry;ib;xr;ya;gj;gj; mu;cx;cx;cx,xm;zi;tp;lh;aj;cd;cd; rong;bg;bk;bg;io;jr;wh;pw;gk;bg;	106
+霍奇	huo;yv;yf;yv;ya;mg;tu;fw;ya;ya; qi;dk;dk;dk;xj;kr;mz;ds;dk;dk;	105
+云村	yun;ag,es;es;es,se;up;mi;by;fc;ev;ed; cun;mc;mc;mc;wk;di;ek;sf;lc;mc;	101
+华数	hua;ru;ru;uh;xs;oj;jn;wx;ru;hu; shu;mw;mw;wl;lj;fk;ph;ov;mw;mw;	101
+牧原	mu;nw;nw;nw;bj;hk;qh;tr;nw;nw; yuan;ix;ix;ix;ri;mf;xy;dr;ix;iq;	101
+拉斯	la;fl;fl;fl;jb;qt;ui;ru;fl;fl; si;cj;qj;jq,qj;vp;tl;zt;ad;qj;qj;	86
+
+
