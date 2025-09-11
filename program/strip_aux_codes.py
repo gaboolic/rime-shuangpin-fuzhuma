@@ -94,3 +94,15 @@ if __name__ == "__main__":
         print(yaml_file_path)
         # Update missing encodings in the file
         update_missing_encodings(yaml_file_path, write_file_path, None)
+
+    # 细胞词库
+    cell_path =  os.path.join(root_path, "cn_dicts_cell")
+    for file_name in os.listdir(cell_path):
+        # File paths
+        cn_dicts_path = cell_path
+        yaml_file_path = os.path.join(cn_dicts_path, file_name)
+        write_file_path = os.path.join('cn_dicts_cell', file_name)
+
+        print(yaml_file_path)
+        # Update missing encodings in the file
+        update_missing_encodings(yaml_file_path, write_file_path, None)
