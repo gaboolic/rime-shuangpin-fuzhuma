@@ -22,6 +22,7 @@ schema_list:
   # - schema: moqi_wan_jdh  # 墨奇万象·小鹤+简单鹤
   # - schema: moqi_wan_quanpin_moqi  # 墨奇万象·全拼+墨奇形
   # - schema: moqi_wan_abc_mo # 墨奇万象+智能abc双拼·墨奇
+  - schema: moqi_wan_flypy_yx # 墨奇万象·小鹤+易学码
 
 switcher:
   caption: 〔方案選單〕

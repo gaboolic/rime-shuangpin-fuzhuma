@@ -8,13 +8,15 @@ version: "1.0"
 sort: by_weight
 use_preset_vocabulary: false
 ...
-完读	wan;by;be;by;ik;ju;wp;pf;ge; du;yd;yd;ym;ce,cx;ik;sm;yf;yd;	6
-完读率	wan;by;be;by;ik;ju;wp;pf;ge; du;yd;yd;ym;ce,cx;ik;sm;yf;yd; lv;wu;wu;wu;is;yj;zn;yx;wu;	10
-完播	wan;by;be;by;ik;ju;wp;pf;ge; bo;ft;ft;ff;jw;qw;uq;rt;ft;	31
-完播率	wan;by;be;by;ik;ju;wp;pf;ge; bo;ft;ft;ff;jw;qw;uq;rt;ft; lv;wu;wu;wu;is;yj;zn;yx;wu;	100
-大神码字	da;ar;un;ad;xx;kk;md;dd;an; shen;pu;pu;uu;hp;il;fg;py;pu; ma;um;um;um;tz;mm;mn;dc;um; zi;bz;bz;bz;ia;jd;wh;pb;gz;	3
-橙瓜	cheng;mb;ma;md;wd;dt;ez;sw;ld; gua;in,vd;pn;pd;uh;ho;yg;rc;pn;	33
-飞卢	fei;vd;vd;yd;rh;no,xo;cf;nu;vd; lu;bu;lu;bu;pq;ys;yc;hn;au;	240
-七猫	qi;av;av;ag;aa;ju;rq;ag;av; mao;qt;qt;qm;bw;kw;mq;qt;qt;	30
-橙光	cheng;mb;ma;md;wd;dt;ez;sw;ld; guang;xe;xw;ea,xw;hk;fu;mg;iq;ee;	456
+完读	wan;by;be;by;ik;ju;wp;pf;ge;by; du;yd;yd;ym;ce,cx;ik;sm;yf;yd;ym;	6
+完读率	wan;by;be;by;ik;ju;wp;pf;ge;by; du;yd;yd;ym;ce,cx;ik;sm;yf;yd;ym; lv;wu;wu;wu;is;yj;zn;yx;wu;ud;	10
+完播	wan;by;be;by;ik;ju;wp;pf;ge;by; bo;ft;ft;ff;jw;qw;uq;rt;ft;ff;	31
+完播率	wan;by;be;by;ik;ju;wp;pf;ge;by; bo;ft;ft;ff;jw;qw;uq;rt;ft;ff; lv;wu;wu;wu;is;yj;zn;yx;wu;ud;	100
+大神码字	da;ar;un;ad;xx;kk;md;dd;an;an; shen;pu;pu;uu;hp;il;fg;py;pu;uu; ma;um;um;um;tz;mm;mn;dc;um;um; zi;bz;bz;bz;ia;jd;wh;pb;gz;bz;	3
+橙瓜	cheng;mb;ma;md;wd;dt;ez;sw;ld;md; gua;in,vd;pn;pd;uh;ho;yg;rc;pn;pn;	33
+飞卢	fei;vd;vd;yd;rh;no,xo;cf;nu;vd;vd; lu;bu;lu;bu;pq;ys;yc;hn;au;uh;	240
+七猫	qi;av;av;ag;aa;ju;rq;ag;av;av; mao;qt;qt;qm;bw;kw;mq;qt;qt;qm;	30
+橙光	cheng;mb;ma;md;wd;dt;ez;sw;ld;md; guang;xe;xw;ea,xw;hk;fu;mg;iq;ee;ee;	456
+
+
 

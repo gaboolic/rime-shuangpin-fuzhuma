@@ -1,7 +1,10 @@
 import os
 from collections import OrderedDict
 
-root_path = "D:\\vscode_proj\\rime-frost"
+# 获取当前文件所在目录的父目录（项目根目录）
+root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# 确保路径在Windows环境下正确表示
+root_path = root_path.replace('\\', '/')
 
 # Function to read a file
 def read_file(file_path):
@@ -259,10 +262,15 @@ dict_data['cj'] = get_shoumo_aux_code_map(['./cangjie5.dict.yaml'])
 dict_data['hm'] = get_hu_aux_code_map(['./program/hu_cf.txt'])
 dict_data['wb'] = get_pre2_aux_code_map(['./program/wubi86.dict.yaml'])
 dict_data['hx'] = get_shouxin_aux_code_map(['./program/汉心手心辅助码双码.txt'])
+# 添加易学码辅助码，格式与hx相同
+# 使用相对于项目根目录的路径
+dict_data['yx'] = get_shouxin_aux_code_map(['./program/手心辅易学码9.txt'])
 print(dict_data['moqi']['火'])
 print(dict_data['xh']['火'])
 print(dict_data['zrm']['火'])
 print(dict_data['hx']['火'])
+# 验证易学码加载
+print("易学码 '火':", dict_data['yx'].get('火', '未找到'))
 
 for file_name in file_list:
     # File paths
