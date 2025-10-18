@@ -2357,6 +2357,8 @@ use_preset_vocabulary: false
 栓链	shuan;mw;mw;mq;wa;dg;en;sw;lw; lian;ji;jz;jl;dq;oq;zu;ql;ji;	0
 拴链困敌	shuan;fw;fw;fq;ja;qg;un;rw;fw; lian;ji;jz;jl;dq;oq;zu;ql;ji; kun;km;km;km;nw;wd,xd;re;ls;wl; di;uw;qw;wu,uw;sj;hk,xk;ah;td;qw;	0
 双杯献酒	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; bei;mb;mb;mb;wh;df;ec;sg;lb; xian;uq;uq;qn;sb;jk;nm;fm;uq; jiu;dy;dy;dy;kd;ew;ky;is;dy;	1
+双车献酒	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; che;au;al;aa;tt;kq;yc;lg;aa; xian;uq;uq;qn;sb;jk;nm;fm;uq; jiu;dy;dy;dy;kd;ew;ky;is;dy;	1
+双献酒	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; xian;uq;uq;qn;sb;jk;nm;fm;uq; jiu;dy;dy;dy;kd;ew;ky;is;dy;	1
 双车错	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; che;au;al;aa;tt;kq;yc;lg;aa; cuo;jo;jo;jx;dv;oa;zo;qa;jo;	9
 双将	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; jiang;lc;dc;dc,jc,pc;lk;li;ak;uq;dc;	5
 双敬酒	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; jing;cw;cw;wg,wj;zj;tk;lh;aq;cw; jiu;dy;dy;dy;kd;ew;ky;is;dy;	0
@@ -3229,4 +3231,3 @@ use_preset_vocabulary: false
 卒分两翼	zu;wu;wu;wu,uc;is;yj;zn;yw;wu; fen;bd;bd;bd,db;fi;ch;hp;wv;bd; liang;ar;ad;ad;de;mb;ml;gm;ad; yi;xg;xb;yg,yy;df;sc;zh;nl;xb;	0
 组攻	zu;sq;sq;sq;eu;vm;if;xe;sq; gong;gw;gw;gw,wg;pj;mk;uh;at;gw;	0
 卒五个	zu;wu;wu;wu,uc;is;yj;zn;yw;wu; wu;aw;aa;aa;gg;mm;wu;gg;aa; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra;	0
-

@@ -4111,7 +4111,7 @@ sort: by_weight
 帽	mao;jo;jo;jm;ys;lu;rq;mh;jm;	1115
 锚	mao;jt;jt;jm;dw;ow;zq;qa;jt;	589
 贸	mao;pb;pr;bd,lb;um;ho;bo;qy;pr;	547
-矛	mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	438
+矛	mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	438
 卯	mao;pe;pe;ep,em,me;ub;hl;bm;qt;pe;	304
 茅	mao;cm;cp;cm;zu;th;lt;ac;cm;	275
 貌	mao;ve;ve;ve,vm;uk;bu;mp;ee;pe;	254
@@ -8553,4 +8553,3 @@ sort: by_weight
 柞	zuo;mv;mv;mv;wu;ds;ew;st;lv;	9
 笮	zuo;vv;vv;vv;nu;hs;rw;tt;vv;	4
 岞	zuo;uv;ev;uv;pu;us,xs;vw;mt;sv;	0
-

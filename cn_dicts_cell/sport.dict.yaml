@@ -696,7 +696,7 @@ use_preset_vocabulary: true
 非洲时刻	fei;ls;la;aa;pu;ly;rf;dj;aa; zhou;dv;dv,dl;dv;kp;el;ko;iy;dv; shi;oc;oc;oc;vk;ai;ok;jf;oc; ke;wd;wd;dh;ii;yn;kp;yn;wd;	2
 芬德利	fen;cf;cd;cf;zi;th;lp;aw;cd; de;rx;ix;xx;hn;hp;wh;tf;rx; li;hd;hd;hd,dh;ui;hn;xp;tj;hd;	0
 富恩特斯	fu;bt;bt;bf,bt;iw;jw;wq;pg;gt; en;yx;kx;xy;nn;wp;rh;ld;wx; te;nc;nc;ns;bk;hi;qk;tr;nc; si;cj;qj;jq,qj;vp;tl;zt;ad;qj;	19
-弗雷	fu;gl;vl;aa,gd,vu;rp;ln;tf;xj;va; lei;yt;yt;yt;yw;mw;tq;fl;yt;	483
+弗雷	fu;gl;vl;aa,gd,vu;rp;ln;tf;xj;va; lei;yt;yt;yt;yw;mw;tq;fl;yt;	48
 弗雷堡	fu;gl;vl;aa,gd,vu;rp;ln;tf;xj;va; lei;yt;yt;yt;yw;mw;tq;fl;yt; bao;rt;rt;tb;xg;og;jg;wk;rt;	1
 盖伊德梅尔	gai;ym;ym;my,ym;fa;tt;ga;ug;em; yi;ry,rp;ry;ry;xu;ok;jt;wv;ry; de;rx;ix;xx;hn;hp;wh;tf;rx; mei;mm;mm;mm;wh;dy;ek;st;lm; er;dx;dx;dx,xd;gi;nf;xy;qi;ex;	0
 冈崎慎司	gang;kx;kx;ki;oy;bk;mb;mq;ax; qi;uk;ek;uq;pj;ur;vz;md;sk; shen;xb;xb;xv;nf;pc;hh;nf;xb; si;vk;vk;gk,ka;ro;sr;ad;ng;vk;	34
@@ -3780,7 +3780,7 @@ use_preset_vocabulary: true
 举球员	ju;xf;xl;df,xf;hp;fq;ku;iw;ea; qiu;wq;wq;wq;ah;me;ni;gf;wq; yuan;kb;kr;kb;om;ro;do;km;kr;	0
 空间差	kong;bg;bg;xg,bg;ip;jm;eu;pw;gg; jian;mo;mo;mo,om;ov;la;ao;uj;mo; cha;yg;yg;yg;fp;tm;gu;ud;eg;	0
 扣快球	kou;fk;fk;fk;jo;qr;ud;rk;fk; kuai;xg;xg;xd,xg;nx;pk;hj;nn;xn; qiu;wq;wq;wq;ah;me;ni;gf;wq;	0
-扣拦矛盾	kou;fk;fk;fk;jo;qr;ud;rk;fk; lan;fl;fs;fl;ju;qm;ut;ru;fs; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp; dun;io;po;po;us;hu;xq;rf;pm;	0
+扣拦矛盾	kou;fk;fk;fk;jo;qr;ud;rk;fk; lan;fl;fs;fl;ju;qm;ut;ru;fs; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp; dun;io;po;po;us;hu;xq;rf;pm;	0
 扣杀得分	kou;fk;fk;fk;jo;qr;ud;rk;fk; sha;xm;xm;mi,im;yf;kd,xd;be;qs;xx; de;rc;ic;xc;hk;hi;wk;tj;rc; fen;bd;bd;bd,db;fi;ch;hp;wv;bd;	0
 扣手	kou;fk;fk;fk;jo;qr;ud;rk;fk; shou;pf;pl;pa,ub;oo;qq;us;rt;pv;	18
 扣探头球	kou;fk;fk;fk;jo;qr;ud;rk;fk; tan;fm;fm;fm,fu;jw;qd;ue;rp;fl; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; qiu;wq;wq;wq;ah;me;ni;gf;wq;	0
@@ -4096,7 +4096,7 @@ use_preset_vocabulary: true
 刺彪	ci;ud;ad;dc;di;dn;ep;gm;ad; biao;hp;hp;hp;pu;yh;ze;ha;hp;	0
 赐枪	ci;bw;kw;by;mi;bh;oe;mj;bw; qiang;mv;mv;mc;wt;du;ez;sw;lv;	0
 大成拳谱	da;ar;un;ad;xx;kk;md;dd;an; cheng;wv;wv;gg,wg;rh;is;na;dn;vg; quan;ju;ju;uf,ju;fo;fq;hu;ud;du; pu;yo;yo;yp;cv;ia;so;yu;yo;	0
-大矛为铍	da;ar;un;ad;xx;kk;md;dd;an; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp; wei;ld;dd;dd;uu;ii;ii;o,yl;dd; pi;jp;jy;jp;dl;oe;zr;qh;jy;	0
+大矛为铍	da;ar;un;ad;xx;kk;md;dd;an; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp; wei;ld;dd;dd;uu;ii;ii;o,yl;dd; pi;jp;jy;jp;dl;oe;zr;qh;jy;	0
 大钺	da;ar;un;ad;xx;kk;md;dd;an; yue;jl;jv;jy;dh;ov;zn;qa;jg;	10
 戴爱莲	dai;gg;ub;gg,gy;sf,ha;jc;nh;fa;bg; ai;vy;py;vy;hl;be;yr;ep;py; lian;ci;cz;cl;zq;tq;lu;al;ci;	0
 戴龙邦	dai;gg;ub;gg,gy;sf,ha;jc;nh;fa;bg; long;yp;ud;ad;sh;ip;tl;dx;ab; bang;fe;fe;ef,fe;ub;ql;at;dt;ae;	0
@@ -4113,7 +4113,7 @@ use_preset_vocabulary: true
 刀类	dao;vp;vp;gp,pg;ii;sh;pd;vn;vp; lei;md;md;md;lx;fk;pm;od;md;	8
 地犬术	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; quan;dd;dd;dd,ad;bb;ik;mq;dg;dd; shu;md;md;md;wh;id,xd;ei;sy;ld;	0
 点棍	dian;vh;lh;hv;pn;yf,xf;yc;hk;ve; gun;mb;mb;mk;wa;dp;ev;sj;lb;	0
-电矛	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	1
+电矛	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	1
 掉刀	diao;fu;fu;fv;js;qj;un;rh;fu; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp;	6
 雕斧	diao;kv;kf;vv;oa,ua;bg;mu;mf;va; fu;fj;bj;fj,jf;fp;cl;ht;wq;bj;	0
 跌枪	die;zf;zu;zu;ge;ro;ph;kh;zu; qiang;mv;mv;mc;wt;du;ez;sw;lv;	0
@@ -4146,7 +4146,7 @@ use_preset_vocabulary: true
 工用枪	gong;aa;aa;aa;pp;mm;ug;a,aa;aa; yong;kf,ol;kl;kf;lp;bq;ty;et;pa; qiang;mv;mv;mc;wt;du;ez;sw;lv;	0
 钩镶	gou;jg;js;jg;dp;oi,xi;zk;qq;jv; xiang;jf;jy;jx,jy;dh;ov;zf;qy;jh;	5
 钩釨	gou;jg;js;jg;dp;oi,xi;zk;qq;jv; zi;jz;;jz;;cd;zh;qb;;	0
-铦矛	gua;ju;;ju;;or;za;qt;; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
+铦矛	gua;ju;;ju;;or;za;qt;; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
 关斧	guan;bt;bt;bt,qd;fx;tk;hm;ud;et; fu;fj;bj;fj,jf;fp;cl;ht;wq;bj;	0
 冠拳	guan;bc;bc;bc;ik;bi;wk;pf;gc; quan;ju;ju;uf,ju;fo;fq;hu;ud;du;	0
 轨迹拳	gui;ij;ij;ij;tr;kn;yk;lv;ij; ji;zb;zd;zy;iq;yc;zu;yo;zy; quan;ju;ju;uf,ju;fo;fq;hu;ud;du;	0
@@ -4192,7 +4192,7 @@ use_preset_vocabulary: true
 姬际可	ji;ni;nl,ni;ni;yr;vl;bq;va;na; ji;eu;ex;eu;bi;nf;tf;bf;ex; ke;dk;dk;dk;jj;mr;zk;sk;av;	7
 技击桩	ji;fv;fy;fv;jl;qe;uc;rf;fy; ji;fk;ak;aa,eu,fk;gp;qu;um;fm;aa; zhuang;mt;mt;mv;wg;dg;eg;sy;lt;	4
 姬龙峰	ji;ni;nl,ni;ni;yr;vl;bq;va;na; long;yp;ud;ad;sh;ip;tl;dx;ab; feng;uf;ef;uf;pa;uj;va;mt;sf;	2
-激矛	ji;dw;dw;dj,dw;kj;ek;kh;ir;dw; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
+激矛	ji;dw;dw;dj,dw;kj;ek;kh;ir;dw; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
 肌肉韧带	ji;oj;oj;oj;li;bn;vo;em;oj; rou;nr;nr;ad,kr;oe;oo;mj;mw;nr; ren;wr;wr;wr;ui;qi;gi;fn;wr; dai;cj;fj;jb;zy;tb;lr;gk;aj;	23
 鸡形	ji;yn;yn;ny,yn;lc;em;rx;cq;yn; xing;kp;kp;pk;uu;mh;fe;ga;kp;	9
 鸡形拳	ji;yn;yn;ny,yn;lc;em;rx;cq;yn; xing;kp;kp;pk;uu;mh;fe;ga;kp; quan;ju;ju;uf,ju;fo;fq;hu;ud;du;	0
@@ -4225,8 +4225,8 @@ use_preset_vocabulary: true
 里合腿	li;tt;la;aa,tt;vg;wg;dl;jf;aa; he;rk;rk;rk;eo;or;jd;wg;rk; tui;og;oz;ot;lq;bv;vu;ev;oh;	7
 梨花枪夹白猿棍	li;hm;hm;ml;uw;hd,xd;xe;tj;hl; hua;cb;cb;ch;za;tp;lv;aw;cb; qiang;mv;mv;mc;wt;du;ez;sw;lv; jia;ar;an;fb,ar;dx;kt;hh;gu;an; bai;po;po;pa,po;ss;ha;ub;rr;po; yuan;qy;qy;qy;bh;kv;mt;qt;qh; gun;mb;mb;mk;wa;dp;ev;sj;lb;	0
 李洛能	li;mz;mz;mz;wa;dd;eh;sb;lz; luo;dk;dk;dg;ko;er;ks;it;dk; neng;sb;sb;sb;pa;ip;kv;ce;vb;	15
-利矛	li;hd;hd;hd,dh;ui;hn;xp;tj;hd; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	4
-立矛	li;wb;wa;da;bb;yt;il;uu;wa; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
+利矛	li;hd;hd;hd,dh;ui;hn;xp;tj;hd; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	4
+立矛	li;wb;wa;da;bb;yt;il;uu;wa; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
 立拳	li;wb;wa;da;bb;yt;il;uu;wa; quan;ju;ju;uf,ju;fo;fq;hu;ud;du;	9
 傈僳族弯尖刀	li;rm;rm;rl;xw;od;je;ws;rl; su;rm;rm;rs;xl;od,xd;jp;ws;rm; zu;fu;fu;fu;fx;yk;lo;yt;fd; wan;wg;wg;gy,yg;ir;yn;zb;yo;wg; jian;xd;xd;xd;ix;fk;ym;id;ad; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp;	0
 李贤康	li;mz;mz;mz;wa;dd;eh;sb;lz; xian;lb;lr;by;pm;lo;po;jc;ar; kang;gl;gn;gl;ro;ie;xk;yv;gl;	0
@@ -4236,7 +4236,7 @@ use_preset_vocabulary: true
 李尊思	li;mz;mz;mz;wa;dd;eh;sb;lz; zun;bc;bc;cq,qc;fk;ti;hk;us;ec; si;tx;tx;tx,xt;wn;wp;qh;ln;tx;	0
 链夹	lian;ji;jz;jl;dq;oq;zu;ql;ji; jia;ar;an;fb,ar;dx;kt;hh;gu;an;	0
 练子锤	lian;sd;sd;sd,sj;ei;vc,vd;iy;xa;sd; zi;la;va;aa,vh;aa;nd;hi;bb;va; chui;jt;ji;ji;dg;om;zg;qt;ji;	0
-良矛	liang;dg;dg;dg;hh;iv;ii;yv;dh; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
+良矛	liang;dg;dg;dg;hh;iv;ii;yv;dh; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
 两头施刃	liang;ar;ad;ad;de;mb;ml;gm;ad; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; shi;fy;fy;fy;fr;yd;le;yt;fy; ren;dd;dd;dd;ii;si;pi;vy;dd;	0
 亮掌	liang;wj;wj;wj,jb;ii;yn,yu;go;yp;wj; zhang;xu;xu;uk,xu,du;ho;fq;su;ip;eu;	3
 撩裆	liao;fx;fx;fl,fx;ji;qf;uy;rd;fx; dang;pe;pe;yd;hs;lm;tb;pu;pd;	1
@@ -4261,11 +4261,11 @@ use_preset_vocabulary: true
 绿沉	lv;su;su;sl;eo;ve;ik;xv;su; chen;dj;dj;dj,dr;ki;en,eu,xu;ko;ip;dj;	7
 马步冲拳	ma;va;va;aa,vh;zz;nm;nm;cn;va; bu;vu;vp;vx;ru;yh;ss;hi;vp; chong;dv;dv;dv;fp;il;wg;uk;dv; quan;ju;ju;uf,ju;fo;fq;hu;ud;du;	1
 马形	ma;va;va;aa,vh;zz;nm;nm;cn;va; xing;kp;kp;pk;uu;mh;fe;ga;kp;	3
-矛端生火	mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp; duan;le;le;le;bb;yb;il;um;le; sheng;pf;pf;na;eg,aa;hm;ls;tg;pa; huo;br,rb;dr;dd;tt;ff;ch;oo;dr;	0
-矛盾桩	mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp; dun;io;po;po;us;hu;xq;rf;pm; zhuang;mt;mt;mv;wg;dg;eg;sy;lt;	3
-矛生角	mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp; sheng;pf;pf;na;eg,aa;hm;ls;tg;pa; jue;dy;dy;dy;gi,gp;ng,nq;xt;qe;ey;	0
+矛端生火	mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp; duan;le;le;le;bb;yb;il;um;le; sheng;pf;pf;na;eg,aa;hm;ls;tg;pa; huo;br,rb;dr;dd;tt;ff;ch;oo;dr;	0
+矛盾桩	mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp; dun;io;po;po;us;hu;xq;rf;pm; zhuang;mt;mt;mv;wg;dg;eg;sy;lt;	3
+矛生角	mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp; sheng;pf;pf;na;eg,aa;hm;ls;tg;pa; jue;dy;dy;dy;gi,gp;ng,nq;xt;qe;ey;	0
 猫行拳	mao;qt;qt;qm;bw;kw;mq;qt;qt; xing;rd;ii;xd,xi;hs;hn;px;tf;rd; quan;ju;ju;uf,ju;fo;fq;hu;ud;du;	0
-矛叶舞矛	mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp; ye;ku;ku;ku;os;rj;dn;kf;ku; wu;pf;pl;rf,pa,xf;ep;oq;ev;rl;pa; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
+矛叶舞矛	mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp; ye;ku;ku;ku;os;rj;dn;kf;ku; wu;pf;pl;rf,pa,xf;ep;oq;ev;rl;pa; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
 梅花刀	mei;mm;mm;mm;wh;dy;ek;st;lm; hua;cb;cb;ch;za;tp;lv;aw;cb; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp;	0
 眉尖刀	mei;uo;vo;om,uo;qs;au;cq;nh;vm; jian;xd;xd;xd;ix;fk;ym;id;ad; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp;	1
 弥陀拳	mi;gx;gx;ge;ri;nf;by;xq;gx; tuo;eb;eb;et;ba;np;tv;bp;eb; quan;ju;ju;uf,ju;fo;fq;hu;ud;du;	0
@@ -4302,7 +4302,7 @@ use_preset_vocabulary: true
 戚扬	qi;wx;wx,ad;gx,wx;rh;if;ny;dh;xg; yang;fp;fp;fy;ju;qh;ue;rn;fp;	0
 鏚钺	qi;jx;;jq;;cf;zy;qd;; yue;jl;jv;jy;dh;ov;zn;qa;jg;	0
 前后拒	qian;bd;bd;bd,qd;fi;tn;hp;ue;ed; hou;ik;pk;pk;uo;hr;xd;rg;pk; ju;fj;fj;fj;jr;qs;un;ra;fj;	0
-前后两矛	qian;bd;bd;bd,qd;fi;tn;hp;ue;ed; hou;ik;pk;pk;uo;hr;xd;rg;pk; liang;ar;ad;ad;de;mb;ml;gm;ad; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
+前后两矛	qian;bd;bd;bd,qd;fi;tn;hp;ue;ed; hou;ik;pk;pk;uo;hr;xd;rg;pk; liang;ar;ad;ad;de;mb;ml;gm;ad; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
 千斤斧	qian;pu;pu;pa;;hj;lq;tf;pu; jin;il,iT;pl;pa;up;hl;tj;rt;pa; fu;fj;bj;fj,jf;fp;cl;ht;wq;bj;	0
 乾坤日月刀	qian;uv;uq;uq,qu;sr;jn;na;fj;uy; kun;tu;tu;tu;gp;gl;gg;fj;tu; ri;ka;ka;aa,or,ri;vv;aa;or;jj;wa; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp;	0
 钎钺	qian;jq;jq;jq;ds;oj;zl;qt;jq; yue;jl;jv;jy;dh;ov;zn;qa;jg;	0
@@ -4312,7 +4312,7 @@ use_preset_vocabulary: true
 青峰剑	qing;fo;fo;of,fo;al;qb;av;ge;ao; feng;uf;ef;uf;pa;uj;va;mt;sf; jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd;	0
 青龙剑	qing;fo;fo;of,fo;al;qb;av;ge;ao; long;yp;ud;ad;sh;ip;tl;dx;ab; jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd;	12
 青萍剑	qing;fo;fo;of,fo;al;qb;av;ge;ao; ping;cp;cp;cp;zs;tj;lh;ai;cu; jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd;	1
-酋矛	qiu;by;by;by,qa;fd;tm;hy;us;ey; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	3
+酋矛	qiu;by;by;by,qa;fd;tm;hy;us;ey; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	3
 曲壁中设	qu;kc;la;aa,oa;vp,pd;tw,xw;yq;ma;aa; bi;ut;ut;tb,tx;qg;sg;cg;nk;ut; zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; she;yu;yy;yu;cl;ie;sr;ym;yy;	0
 屈刀	qu;ui;ui;ui;qp;su;cm;nb;ui; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp;	1
 圈捶	quan;kv;kv;kj;nt;wu;rz;lu;wv; chui;ft;fi;fi;jg;qm;ug;rt;fi;	0
@@ -4346,7 +4346,7 @@ use_preset_vocabulary: true
 蛇形拳	she;ib;ib;it;fa;lp;cv;jp;ib; xing;kp;kp;pk;uu;mh;fe;ga;kp; quan;ju;ju;uf,ju;fo;fq;hu;ud;du;	5
 身到步到	shen;zc;pp;pp;uu;hh;zs;tm;pp; dao;gd;ad;dv;di;mn;yp;gc;vd; bu;vu;vp;vx;ru;yh;ss;hi;vp; dao;gd;ad;dv;di;mn;yp;gc;vd;	0
 身法动作	shen;zc;pp;pp;uu;hh;zs;tm;pp; fa;dq;ds;dq;kp;ei;kk;if;dv; dong;yl;el;ly,yl;uu;ms;bs;fc;el; zuo;rv;rv;rv;xu;os;jw;wt;rv;	0
-神矛一指	shen;pu;pu;uu;hp;il;fg;py;pu; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; zhi;fo;fo;fv;jv;qa;uo;rx;fo;	0
+神矛一指	shen;pu;pu;uu;hp;il;fg;py;pu; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; zhi;fo;fo;fv;jv;qa;uo;rx;fo;	0
 绳镖	sheng;sd;sd;sd,sm;ee;vu;id;xk;sd; biao;ju;jx;jp;di;of;zf;qs;jx;	11
 剩技	sheng;qd;qd;di;si;hn;xp;tu;qd; ji;fv;fy;fv;jl;qe;uc;rf;fy;	0
 十大形	shi;al;al;aa;ss;jj;ns;fg;aa; da;ar;un;ad;xx;kk;md;dd;an; xing;kp;kp;pk;uu;mh;fe;ga;kp;	0
@@ -4365,7 +4365,7 @@ use_preset_vocabulary: true
 手钺	shou;pf;pl;pa,ub;oo;qq;us;rt;pv; yue;jl;jv;jy;dh;ov;zn;qa;jg;	0
 授钺四七	shou;fy;fy;fu;jl;qe;ur;re;fy; yue;jl;jv;jy;dh;ov;zn;qa;jg; si;ke;ke;aa,ke;nk;wc;ys;lh;we; qi;av;av;ag;aa;ju;rq;ag;av;	0
 受征	shou;vy;py;vy,yb;hl;be;yr;ep;py; zheng;rv;iv;xv;hr;hm;ws;tg;rv;	0
-殳矛	shu;jy;jy;jy;il;he,xe;rs;mc;jy; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
+殳矛	shu;jy;jy;jy;il;he,xe;rs;mc;jy; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
 拴子	shuan;fw;fw;fq;ja;qg;un;rw;fw; zi;la;va;aa,vh;aa;nd;hi;bb;va;	2
 双匕首进枪	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; bi;pv;pv;pg;aa;uh;vb;xt;pv; shou;bz;bz;qz;fs;tu;ho;ut;em; jin;zj;zj;zj;uq;yt;qu;fj;zj; qiang;mv;mv;mc;wt;du;ez;sw;lv;	0
 双刀进枪	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp; jin;zj;zj;zj;uq;yt;qu;fj;zj; qiang;mv;mv;mc;wt;du;ez;sw;lv;	0
@@ -4399,7 +4399,7 @@ use_preset_vocabulary: true
 天钺	tian;ad;ad;ad;ue;mk;fm;gd;ad; yue;jl;jv;jy;dh;ov;zn;qa;jg;	2
 跳蹬腿	tiao;zv;zd;zv;gh;ro;pw;kh;zv; deng;zb;za;zd;gd;rt;pz;kh;zd; tui;og;oz;ot;lq;bv;vu;ev;oh;	0
 铁齿	tie;jf;ju;ju;de;oo;zh;qr;ju; chi;vr;vk;vk;rp;yo;lc;hw;va;	8
-铁矛	tie;jf;ju;ju;de;oo;zh;qr;ju; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	4
+铁矛	tie;jf;ju;ju;de;oo;zh;qr;ju; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	4
 铁枪	tie;jf;ju;ju;de;oo;zh;qr;ju; qiang;mv;mv;mc;wt;du;ez;sw;lv;	30
 铁鍦	tie;jf;ju;ju;de;oo;zh;qr;ju; shi;jy;;ju;;cd;ze;qy;;	0
 庭中看舞	ting;gw;gz;gt;rq;ig;xu;yt;gr; zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; kan;uo;uo;ou,uo;os;hu;uq;rh;pm; wu;pf;pl;rf,pa,xf;ep;oq;ev;rl;pa;	0
@@ -4474,7 +4474,7 @@ use_preset_vocabulary: true
 鹞形	yao;vn;pn;nf;hc;bm;yx;er;pn; xing;kp;kp;pk;uu;mh;fe;ga;kp;	1
 姚宗勋	yao;nv;nd;nv;yh;vo;bw;vi;nv; zong;bu;bx;bu;ii;jf;wf;pf;gx; xun;kl;kl;ly;ou;rs;ds;km;kl;	11
 仪锽	yi;ry;ry;ry;xy,xh;ok,xk;jb;wy;ry; huang;jw;jw;jh;da;og;zn;qr;jw;	1
-夷矛	yi;ar;an;ad,dg;de;kn,xn;mb;gx;an; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	2
+夷矛	yi;ar;an;ad,dg;de;kn,xn;mb;gx;an; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	2
 意拳	yi;lx;lx;xy,lx;bn,cn;yp;xh;uj;lx; quan;ju;ju;uf,ju;fo;fq;hu;ud;du;	38
 意拳正轨	yi;lx;lx;xy,lx;bn,cn;yp;xh;uj;lx; quan;ju;ju;uf,ju;fo;fq;hu;ud;du; zheng;av;av;av;dr;mm;fs;gh;av; gui;ij;ij;ij;tr;kn;yk;lv;ij;	0
 一丈柯	yi;aa;aa;aa;dd;mm;fi;g,gg;aa; zhang;an;an;ad;dh,sh,dy;jk;fb;dy;an; ke;mk;mk;mk;wj;dr;ez;ss;lk;	0
@@ -4489,7 +4489,7 @@ use_preset_vocabulary: true
 鹰拳	ying;gn;gn;gn,nv;rc;im;xx;yw;gn; quan;ju;ju;uf,ju;fo;fq;hu;ud;du;	0
 鹰形	ying;gn;gn;gn,nv;rc;im;xx;yw;gn; xing;kp;kp;pk;uu;mh;fe;ga;kp;	8
 鹰捉	ying;gn;gn;gn,nv;rc;im;xx;yw;gn; zhuo;fz;fr;fz;jg;qo;up;rk;fr;	8
-用矛	yong;kf,ol;kl;kf;lp;bq;ty;et;pa; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	18
+用矛	yong;kf,ol;kl;kf;lp;bq;ty;et;pa; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	18
 用钺	yong;kf,ol;kl;kf;lp;bq;ty;et;pa; yue;jl;jv;jy;dh;ov;zn;qa;jg;	5
 右秉	you;uk;uk;ku,uk;so;kr;nd;dk;ak; bing;qr;pn;ha,pd;sf;hl,xl;xb;tg;pn;	12
 御持	yu;re;ie;xx;hb;hl;wz;tr;re; chi;fc;fc;fs;jk;qi;uk;rf;fc;	2
@@ -4506,7 +4506,7 @@ use_preset_vocabulary: true
 匀顶	yun;bd;bd;gd;uf;pm;nw;qu;pd; ding;dy;dr;dy,yd;jm;mo;aw;sd;dr;	0
 砸拳	za;uj;uj;uz;tr;mb;mr;da;uj; quan;ju;ju;uf,ju;fo;fq;hu;ud;du;	33
 栽捶	zai;gm;um;gm,mg;sw,ha;jd;ne;fa;lg; chui;ft;fi;fi;jg;qm;ug;rt;fi;	1
-造矛	zao;zk;zk;zg;bq;yr;qu;tf;zk; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	2
+造矛	zao;zk;zk;zg;bq;yr;qu;tf;zk; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	2
 斋斧	zhai;we;we;we;jb;yl;vl;yd;we; fu;fj;bj;fj,jf;fp;cl;ht;wq;bj;	0
 斩溪桥	zhan;ij;ij;ij,ji;tp;kl;yt;lr;ij; xi;dd;dd;dx;kx;ek;km;ie;dd; qiao;ml;ml;mq;wp;dl;ep;st;lq;	0
 杖斧	zhang;mv;mv;mv;wh;dk;eb;sd;lv; fu;fj;bj;fj,jf;fp;cl;ht;wq;bj;	0
@@ -4525,7 +4525,7 @@ use_preset_vocabulary: true
 整套动作	zheng;uv;uv;vi,vw;dr,ur;dm;xs;gk;uv; tao;dg;ds;di;xh;ki;mp;dd;dv; dong;yl;el;ly,yl;uu;ms;bs;fc;el; zuo;rv;rv;rv;xu;os;jw;wt;rv;	49
 正踢腿	zheng;av;av;av;dr;mm;fs;gh;av; ti;zw;zw;zy;gi;rh;pe;kh;zw; tui;og;oz;ot;lq;bv;vu;ev;oh;	8
 征钺	zheng;rv;iv;xv;hr;hm;ws;tg;rv; yue;jl;jv;jy;dh;ov;zn;qa;jg;	0
-指我矛	zhi;fo;fo;fv;jv;qa;uo;rx;fo; wo;ga;pd;pd,pp;uh,ud;hi,zz;tp;q,tr;pg; mao;yp;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
+指我矛	zhi;fo;fo;fv;jv;qa;uo;rx;fo; wo;ga;pd;pd,pp;uh,ud;hi,zz;tp;q,tr;pg; mao;yp,sc;sp;sp,ap,vp;pu;nh;it;cb;vp;	0
 执铱	zhi;fw;fw;fw;jh;qi;ui;rv;fw; yi;jy;jy;jy;dk;ov,xh;zt;qy;jh;	0
 执钺	zhi;fw;fw;fw;jh;qi;ui;rv;fw; yue;jl;jv;jy;dh;ov;zn;qa;jg;	12
 重英	zhong;ql;pa;pa,ql;sg;hg;ld;tg;pa; ying;cy;cy;cy;zx;tk;lm;am;cy;	0
@@ -13273,4 +13273,3 @@ use_preset_vocabulary: true
 羽人	yu;xx;xx;xx;dd;sm;zv;nn;xx; ren;pn;pn;pd;ee;oo;jr;w,ww;pn;	62
 中杆	zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; gan;mg;mg;mg;ws;dj;ee;sf;lg;	365
 中羽	zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; yu;xx;xx;xx;dd;sm;zv;nn;xx;	184
-
