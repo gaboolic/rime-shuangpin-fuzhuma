@@ -508,7 +508,8 @@ A股	agu	2
 便宜	py	2
 拼音	py	1
 简单	jd	3
-决定	jd	2
+绝对	jd	2
+决定	jd	1
 所以	sy	3
 #所有	sy	2
 我们	wm	3
@@ -641,9 +642,9 @@ A股	agu	2
 西欧	xo
 奇怪	qg	3
 全国	qg	2
-认领	rl	3
-日历	rl	2
-人类	rl	2
+认领	rl	2
+日历	rl	1
+人类	rl	3
 下午	xw	2
 ## 自然	
 挨打	ad	3
