@@ -11601,7 +11601,7 @@ use_preset_vocabulary: false
 白钢护目镜	bai;po;po;pa,po;ss;ha;ub;rr;po; gang;jx;jx;jg;dy;ok;zb;qm;jx; hu;fh;fh;fh;jq;qs;um;ry;fh; mu;ke;ka;aa,om,mu;ss;bu;qm;hh;we; jing;je;je;jj;dk;ou;zp;qu;je;	0
 白钢护腰带	bai;po;po;pa,po;ss;ha;ub;rr;po; gang;jx;jx;jg;dy;ok;zb;qm;jx; hu;fh;fh;fh;jq;qs;um;ry;fh; yao;on;on;oy;ly;bv;vb;es;on; dai;cj;fj;jb;zy;tb;lr;gk;aj;	0
 白钢环	bai;po;po;pa,po;ss;ha;ub;rr;po; gang;jx;jx;jg;dy;ok;zb;qm;jx; huan;wb;wb;wb;ah;mf;nc;gg;wb;	0
-白钢煎锅	bai;po;po;pa,po;ss;ha;ub;rr;po; gang;jx;jx;jg;dy;ok;zb;qm;jx; jian;bh;bh;hq;fn;tf;hc;ue;ee; guo;jn;jn;jg,jn;de;ob;zj;qk;jn;	0
+白钢煎锅	bai;po;po;pa,po;ss;ha;ub;rr;po; gang;jx;jx;jg;dy;ok;zb;qm;jx; jian;bh,hb;bh;hq;fn;tf;hc;ue;ee; guo;jn;jn;jg,jn;de;ob;zj;qk;jn;	0
 白钢角盔	bai;po;po;pa,po;ss;ha;ub;rr;po; gang;jx;jx;jg;dy;ok;zb;qm;jx; jiao;dy;dy;dy;gi,gp;ng,nq;xt;qe;ey; kui;um;um;mh;sa;kt;na;do;hm;	0
 白钢巨斧	bai;po;po;pa,po;ss;ha;ub;rr;po; gang;jx;jx;jg;dy;ok;zb;qm;jx; ju;kk;ka;kk,aa;dr;ss;nn;an;ka; fu;fj;bj;fj,jf;fp;cl;ht;wq;bj;	0
 白钢开面盔	bai;po;po;pa,po;ss;ha;ub;rr;po; gang;jx;jx;jg;dy;ok;zb;qm;jx; kai;ac;ac;ac;up;mt;fl;ga;aa; mian;ao;aa;aa;dd;ml;bm;dm;aa; kui;um;um;mh;sa;kt;na;do;hm;	0
@@ -11791,7 +11791,7 @@ use_preset_vocabulary: false
 爆弹吊椅	bao;hu;hu;hb;to;fe;ck;oj;hu; dan;gu;gl;gd;rs;nj;bn;xu;gd; diao;kj;kj;kj;oy;rb;dr;km;kj; yi;mk;mk;mq;wj;dr;ez;sd;lk;	0
 爆弹怪	bao;hu;hu;hb;to;fe;ck;oj;hu; dan;gu;gl;gd;rs;nj;bn;xu;gd; guai;xt;xt;xu;ng;pg;hg;nc;xt;	0
 爆弹怪的灰	bao;hu;hu;hb;to;fe;ck;oj;hu; dan;gu;gl;gd;rs;nj;bn;xu;gd; guai;xt;xt;xu;ng;pg;hg;nc;xt; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu; hui;uh;uh;hu,uh;st;kf;nc;do;ah;	0
-爆弹煎锅	bao;hu;hu;hb;to;fe;ck;oj;hu; dan;gu;gl;gd;rs;nj;bn;xu;gd; jian;bh;bh;hq;fn;tf;hc;ue;ee; guo;jn;jn;jg,jn;de;ob;zj;qk;jn;	0
+爆弹煎锅	bao;hu;hu;hb;to;fe;ck;oj;hu; dan;gu;gl;gd;rs;nj;bn;xu;gd; jian;bh,hb;bh;hq;fn;tf;hc;ue;ee; guo;jn;jn;jg,jn;de;ob;zj;qk;jn;	0
 爆弹仔	bao;hu;hu;hb;to;fe;ck;oj;hu; dan;gu;gl;gd;rs;nj;bn;xu;gd; zai;rz;rz;rz;xa;od;jh;wb;rz;	0
 爆弹之母	bao;hu;hu;hb;to;fe;ck;oj;hu; dan;gu;gl;gd;rs;nj;bn;xu;gd; zhi;dn;dn;dd;hh;io;ri;pp;dn; mu;md;vd;ad,vd;rh;wi;km;xg;vd;	0
 暴风陆门	bao;ou;ou;ou;vo;ae;ok;ja;ou; feng;jx;jx;ji;iy;hk;ob;mq;jx; lu;ej;ej;ej;bp;nu;tm;bf;ej; men;dv;dv;dg;oo;ls;am;uy;dv;	0
@@ -12552,7 +12552,7 @@ use_preset_vocabulary: false
 渡渡鸟雏	du;dy;dy;dd;kl;ee;kr;iy;dy; du;dy;dy;dd;kl;ee;kr;iy;dy; niao;na;wd,pa;na,pa;cc;pm;xn;qy;pa; chu;dv;df;iv,vi,vx;ga;ng;xu;qv;ea;	0
 渡渡鸟雏肉	du;dy;dy;dd;kl;ee;kr;iy;dy; du;dy;dy;dd;kl;ee;kr;iy;dy; niao;na;wd,pa;na,pa;cc;pm;xn;qy;pa; chu;dv;df;iv,vi,vx;ga;ng;xu;qv;ea; rou;nr;nr;ad,kr;oe;oo;mj;mw;nr;	0
 渡渡鸟蛋	du;dy;dy;dd;kl;ee;kr;iy;dy; du;dy;dy;dd;kl;ee;kr;iy;dy; niao;na;wd,pa;na,pa;cc;pm;xn;qy;pa; dan;zi;vi;ip,pi;rf;ni;tc;nh;vi;	0
-渡渡鸟煎蛋卷	du;dy;dy;dd;kl;ee;kr;iy;dy; du;dy;dy;dd;kl;ee;kr;iy;dy; niao;na;wd,pa;na,pa;cc;pm;xn;qy;pa; jian;bh;bh;hq;fn;tf;hc;ue;ee; dan;zi;vi;ip,pi;rf;ni;tc;nh;vi; juan;jv;jv;ef,je;ft;fu;hz;ud;dv;	0
+渡渡鸟煎蛋卷	du;dy;dy;dd;kl;ee;kr;iy;dy; du;dy;dy;dd;kl;ee;kr;iy;dy; niao;na;wd,pa;na,pa;cc;pm;xn;qy;pa; jian;bh,hb;bh;hq;fn;tf;hc;ue;ee; dan;zi;vi;ip,pi;rf;ni;tc;nh;vi; juan;jv;jv;ef,je;ft;fu;hz;ud;dv;	0
 渡渡鸟烤肉	du;dy;dy;dd;kl;ee;kr;iy;dy; du;dy;dy;dd;kl;ee;kr;iy;dy; niao;na;wd,pa;na,pa;cc;pm;xn;qy;pa; kao;hk;hv;hk;tr;fs;ca;of;hk; rou;nr;nr;ad,kr;oe;oo;mj;mw;nr;	0
 渡渡鸟填料	du;dy;dy;dd;kl;ee;kr;iy;dy; du;dy;dy;dd;kl;ee;kr;iy;dy; niao;na;wd,pa;na,pa;cc;pm;xn;qy;pa; tian;tb;tb;tv;gf;gc;gh;ff;tb; liao;md;mu;md;ls;fj;pj;ou;mu;	0
 渡渡鸟胸肉	du;dy;dy;dd;kl;ee;kr;iy;dy; du;dy;dy;dd;kl;ee;kr;iy;dy; niao;na;wd,pa;na,pa;cc;pm;xn;qy;pa; xiong;ox;ok;ox;lp;bk;vm;eq;ox; rou;nr;nr;ad,kr;oe;oo;mj;mw;nr;	0
@@ -13464,7 +13464,7 @@ use_preset_vocabulary: false
 黑铁护腰带	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; tie;jf;ju;ju;de;oo;zh;qr;ju; hu;fh;fh;fh;jq;qs;um;ry;fh; yao;on;on;oy;ly;bv;vb;es;on; dai;cj;fj;jb;zy;tb;lr;gk;aj;	0
 黑铁环	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; tie;jf;ju;ju;de;oo;zh;qr;ju; huan;wb;wb;wb;ah;mf;nc;gg;wb;	0
 黑铁机关盾	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; tie;jf;ju;ju;de;oo;zh;qr;ju; ji;mj;mj;mj;wi;dn;eo;sm;lj; guan;bt;bt;bt,qd;fx;tk;hm;ud;et; dun;io;po;po;us;hu;xq;rf;pm;	0
-黑铁煎锅	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; tie;jf;ju;ju;de;oo;zh;qr;ju; jian;bh;bh;hq;fn;tf;hc;ue;ee; guo;jn;jn;jg,jn;de;ob;zj;qk;jn;	0
+黑铁煎锅	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; tie;jf;ju;ju;de;oo;zh;qr;ju; jian;bh,hb;bh;hq;fn;tf;hc;ue;ee; guo;jn;jn;jg,jn;de;ob;zj;qk;jn;	0
 黑铁角盔	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; tie;jf;ju;ju;de;oo;zh;qr;ju; jiao;dy;dy;dy;gi,gp;ng,nq;xt;qe;ey; kui;um;um;mh;sa;kt;na;do;hm;	0
 黑铁铠靴	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; tie;jf;ju;ju;de;oo;zh;qr;ju; kai;jj;jj;jj,jq;dt;ou;zv;qm;jj; xue;gb;gb;gh;va;tp;tv;af;cb;	0
 黑铁镰刀	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; tie;jf;ju;ju;de;oo;zh;qr;ju; lian;jj;jn;jl;df;oc;zc;qy;jj; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp;	0
@@ -14037,7 +14037,7 @@ use_preset_vocabulary: false
 甲冑师	jia;ol,tl;ll;aa,oa;vp;wl;sj;lh;aa; zhou;ye;;yo;;lb,xb;dv;me;; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	0
 剑齿龙鳖	jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd; chi;vr;vk;vk;rp;yo;lc;hw;va; long;yp;ud;ad;sh;ip;tl;dx;ab; bie;xy;da;yb,yw;fq;fm;fw;um;by;	0
 剑齿鳕	jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd; chi;vr;vk;vk;rp;yo;lc;hw;va; xue;ye;ae;yx;qs;ns;wb;qg;ex;	0
-剪刀手雅克	jian;bd;bd;dq;fi;th;hp;ue;ed; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp; shou;pf;pl;pa,ub;oo;qq;us;rt;pv; ya;yv;yf;vy,yv;da;mg;lu;ah;ya; ke;ux,ge;ue;eg,ux;sk;ju;cp;dq;ue;	0
+剪刀手雅克	jian;bd,db;bd;dq;fi;th;hp;ue;ed; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp; shou;pf;pl;pa,ub;oo;qq;us;rt;pv; ya;yv;yf;vy,yv;da;mg;lu;ah;ya; ke;ux,ge;ue;eg,ux;sk;ju;cp;dq;ue;	0
 剑斗领域日影地修炼所	jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd; dou;ud;du;du;hs;yj;jd;uf;du; ling;ry;rr;yl;em;oo;jw;wy;rr; yu;ta;ta;th;gd,ga;gm;gf;fa;tg; ri;ka;ka;aa,or,ri;vv;aa;or;jj;wa; ying;op;op;pj;vu;ah;oe;jy;op; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; xiu;rp;rp;rp;xu;oh;je;wh;rp; lian;hd;hd;hd,hj;ti;fc,fd;cy;oa;hd; suo;hj;pj;hj,jh;up;hl;mt;rn;pj;	0
 剑峰山麓	jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd; feng;uf;ef;uf;pa;uj;va;mt;sf; shan;kl;lk;aa;pp;uu;vs;mm;aa; lu;ml;mb;ll;wa;dp;ex;ss;lb;	0
 尖叫菇	jian;xd;xd;xd;ix;fk;ym;id;ad; jiao;kj;kl;kj;op;rl;di;kn;ka; gu;cg;ck;cg;zo;tr;lc;av;ck;	0
@@ -14060,8 +14060,8 @@ use_preset_vocabulary: false
 坚守要塞	jian;lt;lt;ty;pg;lg;pg;jc;at; shou;bc;bc;bc;ik;ji;wk;pf;gc; yao;xn;xn;xn;py;mv;vb;s,sv;xn; sai;bt;bt;tb,bt;ig;jg;wg;pf;gt;	2
 剑术士	jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd; shu;md;md;md;wh;id,xd;ei;sy;ld; shi;ua;ua;aa;gg;jm;gs;fg;ua;	0
 剑术师	jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd; shu;md;md;md;wh;id,xd;ei;sy;ld; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	4
-剪碎手巴塞洛缪	jian;bd;bd;dq;fi;th;hp;ue;ed; sui;uu;uu;uz;ts;mj;mn;dy;uu; shou;pf;pl;pa,ub;oo;qq;us;rt;pv; ba;sl;sl,vv;ag,kg,vg;tt;au;mb;cn;vv; sai;bt;bt;tb,bt;ig;jg;wg;pf;gt; luo;dk;dk;dg;ko;er;ks;it;dk; miu;sp;sp;sl,sp;eu;vh;ie;xn;sp;	0
-煎跳蜥蛋	jian;bh;bh;hq;fn;tf;hc;ue;ee; tiao;zv;zd;zv;gh;ro;pw;kh;zv; xi;ij;ij;ix;fp;ll;ct;js;ij; dan;zi;vi;ip,pi;rf;ni;tc;nh;vi;	0
+剪碎手巴塞洛缪	jian;bd,db;bd;dq;fi;th;hp;ue;ed; sui;uu;uu;uz;ts;mj;mn;dy;uu; shou;pf;pl;pa,ub;oo;qq;us;rt;pv; ba;sl;sl,vv;ag,kg,vg;tt;au;mb;cn;vv; sai;bt;bt;tb,bt;ig;jg;wg;pf;gt; luo;dk;dk;dg;ko;er;ks;it;dk; miu;sp;sp;sl,sp;eu;vh;ie;xn;sp;	0
+煎跳蜥蛋	jian;bh,hb;bh;hq;fn;tf;hc;ue;ee; tiao;zv;zd;zv;gh;ro;pw;kh;zv; xi;ij;ij;ix;fp;ll;ct;js;ij; dan;zi;vi;ip,pi;rf;ni;tc;nh;vi;	0
 舰尾楼	jian;vj;ve;vj;tk;hu;ie;te;vj; wei;um;um;um;qr;su;cv;nt;um; lou;mn;mn;ml;wy;dv;eb;so;ln;	0
 尖吻鲈	jian;xd;xd;xd;ix;fk;ym;id;ad; wen;kw;kw;kw;oi;rh;de;kq;kw; lu;yu;au;yl;qq;ns;wc;qg;eu;	0
 剑叶	jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd; ye;ku;ku;ku;os;rj;dn;kf;ku;	7

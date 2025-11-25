@@ -1536,7 +1536,7 @@ use_preset_vocabulary: false
 渔业用具	yu;dy;da;dy;kq;em;kw;iq;dy; ye;la;la;aa;pd;tc,xc;cy;og;aa; yong;kf,ol;kl;kf;lp;bq;ty;et;pa; ju;qb;qb;ba,bq,qb;pf;bc;qh;hw;ab;	0
 园林石工艺品	yuan;ky;ke;ky;nk;wu;rp;lf;we; lin;mm;mm;mm;ww;dd;ee;ss;ll; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; gong;aa;aa;aa;pp;mm;ug;a,aa;aa; yi;cv;cv;cy;zr;tn;la;an;cy; pin;kk;kk;kk;oo;rr;dd;kk;kk;	0
 园艺护栏	yuan;ky;ke;ky;nk;wu;rp;lf;we; yi;cv;cv;cy;zr;tn;la;an;cy; hu;fh;fh;fh;jq;qs;um;ry;fh; lan;ml;ms;ml;wu;dm;et;su;ls;	0
-园艺剪	yuan;ky;ke;ky;nk;wu;rp;lf;we; yi;cv;cv;cy;zr;tn;la;an;cy; jian;bd;bd;dq;fi;th;hp;ue;ed;	3
+园艺剪	yuan;ky;ke;ky;nk;wu;rp;lf;we; yi;cv;cv;cy;zr;tn;la;an;cy; jian;bd,db;bd;dq;fi;th;hp;ue;ed;	3
 园艺用具	yuan;ky;ke;ky;nk;wu;rp;lf;we; yi;cv;cv;cy;zr;tn;la;an;cy; yong;kf,ol;kl;kf;lp;bq;ty;et;pa; ju;qb;qb;ba,bq,qb;pf;bc;qh;hw;ab;	1
 栽培基质	zai;gm;um;gm,mg;sw,ha;jd;ne;fa;lg; pei;tk;tk;tk,tp;go;gr;gd;fu;tk; ji;ct;qt;tq,qt;vg;tg;zg;ad;qt; zhi;ib;pr;bu,pb;um;ho;xo;rf;pr;	8
 植保机械	zhi;mq;mq;mv;wd,wu;dm;ef;sf;lv; bao;rm;rm;rd;xw;od;je;wk;rl; ji;mj;mj;mj;wi;dn;eo;sm;lj; xie;mc;mc;mj;wa,wp;dt;el;sa;lg;	0
@@ -1668,7 +1668,7 @@ use_preset_vocabulary: false
 麂皮绒	ji;lj;gj;lj;ri;in;xo;yn;gj; pi;py;vy;ad,ay,vd,vy,ya;rl;de;rp;hc;vy; rong;su;su;sr;es,ea;vj,xj;in;xa;sg;	9
 佳绩布	jia;rt;rt;rg;xg;og;jg;wf;rt; ji;sb;sr;sz;em;vo;io;xg;sr; bu;uj;uj;ju,uj;sy;kb;nr;dm;aj;	0
 甲壳素纤维	jia;ol,tl;ll;aa,oa;vp;wl;sj;lh;aa; ke;tj;uj;uj;gi;gn,xn;go;fp;uj; su;fx;fx;sf,fs;ai;qf;ai;gx;ax; xian;sq;sq;sq;em,es;vj;il;xt;sq; wei;sv;sf;sv;ea;vg;iu;xw;sa;	1
-剪花布	jian;bd;bd;dq;fi;th;hp;ue;ed; hua;cb;cb;ch;za;tp;lv;aw;cb; bu;uj;uj;ju,uj;sy;kb;nr;dm;aj;	0
+剪花布	jian;bd,db;bd;dq;fi;th;hp;ue;ed; hua;cb;cb;ch;za;tp;lv;aw;cb; bu;uj;uj;ju,uj;sy;kb;nr;dm;aj;	0
 剑麻系列面料	jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd; ma;gm;gm;gl;dd;id,ic;zm;ys;gl; xi;px;px;ps;ui;hf;ti;tx;px; lie;dd;dd;dd;fi;mn;gp;gq;dd; mian;ao;aa;aa;dd;ml;bm;dm;aa; liao;md;mu;md;ls;fj;pj;ou;mu;	0
 胶点布	jiao;of;ox;oj;ly;bk;vb;eu;ox; dian;vh;lh;hv;pn;yf,xf;yc;hk;ve; bu;uj;uj;ju,uj;sy;kb;nr;dm;aj;	0
 交织类	jiao;wf;wx;li,wf,df;iy;yk;ab;uq;wx; zhi;sv;sb;sv;ef;vc;ih;xk;sb; lei;md;md;md;lx;fk;pm;od;md;	0
@@ -2104,7 +2104,7 @@ use_preset_vocabulary: false
 扁嘴钳	bian;hc;hc;hc;qj,hj;ht,it,xt;mi;yn;hc; zui;ky;ky;kj,kz;op;rb;dt;kh;ky; qian;jg;jg;jg;dv;om;zz;qa;jg;	0
 剥线钳	bo;ed;ed;dl;si;nn;bp;vi;ld; xian;sj;sj;sj;ea;vj;ip;xg;sg; qian;jg;jg;jg;dv;om;zz;qa;jg;	5
 布轮	bu;uj;uj;ju,uj;sy;kb;nr;dm;aj; lun;il;ib;il;ta;kp;yj;lw;ib;	1
-裁缝剪	cai;gy;uy;gy,yg;sk,ha;jv;nt;fa;hg; feng;sf;sz;sf;eq;vj;iu;xt;sf; jian;bd;bd;dq;fi;th;hp;ue;ed;	0
+裁缝剪	cai;gy;uy;gy,yg;sk,ha;jv;nt;fa;hg; feng;sf;sz;sf;eq;vj;iu;xt;sf; jian;bd,db;bd;dq;fi;th;hp;ue;ed;	0
 插齿刀	cha;fj;fj;fi,fj;js;qx;up;rt;fj; chi;vr;vk;vk;rp;yo;lc;hw;va; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp;	0
 成型模	cheng;wv;wv;gg,wg;rh;is;na;dn;vg; xing;kt;kt;tx;ug;mg;fg;ga;kt; mo;md;md;mm;wx;dk;em;sa;ld;	0
 齿轮刀具	chi;vr;vk;vk;rp;yo;lc;hw;va; lun;il;ib;il;ta;kp;yj;lw;ib; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp; ju;qb;qb;ba,bq,qb;pf;bc;qh;hw;ab;	2
@@ -2127,7 +2127,7 @@ use_preset_vocabulary: false
 电工刀	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; gong;aa;aa;aa;pp;mm;ug;a,aa;aa; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp;	1
 电工钳	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; gong;aa;aa;aa;pp;mm;ug;a,aa;aa; qian;jg;jg;jg;dv;om;zz;qa;jg;	2
 电焊钳	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; han;hg;hg;hh;ts;fj;ce;oj;hg; qian;jg;jg;jg;dv;om;zz;qa;jg;	0
-电剪刀	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; jian;bd;bd;dq;fi;th;hp;ue;ed; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp;	0
+电剪刀	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; jian;bd,db;bd;dq;fi;th;hp;ue;ed; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp;	0
 电缆钳	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; lan;sj;se;sl;ek;vu;ie;xj;sj; qian;jg;jg;jg;dv;om;zz;qa;jg;	0
 电子五金件	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; zi;la;va;aa,vh;aa;nd;hi;bb;va; wu;aw;aa;aa;gg;mm;wu;gg;aa; jin;rb;ra;ra,pa;ed;cc;zj;qq;ra; jian;rn;rn;rn;xb;oq;jq;wr;rn;	0
 碟形弹簧	die;um;um;um,uy;tw;md;me;da;ul; xing;kp;kp;pk;uu;mh;fe;ga;kp; tan;gu;gl;gd;rs;nj;bn;xu;gd; huang;vb;vb;vh;ny;hc;rn;ta;vb;	0
@@ -2180,8 +2180,8 @@ use_preset_vocabulary: false
 机用刀片	ji;mj;mj;mj;wi;dn;eo;sm;lj; yong;kf,ol;kl;kf;lp;bq;ty;et;pa; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp; pian;pv;pv;pa,pv;ii,ur;ll,ln;ap;th;pv;	0
 机用锯片	ji;mj;mj;mj;wi;dn;eo;sm;lj; yong;kf,ol;kl;kf;lp;bq;ty;et;pa; ju;jg;jk;jj;do;or;zc;qn;jk; pian;pv;pv;pa,pv;ii,ur;ll,ln;ap;th;pv;	0
 机用锯条	ji;mj;mj;mj;wi;dn;eo;sm;lj; yong;kf,ol;kl;kf;lp;bq;ty;et;pa; ju;jg;jk;jj;do;or;zc;qn;jk; tiao;wm;wm;wm;jf;hd;he;ts;wx;	0
-家用剪	jia;bu;bu;bu;ih;jo;wj;pe;gn; yong;kf,ol;kl;kf;lp;bq;ty;et;pa; jian;bd;bd;dq;fi;th;hp;ue;ed;	0
-剪切类气动工具	jian;bd;bd;dq;fi;th;hp;ue;ed; qie;qd;qd;dq,qd;ai;ph;rp;av;qd; lei;md;md;md;lx;fk;pm;od;md; qi;pv;pv;py,ry;ss;on,xn;vq;rn;pv; dong;yl;el;ly,yl;uu;ms;bs;fc;el; gong;aa;aa;aa;pp;mm;ug;a,aa;aa; ju;qb;qb;ba,bq,qb;pf;bc;qh;hw;ab;	0
+家用剪	jia;bu;bu;bu;ih;jo;wj;pe;gn; yong;kf,ol;kl;kf;lp;bq;ty;et;pa; jian;bd,db;bd;dq;fi;th;hp;ue;ed;	0
+剪切类气动工具	jian;bd,db;bd;dq;fi;th;hp;ue;ed; qie;qd;qd;dq,qd;ai;ph;rp;av;qd; lei;md;md;md;lx;fk;pm;od;md; qi;pv;pv;py,ry;ss;on,xn;vq;rn;pv; dong;yl;el;ly,yl;uu;ms;bs;fc;el; gong;aa;aa;aa;pp;mm;ug;a,aa;aa; ju;qb;qb;ba,bq,qb;pf;bc;qh;hw;ab;	0
 建筑装饰五金	jian;zy;zy;zy;rq;nq;bu;vf;za; zhu;vf;vf;vg;nh;hn;ri;ta;vf; zhuang;ly;dy;yv;lk;lv;at;uf;dh; shi;uj;uj;uj;gy;nb;qr;qn;uj; wu;aw;aa;aa;gg;mm;wu;gg;aa; jin;rb;ra;ra,pa;ed;cc;zj;qq;ra;	0
 铰板	jiao;jf;jx;jj;dy;ok;zb;qu;jx; ban;my;my;mf;wl;de,xe;er;sr;ly;	0
 角磨机	jiao;dy;dy;dy;gi,gp;ng,nq;xt;qe;ey; mo;gu;gu;mu,um;dt;ir;zm;ys;gk; ji;mj;mj;mj;wi;dn;eo;sm;lj;	21
@@ -2198,7 +2198,7 @@ use_preset_vocabulary: false
 烙铁咀	lao;hk;hk;hg;tr,to;fr;cs;ot;hk; tie;jf;ju;ju;de;oo;zh;qr;ju; ju;kq;kq;kq;ou;rm;df;ke;kq;	0
 冷压接钳	leng;ds;ds;dl;fp;ii;wk;uw;dv; ya;id;id;id,it;rh;mi,xi;xi;df;id; jie;fn;fn;fq;jy;qv;ub;ru;fn; qian;jg;jg;jg;dv;om;zz;qa;jg;	0
 冷轧线钳	leng;ds;ds;dl;fp;ii;wk;uw;dv; zha;iv;iv;ig;tr;ku;ya;ln;iv; xian;sj;sj;sj;ea;vj;ip;xg;sg; qian;jg;jg;jg;dv;om;zz;qa;jg;	0
-理发剪	li;wl;wl;wl;ag;mg;nd;gj;wl; fa;fy;vd;ay,fd,vy,yd;rh;ie;si;v,nt;vy; jian;bd;bd;dq;fi;th;hp;ue;ed;	4
+理发剪	li;wl;wl;wl;ag;mg;nd;gj;wl; fa;fy;vd;ay,fd,vy,yd;rh;ie;si;v,nt;vy; jian;bd,db;bd;dq;fi;th;hp;ue;ed;	4
 鲤鱼钳	li;yl;al;yl;qg;ng;wd;qg;el; yu;da;da;da;qq;nm;wv;qg;ea; qian;jg;jg;jg;dv;om;zz;qa;jg;	0
 螺纹刀具	luo;ix;ix;il;fi;lf;ci;jl;ix; wen;sw;sw;sw;ej;vk;iv;xy;sx; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp; ju;qb;qb;ba,bq,qb;pf;bc;qh;hw;ab;	0
 密封垫圈	mi;bu;be;ub,bu;ip;ju;wv;pn;gs; feng;tc;tc;cg;gk;gi;gk;ff;tc; dian;ft;ft;tv;jg;qg;ug;rv;ft; juan;kv;kv;kj;nt;wu;rz;lu;wv;	6
@@ -2231,7 +2231,7 @@ use_preset_vocabulary: false
 其他焊接材料与附件	qi;cb;qb;ba,ad,hb;vf;tc;zh;ad;ab; ta;ry;ry;ry;xr;od;je;wb;ry; han;hg;hg;hh;ts;fj;ce;oj;hg; jie;fn;fn;fq;jy;qv;ub;ru;fn; cai;mc;mc;mc;wu;dh;et;sf;lc; liao;md;mu;md;ls;fj;pj;ou;mu; yu;va;aa;aa;dd;ym;ff;gn;aa; fu;ec;ec;ef;bw,bk;ni;tk;bw;ec; jian;rn;rn;rn;xb;oq;jq;wr;rn;	0
 其他机床附件	qi;cb;qb;ba,ad,hb;vf;tc;zh;ad;ab; ta;ry;ry;ry;xr;od;je;wb;ry; ji;mj;mj;mj;wi;dn;eo;sm;lj; chuang;gm;gm;gm,mg;rw;id;xe;ys;gl; fu;ec;ec;ef;bw,bk;ni;tk;bw;ec; jian;rn;rn;rn;xb;oq;jq;wr;rn;	0
 其他机械零部件加工	qi;cb;qb;ba,ad,hb;vf;tc;zh;ad;ab; ta;ry;ry;ry;xr;od;je;wb;ry; ji;mj;mj;mj;wi;dn;eo;sm;lj; xie;mc;mc;mj;wa,wp;dt;el;sa;lg; ling;ys;ys;yl;yp;mi;tk;fw;yv; bu;le;le;ek,ep;bb;yl;it;uk;le; jian;rn;rn;rn;xb;oq;jq;wr;rn; jia;lk;lk;lk,kl;uo;kr;sd;lk;lk; gong;aa;aa;aa;pp;mm;ug;a,aa;aa;	0
-其他剪	qi;cb;qb;ba,ad,hb;vf;tc;zh;ad;ab; ta;ry;ry;ry;xr;od;je;wb;ry; jian;bd;bd;dq;fi;th;hp;ue;ed;	0
+其他剪	qi;cb;qb;ba,ad,hb;vf;tc;zh;ad;ab; ta;ry;ry;ry;xr;od;je;wb;ry; jian;bd,db;bd;dq;fi;th;hp;ue;ed;	0
 其他紧固件	qi;cb;qb;ba,ad,hb;vf;tc;zh;ad;ab; ta;ry;ry;ry;xr;od;je;wb;ry; jin;lx;lx;sy;pi;lf;pi;jc;ax; gu;kg;kk;kg;no;wr;rc;ld;wk; jian;rn;rn;rn;xb;oq;jq;wr;rn;	0
 其他锯	qi;cb;qb;ba,ad,hb;vf;tc;zh;ad;ab; ta;ry;ry;ry;xr;od;je;wb;ry; ju;jg;jk;jj;do;or;zc;qn;jk;	0
 其他类型钳工工具	qi;cb;qb;ba,ad,hb;vf;tc;zh;ad;ab; ta;ry;ry;ry;xr;od;je;wb;ry; lei;md;md;md;lx;fk;pm;od;md; xing;kt;kt;tx;ug;mg;fg;ga;kt; qian;jg;jg;jg;dv;om;zz;qa;jg; gong;aa;aa;aa;pp;mm;ug;a,aa;aa; gong;aa;aa;aa;pp;mm;ug;a,aa;aa; ju;qb;qb;ba,bq,qb;pf;bc;qh;hw;ab;	0
@@ -2280,7 +2280,7 @@ use_preset_vocabulary: false
 套装电动工具	tao;dg;ds;di;xh;ki;mp;dd;dv; zhuang;ly;dy;yv;lk;lv;at;uf;dh; dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; dong;yl;el;ly,yl;uu;ms;bs;fc;el; gong;aa;aa;aa;pp;mm;ug;a,aa;aa; ju;qb;qb;ba,bq,qb;pf;bc;qh;hw;ab;	0
 剃齿刀	ti;bd;bd;dd;fi;cn;hp;ux;ed; chi;vr;vk;vk;rp;yo;lc;hw;va; dao;vp;vp;gp,pg;ii;sh;pd;vn;vp;	0
 天然磨料	tian;ad;ad;ad;ue;mk;fm;gd;ad; ran;xh;ph;hq;fn;bf;vc;qd;pe; mo;gu;gu;mu,um;dt;ir;zm;ys;gk; liao;md;mu;md;ls;fj;pj;ou;mu;	0
-铁皮剪	tie;jf;ju;ju;de;oo;zh;qr;ju; pi;py;vy;ad,ay,vd,vy,ya;rl;de;rp;hc;vy; jian;bd;bd;dq;fi;th;hp;ue;ed;	0
+铁皮剪	tie;jf;ju;ju;de;oo;zh;qr;ju; pi;py;vy;ad,ay,vd,vy,ya;rl;de;rp;hc;vy; jian;bd,db;bd;dq;fi;th;hp;ue;ed;	0
 通用五金配件	tong;zy;zy;zy;pq;yb;ku;ce;zy; yong;kf,ol;kl;kf;lp;bq;ty;et;pa; wu;aw;aa;aa;gg;mm;wu;gg;aa; jin;rb;ra;ra,pa;ed;cc;zj;qq;ra; pei;yj;yj;yj;pt;mu;yv;sg;yj; jian;rn;rn;rn;xb;oq;jq;wr;rn;	0
 推力滚子轴承	tui;fv;ff;fv;ja;qg;uu;rw;fa; li;vp;vp;gp;uu;ks;sl;lt;vp; gun;dg;dy;dg;kh;ev,xv;kk;iu;dh; zi;la;va;aa,vh;aa;nd;hi;bb;va; zhou;iy;iy;iy;tp;kw;yd;lm;iy; cheng;ln;vn;ad,vd;rh;no;at;bd;vn;	0
 推力球轴承	tui;fv;ff;fv;ja;qg;uu;rw;fa; li;vp;vp;gp;uu;ks;sl;lt;vp; qiu;wq;wq;wq;ah;me;ni;gf;wq; zhou;iy;iy;iy;tp;kw;yd;lm;iy; cheng;ln;vn;ad,vd;rh;no;at;bd;vn;	0
@@ -2895,7 +2895,7 @@ use_preset_vocabulary: false
 电镀加工	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; du;jy;jy;jd;dl;oe;zr;qy;jy; jia;lk;lk;lk,kl;uo;kr;sd;lk;lk; gong;aa;aa;aa;pp;mm;ug;a,aa;aa;	2
 电镀设备	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; du;jy;jy;jd;dl;oe;zr;qy;jy; she;yu;yy;yu;cl;ie;sr;ym;yy; bei;wt;wt;wt;jw;hw;hq;tl;wt;	2
 点胶设备	dian;vh;lh;hv;pn;yf,xf;yc;hk;ve; jiao;of;ox;oj;ly;bk;vb;eu;ox; she;yu;yy;yu;cl;ie;sr;ym;yy; bei;wt;wt;wt;jw;hw;hq;tl;wt;	2
-电容剪脚机	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; rong;bg;bk;bg;io;jr;wh;pw;gk; jian;bd;bd;dq;fi;th;hp;ue;ed; jiao;oe;oe;oq;lb;bl;vz;ef;oe; ji;mj;mj;mj;wi;dn;eo;sm;lj;	0
+电容剪脚机	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; rong;bg;bk;bg;io;jr;wh;pw;gk; jian;bd,db;bd;dq;fi;th;hp;ue;ed; jiao;oe;oe;oq;lb;bl;vz;ef;oe; ji;mj;mj;mj;wi;dn;eo;sm;lj;	0
 电子产品制造设备	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; zi;la;va;aa,vh;aa;nd;hi;bb;va; chan;wi;lp;dp,li,wp;bu;yh;ix;u,ut;wi; pin;kk;kk;kk;oo;rr;dd;kk;kk; zhi;nd;pd;dg,dv;bi;hn;qp;rm;pd; zao;zk;zk;zg;bq;yr;qu;tf;zk; she;yu;yy;yu;cl;ie;sr;ym;yy; bei;wt;wt;wt;jw;hw;hq;tl;wt;	0
 电子电器生产线	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; zi;la;va;aa,vh;aa;nd;hi;bb;va; dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk; sheng;pf;pf;na;eg,aa;hm;ls;tg;pa; chan;wi;lp;dp,li,wp;bu;yh;ix;u,ut;wi; xian;sj;sj;sj;ea;vj;ip;xg;sg;	0
 电子元件成型机	dian;ov,yv;lv;ag,og;ee;lu;oa;jn;av; zi;la;va;aa,vh;aa;nd;hi;bb;va; yuan;aw;ee;aw,ee;uk;mu;mp;fq;ee; jian;rn;rn;rn;xb;oq;jq;wr;rn; cheng;wv;wv;gg,wg;rh;is;na;dn;vg; xing;kt;kt;tx;ug;mg;fg;ga;kt; ji;mj;mj;mj;wi;dn;eo;sm;lj;	0

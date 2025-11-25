@@ -652,7 +652,7 @@ use_preset_vocabulary: true
 健康作业本	jian;ry;rz;rj;xq;oq;ju;wv;rj; kang;gl;gn;gl;ro;ie;xk;yv;gl; zuo;rv;rv;rv;xu;os;jw;wt;rv; ye;la;la;aa;pd;tc,xc;cy;og;aa; ben;ma;aa;aa,ma;wd;dm;ef;sg;aa;	0
 剑梦	jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd; meng;mx;mx;mx,xl;wf;di;el;ss;lx;	1
 健敏思	jian;ry;rz;rj;xq;oq;ju;wv;rj; min;pw;pw;wm;ej;ok;eh;tx;mw; si;tx;tx;tx,xt;wn;wp;qh;ln;tx;	0
-剪秋	jian;bd;bd;dq;fi;th;hp;ue;ed; qiu;hh;hh;hh;ut;hf;xc;to;hh;	46
+剪秋	jian;bd,db;bd;dq;fi;th;hp;ue;ed; qiu;hh;hh;hh;ut;hf;xc;to;hh;	46
 碱水面包	jian;uk;uk;ux;th;mr;md;dd;ug; shui;ln;ln;ad,uv;oo;ee;ks;ii;vn; mian;ao;aa;aa;dd;ml;bm;dm;aa; bao;bs;bs;gs;ut;pu;nv;qn;pv;	22
 鉴心	jian;lj;lj;jv;pd;lc;pz;jt;aj; xin;dd;dd;dd;nn;pp;hx;ny;dd;	1
 菅原	jian;cl;ck;cg;zd;tr;lk;ap;cg; yuan;ix;ix;ix;ri;mf;xy;dr;ix;	39
@@ -1305,7 +1305,7 @@ use_preset_vocabulary: true
 十个勤天	shi;al;al;aa;ss;jj;ns;fg;aa; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; qin;cl;nl;lj;vu;ts;ls;ak;cl; tian;ad;ad;ad;ue;mk;fm;gd;ad;	0
 时光代理人	shi;oc;oc;oc;vk;ai;ok;jf;oc; guang;xe;xw;ea,xw;hk;fu;mg;iq;ee; dai;ry;ry;ry;xa;op;jp;wa;rg; li;wl;wl;wl;ag;mg;nd;gj;wl; ren;pn;pn;pd;ee;oo;jr;w,ww;pn;	15
 时光徽章	shi;oc;oc;oc;vk;ai;ok;jf;oc; guang;xe;xw;ea,xw;hk;fu;mg;iq;ee; hui;rx;iw;xw;hj;hk;wh;tm;rw; zhang;lu;lu;lz;cs;yj;xn;uj;lu;	1
-十剪纸	shi;al;al;aa;ss;jj;ns;fg;aa; jian;bd;bd;dq;fi;th;hp;ue;ed; zhi;su;su;su;er;vp;ib;xq;su;	0
+十剪纸	shi;al;al;aa;ss;jj;ns;fg;aa; jian;bd,db;bd;dq;fi;th;hp;ue;ed; zhi;su;su;su;er;vp;ib;xq;su;	0
 世界计划	shi;cv;av;ca,cv,aa;vr;pt;la;an;av; jie;tj;tl;tj;wp;wl;qp;lw;tj; ji;yu;yu;yu;cs;ij;sn;yf;yu; hua;gd;gd;dg,gd;ai;in;pp;aj;gd;	0
 世界之外	shi;cv;av;ca,cv,aa;vr;pt;la;an;av; jie;tj;tl;tj;wp;wl;qp;lw;tj; zhi;dn;dn;dd;hh;io;ri;pp;dn; wai;xb;xb;xb;fh;ny;ly;qh;xb;	0
 时空之影	shi;oc;oc;oc;vk;ai;ok;jf;oc; kong;bg;bg;xg,bg;ip;jm;eu;pw;gg; zhi;dn;dn;dd;hh;io;ri;pp;dn; ying;op;op;pj;vu;ah;oe;jy;op;	0

@@ -11,6 +11,7 @@ def read_file(file_path):
 # Function to write content to a file
 def write_file(file_path, content):
     with open(file_path, 'w', encoding='utf-8') as file:
+        print(file_path)
         file.write(content)
 
 def get_aux_code_map(file_list):

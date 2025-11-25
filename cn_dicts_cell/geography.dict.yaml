@@ -1450,7 +1450,7 @@ use_preset_vocabulary: false
 勘探地球化学	kan;cl;ql;lu;vu;ts;zs;ad;ul; tan;fm;fm;fm,fu;jw;qd;ue;rp;fl; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; hua;rb;rb;rb;xa;op;jv;wx;rb; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
 勘探地震学	kan;cl;ql;lu;vu;ts;zs;ad;ul; tan;fm;fm;fm,fu;jw;qd;ue;rp;fl; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	1
 勘探地震仪	kan;cl;ql;lu;vu;ts;zs;ad;ul; tan;fm;fm;fm,fu;jw;qd;ue;rp;fl; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; yi;ry;ry;ry;xy,xh;ok,xk;jb;wy;ry;	0
-抗剪断强度	kang;fj;fj;fk;ji;qn;uo;ry;fj; jian;bd;bd;dq;fi;th;hp;ue;ed; duan;vj;mj;ja,jm,jv;lp;vl;pt;on;vj; qiang;gi;gi;gs;rf;ni;bc;xk;gi; du;gy;gy;gy;rl;ie;xr;ya;gy;	0
+抗剪断强度	kang;fj;fj;fk;ji;qn;uo;ry;fj; jian;bd,db;bd;dq;fi;th;hp;ue;ed; duan;vj;mj;ja,jm,jv;lp;vl;pt;on;vj; qiang;gi;gi;gs;rf;ni;bc;xk;gi; du;gy;gy;gy;rl;ie;xr;ya;gy;	0
 抗蚀岩石	kang;fj;fj;fk;ji;qn;uo;ry;fj; shi;ui;ui;ui;gf;ni;qc;qn;ui; yan;uu;eu;uu;pt;ur;vm;md;sk; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak;	0
 抗弯曲强度	kang;fj;fj;fk;ji;qn;uo;ry;fj; wan;wg;wg;gy,yg;ir;yn;zb;yo;wg; qu;kc;la;aa,oa;vp,pd;tw,xw;yq;ma;aa; qiang;gi;gi;gs;rf;ni;bc;xk;gi; du;gy;gy;gy;rl;ie;xr;ya;gy;	2
 抗震加固措施	kang;fj;fj;fk;ji;qn;uo;ry;fj; zhen;yi;yn;yi;yh;mv;tf;fd;yh; jia;lk;lk;lk,kl;uo;kr;sd;lk;lk; gu;kg;kk;kg;no;wr;rc;ld;wk; cuo;fo;fo;fx;jv;qa;uo;ra;fo; shi;fy;fy;fy;fr;yd;le;yt;fy;	0
