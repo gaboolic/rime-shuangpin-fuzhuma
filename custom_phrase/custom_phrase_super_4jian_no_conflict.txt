@@ -59462,7 +59462,7 @@
 迫击炮连	pjpl
 评奖评优	pjpy
 普加乔夫	pjqf
-拼劲全力	pjql
+拼尽全力	pjql
 盘角曲四	pjqs
 平均气温	pjqw
 啤酒企业	pjqy
