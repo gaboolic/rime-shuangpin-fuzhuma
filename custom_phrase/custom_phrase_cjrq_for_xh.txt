@@ -201,3 +201,6 @@
 酂	zjn
 作	zor
 宗	zsb
+院	yre
+电	dml
+状	vld
