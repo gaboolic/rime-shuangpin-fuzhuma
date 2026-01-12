@@ -1671,7 +1671,7 @@ C盘	cpj/
 都变成	dbi/
 都比较	dbj/
 打不开	dbk/
-代表了	dbl/
+大不了	dbl/
 都表明	dbm/
 都不能	dbn/
 都不怕	dbp/
@@ -11516,7 +11516,7 @@ UP主	upv/
 实验室	uyu/
 是一种	uyv/
 是因为	uyw/
-说一下	uyx/
+试一下	uyx/
 适用于	uyy/
 是一座	uyz/
 失踪案	uza/
