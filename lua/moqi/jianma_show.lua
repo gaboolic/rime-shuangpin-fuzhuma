@@ -61,6 +61,7 @@ function Module.func(translation, env)
             local in_use = false
             local codes = {}
             local short_codes = {}  -- 专门存储简码（长度小于等于2的码）
+            local four_char_codes = {}  -- 专门存储四字词的四码（仅对四字词）
             
             for code in all_codes:gmatch("%S+") do
                log.info("jianma_show checking code: " .. code .. ", length: " .. #code)
@@ -68,6 +69,10 @@ function Module.func(translation, env)
                   -- 长度小于等于2的码作为简码处理
                   log.info("jianma_show short code found (length <= 2): " .. code)
                   table.insert(short_codes, code)
+               elseif #code == 4 and word_len == 4 then
+                  -- 对于四字词，长度等于4的码作为四码处理
+                  log.info("jianma_show four-char code found for four-word phrase: " .. code)
+                  table.insert(four_char_codes, code)
                elseif #code < 4 then
                   log.info("jianma_show code length 3: " .. code .. ", comparing with preedit: " .. (cand.preedit or "nil"))
                   if cand.preedit and code == cand.preedit then
@@ -78,12 +83,12 @@ function Module.func(translation, env)
                      table.insert(codes, code)
                   end
                else
-                  log.info("jianma_show code length >= 4, skipping: " .. code)
-                  -- 不再进行任何提取逻辑，只处理长度≤2的简码
+                  log.info("jianma_show code length >= 4, skipping (not a four-word phrase): " .. code)
+                  -- 不再进行任何提取逻辑
                end
             end
             
-            -- 只显示真正的简码（长度≤2的码）
+            -- 优先显示真正的简码（长度≤2的码）
             if #short_codes > 0 then
                local short_codes_hint = table.concat(short_codes, " ")
                log.info("jianma_show true short codes hint: " .. short_codes_hint)
@@ -94,6 +99,18 @@ function Module.func(translation, env)
                   comment = short_codes_hint
                end
                log.info("jianma_show setting comment with true short codes: " .. comment)
+               gcand.comment = comment
+            -- 然后显示四字词的四码（仅对四字词）
+            elseif #four_char_codes > 0 and word_len == 4 then
+               local four_codes_hint = table.concat(four_char_codes, " ")
+               log.info("jianma_show four-char codes hint: " .. four_codes_hint)
+               local comment = ""
+               if gcand.comment and #gcand.comment > 0 then
+                  comment = gcand.comment .. "! " .. four_codes_hint
+               else
+                  comment = four_codes_hint
+               end
+               log.info("jianma_show setting comment with four-char codes: " .. comment)
                gcand.comment = comment
             elseif #codes > 0 then
                -- 如果没有简码但有其他长度为3的码，也显示它们
@@ -110,6 +127,7 @@ function Module.func(translation, env)
             end
          else
             log.warn("jianma_show no codes found for word: " .. word)
+            -- 没有找到任何编码时，直接跳过
          end
          yield(cand)
       elseif word_len >= 2 and word_len <= 4 and current_input_length < 4 then
