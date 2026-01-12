@@ -1,9 +1,0 @@
-# Rime dictionary for custom phrases
-# encoding: utf-8
----
-name: custom_phrase
-version: "1.0"
-sort: by_weight
-use_preset_vocabulary: false
-import_tables: []
-...
