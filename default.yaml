@@ -1,7 +1,7 @@
 # Rime default settings
 # encoding: utf-8
 
-config_version: '0.40'
+config_version: '0.50'
 
 schema_list:
   - schema: moqi_wan_flypymo # 墨奇万象·小鹤+墨奇形
