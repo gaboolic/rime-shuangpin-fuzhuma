@@ -16,10 +16,9 @@
 - 配置文件参考[小鹤双拼+自然快手/小鹤双形辅助码](https://github.com/functoreality/rime-flypy-zrmfast)
 - [魔改自然碼 Rime 方案 (自然碼雙拼+輔助碼+外語混輸+簡繁方案+emoji)](https://github.com/ksqsf/rime-moran)
 - 主要配置文件:
-  - schema: moqi_xh # 墨奇辅助码 鹤拼版 大词库版本 非自动上屏，支持4万字
-  - schema: moqi_zrm # 墨奇辅助码 自然双拼版 大词库版本 非自动上屏，支持4万字
-  - schema: flypy_flypy # 鹤形+鹤拼, 小鹤官方就只有8000字左右
-  - schema: zrm_zrm # 自然码+自然码部首辅助码
+  - schema: moqi_wan_flypymo # 墨奇辅助码 鹤拼版 大词库版本 非自动上屏，支持4万字
+  - schema: moqi_wan_zrm # 自然码+自然码部首辅助码 非自动上屏，支持4万字
+  - schema: moqi_wan_flypy # 鹤形+鹤拼, 小鹤官方就只有8000字左右
   - schema: moqi_single_xh # 墨奇码·顶屏版·小鹤双拼，为了4码自动上屏 只收录了8000字
   - schema: moqi_sogou # 墨奇辅助码搜狗双拼版 大词库版本 非自动上屏，支持4万字
   - schema: moqi_ms # 墨奇辅助码微软双拼版 大词库版本 非自动上屏，支持4万字

@@ -13,10 +13,10 @@ function Module.init(env)
       log.info("jianma_show Module.init: ReverseLookup created successfully for " .. dict)
       env.custom_phrase_reverse = reverse_lookup
    else
-      -- 由于reverse_lookup为nil，我们不能调用log.warn，而是使用更安全的方式
+      -- reverse_lookup 为 nil 时记录警告
       env.custom_phrase_reverse = nil  -- 明确设置为nil，以便在func中检测
-      log.warn("jianma_show Module.init: Failed to create ReverseLookup for " .. dict)
-      log.warn("jianma_show Module.init: Make sure moqi_single.reverse.bin exists in build folder")
+      log.warning("jianma_show Module.init: Failed to create ReverseLookup for " .. dict)
+      log.warning("jianma_show Module.init: Make sure moqi_single.reverse.bin exists in build folder")
    end
 end
 
@@ -28,7 +28,7 @@ end
 function Module.func(translation, env)
    log.info("jianma_show Module.func: start processing translation")
    if not env.custom_phrase_reverse then
-      log.warn("jianma_show Module.func: custom_phrase_reverse is nil, skipping processing")
+      log.warning("jianma_show Module.func: custom_phrase_reverse is nil, skipping processing")
       for cand in translation:iter() do
          yield(cand)
       end
@@ -126,7 +126,7 @@ function Module.func(translation, env)
                gcand.comment = comment
             end
          else
-            log.warn("jianma_show no codes found for word: " .. word)
+            log.warning("jianma_show no codes found for word: " .. word)
             -- 没有找到任何编码时，直接跳过
          end
          yield(cand)
@@ -163,7 +163,7 @@ function Module.func(translation, env)
                gcand.comment = comment
             end
          else
-            log.warn("jianma_show no codes found for word: " .. word)
+            log.warning("jianma_show no codes found for word: " .. word)
          end
          yield(cand)
       end
