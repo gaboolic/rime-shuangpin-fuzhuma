@@ -6,11 +6,9 @@ recipe:
   description: >-
     所有词库安装、更新
 install_files: >-
+  cn_dicts/*.*
   cn_dicts_cell/*.*
   cn_dicts_common/*.*
-  cn_dicts_moqi/*.*
-  cn_dicts_xh/*.*
-  cn_dicts_zrm/*.*
   custom_phrase/*.*
   opencc/*.*
   *.dict.yaml

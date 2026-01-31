@@ -12,7 +12,7 @@ pro_comment_format:                   # 超级注释，子项配置 true 开启�
   
 schema:
   schema_id: moqi_wan_zrm_hx
-  name: 墨奇万象+自然码双拼·汉心码
+  name: 墨奇+自然码双拼·汉心码
   version: "2024-05-11"
   author:
     - gaboolic

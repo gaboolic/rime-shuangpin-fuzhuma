@@ -8,7 +8,7 @@ recipe:
 install_files: >-
   cn_dicts_cell/*.*
   cn_dicts_common/*.*
-  cn_dicts_moqi/*.*
+  cn_dicts/*.*
   custom_phrase/*.*
   opencc/*.*
   *.dict.yaml

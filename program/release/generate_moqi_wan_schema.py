@@ -40,7 +40,7 @@ files = [
 
          'moqi_single_xh.schema.yaml','moqi_single.dict.yaml',
 
-         'moqi_big.schema.yaml','moqi_big.extended.dict.yaml',
+         'moqi_big.schema.yaml',
          'symbols_caps_v.yaml','rime.lua','moqi.yaml',
          
          'cangjie5.dict.yaml','cangjie5.schema.yaml','easy_en.dict.yaml','easy_en.schema.yaml',

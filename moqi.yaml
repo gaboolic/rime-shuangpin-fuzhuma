@@ -257,7 +257,7 @@ reverse:
     tags: [ reverse_moqima,radical_flypy,reverse_stroke,reverse_zrlf,reverse_cj]
     overwrite_comment: true
     # 可以改为全拼+音调+释义的码表
-    dictionary: moqi_big.extended # 提示码词表
+    dictionary: moqi_wan.extended # 提示码词表
   
 opencc_config:
   # 显示墨奇码拆分
@@ -397,7 +397,7 @@ guide:
 big_char_and_user_dict:
   # 大字集
   big_char_set:
-    dictionary: moqi_big.extended
+    dictionary: moqi_wan.extended
     option_name: big_char_set
     initial_quality: -1 # 设置此翻译器出字优先级,-1为极低
     enable_completion: false
@@ -412,7 +412,7 @@ big_char_and_user_dict:
 
 
   user_dict_set:
-    dictionary: moqi.extended
+    dictionary: moqi_wan.extended
     initial_quality: 0
     enable_completion: false
     enable_sentence: false
@@ -428,7 +428,7 @@ big_char_and_user_dict:
   # 自定义词典加词(ac引导)
   add_user_dict:
     tag: add_user_dict
-    dictionary: moqi.extended
+    dictionary: moqi_wan.extended
     initial_quality: -1
     user_dict: user.custom.dict
   # ↓ 用户词典格式，tabledb（文本） 或 userdb （二进制）。
