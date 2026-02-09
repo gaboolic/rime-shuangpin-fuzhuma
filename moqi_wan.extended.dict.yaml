@@ -54,7 +54,13 @@ import_tables:
   - cn_dicts_cell/composite
   - cn_dicts_cell/name
   
-  # - cn_dicts/cell # 细胞词库
+  # 朙月拼音词库（繁转简，仅转换了字形，不改变词汇本身）
+  # - cn_dicts_cell/luna_pinyin_simp.poetry    # 细胞词库 古诗文
+  # - cn_dicts_cell/luna_pinyin_simp.place  # 细胞词库 地名
+  # - cn_dicts_cell/luna_pinyin_simp.computer
+  # - cn_dicts_cell/luna_pinyin_simp.history
+
+  # 朙月拼音词库（原版，繁体，不建议启用）
   # - cn_dicts_cell/luna_pinyin.poetry    # 细胞词库 古诗文
   # - cn_dicts_cell/luna_pinyin.place  # 细胞词库 地名
   # - cn_dicts_cell/luna_pinyin.computer
