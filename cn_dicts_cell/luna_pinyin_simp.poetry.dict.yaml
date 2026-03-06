@@ -39,7 +39,7 @@
 #
 
 ---
-name: luna_pinyin.poetry
+name: luna_pinyin_simp.poetry
 version: "2013.11.21"
 sort: by_weight
 ...

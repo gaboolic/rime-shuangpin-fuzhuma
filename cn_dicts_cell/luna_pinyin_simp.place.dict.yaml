@@ -13,7 +13,7 @@
 #
 
 ---
-name: luna_pinyin.place
+name: luna_pinyin_simp.place
 version: "2016.10.29"
 sort: by_weight
 ...

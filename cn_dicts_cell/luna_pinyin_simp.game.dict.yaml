@@ -13,7 +13,7 @@
 #
 
 ---
-name: luna_pinyin.game
+name: luna_pinyin_simp.game
 version: "2014.09.07"
 sort: by_weight
 use_preset_vocabulary: true
