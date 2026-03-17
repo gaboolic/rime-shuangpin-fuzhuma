@@ -82425,7 +82425,7 @@
 值得骄傲	vdja
 重大疾病	vdjb
 指定教材	vdjc
-真的觉得	vdjd
+真的假的	vdjd
 诊断结果	vdjg
 知道就好	vdjh
 重点检查	vdji
