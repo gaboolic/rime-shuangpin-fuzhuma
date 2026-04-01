@@ -13,8 +13,6 @@ install_files: >-
   opencc/*.*
   *.dict.yaml
   *.yaml
-  *.gram
-  *.lua
   lua/*.*
   lua/cold_word_drop/*.*
   lua/sbxlm/*.*
