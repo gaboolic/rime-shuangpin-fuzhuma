@@ -169,6 +169,7 @@
 吱	vik
 状	vll
 卓	vob
+注	vud
 珠	vuw
 咒	vzk
 闻	wfm
