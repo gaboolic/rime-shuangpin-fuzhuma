@@ -73,6 +73,7 @@
 徽	hvr
 浑	hyd
 厚	hzi
+侯	hzr
 叉	iay
 珵	igw
 嗤	iik
