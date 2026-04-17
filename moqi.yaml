@@ -10,8 +10,6 @@ switches_engine:
       states: [ 💀, 😄 ]
     - name: chaifen
       states: [ 不拆, 扌斥 ]
-    - name: big_char_set
-      states: [ 大字集, 小字集 ]
     - name: mars
       reset: 0
       states: [ 地, 煋 ] #火星文
@@ -67,7 +65,6 @@ switches_engine:
       - table_translator@custom_phrase_super_3jian
       - table_translator@custom_phrase_super_3jian_no_conflict
       - table_translator@custom_phrase_super_4jian_no_conflict
-      - table_translator@big_char_set # 大字集
       - table_translator@emojis ## 添加注释后：停用ae模式emoji输入
       - table_translator@easy_en_simp ## 添加注释后：停用单词输入
       - table_translator@jp_sela ## 添加注释后：停用日语输入
@@ -101,7 +98,6 @@ switches_engine:
       - simplifier@chaifen
       - simplifier@chaifen_all
       - simplifier@chinese_english
-      - simplifier@big_char_set # 一定要放到traditionalize之前，否则当traditionalize是繁体时，会被该过滤器把繁体字过滤掉，从而无法输入繁体字
       - simplifier@traditionalize                     # 简繁切换
       - simplifier@mars                               #火星文
       - uniquifier
@@ -395,20 +391,6 @@ guide:
     idx: 1
 
 big_char_and_user_dict:
-  # 大字集
-  big_char_set:
-    dictionary: moqi_wan.extended
-    option_name: big_char_set
-    initial_quality: -1 # 设置此翻译器出字优先级,-1为极低
-    enable_completion: false
-    enable_sentence: false
-    ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
-    ##  改为 1 则是只显示单字的输入码，依此类推。
-    spelling_hints: 1
-    comment_format:
-      - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
-
-    enable_user_dict: false # 是否开启自动调频
 
 
   user_dict_set:

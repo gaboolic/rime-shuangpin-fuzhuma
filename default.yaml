@@ -31,7 +31,6 @@ switcher:
     - traditionalization
     - emoji
     - chaifen
-    - big_char_set # 大字集 小字集
     - mars
     - ascii_punct
   fold_options: true

@@ -78,7 +78,6 @@ __patch:
   translator/prism: moqi_wan_flypyhu
   user_dict_set/prism: moqi_wan_flypyhu
   add_user_dict/prism: moqi_wan_flypyhu
-  big_char_set/prism: moqi_wan_big_flypyhu
   speller/algebra/+:
     __include: aux_patch
 

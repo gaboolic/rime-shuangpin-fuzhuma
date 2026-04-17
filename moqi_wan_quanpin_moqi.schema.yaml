@@ -77,7 +77,6 @@ __patch:
   translator/prism: moqi_wan_quanpin_moqi
   user_dict_set/prism: moqi_wan_quanpin_moqi
   add_user_dict/prism: moqi_wan_quanpin_moqi
-  big_char_set/prism: moqi_wan_big_quanpin_moqi
   speller/algebra/+:
     __include: aux_patch
 
