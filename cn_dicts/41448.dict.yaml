@@ -484,7 +484,7 @@ sort: by_weight
 䴽	bai;lu;;mb;;jj;en;sw;;	0
 庍	bai;gj;;gj;;il;xt;yr;;	0
 挀	bai;fy;;fp;;qv;ut;rr;;	0
-瓸	bai;wb;;wb,a;wb;;ma;ru;gn;;	0
+瓸	bai;wb;;wb;;ma;ru;gn;;	0
 竡	bai;lb;;lb;;ya;iu;ud;;	0
 絔	bai;sb;;sb;;va;iu;xd;;	0
 薭	bai;cu;;cb;;tj,xj;ln;at;;	0
@@ -3043,7 +3043,7 @@ sort: by_weight
 𪁋	cheng;in;;ni,in;;if;nx;dn;;	0
 黐	chi;hn;;hl,lu;;hb;xv;tw;;	84
 喫	chi;kd;;kq;;rk;dm;kd;;	60
-呎	chi;ki;;ki,i;ki;;ro;di;kn;;	47
+呎	chi;ki;;ki;;ro;di;kn;;	47
 癡	chi;bz;;by;;ko;at;ux;;	31
 遅	chi;zy;;zy;;yq;cu;nu;;	29
 絺	chi;sj;;sx;;vb;ir;xq;;	4
@@ -4365,7 +4365,7 @@ sort: by_weight
 𩤏	cui;mu;;mz;;sj;nn;cy;;	0
 𩮴	cui;ev;;ic;;sg;pu;de;;	0
 蹲	cun;zc;zc;zz;gk;ri;pk;kh;zc;	0
-吋	cun;kc;;kc,p;kc;ok;ri;dk;kf;;	13
+吋	cun;kc;;kc;ok;ri;dk;kf;;	13
 拵	cun;fz;;fc;;qd;uh;rd;;	4
 刌	cun;cd;;dc;;dn;kp;fj;;	9
 踆	cun;zw;;zj;;re;ph;kh;;	8
@@ -5650,7 +5650,7 @@ sort: by_weight
 𩭩	dong;ed;;id;;sw;po;de;;	0
 𪐈	dong;hv;;uv;;hg;xd;tw;;	0
 𪔦	dong;tk;;gd;;gr;hd;fk;;	0
-吋	dou;kc;;kc,p;kc;ok;ri;dk;kf;;	13
+吋	dou;kc;;kc;ok;ri;dk;kf;;	13
 渎	dou;dd;dd;dm;kx;ek;km;if;dd;	0
 闘	dou;mc;;mc;;ai;ak;ug;;	28
 荳	dou;cb;;cd;;tt;lz;ag;;	14
@@ -15839,7 +15839,7 @@ sort: by_weight
 諒	liang;yx;;yj;;yf;sy;yy;;	3
 駺	liang;ml;;ml;;sv;ni;cy;;	2
 裲	liang;pr;;yl;;lb;tm;pu;;	2
-唡	liang;kl;;kl,d;kl;;rb;dm;kg;;	2
+唡	liang;kl;;kl;;rb;dm;kg;;	2
 喨	liang;kj;;kl;;rn,ru,xn;do;ky;;	1
 輌	liang;il;;il;;jb;ym;lg;;	1
 湸	liang;dj;;dl;;en,eu,xr;ko;iy;;	1
@@ -15856,7 +15856,7 @@ sort: by_weight
 䣼	liang;yx;;yj;;mf;yy;sg;;	0
 䩫	liang;gr;;gl;;tb;tm;af;;	0
 䭪	liang;ul;;ul;;ng;qd;qn;;	0
-啢	liang;kr;;kl,d;kl;;rb;dm;kg;;	0
+啢	liang;kr;;kl;;rb;dm;kg;;	0
 掚	liang;fr;;fl;;qb;um;rg;;	0
 緉	liang;sr;;sl;;vb;im;xg;;	0
 脼	liang;or;;ol;;bb;vm;eg;;	0
@@ -18707,7 +18707,7 @@ sort: by_weight
 縸	mu;sd;;sm;;vk;im;xa;;	0
 胟	mu;om;;om;;bi;vk;ex;;	0
 蚞	mu;im;;im;;ld;ce;js;;	0
-𠺖	mu;kj;;u;km,km;;ro;di;ky;;	0
+𠺖	mu;kj;;km;;ro;di;ky;;	0
 𡵬	mu;um;;um;;ud;ve;ms;;	0
 𢘃	mu;xm;;xm;;pi;hk;nx;;	0
 𢜯	mu;gx;;xm,mx;;tp;zh;af;;	0
@@ -27095,7 +27095,7 @@ sort: by_weight
 槫	tuan;mc;;mv;;di;ek;sg;;	2
 糰	tuan;mc;;mt;;fi;pk;ol;;	7
 摶	tuan;fc;;fv;;qi;uk;rg;;	2
-圕	tuan;ko;;ku,ugr;ku;;wa;ro;lv;;	2
+圕	tuan;ko;;ku;;wa;ro;lv;;	2
 鏄	tuan;jc;;jv;;ci;zk;qg;;	2
 剸	tuan;id;;dv;;jn;np;gj;;	1
 畽	tuan;tv;;tv;;wg;qd;lt;;	1
@@ -27440,7 +27440,7 @@ sort: by_weight
 屲	wa;pu;;pu;;hu;tv;tm;;	0
 帓	wa;jw;;jm;;lj;re;mh;;	0
 攨	wa;fg;;fg;;qo,xo;uy;rp;;	0
-瓸	wa;wb;;wb,a;wb;;ma;ru;gn;;	0
+瓸	wa;wb;;wb;;ma;ru;gn;;	0
 瓾	wa;hw;;ww;;hn;xr;tv;;	0
 砙	wa;uw;;uw;;mn;mr;dg;;	0
 穵	wa;bv;;xy,by;;jn,xn;ea;pw;;	0
@@ -30885,7 +30885,7 @@ sort: by_weight
 濬	xun;do;;do,dr;;eu;kq;ih;;	5
 勲	xun;vh;;dd,hd;;hf;lc;tg;;	65
 薫	xun;ch;;cx;;tf,xf;lp;at;;	44
-噚	xun;kc;;kx,p;kx;;ri;dk;kv;;	47
+噚	xun;kc;;kx;;ri;dk;kv;;	47
 孫	xun;zx;;zx;;nf;hi;bt;;	5
 訓	xun;yi;;yi;;yl;so;yk;;	30
 尋	xun;ec;;ck,xc;;si;bk;va;;	26
@@ -30921,7 +30921,7 @@ sort: by_weight
 馴	xun;mi;;mi;;sl;no;ck;;	1
 揗	xun;fo;;fd;;qu;uq;rr;;	1
 潠	xun;dg;;dg;;ec;kh;in;;	1
-潯	xun;dc;;dx,p;dx;;ei;kk;iv;;	1
+潯	xun;dc;;dx;;ei;kk;iv;;	1
 灥	xun;bu;;qq;;he;uk;ri;;	1
 燅	xun;th;;hl,ht,yl,yt;;gf;gc;fw;;	1
 爓	xun;hj;;hy;;fx;cp;ou;;	1

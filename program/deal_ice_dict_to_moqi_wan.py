@@ -79,7 +79,9 @@ def get_zrm_aux_code_map(file_list):
                 character = params[0]
                 encoding = params[1]
                 if "'" not in encoding:
-                    encoding_post = encoding[3:]
+                    if ";" not in encoding:
+                        continue
+                    encoding_post = encoding.split(";", 1)[1]
                     if encoding_post not in dict_data[character]:
                         dict_data[character].append(encoding_post)
     return dict_data
