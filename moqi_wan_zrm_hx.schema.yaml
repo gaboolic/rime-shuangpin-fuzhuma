@@ -21,12 +21,12 @@ schema:
   dependencies:
     - reverse_moqima
     - radical_flypy
+    - cangjie5
     - stroke
     - zrlf
     - emoji
     - easy_en
     - jp_sela
-    - moqi_big
 
 __include: moqi.yaml:/switches_engine
 __include: moqi.yaml:/phrase # 置顶
