@@ -348,7 +348,7 @@ recognizer:
     # func_translator: "^af(.*)$"
 
 menu:
-  page_size: 8
+  page_size: 6
 
 quanpin:
   tag: quanpin
