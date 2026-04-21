@@ -24,7 +24,6 @@ switcher:
   hotkeys:
     - Control+grave
     - Control+Shift+grave
-    - F4
   save_options:
     - ascii_mode
     - full_shape
