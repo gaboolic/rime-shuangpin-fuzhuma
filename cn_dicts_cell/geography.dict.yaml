@@ -20,7 +20,7 @@ use_preset_vocabulary: false
 斑晶	ban;ww;ww;ww;aj,aa;mg;nn;gy;ww; jing;oo;oo;oo;vv;aa;oo;jj;oo;	7
 板块边界	ban;my;my;mf;wl;de,xe;er;sr;ly; kuai;tg;tg;td,tg;ge,gx;gk;gj;fn;tn; bian;zl;zl;zl;uq;ys;su;lp;zl; jie;tj;tl;tj;wp;wl;qp;lw;tj;	18
 板块构造说	ban;my;my;mf;wl;de,xe;er;sr;ly; kuai;tg;tg;td,tg;ge,gx;gk;gj;fn;tn; gou;mg;ms;mg;wp;di,xi;ek;sq;lv; zao;zk;zk;zg;bq;yr;qu;tf;zk; shuo;yx;ye;yd;ck;iu;sp;yu;ye;	0
-板块构造学	ban;my;my;mf;wl;de,xe;er;sr;ly; kuai;tg;tg;td,tg;ge,gx;gk;gj;fn;tn; gou;mg;ms;mg;wp;di,xi;ek;sq;lv; zao;zk;zk;zg;bq;yr;qu;tf;zk; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	6
+板块构造学	ban;my;my;mf;wl;de,xe;er;sr;ly; kuai;tg;tg;td,tg;ge,gx;gk;gj;fn;tn; gou;mg;ms;mg;wp;di,xi;ek;sq;lv; zao;zk;zk;zg;bq;yr;qu;tf;zk; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	9
 板块会聚	ban;my;my;mf;wl;de,xe;er;sr;ly; kuai;tg;tg;td,tg;ge,gx;gk;gj;fn;tn; hui;ry;rs;ry;ep;oi;jb;wf;rv; ju;eu;en;ed,ey,qd,yq;dh;so;qk;bc;en;	0
 板块假说	ban;my;my;mf;wl;de,xe;er;sr;ly; kuai;tg;tg;td,tg;ge,gx;gk;gj;fn;tn; jia;ry;ry;rj,ry;xl;oe;jr;wn;ry; shuo;yx;ye;yd;ck;iu;sp;yu;ye;	0
 板块间地震	ban;my;my;mf;wl;de,xe;er;sr;ly; kuai;tg;tg;td,tg;ge,gx;gk;gj;fn;tn; jian;mo;mo;mo,om;ov;la;ao;uj;mo; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh;	0
@@ -33,7 +33,7 @@ use_preset_vocabulary: false
 板块学说	ban;my;my;mf;wl;de,xe;er;sr;ly; kuai;tg;tg;td,tg;ge,gx;gk;gj;fn;tn; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez; shuo;yx;ye;yd;ck;iu;sp;yu;ye;	10
 斑粝岩	ban;ww;ww;ww;aj,aa;mg;nn;gy;ww; li;mw;mw;ml;lu,le;fs;pp;od;mw; yan;uu;eu;uu;pt;ur;vm;md;sk;	0
 板内地震	ban;my;my;mf;wl;de,xe;er;sr;ly; nei;kr;ld;ad,kr;oe;ob,xb;mj;mw;ad; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh;	0
-阪泉	ban;ey;ey;ef;bl;ne;tr;br;ey; quan;bu;bu;bu,ub;so;he;uk;ri;bu;	122
+阪泉	ban;ey;ey;ef;bl;ne;tr;br;ey; quan;bu;bu;bu,ub;so;he;uk;ri;bu;	73
 半日潮汐	ban;bf;dl;bf;fp,fs;fq;hu;uf;da; ri;ka;ka;aa,or,ri;vv;aa;or;jj;wa; chao;do;do;di;kl;eb;kv;if;do; xi;dx;dx;dx;kf;ei;kl;iq;dx;	0
 斑铜矿	ban;ww;ww;ww;aj,aa;mg;nn;gy;ww; tong;jk;jk;jt;do;or;zd;qm;jk; kuang;ug;ug;ug;tr;mi;mx;dy;ug;	0
 斑纹带	ban;ww;ww;ww;aj,aa;mg;nn;gy;ww; wen;sw;sw;sw;ej;vk;iv;xy;sx; dai;cj;fj;jb;zy;tb;lr;gk;aj;	0
@@ -89,7 +89,7 @@ use_preset_vocabulary: false
 冰川退缩	bing;du;du;du;fo;ie;wk;ui;du; chuan;pl;pl;pa;up;ll;oc;kt;pa; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; suo;sb;sb;ss;eo,es;va;iu;xp;so;	11
 冰川物质平衡	bing;du;du;du;fo;ie;wk;ui;du; chuan;pl;pl;pa;up;ll;oc;kt;pa; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; heng;rd;ii;xd,xi;hj,hp;hn;pw;tq;rd;	0
 冰川隙	bing;du;du;du;fo;ie;wk;ui;du; chuan;pl;pl;pa;up;ll;oc;kt;pa; xi;eo;ex;ex;bf;nf;ty;bi;ex;	0
-冰川学	bing;du;du;du;fo;ie;wk;ui;du; chuan;pl;pl;pa;up;ll;oc;kt;pa; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	4
+冰川学	bing;du;du;du;fo;ie;wk;ui;du; chuan;pl;pl;pa;up;ll;oc;kt;pa; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	1
 冰底碛	bing;du;du;du;fo;ie;wk;ui;du; di;gu;gd;gd;rh;im,ii;xi;yq;gd; qi;ub;ur;uz;tm;mo;mo;dg;ur;	0
 冰斗冰川	bing;du;du;du;fo;ie;wk;ui;du; dou;ud;du;du;hs,sh;yj;jd;uf;du; bing;du;du;du;fo;ie;wk;ui;du; chuan;pl;pl;pa;up;ll;oc;kt;pa;	2
 冰分凝	bing;du;du;du;fo;ie;wk;ui;du; fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; ning;dz;dr;dy;fe;io;wt;ux;dr;	0
@@ -99,7 +99,7 @@ use_preset_vocabulary: false
 冰胶结	bing;du;du;du;fo;ie;wk;ui;du; jiao;of;ox;oj;ly;bk;vb;eu;ox; jie;sk;sk;sj;eo;vr;id;xf;sk;	0
 冰砾阶地	bing;du;du;du;fo;ie;wk;ui;du; li;ul;ul;ul,uy;tf;md;my;dq;ul; jie;ej;el;ej;bp;nl;tp;bw;ej; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty;	0
 冰砾泥	bing;du;du;du;fo;ie;wk;ui;du; li;ul;ul;ul,uy;tf;md;my;dq;ul; ni;db;db;dn;ka;ep;kv;in;db;	0
-冰碛	bing;du;du;du;fo;ie;wk;ui;du; qi;ub;ur;uz;tm;mo;mo;dg;ur;	66
+冰碛	bing;du;du;du;fo;ie;wk;ui;du; qi;ub;ur;uz;tm;mo;mo;dg;ur;	61
 冰期后	bing;du;du;du;fo;ie;wk;ui;du; qi;co;qo;oq,qo;vl;tb;zv;ad;qo; hou;ik;pk;pk;uo;hr;xd;rg;pk;	1
 冰碛平原	bing;du;du;du;fo;ie;wk;ui;du; qi;ub;ur;uz;tm;mo;mo;dg;ur; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; yuan;ix;ix;ix;rf;mf;xy;dr;ix;	0
 冰碛平原水系	bing;du;du;du;fo;ie;wk;ui;du; qi;ub;ur;uz;tm;mo;mo;dg;ur; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; yuan;ix;ix;ix;rf;mf;xy;dr;ix; shui;ln;ln;ad,uv;oo;ee;ks;ii;vn; xi;px;px;ps;uf;hf;ti;tx;px;	0
@@ -129,7 +129,7 @@ use_preset_vocabulary: false
 波压	bo;dp;dy;dp;kl;ee;kr;ih;dy; ya;id;id;id,it;rh;mi,xi;xi;df;id;	0
 波运动	bo;dp;dy;dp;kl;ee;kr;ih;dy; yun;zy;zs;zy;uq;yi;bu;fc;zv; dong;yl;el;ly,yl;uu;ms;bs;fc;el;	0
 波至	bo;dp;dy;dp;kl;ee;kr;ih;dy; zhi;gt;at;tv,vt;dg;mg;yi;gc;at;	0
-波周期	bo;dp;dy;dp;kl;ee;kr;ih;dy; zhou;kk;kk;kj,kk;oo,uo;br;md;mf;pk; qi;co;qo;oq,qo;vl;tb;zv;ad;qo;	51
+波周期	bo;dp;dy;dp;kl;ee;kr;ih;dy; zhou;kk;kk;kj,kk;oo,uo;br;md;mf;pk; qi;co;qo;oq,qo;vl;tb;zv;ad;qo;	3
 不称河	bu;ab;ad;ad,ax;dh,df;mf;cb;i,gi;ad; cheng;hx;hx;he;uf;hf;xy;tq;hx; he;dk;dk;dk;kj,ko;er;kz;is;dk;	0
 不等厚	bu;ab;ad;ad,ax;dh,df;mf;cb;i,gi;ad; deng;vc;vc;vs;nk;hi;rk;tf;vc; hou;iz;iz;iz;ra;md;xh;dj;iz;	3
 不对称水系	bu;ab;ad;ad,ax;dh,df;mf;cb;i,gi;ad; dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; chen;hx;hx;he;uf;hf;xy;tq;hx; shui;ln;ln;ad,uv;oo;ee;ks;ii;vn; xi;px;px;ps;uf;hf;ti;tx;px;	0
@@ -158,7 +158,7 @@ use_preset_vocabulary: false
 草原土壤	cao;cu;cu;cz;zs;tj;ln;aj;cu; yuan;ix;ix;ix;rf;mf;xy;dr;ix; tu;ua;ua;aa;gg;gg;gt;ff;ua; rang;tf;ty;tx,ty;gh;gv;gf;fy;th;	1
 测地参考系	ce;dd;dd;dz;ki;en;kp;im;dd; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; can;sp;sp;sp;pu;ih;ke;cd;vp; kao;lk;lv;lk;gr;js;qa;ft;uv; xi;px;px;ps;uf;hf;ti;tx;px;	0
 测氡计仪	ce;dd;dd;dz;ki;en;kp;im;dd; dong;qd;qd;qd;sh;oy;vw;rn;qd; ji;yu;yu;yu;cs;ij;sn;yf;yu; yi;ry;ry;ry;xy,xh;ok,xk;jb;wy;ry;	0
-测井	ce;dd;dd;dz;ki;en;kp;im;dd; jing;ac,el;al;aa,ep;up;tt;qj;fj;aa;	59
+测井	ce;dd;dd;dz;ki;en;kp;im;dd; jing;ac,el;al;aa,ep;up;tt;qj;fj;aa;	58
 侧向侵蚀	ce;rd;rd;rz;xi;on;jp;wm;rd; xiang;pk;pk;pk;uo;hr;td;tm;pk; qin;ry;ry;ry;xl;oe;jr;wv;ry; shi;ui;ui;ui;gf;ni;qc;qn;ui;	0
 测震学	ce;dd;dd;dz;ki;en;kp;im;dd; zhen;yi;yn;yi;yh;mv;tf;fd;yh; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
 层底高程	ceng;uy;us;uy;qp;si;cb;nf;uv; di;gu;gd;gd;rh;im,ii;xi;yq;gd; gao;wk;wk;wk;io;yr;gg;ym;wk; cheng;hw;hw;hi;ua;hg;xn;tk;hw;	0
@@ -306,7 +306,7 @@ use_preset_vocabulary: false
 大地电阻法	da;ar;un;ad;xx;kk;md;dd;an; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; dian;ov,yv;lv;ag,og;ee,ve;lu;oa;jn;av; zu;eq;eq;eq;bu;nm;tf;be;eq; fa;dq;ds;dq;kp;ei;kk;if;dv;	0
 大地构造单元	da;ar;un;ad;xx;kk;md;dd;an; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; gou;mg;ms;mg;wp;di,xi;ek;sq;lv; zao;zk;zk;zg;bq;yr;qu;tf;zk; dan;bu;bl;ba,bd;fs;cj;hn;uj;ea; yuan;aw;ee;aw,ee;uk;mu;mp;fq;ee;	1
 大地构造体系	da;ar;un;ad;xx;kk;md;dd;an; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; gou;mg;ms;mg;wp;di,xi;ek;sq;lv; zao;zk;zk;zg;bq;yr;qu;tf;zk; ti;rb;rb;rb;xd;om;jf;ws;rb; xi;px;px;ps;uf;hf;ti;tx;px;	0
-大地构造学	da;ar;un;ad;xx;kk;md;dd;an; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; gou;mg;ms;mg;wp;di,xi;ek;sq;lv; zao;zk;zk;zg;bq;yr;qu;tf;zk; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	2
+大地构造学	da;ar;un;ad;xx;kk;md;dd;an; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; gou;mg;ms;mg;wp;di,xi;ek;sq;lv; zao;zk;zk;zg;bq;yr;qu;tf;zk; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	4
 大地基准面	da;ar;un;ad;xx;kk;md;dd;an; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; ji;ct;qt;tq,qt;vg;tg;zg;ad;qt; zhun;dv;df;dv;fa;ig;wu;uw;da; mian;ao;aa;aa;dd,du;ml;bm;dm;aa;	2
 大地控制网	da;ar;un;ad;xx;kk;md;dd;an; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; kong;fg;fg;fk;jp;qm;uu;rp;fg; zhi;nd;pd;dg,dv;bi;hn;qp;rm;pd; wang;kx;kx;ki;oy;bk;mb;mq;ax;	1
 大地三角测量	da;ar;un;ad;xx;kk;md;dd;an; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; san;ae;ae;aa;uu;mm;ts;dg;ae; jiao;dy;dy;dy;gp;ng,nq;xt;qe;ey; ce;dd;dd;dz;ki;en;kp;im;dd; liang;ol;ol;ol;vg;ag;od;jg;dl;	0
@@ -392,7 +392,7 @@ use_preset_vocabulary: false
 地电法	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; dian;ov,yv;lv;ag,og;ee,ve;lu;oa;jn;av; fa;dq;ds;dq;kp;ei;kk;if;dv;	0
 地电仪	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; dian;ov,yv;lv;ag,og;ee,ve;lu;oa;jn;av; yi;ry;ry;ry;xy,xh;ok,xk;jb;wy;ry;	0
 递发地震	di;zd;zp;zd;fq;yh;hu;ux;zd; fa;fy;vd;ay,fd,vy,yd;rh,rl;ie;si;v,nt;vy; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh;	0
-地方气候	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; qi;pv;pv;py,ry;ss;on,xn;vq;rn;pv; hou;ru;ru;ru;xx;ok;jo;wh;rd;	4
+地方气候	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; qi;pv;pv;py,ry;ss;on,xn;vq;rn;pv; hou;ru;ru;ru;xx;ok;jo;wh;rd;	6
 地方震	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; zhen;yi;yn;yi;yh;mv;tf;fd;yh;	0
 地缝合线	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; feng;sf;sz;sf;eq;vj;iu;xt;sf; he;rk;rk;rk;eo;or;jd;wg;rk; xian;sj;sj;sj;ea;vj;ip;xg;sg;	1
 迪夫里伊	di;zy;zy;zy;vq;yw;du;mp;zy; fu;er;an;ad,er;ee;qo;hf;fw;an; li;tt;la;aa,tt;vg;wg;dl;jf;aa; yi;ry,rp;ry;ry;xu;ok;jt;wv;ry;	0
@@ -461,7 +461,7 @@ use_preset_vocabulary: false
 地面振幅	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; mian;ao;aa;aa;dd,du;ml;bm;dm;aa; zhen;fi;fn;fi;jh;qv;uf;rd;fh; fu;jt;jt;jf,jt;yw;lw;rq;mh;jt;	0
 地名罗马化	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; ming;xk;xk;xk;fo;nr;ld;qk;xk; luo;sx;sx;sx;af;wi;yl;lq;sx; ma;va;va;aa,vh;zz;nm;nm;cn;va; hua;rb;rb;rb;xa;op;jv;wx;rb;	0
 地名正名	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; ming;xk;xk;xk;fo;nr;ld;qk;xk; zheng;av;av;av;dr;mm;fs;gh;av; ming;xk;xk;xk;fo;nr;ld;qk;xk;	0
-地炮	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; pao;hb;hs;hb;tt;fu;cv;oq;hv;	6
+地炮	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; pao;hb;hs;hb;tt;fu;cv;oq;hv;	3
 底辟构造	di;gu;gd;gd;rh;im,ii;xi;yq;gd; pi;ux;uu;xk;qs;sj;cn;nk;uu; gou;mg;ms;mg;wp;di,xi;ek;sq;lv; zao;zk;zk;zg;bq;yr;qu;tf;zk;	0
 地平经圈	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; jing;sj;sg;sg;ep;vm;iu;x,xc;sg; quan;kv;kv;kj;nt;wu;rz;lu;wv;	0
 底碛	di;gu;gd;gd;rh;im,ii;xi;yq;gd; qi;ub;ur;uz;tm;mo;mo;dg;ur;	0
@@ -471,7 +471,7 @@ use_preset_vocabulary: false
 地壳地震	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiao;tj;uj;uj;gi;gn,xn;go;fp;uj; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh;	0
 地壳均衡	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiao;tj;uj;uj;gi;gn,xn;go;fp;uj; jun;ty;td;ty;gf;gm;gw;fq;td; heng;rd;ii;xd,xi;hj,hp;hn;pw;tq;rd;	3
 地壳增厚	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiao;tj;uj;uj;gi;gn,xn;go;fp;uj; zeng;to;to;tc;gv;ga;go;fu;to; hou;iz;iz;iz;ra;md;xh;dj;iz;	1
-地倾斜	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qing;ry;rr;rq;xm;oo;jw;wx;rr; xie;rd;ru;dy;es,eh;oj;jj;wt;ru;	2
+地倾斜	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qing;ry;rr;rq;xm;oo;jw;wx;rr; xie;rd;ru;dy;es,eh;oj;jj;wt;ru;	1
 地球变化磁场	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; bian;wy;wy;wy,yy;il;ye;zr;yo;wy; hua;rb;rb;rb;xa;op;jv;wx;rb; ci;uy;uy;uz;tp;mi;mi;du;us; chang;tp;tp;ty;gu;gh;ge;fn;tp;	0
 地球变形	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; bian;wy;wy;wy,yy;il;ye;zr;yo;wy; xing;kp;kp;pk;uu;mh;fe;ga;kp;	0
 地球潮汐	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; chao;do;do;di;kl;eb;kv;if;do; xi;dx;dx;dx;kf;ei;kl;iq;dx;	3
@@ -493,11 +493,11 @@ use_preset_vocabulary: false
 地球力学	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; li;vp;vp;gp;uu;ks;sl;lt;vp; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	1
 地球模型	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; mo;md;md;mm;wx;dk;em;sa;ld; xing;kt;kt;tx;ug;mg;fg;ga;kt;	0
 地球内部化学	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; nei;kr;ld;ad,kr;oe;ob,xb;mj;mw;ad; bu;le;le;ek,ep;bb;yl;it;uk;le; hua;rb;rb;rb;xa;op;jv;wx;rb; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
-地球膨胀	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; peng;op;op;op;lu;bh;ve;ef;op; zhang;oi;oi;oi;lh;bo;vp;et;oi;	4
+地球膨胀	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; peng;op;op;op;lu;bh;ve;ef;op; zhang;oi;oi;oi;lh;bo;vp;et;oi;	5
 地球膨胀说	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; peng;op;op;op;lu;bh;ve;ef;op; zhang;oi;oi;oi;lh;bo;vp;et;oi; shuo;yx;ye;yd;ck;iu;sp;yu;ye;	0
 地球收缩	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; shou;jw;vw;wj,jw;rj;vk;ih;nh;vw; suo;sb;sb;ss;eo,es;va;iu;xp;so;	0
 地球外重力位	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; wai;xb;xb;xb;fh;ny;ly;qh;xb; zhong;ql;pa;pa,ql;sg;hg;ld;tg;pa; li;vp;vp;gp;uu;ks;sl;lt;vp; wei;rl;rl;rl;xb;ot;ji;wu;rl;	0
-地球物理场	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw; li;wl;wl;wl;ag;mg;nd;gj;wl; chang;tp;tp;ty;gu;gh;ge;fn;tp;	11
+地球物理场	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw; li;wl;wl;wl;ag;mg;nd;gj;wl; chang;tp;tp;ty;gu;gh;ge;fn;tp;	6
 地球物理异常	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw; li;wl;wl;wl;ag;mg;nd;gj;wl; yi;sc;sc;cs,sc;tp,tz;rt,st;vl;na;va; chang;xj;xj;jk,xd,dd;hy;fb;sr;ip;ej;	0
 地球运动学	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; yun;zy;zs;zy;uq;yi;bu;fc;zv; dong;yl;el;ly,yl;uu;ms;bs;fc;el; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	1
 地球中心核	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; xin;dd;dd;dd;nn;pp;hx;ny;dd; he;mr;mr;mh;we,wh;do;ek;sy;lr;	0
@@ -522,7 +522,7 @@ use_preset_vocabulary: false
 地图分类	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; tu;kd;kd;kd;nh;wy;rw;lt;wd; fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; lei;md;md;md;lx;fk;pm;od;md;	0
 地图符号	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; tu;kd;kd;kd;nh;wy;rw;lt;wd; fu;vc;vc;vf;nw,nk;hi;rk;tw;vc; hao;kk;kv;kk;or;rs;da;kg;kv;	2
 地图符号学	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; tu;kd;kd;kd;nh;wy;rw;lt;wd; fu;vc;vc;vf;nw,nk;hi;rk;tw;vc; hao;kk;kv;kk;or;rs;da;kg;kv; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
-地图概括	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; tu;kd;kd;kd;nh;wy;rw;lt;wd; gai;mw;mv;mj;wk,wr;du;ed;sv;lj; kuo;fu;fk;fu;jo;qr;ua;rt;fk;	5
+地图概括	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; tu;kd;kd;kd;nh;wy;rw;lt;wd; gai;mw;mv;mj;wk,wr;du;ed;sv;lj; kuo;fu;fk;fu;jo;qr;ua;rt;fk;	2
 地图感受论	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; tu;kd;kd;kd;nh;wy;rw;lt;wd; gan;wx;xx,wx;xx;rn,hn;ip;nh;dg;kx; shou;vy;py;vy,yb;hl;be;yr;ep;py; lun;yl;yb;yl;ca;ip;sj;yw;yb;	0
 地图规范	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; tu;kd;kd;kd;nh;wy;rw;lt;wd; gui;fj;fe;fj,jf;ek,er;qu;he;fw;fj; fan;cv;cv;ce,cf;zt;tu;lz;ai;cv;	1
 地图归纳法	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; tu;kd;kd;kd;nh;wy;rw;lt;wd; gui;le;le;ax,dx;ps;lm;pb;jv;aa; na;sn;sn;sn;ee;vb;ij;xm;sn; fa;dq;ds;dq;kp;ei;kk;if;dv;	0
@@ -579,7 +579,7 @@ use_preset_vocabulary: false
 地域专业化	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; yu;ta;ta;th;gd,gh,ga;gm;gf;fa;tg; zhuan;ts;ad;ad,fs;uh;qi;mi;fn;ad; ye;la;la;aa;pd,hd;tc,xc;cy;og;aa; hua;rb;rb;rb;xa;op;jv;wx;rb;	0
 地月重心	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe; zhong;ql;pa;pa,ql;sg;hg;ld;tg;pa; xin;dd;dd;dd;nn;pp;hx;ny;dd;	0
 地噪声	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zao;km;km;kz;ow;rd;de;kk;kl; sheng;tu;up;um;gp;gh;gc;fn;up;	2
-地震保险	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; bao;rm;rm;rd;xw;od;je;wk;rl; xian;eq;ea;ea,eq;bd;nm;tf;bw;ea;	6
+地震保险	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; bao;rm;rm;rd;xw;od;je;wk;rl; xian;eq;ea;ea,eq;bd;nm;tf;bw;ea;	5
 地震避难场所	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; bi;zx;zu;zb,zx;qq;yj;cu;nk;zu; nan;yv;yf;yv;la;eg;ru;cw;ya; chang;tp;tp;ty;gu;gh;ge;fn;tp; suo;hj;pj;hj,jh;up;hl;mt;rn;pj;	0
 地震波传播	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; bo;dp;dy;dp;kl;ee;kr;ih;dy; chuan;rv;rv;rv;xh;oi;ji;wf;rv; bo;ft;ft;ff;jw;qw;uq;rt;ft;	1
 地震波衰减	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; bo;dp;dy;dp;kl;ee;kr;ih;dy; shuai;yv;wy;yv,wy;ih;yv;tf;yk;wh; jian;dk;dk;dx;fh;ir;wd;ud;dg;	0
@@ -613,7 +613,7 @@ use_preset_vocabulary: false
 地震短期预报	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; duan;ub;ua;ud;ed;ot;oz;td;ud; qi;co;qo;oq,qo;vl;tb;zv;ad;qo; yu;yy;sr;yy;pm;no;iw;cb;vr; bao;fy;fy;fy;jl;qe;ur;rb;fy;	0
 地震对策	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; ce;vu;vn;vc;nh;hb;rm;tg;vn;	0
 地震反射	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; fan;iy;py;py;ul;he;xr;rc;py; she;uc;uc;cu,uc;uk;hi;zk;tm;uc;	0
-地震反演	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; fan;iy;py;py;ul;he;xr;rc;py; yan;db;db;dy;kf;ec;kh;ip;db;	12
+地震反演	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; fan;iy;py;py;ul;he;xr;rc;py; yan;db;db;dy;kf;ec;kh;ip;db;	2
 地震反应谱	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; fan;iy;py;py;ul;he;xr;rc;py; ying;ga;ga;ga;rd;im;xf;yi;ga; pu;yo;yo;yp;cv;ia;so;yu;yo;	0
 地震放大器	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; fang;fw;fw;wf,fw;fj;yk;lh;yt;fw; da;ar;un;ad;xx;kk;md;dd;an; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	0
 地震分布图	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; bu;uj;uj;ju,uj;sy,dy;kb;nr;dm;aj; tu;kd;kd;kd;nh;wy;rw;lt;wd;	0
@@ -754,7 +754,7 @@ use_preset_vocabulary: false
 地质规律	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; gui;fj;fe;fj,jf;ek,er;qu;he;fw;fj; lv;ry;iy;xy;hp;hq;wb;tv;ra;	2
 地质基础	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; ji;ct;qt;tq,qt;vg;tg;zg;ad;qt; chu;ui;ui;ui;tp;mu;mm;db;ui;	5
 地质简况	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; jian;vo;vo;vj;nv;ha;ro;tu;vo; kuang;dx;de;dx;fk;iu;wp;uk;de;	0
-地质结构	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; jie;sk;sk;sj;eo;vr;id;xf;sk; gou;mg;ms;mg;wp;di,xi;ek;sq;lv;	49
+地质结构	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; jie;sk;sk;sj;eo;vr;id;xf;sk; gou;mg;ms;mg;wp;di,xi;ek;sq;lv;	44
 地质勘查报告	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; kan;cl;ql;lu;vu;ts;zs;ad;ul; cha;md;ma;md;wd;dm;ef;sj;ld; bao;fy;fy;fy;jl;qe;ur;rb;fy; gao;nk;nk;kn,nk;bo;hr;qd;tf;pk;	0
 地质勘查剖面测量	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; kan;cl;ql;lu;vu;ts;zs;ad;ul; cha;md;ma;md;wd;dm;ef;sj;ld; pou;ld;ld;dk,dp;bi;yn;ip;uk;ld; mian;ao;aa;aa;dd,du;ml;bm;dm;aa; ce;dd;dd;dz;ki;en;kp;im;dd; liang;ol;ol;ol;vg;ag;od;jg;dl;	0
 地质科学研究所	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; ke;hd;hu;hd;uh,us;hj;xj;tu;hu; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez; yan;uk;uk;uk;tp;mt;ml;dg;uk; jiu;bj;bj;xj,bj;ir;jn;ek;pw;gj; suo;hj;pj;hj,jh;up;hl;mt;rn;pj;	0
@@ -921,9 +921,9 @@ use_preset_vocabulary: false
 分层设色法	fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; ceng;uy;us;uy;qp;si;cb;nf;uv; she;yu;yy;yu;cl;ie;sr;ym;yy; se;db;db;db;gt;nu;xm;qc;eb; fa;dq;ds;dq;kp;ei;kk;if;dv;	1
 分汊率	fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; cha;di;di;di;kh;ei;ki;ic;di; lv;wu;wu;wu;is;yj;zn;yx;wu;	0
 分岔系数	fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; cha;fu;be;uf;fp;cu;hv;wv;bs; xi;px;px;ps;uf;hf;ti;tx;px; shu;mw;mw;wl;lj;fk;ph;ov;mw;	0
-分解生物	fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; jie;dn;dn;jn;gb;nq;xq;qe;en; sheng;pf;pf;na;eg;hm;ls;tg;pa; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw;	2
+分解生物	fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; jie;dn;dn;jn;gb;nq;xq;qe;en; sheng;pf;pf;na;eg;hm;ls;tg;pa; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw;	1
 芬兰堡	fen;cf;cd;cf;zi,zu;th;lp;aw;cd; lan;bs;bs;bs,qe;fu;tm;ht;uf;es; bao;rt;rt;tb;xg;og;jg;wk;rt;	0
-分裂说	fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; lie;dy;dy;yl;fk;mv;gt;gq;dh; shuo;yx;ye;yd;ck;iu;sp;yu;ye;	2
+分裂说	fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; lie;dy;dy;yl;fk;mv;gt;gq;dh; shuo;yx;ye;yd;ck;iu;sp;yu;ye;	0
 分配结构模型	fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; pei;yj;yj;yj;pt;mu;yv;sg;yj; jie;sk;sk;sj;eo;vr;id;xf;sk; gou;mg;ms;mg;wp;di,xi;ek;sq;lv; mo;md;md;mm;wx;dk;em;sa;ld; xing;kt;kt;tx;ug;mg;fg;ga;kt;	0
 分散城市	fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; san;cw;cw;wo;zj;tk;lh;ae;cw; cheng;ti;ti;ti;gh;gs;ga;fd;tg; shi;wj;wj;wj;iy;yb;zr;ym;wj;	0
 粉砂土	fen;mf;md;mf;li,lu;fh;pp;ow;md; sha;uu;uu;uu;ti,tu;mh;mt;di;uu; tu;ua;ua;aa;gg;gg;gt;ff;ua;	0
@@ -1013,7 +1013,7 @@ use_preset_vocabulary: false
 工程动力地质学	gong;aa;aa;aa;pp;mm;ug;a,aa;aa; cheng;hw;hw;hi;ua;hg;xn;tk;hw; dong;yl;el;ly,yl;uu;ms;bs;fc;el; li;vp;vp;gp;uu;ks;sl;lt;vp; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
 工程范围	gong;aa;aa;aa;pp;mm;ug;a,aa;aa; cheng;hw;hw;hi;ua;hg;xn;tk;hw; fan;cv;cv;ce,cf;zt;tu;lz;ai;cv; wei;kw;kw;kw;np;ws;rg;lf;ww;	0
 工程活动	gong;aa;aa;aa;pp;mm;ug;a,aa;aa; cheng;hw;hw;hi;ua;hg;xn;tk;hw; huo;du;dk;du;ko;er;ka;it;dk; dong;yl;el;ly,yl;uu;ms;bs;fc;el;	0
-工程勘察设计	gong;aa;aa;aa;pp;mm;ug;a,aa;aa; cheng;hw;hw;hi;ua;hg;xn;tk;hw; kan;cl;ql;lu;vu;ts;zs;ad;ul; cha;bu;bx;bj;if;jf;wf;pw;gx; she;yu;yy;yu;cl;ie;sr;ym;yy; ji;yu;yu;yu;cs;ij;sn;yf;yu;	8
+工程勘察设计	gong;aa;aa;aa;pp;mm;ug;a,aa;aa; cheng;hw;hw;hi;ua;hg;xn;tk;hw; kan;cl;ql;lu;vu;ts;zs;ad;ul; cha;bu;bx;bj;if;jf;wf;pw;gx; she;yu;yy;yu;cl;ie;sr;ym;yy; ji;yu;yu;yu;cs;ij;sn;yf;yu;	6
 工程手段	gong;aa;aa;aa;pp;mm;ug;a,aa;aa; cheng;hw;hw;hi;ua;hg;xn;tk;hw; shou;pf;pl;pa,ub;up;qq;us;rt;pv; duan;pu;py;ud,du,pu;ul;he;ur;wd;py;	0
 工程岩土学	gong;aa;aa;aa;pp;mm;ug;a,aa;aa; cheng;hw;hw;hi;ua;hg;xn;tk;hw; yan;uu;eu;uu;pt;ur;vm;md;sk; tu;ua;ua;aa;gg;gg;gt;ff;ua; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
 工程震害预测	gong;aa;aa;aa;pp;mm;ug;a,aa;aa; cheng;hw;hw;hi;ua;hg;xn;tk;hw; zhen;yi;yn;yi;yh;mv;tf;fd;yh; hai;bk;bk;bk;io;jr;wd;pd;gk; yu;yy;sr;yy;pm;no;iw;cb;vr; ce;dd;dd;dz;ki;en;kp;im;dd;	0
@@ -1074,12 +1074,12 @@ use_preset_vocabulary: false
 固定论	gu;kg;kk;kg;no;wr;rc;ld;wk; ding;bz;br;bp;ie;jo;wt;pg;gr; lun;yl;yb;yl;ca;ip;sj;yw;yb;	0
 固定沙丘	gu;kg;kk;kg;no;wr;rc;ld;wk; ding;bz;br;bp;ie;jo;wt;pg;gr; sha;du;du;du;ku;eh;kt;ii;du; qiu;ja;pa;pa,ja;ud;om;tf;rg;pa;	1
 孤峰组	gu;zg;zg;zg;ah;no;hy;br;zg; feng;uf;ef;uf;pa;uj;va;mt;sf; zu;sq;sq;sq;eu;vm;if;xe;sq;	0
-鼓丘	gu;tv;uy;vd,uv;gl;ge;hc;fk;uy; qiu;ja;pa;pa,ja;ud;om;tf;rg;pa;	8
+鼓丘	gu;tv;uy;vd,uv;gl;ge;hc;fk;uy; qiu;ja;pa;pa,ja;ud;om;tf;rg;pa;	6
 古生代花岗岩	gu;uk;uk;uk;so;jr;cg;dg;uk; sheng;pf;pf;na;eg;hm;ls;tg;pa; dai;ry;ry;ry;xa,xh;op;jp;wa;rg; hua;cb;cb;ch;za;tp;lv;aw;cb; gang;ux;ex;ug;py;uk;vb;mm;sx; yan;uu;eu;uu;pt;ur;vm;md;sk;	0
 古水文学	gu;uk;uk;uk;so;jr;cg;dg;uk; shui;ln;ln;ad,uv;oo;ee;ks;ii;vn; wen;wx;wx;wi,dd;jj;yk;vw;yy;wx; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	1
 顾特卜塔	gu;iy;ir;ye;rm;mo;xw;db;ir; te;nc;nc;ns;bk;hi;qk;tr;nc; bu;ld;ld;ad;ph;yy;yb;hh;ad; ta;tk;tk;td,th;go;gr;gd;fa;tk;	0
 固体潮振荡	gu;kg;kk;kg;no;wr;rc;ld;wk; ti;rb;rb;rb;xd;om;jf;ws;rb; chao;do;do;di;kl;eb;kv;if;do; zhen;fi;fn;fi;jh;qv;uf;rd;fh; dang;cp;cp;ct;zu;th;le;ai;ct;	0
-固体地球	gu;kg;kk;kg;no;wr;rc;ld;wk; ti;rb;rb;rb;xd;om;jf;ws;rb; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq;	8
+固体地球	gu;kg;kk;kg;no;wr;rc;ld;wk; ti;rb;rb;rb;xd;om;jf;ws;rb; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq;	9
 固体地球潮汐	gu;kg;kk;kg;no;wr;rc;ld;wk; ti;rb;rb;rb;xd;om;jf;ws;rb; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; chao;do;do;di;kl;eb;kv;if;do; xi;dx;dx;dx;kf;ei;kl;iq;dx;	1
 固体地球化学	gu;kg;kk;kg;no;wr;rc;ld;wk; ti;rb;rb;rb;xd;om;jf;ws;rb; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; hua;rb;rb;rb;xa;op;jv;wx;rb; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
 固体热力学	gu;kg;kk;kg;no;wr;rc;ld;wk; ti;rb;rb;rb;xd;om;jf;ws;rb; re;fh;fh;hv;jn;qf;uc;rv;fe; li;vp;vp;gp;uu;ks;sl;lt;vp; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
@@ -1094,7 +1094,7 @@ use_preset_vocabulary: false
 光电地震计	guang;xe;xw;ea,xw;hk;fu;mg;iq;ee; dian;ov,yv;lv;ag,og;ee,ve;lu;oa;jn;av; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; ji;yu;yu;yu;cs;ij;sn;yf;yu;	0
 光化学氧化剂	guang;xe;xw;ea,xw;hk;fu;mg;iq;ee; hua;rb;rb;rb;xa;op;jv;wx;rb; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez; yang;qy;qy;qy;sp;oq;vg;rn;qy; hua;rb;rb;rb;xa;op;jv;wx;rb; ji;qd;wd;dq;ji;yn;qp;yj;wd;	0
 光弹性实验	guang;xe;xw;ea,xw;hk;fu;mg;iq;ee; tan;gu;gl;gd;rs;nj;bn;xu;gd; xing;xu;xu;xu;ng,na;pm;hl;nt;xu; shi;bd;bd;bt;ix;jk;wm;pu;gd; yan;mq;ma;ma,mq;zd;nm;nf;cw;ma;	0
-光学图像处理	guang;xe;xw;ea,xw;hk;fu;mg;iq;ee; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez; tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; chu;wb;wb;wb;jh,uh;ho,hy,xy;hy;th;wb; li;wl;wl;wl;ag;mg;nd;gj;wl;	0
+光学图像处理	guang;xe;xw;ea,xw;hk;fu;mg;iq;ee; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez; tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; chu;wb;wb;wb;jh,uh;ho,hy,xy;hy;th;wb; li;wl;wl;wl;ag;mg;nd;gj;wl;	2
 硅孔雀石	gui;ut;ut;ug;tg;mg;mg;df;ut; kong;zv;zv;zg;ar;nu;ha;bn;zv; que;xv;uf;vx,xv;pf,ia;fg;yu;iw;ua; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak;	1
 硅铝层	gui;ut;ut;ug;tg;mg;mg;df;ut; lv;jk;jk;jl;do;or;zd;qk;jk; ceng;uy;us;uy;qp;si;cb;nf;uv;	0
 硅铝矿物	gui;ut;ut;ug;tg;mg;mg;df;ut; lv;jk;jk;jl;do;or;zd;qk;jk; kuang;ug;ug;ug;tr;mi;mx;dy;ug; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw;	2
@@ -1105,7 +1105,7 @@ use_preset_vocabulary: false
 硅铍石化	gui;ut;ut;ug;tg;mg;mg;df;ut; pi;jp;jy;jp;dl;oe;zr;qh;jy; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; hua;rb;rb;rb;xa;op;jv;wx;rb;	0
 硅锌矿	gui;ut;ut;ug;tg;mg;mg;df;ut; xin;jx;ju;jx;ds;oj;zn;qu;ju; kuang;ug;ug;ug;tr;mi;mx;dy;ug;	0
 硅质灰岩	gui;ut;ut;ug;tg;mg;mg;df;ut; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; hui;uh;uh;hu,uh;dt,st;kf;nc;do;ah; yan;uu;eu;uu;pt;ur;vm;md;sk;	0
-贵族墓葬	gui;vb;vr;ba,vb;fm;lo;co;kh;vr; zu;fu;fu;fu;fx;yk;lo;yt;fd; mu;ct;ct;tm,ct;zg;tg;lg;aj;ct; zang;cc;cc;cc;zp,zz;tt;ll;ag;ca;	28
+贵族墓葬	gui;vb;vr;ba,vb;fm;lo;co;kh;vr; zu;fu;fu;fu;fx;yk;lo;yt;fd; mu;ct;ct;tm,ct;zg;tg;lg;aj;ct; zang;cc;cc;cc;zp,zz;tt;ll;ag;ca;	26
 滚动背斜构造	gun;dg;dy;dg;kh;ev,xv;kk;iu;dh; dong;yl;el;ly,yl;uu;ms;bs;fc;el; bei;bo;lo;ob;ll;lb;av;ux;bo; xie;rd;ru;dy;es,eh;oj;jj;wt;ru; gou;mg;ms;mg;wp;di,xi;ek;sq;lv; zao;zk;zk;zg;bq;yr;qu;tf;zk;	0
 过渡型地壳	guo;zc;zc;zc;kq;yi;ku;fp;zc; du;dy;dy;dd;kl;ee;kr;iy;dy; xing;kt;kt;tx;ug;mg;fg;ga;kt; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiao;tj;uj;uj;gi;gn,xn;go;fp;uj;	0
 国际和平公园	guo;ky;ky;ky;na,nh;wi;ri;l,lg;wy; ji;eu;ex;eu;bf;nf;tf;bf;ex; he;hk;hk;hk;uo;hr;xd;t,tk;hk; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; gong;bs;bs;sb,bs;fp;ci;hk;wc;bv; yuan;ky;ke;ky;nk;wu;rp;lf;we;	1
@@ -1238,7 +1238,7 @@ use_preset_vocabulary: false
 华沙历史中心	hua;ru;ru;uh;xs;oj;jn;wx;ru; sha;du;du;du;ku;eh;kt;ii;du; li;il;il;il;ru;ms,xs;xs;dl;il; shi;kn;ln;ad,ki;oy,oh;lk;db;kq;an; zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; xin;dd;dd;dd;nn;pp;hx;ny;dd;	0
 华氏城	hua;ru;ru;uh;xs;oj;jn;wx;ru; shi;pv;pv;pg;uh,ur,rh;hp;bs;qa;pv; cheng;ti;ti;ti;gh;gs;ga;fd;tg;	2
 华氏温度表	hua;ru;ru;uh;xs;oj;jn;wx;ru; shi;pv;pv;pg;uh,ur,rh;hp;bs;qa;pv; wen;dm;dm;dm,dw;kd,ka;et;ka;ij;dm; du;gy;gy;gy;rl;ie;xr;ya;gy; biao;fy;fy;fy;ah;qv;at;ge;ah;	0
-化石遗址	hua;rb;rb;rb;xa;op;jv;wx;rb; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; yi;zb;zr;zg;fq;yo,xo;cu;kh;zr; zhi;tv;tv;tv;gr;gm;gs;fh;tv;	1
+化石遗址	hua;rb;rb;rb;xa;op;jv;wx;rb; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; yi;zb;zr;zg;fq;yo,xo;cu;kh;zr; zhi;tv;tv;tv;gr;gm;gs;fh;tv;	0
 滑塌	hua;do;dg;dg;kc;eb;kf;im;do; ta;tx;tx;ty;gd;gm;gz;fj;tx;	1
 化探	hua;rb;rb;rb;xa;op;jv;wx;rb; tan;fm;fm;fm,fu;jw;qd;ue;rp;fl;	2
 化学剥蚀	hua;rb;rb;rb;xa;op;jv;wx;rb; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez; bo;ed;ed;dl;si;nn;bp;vi;ld; shi;ui;ui;ui;gf;ni;qc;qn;ui;	0
@@ -1385,10 +1385,10 @@ use_preset_vocabulary: false
 金德代克	jin;rb;ra;ra,pa;ed,ef;cc;zj;qq;ra; de;rx;ix;xx;hn;hp;wh;tf;rx; dai;ry;ry;ry;xa,xh;op;jp;wa;rg; ke;ux,ge;ue;eg,ux;sk;ju;cp;dq;ue;	0
 近期火山	jin;zj,zl;zj;zj;uq;yl;tu;rp;zj; qi;co;qo;oq,qo;vl;tb;zv;ad;qo; huo;br,rb;dr;dd;tt;ff;ch;oo;dr; shan;kl;lk;aa;pp;uu;vs;mm;aa;	0
 近源地震学	jin;zj,zl;zj;zj;uq;yl;tu;rp;zj; yuan;dx;dx;dy;kf;ef;ky;id;dx; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
-进展因素	jin;zj;zj;zj;uq;yt;qu;fj;zj; zhan;uy;un;uy;qh;sv;ct;na;uh; yin;kd;kd;kd;nx;wk;rm;ld;wd; su;fx;fx;sf,fs;af;qf;ai;gx;ax;	6
+进展因素	jin;zj;zj;zj;uq;yt;qu;fj;zj; zhan;uy;un;uy;qh;sv;ct;na;uh; yin;kd;kd;kd;nx;wk;rm;ld;wd; su;fx;fx;sf,fs;af;qf;ai;gx;ax;	5
 近震震级	jin;zj,zl;zj;zj;uq;yl;tu;rp;zj; zhen;yi;yn;yi;yh;mv;tf;fd;yh; zhen;yi;yn;yi;yh;mv;tf;fd;yh; ji;sj;sj;sj;eh;ve;ic;xe;sj;	0
 近震走时表	jin;zj,zl;zj;zj;uq;yl;tu;rp;zj; zhen;yi;yn;yi;yh;mv;tf;fd;yh; zou;tz;tr;tv;qq,ge;go;pz;fh;tr; shi;oc;oc;oc;vk;ai;ok;jf;oc; biao;fy;fy;fy;ah;qv;at;ge;ah;	0
-晶胞	jing;oo;oo;oo;vv;aa;oo;jj;oo; bao;ob;os;ob;lt;bu;vv;eq;ov;	115
+晶胞	jing;oo;oo;oo;vv;aa;oo;jj;oo; bao;ob;os;ob;lt;bu;vv;eq;ov;	107
 静不定问题	jing;fy;fl;qv;ap;qd;ab;ge;qv; bu;ab;ad;ad,ax;dh,df;mf;cb;i,gi;ad; ding;bz;br;bp;ie;jo;wt;pg;gr; wen;mk;mk;km,mk;oo;lr;ad;uk;mk; ti;oy;or;uy,yu;vm;ao;ow;jg;or;	0
 井段	jing;ac,el;al;aa,ep;up;tt;qj;fj;aa; duan;pu;py;ud,du,pu;ul;he;ur;wd;py;	1
 景观地球化学	jing;ox;ox;oj;vf;af;oy;jy;ox; guan;yj;ye;jy,yj;lk,lr;eu;re;cm;yj; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qiu;wq;wq;wq;ah;me;ni;gf;wq; hua;rb;rb;rb;xa;op;jv;wx;rb; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
@@ -1454,7 +1454,7 @@ use_preset_vocabulary: false
 抗蚀岩石	kang;fj;fj;fk;ji;qn;uo;ry;fj; shi;ui;ui;ui;gf;ni;qc;qn;ui; yan;uu;eu;uu;pt;ur;vm;md;sk; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak;	0
 抗弯曲强度	kang;fj;fj;fk;ji;qn;uo;ry;fj; wan;wg;wg;gy,yg;ir;yn;zb;yo;wg; qu;kc;la;aa,oa;pd,vp;tw,xw;yq;ma;aa; qiang;gi;gi;gs;rf;ni;bc;xk;gi; du;gy;gy;gy;rl;ie;xr;ya;gy;	2
 抗震加固措施	kang;fj;fj;fk;ji;qn;uo;ry;fj; zhen;yi;yn;yi;yh;mv;tf;fd;yh; jia;lk;lk;lk,kl;uo;kr;sd;lk;lk; gu;kg;kk;kg;no;wr;rc;ld;wk; cuo;fo;fo;fx;jv;qa;uo;ra;fo; shi;fy;fy;fy;fr;yd;le;yt;fy;	0
-抗震能力	kang;fj;fj;fk;ji;qn;uo;ry;fj; zhen;yi;yn;yi;yh;mv;tf;fd;yh; neng;sb;sb;sb;pa;ip;kv;ce;vb; li;vp;vp;gp;uu;ks;sl;lt;vp;	16
+抗震能力	kang;fj;fj;fk;ji;qn;uo;ry;fj; zhen;yi;yn;yi;yh;mv;tf;fd;yh; neng;sb;sb;sb;pa;ip;kv;ce;vb; li;vp;vp;gp;uu;ks;sl;lt;vp;	15
 抗震设防区划	kang;fj;fj;fk;ji;qn;uo;ry;fj; zhen;yi;yn;yi;yh;mv;tf;fd;yh; she;yu;yy;yu;cl;ie;sr;ym;yy; fang;ef;ef;ef;bf;ns;tl;by;ef; qu;kx;kx;ki;dr;sk;nb;aq;kx; hua;gd;gd;dg,gd;ai,di;in;pp;aj;gd;	0
 抗震性能鉴定	kang;fj;fj;fk;ji;qn;uo;ry;fj; zhen;yi;yn;yi;yh;mv;tf;fd;yh; xing;xu;xu;xu;ng,na;pm;hl;nt;xu; neng;sb;sb;sb;pa;ip;kv;ce;vb; jian;lj;lj;jv;pd,pf;lc;pz;jt;aj; ding;bz;br;bp;ie;jo;wt;pg;gr;	0
 颗粒灰岩	ke;gy;gr;yg;vm;wo;qw;js;gr; li;ml;ml;ml;lb;ft;pi;ou;ml; hui;uh;uh;hu,uh;dt,st;kf;nc;do;ah; yan;uu;eu;uu;pt;ur;vm;md;sk;	0
@@ -1511,9 +1511,9 @@ use_preset_vocabulary: false
 理论地震学	li;wl;wl;wl;ag;mg;nd;gj;wl; lun;yl;yb;yl;ca;ip;sj;yw;yb; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
 理论振幅	li;wl;wl;wl;ag;mg;nd;gj;wl; lun;yl;yb;yl;ca;ip;sj;yw;yb; zhen;fi;fn;fi;jh;qv;uf;rd;fh; fu;jt;jt;jf,jt;yw;lw;rq;mh;jt;	1
 离散板块边界	li;wn;wd;ws,wl;ih,ip;yb;zv;yb;wd; san;cw;cw;wo;zj;tk;lh;ae;cw; ban;my;my;mf;wl;de,xe;er;sr;ly; kuai;tg;tg;td,tg;ge,gx;gk;gj;fn;tn; bian;zl;zl;zl;uq;ys;su;lp;zl; jie;tj;tl;tj;wp;wl;qp;lw;tj;	0
-历史地图集	li;il;il;il;ru;ms,xs;xs;dl;il; shi;kn;ln;ad,ki;oy,oh;lk;db;kq;an; de;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; tu;kd;kd;kd;nh;wy;rw;lt;wd; ji;rm;rm;mv,vm;xw;od;ue;wy;rl;	33
+历史地图集	li;il;il;il;ru;ms,xs;xs;dl;il; shi;kn;ln;ad,ki;oy,oh;lk;db;kq;an; de;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; tu;kd;kd;kd;nh;wy;rw;lt;wd; ji;rm;rm;mv,vm;xw;od;ue;wy;rl;	31
 离石黄土	li;wn;wd;ws,wl;ih,ip;yb;zv;yb;wd; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; huang;cb;cb;ad,cb;zf;tc;nh;am;cb; tu;ua;ua;aa;gg;gg;gt;ff;ua;	0
-历史气候	li;il;il;il;ru;ms,xs;xs;dl;il; shi;kn;ln;ad,ki;oy,oh;lk;db;kq;an; qi;pv;pv;py,ry;ss;on,xn;vq;rn;pv; hou;ru;ru;ru;xx;ok;jo;wh;rd;	15
+历史气候	li;il;il;il;ru;ms,xs;xs;dl;il; shi;kn;ln;ad,ki;oy,oh;lk;db;kq;an; qi;pv;pv;py,ry;ss;on,xn;vq;rn;pv; hou;ru;ru;ru;xx;ok;jo;wh;rd;	14
 历史人文地理	li;il;il;il;ru;ms,xs;xs;dl;il; shi;kn;ln;ad,ki;oy,oh;lk;db;kq;an; ren;pn;pn;pd;ee;oo;jr;w,ww;pn; wen;wx;wx;wi,dd;jj;yk;vw;yy;wx; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; li;wl;wl;wl;ag;mg;nd;gj;wl;	1
 历史自然地理	li;il;il;il;ru;ms,xs;xs;dl;il; shi;kn;ln;ad,ki;oy,oh;lk;db;kq;an; zi;po;po;pa,po;ss;hu;oi;th;pm; ran;xh;ph;hq;fn,un;bf;vc;qd;pe; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; li;wl;wl;wl;ag;mg;nd;gj;wl;	3
 里特维尔德	li;tt;la;aa,tt;vg;wg;dl;jf;aa; te;nc;nc;ns;bk;hi;qk;tr;nc; wei;sv;sf;sv;ea;vg;iu;xw;sa; er;dx;dx;dx,xd;gf;nf;xy;qi;ex; de;rx;ix;xx;hn;hp;wh;tf;rx;	7
@@ -1592,7 +1592,7 @@ use_preset_vocabulary: false
 民族地理学	min;vv;vv;ag,kq,vg;rr;rp;dm;n,na;vv; zu;fu;fu;fu;fx;yk;lo;yt;fd; de;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; li;wl;wl;wl;ag;mg;nd;gj;wl; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
 末次冰盛期	mo;am;an;ad,am;ee;dj;fe;gs;an; ci;dq;dr;dq;fe;io,mo;we;uq;dr; bing;du;du;du;fo;ie;wk;ui;du; sheng;im;im;mi;rd,ra;it;na;dn;im; qi;co;qo;oq,qo;vl;tb;zv;ad;qo;	3
 漠盖层	mo;dd;dd;dm;kx;ek;km;ia;dd; gai;ym;ym;my,ym;fd,fa;tt;ga;ug;em; ceng;uy;us;uy;qp;si;cb;nf;uv;	0
-墨卡托投影	mo;lt;ht;th,ht;ng;wg;pg;lf;ht; ka;ub;ub;bx,ub;ph;yy;yy;hh;ub; tuo;fq;fq;fq,ft;ja,jr;qp;ur;rt;fq; tou;fu;fy;fu;jl;qe;ur;rm;fy; ying;op;op;pj;vu;ah;oe;jy;op;	18
+墨卡托投影	mo;lt;ht;th,ht;ng;wg;pg;lf;ht; ka;ub;ub;bx,ub;ph;yy;yy;hh;ub; tuo;fq;fq;fq,ft;ja,jr;qp;ur;rt;fq; tou;fu;fy;fu;jl;qe;ur;rm;fy; ying;op;op;pj;vu;ah;oe;jy;op;	14
 模拟地震动	mo;md;md;mm;wx;dk;em;sa;ld; ni;fr;fr;fy;je;qo;uj;rn;fr; de;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; dong;yl;el;ly,yl;uu;ms;bs;fc;el;	0
 模拟地震学	mo;md;md;mm;wx;dk;em;sa;ld; ni;fr;fr;fy;je;qo;uj;rn;fr; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
 沙漠漆	sha;du;du;du;ku;eh;kt;ii;du; mo;dd;dd;dm;kx;ek;km;ia;dd; qi;du;du;dq,du;kf,ko;ee;kk;is;du;	0
@@ -1622,14 +1622,14 @@ use_preset_vocabulary: false
 泥漠	ni;db;db;dn;ka;ep;kv;in;db; mo;dd;dd;dm;kx;ek;km;ia;dd;	1
 泥盆系	ni;db;db;dn;ka;ep;kv;in;db; pen;fm;bm;mf;fd,fa;ct;ha;wv;bm; xi;px;px;ps;uf;hf;ti;tx;px;	0
 逆向河	ni;zn;zp;zn;fq;yu;hu;ub;zp; xiang;pk;pk;pk;uo;hr;td;tm;pk; he;dk;dk;dk;kj,ko;er;kz;is;dk;	0
-泥岩	ni;db;db;dn;ka;ep;kv;in;db; yan;uu;eu;uu;pt;ur;vm;md;sk;	173
+泥岩	ni;db;db;dn;ka;ep;kv;in;db; yan;uu;eu;uu;pt;ur;vm;md;sk;	153
 逆掩断层	ni;zn;zp;zn;fq;yu;hu;ub;zp; yan;fd;fd;fd,fy;je,jr;qu;ua;rd;fd; duan;vj;mj;ja,jm,jv;lp;vl;pt;on;vj; ceng;uy;us;uy;qp;si;cb;nf;uv;	0
-泥质	ni;db;db;dn;ka;ep;kv;in;db; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr;	42
+泥质	ni;db;db;dn;ka;ep;kv;in;db; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr;	40
 泥质粉砂岩	ni;db;db;dn;ka;ep;kv;in;db; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; fen;mf;md;mf;li,lu;fh;pp;ow;md; sha;uu;uu;uu;ti,tu;mh;mt;di;uu; yan;uu;eu;uu;pt;ur;vm;md;sk;	1
 泥质砂岩	ni;db;db;dn;ka;ep;kv;in;db; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; sha;uu;uu;uu;ti,tu;mh;mt;di;uu; yan;uu;eu;uu;pt;ur;vm;md;sk;	2
 粘滑地震	nian;mv;mk;mv;lo;fr;pd;oh;mk; hua;do;dg;dg;kc;eb;kf;im;do; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh;	0
 年轮气候学	nian;pf;pl;ra,pa;es;oq;ev;rh;pa; lun;il;ib;il;ta;kp;yj;lw;ib; qi;pv;pv;py,ry;ss;on,xn;vq;rn;pv; hou;ru;ru;ru;xx;ok;jo;wh;rd; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
-粘土	nian;mv;mk;mv;lo;fr;pd;oh;mk; tu;ua;ua;aa;gg;gg;gt;ff;ua;	480
+粘土	nian;mv;mk;mv;lo;fr;pd;oh;mk; tu;ua;ua;aa;gg;gg;gt;ff;ua;	438
 年温差	nian;pf;pl;ra,pa;es;oq;ev;rh;pa; wen;dm;dm;dm,dw;kd,ka;et;ka;ij;dm; cha;yg;yg;yg;fp;tm;gu;ud;eg;	0
 年正常径流量	nian;pf;pl;ra,pa;es;oq;ev;rh;pa; zheng;av;av;av;dr;mm;fs;gh;av; chang;xj;xj;jk,xd,dd;hy;fb;sr;ip;ej; jing;rj;ig;xg;hp;hm;wu;tc;rg; liu;di;dv;di;kr;eu;ko;iy;dv; liang;ol;ol;ol;vg;ag;od;jg;dl;	0
 黏质壤土	nian;hv;hk;hv,vu;uo;hr;xd;tw;hk; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; rang;tf;ty;tx,ty;gh;gv;gf;fy;th; tu;ua;ua;aa;gg;gg;gt;ff;ua;	0
@@ -1806,7 +1806,7 @@ use_preset_vocabulary: false
 日光山	ri;ka;ka;aa,or,ri;vv;aa;or;jj;wa; guang;xe;xw;ea,xw;hk;fu;mg;iq;ee; shan;kl;lk;aa;pp;uu;vs;mm;aa;	2
 日曼投影	ri;ka;ka;aa,or,ri;vv;aa;or;jj;wa; man;oy;oy;oy;vl;ae;or;jl;oy; tou;fu;fy;fu;jl;qe;ur;rm;fy; ying;op;op;pj;vu;ah;oe;jy;op;	0
 日晒风化	ri;ka;ka;aa,or,ri;vv;aa;or;jj;wa; shai;ox;ox;ox;vp;aw;ov;js;ox; feng;jx;jx;ji;iy;hk;ob;mq;jx; hua;rb;rb;rb;xa;op;jv;wx;rb;	0
-日温差	ri;ka;ka;aa,or,ri;vv;aa;or;jj;wa; wen;dm;dm;dm,dw;kd,ka;et;ka;ij;dm; cha;yg;yg;yg;fp;tm;gu;ud;eg;	13
+日温差	ri;ka;ka;aa,or,ri;vv;aa;or;jj;wa; wen;dm;dm;dm,dw;kd,ka;et;ka;ij;dm; cha;yg;yg;yg;fp;tm;gu;ud;eg;	12
 日月潮	ri;ka;ka;aa,or,ri;vv;aa;or;jj;wa; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe; chao;do;do;di;kl;eb;kv;if;do;	0
 溶斗	rong;dg;dk;dr;ko;er;kh;ip;dk; dou;ud;du;du;hs,sh;yj;jd;uf;du;	0
 溶沟	rong;dg;dk;dr;ko;er;kh;ip;dk; gou;dg;ds;dg;kp;ei;kk;iq;dv;	5
@@ -1820,14 +1820,14 @@ use_preset_vocabulary: false
 熔岩被	rong;hg;hk;hr;to;fr;ch;op;hk; yan;uu;eu;uu;pt;ur;vm;md;sk; bei;pp;py;yp;hl;le;tr;pu;py;	0
 熔岩塔	rong;hg;hk;hr;to;fr;ch;op;hk; yan;uu;eu;uu;pt;ur;vm;md;sk; ta;tk;tk;td,th;go;gr;gd;fa;tk;	4
 肉质植物	rou;nr;nr;ad,kr;oe;oo;mj;mw;nr; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr; zhi;mq;mq;mv;wd,wu;dm;ef;sf;lv; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw;	3
-入渗	ru;pn;pn;pd;ee,uh;oh;ju;ty;pn; shen;dp;dp;dc;ku;eh;ke;ic;dp;	53
+入渗	ru;pn;pn;pd;ee,uh;oh;ju;ty;pn; shen;dp;dp;dc;ku;eh;ke;ic;dp;	52
 乳香之路	ru;vv;pv;gf,fg;hr;bu;ya;eb;pv; xiang;ho;ho;ho;uv;ha;xo;tj;ho; zhi;dn;dn;dd;hh;io;ri;pp;dn; lu;zk;zk;zg;go;rr;ps;kh;zk;	0
 入字型构造	ru;pn;pn;pd;ee,uh;oh;ju;ty;pn; zi;bz;bz;bz;ia;jd;wh;pb;gz; xing;kt;kt;tx;ug;mg;fg;ga;kt; gou;mg;ms;mg;wp;di,xi;ek;sq;lv; zao;zk;zk;zg;bq;yr;qu;tf;zk;	0
 软地幔	ruan;iq;ir;iq;te;ko;ye;lq;ir; de;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; man;jy;jy;jm;yl;le;rr;mh;jy;	0
 软砂岩沉积	ruan;iq;ir;iq;te;ko;ye;lq;ir; sha;uu;uu;uu;ti,tu;mh;mt;di;uu; yan;uu;eu;uu;pt;ur;vm;md;sk; chen;dj;dj;dj,dr;ki;en,eu,xu;ko;ip;dj; ji;hv;hb;hv;uf;hc;xh;tk;hb;	0
 瑞利波相速度	rui;we;we;we;ae;mb;nl;gm;we; li;hd;hd;hd,dh;ui;hn;xp;tj;hd; bo;dp;dy;dp;kl;ee;kr;ih;dy; xiang;mo;mo;mo;ws;du;eq;sh;lm; su;zu;zu;zu;dq;yl;xu;gk;zu; du;gy;gy;gy;rl;ie;xr;ya;gy;	0
 瑞利原理	rui;we;we;we;ae;mb;nl;gm;we; li;hd;hd;hd,dh;ui;hn;xp;tj;hd; yuan;ix;ix;ix;rf;mf;xy;dr;ix; li;wl;wl;wl;ag;mg;nd;gj;wl;	0
-瑞替	rui;we;we;we;ae;mb;nl;gm;we; ti;fo;fo;of,fo;ev;qa;ho;fw;fo;	4
+瑞替	rui;we;we;we;ae;mb;nl;gm;we; ti;fo;fo;of,fo;ev;qa;ho;fw;fo;	2
 弱风化	ruo;gg;gd;gd;rf;nm;bw;xu;gd; feng;jx;jx;ji;iy;hk;ob;mq;jx; hua;rb;rb;rb;xa;op;jv;wx;rb;	0
 萨瓦纳气候	sa;ci;ci;ci;zu,zr;th;lx;ab;ci; wa;ad;ad;ad;dh;mi;rw;gn;ad; na;sn;sn;sn;ee;vb;ij;xm;sn; qi;pv;pv;py,ry;ss;on,xn;vq;rn;pv; hou;ru;ru;ru;xx;ok;jo;wh;rd;	1
 三点校正法	san;ae;ae;aa;uu;mm;ts;dg;ae; dian;vh;lh;hv;pn;yf,xf;yc;hk;ve; jiao;mf;mx;mj;wy;dk;eb;su;lx; zheng;av;av;av;dr;mm;fs;gh;av; fa;dq;ds;dq;kp;ei;kk;if;dv;	0
@@ -1915,7 +1915,7 @@ use_preset_vocabulary: false
 生态塔	sheng;pf;pf;na;eg;hm;ls;tg;pa; tai;tx;tx;xt;xn;kp;mh;dy;tx; ta;tk;tk;td,th;go;gr;gd;fa;tk;	0
 声望价值	sheng;tu;up;um;gp;gh;gc;fn;up; wang;ww;ww;wo;ia;yg;fn;yn;ww; jia;rj;rl;rj;xp;ol;jp;ww;rj; zhi;rq;rq;rv;xd,xu;om;jf;wf;rv;	0
 生物地理群落	sheng;pf;pf;na;eg;hm;ls;tg;pa; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; li;wl;wl;wl;ag;mg;nd;gj;wl; qun;yy;yy;yj;rp,sp;sq;bg;vt;yy; luo;ck;ck;cl;zo;tr;ls;ai;ck;	0
-生物分布	sheng;pf;pf;na;eg;hm;ls;tg;pa; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw; fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; bu;uj;uj;ju,uj;sy,dy;kb;nr;dm;aj;	6
+生物分布	sheng;pf;pf;na;eg;hm;ls;tg;pa; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw; fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; bu;uj;uj;ju,uj;sy,dy;kb;nr;dm;aj;	5
 生物分布学	sheng;pf;pf;na;eg;hm;ls;tg;pa; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw; fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; bu;uj;uj;ju,uj;sy,dy;kb;nr;dm;aj; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	1
 生物风化作用	sheng;pf;pf;na;eg;hm;ls;tg;pa; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw; feng;jx;jx;ji;iy;hk;ob;mq;jx; hua;rb;rb;rb;xa;op;jv;wx;rb; zuo;rv;rv;rv;xu;os;jw;wt;rv; yong;kf,ol;kl;kf;lp;bq;ty;et;pa;	1
 生物礁	sheng;pf;pf;na;eg;hm;ls;tg;pa; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw; jiao;uh;uh;uj;tn;mf;mc;dw;ue;	0
@@ -1965,7 +1965,7 @@ use_preset_vocabulary: false
 舒善河组	shu;ry;rl;yu,uy;ep;on;ji;wf;ry; shan;yk;yk;yk,ka,kq;fo;tr;gd;ud;ek; he;dk;dk;dk;kj,ko;er;kz;is;dk; zu;sq;sq;sq;eu;vm;if;xe;sq;	0
 竖向地震荷载	shu;ll;ll;ly;pb;lt;pi;jc;al; xiang;pk;pk;pk;uo;hr;td;tm;pk; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; he;ck;ck;ch;zj,zo;tr;lz;aw;ck; zai;gi;ui;gi,ig;st,ha,sh,gh,gt;jq;ny;fa;ig;	0
 数字地震图	shu;mw;mw;wl;lj;fk;ph;ov;mw; zi;bz;bz;bz;ia;jd;wh;pb;gz; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh; tu;kd;kd;kd;nh;wy;rw;lt;wd;	0
-数字图像处理	shu;mw;mw;wl;lj;fk;ph;ov;mw; zi;bz;bz;bz;ia;jd;wh;pb;gz; tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; chu;wb;wb;wb;jh,uh;ho,hy,xy;hy;th;wb; li;wl;wl;wl;ag;mg;nd;gj;wl;	4
+数字图像处理	shu;mw;mw;wl;lj;fk;ph;ov;mw; zi;bz;bz;bz;ia;jd;wh;pb;gz; tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; chu;wb;wb;wb;jh,uh;ho,hy,xy;hy;th;wb; li;wl;wl;wl;ag;mg;nd;gj;wl;	95
 数字图像镶嵌	shu;mw;mw;wl;lj;fk;ph;ov;mw; zi;bz;bz;bz;ia;jd;wh;pb;gz; tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; xiang;jf;jy;jx,jy;dh;ov;zf;qy;jh; qian;uq;er;uq;pe;uo;ve;ma;sr;	0
 数字相关法	shu;mw;mw;wl;lj;fk;ph;ov;mw; zi;bz;bz;bz;ia;jd;wh;pb;gz; xiang;mo;mo;mo;ws;du;eq;sh;lm; guan;bt;bt;bt,qd;fx;tk;hm;ud;et; fa;dq;ds;dq;kp;ei;kk;if;dv;	0
 衰落区	shuai;yv;wy;yv,wy;ih;yv;tf;yk;wh; luo;ck;ck;cl;zo;tr;ls;ai;ck; qu;kx;kx;ki;dr;sk;nb;aq;kx;	0
@@ -2014,7 +2014,7 @@ use_preset_vocabulary: false
 碎屑型风化壳	sui;uu;uu;uz;ts;mj;mn;dy;uu; xie;uo;uo;ux;ql;sb;cv;ni;uo; xing;kt;kt;tx;ug;mg;fg;ga;kt; feng;jx;jx;ji;iy;hk;ob;mq;jx; hua;rb;rb;rb;xa;op;jv;wx;rb; qiao;tj;uj;uj;gi;gn,xn;go;fp;uj;	0
 塌陷破火山口	ta;tx;tx;ty;gd;gm;gz;fj;tx; xian;ej;ej;ej,ex;bs;nx;tp;bq;ej; po;up;uy;up;tl;me;mr;dh;uy; huo;br,rb;dr;dd;tt;ff;ch;oo;dr; shan;kl;lk;aa;pp;uu;vs;mm;aa; kou;la;la;aa;oo;rr;dk;kk;aa;	0
 苔草沼泽	tai;ck;ck;ct;zo;tr;ld;ac;ck; cao;cu;cu;cz;zs;tj;ln;aj;cu; zhao;dk;dk;dv;ko;er;kd;iv;dk; ze;df;dl;df;kp;eq;ku;ic;da;	0
-苔原气候	tai;ck;ck;ct;zo;tr;ld;ac;ck; yuan;ix;ix;ix;rf;mf;xy;dr;ix; qi;pv;pv;py,ry;ss;on,xn;vq;rn;pv; hou;ru;ru;ru;xx;ok;jo;wh;rd;	3
+苔原气候	tai;ck;ck;ct;zo;tr;ld;ac;ck; yuan;ix;ix;ix;rf;mf;xy;dr;ix; qi;pv;pv;py,ry;ss;on,xn;vq;rn;pv; hou;ru;ru;ru;xx;ok;jo;wh;rd;	4
 探槽	tan;fm;fm;fm,fu;jw;qd;ue;rp;fl; cao;mo;mo;mc;wv;da;eo;sg;lo;	3
 滩地沼泽	tan;dv;df;dn;ka;eg;ku;ic;dn; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhao;dk;dk;dv;ko;er;kd;iv;dk; ze;df;dl;df;kp;eq;ku;ic;da;	0
 滩脊	tan;dv;df;dn;ka;eg;ku;ic;dn; ji;ro;do;od,or;fl;fb;wv;iw;do;	0
@@ -2074,12 +2074,12 @@ use_preset_vocabulary: false
 土壤组合	tu;ua;ua;aa;gg;gg;gt;ff;ua; rang;tf;ty;tx,ty;gh;gv;gf;fy;th; zu;sq;sq;sq;eu;vm;if;xe;sq; he;rk;rk;rk;eo;or;jd;wg;rk;	0
 土蠕	tu;ua;ua;aa;gg;gg;gt;ff;ua; ru;ie;ie;ix;fe;lb;cl;jf;ie;	0
 土体蠕动	tu;ua;ua;aa;gg;gg;gt;ff;ua; ti;rb;rb;rb;xd;om;jf;ws;rb; ru;ie;ie;ix;fe;lb;cl;jf;ie; dong;yl;el;ly,yl;uu;ms;bs;fc;el;	0
-图像重叠	tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; chong;ql;pa;pa,ql;sg;hg;ld;tg;pa; die;yq;yq;qr,qu,yy;lu;em;rf;cc;yq;	0
+图像重叠	tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; chong;ql;pa;pa,ql;sg;hg;ld;tg;pa; die;yq;yq;qr,qu,yy;lu;em;rf;cc;yq;	3
 图像复合	tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; fu;pw;pw;pw,rw,wo;ej;oe;eh;tj;pw; he;rk;rk;rk;eo;or;jd;wg;rk;	0
 图像几何测定	tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; ji;pv;pv;py;ii;hn;oj;mt;pv; he;rk;rk;rk;xj,xo;or;jz;ws;rk; ce;dd;dd;dz;ki;en;kp;im;dd; ding;bz;br;bp;ie;jo;wt;pg;gr;	0
-图像模拟	tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; mo;md;md;mm;wx;dk;em;sa;ld; ni;fr;fr;fy;je;qo;uj;rn;fr;	0
+图像模拟	tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; mo;md;md;mm;wx;dk;em;sa;ld; ni;fr;fr;fy;je;qo;uj;rn;fr;	5
 图像数据磁带	tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; shu;mw;mw;wl;lj;fk;ph;ov;mw; ju;fg;fk;fj;jo;qr;uc;rn;fk; ci;uy;uy;uz;tp;mi;mi;du;us; dai;cj;fj;jb;zy;tb;lr;gk;aj;	0
-图像数字化	tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; shu;mw;mw;wl;lj;fk;ph;ov;mw; zi;bz;bz;bz;ia;jd;wh;pb;gz; hua;rb;rb;rb;xa;op;jv;wx;rb;	0
+图像数字化	tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; shu;mw;mw;wl;lj;fk;ph;ov;mw; zi;bz;bz;bz;ia;jd;wh;pb;gz; hua;rb;rb;rb;xa;op;jv;wx;rb;	1
 图像投影变换	tu;kd;kd;kd;nh;wy;rw;lt;wd; xiang;ru;rn;rx;xh;oo;jw;wq;rx; tou;fu;fy;fu;jl;qe;ur;rm;fy; ying;op;op;pj;vu;ah;oe;jy;op; bian;wy;wy;wy,yy;il;ye;zr;yo;wy; huan;fr;fd;fh;jx,je;qk,xk;um;rq;fd;	0
 推覆体	tui;fv;ff;fv;ja;qg;uu;rw;fa; fu;xw;xw;xf;pj;me;vh;st;xw; ti;rb;rb;rb;xd;om;jf;ws;rb;	1
 退水曲线	tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; shui;ln;ln;ad,uv;oo;ee;ks;ii;vn; qu;kc;la;aa,oa;pd,vp;tw,xw;yq;ma;aa; xian;sj;sj;sj;ea;vj;ip;xg;sg;	0
@@ -2256,7 +2256,7 @@ use_preset_vocabulary: false
 悬浮粒子	xuan;qx;qx;xx;pn;bp;fh;eg;qx; fu;dz;dz;df;ka;ed;kh;ie;dz; li;ml;ml;ml;lb;ft;pi;ou;ml; zi;la;va;aa,vh;aa;nd;hi;bb;va;	8
 选举地理	xuan;ze;ze;zx;bq;yu;qu;tf;ze; ju;xf;xl;df,xf;hp;fq;ku;iw;ea; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; li;wl;wl;wl;ag;mg;nd;gj;wl;	0
 悬崖坡	xuan;qx;qx;xx;pn;bp;fh;eg;qx; ya;ut;et;uy;pg;ug;vg;md;st; po;tp;ty;tp;gl;ge;gr;fh;ty;	0
-旋转波	xuan;fz;fr;fp;fe;yo;lt;yt;fr; zhuan;iv;iv;iv;th;ki;yi;lf;iv; bo;dp;dy;dp;kl;ee;kr;ih;dy;	7
+旋转波	xuan;fz;fr;fp;fe;yo;lt;yt;fr; zhuan;iv;iv;iv;th;ki;yi;lf;iv; bo;dp;dy;dp;kl;ee;kr;ih;dy;	3
 旋转断层	xuan;fz;fr;fp;fe;yo;lt;yt;fr; zhuan;iv;iv;iv;th;ki;yi;lf;iv; duan;vj;mj;ja,jm,jv;lp;vl;pt;on;vj; ceng;uy;us;uy;qp;si;cb;nf;uv;	0
 旋转断块	xuan;fz;fr;fp;fe;yo;lt;yt;fr; zhuan;iv;iv;iv;th;ki;yi;lf;iv; duan;vj;mj;ja,jm,jv;lp;vl;pt;on;vj; kuai;tg;tg;td,tg;ge,gx;gk;gj;fn;tn;	0
 旋转平面波	xuan;fz;fr;fp;fe;yo;lt;yt;fr; zhuan;iv;iv;iv;th;ki;yi;lf;iv; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; mian;ao;aa;aa;dd,du;ml;bm;dm;aa; bo;dp;dy;dp;kl;ee;kr;ih;dy;	0
@@ -2281,10 +2281,10 @@ use_preset_vocabulary: false
 岩盖	yan;uu;eu;uu;pt;ur;vm;md;sk; gai;ym;ym;my,ym;fd,fa;tt;ga;ug;em;	0
 岩关阶	yan;uu;eu;uu;pt;ur;vm;md;sk; guan;bt;bt;bt,qd;fx;tk;hm;ud;et; jie;ej;el;ej;bp;nl;tp;bw;ej;	0
 雁行式断裂	yan;iv;if;iv;ra;mg;xu;dw;ia; hang;rd;ii;xd,xi;hj,hp;hn;px;tf;rd; shi;yg;yg;gy,yg;dh,ha,ap;im;pu;aa;gg; duan;vj;mj;ja,jm,jv;lp;vl;pt;on;vj; lie;dy;dy;yl;fk;mv;gt;gq;dh;	0
-岩画遗址	yan;uu;eu;uu;pt;ur;vm;md;sk; hua;at;ak;ak;dp;mw;fm;gl;aa; yi;zb;zr;zg;fq;yo,xo;cu;kh;zr; zhi;tv;tv;tv;gr;gm;gs;fh;tv;	1
+岩画遗址	yan;uu;eu;uu;pt;ur;vm;md;sk; hua;at;ak;ak;dp;mw;fm;gl;aa; yi;zb;zr;zg;fq;yo,xo;cu;kh;zr; zhi;tv;tv;tv;gr;gm;gs;fh;tv;	0
 岩基	yan;uu;eu;uu;pt;ur;vm;md;sk; ji;ct;qt;tq,qt;vg;tg;zg;ad;qt;	2
 岩浆冲击说	yan;uu;eu;uu;pt;ur;vm;md;sk; jiang;lu;du;ux;lo;le;ak;uq;du; chong;dv;dv;dv;fp;il;wg;uk;dv; ji;fk;ak;aa,eu,fk;up;qu;um;fm;aa; shuo;yx;ye;yd;ck;iu;sp;yu;ye;	0
-岩浆活动	yan;uu;eu;uu;pt;ur;vm;md;sk; jiang;lu;du;ux;lo;le;ak;uq;du; huo;du;dk;du;ko;er;ka;it;dk; dong;yl;el;ly,yl;uu;ms;bs;fc;el;	70
+岩浆活动	yan;uu;eu;uu;pt;ur;vm;md;sk; jiang;lu;du;ux;lo;le;ak;uq;du; huo;du;dk;du;ko;er;ka;it;dk; dong;yl;el;ly,yl;uu;ms;bs;fc;el;	56
 岩浆库	yan;uu;eu;uu;pt;ur;vm;md;sk; jiang;lu;du;ux;lo;le;ak;uq;du; ku;gi;gi;gi;rt;iq;xy;yl;gi;	2
 岩浆水	yan;uu;eu;uu;pt;ur;vm;md;sk; jiang;lu;du;ux;lo;le;ak;uq;du; shui;ln;ln;ad,uv;oo;ee;ks;ii;vn;	5
 岩刻画	yan;uu;eu;uu;pt;ur;vm;md;sk; ke;wd;wd;dh;ii;yn;kp;yn;wd; hua;at;ak;ak;dp;mw;fm;gl;aa;	0
@@ -2315,10 +2315,10 @@ use_preset_vocabulary: false
 岩屑锥	yan;uu;eu;uu;pt;ur;vm;md;sk; xie;uo;uo;ux;ql;sb;cv;ni;uo; zhui;jv;jf;jv;da;og;zu;qw;ja;	0
 岩性	yan;uu;eu;uu;pt;ur;vm;md;sk; xing;xu;xu;xu;ng,na;pm;hl;nt;xu;	30
 岩性界线	yan;uu;eu;uu;pt;ur;vm;md;sk; xing;xu;xu;xu;ng,na;pm;hl;nt;xu; jie;tj;tl;tj;wp;wl;qp;lw;tj; xian;sj;sj;sj;ea;vj;ip;xg;sg;	0
-盐沼	yan;tm;tm;mb;gd,ga;gt;ga;fh;tm; zhao;dk;dk;dv;ko;er;kd;iv;dk;	41
+盐沼	yan;tm;tm;mb;gd,ga;gt;ga;fh;tm; zhao;dk;dk;dv;ko;er;kd;iv;dk;	27
 赝重力	yan;ib;ir;by,ib;rm;mo;xo;dw;ir; zhong;ql;pa;pa,ql;sg;hg;ld;tg;pa; li;vp;vp;gp;uu;ks;sl;lt;vp;	0
 岩株	yan;uu;eu;uu;pt;ur;vm;md;sk; zhu;mw;mv;mv;we;dd;ea;sr;lv;	0
-羊背石	yang;bf;bl;da;fp;tq;gy;ud;ea; bei;bo;lo;ob;ll;lb;av;ux;bo; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak;	6
+羊背石	yang;bf;bl;da;fp;tq;gy;ud;ea; bei;bo;lo;ob;ll;lb;av;ux;bo; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak;	4
 仰冲板块	yang;re;re;re,ry;xb;ol;jz;wq;re; chong;dv;dv;dv;fp;il;wg;uk;dv; ban;my;my;mf;wl;de,xe;er;sr;ly; kuai;tg;tg;td,tg;ge,gx;gk;gj;fn;tn;	0
 养分富集	yang;yl;yl;ya,yd;fp;tl;gp;ud;ea; fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; fu;bt;bt;bf,bt;iw;jw;wq;pg;gt; ji;rm;rm;mv,vm;xw;od;ue;wy;rl;	0
 氧化土	yang;qy;qy;qy;sp;oq;vg;rn;qy; hua;rb;rb;rb;xa;op;jv;wx;rb; tu;ua;ua;aa;gg;gg;gt;ff;ua;	0
@@ -2332,7 +2332,7 @@ use_preset_vocabulary: false
 页状剥落	ye;ab;ar;ab;dm;mo;wy;dm;ar; zhuang;lq;dq;jq,pq,qp;lb,lh;lk;am;ud;dq; bo;ed;ed;dl;si;nn;bp;vi;ld; luo;ck;ck;cl;zo;tr;ls;ai;ck;	0
 易北河谷	yi;ow;ow;ow;vi,vu;ah;oe;jq;ow; bei;lb;lb;ap,bj;la;lp;av;ux;ab; he;dk;dk;dk;kj,ko;er;kz;is;dk; gu;bk;bk;bk,kr;fo;cr;hg;ww;bk;	0
 易腐作物	yi;ow;ow;ow;vi,vu;ah;oe;jq;ow; fu;gr;gr;gr,rf;re;ib;xj;yw;gr; zuo;rv;rv;rv;xu;os;jw;wt;rv; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw;	0
-遗迹群	yi;zb;zr;zg;fq;yo,xo;cu;kh;zr; ji;zb;zd;zy;iq;yc;zu;yo;zy; qun;yy;yy;yj;rp,sp;sq;bg;vt;yy;	4
+遗迹群	yi;zb;zr;zg;fq;yo,xo;cu;kh;zr; ji;zb;zd;zy;iq;yc;zu;yo;zy; qun;yy;yy;yj;rp,sp;sq;bg;vt;yy;	3
 意境地图	yi;lx;lx;xy,lx;bn,cn;yp;xh;uj;lx; jing;te;te;tj;gk;gu;gp;fu;te; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; tu;kd;kd;kd;nh;wy;rw;lt;wd;	0
 移流雾	yi;hx;hx;hd;uf;hn;xl;tq;hx; liu;di;dv;di;kr;eu;ko;iy;dv; wu;yl;yl;yw;yu;ms;ts;ft;yl;	0
 夷平面	yi;ar;an;ad,dg;de,dx,xr;kn,xn;mb;gx;an; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; mian;ao;aa;aa;dd,du;ml;bm;dm;aa;	1
@@ -2415,7 +2415,7 @@ use_preset_vocabulary: false
 月亮港	yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe; liang;wj;wj;wj,jb;ii;yn,yu;go;yp;wj; gang;ds;ds;dx;kt;eu;kv;ia;dv;	0
 月球潮汐	yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe; qiu;wq;wq;wq;ah;me;ni;gf;wq; chao;do;do;di;kl;eb;kv;if;do; xi;dx;dx;dx;kf;ei;kl;iq;dx;	3
 月球章动	yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe; qiu;wq;wq;wq;ah;me;ni;gf;wq; zhang;lu;lu;lz;bs,cs;yj;xn;uj;lu; dong;yl;el;ly,yl;uu;ms;bs;fc;el;	0
-约塞米蒂	yue;su;su;su;eh;vi;ii;xq;su; sai;bt;bt;tb,bt;ig;jg;wg;pf;gt; mi;bm;dm;dd;ll;fd;pm;oy;dl; di;cj;cj;cd;zy;tb;lr;au;cj;	12
+约塞米蒂	yue;su;su;su;eh;vi;ii;xq;su; sai;bt;bt;tb,bt;ig;jg;wg;pf;gt; mi;bm;dm;dd;ll;fd;pm;oy;dl; di;cj;cj;cd;zy;tb;lr;au;cj;	6
 月震仪	yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe; zhen;yi;yn;yi;yh;mv;tf;fd;yh; yi;ry;ry;ry;xy,xh;ok,xk;jb;wy;ry;	5
 运动线法	yun;zy;zs;zy;uq;yi;bu;fc;zv; dong;yl;el;ly,yl;uu;ms;bs;fc;el; xian;sj;sj;sj;ea;vj;ip;xg;sg; fa;dq;ds;dq;kp;ei;kk;if;dv;	0
 运输地理学	yun;zy;zs;zy;uq;yi;bu;fc;zv; shu;id;id;iy;ti;kn;yp;lw;id; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; li;wl;wl;wl;ag;mg;nd;gj;wl; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez;	0
@@ -2584,7 +2584,7 @@ use_preset_vocabulary: false
 自然地理过程	zi;po;po;pa,po;ss;hu;oi;th;pm; ran;xh;ph;hq;fn,un;bf;vc;qd;pe; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; li;wl;wl;wl;ag;mg;nd;gj;wl; guo;zc;zc;zc;kq;yi;ku;fp;zc; cheng;hw;hw;hi;ua;hg;xn;tk;hw;	0
 自然电位	zi;po;po;pa,po;ss;hu;oi;th;pm; ran;xh;ph;hq;fn,un;bf;vc;qd;pe; dian;ov,yv;lv;ag,og;ee,ve;lu;oa;jn;av; wei;rl;rl;rl;xb;ot;ji;wu;rl;	4
 自然电位法	zi;po;po;pa,po;ss;hu;oi;th;pm; ran;xh;ph;hq;fn,un;bf;vc;qd;pe; dian;ov,yv;lv;ag,og;ee,ve;lu;oa;jn;av; wei;rl;rl;rl;xb;ot;ji;wu;rl; fa;dq;ds;dq;kp;ei;kk;if;dv;	0
-自然森林	zi;po;po;pa,po;ss;hu;oi;th;pm; ran;xh;ph;hq;fn,un;bf;vc;qd;pe; sen;mm;mm;ml;ww;dd;ee;ss;ll; lin;mm;mm;mm;ww;dd;ee;ss;ll;	4
+自然森林	zi;po;po;pa,po;ss;hu;oi;th;pm; ran;xh;ph;hq;fn,un;bf;vc;qd;pe; sen;mm;mm;ml;ww;dd;ee;ss;ll; lin;mm;mm;mm;ww;dd;ee;ss;ll;	3
 自然生产潜力	zi;po;po;pa,po;ss;hu;oi;th;pm; ran;xh;ph;hq;fn,un;bf;vc;qd;pe; sheng;pf;pf;na;eg;hm;ls;tg;pa; chan;wi;lp;dp,li,wp;bu,br,ir;yh;ix;u,ut;wi; qian;do;do;dt;kv;ea;ko;if;do; li;vp;vp;gp;uu;ks;sl;lt;vp;	0
 自然疫源地	zi;po;po;pa,po;ss;hu;oi;th;pm; ran;xh;ph;hq;fn,un;bf;vc;qd;pe; yi;bu;by;bu;ml;ke;ar;um;by; yuan;dx;dx;dy;kf;ef;ky;id;dx; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty;	4
 兹瓦尔特诺茨	zi;by;by;by,qy;fp;ti;hi;ux;es; wa;ad;ad;ad;dh;mi;rw;gn;ad; er;dx;dx;dx,xd;gf;nf;xy;qi;ex; te;nc;nc;ns;bk;hi;qk;tr;nc; nuo;yk;yk;yr;co;ir;sd;ya;yk; ci;cq;cr;cc;ze;to;le;au;cr;	0
@@ -2598,7 +2598,7 @@ use_preset_vocabulary: false
 棕钙土	zong;mu;mx;mz;wf;df;ef;sp;lx; gai;jg;jg;jg;dr;os;za;qg;jg; tu;ua;ua;aa;gg;gg;gt;ff;ua;	0
 综合地图集	zong;su;sx;sz;ef;vf;if;xp;sx; he;rk;rk;rk;eo;or;jd;wg;rk; de;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; tu;kd;kd;kd;nh;wy;rw;lt;wd; ji;rm;rm;mv,vm;xw;od;ue;wy;rl;	1
 综合评价地图	zong;su;sx;sz;ef;vf;if;xp;sx; he;rk;rk;rk;eo;or;jd;wg;rk; ping;yp;yp;yp;cs,cf;ij;sh;yg;yu; jia;rj;rl;rj;xp;ol;jp;ww;rj; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; tu;kd;kd;kd;nh;wy;rw;lt;wd;	0
-综合运输	zong;su;sx;sz;ef;vf;if;xp;sx; he;rk;rk;rk;eo;or;jd;wg;rk; yun;zy;zs;zy;uq;yi;bu;fc;zv; shu;id;id;iy;ti;kn;yp;lw;id;	3
+综合运输	zong;su;sx;sz;ef;vf;if;xp;sx; he;rk;rk;rk;eo;or;jd;wg;rk; yun;zy;zs;zy;uq;yi;bu;fc;zv; shu;id;id;iy;ti;kn;yp;lw;id;	1
 综合制图	zong;su;sx;sz;ef;vf;if;xp;sx; he;rk;rk;rk;eo;or;jd;wg;rk; zhi;nd;pd;dg,dv;bi;hn;qp;rm;pd; tu;kd;kd;kd;nh;wy;rw;lt;wd;	0
 综合自然区划	zong;su;sx;sz;ef;vf;if;xp;sx; he;rk;rk;rk;eo;or;jd;wg;rk; zi;po;po;pa,po;ss;hu;oi;th;pm; ran;xh;ph;hq;fn,un;bf;vc;qd;pe; qu;kx;kx;ki;dr;sk;nb;aq;kx; hua;gd;gd;dg,gd;ai,di;in;pp;aj;gd;	0
 宗教地理	zong;bu;bx;bu;if;jf;wf;pf;gx; jiao;lw;lw;wx;gj;jk;qh;ft;uw; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; li;wl;wl;wl;ag;mg;nd;gj;wl;	0
@@ -2615,4 +2615,4 @@ use_preset_vocabulary: false
 最可信地震	zui;oy;oy;oq;vl;ae;or;jb;oy; ke;dk;dk;dk;jj,jo;mr;zk;sk;av; xin;rk;rk;ry;xo,xc;or;js;wy;rk; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; zhen;yi;yn;yi;yh;mv;tf;fd;yh;	0
 作物布局	zuo;rv;rv;rv;xu;os;jw;wt;rv; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw; bu;uj;uj;ju,uj;sy,dy;kb;nr;dm;aj; ju;uk;uk;uk;qo;sr;cd;nn;uk;	0
 作物组合	zuo;rv;rv;rv;xu;os;jw;wt;rv; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw; zu;sq;sq;sq;eu;vm;if;xe;sq; he;rk;rk;rk;eo;or;jd;wg;rk;	0
-雨极	yu;ad;ad;ad;yy;my;tv;fg;ad; ji;mj,mn;mj;mj;wh;de;ec;se;lj;	3
+雨极	yu;ad;ad;ad;yy;my;tv;fg;ad; ji;mj,mn;mj;mj;wh;de;ec;se;lj;	5

@@ -8,9 +8,9 @@ version: "2024-07-13"
 sort: by_weight
 ...
 #象棋
-王天一	wang;at;at;aa;aa;mg;nw;gg;at; tian;ad;ad;ad;ue;mk;fm;gd;ad; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;	183
+王天一	wang;at;at;aa;aa;mg;nw;gg;at; tian;ad;ad;ad;ue;mk;fm;gd;ad; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;	162
 捉双	zhuo;fz;fr;fz;jg;qo;up;rk;fr; shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy;	19
-大子	da;ar;un;ad;xx;kk;md;dd;an; zi;la;va;aa,vh;aa;nd;hi;bb;va;	133
+大子	da;ar;un;ad;xx;kk;md;dd;an; zi;la;va;aa,vh;aa;nd;hi;bb;va;	97
 出动大子	chu;uu;vk;ck,aa;pp;uu;sm;bm;va; dong;yl;el;ly,yl;uu;ms;bs;fc;el; da;ar;un;ad;xx;kk;md;dd;an; zi;la;va;aa,vh;aa;nd;hi;bb;va;	5
 子力	zi;la;va;aa,vh;aa;nd;hi;bb;va; li;vp;vp;gp;uu;ks;sl;lt;vp;	383
 棋理	qi;mb;mb;mq;wf;dc;eh;sa;lb; li;wl;wl;wl;ag;mg;nd;gj;wl;	99
@@ -33,7 +33,7 @@ sort: by_weight
 重炮杀	chong;ql;pa;pa,ql;sg;hg;ld;tg;pa; pao;hb;hs;hb;tt;fu;cv;oq;hv; sha;xm;xm;mi,im;yf;kd,xd;be;qs;xx;	7
 夹车炮	jia;ar;an;fb,ar;dx;kt;hh;gu;an; che;au;al;aa;tt;kq;yc;lg;aa; pao;hb;hs;hb;tt;fu;cv;oq;hv;	8
 闷宫	men;mx;mx;mx,xm;on;lp;ah;un;mx; gong;bk;bk;bl;io;jr;wd;pk;gk;	20
-闷杀	men;mx;mx;mx,xm;on;lp;ah;un;mx; sha;xm;xm;mi,im;yf;kd,xd;be;qs;xx;	44
+闷杀	men;mx;mx;mx,xm;on;lp;ah;un;mx; sha;xm;xm;mi,im;yf;kd,xd;be;qs;xx;	34
 铁门栓	tie;jf;ju;ju;de;oo;zh;qr;ju; men;dv;dv;dg;oo;ls;am;uy;dv; shuan;mw;mw;mq;wa;dg;en;sw;lw;	15
 天地炮	tian;ad;ad;ad;ue;mk;fm;gd;ad; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; pao;hb;hs;hb;tt;fu;cv;oq;hv;	10
 空头炮	kong;bg;bg;xg,bg;ip;jm;eu;pw;gg; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; pao;hb;hs;hb;tt;fu;cv;oq;hv;	8
@@ -91,7 +91,7 @@ sort: by_weight
 过河车	guo;zc;zc;zc;kq;yi;ku;fp;zc; he;dk;dk;dk;kj,ko;er;kz;is;dk; che;au;al;aa;tt;kq;yc;lg;aa;	12
 巡河线	xun;zv;zv;zi;rq,tq;yv;ou;vp;zv; he;dk;dk;dk;kj,ko;er;kz;is;dk; xian;sj;sj;sj;ea;vj;ip;xg;sg;	8
 巡河车	xun;zv;zv;zi;rq,tq;yv;ou;vp;zv; he;dk;dk;dk;kj,ko;er;kz;is;dk; che;au;al;aa;tt;kq;yc;lg;aa;	12
-飞象	fei;vd;vd;yd;rh;no,xo;cf;nu;vd; xiang;du;dn;du,pd,ua;gh;no;wx;qj;en;	93
+飞象	fei;vd;vd;yd;rh;no,xo;cf;nu;vd; xiang;du;dn;du,pd,ua;gh;no;wx;qj;en;	91
 飞相	fei;vd;vd;yd;rh;no,xo;cf;nu;vd; xiang;mo;mo;mo;ws;du;eq;sh;lm;	15
 敢死车	gan;ew;vw;we,aw,vw;rj;mk,nk;ah;nb;vw; si;db;db;db;ff;mp;gv;gq;db; che;au;al;aa;tt;kq;yc;lg;aa;	0
 敢死炮	gan;ew;vw;we,aw,vw;rj;mk,nk;ah;nb;vw; si;db;db;db;ff;mp;gv;gq;db; pao;hb;hs;hb;tt;fu;cv;oq;hv;	3
@@ -120,7 +120,7 @@ sort: by_weight
 古棋谱	gu;uk;uk;uk;so;jr;cg;dg;uk; qi;mb;mb;mq;wf;dc;eh;sa;lb; pu;yo;yo;yp;cv;ia;so;yu;yo;	1
 古谱	gu;uk;uk;uk;so;jr;cg;dg;uk; pu;yo;yo;yp;cv;ia;so;yu;yo;	34
 #国际象棋
-王车易位	wang;at;at;aa;aa;mg;nw;gg;at; che;au;al;aa;tt;kq;yc;lg;aa; yi;ow;ow;ow;vi,vu;ah;oe;jq;ow; wei;rl;rl;rl;xb;ot;ji;wu;rl;	80
+王车易位	wang;at;at;aa;aa;mg;nw;gg;at; che;au;al;aa;tt;kq;yc;lg;aa; yi;ow;ow;ow;vi,vu;ah;oe;jq;ow; wei;rl;rl;rl;xb;ot;ji;wu;rl;	67
 无子可动	wu;ay;ay;ag,ay,ee;uk,ur;mu;du;fq;av; zi;la;va;aa,vh;aa;nd;hi;bb;va; ke;dk;dk;dk;jj,jo;mr;zk;sk;av; dong;yl;el;ly,yl;uu;ms;bs;fc;el;	20
 吃过路兵	chi;kv;kq;kq;or;rn;da;kt;ky; guo;zc;zc;zc;kq;yi;ku;fp;zc; lu;zk;zk;zg;go;rr;ps;kh;zk; bing;qb;qb;qb;uf;oc;th;rg;qb;	20
 兵升变	bing;qb;qb;qb;uf;oc;th;rg;qb; sheng;pc;pc;pc;uz,up;ht;tl;ta;pa; bian;wy;wy;wy,yy;il;ye;zr;yo;wy;	12
@@ -149,7 +149,7 @@ sort: by_weight
 斜指	xie;rd;ru;dy;es,eh;oj;jj;wt;ru; zhi;fo;fo;fv;jv;qa;uo;rx;fo;	14
 长星	zhang;pn;pn;pd;uh;po;pc;ta;pn; xing;ou;ou;ou;vg,va;am;ol;jt;ou;	21
 峡月	xia;uj;ej;uj;px;ut;vh;mg;sj; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;	7
-云月	yun;ag,es;es;es,se;up;mi;by;fc;ev; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;	31
+云月	yun;ag,es;es;es,se;up;mi;by;fc;ev; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;	33
 浦月	pu;df;df;df;kh;eb;kn;ig;df; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;	53
 岚月	lan;uf;ex;uf;py;uk;vb;mm;sx; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;	10
 斜月	xie;rd;ru;dy;es,eh;oj;jj;wt;ru; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;	0

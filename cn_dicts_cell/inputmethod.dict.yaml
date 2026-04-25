@@ -19,7 +19,7 @@ sort: by_weight
 白霜拼音的作者是伽布里克	bai;po;po;pa,po;ss;ha;ub;rr;po; shuang;yo;yo;yx;ys;mu;tq;fs;ym; pin;fk;fk;fb;jp,jz;qt,qj;ul;ru;fk; yin;lo;lo;lo;cc,bv;ya;xy;uj;lo; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu; zuo;rv;rv;rv;xu;os;jw;wt;rv; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo; shi;oz;or;op,ov;ve;ao;ot;j,jg;or; ga;rk;rk;rj;xo;or;jd;wl;rk; bu;uj;uj;ju,uj;sy,dy;kb;nr;dm;aj; li;tt;la;aa,tt;vg;wg;dl;jf;aa; ke;ux,ge;ue;eg,ux;sk;ju;cp;dq;ue;	0
 雾凇词库	wu;yl;yl;yw;yu;ms;ts;ft;yl; song;dg;ds;ds;fp;ii;wk;us;dv; ci;yk;yk;ys;co;ir;sd;yn;yk; ku;gi;gi;gi;rt;iq;xy;yl;gi;	0
 雾凇拼音	wu;yl;yl;yw;yu;ms;ts;ft;yl; song;dg;ds;ds;fp;ii;wk;us;dv; pin;fk;fk;fb;jp,jz;qt,qj;ul;ru;fk; yin;lo;lo;lo;cc,bv;ya;xy;uj;lo;	0
-大竹	da;ar;un;ad;xx;kk;md;dd;an; zhu;gg;pl,gg;gg;nn;hh;ru;tt;pd;	39
+大竹	da;ar;un;ad;xx;kk;md;dd;an; zhu;gg;pl,gg;gg;nn;hh;ru;tt;pd;	37
 聆竹听风	ling;es;es;el;dp,dh;si;qk;bw;ev; zhu;gg;pl,gg;gg;nn;hh;ru;tt;pd; ting;kj;kj;kj;op;rl;dt;kr;kj; feng;jx;jx;ji;iy;hk;ob;mq;jx;	0
 魔然	mo;gg;gg;gm,mg;ds,rs,rp,dp;ii;za;ys;gv; ran;xh;ph;hq;fn,un;bf;vc;qd;pe;	0
 雾凇鹤	wu;yl;yl;yw;yu;ms;ts;ft;yl; song;dg;ds;ds;fp;ii;wk;us;dv; he;bn;dn;nv;ic;om;wx;pw;dn;	0
@@ -88,7 +88,7 @@ sort: by_weight
 光華	guang;xe;xw;ea,xw;hk;fu;mg;iq;ee; hua;cf;;ca;;tj;lu;ag;;	1
 星陳	xing;ou;ou;ou;vg,va;am;ol;jt;ou; chen;ed;;ed;;nw;to;bg;;	0
 卿云	qing;pg;pe;mg,mj;ub;hl;bi;qt;pe; yun;ag,es;es;es,se;up;mi;by;fc;ev;	16
-识别码	shi;yv;yb;yv;cf;ic;sh;yk;yb; bie;kd;kd;dl;oi;rn,xn;dp;kl;kd; ma;um;um;um;tz;mm;mn;dc;um;	145
+识别码	shi;yv;yb;yv;cf;ic;sh;yk;yb; bie;kd;kd;dl;oi;rn,xn;dp;kl;kd; ma;um;um;um;tz;mm;mn;dc;um;	139
 音托	yin;lo;lo;lo;cc,bv;ya;xy;uj;lo; tuo;fq;fq;fq,ft;ja,jr;qp;ur;rt;fq;	0
 回头码	hui;kk;kk;kk;no;wr;rd;lk;wk; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; ma;um;um;um;tz;mm;mn;dc;um;	0
 音形码	yin;lo;lo;lo;cc,bv;ya;xy;uj;lo; xing;kp;kp;pk;uu;mh;fe;ga;kp; ma;um;um;um;tz;mm;mn;dc;um;	2
@@ -104,8 +104,8 @@ sort: by_weight
 九重魔鹤	jiu;pv;pv;py;ur;kn;kj;vt;pv; zhong;ql;pa;pa,ql;sg;hg;ld;tg;pa; mo;gg;gg;gm,mg;ds,rs,rp,dp;ii;za;ys;gv; he;bn;dn;nv;ic;om;wx;pw;dn;	0
 鲸凉鹤	jing;yx;ax;yj;qf;nf;wy;qg;ex; liang;dx;dx;dj;ff;if;wy;uy;dx; he;bn;dn;nv;ic;om;wx;pw;dn;	0
 看打	kan;uo;uo;ou,uo;us;hu;uq;rh;pm; da;fd;fd;fd;jj;qn;ua;rs;fd;	0
-跟打	gen;zg;zg;zg;gh;rv;pi;kh;zh; da;fd;fd;fd;jj;qn;ua;rs;fd;	45
-想打	xiang;mx;mx;xx;wn;dp;eh;sh;lx; da;fd;fd;fd;jj;qn;ua;rs;fd;	703
+跟打	gen;zg;zg;zg;gh;rv;pi;kh;zh; da;fd;fd;fd;jj;qn;ua;rs;fd;	42
+想打	xiang;mx;mx;xx;wn;dp;eh;sh;lx; da;fd;fd;fd;jj;qn;ua;rs;fd;	603
 自在飞扬	zi;po;po;pa,po;ss;hu;oi;th;pm; zai;ut;ut;ta,ut;dg,sg;kg;ng;d,dh;at; fei;vd;vd;yd;rh;no,xo;cf;nu;vd; yang;fp;fp;fy;ju;qh;ue;rn;fp;	0
 苗师	miao;ct;ct;ct;zw;tw;lq;al;ct; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	1
 墨奇码拆	mo;lt;ht;th,ht;ng;wg;pg;lf;ht; qi;dk;dk;dk;xj,xo;kr;mz;ds;dk; ma;um;um;um;tz;mm;mn;dc;um; chai;fi;fi;fi;jh;qy;ui;rr;fi;	0

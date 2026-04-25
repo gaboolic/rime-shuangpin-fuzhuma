@@ -86,7 +86,7 @@ use_preset_vocabulary: false
 车二退四	che;au;al;aa;tt;kq;yc;lg;aa; er;aa;aa;aa;uu;mm;me;fg;aa; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; si;ke;ke;aa,ke;nk;wc;ys;lh;we;	0
 车二退五	che;au;al;aa;tt;kq;yc;lg;aa; er;aa;aa;aa;uu;mm;me;fg;aa; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; wu;aw;aa;aa;gg;mm;wu;gg;aa;	0
 车二退一	che;au;al;aa;tt;kq;yc;lg;aa; er;aa;aa;aa;uu;mm;me;fg;aa; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;	0
-车进	che;au;al;aa;tt;kq;yc;lg;aa; jin;zj;zj;zj;uq;yt;qu;fj;zj;	21
+车进	che;au;al;aa;tt;kq;yc;lg;aa; jin;zj;zj;zj;uq;yt;qu;fj;zj;	20
 车九进八	che;au;al;aa;tt;kq;yc;lg;aa; jiu;pv;pv;py;ur;kn;kj;vt;pv; jin;zj;zj;zj;uq;yt;qu;fj;zj; ba;pn;pn;pd;ff;ho;hb;wt;pn;	0
 车九进二	che;au;al;aa;tt;kq;yc;lg;aa; jiu;pv;pv;py;ur;kn;kj;vt;pv; jin;zj;zj;zj;uq;yt;qu;fj;zj; er;aa;aa;aa;uu;mm;me;fg;aa;	1
 车九进九	che;au;al;aa;tt;kq;yc;lg;aa; jiu;pv;pv;py;ur;kn;kj;vt;pv; jin;zj;zj;zj;uq;yt;qu;fj;zj; jiu;pv;pv;py;ur;kn;kj;vt;pv;	0
@@ -218,7 +218,7 @@ use_preset_vocabulary: false
 车四退四	che;au;al;aa;tt;kq;yc;lg;aa; si;ke;ke;aa,ke;nk;wc;ys;lh;we; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; si;ke;ke;aa,ke;nk;wc;ys;lh;we;	0
 车四退五	che;au;al;aa;tt;kq;yc;lg;aa; si;ke;ke;aa,ke;nk;wc;ys;lh;we; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; wu;aw;aa;aa;gg;mm;wu;gg;aa;	0
 车四退一	che;au;al;aa;tt;kq;yc;lg;aa; si;ke;ke;aa,ke;nk;wc;ys;lh;we; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;	0
-车退	che;au;al;aa;tt;kq;yc;lg;aa; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh;	2
+车退	che;au;al;aa;tt;kq;yc;lg;aa; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh;	1
 车五进八	che;au;al;aa;tt;kq;yc;lg;aa; wu;aw;aa;aa;gg;mm;wu;gg;aa; jin;zj;zj;zj;uq;yt;qu;fj;zj; ba;pn;pn;pd;ff;ho;hb;wt;pn;	0
 车五进二	che;au;al;aa;tt;kq;yc;lg;aa; wu;aw;aa;aa;gg;mm;wu;gg;aa; jin;zj;zj;zj;uq;yt;qu;fj;zj; er;aa;aa;aa;uu;mm;me;fg;aa;	0
 车五进九	che;au;al;aa;tt;kq;yc;lg;aa; wu;aw;aa;aa;gg;mm;wu;gg;aa; jin;zj;zj;zj;uq;yt;qu;fj;zj; jiu;pv;pv;py;ur;kn;kj;vt;pv;	0
@@ -2061,7 +2061,7 @@ use_preset_vocabulary: false
 蔡忠诚	cai;cu;cx;cj;zf;tf;lf;aw;cx; zhong;vx;vx;xv;on;lp;dh;kh;vx; cheng;yi;yi;yi;ch;is;sa;yd;yg;	0
 曹岩磊	cao;co;ao;oc,co;dv,zv;ta;fo;gm;ao; yan;uu;eu;uu;pt;ur;vm;md;sk; lei;uu;uu;uu;tt;mr;mm;dd;uk;	6
 侧面虎	ce;rd;rd;rz;xi;on;jp;wm;rd; mian;ao;aa;aa;dd,du;ml;bm;dm;aa; hu;hj;hj;hj;pi;yn,yu;zh;ha;aj;	5
-长打	chang;pn;pn;pd;uh;po;pc;ta;pn; da;fd;fd;fd;jj;qn;ua;rs;fd;	47
+长打	chang;pn;pn;pd;uh;po;pc;ta;pn; da;fd;fd;fd;jj;qn;ua;rs;fd;	44
 长兑	chang;pn;pn;pd;uh;po;pc;ta;pn; dui;bx;be;bx,ek;fk;cu,xu;hp;uk;ee;	0
 长跟	chang;pn;pn;pd;uh;po;pc;ta;pn; gen;zg;zg;zg;gh;rv;pi;kh;zh;	0
 长将	chang;pn;pn;pd;uh;po;pc;ta;pn; jiang;lc;dc;dc,jc,pc;lk;li;ak;uq;dc;	0
@@ -2098,7 +2098,7 @@ use_preset_vocabulary: false
 得子失势	de;rc;ic;xc;hk;hi;wk;tj;rc; zi;la;va;aa,vh;aa;nd;hi;bb;va; shi;pf;pf;pf;ee;ho;th;rw;pf; shi;fl;fl;lv;ju;qs;us;rv;fl;	0
 得子失先却是输	de;rc;ic;xc;hk;hi;wk;tj;rc; zi;la;va;aa,vh;aa;nd;hi;bb;va; shi;pf;pf;pf;ee;ho;th;rw;pf; xian;ne;ne;ne,en;bk;hu;qp;tf;pe; que;qe;te;eq;gb;gl;gz;fc;te; shi;oz;or;op,ov;ve;ao;ot;j,jg;or; shu;id;id;iy;ti;kn;yp;lw;id;	1
 等着困敌	deng;vc;vc;vs;nk;hi;rk;tf;vc; zhao;yo;yo;yo;fs;tu;gq;ud;em; kun;km;km;km;nw;wd,xd;re;ls;wl; di;uw;qw;wu,uw;sj;hk,xk;ah;td;qw;	0
-低兵	di;ru;rd;rd;xh;om,oi;ji;wq;rd; bing;qb;qb;qb;uf;oc;th;rg;qb;	5
+低兵	di;ru;rd;rd;xh;om,oi;ji;wq;rd; bing;qb;qb;qb;uf;oc;th;rg;qb;	4
 底兵	di;gu;gd;gd;rh;im,ii;xi;yq;gd; bing;qb;qb;qb;uf;oc;th;rg;qb;	12
 地方棋协大师	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; qi;mb;mb;mq;wf;dc;eh;sa;lb; xie;ub;ub;ub;sf;jc;nh;fl;ub; da;ar;un;ad;xx;kk;md;dd;an; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	0
 调动子力	diao;yk;yk;yv;co;ir;sd;ym;yk; dong;yl;el;ly,yl;uu;ms;bs;fc;el; zi;la;va;aa,vh;aa;nd;hi;bb;va; li;vp;vp;gp;uu;ks;sl;lt;vp;	0
@@ -2156,7 +2156,7 @@ use_preset_vocabulary: false
 还中炮	hai;zb;zb;zb;dq;yf;cu;gi;zb; zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; pao;hb;hs;hb;tt;fu;cv;oq;hv;	1
 河北金环钢构	he;dk;dk;dk;kj,ko;er;kz;is;dk; bei;lb;lb;ap,bj;la;lp;av;ux;ab; jin;rb;ra;ra,pa;ed,ef;cc;zj;qq;ra; huan;wb;wb;wb;ah,af;mf;nc;gg;wb; gang;jx;jx;jg;dy;ok;zb;qm;jx; gou;mg;ms;mg;wp;di,xi;ek;sq;lv;	0
 河边无青草不用多嘴牛	he;dk;dk;dk;kj,ko;er;kz;is;dk; bian;zl;zl;zl;uq;ys;su;lp;zl; wu;ay;ay;ag,ay,ee;uk,ur;mu;du;fq;av; qing;fo;fo;of,fo;al;qb;av;ge;ao; cao;cu;cu;cz;zs;tj;ln;aj;cu; bu;ab;ad;ad,ax;dh,df;mf;cb;i,gi;ad; yong;kf,ol;kl;kf;lp;bq;ty;et;pa; duo;xx;xx;xx;ff;ni;ll;qq;xx; zui;ky;ky;kj,kz;op;rb;dt;kh;ky; niu;pu;pl;pa;bb;hq;qn;rh;pa;	0
-何刚	he;rk;rk;rk;xj,xo;or;jz;ws;rk; gang;kd;kd;dg;oi;bn;mp;mq;gd;	10
+何刚	he;rk;rk;rk;xj,xo;or;jz;ws;rk; gang;kd;kd;dg;oi;bn;mp;mq;gd;	11
 合击战术	he;rk;rk;rk;eo;or;jd;wg;rk; ji;fk;ak;aa,eu,fk;up;qu;um;fm;aa; zhan;vg;lg;gv;pa,ph;yi;yp;hk;vg; shu;md;md;md;wh;id,xd;ei;sy;ld;	0
 河界线	he;dk;dk;dk;kj,ko;er;kz;is;dk; jie;tj;tl;tj;wp;wl;qp;lw;tj; xian;sj;sj;sj;ea;vj;ip;xg;sg;	1
 和势	he;hk;hk;hk;uo;hr;xd;t,tk;hk; shi;fl;fl;lv;ju;qs;us;rv;fl;	0
@@ -2241,7 +2241,7 @@ use_preset_vocabulary: false
 蒋志梁	jiang;cc;cc;cj;zk;ti;lk;au;cc; zhi;tx;ux;ux,xu;gn;gp;gh;fn;ux; liang;dm;dm;mb;kw;ed;ke;iv;dl;	1
 借车使炮	jie;ro;ro;rx;xv;oa;jo;wa;ro; che;au;al;aa;tt;kq;yc;lg;aa; shi;rl;rl;rl;xy;ok;jb;wg;rl; pao;hb;hs;hb;tt;fu;cv;oq;hv;	1
 借炮使马	jie;ro;ro;rx;xv;oa;jo;wa;ro; pao;hb;hs;hb;tt;fu;cv;oq;hv; shi;rl;rl;rl;xy;ok;jb;wg;rl; ma;va;va;aa,vh;zz;nm;nm;cn;va;	1
-金波	jin;rb;ra;ra,pa;ed,ef;cc;zj;qq;ra; bo;dp;dy;dp;kl;ee;kr;ih;dy;	144
+金波	jin;rb;ra;ra,pa;ed,ef;cc;zj;qq;ra; bo;dp;dy;dp;kl;ee;kr;ih;dy;	129
 金钩炮	jin;rb;ra;ra,pa;ed,ef;cc;zj;qq;ra; gou;jg;js;jg;dp;oi,xi;zk;qq;jv; pao;hb;hs;hb;tt;fu;cv;oq;hv;	6
 金钩炮对起马	jin;rb;ra;ra,pa;ed,ef;cc;zj;qq;ra; gou;jg;js;jg;dp;oi,xi;zk;qq;jv; pao;hb;hs;hb;tt;fu;cv;oq;hv; dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; qi;tj;tj;zj;qt,gt;gu;pv;fh;tj; ma;va;va;aa,vh;zz;nm;nm;cn;va;	0
 金海英	jin;rb;ra;ra,pa;ed,ef;cc;zj;qq;ra; hai;dm;dm;dm;kh;ey;kk;it;dm; ying;cy;cy;cy;zx,ze;tk;lm;am;cy;	0
@@ -2279,7 +2279,7 @@ use_preset_vocabulary: false
 梅花谱	mei;mm;mm;mm;wh;dy;ek;st;lm; hua;cb;cb;ch;za;tp;lv;aw;cb; pu;yo;yo;yp;cv;ia;so;yu;yo;	3
 梅花三六	mei;mm;mm;mm;wh;dy;ek;st;lm; hua;cb;cb;ch;za;tp;lv;aw;cb; san;ae;ae;aa;uu;mm;ts;dg;ae; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb;	0
 梅娜	mei;mm;mm;mm;wh;dy;ek;st;lm; na;ne;ne;nn;yb;vl;bt;vv;ne;	0
-闷杀	men;mx;mx;mx,xm;on;lp;ah;un;mx; sha;xm;xm;mi,im;yf;kd,xd;be;qs;xx;	44
+闷杀	men;mx;mx;mx,xm;on;lp;ah;un;mx; sha;xm;xm;mi,im;yf;kd,xd;be;qs;xx;	34
 苗利明	miao;ct;ct;ct;zw;tw;lq;al;ct; li;hd;hd;hd,dh;ui;hn;xp;tj;hd; ming;oo;oo;oo;vl;ab;ov;je;oo;	0
 苗永鹏	miao;ct;ct;ct;zw;tw;lq;al;ct; yong;du;dn;dd;hh;ie;ik;yn;dn; peng;on;on;np;lc;bm;vx;ee;on;	0
 明捉	ming;oo;oo;oo;vl;ab;ov;je;oo; zhuo;fz;fr;fz;jg;qo;up;rk;fr;	0
@@ -2304,7 +2304,7 @@ use_preset_vocabulary: false
 棋理	qi;mb;mb;mq;wf;dc;eh;sa;lb; li;wl;wl;wl;ag;mg;nd;gj;wl;	99
 棋例裁决	qi;mb;mb;mq;wf;dc;eh;sa;lb; li;rd;rd;rl;xi;on;jp;wg;rd; cai;gy;uy;gy,yg;sk,ha,sh,gh;jv;nt;fa;hg; jue;dg;dg;dd,dg;fx,fe;ik;wj;un;dn;	0
 棋联大师	qi;mb;mb;mq;wf;dc;eh;sa;lb; lian;et;et;eg;dx;sk;qm;bu;ed; da;ar;un;ad;xx;kk;md;dd;an; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	0
-起马	qi;tj;tj;zj;qt,gt;gu;pv;fh;tj; ma;va;va;aa,vh;zz;nm;nm;cn;va;	9
+起马	qi;tj;tj;zj;qt,gt;gu;pv;fh;tj; ma;va;va;aa,vh;zz;nm;nm;cn;va;	11
 起马对挺卒	qi;tj;tj;zj;qt,gt;gu;pv;fh;tj; ma;va;va;aa,vh;zz;nm;nm;cn;va; dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; ting;fw;fz;ft;jq;qg;uu;rt;fr; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	0
 起马局	qi;tj;tj;zj;qt,gt;gu;pv;fh;tj; ma;va;va;aa,vh;zz;nm;nm;cn;va; ju;uk;uk;uk;qo;sr;cd;nn;uk;	9
 弃马十三着	qi;wc;wc;cw,wc;iz,ip;yt;bl;yc;wa; ma;va;va;aa,vh;zz;nm;nm;cn;va; shi;al;al;aa;ss;jj;ns;fg;aa; san;ae;ae;aa;uu;mm;ts;dg;ae; zhao;yo;yo;yo;fs;tu;gq;ud;em;	11
@@ -2314,7 +2314,7 @@ use_preset_vocabulary: false
 弃象陷车	qi;wc;wc;cw,wc;iz,ip;yt;bl;yc;wa; xiang;du;dn;du,pd,ua;gh;no;wx;qj;en; xian;ej;ej;ej,ex;bs;nx;tp;bq;ej; che;au;al;aa;tt;kq;yc;lg;aa;	0
 棋协大师	qi;mb;mb;mq;wf;dc;eh;sa;lb; xie;ub;ub;ub;sf;jc;nh;fl;ub; da;ar;un;ad;xx;kk;md;dd;an; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	13
 启新高尔夫杯全国象棋甲级联赛	qi;hk;hk;hk,kh;qo;hr,ir,xr;md;yn;hk; xin;lj;lj;jq;bp;yl;it;us;lj; gao;wk;wk;wk;io;yr;gg;ym;wk; er;dx;dx;dx,xd;gf;nf;xy;qi;ex; fu;er;an;ad,er;ee;qo;hf;fw;an; bei;mb;mb;mb;wh,wf;df;ec;sg;lb; quan;rw;rw;rw;ea;og;jn;wg;rw; guo;ky;ky;ky;na,nh;wi;ri;l,lg;wy; xiang;du;dn;du,pd,ua;gh;no;wx;qj;en; qi;mb;mb;mq;wf;dc;eh;sa;lb; jia;ol,tl;ll;aa,oa;vp;wl;sj;lh;aa; ji;sj;sj;sj;eh;ve;ic;xe;sj; lian;et;et;eg;dx;sk;qm;bu;ed; sai;bb;br;bb;im;jo;wo;pf;gr;	0
-起着	qi;tj;tj;zj;qt,gt;gu;pv;fh;tj; zhao;yo;yo;yo;fs;tu;gq;ud;em;	1146
+起着	qi;tj;tj;zj;qt,gt;gu;pv;fh;tj; zhao;yo;yo;yo;fs;tu;gq;ud;em;	1134
 弃子成和	qi;wc;wc;cw,wc;iz,ip;yt;bl;yc;wa; zi;la;va;aa,vh;aa;nd;hi;bb;va; cheng;wv;wv;gg,wg;rh;is;na;dn;vg; he;hk;hk;hk;uo;hr;xd;t,tk;hk;	0
 弃子解困	qi;wc;wc;cw,wc;iz,ip;yt;bl;yc;wa; zi;la;va;aa,vh;aa;nd;hi;bb;va; jie;dn;dn;jn;gb;nq;xq;qe;en; kun;km;km;km;nw;wd,xd;re;ls;wl;	0
 弃子谋子	qi;wc;wc;cw,wc;iz,ip;yt;bl;yc;wa; zi;la;va;aa,vh;aa;nd;hi;bb;va; mou;ym;ym;ym;cw;id;se;ya;yl; zi;la;va;aa,vh;aa;nd;hi;bb;va;	0
@@ -2333,9 +2333,9 @@ use_preset_vocabulary: false
 三级棋士	san;ae;ae;aa;uu;mm;ts;dg;ae; ji;sj;sj;sj;eh;ve;ic;xe;sj; qi;mb;mb;mq;wf;dc;eh;sa;lb; shi;ua;ua;aa;gg;jm;gs;fg;ua;	3
 三仙炼丹	san;ae;ae;aa;uu;mm;ts;dg;ae; xian;ru;re;ru;xp;ou;jv;wm;rs; lian;hd;hd;hd,hj;tf;fc,fd;cy;oa;hd; dan;kd;pa;pd;ua,ud,uz,od,oz;by;mz;my;pa;	1
 三卒	san;ae;ae;aa;uu;mm;ts;dg;ae; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	0
-杀法	sha;xm;xm;mi,im;yf;kd,xd;be;qs;xx; fa;dq;ds;dq;kp;ei;kk;if;dv;	231
+杀法	sha;xm;xm;mi,im;yf;kd,xd;be;qs;xx; fa;dq;ds;dq;kp;ei;kk;if;dv;	230
 杀棋	sha;xm;xm;mi,im;yf;kd,xd;be;qs;xx; qi;mb;mb;mq;wf;dc;eh;sa;lb;	54
-杀着	sha;xm;xm;mi,im;yf;kd,xd;be;qs;xx; zhao;yo;yo;yo;fs;tu;gq;ud;em;	40
+杀着	sha;xm;xm;mi,im;yf;kd,xd;be;qs;xx; zhao;yo;yo;yo;fs;tu;gq;ud;em;	35
 上海金外滩	shang;ba;la;aa,ba;pd,pu;ym;yf;h,hh;aa; hai;dm;dm;dm;kh;ey;kk;it;dm; jin;rb;ra;ra,pa;ed,ef;cc;zj;qq;ra; wai;xb;xb;xb;fh;ny;ly;qh;xb; tan;dv;df;dn;ka;eg;ku;ic;dn;	0
 舍小救大	she;rg;rk;ru;eo;or;ja;wf;rk; xiao;lb;ld;ad;pf;nc;yx;ih;vd; jiu;qw;qw;wq;dj;ik;fh;fi;qw; da;ar;un;ad;xx;kk;md;dd;an;	0
 审局	shen;bu;bu;bu;ip;jl;wg;pj;gu; ju;uk;uk;uk;qo;sr;cd;nn;uk;	5
@@ -2357,7 +2357,7 @@ use_preset_vocabulary: false
 栓链	shuan;mw;mw;mq;wa;dg;en;sw;lw; lian;ji;jz;jl;dq;oq;zu;ql;ji;	0
 拴链困敌	shuan;fw;fw;fq;ja;qg;un;rw;fw; lian;ji;jz;jl;dq;oq;zu;ql;ji; kun;km;km;km;nw;wd,xd;re;ls;wl; di;uw;qw;wu,uw;sj;hk,xk;ah;td;qw;	0
 双杯献酒	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; bei;mb;mb;mb;wh,wf;df;ec;sg;lb; xian;uq;uq;qn;sb,sh;jk;nm;fm;uq; jiu;dy;dy;dy;kd;ew;ky;is;dy;	1
-双车献酒	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; che;au;al;aa;tt;kq;yc;lg;aa; xian;uq;uq;qn;sb,sh;jk;nm;fm;uq; jiu;dy;dy;dy;kd;ew;ky;is;dy;	1
+双车献酒	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; che;au;al;aa;tt;kq;yc;lg;aa; xian;uq;uq;qn;sb,sh;jk;nm;fm;uq; jiu;dy;dy;dy;kd;ew;ky;is;dy;	0
 双献酒	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; xian;uq;uq;qn;sb,sh;jk;nm;fm;uq; jiu;dy;dy;dy;kd;ew;ky;is;dy;	1
 双车错	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; che;au;al;aa;tt;kq;yc;lg;aa; cuo;jo;jo;jx;dv;oa;zo;qa;jo;	9
 双将	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; jiang;lc;dc;dc,jc,pc;lk;li;ak;uq;dc;	5
@@ -2384,7 +2384,7 @@ use_preset_vocabulary: false
 韬略元机	tao;wj;wj;wj,wy;us;qx;gp;fn;wj; lue;tk;tk;tg;wo;wr;qs;lt;tk; yuan;aw;ee;aw,ee;uk;mu;mp;fq;ee; ji;mj;mj;mj;wi;dn;eo;sm;lj;	1
 特级大师象棋实战布局	te;nc;nc;ns;bk;hi;qk;tr;nc; ji;sj;sj;sj;eh;ve;ic;xe;sj; da;ar;un;ad;xx;kk;md;dd;an; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj; xiang;du;dn;du,pd,ua;gh;no;wx;qj;en; qi;mb;mb;mq;wf;dc;eh;sa;lb; shi;bd;bd;bt;ix;jk;wm;pu;gd; zhan;vg;lg;gv;pa,ph;yi;yp;hk;vg; bu;uj;uj;ju,uj;sy,dy;kb;nr;dm;aj; ju;uk;uk;uk;qo;sr;cd;nn;uk;	0
 特级国际大师	te;nc;nc;ns;bk;hi;qk;tr;nc; ji;sj;sj;sj;eh;ve;ic;xe;sj; guo;ky;ky;ky;na,nh;wi;ri;l,lg;wy; ji;eu;ex;eu;bf;nf;tf;bf;ex; da;ar;un;ad;xx;kk;md;dd;an; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	0
-提吃	ti;fz;fr;fu;je;qo;ut;rj;fr; chi;kv;kq;kq;or;rn;da;kt;ky;	3
+提吃	ti;fz;fr;fu;je;qo;ut;rj;fr; chi;kv;kq;kq;or;rn;da;kt;ky;	1
 天地炮	tian;ad;ad;ad;ue;mk;fm;gd;ad; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; pao;hb;hs;hb;tt;fu;cv;oq;hv;	10
 铁门栓	tie;jf;ju;ju;de;oo;zh;qr;ju; men;dv;dv;dg;oo;ls;am;uy;dv; shuan;mw;mw;mq;wa;dg;en;sw;lw;	15
 贴身车	tie;bv;kk;bv;mo;br;od;mh;bk; shen;zc;pp;pp;uu;hh;zs;tm;pp; che;au;al;aa;tt;kq;yc;lg;aa;	1
@@ -2394,7 +2394,7 @@ use_preset_vocabulary: false
 挺兵对金钩炮	ting;fw;fz;ft;jq;qg;uu;rt;fr; bing;qb;qb;qb;uf;oc;th;rg;qb; dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; jin;rb;ra;ra,pa;ed,ef;cc;zj;qq;ra; gou;jg;js;jg;dp;oi,xi;zk;qq;jv; pao;hb;hs;hb;tt;fu;cv;oq;hv;	0
 挺兵对进马	ting;fw;fz;ft;jq;qg;uu;rt;fr; bing;qb;qb;qb;uf;oc;th;rg;qb; dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; jin;zj;zj;zj;uq;yt;qu;fj;zj; ma;va;va;aa,vh;zz;nm;nm;cn;va;	0
 挺兵对起马	ting;fw;fz;ft;jq;qg;uu;rt;fr; bing;qb;qb;qb;uf;oc;th;rg;qb; dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; qi;tj;tj;zj;qt,gt;gu;pv;fh;tj; ma;va;va;aa,vh;zz;nm;nm;cn;va;	0
-停着	ting;rd;rd;rt;xj;on;ja;wy;rd; zhao;yo;yo;yo;fs;tu;gq;ud;em;	336
+停着	ting;rd;rd;rt;xj;on;ja;wy;rd; zhao;yo;yo;yo;fs;tu;gq;ud;em;	288
 挺卒	ting;fw;fz;ft;jq;qg;uu;rt;fr; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	3
 同线车	tong;kk;kk;kk;oo;br;md;m,mg;ak; xian;sj;sj;sj;ea;vj;ip;xg;sg; che;au;al;aa;tt;kq;yc;lg;aa;	0
 突破战术	tu;bq;bq;xq,bq;ib,ih;jk;em;pw;gq; po;up;uy;up;tl;me;mr;dh;uy; zhan;vg;lg;gv;pa,ph;yi;yp;hk;vg; shu;md;md;md;wh;id,xd;ei;sy;ld;	0
@@ -2422,8 +2422,8 @@ use_preset_vocabulary: false
 仙人指路对卒底炮	xian;ru;re;ru;xp;ou;jv;wm;rs; ren;pn;pn;pd;ee;oo;jr;w,ww;pn; zhi;fo;fo;fv;jv;qa;uo;rx;fo; lu;zk;zk;zg;go;rr;ps;kh;zk; dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; zu;wu;wu;wu,uc;is;yj;zn;yw;wu; di;gu;gd;gd;rh;im,ii;xi;yq;gd; pao;hb;hs;hb;tt;fu;cv;oq;hv;	1
 仙人指路对卒底炮飞左象	xian;ru;re;ru;xp;ou;jv;wm;rs; ren;pn;pn;pd;ee;oo;jr;w,ww;pn; zhi;fo;fo;fv;jv;qa;uo;rx;fo; lu;zk;zk;zg;go;rr;ps;kh;zk; dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; zu;wu;wu;wu,uc;is;yj;zn;yw;wu; di;gu;gd;gd;rh;im,ii;xi;yq;gd; pao;hb;hs;hb;tt;fu;cv;oq;hv; fei;vd;vd;yd;rh;no,xo;cf;nu;vd; zuo;ug;ug;gu,ug;sp,dp;km;nu;da;ag; xiang;du;dn;du,pd,ua;gh;no;wx;qj;en;	0
 仙人指路对卒底炮上马	xian;ru;re;ru;xp;ou;jv;wm;rs; ren;pn;pn;pd;ee;oo;jr;w,ww;pn; zhi;fo;fo;fv;jv;qa;uo;rx;fo; lu;zk;zk;zg;go;rr;ps;kh;zk; dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; zu;wu;wu;wu,uc;is;yj;zn;yw;wu; di;gu;gd;gd;rh;im,ii;xi;yq;gd; pao;hb;hs;hb;tt;fu;cv;oq;hv; shang;ba;la;aa,ba;pd,pu;ym;yf;h,hh;aa; ma;va;va;aa,vh;zz;nm;nm;cn;va;	0
-先胜	xian;ne;ne;ne,en;bk;hu;qp;tf;pe; sheng;ou;ou;ou;la,lg;bm;vl;et;ou;	148
-闲着	xian;mm;mm;mm;ow;ld;ae;us;ml; zhao;yo;yo;yo;fs;tu;gq;ud;em;	766
+先胜	xian;ne;ne;ne,en;bk;hu;qp;tf;pe; sheng;ou;ou;ou;la,lg;bm;vl;et;ou;	147
+闲着	xian;mm;mm;mm;ow;ld;ae;us;ml; zhao;yo;yo;yo;fs;tu;gq;ud;em;	757
 象棋残局新论	xiang;du;dn;du,pd,ua;gh;no;wx;qj;en; qi;mb;mb;mq;wf;dc;eh;sa;lb; can;dj;dj;dj;fa;mj;gp;gq;dg; ju;uk;uk;uk;qo;sr;cd;nn;uk; xin;lj;lj;jq;bp;yl;it;us;lj; lun;yl;yb;yl;ca;ip;sj;yw;yb;	2
 象棋棋例与待判局面的裁决	xiang;du;dn;du,pd,ua;gh;no;wx;qj;en; qi;mb;mb;mq;wf;dc;eh;sa;lb; qi;mb;mb;mq;wf;dc;eh;sa;lb; li;rd;rd;rl;xi;on;jp;wg;rd; yu;va;aa;aa;dd;ym;ff;gn;aa; dai;rc;ic;xs;hk;hi;wk;tf;rc; pan;bd;bd;db;fi;fn;hp;ud;dd; ju;uk;uk;uk;qo;sr;cd;nn;uk; mian;ao;aa;aa;dd,du;ml;bm;dm;aa; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu; cai;gy;uy;gy,yg;sk,ha,sh,gh;jv;nt;fa;hg; jue;dg;dg;dd,dg;fx,fe;ik;wj;un;dn;	0
 象棋史话	xiang;du;dn;du,pd,ua;gh;no;wx;qj;en; qi;mb;mb;mq;wf;dc;eh;sa;lb; shi;kn;ln;ad,ki;oy,oh;lk;db;kq;an; hua;yu;yk;yu;co;ir;sa;yt;yk;	0
@@ -2470,7 +2470,7 @@ use_preset_vocabulary: false
 以稳对稳	yi;lr;vr;rd,ry;re;vo;vj;c,ny;vr; wen;hx;hx;hj;un;hp;xh;tq;hx; dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; wen;hx;hx;hj;un;hp;xh;tq;hx;	0
 一着两用	yi;aa;aa;aa;dd;mm;fi;g,gg;aa; zhao;yo;yo;yo;fs;tu;gq;ud;em; liang;ar;ad;ad;de;mb;ml;gm;ad; yong;kf,ol;kl;kf;lp;bq;ty;et;pa;	0
 因敌变化	yin;kd;kd;kd;nx;wk;rm;ld;wd; di;uw;qw;wu,uw;sj;hk,xk;ah;td;qw; bian;wy;wy;wy,yy;il;ye;zr;yo;wy; hua;rb;rb;rb;xa;op;jv;wx;rb;	4
-应着	ying;ga;ga;ga;rd;im;xf;yi;ga; zhao;yo;yo;yo;fs;tu;gq;ud;em;	1405
+应着	ying;ga;ga;ga;rd;im;xf;yi;ga; zhao;yo;yo;yo;fs;tu;gq;ud;em;	263
 用时制度	yong;kf,ol;kl;kf;lp;bq;ty;et;pa; shi;oc;oc;oc;vk;ai;ok;jf;oc; zhi;nd;pd;dg,dv;bi;hn;qp;rm;pd; du;gy;gy;gy;rl;ie;xr;ya;gy;	2
 有根子	you;uo;uo;ou,uo;sl,dl;kb;nv;e,de;ao; gen;mg;mg;mg;wh;dv;ei;sv;lh; zi;la;va;aa,vh;aa;nd;hi;bb;va;	3
 宇兵	yu;by;by;by;is;jd;wn;pg;gy; bing;qb;qb;qb;uf;oc;th;rg;qb;	1
@@ -2542,7 +2542,7 @@ use_preset_vocabulary: false
 中炮直车对左炮封车转半途列炮	zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; pao;hb;hs;hb;tt;fu;cv;oq;hv; zhi;uq;uq;aa,uq;sd,su;jm;nf;fh;ua; che;au;al;aa;tt;kq;yc;lg;aa; dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; zuo;ug;ug;gu,ug;sp,dp;km;nu;da;ag; pao;hb;hs;hb;tt;fu;cv;oq;hv; feng;tc;tc;cg;gk;gi;gk;ff;tc; che;au;al;aa;tt;kq;yc;lg;aa; zhuan;iv;iv;iv;th;ki;yi;lf;iv; ban;bf;dl;bf;fp,fs;fq;hu;uf;da; tu;zm;zh;zy;eq;yd;ju;wt;zx; lie;dd;dd;dd;fi;mn;gp;gq;dd; pao;hb;hs;hb;tt;fu;cv;oq;hv;	0
 中炮直车七路马对屏风马双炮过河	zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; pao;hb;hs;hb;tt;fu;cv;oq;hv; zhi;uq;uq;aa,uq;sd,su;jm;nf;fh;ua; che;au;al;aa;tt;kq;yc;lg;aa; qi;av;av;ag;aa;ju;rq;ag;av; lu;zk;zk;zg;go;rr;ps;kh;zk; ma;va;va;aa,vh;zz;nm;nm;cn;va; dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; ping;uk;uk;ub;qp,qz;st;cl;nu;uk; feng;jx;jx;ji;iy;hk;ob;mq;jx; ma;va;va;aa,vh;zz;nm;nm;cn;va; shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; pao;hb;hs;hb;tt;fu;cv;oq;hv; guo;zc;zc;zc;kq;yi;ku;fp;zc; he;dk;dk;dk;kj,ko;er;kz;is;dk;	0
 中原五豹	zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; yuan;ix;ix;ix;rf;mf;xy;dr;ix; wu;aw;aa;aa;gg;mm;wu;gg;aa; bao;vu;vu;vu;uh;bi;mi;ee;pu;	0
-中卒	zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	19
+中卒	zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	16
 朱琮思	zhu;pw;pw,nn;pw;ee;hd;ta;ri;pw; cong;wu;wx;wz;af;mf;nf;gp;wx; si;tx;tx;tx,xt;wn;wp;qh;ln;tx;	0
 竹香斋	zhu;gg;pl,gg;gg;nn;hh;ru;tt;pd; xiang;ho;ho;ho;uv;ha;xo;tj;ho; zhai;we;we;we;je;yl;vl;yd;we;	2
 自来出洞无敌手象棋古谱新编	zi;po;po;pa,po;ss;hu;oi;th;pm; lai;am;an;am,wb;uf,ef,dl;dt;ah;go;an; chu;uu;vk;ck,aa;pp;uu;sm;bm;va; dong;dk;dk;dt;ko;er;kd;im;dk; wu;ay;ay;ag,ay,ee;uk,ur;mu;du;fq;av; di;uw;qw;wu,uw;sj;hk,xk;ah;td;qw; shou;pf;pl;pa,ub;up;qq;us;rt;pv; xiang;du;dn;du,pd,ua;gh;no;wx;qj;en; qi;mb;mb;mq;wf;dc;eh;sa;lb; gu;uk;uk;uk;so;jr;cg;dg;uk; pu;yo;yo;yp;cv;ia;so;yu;yo; xin;lj;lj;jq;bp;yl;it;us;lj; bian;sc;sc;sb;ej,ed;vb;ii;xy;sc;	0
@@ -2551,7 +2551,7 @@ use_preset_vocabulary: false
 卒林线	zu;wu;wu;wu,uc;is;yj;zn;yw;wu; lin;mm;mm;mm;ww;dd;ee;ss;ll; xian;sj;sj;sj;ea;vj;ip;xg;sg;	3
 做杀	zuo;rw;rw;rg;xj;ok;jh;wd;rw; sha;xm;xm;mi,im;yf;kd,xd;be;qs;xx;	0
 左士角炮	zuo;ug;ug;gu,ug;sp,dp;km;nu;da;ag; shi;ua;ua;aa;gg;jm;gs;fg;ua; jiao;dy;dy;dy;gp;ng,nq;xt;qe;ey; pao;hb;hs;hb;tt;fu;cv;oq;hv;	0
-左文静	zuo;ug;ug;gu,ug;sp,dp;km;nu;da;ag; wen;wx;wx;wi,dd;jj;yk;vw;yy;wx; jing;fy;fl;qv;ap;qd;ab;ge;qv;	37
+左文静	zuo;ug;ug;gu,ug;sp,dp;km;nu;da;ag; wen;wx;wx;wi,dd;jj;yk;vw;yy;wx; jing;fy;fl;qv;ap;qd;ab;ge;qv;	27
 左中炮	zuo;ug;ug;gu,ug;sp,dp;km;nu;da;ag; zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; pao;hb;hs;hb;tt;fu;cv;oq;hv;	3
 后车进九	hou;ik;pk;pk;uo;hr;xd;rg;pk; che;au;al;aa;tt;kq;yc;lg;aa; jin;zj;zj;zj;uq;yt;qu;fj;zj; jiu;pv;pv;py;ur;kn;kj;vt;pv;	0
 后车退九	hou;ik;pk;pk;uo;hr;xd;rg;pk; che;au;al;aa;tt;kq;yc;lg;aa; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; jiu;pv;pv;py;ur;kn;kj;vt;pv;	0
@@ -2577,19 +2577,19 @@ use_preset_vocabulary: false
 边卒	bian;zl;zl;zl;uq;ys;su;lp;zl; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	11
 蹩马腿	bie;xz;dr;zb,zw;fg;fo;fp;um;br; ma;va;va;aa,vh;zz;nm;nm;cn;va; tui;og;oz;ot;lq;bv;vu;ev;oh;	14
 兵八	bing;qb;qb;qb;uf;oc;th;rg;qb; ba;pn;pn;pd;ff;ho;hb;wt;pn;	0
-兵二	bing;qb;qb;qb;uf;oc;th;rg;qb; er;aa;aa;aa;uu;mm;me;fg;aa;	1
+兵二	bing;qb;qb;qb;uf;oc;th;rg;qb; er;aa;aa;aa;uu;mm;me;fg;aa;	0
 兵二平四	bing;qb;qb;qb;uf;oc;th;rg;qb; er;aa;aa;aa;uu;mm;me;fg;aa; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; si;ke;ke;aa,ke;nk;wc;ys;lh;we;	0
 兵九	bing;qb;qb;qb;uf;oc;th;rg;qb; jiu;pv;pv;py;ur;kn;kj;vt;pv;	1
 兵九进一卒	bing;qb;qb;qb;uf;oc;th;rg;qb; jiu;pv;pv;py;ur;kn;kj;vt;pv; jin;zj;zj;zj;uq;yt;qu;fj;zj; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	0
 并卡肋	bing;bk;bk;bk,qc;fp,fz;tt,xt;hl;ua;ek; ka;ub;ub;bx,ub;ph;yy;yy;hh;ub; lei;ol;ol;ol;lu;bs;vs;el;ol;	0
-兵六	bing;qb;qb;qb;uf;oc;th;rg;qb; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb;	3
-兵破	bing;qb;qb;qb;uf;oc;th;rg;qb; po;up;uy;up;tl;me;mr;dh;uy;	2
+兵六	bing;qb;qb;qb;uf;oc;th;rg;qb; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb;	2
+兵破	bing;qb;qb;qb;uf;oc;th;rg;qb; po;up;uy;up;tl;me;mr;dh;uy;	1
 兵七	bing;qb;qb;qb;uf;oc;th;rg;qb; qi;av;av;ag;aa;ju;rq;ag;av;	0
 兵三	bing;qb;qb;qb;uf;oc;th;rg;qb; san;ae;ae;aa;uu;mm;ts;dg;ae;	1
 兵三平五	bing;qb;qb;qb;uf;oc;th;rg;qb; san;ae;ae;aa;uu;mm;ts;dg;ae; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; wu;aw;aa;aa;gg;mm;wu;gg;aa;	0
 兵四	bing;qb;qb;qb;uf;oc;th;rg;qb; si;ke;ke;aa,ke;nk;wc;ys;lh;we;	13
 兵四进一士	bing;qb;qb;qb;uf;oc;th;rg;qb; si;ke;ke;aa,ke;nk;wc;ys;lh;we; jin;zj;zj;zj;uq;yt;qu;fj;zj; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; shi;ua;ua;aa;gg;jm;gs;fg;ua;	0
-兵五	bing;qb;qb;qb;uf;oc;th;rg;qb; wu;aw;aa;aa;gg;mm;wu;gg;aa;	2
+兵五	bing;qb;qb;qb;uf;oc;th;rg;qb; wu;aw;aa;aa;gg;mm;wu;gg;aa;	4
 兵五进一炮	bing;qb;qb;qb;uf;oc;th;rg;qb; wu;aw;aa;aa;gg;mm;wu;gg;aa; jin;zj;zj;zj;uq;yt;qu;fj;zj; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; pao;hb;hs;hb;tt;fu;cv;oq;hv;	0
 兵一	bing;qb;qb;qb;uf;oc;th;rg;qb; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;	1
 兵一进一马	bing;qb;qb;qb;uf;oc;th;rg;qb; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; jin;zj;zj;zj;uq;yt;qu;fj;zj; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; ma;va;va;aa,vh;zz;nm;nm;cn;va;	0
@@ -2600,8 +2600,8 @@ use_preset_vocabulary: false
 不准在同一直线上	bu;ab;ad;ad,ax;dh,df;mf;cb;i,gi;ad; zhun;dv;df;dv;fa;ig;wu;uw;da; zai;ut;ut;ta,ut;dg,sg;kg;ng;d,dh;at; tong;kk;kk;kk;oo;br;md;m,mg;ak; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; zhi;uq;uq;aa,uq;sd,su;jm;nf;fh;ua; xian;sj;sj;sj;ea;vj;ip;xg;sg; shang;ba;la;aa,ba;pd,pu;ym;yf;h,hh;aa;	0
 踩掉红马	cai;zc;zm;zc;gw;rd;pe;kh;zl; diao;fu;fu;fv;js;qj;un;rh;fu; hong;sg;sg;sg;ep;vm;iu;xa;sg; ma;va;va;aa,vh;zz;nm;nm;cn;va;	0
 踩黑边卒	cai;zc;zm;zc;gw;rd;pe;kh;zl; hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; bian;zl;zl;zl;uq;ys;su;lp;zl; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	0
-裁判员也	cai;gy;uy;gy,yg;sk,ha,sh,gh;jv;nt;fa;hg; pan;bd;bd;db;fi;fn;hp;ud;dd; yuan;kb;kr;kb;om;ro;do;km;kr; ye;vv;vv;gg;rr;pd;ey;bn;vv;	19
-踩双	cai;zc;zm;zc;gw;rd;pe;kh;zl; shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy;	3
+裁判员也	cai;gy;uy;gy,yg;sk,ha,sh,gh;jv;nt;fa;hg; pan;bd;bd;db;fi;fn;hp;ud;dd; yuan;kb;kr;kb;om;ro;do;km;kr; ye;vv;vv;gg;rr;pd;ey;bn;vv;	4
+踩双	cai;zc;zm;zc;gw;rd;pe;kh;zl; shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy;	2
 残局形势	can;dj;dj;dj;fa;mj;gp;gq;dg; ju;uk;uk;uk;qo;sr;cd;nn;uk; xing;kp;kp;pk;uu;mh;fe;ga;kp; shi;fl;fl;lv;ju;qs;us;rv;fl;	0
 残棋技艺	can;dj;dj;dj;fa;mj;gp;gq;dg; qi;mb;mb;mq;wf;dc;eh;sa;lb; ji;fv;fy;fv;jl;qe;uc;rf;fy; yi;cv;cv;cy;zr;tn;la;an;cy;	0
 残棋炮归家	can;dj;dj;dj;fa;mj;gp;gq;dg; qi;mb;mb;mq;wf;dc;eh;sa;lb; pao;hb;hs;hb;tt;fu;cv;oq;hv; gui;le;le;ax,dx;ps;lm;pb;jv;aa; jia;bu;bu;bu;ih;jo;wj;pe;gn;	1
@@ -2616,7 +2616,7 @@ use_preset_vocabulary: false
 车九进	che;au;al;aa;tt;kq;yc;lg;aa; jiu;pv;pv;py;ur;kn;kj;vt;pv; jin;zj;zj;zj;uq;yt;qu;fj;zj;	0
 车九平	che;au;al;aa;tt;kq;yc;lg;aa; jiu;pv;pv;py;ur;kn;kj;vt;pv; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au;	0
 车九退	che;au;al;aa;tt;kq;yc;lg;aa; jiu;pv;pv;py;ur;kn;kj;vt;pv; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh;	0
-车控	che;au;al;aa;tt;kq;yc;lg;aa; kong;fg;fg;fk;jp;qm;uu;rp;fg;	14
+车控	che;au;al;aa;tt;kq;yc;lg;aa; kong;fg;fg;fk;jp;qm;uu;rp;fg;	10
 车六进	che;au;al;aa;tt;kq;yc;lg;aa; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; jin;zj;zj;zj;uq;yt;qu;fj;zj;	0
 车六平	che;au;al;aa;tt;kq;yc;lg;aa; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au;	0
 车六退	che;au;al;aa;tt;kq;yc;lg;aa; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh;	0
@@ -2645,7 +2645,7 @@ use_preset_vocabulary: false
 称为铁门栓妙杀	cheng;hx;hx;he;uf;hf;xy;tq;hx; wei;ld;dd;dd;hh,uu;ii;ii;o,yl;dd; tie;jf;ju;ju;de;oo;zh;qr;ju; men;dv;dv;dg;oo;ls;am;uy;dv; shuan;mw;mw;mq;wa;dg;en;sw;lw; miao;nu;nu;nu;yu;vh;bt;vi;nu; sha;xm;xm;mi,im;yf;kd,xd;be;qs;xx;	0
 吃底象	chi;kv;kq;kq;or;rn;da;kt;ky; di;gu;gd;gd;rh;im,ii;xi;yq;gd; xiang;du;dn;du,pd,ua;gh;no;wx;qj;en;	0
 吃马	chi;kv;kq;kq;or;rn;da;kt;ky; ma;va;va;aa,vh;zz;nm;nm;cn;va;	0
-吃子	chi;kv;kq;kq;or;rn;da;kt;ky; zi;la;va;aa,vh;aa;nd;hi;bb;va;	145
+吃子	chi;kv;kq;kq;or;rn;da;kt;ky; zi;la;va;aa,vh;aa;nd;hi;bb;va;	146
 冲卒	chong;dv;dv;dv;fp;il;wg;uk;dv; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	1
 抽将	chou;fy;fy;fy;jp;qw;ud;rm;fy; jiang;lc;dc;dc,jc,pc;lk;li;ak;uq;dc;	0
 出帅	chu;uu;vk;ck,aa;pp;uu;sm;bm;va; shuai;lj;lj;aj,dj,jd;py;lb;pr;jm;aj;	2
@@ -2653,12 +2653,12 @@ use_preset_vocabulary: false
 出现循环反复	chu;uu;vk;ck,aa;pp;uu;sm;bm;va; xian;wj;we;wj;ak,ar;mu;ne;gm;wj; xun;ro;io;xd;hs;hu;wq;tr;rm; huan;wb;wb;wb;ah,af;mf;nc;gg;wb; fan;iy;py;py;ul;he;xr;rc;py; fu;pw;pw;pw,rw,wo;ej;oe;eh;tj;pw;	0
 此局由于	ci;vb;vb;vb;ra;yp;sv;hx;vb; ju;uk;uk;uk;qo;sr;cd;nn;uk; you;ol,lt;la;aa,ao;vp;lw;dy;mh;aa; yu;au;al;aa;ss;md;fn;gf;av;	0
 此象	ci;vb;vb;vb;ra;yp;sv;hx;vb; xiang;du;dn;du,pd,ua;gh;no;wx;qj;en;	1
-此着	ci;vb;vb;vb;ra;yp;sv;hx;vb; zhao;yo;yo;yo;fs;tu;gq;ud;em;	4
+此着	ci;vb;vb;vb;ra;yp;sv;hx;vb; zhao;yo;yo;yo;fs;tu;gq;ud;em;	3
 从左路	cong;rr;rr;rr;ee;oo;jj;ww;rr; zuo;ug;ug;gu,ug;sp,dp;km;nu;da;ag; lu;zk;zk;zg;go;rr;ps;kh;zk;	0
 错着百例	cuo;jo;jo;jx;dv;oa;zo;qa;jo; zhao;yo;yo;yo;fs;tu;gq;ud;em; bai;ab;ab;ab;ds;ma;fu;dj;ab; li;rd;rd;rl;xi;on;jp;wg;rd;	0
 打死黑卒	da;fd;fd;fd;jj;qn;ua;rs;fd; si;db;db;db;ff;mp;gv;gq;db; hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	0
 打死红仕	da;fd;fd;fd;jj;qn;ua;rs;fd; si;db;db;db;ff;mp;gv;gq;db; hong;sg;sg;sg;ep;vm;iu;xa;sg; shi;rt;ru;ru;xg;og;jg;wf;ru;	0
-打相	da;fd;fd;fd;jj;qn;ua;rs;fd; xiang;mo;mo;mo;ws;du;eq;sh;lm;	6
+打相	da;fd;fd;fd;jj;qn;ua;rs;fd; xiang;mo;mo;mo;ws;du;eq;sh;lm;	2
 打象	da;fd;fd;fd;jj;qn;ua;rs;fd; xiang;du;dn;du,pd,ua;gh;no;wx;qj;en;	0
 担竿炮	dan;fd;fa;fd;jd;qm;uf;rj;fd; gan;vg;vg;vg;ns;hj;re;tf;vg; pao;hb;hs;hb;tt;fu;cv;oq;hv;	1
 但黑方也有	dan;rd;ra;rd;xd;om;jf;wj;rd; hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; ye;vv;vv;gg;rr;pd;ey;bn;vv; you;uo;uo;ou,uo;sl,dl;kb;nv;e,de;ao;	0
@@ -2668,14 +2668,14 @@ use_preset_vocabulary: false
 的规定时	de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu; gui;fj;fe;fj,jf;ek,er;qu;he;fw;fj; ding;bz;br;bp;ie;jo;wt;pg;gr; shi;oc;oc;oc;vk;ai;ok;jf;oc;	0
 得仕	de;rc;ic;xc;hk;hi;wk;tj;rc; shi;rt;ru;ru;xg;og;jg;wf;ru;	1
 得子得先各得子	de;rc;ic;xc;hk;hi;wk;tj;rc; zi;la;va;aa,vh;aa;nd;hi;bb;va; dei;rc;ic;xc;hk;hi;wk;tj;rc; xian;ne;ne;ne,en;bk;hu;qp;tf;pe; ge;wk;wk;wk;jo;hr;sg;tk;wk; de;rc;ic;xc;hk;hi;wk;tj;rc; zi;la;va;aa,vh;aa;nd;hi;bb;va;	0
-底炮	di;gu;gd;gd;rh;im,ii;xi;yq;gd; pao;hb;hs;hb;tt;fu;cv;oq;hv;	3
+底炮	di;gu;gd;gd;rh;im,ii;xi;yq;gd; pao;hb;hs;hb;tt;fu;cv;oq;hv;	2
 底士	di;gu;gd;gd;rh;im,ii;xi;yq;gd; shi;ua;ua;aa;gg;jm;gs;fg;ua;	10
 底线防守	di;gu;gd;gd;rh;im,ii;xi;yq;gd; xian;sj;sj;sj;ea;vj;ip;xg;sg; fang;ef;ef;ef;bf;ns;tl;by;ef; shou;bc;bc;bc;ik;ji;wk;pf;gc;	10
 叠叠炮	die;yq;yq;qr,qu,yy;lu;em;rf;cc;yq; die;yq;yq;qr,qu,yy;lu;em;rf;cc;yq; pao;hb;hs;hb;tt;fu;cv;oq;hv;	0
 董旭彬	dong;cv;cv;cv;zg;tg;ld;at;cv; xu;jo;jo;oj,jo;uv;ka;ko;vj;jo; bin;mp;mp;mu,pl;wu;dh;ee;ss;lp;	0
 都没有提和	dou;le;le;ev;gb;jl;qt;ft;ue; mei;du;dy;du;kl;ee;kr;im;dy; you;uo;uo;ou,uo;sl,dl;kb;nv;e,de;ao; ti;fz;fr;fu;je;qo;ut;rj;fr; he;hk;hk;hk;uo;hr;xd;t,tk;hk;	0
 斗炮局	dou;ud;du;du;hs,sh;yj;jd;uf;du; pao;hb;hs;hb;tt;fu;cv;oq;hv; ju;uk;uk;uk;qo;sr;cd;nn;uk;	1
-对兵	dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; bing;qb;qb;qb;uf;oc;th;rg;qb;	7
+对兵	dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; bing;qb;qb;qb;uf;oc;th;rg;qb;	2
 兑车	dui;bx;be;bx,ek;fk;cu,xu;hp;uk;ee; che;au;al;aa;tt;kq;yc;lg;aa;	12
 对方得胜	dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; de;rc;ic;xc;hk;hi;wk;tj;rc; sheng;ou;ou;ou;la,lg;bm;vl;et;ou;	0
 对黑方	dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp;	0
@@ -2691,12 +2691,12 @@ use_preset_vocabulary: false
 二车	er;aa;aa;aa;uu;mm;me;fg;aa; che;au;al;aa;tt;kq;yc;lg;aa;	3
 二打一还打	er;aa;aa;aa;uu;mm;me;fg;aa; da;fd;fd;fd;jj;qn;ua;rs;fd; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; hai;zb;zb;zb;dq;yf;cu;gi;zb; da;fd;fd;fd;jj;qn;ua;rs;fd;	0
 而径走	er;al;al;aa;ee;ml;le;dm;aa; jing;rj;ig;xg;hp;hm;wu;tc;rg; zou;tz;tr;tv;qq,ge;go;pz;fh;tr;	0
-二退	er;aa;aa;aa;uu;mm;me;fg;aa; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh;	36
+二退	er;aa;aa;aa;uu;mm;me;fg;aa; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh;	29
 而占领叉点	er;al;al;aa;ee;ml;le;dm;aa; zhan;bk;lk;bk;po;yr;yd;hk;ak; ling;ry;rr;yl;em;oo;jw;wy;rr; cha;yd;yd;dy,yd;lh;ei,xi;ri;cy;yd; dian;vh;lh;hv;pn;yf,xf;yc;hk;ve;	0
 二卒	er;aa;aa;aa;uu;mm;me;fg;aa; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	0
 反先	fan;iy;py;py;ul;he;xr;rc;py; xian;ne;ne;ne,en;bk;hu;qp;tf;pe;	9
 方车	fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; che;au;al;aa;tt;kq;yc;lg;aa;	0
-方的攻势	fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu; gong;gw;gw;gw,wg;pj;mk;uh;at;gw; shi;fl;fl;lv;ju;qs;us;rv;fl;	3
+方的攻势	fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu; gong;gw;gw;gw,wg;pj;mk;uh;at;gw; shi;fl;fl;lv;ju;qs;us;rv;fl;	2
 方多	fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; duo;xx;xx;xx;ff;ni;ll;qq;xx;	0
 方可按动	fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; ke;dk;dk;dk;jj,jo;mr;zk;sk;av; an;fn;fn;fa;jy;qv;ub;rp;fn; dong;yl;el;ly,yl;uu;ms;bs;fc;el;	0
 方欠行认负	fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; qian;dr;dr;dr;ge;no;eq;qw;er; xing;rd;ii;xd,xi;hj,hp;hn;px;tf;rd; ren;yr;yr;yr;ce;io;sj;yw;yr; fu;db;dr;db;gm;no;xo;qm;er;	0
@@ -2744,7 +2744,7 @@ use_preset_vocabulary: false
 黑方只有	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; zhi;kb;kb;kb;of;rc;dh;kw;kb; you;uo;uo;ou,uo;sl,dl;kb;nv;e,de;ao;	1
 黑两组	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; liang;ar;ad;ad;de;mb;ml;gm;ad; zu;sq;sq;sq;eu;vm;if;xe;sq;	0
 黑马紧贴红马而行	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; ma;va;va;aa,vh;zz;nm;nm;cn;va; jin;lx;lx;sy;pf;lf;pi;jc;ax; tie;bv;kk;bv;mo;br;od;mh;bk; hong;sg;sg;sg;ep;vm;iu;xa;sg; ma;va;va;aa,vh;zz;nm;nm;cn;va; er;al;al;aa;ee;ml;le;dm;aa; xing;rd;ii;xd,xi;hj,hp;hn;px;tf;rd;	0
-黑炮	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; pao;hb;hs;hb;tt;fu;cv;oq;hv;	64
+黑炮	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; pao;hb;hs;hb;tt;fu;cv;oq;hv;	56
 黑如	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; ru;nk;nk;nk;yo;vr;bd;vk;nk;	2
 黑如改走	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; ru;nk;nk;nk;yo;vr;bd;vk;nk; gai;jw;jw;wj,jw;tj;sk;vh;nt;jw; zou;tz;tr;tv;qq,ge;go;pz;fh;tr;	0
 黑若	hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; ruo;ck;ck;cy;zo;tr;ld;ad;ck;	0
@@ -2755,9 +2755,9 @@ use_preset_vocabulary: false
 横走	heng;mb;mb;mh;wf;dc;en;sa;lb; zou;tz;tr;tv;qq,ge;go;pz;fh;tr;	55
 横走都可以	heng;mb;mb;mh;wf;dc;en;sa;lb; zou;tz;tr;tv;qq,ge;go;pz;fh;tr; dou;le;le;ev;gb;jl;qt;ft;ue; ke;dk;dk;dk;jj,jo;mr;zk;sk;av; yi;lr;vr;rd,ry;re;vo;vj;c,ny;vr;	0
 红败局已定	hong;sg;sg;sg;ep;vm;iu;xa;sg; bai;bw;kw;bw,wb;mj;bk;oh;mt;bw; ju;uk;uk;uk;qo;sr;cd;nn;uk; yi;kv;vv;vg,ag;tt;su,xu;vi;nn;vv; ding;bz;br;bp;ie;jo;wt;pg;gr;	0
-红兵	hong;sg;sg;sg;ep;vm;iu;xa;sg; bing;qb;qb;qb;uf;oc;th;rg;qb;	12
+红兵	hong;sg;sg;sg;ep;vm;iu;xa;sg; bing;qb;qb;qb;uf;oc;th;rg;qb;	8
 红此着	hong;sg;sg;sg;ep;vm;iu;xa;sg; ci;vb;vb;vb;ra;yp;sv;hx;vb; zhao;yo;yo;yo;fs;tu;gq;ud;em;	0
-红炮	hong;sg;sg;sg;ep;vm;iu;xa;sg; pao;hb;hs;hb;tt;fu;cv;oq;hv;	7
+红炮	hong;sg;sg;sg;ep;vm;iu;xa;sg; pao;hb;hs;hb;tt;fu;cv;oq;hv;	6
 红棋	hong;sg;sg;sg;ep;vm;iu;xa;sg; qi;mb;mb;mq;wf;dc;eh;sa;lb;	19
 红棋子	hong;sg;sg;sg;ep;vm;iu;xa;sg; qi;mb;mb;mq;wf;dc;eh;sa;lb; zi;la;va;aa,vh;aa;nd;hi;bb;va;	0
 红如	hong;sg;sg;sg;ep;vm;iu;xa;sg; ru;nk;nk;nk;yo;vr;bd;vk;nk;	0
@@ -2792,9 +2792,9 @@ use_preset_vocabulary: false
 进八	jin;zj;zj;zj;uq;yt;qu;fj;zj; ba;pn;pn;pd;ff;ho;hb;wt;pn;	18
 紧凑老练	jin;lx;lx;sy;pf;lf;pi;jc;ax; cou;dt;dt;dz;fx;ik;wm;ud;dt; lao;lb;lb;bl,lb;ga;jp;ql;ft;ub; lian;sd;sd;sd,sj;ef;vc,vd;iy;xa;sd;	0
 进二	jin;zj;zj;zj;uq;yt;qu;fj;zj; er;aa;aa;aa;uu;mm;me;fg;aa;	1
-进九	jin;zj;zj;zj;uq;yt;qu;fj;zj; jiu;pv;pv;py;ur;kn;kj;vt;pv;	9
+进九	jin;zj;zj;zj;uq;yt;qu;fj;zj; jiu;pv;pv;py;ur;kn;kj;vt;pv;	3
 紧靠一直	jin;lx;lx;sy;pf;lf;pi;jc;ax; kao;nf;nf;fg,nf;bu;hy;qr;tf;gf; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; zhi;uq;uq;aa,uq;sd,su;jm;nf;fh;ua;	0
-进六	jin;zj;zj;zj;uq;yt;qu;fj;zj; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb;	22
+进六	jin;zj;zj;zj;uq;yt;qu;fj;zj; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb;	7
 进七	jin;zj;zj;zj;uq;yt;qu;fj;zj; qi;av;av;ag;aa;ju;rq;ag;av;	3
 进七兵	jin;zj;zj;zj;uq;yt;qu;fj;zj; qi;av;av;ag;aa;ju;rq;ag;av; bing;qb;qb;qb;uf;oc;th;rg;qb;	1
 进三	jin;zj;zj;zj;uq;yt;qu;fj;zj; san;ae;ae;aa;uu;mm;ts;dg;ae;	2
@@ -2838,7 +2838,7 @@ use_preset_vocabulary: false
 路边卒	lu;zk;zk;zg;go;rr;ps;kh;zk; bian;zl;zl;zl;uq;ys;su;lp;zl; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	0
 路车	lu;zk;zk;zg;go;rr;ps;kh;zk; che;au;al;aa;tt;kq;yc;lg;aa;	66
 路河头	lu;zk;zk;zg;go;rr;ps;kh;zk; he;dk;dk;dk;kj,ko;er;kz;is;dk; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd;	0
-路炮	lu;zk;zk;zg;go;rr;ps;kh;zk; pao;hb;hs;hb;tt;fu;cv;oq;hv;	15
+路炮	lu;zk;zk;zg;go;rr;ps;kh;zk; pao;hb;hs;hb;tt;fu;cv;oq;hv;	9
 掠黑	lue;fx;fx;fj;jf;qf;uy;ry;fx; hei;lh;lh;ad,ha;nn;wf;ph;lf;ae;	0
 掠仕获胜	lue;fx;fx;fj;jf;qf;uy;ry;fx; shi;rt;ru;ru;xg;og;jg;wf;ru; huo;cq;cq;cq;zb,zh;tk;lm;aq;cq; sheng;ou;ou;ou;la,lg;bm;vl;et;ou;	0
 掠相	lue;fx;fx;fj;jf;qf;uy;ry;fx; xiang;mo;mo;mo;ws;du;eq;sh;lm;	0
@@ -2854,7 +2854,7 @@ use_preset_vocabulary: false
 马九进七车	ma;va;va;aa,vh;zz;nm;nm;cn;va; jiu;pv;pv;py;ur;kn;kj;vt;pv; jin;zj;zj;zj;uq;yt;qu;fj;zj; qi;av;av;ag;aa;ju;rq;ag;av; che;au;al;aa;tt;kq;yc;lg;aa;	0
 马六进五车	ma;va;va;aa,vh;zz;nm;nm;cn;va; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; jin;zj;zj;zj;uq;yt;qu;fj;zj; wu;aw;aa;aa;gg;mm;wu;gg;aa; che;au;al;aa;tt;kq;yc;lg;aa;	0
 马每着走	ma;va;va;aa,vh;zz;nm;nm;cn;va; mei;pm;pm;pm,rm;eh;oi;ek;tx;pm; zhao;yo;yo;yo;fs;tu;gq;ud;em; zou;tz;tr;tv;qq,ge;go;pz;fh;tr;	0
-马炮	ma;va;va;aa,vh;zz;nm;nm;cn;va; pao;hb;hs;hb;tt;fu;cv;oq;hv;	113
+马炮	ma;va;va;aa,vh;zz;nm;nm;cn;va; pao;hb;hs;hb;tt;fu;cv;oq;hv;	108
 马炮兵	ma;va;va;aa,vh;zz;nm;nm;cn;va; pao;hb;hs;hb;tt;fu;cv;oq;hv; bing;qb;qb;qb;uf;oc;th;rg;qb;	6
 马炮双兵	ma;va;va;aa,vh;zz;nm;nm;cn;va; pao;hb;hs;hb;tt;fu;cv;oq;hv; shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; bing;qb;qb;qb;uf;oc;th;rg;qb;	0
 马炮双卒士象	ma;va;va;aa,vh;zz;nm;nm;cn;va; pao;hb;hs;hb;tt;fu;cv;oq;hv; shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; zu;wu;wu;wu,uc;is;yj;zn;yw;wu; shi;ua;ua;aa;gg;jm;gs;fg;ua; xiang;du;dn;du,pd,ua;gh;no;wx;qj;en;	0
@@ -2862,12 +2862,12 @@ use_preset_vocabulary: false
 马七进五车	ma;va;va;aa,vh;zz;nm;nm;cn;va; qi;av;av;ag;aa;ju;rq;ag;av; jin;zj;zj;zj;uq;yt;qu;fj;zj; wu;aw;aa;aa;gg;mm;wu;gg;aa; che;au;al;aa;tt;kq;yc;lg;aa;	0
 马三进五车	ma;va;va;aa,vh;zz;nm;nm;cn;va; san;ae;ae;aa;uu;mm;ts;dg;ae; jin;zj;zj;zj;uq;yt;qu;fj;zj; wu;aw;aa;aa;gg;mm;wu;gg;aa; che;au;al;aa;tt;kq;yc;lg;aa;	0
 马四进五车	ma;va;va;aa,vh;zz;nm;nm;cn;va; si;ke;ke;aa,ke;nk;wc;ys;lh;we; jin;zj;zj;zj;uq;yt;qu;fj;zj; wu;aw;aa;aa;gg;mm;wu;gg;aa; che;au;al;aa;tt;kq;yc;lg;aa;	0
-马五	ma;va;va;aa,vh;zz;nm;nm;cn;va; wu;aw;aa;aa;gg;mm;wu;gg;aa;	14
+马五	ma;va;va;aa,vh;zz;nm;nm;cn;va; wu;aw;aa;aa;gg;mm;wu;gg;aa;	15
 马五进六车	ma;va;va;aa,vh;zz;nm;nm;cn;va; wu;aw;aa;aa;gg;mm;wu;gg;aa; jin;zj;zj;zj;uq;yt;qu;fj;zj; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; che;au;al;aa;tt;kq;yc;lg;aa;	0
 马象牵	ma;va;va;aa,vh;zz;nm;nm;cn;va; xiang;du;dn;du,pd,ua;gh;no;wx;qj;en; qian;dn;dn;nb,dn;xb;kq;mq;dp;dn;	0
 马亦难逃遁	ma;va;va;aa,vh;zz;nm;nm;cn;va; yi;wb;wd;wb,wy,dd;ih,ii,if;yc;zc;yo;wd; nan;yv;yf;yv;la;eg;ru;cw;ya; tao;zv;zd;zv;kq,uq,fq;yo;pu;iq;zv; dun;zo;zo;zd;uq;yu;xu;rf;zm;	0
 马走日字	ma;va;va;aa,vh;zz;nm;nm;cn;va; zou;tz;tr;tv;qq,ge;go;pz;fh;tr; ri;ka;ka;aa,or,ri;vv;aa;or;jj;wa; zi;bz;bz;bz;ia;jd;wh;pb;gz;	0
-马卒	ma;va;va;aa,vh;zz;nm;nm;cn;va; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	1
+马卒	ma;va;va;aa,vh;zz;nm;nm;cn;va; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	0
 每一着	mei;pm;pm;pm,rm;eh;oi;ek;tx;pm; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; zhao;yo;yo;yo;fs;tu;gq;ud;em;	0
 每着	mei;pm;pm;pm,rm;eh;oi;ek;tx;pm; zhao;yo;yo;yo;fs;tu;gq;ud;em;	0
 每着可以	mei;pm;pm;pm,rm;eh;oi;ek;tx;pm; zhao;yo;yo;yo;fs;tu;gq;ud;em; ke;dk;dk;dk;jj,jo;mr;zk;sk;av; yi;lr;vr;rd,ry;re;vo;vj;c,ny;vr;	0
@@ -2913,11 +2913,11 @@ use_preset_vocabulary: false
 炮七平	pao;hb;hs;hb;tt;fu;cv;oq;hv; qi;av;av;ag;aa;ju;rq;ag;av; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au;	0
 炮七平四将	pao;hb;hs;hb;tt;fu;cv;oq;hv; qi;av;av;ag;aa;ju;rq;ag;av; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; si;ke;ke;aa,ke;nk;wc;ys;lh;we; jiang;lc;dc;dc,jc,pc;lk;li;ak;uq;dc;	0
 炮七退	pao;hb;hs;hb;tt;fu;cv;oq;hv; qi;av;av;ag;aa;ju;rq;ag;av; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh;	0
-炮三	pao;hb;hs;hb;tt;fu;cv;oq;hv; san;ae;ae;aa;uu;mm;ts;dg;ae;	18
+炮三	pao;hb;hs;hb;tt;fu;cv;oq;hv; san;ae;ae;aa;uu;mm;ts;dg;ae;	13
 炮三进	pao;hb;hs;hb;tt;fu;cv;oq;hv; san;ae;ae;aa;uu;mm;ts;dg;ae; jin;zj;zj;zj;uq;yt;qu;fj;zj;	0
 炮三平	pao;hb;hs;hb;tt;fu;cv;oq;hv; san;ae;ae;aa;uu;mm;ts;dg;ae; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au;	0
 炮三退	pao;hb;hs;hb;tt;fu;cv;oq;hv; san;ae;ae;aa;uu;mm;ts;dg;ae; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh;	0
-炮四	pao;hb;hs;hb;tt;fu;cv;oq;hv; si;ke;ke;aa,ke;nk;wc;ys;lh;we;	1
+炮四	pao;hb;hs;hb;tt;fu;cv;oq;hv; si;ke;ke;aa,ke;nk;wc;ys;lh;we;	0
 炮四进	pao;hb;hs;hb;tt;fu;cv;oq;hv; si;ke;ke;aa,ke;nk;wc;ys;lh;we; jin;zj;zj;zj;uq;yt;qu;fj;zj;	0
 炮四平	pao;hb;hs;hb;tt;fu;cv;oq;hv; si;ke;ke;aa,ke;nk;wc;ys;lh;we; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au;	0
 炮四退	pao;hb;hs;hb;tt;fu;cv;oq;hv; si;ke;ke;aa,ke;nk;wc;ys;lh;we; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh;	0
@@ -2925,12 +2925,12 @@ use_preset_vocabulary: false
 炮五进	pao;hb;hs;hb;tt;fu;cv;oq;hv; wu;aw;aa;aa;gg;mm;wu;gg;aa; jin;zj;zj;zj;uq;yt;qu;fj;zj;	0
 炮五平	pao;hb;hs;hb;tt;fu;cv;oq;hv; wu;aw;aa;aa;gg;mm;wu;gg;aa; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au;	0
 炮五退	pao;hb;hs;hb;tt;fu;cv;oq;hv; wu;aw;aa;aa;gg;mm;wu;gg;aa; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh;	0
-炮一	pao;hb;hs;hb;tt;fu;cv;oq;hv; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;	14
+炮一	pao;hb;hs;hb;tt;fu;cv;oq;hv; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;	4
 炮一进	pao;hb;hs;hb;tt;fu;cv;oq;hv; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; jin;zj;zj;zj;uq;yt;qu;fj;zj;	1
 炮一平	pao;hb;hs;hb;tt;fu;cv;oq;hv; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au;	0
 炮一退	pao;hb;hs;hb;tt;fu;cv;oq;hv; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh;	0
 炮镇中路	pao;hb;hs;hb;tt;fu;cv;oq;hv; zhen;jb;jb;jv;df;oc;zh;qf;jb; zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; lu;zk;zk;zg;go;rr;ps;kh;zk;	0
-炮卒	pao;hb;hs;hb;tt;fu;cv;oq;hv; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	2
+炮卒	pao;hb;hs;hb;tt;fu;cv;oq;hv; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	1
 偏马局	pian;rc;rc;rb;xj,xd;ob;ji;wy;rc; ma;va;va;aa,vh;zz;nm;nm;cn;va; ju;uk;uk;uk;qo;sr;cd;nn;uk;	0
 平八	ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; ba;pn;pn;pd;ff;ho;hb;wt;pn;	41
 平二	ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; er;aa;aa;aa;uu;mm;me;fg;aa;	1
@@ -2962,10 +2962,10 @@ use_preset_vocabulary: false
 前兵	qian;bd;bd;bd,qd;fi;tn;hp;ue;ed; bing;qb;qb;qb;uf;oc;th;rg;qb;	15
 前兵平	qian;bd;bd;bd,qd;fi;tn;hp;ue;ed; bing;qb;qb;qb;uf;oc;th;rg;qb; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au;	0
 前马	qian;bd;bd;bd,qd;fi;tn;hp;ue;ed; ma;va;va;aa,vh;zz;nm;nm;cn;va;	0
-前炮	qian;bd;bd;bd,qd;fi;tn;hp;ue;ed; pao;hb;hs;hb;tt;fu;cv;oq;hv;	6
+前炮	qian;bd;bd;bd,qd;fi;tn;hp;ue;ed; pao;hb;hs;hb;tt;fu;cv;oq;hv;	5
 前卒进一	qian;bd;bd;bd,qd;fi;tn;hp;ue;ed; zu;wu;wu;wu,uc;is;yj;zn;yw;wu; jin;zj;zj;zj;uq;yt;qu;fj;zj; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;	0
 去化解被	qu;ts;ts;ts;gp;gi;gk;fc;tv; hua;rb;rb;rb;xa;op;jv;wx;rb; jie;dn;dn;jn;gb;nq;xq;qe;en; bei;pp;py;yp;hl;le;tr;pu;py;	1
-去炮	qu;ts;ts;ts;gp;gi;gk;fc;tv; pao;hb;hs;hb;tt;fu;cv;oq;hv;	1
+去炮	qu;ts;ts;ts;gp;gi;gk;fc;tv; pao;hb;hs;hb;tt;fu;cv;oq;hv;	0
 取胜较难	qu;ey;ey;ey,ye;dl;se;qr;bc;ey; sheng;ou;ou;ou;la,lg;bm;vl;et;ou; jiao;if;ix;ij;ty;kk;yb;lu;ix; nan;yv;yf;yv;la;eg;ru;cw;ya;	0
 取胜可能	qu;ey;ey;ey,ye;dl;se;qr;bc;ey; sheng;ou;ou;ou;la,lg;bm;vl;et;ou; ke;dk;dk;dk;jj,jo;mr;zk;sk;av; neng;sb;sb;sb;pa;ip;kv;ce;vb;	0
 去卒	qu;ts;ts;ts;gp;gi;gk;fc;tv; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	0
@@ -3005,7 +3005,7 @@ use_preset_vocabulary: false
 仕六退五车	shi;rt;ru;ru;xg;og;jg;wf;ru; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; wu;aw;aa;aa;gg;mm;wu;gg;aa; che;au;al;aa;tt;kq;yc;lg;aa;	0
 仕六退五卒	shi;rt;ru;ru;xg;og;jg;wf;ru; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; wu;aw;aa;aa;gg;mm;wu;gg;aa; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	0
 实乃讹诈	shi;bd;bd;bt;ix;jk;wm;pu;gd; nai;pv,vp;vp;pg,gp;ru;ns;vn;et;vp; e;yb;yb;yh;ca;ip,xp;sv;yw;yb; zha;yv;yv;yv;cu;is;sw;yt;yv;	0
-士四	shi;ua;ua;aa;gg;jm;gs;fg;ua; si;ke;ke;aa,ke;nk;wc;ys;lh;we;	2
+士四	shi;ua;ua;aa;gg;jm;gs;fg;ua; si;ke;ke;aa,ke;nk;wc;ys;lh;we;	1
 仕四进五车	shi;rt;ru;ru;xg;og;jg;wf;ru; si;ke;ke;aa,ke;nk;wc;ys;lh;we; jin;zj;zj;zj;uq;yt;qu;fj;zj; wu;aw;aa;aa;gg;mm;wu;gg;aa; che;au;al;aa;tt;kq;yc;lg;aa;	0
 仕四进五将	shi;rt;ru;ru;xg;og;jg;wf;ru; si;ke;ke;aa,ke;nk;wc;ys;lh;we; jin;zj;zj;zj;uq;yt;qu;fj;zj; wu;aw;aa;aa;gg;mm;wu;gg;aa; jiang;lc;dc;dc,jc,pc;lk;li;ak;uq;dc;	0
 仕四进五炮	shi;rt;ru;ru;xg;og;jg;wf;ru; si;ke;ke;aa,ke;nk;wc;ys;lh;we; jin;zj;zj;zj;uq;yt;qu;fj;zj; wu;aw;aa;aa;gg;mm;wu;gg;aa; pao;hb;hs;hb;tt;fu;cv;oq;hv;	0
@@ -3023,7 +3023,7 @@ use_preset_vocabulary: false
 仕五退四炮	shi;rt;ru;ru;xg;og;jg;wf;ru; wu;aw;aa;aa;gg;mm;wu;gg;aa; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; si;ke;ke;aa,ke;nk;wc;ys;lh;we; pao;hb;hs;hb;tt;fu;cv;oq;hv;	0
 仕五退四士	shi;rt;ru;ru;xg;og;jg;wf;ru; wu;aw;aa;aa;gg;mm;wu;gg;aa; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; si;ke;ke;aa,ke;nk;wc;ys;lh;we; shi;ua;ua;aa;gg;jm;gs;fg;ua;	0
 仕相	shi;rt;ru;ru;xg;og;jg;wf;ru; xiang;mo;mo;mo;ws;du;eq;sh;lm;	7
-士象	shi;ua;ua;aa;gg;jm;gs;fg;ua; xiang;du;dn;du,pd,ua;gh;no;wx;qj;en;	86
+士象	shi;ua;ua;aa;gg;jm;gs;fg;ua; xiang;du;dn;du,pd,ua;gh;no;wx;qj;en;	89
 仕相全	shi;rt;ru;ru;xg;og;jg;wf;ru; xiang;mo;mo;mo;ws;du;eq;sh;lm; quan;rw;rw;rw;ea;og;jn;wg;rw;	0
 实则为亮帅	shi;bd;bd;bt;ix;jk;wm;pu;gd; ze;bd;kd;bd,db;mi;bn;op;mj;bd; wei;ld;dd;dd;hh,uu;ii;ii;o,yl;dd; liang;wj;wj;wj,jb;ii;yn,yu;go;yp;wj; shuai;lj;lj;aj,dj,jd;py;lb;pr;jm;aj;	0
 实战着法是	shi;bd;bd;bt;ix;jk;wm;pu;gd; zhan;vg;lg;gv;pa,ph;yi;yp;hk;vg; zhao;yo;yo;yo;fs;tu;gq;ud;em; fa;dq;ds;dq;kp;ei;kk;if;dv; shi;oz;or;op,ov;ve;ao;ot;j,jg;or;	0
@@ -3064,20 +3064,20 @@ use_preset_vocabulary: false
 帅五退一炮	shuai;lj;lj;aj,dj,jd;py;lb;pr;jm;aj; wu;aw;aa;aa;gg;mm;wu;gg;aa; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; pao;hb;hs;hb;tt;fu;cv;oq;hv;	0
 双兵	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; bing;qb;qb;qb;uf;oc;th;rg;qb;	14
 双方各走了一着	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; ge;wk;wk;wk;jo;hr;sg;tk;wk; zou;tz;tr;tv;qq,ge;go;pz;fh;tr; liao;al;vl;aa,vu;rp;nn;rl;b,bn;vv; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; zhao;yo;yo;yo;fs;tu;gq;ud;em;	0
-双方均无	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; jun;ty;td;ty;gf;gm;gw;fq;td; wu;ay;ay;ag,ay,ee;uk,ur;mu;du;fq;av;	23
+双方均无	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; jun;ty;td;ty;gf;gm;gw;fq;td; wu;ay;ay;ag,ay,ee;uk,ur;mu;du;fq;av;	22
 双方轮流各走一着	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; lun;il;ib;il;ta;kp;yj;lw;ib; liu;di;dv;di;kr;eu;ko;iy;dv; ge;wk;wk;wk;jo;hr;sg;tk;wk; zou;tz;tr;tv;qq,ge;go;pz;fh;tr; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; zhao;yo;yo;yo;fs;tu;gq;ud;em;	1
 双方排阵	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; pai;ff;ff;ff;ju,jp;qy;ur;rd;ff; zhen;ei;ei;ei;bt;nq;ty;bl;ei;	0
 双方走棋	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; zou;tz;tr;tv;qq,ge;go;pz;fh;tr; qi;mb;mb;mq;wf;dc;eh;sa;lb;	1
 双关门	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; guan;bt;bt;bt,qd;fx;tk;hm;ud;et; men;dv;dv;dg;oo;ls;am;uy;dv;	0
-双炮	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; pao;hb;hs;hb;tt;fu;cv;oq;hv;	91
+双炮	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; pao;hb;hs;hb;tt;fu;cv;oq;hv;	86
 双卒	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	3
 四盘棋	si;ke;ke;aa,ke;nk;wc;ys;lh;we; pan;vm;vm;mv,vm;td,ta;ht;ia;te;vm; qi;mb;mb;mq;wf;dc;eh;sa;lb;	1
-四炮	si;ke;ke;aa,ke;nk;wc;ys;lh;we; pao;hb;hs;hb;tt;fu;cv;oq;hv;	11
+四炮	si;ke;ke;aa,ke;nk;wc;ys;lh;we; pao;hb;hs;hb;tt;fu;cv;oq;hv;	9
 四台比赛	si;ke;ke;aa,ke;nk;wc;ys;lh;we; tai;sk;sk;sk;po;ir;kd;ck;vk; bi;bb;bb;bb;aa;pp;vv;xx;bb; sai;bb;br;bb;im;jo;wo;pf;gr;	0
 算准入局	suan;vc;vc;vc;np,nz;ht;rl;th;va; zhun;dv;df;dv;fa;ig;wu;uw;da; ru;pn;pn;pd;ee,uh;oh;ju;ty;pn; ju;uk;uk;uk;qo;sr;cd;nn;uk;	0
 所走着法	suo;hj;pj;hj,jh;up;hl;mt;rn;pj; zou;tz;tr;tv;qq,ge;go;pz;fh;tr; zhao;yo;yo;yo;fs;tu;gq;ud;em; fa;dq;ds;dq;kp;ei;kk;if;dv;	0
 特森	te;nc;nc;ns;bk;hi;qk;tr;nc; sen;mm;mm;ml;ww;dd;ee;ss;ll;	12
-提和	ti;fz;fr;fu;je;qo;ut;rj;fr; he;hk;hk;hk;uo;hr;xd;t,tk;hk;	32
+提和	ti;fz;fr;fu;je;qo;ut;rj;fr; he;hk;hk;hk;uo;hr;xd;t,tk;hk;	0
 提和次数对等	ti;fz;fr;fu;je;qo;ut;rj;fr; he;hk;hk;hk;uo;hr;xd;t,tk;hk; ci;dq;dr;dq;fe;io,mo;we;uq;dr; shu;mw;mw;wl;lj;fk;ph;ov;mw; dui;yc;yc;cy,yc;lk;ei;rk;cf;yc; deng;vc;vc;vs;nk;hi;rk;tf;vc;	0
 提和的一方	ti;fz;fr;fu;je;qo;ut;rj;fr; he;hk;hk;hk;uo;hr;xd;t,tk;hk; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp;	0
 提议作和	ti;fz;fr;fu;je;qo;ut;rj;fr; yi;yy;yy;yy;ch,cy;ik;sb;yy;yy; zuo;rv;rv;rv;xu;os;jw;wt;rv; he;hk;hk;hk;uo;hr;xd;t,tk;hk;	0
@@ -3090,7 +3090,7 @@ use_preset_vocabulary: false
 同时己方其它棋子	tong;kk;kk;kk;oo;br;md;m,mg;ak; shi;oc;oc;oc;vk;ai;ok;jf;oc; ji;kv;vv;ag,vg;tt;su;vj;nn;vv; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; qi;cb;qb;ba,ad,hb;vf;tc;zh;ad;ab; ta;bb;bb;bb;ia;jp;wv;px;gb; qi;mb;mb;mq;wf;dc;eh;sa;lb; zi;la;va;aa,vh;aa;nd;hi;bb;va;	0
 投子认负	tou;fu;fy;fu;jl;qe;ur;rm;fy; zi;la;va;aa,vh;aa;nd;hi;bb;va; ren;yr;yr;yr;ce;io;sj;yw;yr; fu;db;dr;db;gm;no;xo;qm;er;	13
 退八	tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; ba;pn;pn;pd;ff;ho;hb;wt;pn;	1
-退二	tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; er;aa;aa;aa;uu;mm;me;fg;aa;	12
+退二	tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; er;aa;aa;aa;uu;mm;me;fg;aa;	8
 退九	tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; jiu;pv;pv;py;ur;kn;kj;vt;pv;	0
 退六	tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb;	1
 退马反击	tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; ma;va;va;aa,vh;zz;nm;nm;cn;va; fan;iy;py;py;ul;he;xr;rc;py; ji;fk;ak;aa,eu,fk;up;qu;um;fm;aa;	0
@@ -3122,7 +3122,7 @@ use_preset_vocabulary: false
 相九	xiang;mo;mo;mo;ws;du;eq;sh;lm; jiu;pv;pv;py;ur;kn;kj;vt;pv;	2
 相七	xiang;mo;mo;mo;ws;du;eq;sh;lm; qi;av;av;ag;aa;ju;rq;ag;av;	0
 象棋盘	xiang;du;dn;du,pd,ua;gh;no;wx;qj;en; qi;mb;mb;mq;wf;dc;eh;sa;lb; pan;vm;vm;mv,vm;td,ta;ht;ia;te;vm;	4
-象棋特级大师	xiang;du;dn;du,pd,ua;gh;no;wx;qj;en; qi;mb;mb;mq;wf;dc;eh;sa;lb; te;nc;nc;ns;bk;hi;qk;tr;nc; ji;sj;sj;sj;eh;ve;ic;xe;sj; da;ar;un;ad;xx;kk;md;dd;an; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	17
+象棋特级大师	xiang;du;dn;du,pd,ua;gh;no;wx;qj;en; qi;mb;mb;mq;wf;dc;eh;sa;lb; te;nc;nc;ns;bk;hi;qk;tr;nc; ji;sj;sj;sj;eh;ve;ic;xe;sj; da;ar;un;ad;xx;kk;md;dd;an; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	7
 相七退九车	xiang;mo;mo;mo;ws;du;eq;sh;lm; qi;av;av;ag;aa;ju;rq;ag;av; tui;zg;zg;zg;sq,rq;yv;iu;ve;zh; jiu;pv;pv;py;ur;kn;kj;vt;pv; che;au;al;aa;tt;kq;yc;lg;aa;	0
 相三	xiang;mo;mo;mo;ws;du;eq;sh;lm; san;ae;ae;aa;uu;mm;ts;dg;ae;	5
 象头卒	xiang;du;dn;du,pd,ua;gh;no;wx;qj;en; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	0
@@ -3166,7 +3166,7 @@ use_preset_vocabulary: false
 应改	ying;ga;ga;ga;rd;im;xf;yi;ga; gai;jw;jw;wj,jw;tj;sk;vh;nt;jw;	2
 应使双方	ying;ga;ga;ga;rd;im;xf;yi;ga; shi;rl;rl;rl;xy;ok;jb;wg;rl; shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp;	0
 应走着数	ying;ga;ga;ga;rd;im;xf;yi;ga; zou;tz;tr;tv;qq,ge;go;pz;fh;tr; zhao;yo;yo;yo;fs;tu;gq;ud;em; shu;mw;mw;wl;lj;fk;ph;ov;mw;	0
-用炮	yong;kf,ol;kl;kf;lp;bq;ty;et;pa; pao;hb;hs;hb;tt;fu;cv;oq;hv;	41
+用炮	yong;kf,ol;kl;kf;lp;bq;ty;et;pa; pao;hb;hs;hb;tt;fu;cv;oq;hv;	28
 用时太多	yong;kf,ol;kl;kf;lp;bq;ty;et;pa; shi;oc;oc;oc;vk;ai;ok;jf;oc; tai;dd;dd;dd;xh;ki;mi;dy;dd; duo;xx;xx;xx;ff;ni;ll;qq;xx;	0
 用中文数字	yong;kf,ol;kl;kf;lp;bq;ty;et;pa; zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; wen;wx;wx;wi,dd;jj;yk;vw;yy;wx; shu;mw;mw;wl;lj;fk;ph;ov;mw; zi;bz;bz;bz;ia;jd;wh;pb;gz;	3
 有别的棋子挡住	you;uo;uo;ou,uo;sl,dl;kb;nv;e,de;ao; bie;kd;kd;dl;oi;rn,xn;dp;kl;kd; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu; qi;mb;mb;mq;wf;dc;eh;sa;lb; zi;la;va;aa,vh;aa;nd;hi;bb;va; dang;fe;fe;fd;js;qm;ub;ri;fd; zhu;rv;rv;rv;xa,xg;og;jn;wy;rv;	1
@@ -3191,7 +3191,7 @@ use_preset_vocabulary: false
 则帅五	ze;bd;kd;bd,db;mi;bn;op;mj;bd; shuai;lj;lj;aj,dj,jd;py;lb;pr;jm;aj; wu;aw;aa;aa;gg;mm;wu;gg;aa;	0
 则相三	ze;bd;kd;bd,db;mi;bn;op;mj;bd; xiang;mo;mo;mo;ws;du;eq;sh;lm; san;ae;ae;aa;uu;mm;ts;dg;ae;	0
 则卒	ze;bd;kd;bd,db;mi;bn;op;mj;bd; zu;wu;wu;wu,uc;is;yj;zn;yw;wu;	2
-战略思维	zhan;vg;lg;gv;pa,ph;yi;yp;hk;vg; lue;tk;tk;tg;wo;wr;qs;lt;tk; si;tx;tx;tx,xt;wn;wp;qh;ln;tx; wei;sv;sf;sv;ea;vg;iu;xw;sa;	108
+战略思维	zhan;vg;lg;gv;pa,ph;yi;yp;hk;vg; lue;tk;tk;tg;wo;wr;qs;lt;tk; si;tx;tx;tx,xt;wn;wp;qh;ln;tx; wei;sv;sf;sv;ea;vg;iu;xw;sa;	96
 战术技巧	zhan;vg;lg;gv;pa,ph;yi;yp;hk;vg; shu;md;md;md;wh;id,xd;ei;sy;ld; ji;fv;fy;fv;jl;qe;uc;rf;fy; qiao;gk;gv;gk;pr;ms;ua;ag;gv;	0
 张学潮	zhang;gi;gi;gi;rh;no;bp;xt;gi; xue;xz;xz;dz,zb;ha;fd;kh;ip;ez; chao;do;do;di;kl;eb;kv;if;do;	1
 着法红先	zhao;yo;yo;yo;fs;tu;gq;ud;em; fa;dq;ds;dq;kp;ei;kk;if;dv; hong;sg;sg;sg;ep;vm;iu;xa;sg; xian;ne;ne;ne,en;bk;hu;qp;tf;pe;	0
