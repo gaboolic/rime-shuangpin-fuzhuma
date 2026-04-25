@@ -142,7 +142,7 @@ key_binder:
     - { when: has_menu, accept: Shift+Y, send_sequence: "{Shift+Right}y{Shift+Right}" }
     - { when: has_menu, accept: Shift+Z, send_sequence: "{Shift+Right}z{Shift+Right}" }
 # 启用語言模型
-#__include: moqi:/octagram/enable_for_sentence
+__include: moqi:/octagram/enable_for_sentence
 
 custom_phrase:
   dictionary: ""

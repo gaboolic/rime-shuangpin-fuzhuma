@@ -102,7 +102,10 @@ switches_engine:
       - simplifier@mars                               #火星文
       - uniquifier
 
-      
+      grammar:
+  language: zh-moqi.gram  # 这个很小几乎不起作用但是不能不配置，为了让non_collocation_penalty生效（只要有值就行 不过模型不存在日志里会报错）
+  non_collocation_penalty: -4           # 重要！！！！  这个值非常重要，是整句时的组词惩罚，默认值-12惩罚太大了，不适合白霜词库
+
 octagram:
   disable:
     __patch:
@@ -114,11 +117,11 @@ octagram:
         # language: zh-hans-t-huayu-v7-bgw # 华宇模型
         # language: zh-hans-wiki-202405 # 维基模型
         # language: zh-hans-t-essay-bgw # rime官方模型
-        # language: zhs-moqi # 墨奇训练的模型 聊胜于无
-        collocation_max_length: 4
-        collocation_min_length: 2
-        # non_collocation_penalty: -24
-        # collocation_penalty: -6
+        language: zhs-moqi # 墨奇训练的模型 聊胜于无 主要目的是让non_collocation_penalty生效
+        # collocation_max_length: 5
+        # collocation_min_length: 2
+        non_collocation_penalty: -4
+        # collocation_penalty: -4
         # weak_collocation_penalty: -12
         # rear_penalty: -18
       translator/contextual_suggestions: true # 是否使用语言模型优化输出结果〔需配合 grammar 使用〕
