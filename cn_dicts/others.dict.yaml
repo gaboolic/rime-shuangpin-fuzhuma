@@ -32,8 +32,8 @@ sort: by_weight
 # 「骑」目前统读 qi
 坐骑	zuo;tr;rt;tc,tr,rt;eg;og;jg;ww;rt; qi;mk;mk;mq;zj,zo;nr;nz;cd;mk;	942
 坐骑	zuo;tr;rt;tc,tr,rt;eg;og;jg;ww;rt; ji;mk;mk;mq;zj,zo;nr;nz;cd;mk;	942
-铁骑	tie;jf;ju;ju;de;oo;zh;qr;ju; qi;mk;mk;mq;zj,zo;nr;nz;cd;mk;	288
-铁骑	tie;jf;ju;ju;de;oo;zh;qr;ju; ji;mk;mk;mq;zj,zo;nr;nz;cd;mk;	288
+铁骑	tie;jf;ju;ju;de;oo;zh;qr;ju; qi;mk;mk;mq;zj,zo;nr;nz;cd;mk;	287
+铁骑	tie;jf;ju;ju;de;oo;zh;qr;ju; ji;mk;mk;mq;zj,zo;nr;nz;cd;mk;	287
 一骑绝尘	yi;aa;aa;aa;dd;mm;fi;g,gg;aa; qi;mk;mk;mq;zj,zo;nr;nz;cd;mk; jue;sb;sb;ss;et;vu;im;xq;sb; chen;xt;xt;tx,xt;pg;fg,xg;yg;if;at;	654
 一骑绝尘	yi;aa;aa;aa;dd;mm;fi;g,gg;aa; ji;mk;mk;mq;zj,zo;nr;nz;cd;mk; jue;sb;sb;ss;et;vu;im;xq;sb; chen;xt;xt;tx,xt;pg;fg,xg;yg;if;at;	654
 一骑当千	yi;aa;aa;aa;dd;mm;fi;g,gg;aa; qi;mk;mk;mq;zj,zo;nr;nz;cd;mk; dang;xe;xe;xx;hs;fm;yb;iv;ea; qian;pu;pu;pa;ss;hj;lq;tf;pu;	53
@@ -47,8 +47,8 @@ sort: by_weight
 # 「街」的粤语和东北话读音及常见的两种写法
 仆街	pu;rb;rb;rb;xh;oy;jy;wh;rb; jie;rt;ii;xg,xi;hj,hp;hn;pg;tf;rd;	37
 仆街	pu;rb;rb;rb;xh;oy;jy;wh;rb; gai;rt;ii;xg,xi;hj,hp;hn;pg;tf;rd;	37
-扑街	pu;fb;fb;fb;jh;qy;uy;rh;fb; jie;rt;ii;xg,xi;hj,hp;hn;pg;tf;rd;	1190
-扑街	pu;fb;fb;fb;jh;qy;uy;rh;fb; gai;rt;ii;xg,xi;hj,hp;hn;pg;tf;rd;	1190
+扑街	pu;fb;fb;fb;jh;qy;uy;rh;fb; jie;rt;ii;xg,xi;hj,hp;hn;pg;tf;rd;	1188
+扑街	pu;fb;fb;fb;jh;qy;uy;rh;fb; gai;rt;ii;xg,xi;hj,hp;hn;pg;tf;rd;	1188
 扑街仔	pu;fb;fb;fb;jh;qy;uy;rh;fb; jie;rt;ii;xg,xi;hj,hp;hn;pg;tf;rd; zai;rz;rz;rz;xa;od;jh;wb;rz;	20
 扑街仔	pu;fb;fb;fb;jh;qy;uy;rh;fb; gai;rt;ii;xg,xi;hj,hp;hn;pg;tf;rd; zai;rz;rz;rz;xa;od;jh;wb;rz;	20
 仆街仔	pu;rb;rb;rb;xh;oy;jy;wh;rb; jie;rt;ii;xg,xi;hj,hp;hn;pg;tf;rd; zai;rz;rz;rz;xa;od;jh;wb;rz;	0
@@ -71,24 +71,24 @@ sort: by_weight
 郑俊镐	zheng;be;be;eg;fb;tl,xl;ht;ud;ee; jun;rw;rw;rj,rw;xj;oe;jh;wc;rw; hao;jk;jk;jg;do;ob;zg;qy;jk;	1
 ##### 错音错字提示。与 corrector.lua 配合，上面的是正确的，下面是错误的
 ### 错音
-馄饨	hun;ub;ub;uk;ga;np;qv;qn;ub; tun;ut;ut;ut;gr;nu;qs;qn;ut;	705
-馄饨	hun;ub;ub;uk;ga;np;qv;qn;ub; dun;ut;ut;ut;gr;nu;qs;qn;ut;	705
-主角	zhu;wt;dw;dw;ig,ha;yg;in;y,yg;wt; jue;dy;dy;dy;gp;ng,nq;xt;qe;ey;	23437
-主角	zhu;wt;dw;dw;ig,ha;yg;in;y,yg;wt; jiao;dy;dy;dy;gp;ng,nq;xt;qe;ey;	23437
-角色	jue;dy;dy;dy;gp;ng,nq;xt;qe;ey; se;db;db;db;gt;nu;xm;qc;eb;	31957
-角色	jiao;dy;dy;dy;gp;ng,nq;xt;qe;ey; se;db;db;db;gt;nu;xm;qc;eb;	31957
+馄饨	hun;ub;ub;uk;ga;np;qv;qn;ub; tun;ut;ut;ut;gr;nu;qs;qn;ut;	699
+馄饨	hun;ub;ub;uk;ga;np;qv;qn;ub; dun;ut;ut;ut;gr;nu;qs;qn;ut;	699
+主角	zhu;wt;dw;dw;ig,ha;yg;in;y,yg;wt; jue;dy;dy;dy;gp;ng,nq;xt;qe;ey;	23466
+主角	zhu;wt;dw;dw;ig,ha;yg;in;y,yg;wt; jiao;dy;dy;dy;gp;ng,nq;xt;qe;ey;	23466
+角色	jue;dy;dy;dy;gp;ng,nq;xt;qe;ey; se;db;db;db;gt;nu;xm;qc;eb;	32374
+角色	jiao;dy;dy;dy;gp;ng,nq;xt;qe;ey; se;db;db;db;gt;nu;xm;qc;eb;	32374
 比萨	bi;bb;bb;bb;aa;pp;vv;xx;bb; sa;ci;ci;ci;zu,zr;th;lx;ab;ci;	167
 比萨	pi;bb;bb;bb;aa;pp;vv;xx;bb; sa;ci;ci;ci;zu,zr;th;lx;ab;ci;	167
 比萨饼	bi;bb;bb;bb;aa;pp;vv;xx;bb; sa;ci;ci;ci;zu,zr;th;lx;ab;ci; bing;uk;uk;ub;gz,gp;nt;ql;qn;uk;	23
 比萨饼	pi;bb;bb;bb;aa;pp;vv;xx;bb; sa;ci;ci;ci;zu,zr;th;lx;ab;ci; bing;uk;uk;ub;gz,gp;nt;ql;qn;uk;	23
 吃比萨	chi;kv;kq;kq;or;rn;da;kt;ky; bi;bb;bb;bb;aa;pp;vv;xx;bb; sa;ci;ci;ci;zu,zr;th;lx;ab;ci;	5
 吃比萨	chi;kv;kq;kq;or;rn;da;kt;ky; pi;bb;bb;bb;aa;pp;vv;xx;bb; sa;ci;ci;ci;zu,zr;th;lx;ab;ci;	5
-说服	shuo;yx;ye;yd;ck;iu;sp;yu;ye; fu;oy;oy;oy;ll;be;vr;eb;oy;	5083
-说服	shui;yx;ye;yd;ck;iu;sp;yu;ye; fu;oy;oy;oy;ll;be;vr;eb;oy;	5083
-道行	dao;zz;zz;zu;fq;yu;hu;ut;zm; heng;rd;ii;xd,xi;hj,hp;hn;px;tf;rd;	271
-道行	dao;zz;zz;zu;fq;yu;hu;ut;zm; hang;rd;ii;xd,xi;hj,hp;hn;px;tf;rd;	271
-模样	mu;md;md;mm;wx;dk;em;sa;ld; yang;my;my;my;wp;dq;eg;su;ly;	5178
-模样	mo;md;md;mm;wx;dk;em;sa;ld; yang;my;my;my;wp;dq;eg;su;ly;	5178
+说服	shuo;yx;ye;yd;ck;iu;sp;yu;ye; fu;oy;oy;oy;ll;be;vr;eb;oy;	5104
+说服	shui;yx;ye;yd;ck;iu;sp;yu;ye; fu;oy;oy;oy;ll;be;vr;eb;oy;	5104
+道行	dao;zz;zz;zu;fq;yu;hu;ut;zm; heng;rd;ii;xd,xi;hj,hp;hn;px;tf;rd;	275
+道行	dao;zz;zz;zu;fq;yu;hu;ut;zm; hang;rd;ii;xd,xi;hj,hp;hn;px;tf;rd;	275
+模样	mu;md;md;mm;wx;dk;em;sa;ld; yang;my;my;my;wp;dq;eg;su;ly;	5184
+模样	mo;md;md;mm;wx;dk;em;sa;ld; yang;my;my;my;wp;dq;eg;su;ly;	5184
 有模有样	you;uo;uo;ou,uo;sl,dl;kb;nv;e,de;ao; mu;md;md;mm;wx;dk;em;sa;ld; you;uo;uo;ou,uo;sl,dl;kb;nv;e,de;ao; yang;my;my;my;wp;dq;eg;su;ly;	277
 有模有样	you;uo;uo;ou,uo;sl,dl;kb;nv;e,de;ao; mo;md;md;mm;wx;dk;em;sa;ld; you;uo;uo;ou,uo;sl,dl;kb;nv;e,de;ao; yang;my;my;my;wp;dq;eg;su;ly;	277
 一模一样	yi;aa;aa;aa;dd;mm;fi;g,gg;aa; mu;md;md;mm;wx;dk;em;sa;ld; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; yang;my;my;my;wp;dq;eg;su;ly;	5052
@@ -97,32 +97,32 @@ sort: by_weight
 装模作样	zhuang;ly;dy;yv;lk;lv;at;uf;dh; mo;md;md;mm;wx;dk;em;sa;ld; zuo;rv;rv;rv;xu;os;jw;wt;rv; yang;my;my;my;wp;dq;eg;su;ly;	485
 人模狗样	ren;pn;pn;pd;ee;oo;jr;w,ww;pn; mu;md;md;mm;wx;dk;em;sa;ld; gou;qj;qk;qj;bi;kr;mg;qt;qk; yang;my;my;my;wp;dq;eg;su;ly;	146
 人模狗样	ren;pn;pn;pd;ee;oo;jr;w,ww;pn; mo;md;md;mm;wx;dk;em;sa;ld; gou;qj;qk;qj;bi;kr;mg;qt;qk; yang;my;my;my;wp;dq;eg;su;ly;	146
-模板	mu;md;md;mm;wx;dk;em;sa;ld; ban;my;my;mf;wl;de,xe;er;sr;ly;	14552
-模板	mo;md;md;mm;wx;dk;em;sa;ld; ban;my;my;mf;wl;de,xe;er;sr;ly;	14552
+模板	mu;md;md;mm;wx;dk;em;sa;ld; ban;my;my;mf;wl;de,xe;er;sr;ly;	14547
+模板	mo;md;md;mm;wx;dk;em;sa;ld; ban;my;my;mf;wl;de,xe;er;sr;ly;	14547
 阿弥陀佛	e;ek;ek;ek;bj,bo;nr;tz;bs;ek; mi;gx;gx;ge;rf;nf;by;xq;gx; tuo;eb;eb;et;ba;np;tv;bp;eb; fo;rf;rf;rf;xp;on;jt;wx;rf;	371
 阿弥陀佛	a;ek;ek;ek;bj,bo;nr;tz;bs;ek; mi;gx;gx;ge;rf;nf;by;xq;gx; tuo;eb;eb;et;ba;np;tv;bp;eb; fo;rf;rf;rf;xp;on;jt;wx;rf;	371
 南无阿弥陀佛	na;ug;ug,ag;ua,uy;ss,sp;jj;ng;fm;uu; mo;ay;ay;ag,ay,ee;uk,ur;mu;du;fq;av; e;ek;ek;ek;bj,bo;nr;tz;bs;ek; mi;gx;gx;ge;rf;nf;by;xq;gx; tuo;eb;eb;et;ba;np;tv;bp;eb; fo;rf;rf;rf;xp;on;jt;wx;rf;	42
 南无阿弥陀佛	na;ug;ug,ag;ua,uy;ss,sp;jj;ng;fm;uu; mo;ay;ay;ag,ay,ee;uk,ur;mu;du;fq;av; a;ek;ek;ek;bj,bo;nr;tz;bs;ek; mi;gx;gx;ge;rf;nf;by;xq;gx; tuo;eb;eb;et;ba;np;tv;bp;eb; fo;rf;rf;rf;xp;on;jt;wx;rf;	42
 南无阿弥陀佛	nan;ug;ug,ag;ua,uy;ss,sp;jj;ng;fm;uu; wu;ay;ay;ag,ay,ee;uk,ur;mu;du;fq;av; e;ek;ek;ek;bj,bo;nr;tz;bs;ek; mi;gx;gx;ge;rf;nf;by;xq;gx; tuo;eb;eb;et;ba;np;tv;bp;eb; fo;rf;rf;rf;xp;on;jt;wx;rf;	42
 南无阿弥陀佛	nan;ug;ug,ag;ua,uy;ss,sp;jj;ng;fm;uu; wu;ay;ay;ag,ay,ee;uk,ur;mu;du;fq;av; a;ek;ek;ek;bj,bo;nr;tz;bs;ek; mi;gx;gx;ge;rf;nf;by;xq;gx; tuo;eb;eb;et;ba;np;tv;bp;eb; fo;rf;rf;rf;xp;on;jt;wx;rf;	42
-给予	ji;sk;sk;sh;eo;vr;id;xw;sk; yu;sl;sl;sa,aa;pp;nn;iv;cb;vv;	11253
-给予	gei;sk;sk;sh;eo;vr;id;xw;sk; yu;sl;sl;sa,aa;pp;nn;iv;cb;vv;	11253
-槟榔	bing;mb;mb;mb;wf;dc;eh;sp;lb; lang;me;me;ml;wb;dl;et;sy;le;	492
-槟榔	bin;mb;mb;mb;wf;dc;eh;sp;lb; lang;me;me;ml;wb;dl;et;sy;le;	492
+给予	ji;sk;sk;sh;eo;vr;id;xw;sk; yu;sl;sl;sa,aa;pp;nn;iv;cb;vv;	11261
+给予	gei;sk;sk;sh;eo;vr;id;xw;sk; yu;sl;sl;sa,aa;pp;nn;iv;cb;vv;	11261
+槟榔	bing;mb;mb;mb;wf;dc;eh;sp;lb; lang;me;me;ml;wb;dl;et;sy;le;	475
+槟榔	bin;mb;mb;mb;wf;dc;eh;sp;lb; lang;me;me;ml;wb;dl;et;sy;le;	475
 张柏芝	zhang;gi;gi;gi;rh;no;bp;xt;gi; bo;mb;mb;mb;ws;da;eu;sr;lb; zhi;cv;cv;cv;zh;to;lr;ap;cv;	680
 张柏芝	zhang;gi;gi;gi;rh;no;bp;xt;gi; bai;mb;mb;mb;ws;da;eu;sr;lb; zhi;cv;cv;cv;zh;to;lr;ap;cv;	680
-藤蔓	teng;cu;cu;ct;zo,zf;te;lk;ae;cu; wan;cy;cy;cm;zl;te;lr;aj;cy;	321
-藤蔓	teng;cu;cu;ct;zo,zf;te;lk;ae;cu; man;cy;cy;cm;zl;te;lr;aj;cy;	321
+藤蔓	teng;cu;cu;ct;zo,zf;te;lk;ae;cu; wan;cy;cy;cm;zl;te;lr;aj;cy;	322
+藤蔓	teng;cu;cu;ct;zo,zf;te;lk;ae;cu; man;cy;cy;cm;zl;te;lr;aj;cy;	322
 弄堂	long;wc;wc;cw,wc;ap,az;mt;nl;ga;wa; tang;xt;xt;tk,dt,xt;hg;fg;sg;ip;et;	126
 弄堂	nong;wc;wc;cw,wc;ap,az;mt;nl;ga;wa; tang;xt;xt;tk,dt,xt;hg;fg;sg;ip;et;	126
 心宽体胖	xin;dd;dd;dd;nn;pp;hx;ny;dd; kuan;bj;be;bj,jb;ik,ir;ju,xu;we;pa;gj; ti;rb;rb;rb;xd;om;jf;ws;rb; pan;ob;ob;ob;lp,ls;bq;vu;eu;ob;	36
 心宽体胖	xin;dd;dd;dd;nn;pp;hx;ny;dd; kuan;bj;be;bj,jb;ik,ir;ju,xu;we;pa;gj; ti;rb;rb;rb;xd;om;jf;ws;rb; pang;ob;ob;ob;lp,ls;bq;vu;eu;ob;	36
-埋怨	man;tl;tl;tl;gg;gg;gd;fj;tl; yuan;xx;xx;xe,xy;fn;np;lh;qb;xx;	1138
-埋怨	mai;tl;tl;tl;gg;gg;gd;fj;tl; yuan;xx;xx;xe,xy;fn;np;lh;qb;xx;	1138
+埋怨	man;tl;tl;tl;gg;gg;gd;fj;tl; yuan;xx;xx;xe,xy;fn;np;lh;qb;xx;	1139
+埋怨	mai;tl;tl;tl;gg;gg;gd;fj;tl; yuan;xx;xx;xe,xy;fn;np;lh;qb;xx;	1139
 虚与委蛇	xu;hy;hy;hy;pd;yc;zc;ha;ay; yu;va;aa;aa;dd;ym;ff;gn;aa; wei;hn;hn;hn;uy;hv;xb;tv;hn; yi;ib;ib;it;fa;lp;cv;jp;ib;	93
 虚与委蛇	xu;hy;hy;hy;pd;yc;zc;ha;ay; yu;va;aa;aa;dd;ym;ff;gn;aa; wei;hn;hn;hn;uy;hv;xb;tv;hn; she;ib;ib;it;fa;lp;cv;jp;ib;	93
-木讷	mu;ur;un,an;ad;ww;dd;em;ss;un; ne;yn;yn;yn;ce;ib;sj;ym;yn;	428
-木讷	mu;ur;un,an;ad;ww;dd;em;ss;un; na;yn;yn;yn;ce;ib;sj;ym;yn;	428
+木讷	mu;ur;un,an;ad;ww;dd;em;ss;un; ne;yn;yn;yn;ce;ib;sj;ym;yn;	425
+木讷	mu;ur;un,an;ad;ww;dd;em;ss;un; na;yn;yn;yn;ce;ib;sj;ym;yn;	425
 独乐乐	du;qi;qi;qi;bf;ki;mc;qt;qi; yue;px;pd;pd,px;uf;hd;by;qi;pd; le;px;pd;pd,px;uf;hd;by;qi;pd;	13
 独乐乐	du;qi;qi;qi;bf;ki;mc;qt;qi; le;px;pd;pd,px;uf;hd;by;qi;pd; le;px;pd;pd,px;uf;hd;by;qi;pd;	13
 众乐乐	zhong;rr;rr;rc;ee;oo;jj;ww;rr; yue;px;pd;pd,px;uf;hd;by;qi;pd; le;px;pd;pd,px;uf;hd;by;qi;pd;	20
@@ -131,8 +131,8 @@ sort: by_weight
 荨麻	xun;cc;cc;cx;zk;ti,xi;lk;av;cc; ma;gm;gm;gl;dd,rw;id,ic;zm;ys;gl;	71
 荨麻疹	xun;cc;cc;cx;zk;ti,xi;lk;av;cc; ma;gm;gm;gl;dd,rw;id,ic;zm;ys;gl; zhen;bp;bp;bp;mu;kh;ae;uw;bp;	198
 荨麻疹	qian;cc;cc;cx;zk;ti,xi;lk;av;cc; ma;gm;gm;gl;dd,rw;id,ic;zm;ys;gl; zhen;bp;bp;bp;mu;kh;ae;uw;bp;	198
-模具	mu;md;md;mm;wx;dk;em;sa;ld; ju;qb;qb;ba,bq,qb;pf;bc;qh;hw;ab;	1931
-模具	mo;md;md;mm;wx;dk;em;sa;ld; ju;qb;qb;ba,bq,qb;pf;bc;qh;hw;ab;	1931
+模具	mu;md;md;mm;wx;dk;em;sa;ld; ju;qb;qb;ba,bq,qb;pf;bc;qh;hw;ab;	1935
+模具	mo;md;md;mm;wx;dk;em;sa;ld; ju;qb;qb;ba,bq,qb;pf;bc;qh;hw;ab;	1935
 草薙	cao;cu;cu;cz;zs;tj;ln;aj;cu; ti;cv;cf;cv;za;tg;lu;at;cv;	88
 草薙	cao;cu;cu;cz;zs;tj;ln;aj;cu; zhi;cv;cf;cv;za;tg;lu;at;cv;	88
 草薙京	cao;cu;cu;cz;zs;tj;ln;aj;cu; ti;cv;cf;cv;za;tg;lu;at;cv; jing;wx;wx;wx;if;yf;gy;yi;wx;	134
@@ -141,10 +141,10 @@ sort: by_weight
 草薙剑	cao;cu;cu;cz;zs;tj;ln;aj;cu; zhi;cv;cf;cv;za;tg;lu;at;cv; jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd;	17
 贾平凹	jia;xb;xr;bx,xb;pm;mo;vo;sm;xr; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; wa;la,ka;la;aa;pd;su;mf;mm;aa;	238
 贾平凹	jia;xb;xr;bx,xb;pm;mo;vo;sm;xr; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; ao;la,ka;la;aa;pd;su;mf;mm;aa;	238
-雪佛兰	xue;ye;ye;yx;ys;mm;tb;fv;ya; fu;rf;rf;rf;xp;on;jt;wx;rf; lan;bs;bs;bs,qe;fu;tm;ht;uf;es;	351
-雪佛兰	xue;ye;ye;yx;ys;mm;tb;fv;ya; fo;rf;rf;rf;xp;on;jt;wx;rf; lan;bs;bs;bs,qe;fu;tm;ht;uf;es;	351
-强劲	qiang;gi;gi;gs;rf;ni;bc;xk;gi; jing;jl;vl;lg;ru;ns;rs;ca;vl;	1503
-强劲	qiang;gi;gi;gs;rf;ni;bc;xk;gi; jin;jl;vl;lg;ru;ns;rs;ca;vl;	1503
+雪佛兰	xue;ye;ye;yx;ys;mm;tb;fv;ya; fu;rf;rf;rf;xp;on;jt;wx;rf; lan;bs;bs;bs,qe;fu;tm;ht;uf;es;	352
+雪佛兰	xue;ye;ye;yx;ys;mm;tb;fv;ya; fo;rf;rf;rf;xp;on;jt;wx;rf; lan;bs;bs;bs,qe;fu;tm;ht;uf;es;	352
+强劲	qiang;gi;gi;gs;rf;ni;bc;xk;gi; jing;jl;vl;lg;ru;ns;rs;ca;vl;	1505
+强劲	qiang;gi;gi;gs;rf;ni;bc;xk;gi; jin;jl;vl;lg;ru;ns;rs;ca;vl;	1505
 胴体	dong;ok;ok;ot;lo;br;vd;em;ok; ti;rb;rb;rb;xd;om;jf;ws;rb;	80
 胴体	tong;ok;ok;ot;lo;br;vd;em;ok; ti;rb;rb;rb;xd;om;jf;ws;rb;	80
 力能扛鼎	li;vp;vp;gp;uu;ks;sl;lt;vp; neng;sb;sb;sb;pa;ip;kv;ce;vb; gang;fg;fg;fg;jp;qm;uu;ra;fg; ding;po;ov;oa,od;sr;bl,bn;qa;hn;mv;	26
@@ -155,26 +155,26 @@ sort: by_weight
 大腹便便	da;ar;un;ad;xx;kk;md;dd;an; fu;ow;ow;of;lj;be;vh;et;ow; bian;rg;rg;rg;xy;ok;jb;wg;rg; bian;rg;rg;rg;xy;ok;jb;wg;rg;	144
 卡脖子	qia;ub;ub;bx,ub;ph;yy;yy;hh;ub; bo;oz;oz;ob,oz;la;bd;vh;ef;oz; zi;la;va;aa,vh;aa;nd;hi;bb;va;	298
 卡脖子	ka;ub;ub;bx,ub;ph;yy;yy;hh;ub; bo;oz;oz;ob,oz;la;bd;vh;ef;oz; zi;la;va;aa,vh;aa;nd;hi;bb;va;	298
-吱声	zi;kv;ky;kv;ol;re;dc;kf;ky; sheng;tu;up;um;gp;gh;gc;fn;up;	144
-吱声	zhi;kv;ky;kv;ol;re;dc;kf;ky; sheng;tu;up;um;gp;gh;gc;fn;up;	144
+吱声	zi;kv;ky;kv;ol;re;dc;kf;ky; sheng;tu;up;um;gp;gh;gc;fn;up;	116
+吱声	zhi;kv;ky;kv;ol;re;dc;kf;ky; sheng;tu;up;um;gp;gh;gc;fn;up;	116
 掺和	chan;fp;fp;fc;ju;qh;ue;rc;fp; huo;hk;hk;hk;uo;hr;xd;t,tk;hk;	446
 掺和	chan;fp;fp;fc;ju;qh;ue;rc;fp; he;hk;hk;hk;uo;hr;xd;t,tk;hk;	446
 掺和	can;fp;fp;fc;ju;qh;ue;rc;fp; huo;hk;hk;hk;uo;hr;xd;t,tk;hk;	446
 掺和	can;fp;fp;fc;ju;qh;ue;rc;fp; he;hk;hk;hk;uo;hr;xd;t,tk;hk;	446
 称职	chen;hx;hx;he;uf;hf;xy;tq;hx; zhi;ev;eb;ev;df;sc;qh;bk;eb;	86
 称职	cheng;hx;hx;he;uf;hf;xy;tq;hx; zhi;ev;eb;ev;df;sc;qh;bk;eb;	86
-螺蛳粉	luo;ix;ix;il;ff;lf;ci;jl;ix; si;ij;ij;iu;fy;lb;cr;jj;ij; fen;mf;md;mf;li,lu;fh;pp;ow;md;	525
-螺蛳粉	luo;ix;ix;il;ff;lf;ci;jl;ix; shi;ij;ij;iu;fy;lb;cr;jj;ij; fen;mf;md;mf;li,lu;fh;pp;ow;md;	525
+螺蛳粉	luo;ix;ix;il;ff;lf;ci;jl;ix; si;ij;ij;iu;fy;lb;cr;jj;ij; fen;mf;md;mf;li,lu;fh;pp;ow;md;	493
+螺蛳粉	luo;ix;ix;il;ff;lf;ci;jl;ix; shi;ij;ij;iu;fy;lb;cr;jj;ij; fen;mf;md;mf;li,lu;fh;pp;ow;md;	493
 调换	diao;yk;yk;yv;co;ir;sd;ym;yk; huan;fr;fd;fh;jx,je;qk,xk;um;rq;fd;	591
 调换	tiao;yk;yk;yv;co;ir;sd;ym;yk; huan;fr;fd;fh;jx,je;qk,xk;um;rq;fd;	591
 太行山	tai;dd;dd;dd;xh;ki;mi;dy;dd; hang;rd;ii;xd,xi;hj,hp;hn;px;tf;rd; shan;kl;lk;aa;pp;uu;vs;mm;aa;	389
 太行山	tai;dd;dd;dd;xh;ki;mi;dy;dd; xing;rd;ii;xd,xi;hj,hp;hn;px;tf;rd; shan;kl;lk;aa;pp;uu;vs;mm;aa;	389
 歇斯底里	xie;oq;or;qh;ve;ao;oe;jq;or; si;cj;qj;jq,qj;vp;tl;zt;ad;qj; di;gu;gd;gd;rh;im,ii;xi;yq;gd; li;tt;la;aa,tt;vg;wg;dl;jf;aa;	878
 歇斯底里	jie;oq;or;qh;ve;ao;oe;jq;or; si;cj;qj;jq,qj;vp;tl;zt;ad;qj; di;gu;gd;gd;rh;im,ii;xi;yq;gd; li;tt;la;aa,tt;vg;wg;dl;jf;aa;	878
-暖和	nuan;oy;oy;oy;vl;ae;or;je;oy; huo;hk;hk;hk;uo;hr;xd;t,tk;hk;	704
-暖和	nuan;oy;oy;oy;vl;ae;or;je;oy; he;hk;hk;hk;uo;hr;xd;t,tk;hk;	704
-模棱两可	mo;md;md;mm;wx;dk;em;sa;ld; leng;mw;mw;ml,mw;wj;de;eh;sf;lw; liang;ar;ad;ad;de;mb;ml;gm;ad; ke;dk;dk;dk;jj,jo;mr;zk;sk;av;	844
-模棱两可	mo;md;md;mm;wx;dk;em;sa;ld; ling;mw;mw;ml,mw;wj;de;eh;sf;lw; liang;ar;ad;ad;de;mb;ml;gm;ad; ke;dk;dk;dk;jj,jo;mr;zk;sk;av;	844
+暖和	nuan;oy;oy;oy;vl;ae;or;je;oy; huo;hk;hk;hk;uo;hr;xd;t,tk;hk;	685
+暖和	nuan;oy;oy;oy;vl;ae;or;je;oy; he;hk;hk;hk;uo;hr;xd;t,tk;hk;	685
+模棱两可	mo;md;md;mm;wx;dk;em;sa;ld; leng;mw;mw;ml,mw;wj;de;eh;sf;lw; liang;ar;ad;ad;de;mb;ml;gm;ad; ke;dk;dk;dk;jj,jo;mr;zk;sk;av;	847
+模棱两可	mo;md;md;mm;wx;dk;em;sa;ld; ling;mw;mw;ml,mw;wj;de;eh;sf;lw; liang;ar;ad;ad;de;mb;ml;gm;ad; ke;dk;dk;dk;jj,jo;mr;zk;sk;av;	847
 鄱阳湖	po;ce;pe;ef;hb,ub;hl;tt;to;fe; yang;eo;eo;eo;bv;na;to;bj;eo; hu;do;do;dh;kl;eb;kv;id;do;	1054
 鄱阳湖	pan;ce;pe;ef;hb,ub;hl;tt;to;fe; yang;eo;eo;eo;bv;na;to;bj;eo; hu;do;do;dh;kl;eb;kv;id;do;	1054
 脖颈	bo;oz;oz;ob,oz;la;bd;vh;ef;oz; geng;jy;vr;yg;rm;no;rw;ca;vr;	480
@@ -195,14 +195,14 @@ sort: by_weight
 龇着牙	ci;vb;vb;ic;ra;yp,xm;lv;hw;vb; zhe;yo;yo;yo;fs;tu;gq;ud;em; ya;gp,ac;ap;ap;du;mh;ly;ah;ap;	14
 龇牙咧嘴	zi;vb;vb;ic;ra;yp,xm;lv;hw;vb; ya;gp,ac;ap;ap;du;mh;ly;ah;ap; lie;kd;kd;kl;oi;rn;dp;kg;kd; zui;ky;ky;kj,kz;op;rb;dt;kh;ky;	166
 龇牙咧嘴	ci;vb;vb;ic;ra;yp,xm;lv;hw;vb; ya;gp,ac;ap;ap;du;mh;ly;ah;ap; lie;kd;kd;kl;oi;rn;dp;kg;kd; zui;ky;ky;kj,kz;op;rb;dt;kh;ky;	166
-头皮屑	tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; pi;py;vy;ad,ay,vd,vy,ya;rl;de;rp;hc;vy; xie;uo;uo;ux;ql;sb;cv;ni;uo;	461
-头皮屑	tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; pi;py;vy;ad,ay,vd,vy,ya;rl;de;rp;hc;vy; xue;uo;uo;ux;ql;sb;cv;ni;uo;	461
-六安	lu;wb;wb;wb,dd,db;if;yc;al;uy;wb; an;bn;bn;bn;iy;jv;wb;pv;gn;	109
-六安	liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; an;bn;bn;bn;iy;jv;wb;pv;gn;	109
+头皮屑	tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; pi;py;vy;ad,ay,vd,vy,ya;rl;de;rp;hc;vy; xie;uo;uo;ux;ql;sb;cv;ni;uo;	460
+头皮屑	tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; pi;py;vy;ad,ay,vd,vy,ya;rl;de;rp;hc;vy; xue;uo;uo;ux;ql;sb;cv;ni;uo;	460
+六安	lu;wb;wb;wb,dd,db;if;yc;al;uy;wb; an;bn;bn;bn;iy;jv;wb;pv;gn;	108
+六安	liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; an;bn;bn;bn;iy;jv;wb;pv;gn;	108
 六安县	lu;wb;wb;wb,dd,db;if;yc;al;uy;wb; an;bn;bn;bn;iy;jv;wb;pv;gn; xian;qs;qs;sq,qs;pp;bi;fk;eg;qv;	4
 六安县	liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; an;bn;bn;bn;iy;jv;wb;pv;gn; xian;qs;qs;sq,qs;pp;bi;fk;eg;qv;	4
-六安市	lu;wb;wb;wb,dd,db;if;yc;al;uy;wb; an;bn;bn;bn;iy;jv;wb;pv;gn; shi;wj;wj;wj;iy;yb;zr;ym;wj;	23
-六安市	liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; an;bn;bn;bn;iy;jv;wb;pv;gn; shi;wj;wj;wj;iy;yb;zr;ym;wj;	23
+六安市	lu;wb;wb;wb,dd,db;if;yc;al;uy;wb; an;bn;bn;bn;iy;jv;wb;pv;gn; shi;wj;wj;wj;iy;yb;zr;ym;wj;	25
+六安市	liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; an;bn;bn;bn;iy;jv;wb;pv;gn; shi;wj;wj;wj;iy;yb;zr;ym;wj;	25
 六合区	lu;wb;wb;wb,dd,db;if;yc;al;uy;wb; he;rk;rk;rk;eo;or;jd;wg;rk; qu;kx;kx;ki;dr;sk;nb;aq;kx;	3
 六合区	liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; he;rk;rk;rk;eo;or;jd;wg;rk; qu;kx;kx;ki;dr;sk;nb;aq;kx;	3
 安徽六安	an;bn;bn;bn;iy;jv;wb;pv;gn; hui;rx;iw;xw;hj;hk;wh;tm;rw; lu;wb;wb;wb,dd,db;if;yc;al;uy;wb; an;bn;bn;bn;iy;jv;wb;pv;gn;	10
@@ -217,19 +217,19 @@ sort: by_weight
 南京六合区	nan;ug;ug,ag;ua,uy;ss,sp;jj;ng;fm;uu; jing;wx;wx;wx;if;yf;gy;yi;wx; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; he;rk;rk;rk;eo;or;jd;wg;rk; qu;kx;kx;ki;dr;sk;nb;aq;kx;	1
 南京市六合区	nan;ug;ug,ag;ua,uy;ss,sp;jj;ng;fm;uu; jing;wx;wx;wx;if;yf;gy;yi;wx; shi;wj;wj;wj;iy;yb;zr;ym;wj; lu;wb;wb;wb,dd,db;if;yc;al;uy;wb; he;rk;rk;rk;eo;or;jd;wg;rk; qu;kx;kx;ki;dr;sk;nb;aq;kx;	2
 南京市六合区	nan;ug;ug,ag;ua,uy;ss,sp;jj;ng;fm;uu; jing;wx;wx;wx;if;yf;gy;yi;wx; shi;wj;wj;wj;iy;yb;zr;ym;wj; liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; he;rk;rk;rk;eo;or;jd;wg;rk; qu;kx;kx;ki;dr;sk;nb;aq;kx;	2
-偌大	ruo;rk;rk;rr;xo;or;jd;wa;rk; da;ar;un;ad;xx;kk;md;dd;an;	642
-偌大	nuo;rk;rk;rr;xo;or;jd;wa;rk; da;ar;un;ad;xx;kk;md;dd;an;	642
+偌大	ruo;rk;rk;rr;xo;or;jd;wa;rk; da;ar;un;ad;xx;kk;md;dd;an;	640
+偌大	nuo;rk;rk;rr;xo;or;jd;wa;rk; da;ar;un;ad;xx;kk;md;dd;an;	640
 饮鸩止渴	yin;uq;ur;uq;ge;no;qe;qn;ur; zhen;bn;dn;na,ng,nv,ny;ic;lm;wx;pq;dn; zhi;lb,la,ba;la;aa;rr;ym;si;hh;ua; ke;dr;dv;dh;kr;ev;kf;ij;dv;	336
 饮鸩止渴	yin;uq;ur;uq;ge;no;qe;qn;ur; jiu;bn;dn;na,ng,nv,ny;ic;lm;wx;pq;dn; zhi;lb,la,ba;la;aa;rr;ym;si;hh;ua; ke;dr;dv;dh;kr;ev;kf;ij;dv;	336
 饮鸩解渴	yin;uq;ur;uq;ge;no;qe;qn;ur; zhen;bn;dn;na,ng,nv,ny;ic;lm;wx;pq;dn; jie;dn;dn;jn;gb;nq;xq;qe;en; ke;dr;dv;dh;kr;ev;kf;ij;dv;	0
 饮鸩解渴	yin;uq;ur;uq;ge;no;qe;qn;ur; jiu;bn;dn;na,ng,nv,ny;ic;lm;wx;pq;dn; jie;dn;dn;jn;gb;nq;xq;qe;en; ke;dr;dv;dh;kr;ev;kf;ij;dv;	0
 ### 错字
-曾经	ceng;bo;bo;ob,bo;fv;ca;ho;ul;eo; jing;sj;sg;sg;ep;vm;iu;x,xc;sg;	39126
+曾经	ceng;bo;bo;ob,bo;fv;ca;ho;ul;eo; jing;sj;sg;sg;ep;vm;iu;x,xc;sg;	39203
 曾今	ceng;bo;bo;ob,bo;fv;ca;ho;ul;eo; jin;rv;rv;ra,rv;er;on;ja;wy;rv;	200
 按捺	an;fn;fn;fa;jy;qv;ub;rp;fn; na;fu;fx;fn;jf;qf;uf;rd;fx;	75
-按耐	an;fn;fn;fa;jy;qv;ub;rp;fn; nai;ec;ec;ce;ek;mi;lk;dm;ec;	13
-按捺不住	an;fn;fn;fa;jy;qv;ub;rp;fn; na;fu;fx;fn;jf;qf;uf;rd;fx; bu;ab;ad;ad,ax;dh,df;mf;cb;i,gi;ad; zhu;rv;rv;rv;xa,xg;og;jn;wy;rv;	296
-按耐不住	an;fn;fn;fa;jy;qv;ub;rp;fn; nai;ec;ec;ce;ek;mi;lk;dm;ec; bu;ab;ad;ad,ax;dh,df;mf;cb;i,gi;ad; zhu;rv;rv;rv;xa,xg;og;jn;wy;rv;	204
+按耐	an;fn;fn;fa;jy;qv;ub;rp;fn; nai;ec;ec;ce;ek;mi;lk;dm;ec;	14
+按捺不住	an;fn;fn;fa;jy;qv;ub;rp;fn; na;fu;fx;fn;jf;qf;uf;rd;fx; bu;ab;ad;ad,ax;dh,df;mf;cb;i,gi;ad; zhu;rv;rv;rv;xa,xg;og;jn;wy;rv;	295
+按耐不住	an;fn;fn;fa;jy;qv;ub;rp;fn; nai;ec;ec;ce;ek;mi;lk;dm;ec; bu;ab;ad;ad,ax;dh,df;mf;cb;i,gi;ad; zhu;rv;rv;rv;xa,xg;og;jn;wy;rv;	206
 别价	bie;kd;kd;dl;oi;rn,xn;dp;kl;kd; jie;rj;rl;rj;xp;ol;jp;ww;rj;	1
 别介	bie;kd;kd;dl;oi;rn,xn;dp;kl;kd; jie;rl;rl;ra,rd;ep;ol;jp;wj;ra;	31
 甭价	beng;by;by;by;dp;mq;ct;gi;by; jie;rj;rl;rj;xp;ol;jp;ww;rj;	0
@@ -239,7 +239,7 @@ sort: by_weight
 血脉喷张	xue;pm;pm;pa,pm;ud,ua;ht;ta;tl;pm; mai;oy;oy;oy;lh,lo;be;vk;ey;oy; pen;kb;kr;kb;om;ro;do;kf;kr; zhang;gi;gi;gi;rh;no;bp;xt;gi;	86
 契诃夫	qi;fd;fd;dd;ax;qk;am;dh;fd; he;yk;yk;yk;cj,co;ir;sz;ys;yk; fu;er;an;ad,er;ee;qo;hf;fw;an;	416
 契科夫	qi;fd;fd;dd;ax;qk;am;dh;fd; ke;hd;hu;hd;uh,us;hj;xj;tu;hu; fu;er;an;ad,er;ee;qo;hf;fw;an;	65
-凑合	cou;dt;dt;dz;fx;ik;wm;ud;dt; he;rk;rk;rk;eo;or;jd;wg;rk;	1524
+凑合	cou;dt;dt;dz;fx;ik;wm;ud;dt; he;rk;rk;rk;eo;or;jd;wg;rk;	1456
 凑活	cou;dt;dt;dz;fx;ik;wm;ud;dt; huo;du;dk;du;ko;er;ka;it;dk;	314
 巨惠	ju;kk;ka;kk,aa;dr;ss;nn;an;ka; hui;ix;ax;xh,hx;dn,sn;jp;nh;gj;ax;	0
 钜惠	ju;jj;jj;jj;dr;os;zn;qa;jj; hui;ix;ax;xh,hx;dn,sn;jp;nh;gj;ax;	15
@@ -256,7 +256,7 @@ sort: by_weight
 两个口	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; kou;la;la;aa;oo;rr;dk;kk;aa;	0
 两个田	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; tian;ku;ku;aa;ww;ww;qt;ll;wu;	0
 两个九	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; jiu;pv;pv;py;ur;kn;kj;vt;pv;	0
-两个人	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ren;pn;pn;pd;ee;oo;jr;w,ww;pn;	17213
+两个人	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ren;pn;pn;pd;ee;oo;jr;w,ww;pn;	16592
 两个飞	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; fei;vd;vd;yd;rh;no,xo;cf;nu;vd;	0
 两个戈	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ge;yp;ad;ad;dh,aa,ha;ii;pg;ag;ad;	0
 两个厶	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; si;vd;;ad,si,vd;;vi,xi;ks;cn;;	0
@@ -277,16 +277,16 @@ sort: by_weight
 两个彐	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ji;ka;;aa,vh,xt;;nm,sm,xm;bj;vn,zz;va;	0
 两个𢎘	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; han;av;;;;ss;nm;nn;;	0
 两个魚	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yu;dh;;dh;;nf;wv;qo;;	0
-两个明	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ming;oo;oo;oo;vl;ab;ov;je;oo;	0
+两个明	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ming;oo;oo;oo;vl;ab;ov;je;oo;	1
 两个朿	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ci;ub;;ad,mk;;db;em;gm;;	0
 两个乂	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yi;pn;pn;pd,yi;yy;kk,xk;bi;qt;pn;	0
 两个曰	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yue;ka;ka;aa,oy,yt;vv;aa,xa;or;jh;wa;	0
 两个尸	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; shi;kp,vp;vp;ap,kp,vp;qq;ss;cs;nn;vp;	0
-两个户	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; hu;du;du;dp,du;qq;is;mh;yn;du;	0
-两个大	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; da;ar;un;ad;xx;kk;md;dd;an;	522
+两个户	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; hu;du;du;dp,du;qq;is;mh;yn;du;	2
+两个大	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; da;ar;un;ad;xx;kk;md;dd;an;	464
 两个八	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ba;pn;pn;pd;ff;ho;hb;wt;pn;	11
 两个而	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; er;al;al;aa;ee;ml;le;dm;aa;	0
-两个羊	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yang;bf;bl;da;fp;tq;gy;ud;ea;	0
+两个羊	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yang;bf;bl;da;fp;tq;gy;ud;ea;	1
 两个吉	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ji;tk;uk;ku,uk;go;gr;gd;fk;uk;	1
 两个马	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ma;va;va;aa,vh;zz;nm;nm;cn;va;	0
 两个卅	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; sa;ai;al;aa,ia;sp,ud;tj;ls;gk;aa;	0
@@ -306,7 +306,7 @@ sort: by_weight
 两个風	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; feng;ji;;ji;;hi;oc;mt;;	0
 两个石	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak;	0
 两个日	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ri;ka;ka;aa,or,ri;vv;aa;or;jj;wa;	0
-两个月	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;	6262
+两个月	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;	6003
 两个目	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; mu;ke;ka;aa,om,mu;ss;bu;qm;hh;we;	3
 两个白	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; bai;po;po;pa,po;ss;ha;ub;rr;po;	0
 两个百	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; bai;ab;ab;ab;ds;ma;fu;dj;ab;	0
@@ -367,7 +367,7 @@ sort: by_weight
 两个見	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; jian;oe;;oe;;bu;ej;hq;;	0
 两个貝	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; bei;ob;;ad,ob;;bc;ob;mh;;	0
 两个辛	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; xin;lu;lu;lu;bs;yj;nx;uy;lu;	0
-两个瓜	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; gua;in,vd;pn;pd;uh;ho;yg;rc;pn;	10
+两个瓜	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; gua;in,vd;pn;pd;uh;ho;yg;rc;pn;	11
 两个呆	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; dai;km;km;km;ow;rd;de;ks;kl;	0
 两个果	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; guo;tm;ln;ad,tm;vw;wd;qe;js;an;	2
 两个鸟	liang;ar;ad;ad;de;mb;ml;gm;ad; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; niao;na;wd,pa;na,pa;cc;pm;xn;qy;pa;	0
@@ -419,7 +419,7 @@ sort: by_weight
 三个秦	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; qin;ih;fh;hf,fh;uf,uw;qd;ax;dw;ah;	4
 三个若	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ruo;ck;ck;cy;zo;tr;ld;ad;ck;	0
 三个雲	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yun;yy;;yy;;mi;tb;ff;;	0
-三个人	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ren;pn;pn;pd;ee;oo;jr;w,ww;pn;	4186
+三个人	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ren;pn;pn;pd;ee;oo;jr;w,ww;pn;	4171
 三个刀	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; dao;vp;vp;gp,pg;ii,ru;sh;pd;vn;vp;	0
 三个十	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; shi;al;al;aa;ss;jj;ns;fg;aa;	1
 三个力	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; li;vp;vp;gp;uu;ks;sl;lt;vp;	0
@@ -515,13 +515,13 @@ sort: by_weight
 三个百	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; bai;ab;ab;ab;ds;ma;fu;dj;ab;	0
 三个盖	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; gai;ym;ym;my,ym;fd,fa;tt;ga;ug;em;	2
 三个県	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; xian;ox;;ox;;bf;qy;hn;;	0
-三个空	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; kong;bg;bg;xg,bg;ip;jm;eu;pw;gg;	4
+三个空	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; kong;bg;bg;xg,bg;ip;jm;eu;pw;gg;	5
 三个亇	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ge;dl;;da,ra;;nn,on,xn;xg;qh;;	0
 三个竹	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; zhu;gg;pl,gg;gg;nn;hh;ru;tt;pd;	0
 三个罒	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; mu;kl;;aa,si;;wl;ys;lh;;	0
 三个羗	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; qiang;ys;;qs,ys;;ti;gk;ud;;	0
 三个老	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; lao;lb;lb;bl,lb;ga;jp;ql;ft;ub;	0
-三个月	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;	7873
+三个月	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;	7715
 三个至	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; zhi;gt;at;tv,vt;dg;mg;yi;gc;at;	0
 三个興	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; xing;jb;;ba,jb,tb;;hc;ph;vm,wf;;	0
 三个足	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; zu;kz;kr;kv;gg;ro;pu;kh;kr;	4
@@ -552,7 +552,7 @@ sort: by_weight
 三个米	san;ae;ae;aa;uu;mm;ts;dg;ae; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; mi;bm;dm;dd;ll;fd;pm;oy;dl;	0
 # 四叠字
 四个乂	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yi;pn;pn;pd,yi;yy;kk,xk;bi;qt;pn;	0
-四个人	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ren;pn;pn;pd;ee;oo;jr;w,ww;pn;	2232
+四个人	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ren;pn;pn;pd;ee;oo;jr;w,ww;pn;	2230
 四个厶	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; si;vd;;ad,si,vd;;vi,xi;ks;cn;;	0
 四个厶	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; mou;vd;;ad,si,vd;;vi,xi;ks;cn;;	0
 四个又	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; you;vn;vn;vd,ad;ll;nk;ry;cc;vn;	0
@@ -566,7 +566,7 @@ sort: by_weight
 四个火	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; huo;br,rb;dr;dd;tt;ff;ch;oo;dr;	0
 四个牛	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; niu;pu;pl;pa;bb;hq;qn;rh;pa;	0
 四个魚	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yu;dh;;dh;;nf;wv;qo;;	0
-四个月	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;	1502
+四个月	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;	1470
 四个日	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; ri;ka;ka;aa,or,ri;vv;aa;or;jj;wa;	0
 四个林	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; lin;mm;mm;mm;ww;dd;ee;ss;ll;	0
 四个水	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; shui;ln;ln;ad,uv;oo;ee;ks;ii;vn;	0
@@ -588,7 +588,7 @@ sort: by_weight
 四个春	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; chun;io;fo;of,fo;uv;qa;ao;dw;ao;	0
 四个車	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; che;iu;al;aa;ds;jj;yc;lg;;	0
 四个風	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; feng;ji;;ji;;hi;oc;mt;;	0
-四个雷	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; lei;yt;yt;yt;yw;mw;tq;fl;yt;	12
+四个雷	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; lei;yt;yt;yt;yw;mw;tq;fl;yt;	13
 四个雲	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; yun;yy;;yy;;mi;tb;ff;;	0
 四个興	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; xing;jb;;ba,jb,tb;;hc;ph;vm,wf;;	0
 四个龍	si;ke;ke;aa,ke;nk;wc;ys;lh;we; ge;rl;rl;ra,pa;ep;ol,xl;jg;wh;ra; long;lv;;dg,lg;bu;yp;tl;ue;;	1
