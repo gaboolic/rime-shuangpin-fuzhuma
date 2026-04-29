@@ -10,9 +10,9 @@ sort: by_weight
 #象棋
 王天一	wang;at;at;aa;aa;mg;nw;gg;at; tian;ad;ad;ad;ue;mk;fm;gd;ad; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;	162
 捉双	zhuo;fz;fr;fz;jg;qo;up;rk;fr; shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy;	19
-大子	da;ar;un;ad;xx;kk;md;dd;an; zi;la;va;aa,vh;aa;nd;hi;bb;va;	97
+大子	da;ar;un;ad;xx;kk;md;dd;an; zi;la;va;aa,vh;aa;nd;hi;bb;va;	96
 出动大子	chu;uu;vk;ck,aa;pp;uu;sm;bm;va; dong;yl;el;ly,yl;uu;ms;bs;fc;el; da;ar;un;ad;xx;kk;md;dd;an; zi;la;va;aa,vh;aa;nd;hi;bb;va;	5
-子力	zi;la;va;aa,vh;aa;nd;hi;bb;va; li;vp;vp;gp;uu;ks;sl;lt;vp;	383
+子力	zi;la;va;aa,vh;aa;nd;hi;bb;va; li;vp;vp;gp;uu;ks;sl;lt;vp;	384
 棋理	qi;mb;mb;mq;wf;dc;eh;sa;lb; li;wl;wl;wl;ag;mg;nd;gj;wl;	99
 串打	chuan;kl,vv;ll;aa,vv;op;ll;dg;kk;aa; da;fd;fd;fd;jj;qn;ua;rs;fd;	5
 炮碾丹砂	pao;hb;hs;hb;tt;fu;cv;oq;hv; nian;uy;un;uv;th;mv;mt;dn;uh; dan;kd;pa;pd;ua,ud,uz,od,oz;by;mz;my;pa; sha;uu;uu;uu;ti,tu;mh;mt;di;uu;	5
@@ -123,7 +123,7 @@ sort: by_weight
 王车易位	wang;at;at;aa;aa;mg;nw;gg;at; che;au;al;aa;tt;kq;yc;lg;aa; yi;ow;ow;ow;vi,vu;ah;oe;jq;ow; wei;rl;rl;rl;xb;ot;ji;wu;rl;	67
 无子可动	wu;ay;ay;ag,ay,ee;uk,ur;mu;du;fq;av; zi;la;va;aa,vh;aa;nd;hi;bb;va; ke;dk;dk;dk;jj,jo;mr;zk;sk;av; dong;yl;el;ly,yl;uu;ms;bs;fc;el;	20
 吃过路兵	chi;kv;kq;kq;or;rn;da;kt;ky; guo;zc;zc;zc;kq;yi;ku;fp;zc; lu;zk;zk;zg;go;rr;ps;kh;zk; bing;qb;qb;qb;uf;oc;th;rg;qb;	20
-兵升变	bing;qb;qb;qb;uf;oc;th;rg;qb; sheng;pc;pc;pc;uz,up;ht;tl;ta;pa; bian;wy;wy;wy,yy;il;ye;zr;yo;wy;	12
+兵升变	bing;qb;qb;qb;uf;oc;th;rg;qb; sheng;pc;pc;pc;uz,up;ht;tl;ta;pa; bian;wy;wy;wy,yy;il;ye;zr;yo;wy;	13
 升变	sheng;pc;pc;pc;uz,up;ht;tl;ta;pa; bian;wy;wy;wy,yy;il;ye;zr;yo;wy;	80
 白先黑后	bai;po;po;pa,po;ss;ha;ub;rr;po; xian;ne;ne;ne,en;bk;hu;qp;tf;pe; hei;lh;lh;ad,ha;nn;wf;ph;lf;ae; hou;ik;pk;pk;uo;hr;xd;rg;pk;	0
 摸子走子	mo;fd;fd;fm;jx;qk;um;ra;fd; zi;la;va;aa,vh;aa;nd;hi;bb;va; zou;tz;tr;tv;qq,ge;go;pz;fh;tr; zi;la;va;aa,vh;aa;nd;hi;bb;va;	1
@@ -155,7 +155,7 @@ sort: by_weight
 斜月	xie;rd;ru;dy;es,eh;oj;jj;wt;ru; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;	0
 名月	ming;xk;xk;xk;fo;nr;ld;qk;xk; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe;	1
 冲四	chong;dv;dv;dv;fp;il;wg;uk;dv; si;ke;ke;aa,ke;nk;wc;ys;lh;we;	34
-活三	huo;du;dk;du;ko;er;ka;it;dk; san;ae;ae;aa;uu;mm;ts;dg;ae;	68
+活三	huo;du;dk;du;ko;er;ka;it;dk; san;ae;ae;aa;uu;mm;ts;dg;ae;	69
 眠三	mian;om;om;om;sr;bp;qd;hn;mm; san;ae;ae;aa;uu;mm;ts;dg;ae;	18
 跳二	tiao;zv;zd;zv;gh,gf;ro;pw;kh;zv; er;aa;aa;aa;uu;mm;me;fg;aa;	0
 抓禁手	zhua;fv;fv;fv;jh;qo,xo;uy;rr;fv; jin;mu;mx;ul;wf;df;ef;ss;lx; shou;pf;pl;pa,ub;up;qq;us;rt;pv;	9
