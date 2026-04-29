@@ -9,7 +9,7 @@
 重磅发布3：墨奇统一词库版，通过拼写运算实现的各种双拼和辅助码排列组合，各类双拼、各类辅助码统一用同一个词库，节省硬盘空间。例如小鹤双拼+虎码首末，微软双拼+墨奇码，自然码双拼+五笔前两码，紫光双拼+仓颉首末码等等。支持的双拼、辅助码运算规则在<https://github.com/gaboolic/rime-shuangpin-fuzhuma/blob/main/moqi_speller.yaml>。让天下双拼用户人人用得上辅助码。
 
 重磅发布4: 句中任意辅助码。
-![句中任意辅助码](readmeimg/input-juzhongfuzhuma.png)
+![句中任意辅助码](readmeimg/input-juzhongfuzhuma.gif)
 
 更新日志：[更新日志.md](md/update-log.md)
 
@@ -74,7 +74,7 @@
 ![极速](readmeimg/jimsu.png)
 
 - 整句句中任意辅助码，按`开启
-![句中任意辅助码](readmeimg/input-juzhongfuzhuma.png)
+![句中任意辅助码](readmeimg/input-juzhongfuzhuma.gif)
 
 - 整句输入时增强单字性能，增加syffo或者syff/ 5码上屏单字的功能
 ![zssr](readmeimg/zssr.png)
