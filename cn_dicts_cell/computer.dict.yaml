@@ -16,3 +16,12 @@ sort: by_weight
 父级目录	fu;bx;bx;bi,pd;fy;ck;hb;wq;bx; ji;sj;sj;sj;eh;ve;ic;xe;sj; mu;ke;ka;aa,om,mu;ss;bu;qm;hh;we; lu;eu;eu;au,ua,vu;so,sf;ne;bk;vi;vu;	0
 会邀	hui;ry;rs;ry;ep;oi;jb;wf;rv; yao;zw;zw;zj,zw;sq;yk;uu;ry;zw;	0
 主域名	zhu;wt;dw;dw;ig,ha;yg;in;y,yg;wt; yu;ta;ta;th;gd,gh,ga;gm;gf;fa;tg; ming;xk;xk;xk;fo;nr;ld;qk;xk;	21
+训练集	xun;yi;yi;yi;cp;il;so;yk;yi; lian;sd;sd;sd,sj;ef;vc,vd;iy;xa;sd; ji;rm;rm;mv,vm;xw;od;ue;wy;rl;	1
+测试集	ce;dd;dd;dz;ki;en;kp;im;dd; shi;yg;yg;yu;cp;im;su;ya;yg; ji;rm;rm;mv,vm;xw;od;ue;wy;rl;	1
+特判	te;nc;nc;ns;bk;hi;qk;tr;nc; pan;bd;bd;db;fi;fn;hp;ud;dd;	4
+限频	xian;eg;eg;eg;bh;nv;ti;bv;eh; pin;vy;vr;yb;rm;yo;sw;hi;vr;	7
+系统会话	xi;px;px;ps;uf;hf;ti;tx;px; tong;sy;se;si;ek;vu;ip;xy;se; hui;ry;rs;ry;ep;oi;jb;wf;rv; hua;yu;yk;yu;co;ir;sa;yt;yk;	1
+编程计划	bian;sc;sc;sb;ej,ed;vb;ii;xy;sc; cheng;hw;hw;hi;ua;hg;xn;tk;hw; ji;yu;yu;yu;cs;ij;sn;yf;yu; hua;gd;gd;dg,gd;ai,di;in;pp;aj;gd;	1
+项目级	xiang;gy;gr;gy,yg;pm;mo;uw;ad;gr; mu;ke;ka;aa,om,mu;ss;bu;qm;hh;we; ji;sj;sj;sj;eh;ve;ic;xe;sj;	1
+议价文件	yi;yy;yy;yy;ch,cy;ik;sb;yy;yy; jia;rj;rl;rj;xp;ol;jp;ww;rj; wen;wx;wx;wi,dd;jj;yk;vw;yy;wx; jian;rn;rn;rn;xb;oq;jq;wr;rn;	1
+废标	fei;gy;gd;gf;rh,rl;ie;xi;yn;gy; biao;mu;mx;mu;wf;df;ef;sf;lx;	15
