@@ -239,7 +239,7 @@ def update_missing_encodings(file_path, write_file_path, dict_data):
 
 # Precompute dict_data
 dict_data = {}
-file_list = ['8105.dict.yaml', '41448.dict.yaml', 'base.dict.yaml', 'ext.dict.yaml', 'others.dict.yaml']
+file_list = ['8105.dict.yaml', '41448.dict.yaml', 'GB18030-2022.dict.yaml','base.dict.yaml', 'ext.dict.yaml', 'others.dict.yaml']
 
 print("Loading dictionary data...")
 dict_data['moqi'] = get_aux_code_map(['./opencc/moqi_chaifen.txt','./opencc/moqi_chaifen_rongcuo.txt'])
