@@ -19,6 +19,7 @@ import_tables:
   ## 转换自 https://github.com/gaboolic/rime-frost
   - cn_dicts/8105     # 字表
   - cn_dicts/41448     # 4万字大字表 可以关闭
+  - cn_dicts/GB18030-2022     # GB18030-2022字表 可以关闭
   
   - cn_dicts/base     # 基础词库
   - cn_dicts/ext      # 扩展词库
