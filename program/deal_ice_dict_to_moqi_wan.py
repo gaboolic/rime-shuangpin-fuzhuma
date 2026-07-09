@@ -53,17 +53,84 @@ def get_xh_aux_code_map(file_list):
     for file in file_list:
         with open(file, 'r', encoding='utf-8') as dict_file:
             for line in dict_file:
-                if "\t" not in line:
+                line = line.strip()
+                if not line or "\t" not in line:
                     continue
-                params = line.strip().split('\t')
+
+                params = line.split('\t')
                 if len(params) < 2:
                     continue
-                character = params[0]
-                encoding = params[1]
-                if "'" not in encoding:
-                    encoding_post = encoding[2:]
+
+                first = params[0]
+                second = params[1]
+
+                if len(first) == 1 and not first.isascii():
+                    character = first
+                    encoding = second
+                else:
+                    character = second
+                    encoding = first
+
+                if "'" in encoding:
+                    continue
+
+                if encoding.startswith('!') or encoding.startswith('/'):
+                    continue
+
+                for raw_code in encoding.split(','):
+                    code_part = raw_code.strip()
+                    if not code_part or "'" in code_part:
+                        continue
+                    if code_part.startswith('!') or code_part.startswith('/'):
+                        continue
+
+                    encoding_post = code_part[-2:]
                     if encoding_post not in dict_data[character]:
                         dict_data[character].append(encoding_post)
+    return dict_data
+
+
+def get_yehe_aux_code_map(file_list):
+    dict_data = defaultdict(list)
+
+    for file in file_list:
+        with open(file, 'r', encoding='utf-8') as dict_file:
+            for line in dict_file:
+                line = line.strip()
+                if not line or "\t" not in line:
+                    continue
+
+                params = line.split('\t')
+                if len(params) < 2:
+                    continue
+
+                first = params[0]
+                second = params[1]
+
+                if len(first) == 1 and not first.isascii():
+                    character = first
+                    encoding = second
+                else:
+                    character = second
+                    encoding = first
+
+                if "'" in encoding:
+                    continue
+
+                if encoding.startswith('!') or encoding.startswith('/'):
+                    continue
+
+                for raw_code in encoding.split(','):
+                    code_part = raw_code.strip()
+                    if not code_part or "'" in code_part:
+                        continue
+                    if code_part.startswith('!') or code_part.startswith('/'):
+                        continue
+
+                    encoding_post = code_part[-2:]
+                    if encoding_post not in dict_data[character]:
+                        dict_data[character].append(encoding_post)
+
     return dict_data
 
 def get_zrm_aux_code_map(file_list):
@@ -243,7 +310,7 @@ file_list = ['8105.dict.yaml', '41448.dict.yaml', 'GB18030-2022.dict.yaml','base
 
 print("Loading dictionary data...")
 dict_data['moqi'] = get_aux_code_map(['./opencc/moqi_chaifen.txt','./opencc/moqi_chaifen_rongcuo.txt'])
-dict_data['xh'] = get_xh_aux_code_map(['./program/flypydz.yaml','./program/flypydz_g.yaml'])
+dict_data['xh'] = get_yehe_aux_code_map(['./program/flypydz.yaml', './program/flypydz_g.yaml', './program/野鹤.txt'])
 dict_data['zrm'] = get_zrm_aux_code_map(['./program/moran.chars.dict.yaml'])
 dict_data['jdh'] = get_aux_code_map(['./program/简单鹤V9.2.0手心辅助码.txt'])
 dict_data['cj'] = get_shoumo_aux_code_map(['./cangjie5.dict.yaml'])

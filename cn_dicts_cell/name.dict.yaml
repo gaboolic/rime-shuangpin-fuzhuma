@@ -17,14 +17,14 @@ sort: by_weight
 泰勒斯威夫特	tai;iu;fu;fu,uf;uf,uo;qe;ak;dw;au; le;gl;gl;lg,gl;vu;ts;ts;af;cl; si;cj;qj;jq,qj;vp;tl;zt;ad;qj; wei;wn;xn,ad,wn;gn,ng,wn;rh;iv;nb;dg;ng; fu;er;an;ad,er;ee;qo;hf;fw;an; te;nc;nc;ns;bk;hi;qk;tr;nc;	1495
 远坂凛	yuan;zy;ze;zy;uq;yu;mu;fq;ze; ban;ty;ty;tf;gl;ge;gr;fr;ty; lin;du;dx;db,du;ff;if;wf;uy;dx;	141
 弓凛	gong;vv;vv;ag,vg;rr;nn;bg;xn;vv; lin;du;dx;db,du;ff;if;wf;uy;dx;	20
-小林薫	xiao;lb;ld;ad;pf;nc;yx;ih;vd; lin;mm;mm;mm;ww;dd;ee;ss;ll; xun;ch;;cx;;tf,xf;lp;at;;	0
-和田薫	he;hk;hk;hk;uo;hr;xd;t,tk;hk; tian;ku;ku;aa;ww;ww;qt;ll;wu; xun;ch;;cx;;tf,xf;lp;at;;	17
-八千草薫	ba;pn;pn;pd;ff;ho;hb;wt;pn; qian;pu;pu;pa;ss;hj;lq;tf;pu; cao;cu;cu;cz;zs;tj;ln;aj;cu; xun;ch;;cx;;tf,xf;lp;at;;	0
-栗本薫	li;xm;xm;xm;pw;md;ve;ss;xl; ben;ma;aa;aa,ma;wd;dm;ef;sg;aa; xun;ch;;cx;;tf,xf;lp;at;;	0
-高村薫	gao;wk;wk;wk;io;yr;gg;ym;wk; cun;mc;mc;mc;wk;di;ek;sf;lc; xun;ch;;cx;;tf,xf;lp;at;;	0
-明石薫	ming;oo;oo;oo;vl;ab;ov;je;oo; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; xun;ch;;cx;;tf,xf;lp;at;;	0
-吉田薫	ji;tk;uk;ku,uk;go;gr;gd;fk;uk; tian;ku;ku;aa;ww;ww;qt;ll;wu; xun;ch;;cx;;tf,xf;lp;at;;	0
-岩元薫	yan;uu;eu;uu;pt;ur;vm;md;sk; yuan;aw;ee;aw,ee;uk;mu;mp;fq;ee; xun;ch;;cx;;tf,xf;lp;at;;	0
+小林薫	xiao;lb;ld;ad;pf;nc;yx;ih;vd; lin;mm;mm;mm;ww;dd;ee;ss;ll; xun;ch;ch;cx;;tf,xf;lp;at;;	0
+和田薫	he;hk;hk;hk;uo;hr;xd;t,tk;hk; tian;ku;ku;aa;ww;ww;qt;ll;wu; xun;ch;ch;cx;;tf,xf;lp;at;;	17
+八千草薫	ba;pn;pn;pd;ff;ho;hb;wt;pn; qian;pu;pu;pa;ss;hj;lq;tf;pu; cao;cu;cu;cz;zs;tj;ln;aj;cu; xun;ch;ch;cx;;tf,xf;lp;at;;	0
+栗本薫	li;xm;xm;xm;pw;md;ve;ss;xl; ben;ma;aa;aa,ma;wd;dm;ef;sg;aa; xun;ch;ch;cx;;tf,xf;lp;at;;	0
+高村薫	gao;wk;wk;wk;io;yr;gg;ym;wk; cun;mc;mc;mc;wk;di;ek;sf;lc; xun;ch;ch;cx;;tf,xf;lp;at;;	0
+明石薫	ming;oo;oo;oo;vl;ab;ov;je;oo; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; xun;ch;ch;cx;;tf,xf;lp;at;;	0
+吉田薫	ji;tk;uk;ku,uk;go;gr;gd;fk;uk; tian;ku;ku;aa;ww;ww;qt;ll;wu; xun;ch;ch;cx;;tf,xf;lp;at;;	0
+岩元薫	yan;uu;eu;uu;pt;ur;vm;md;sk; yuan;aw;ee;aw,ee;uk;mu;mp;fq;ee; xun;ch;ch;cx;;tf,xf;lp;at;;	0
 真嗣	zhen;ub;ub;uj;sf;jc;nh;fh;ub; si;kk;kk;ks,sc;oo;rr;dd;km;kk;	3339
 渚薰	zhu;do;do;dv;kv;ea;ko;if;do; xun;ch;ch;cx;zn;tf;lp;at;ce;	992
 庵薰	an;gd;gd;gd,gy;re,rr;iu;xa;yd;gd; xun;ch;ch;cx;zn;tf;lp;at;ce;	32
@@ -70,7 +70,7 @@ sort: by_weight
 斯威夫特	si;cj;qj;jq,qj;vp;tl;zt;ad;qj; wei;wn;xn,ad,wn;gn,ng,wn;rh;iv;nb;dg;ng; fu;er;an;ad,er;ee;qo;hf;fw;an; te;nc;nc;ns;bk;hi;qk;tr;nc;	202
 成德善	cheng;wv;wv;gg,wg;rh;is;na;dn;vg; de;rx;ix;xx;hn;hp;wh;tf;rx; shan;yk;yk;yk,ka,kq;fo;tr;gd;ud;ek;	20
 哈莉	ha;kk;kk;kh;oo;rr;dd;kw;kk; li;cd;cd;cl;zi;tn;lp;at;cd;	1591
-短短的	duan;ub;ua;ud;ed;ot;oz;td;ud; duan;ub;ua;ud;ed;ot;oz;td;ud; de;bu;bu,b;bu;sh;hi,xx;ui;r,rq;bu;	1145
+短短的	duan;ub;ua;ud;ed;ot;oz;td;ud; duan;ub;ua;ud;ed;ot;oz;td;ud; de;bu;bu,ib;bu;sh;hi,xx;ui;r,rq;bu;	1145
 没地去	mei;du;dy;du;kl;ee;kr;im;dy; di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; qu;ts;ts;ts;gp;gi;gk;fc;tv;	14
 知群	zhi;uk;uk;uk,ku;eo;or;od;td;uk; qun;yy;yy;yj;rp,sp;sq;bg;vt;yy;	1943
 来答	lai;am;an;am,wb;uf,ef,dl;dt;ah;go;an; da;vk;vk;vh;no;hr;rd;tw;vk;	2280
@@ -551,7 +551,7 @@ sort: by_weight
 列昂惕夫	lie;dd;dd;dd;fi;mn;gp;gq;dd; ang;oe;oe;oe;vb;al;oz;jq;oe; ti;xw;xw;xy;ni,nu;ph;he;nj;xw; fu;er;an;ad,er;ee;qo;hf;fw;an;	7
 格劳秀斯	ge;mk;mk;mg;wo;dr;es;st;lk; lao;cl;cl;cl,lb;zu;ts;ls;ap;cl; xiu;hn;hn;hn;uu;hs;xv;te;hn; si;cj;qj;jq,qj;vp;tl;zt;ad;qj;	7
 真岛吾朗	zhen;ub;ub;uj;sf;jc;nh;fh;ub; dao;nu;pe;nu,un;up;pu;xv;qy;ps; wu;wk;wk;wk,kw;go;mr;wd;gk;wk; lang;lo;do;ol;hl;ib;iv;yv;do;	7
-梶田隆章	wei;mm;;mw;wr;du;ev;sn;; tian;ku;ku;aa;ww;ww;qt;ll;wu; long;eu;eu;eu;ba,bg;nm;tl;bt;eu; zhang;lu;lu;lz;bs,cs;yj;xn;uj;lu;	7
+梶田隆章	wei;mm;mm;mw;wr;du;ev;sn;; tian;ku;ku;aa;ww;ww;qt;ll;wu; long;eu;eu;eu;ba,bg;nm;tl;bt;eu; zhang;lu;lu;lz;bs,cs;yj;xn;uj;lu;	7
 堀川雷鼓	ku;ti;ti;tq;gp;gu;gm;fn;ti; chuan;pl;pl;pa;up;ll;oc;kt;pa; lei;yt;yt;yt;yw;mw;tq;fl;yt; gu;tv;uy;vd,uv;gl;ge;hc;fk;uy;	7
 李凯尔特	li;mz;mz;mz;wa;dd;eh;sb;lz; kai;uj;ej;jj,jq;pi;un;vo;mn;sj; er;dx;dx;dx,xd;gf;nf;xy;qi;ex; te;nc;nc;ns;bk;hi;qk;tr;nc;	7
 真木舜一	zhen;ub;ub;uj;sf;jc;nh;fh;ub; mu;ur;un,an;ad;ww;dd;em;ss;un; shun;vf;pl;vf;hp;bq;yv;ep;pa; yi;aa;aa;aa;dd;mm;fi;g,gg;aa;	7
@@ -900,7 +900,7 @@ sort: by_weight
 王曾瑜	wang;at;at;aa;aa;mg;nw;gg;at; ceng;bo;bo;ob,bo;fv;ca;ho;ul;eo; yu;wd;wd;wy;ai;mn;np;gw;wd;	27
 吕世浩	lv;kk;kk;kk;oo;rr;dd;kk;kk; shi;cv;av;ca,cv,aa;vr;pt;la;an;av; hao;dk;dk;dg;ko;er;kd;it;dk;	31
 钱端升	qian;jj;jj;jj;da;oj;zp;qg;jg; duan;le;le;le;be;yb;il;um;le; sheng;pc;pc;pc;uz,up;ht;tl;ta;pa;	27
-辻真先	shi;zu;;zu;sq;yj,xj;nu;fp;; zhen;ub;ub;uj;sf;jc;nh;fh;ub; xian;ne;ne;ne,en;bk;hu;qp;tf;pe;	31
+辻真先	shi;zu;zu;zu;sq;yj,xj;nu;fp;; zhen;ub;ub;uj;sf;jc;nh;fh;ub; xian;ne;ne;ne,en;bk;hu;qp;tf;pe;	31
 瞿同祖	qu;ov;of;vo,ov,vm;sa;bg;qu;hh;ma; tong;kk;kk;kk;oo;br;md;m,mg;ak; zu;pq;pq;uq;hu;im;ff;py;pq;	47
 夏侯懋	xia;bw;aw;wz,aw;dj;me;fh;dh;aw; hou;ru;ru;ru;xx;ok;jo;wn;rd; mao;mx;mx;xm;wn;dp;eh;sc;lx;	26
 何凯明	he;rk;rk;rk;xj,xo;or;jz;ws;rk; kai;uj;ej;jj,jq;pi;un;vo;mn;sj; ming;oo;oo;oo;vl;ab;ov;je;oo;	30
