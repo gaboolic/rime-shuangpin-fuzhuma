@@ -705,7 +705,7 @@ A股	agu	2
 资料	zl	2
 金额	je
 登录	dl	3
-到了	dl	2
+代理	dl	2
 积分	jf	3
 经费	jf	2
 没用	my	3
