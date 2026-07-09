@@ -5,8 +5,8 @@ config_version: '0.50'
 
 schema_list:
   - schema: moqi_wan_flypymo # 墨奇·小鹤+墨奇形 （推荐）
-  - schema: moqi_wan_zrm # 墨奇·自然码+自然码部首辅助码
-  - schema: moqi_wan_flypy # 墨奇·小鹤+鹤形 鹤形+鹤拼, 小鹤官方就只有8000字左右
+  # - schema: moqi_wan_zrm # 墨奇·自然码+自然码部首辅助码
+  # - schema: moqi_wan_flypy # 墨奇·小鹤+鹤形 鹤形+鹤拼, 小鹤官方就只有8000字左右
   - schema: moqi_single_xh # 墨奇码·顶屏版·小鹤双拼，为了4码自动上屏 只收录了8000字
 
 
