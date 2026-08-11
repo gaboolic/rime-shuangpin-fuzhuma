@@ -74,12 +74,13 @@ aux_patch:
     __include: moqi_speller.yaml:/common_aux
 
 __patch:
-  add_user_dict/dictionary: moqi_wan.extended
-  user_dict_set/dictionary: moqi_wan.extended
-  user_dict_set/prism: moqi_wan_ms_wb
-  add_user_dict/prism: moqi_wan_ms_wb
-  speller/algebra/+:
-    __include: aux_patch
+  - add_user_dict/dictionary: moqi_wan.extended
+    user_dict_set/dictionary: moqi_wan.extended
+    user_dict_set/prism: moqi_wan_ms_wb
+    add_user_dict/prism: moqi_wan_ms_wb
+    speller/algebra/+:
+      __include: aux_patch
+  - moqi_wan_ms_wb.custom:/patch?
 
 
 # 快捷键
