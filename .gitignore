@@ -1,5 +1,6 @@
 # Project exclude paths
 /venv/
+/.upstream/
 /cn_dicts_dazhu/
 /cn_dicts_temp/
 /cn_dicts_sancang/

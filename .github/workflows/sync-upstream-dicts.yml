@@ -1,0 +1,82 @@
+name: sync-upstream-dicts
+
+on:
+  schedule:
+    # 每天 00:00 北京时间（UTC+8）。GitHub Actions 的 cron 固定使用 UTC，对应 16:00 UTC。
+    - cron: "0 16 * * *"
+  workflow_dispatch:
+    inputs:
+      upstream_ref:
+        description: "上游 rime-frost 的分支或标签"
+        required: false
+        default: "master"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream-dicts
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Checkout upstream rime-frost
+        uses: actions/checkout@v4
+        with:
+          repository: gaboolic/rime-frost
+          ref: ${{ inputs.upstream_ref || 'master' }}
+          path: .upstream/rime-frost
+          fetch-depth: 1
+          sparse-checkout: |
+            cn_dicts
+            cn_dicts_cell
+          sparse-checkout-cone-mode: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Sync dictionaries and append auxiliary codes
+        run: |
+          python program/deal_ice_dict_to_moqi_wan.py \
+            --upstream-dir .upstream/rime-frost
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cn_dicts cn_dicts_cell
+
+          if git diff --cached --quiet; then
+            echo "上游词库无变化，跳过提交"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          UPSTREAM_SHA=$(git -C .upstream/rime-frost rev-parse --short HEAD)
+          git commit -m "chore: 同步上游词库 (rime-frost@${UPSTREAM_SHA})"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # 若配置了 TOKEN（与 release.yml 使用的一致），用 PAT 推送，
+      # 这样本次提交可以继续触发 release.yml 的 nightly 构建；
+      # 否则退回 GITHUB_TOKEN，提交不会触发其它 workflow。
+      - name: Push changes
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          if [ -n "$TOKEN" ]; then
+            git remote set-url origin "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          fi
+          git push origin HEAD:main
