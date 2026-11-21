@@ -4543,3 +4543,27 @@ sort: by_weight
 相叠	xiang;mo;mo;mo;ws;du;eq;sh;lm; die;yq;yq;qr,qu,yy;lu;em;rf;cc;yq;	0
 一冬	yi;aa;aa;aa;dd;mm;fi;g,gg;aa; dong;wd;wd;wd;jh;hy;hw;tu;wd;	0
 老书	lao;lb;lb;bl,lb;ga;jp;ql;ft;ub; shu;vd;vd;ad,vd;rh;is;ai;nn;vd;	0
+# 2026-11-21 新增：知乎热榜热词（时政与金融/气候与海洋/肠道与微生物/影视与人物/地名，来自 zhihu_missing_2026-11-21 分词缺失词）
+# 时政与金融
+印太	yin;pe;pe;ey,pe;ub;hl;bz;qg;pe; tai;dd;dd;dd;xh;ki;mi;dy;dd;	0
+卡量	ka;ub;ub;bx,ub;ph;yy;yy;hh;ub; liang;ol;ol;ol;vg;ag;od;jg;dl;	0
+单客	dan;bu;bl;ba,bd;fs;cj;hn;uj;ea; ke;bk;bk;bg;io;jr;ws;pt;gk;	0
+摊回	tan;fv;ff;fn;ja;qg;uu;rc;fn; hui;kk;kk;kk;no;wr;rd;lk;wk;	0
+# 气候与海洋
+距平	ju;zj;zj;zj;gr;rs;pn;kh;zj; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au;	0
+暖水	nuan;oy;oy;oy;vl;ae;or;je;oy; shui;ln;ln;ad,uv;oo;ee;ks;ii;vn;	0
+菲东	fei;cf;cf;cf;zu;ty;lr;ad;cf; dong;ax;ad;ad,qx;df,af;kd;ry;ai;ad;	0
+# 肠道与微生物
+古菌	gu;uk;uk;uk;so;jr;cg;dg;uk; jun;ch;ch;ch,cq;zw,zf;td;lx;al;ch;	0
+肠腔	chang;op;op;oy;lu;bh;ve;en;op; qiang;og;og;ok;lp;bm;vu;ep;og;	0
+护肠	hu;fh;fh;fh;jq;qs;um;ry;fh; chang;op;op;oy;lu;bh;ve;en;op;	0
+掺毒	chan;fp;fp;fc;ju;qh;ue;rc;fp; du;fm;fm;fm;ah;qi;ak;gx;am;	0
+# 影视与人物
+成毅	cheng;wv;wv;gg,wg;rh;is;na;dn;vg; yi;lu;ly;lu,uu,uy;bl,il;ye;ir;ue;ly;	0
+吴定缘	wu;kt;kt;kt;ox;rk;dm;kg;kt; ding;bz;br;bp;ie;jo;wt;pg;gr; yuan;su;su;st,su;eh;vo;ij;xx;sn;	0
+苏荆溪	su;cb;cb;cb;zf;tc;lh;al;cb; jing;cd;cd;dk;zi;tn;lp;ag;cd; xi;dd;dd;dx;kx;ek;km;ie;dd;	0
+# 地名
+尾道	wei;um;um;um;qr,qa;su;cv;nt;um; dao;zz;zz;zu;fq;yu;hu;ut;zm;	0
+# 2026-11-21 补充：口语与数码用语
+充会电	chong;wy;we;dy,es,wy;ik;yu;bp;yc;we; hui;ry;rs;ry;ep;oi;jb;wf;rv; dian;ov,yv;lv;ag,og;ee,ve;lu;oa;jn;av;	0
+软解	ruan;iq;ir;iq;te;ko;ye;lq;ir; jie;dn;dn;jn;gb;nq;xq;qe;en;	0
