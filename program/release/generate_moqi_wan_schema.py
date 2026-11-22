@@ -46,7 +46,7 @@ files = [
          'cangjie5.dict.yaml','cangjie5.schema.yaml','easy_en.dict.yaml','easy_en.schema.yaml',
          'emoji.dict.yaml','emoji.schema.yaml',
          'jp_sela.dict.yaml','jp_sela.schema.yaml',
-         'radical_flypy.dict.yaml','radical_flypy.schema.yaml',
+         'radical_flypy.dict.yaml','radical_flypy.schema.yaml','radical_ms.schema.yaml',
          'reverse_moqima.dict.yaml','reverse_moqima.schema.yaml',
          'zrlf.dict.yaml','zrlf.schema.yaml'
          ]  
