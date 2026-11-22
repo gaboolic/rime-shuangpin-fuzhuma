@@ -38,6 +38,17 @@ CORRECTIONS = (
     ('繇', 'yzv', 'yzpx'),
 )
 
+# The established Flypy three-key candidate keeps its shortcut. The same
+# four-key candidate as the Moqi table gets priority only with a trailing /.
+FULL_CODE_HANDOFFS = (
+    ('拔', '捌', 'bafd/'),
+    ('惑', '夥', 'hogx/'),
+    ('架', '驾', 'jxlm/'),
+    ('碎', '尿', 'svuu/'),
+    ('飕', '锼', 'szjy/'),
+    ('咂', '匝', 'zakj/'),
+)
+
 
 class FlypyShortcodes(unittest.TestCase):
     def test_short_table(self):
@@ -58,6 +69,12 @@ class FlypyShortcodes(unittest.TestCase):
                            ('噢', 'ook'), ('嘛', 'mak')):
             self.assertIn((char, code), entries)
         self.assertIn(['她', 'ta', '1'], rows)
+
+        for short, full, code in FULL_CODE_HANDOFFS:
+            with self.subTest(code=code):
+                self.assertIn((short, code[:3]), entries)
+                self.assertEqual([char for char, candidate in entries if candidate == code],
+                                 [full])
 
     @unittest.skipUnless(COMPARE, 'Set RIME_SCHEMA_COMPARE to run librime checks')
     def test_librime_candidates(self):
@@ -89,7 +106,13 @@ class FlypyShortcodes(unittest.TestCase):
                             self.assertIn(char, candidates(full + '/'))
                             # The old code can still expose fallback candidates (e.g. 鸥).
                             self.assertNotEqual(candidates(old)[:1], [char])
-                    for char, code in (('试', 'uiyg/'), ('围', 'wwkw/'), ('翻', 'fjp')):
+                    for short, full, code in FULL_CODE_HANDOFFS:
+                        with self.subTest(code=code):
+                            self.assertEqual(candidates(code[:3])[:1], [short])
+                            self.assertEqual(candidates(code)[:2], [full, short])
+                            self.assertNotEqual(candidates(code[:-1])[:1], [full])
+                    for char, code in (('试', 'uiyg/'), ('围', 'wwkw/'), ('翻', 'fjp'),
+                                       ('曲', 'qul'), ('唉', 'aiku/')):
                         with self.subTest(code=code):
                             self.assertEqual(candidates(code)[:1], [char])
                 finally:
