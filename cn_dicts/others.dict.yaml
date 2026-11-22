@@ -4567,3 +4567,31 @@ sort: by_weight
 # 2026-11-21 补充：口语与数码用语
 充会电	chong;wy;we;dy,es,wy;ik;yu;bp;yc;we; hui;ry;rs;ry;ep;oi;jb;wf;rv; dian;ov,yv;lv;ag,og;ee,ve;lu;oa;jn;av;	0
 软解	ruan;iq;ir;iq;te;ko;ye;lq;ir; jie;dn;dn;jn;gb;nq;xq;qe;en;	0
+# 2026-11-22 新增：知乎热榜热词（影视与人物/饮食品牌/常用与网络用语，来自 zhihu_missing_2026-11-22 分词缺失词）
+# 影视与人物
+卞赫俊	bian;wb;dx;dx;ih;yy;zy;yh;wb; he;ii;td;ii;gf,gi;gc;gc;fo;ti; jun;rw;rw;rj,rw;xj;oe;jh;wc;rw;	0
+京烁	jing;wx;wx;wx;if;yf;gy;yi;wx; shuo;hl;hl;hl,hy;tf;fd;cy;oq;hl;	0
+周晟安	zhou;kk;kk;kj,kk;oo,uo;br;md;mf;pk; sheng;oi;oi;oi;vh;as;oa;jd;og; an;bn;bn;bn;iy;jv;wb;pv;gn;	0
+宋知节	song;bm;bm;bm;iw;jd,xd;we;ps;gl; zhi;uk;uk;uk,ku;eo;or;od;td;uk; jie;ce;ce;ce;zb;tl;lz;ab;ce;	0
+徐牧	xu;rm;ih;xy;hf;hd;wx;tw;rx; mu;nw;nw;nw;bj;hk;qh;tr;nw;	0
+时穗	shi;oc;oc;oc;vk;ai;ok;jf;oc; sui;hx;hx;hh;un;hp;xh;tg;hx;	0
+智允	zhi;uo;uo;ov;ev;oa;oo;td;uo; yun;se;se;se;pk;iu;kp;cq;ve;	0
+白清枚	bai;po;po;pa,po;ss;ha;ub;rr;po; qing;do;do;dq;kl;eb;kv;ig;do; mei;mw;mw;mw;wj;dk;eh;st;lw;	0
+钱小卉	qian;jj;jj;jj;da;oj;zp;qg;jg; xiao;lb;ld;ad;pf;nc;yx;ih;vd; hui;uc;uc;cu,uc;sp,sz;jt;nl;fa;ua;	0
+陈默	chen;ed;ed;ed;bf;nd;ty;ba;ed; mo;lq;hq;hq;nb,nh;wk;pm;lf;hq;	0
+棍夫	gun;mb;mb;mk;wa;dp;ev;sj;lb; fu;er;an;ad,er;ee;qo;hf;fw;an;	0
+# 人物
+宋欣桥	song;bm;bm;bm;iw;jd,xd;we;ps;gl; xin;jq;jr;qj,jq;ue;ho;te;rq;jr; qiao;ml;ml;mq;wp;dl;ep;st;lq;	0
+邝兆雷	kuang;ge;ge;eg;rb;il;xt;yb;ge; zhao;ed;ed;ed,dd;uh,kh,kf,uf,ff;lo;pw;iq;ed; lei;yt;yt;yt;yw;mw;tq;fl;yt;	0
+# 饮食与品牌
+冰煮鲜羊	bing;du;du;du;fo;ie;wk;ui;du; zhu;lh;lh;hv;gn;jf;qc;ft;ue; xian;yy;ay;yy;qp;nq;wg;qg;ey; yang;bf;bl;da;fp;tq;gy;ud;ea;	0
+天边羊多	tian;ad;ad;ad;ue;mk;fm;gd;ad; bian;zl;zl;zl;uq;ys;su;lp;zl; yang;bf;bl;da;fp;tq;gy;ud;ea; duo;xx;xx;xx;ff;ni;ll;qq;xx;	0
+# 常用与网络用语
+阴界	yin;eo;eo;eo;bl;nb;tv;be;eo; jie;tj;tl;tj;wp;wl;qp;lw;tj;	0
+冲稀	chong;dv;dv;dv;fp;il;wg;uk;dv; xi;hj;hj;hx;uy;hb;xr;tq;hj;	0
+刀乐	dao;vp;vp;gp,pg;ii,ru;sh;pd;vn;vp; le;px;pd;pd,px;uf;hd;by;qi;pd;	0
+垂肩	chui;qt;pa;pa;sg;hm;lg;tg;pa; jian;ho;ho;ho,oh;ql;hb,ib;mv;yn;ho;	0
+拼式	pin;fk;fk;fb;jp,jz;qt,qj;ul;ru;fk; shi;yg;yg;gy,yg;dh,ha,ap;im;pu;aa;gg;	0
+水盐平衡	shui;ln;ln;ad,uv;oo;ee;ks;ii;vn; yan;tm;tm;mb;gd,ga;gt;ga;fh;tm; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; heng;rd;ii;xd,xi;hj,hp;hn;pw;tq;rd;	0
+犯蠢	fan;qv;qv;qe;bt;ku;mz;qt;qv; chun;ii;fi;ii;uf;qi;ac;dw;ii;	0
+错选	cuo;jo;jo;jx;dv;oa;zo;qa;jo; xuan;ze;ze;zx;bq;yu;qu;tf;ze;	0
