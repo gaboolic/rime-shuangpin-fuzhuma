@@ -35,6 +35,12 @@ __include: moqi.yaml:/opencc_config # 拆分 英汉互译 火星文
 __include: moqi.yaml:/punctuator # 标点
 __include: moqi.yaml:/guide # 引导前缀配置
 
+recognizer:
+  __include: moqi.yaml:/guide/recognizer
+  patterns:
+    __include: moqi.yaml:/guide/recognizer/patterns
+    add_user_dict: "^ac[A-Za-z;]*$" # 微软双拼用分号表示 ing
+
 speller:
   max_code_length: 5
   # table_translator翻译器，支持自动上屏。例如 “zmhu”可以自动上屏“怎么回事”
@@ -58,7 +64,7 @@ __include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
 translator:
   dictionary: moqi_wan.extended
   initial_quality: 10000
-  prism: moqi_wan_ms
+  prism: moqi_wan_ms_wb # 与 user_dict_set 和 add_user_dict 共用
   enable_completion: false
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
   ##  改为 1 则是只显示单字的输入码，依此类推。
