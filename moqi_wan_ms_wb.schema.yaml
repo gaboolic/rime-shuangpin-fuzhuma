@@ -80,15 +80,16 @@ aux_patch:
     __include: moqi_speller.yaml:/common_aux
 
 __patch:
-  recognizer/patterns/radical_flypy: "^az[a-z;]*'?$"
-  radical_flypy/prism: radical_ms
-  radical_flypy/enable_user_dict: false # 不读取共用码表对应的小鹤用户编码
-  add_user_dict/dictionary: moqi_wan.extended
-  user_dict_set/dictionary: moqi_wan.extended
-  user_dict_set/prism: moqi_wan_ms_wb
-  add_user_dict/prism: moqi_wan_ms_wb
-  speller/algebra/+:
-    __include: aux_patch
+  - recognizer/patterns/radical_flypy: "^az[a-z;]*'?$"
+    radical_flypy/prism: radical_ms
+    radical_flypy/enable_user_dict: false # 不读取共用码表对应的小鹤用户编码
+    add_user_dict/dictionary: moqi_wan.extended
+    user_dict_set/dictionary: moqi_wan.extended
+    user_dict_set/prism: moqi_wan_ms_wb
+    add_user_dict/prism: moqi_wan_ms_wb
+    speller/algebra/+:
+      __include: aux_patch
+  - moqi_wan_ms_wb.custom:/patch?
 
 
 # 快捷键
