@@ -31,7 +31,7 @@
 摽	bnf
 泊	bod
 卑	bwp
-曹	ccc
+曹	cca
 嶒	cge
 苍	chc
 瓷	cid
@@ -44,7 +44,7 @@
 儋	djr
 疔	dkb
 簟	dmv
-鲷	dny
+鲷	dna
 惰	dox
 迭	dpz
 恫	dsx
@@ -58,7 +58,7 @@
 冈	ghk
 玕	gjw
 官	grb
-骨	gug
+骨	gul
 簋	gvv
 孩	hdz
 盒	her
@@ -69,7 +69,7 @@
 擐	hrf
 纮	hss
 祜	hup
-徽	hvr
+徽	hvi
 浑	hyd
 厚	hzi
 叉	iay
@@ -82,7 +82,7 @@
 圌	ivk
 近	jbz
 及	jip
-奖	jll
+奖	jld
 检	jmm
 嚼	jnk
 揭	jpf
@@ -111,7 +111,6 @@
 鹭	luz
 檑	lwm
 娄	lzm
-嘛	mak
 檬	mgm
 密	mib
 万	moa
@@ -119,11 +118,10 @@
 哪	nek
 昵	nio
 嬢	nln
-袅	nnn
+袅	nnp
 弩	nun
-噢	ook
-鸥	ouq
-贫	pbf
+鸥	ouk
+贫	pbb
 排	pdf
 抨	pgf
 膀	pho
@@ -131,13 +129,12 @@
 爿	pjv
 飘	pnx
 酺	puy
-期	qic
-鲭	qky
+鲭	qka
 骞	qmb
 佺	qrr
 穹	qsb
 忍	rfr
-瓤	rhy
+瓤	rhw
 鄀	roc
 冗	rsb
 嬬	run
@@ -147,7 +144,7 @@
 泗	sid
 蔌	suc
 碎	svu
-飕	szf
+飕	szj
 淘	tcd
 汰	tdd
 替	tif
@@ -167,13 +164,12 @@
 谪	vey
 砧	vfu
 吱	vik
-状	vll
-卓	vob
+卓	vol
 注	vud
 珠	vuw
 咒	vzk
 闻	wfm
-瓮	wgg
+瓮	wgb
 挝	wof
 五	wua
 辛	xbl
@@ -182,7 +178,7 @@
 嫌	xmn
 箫	xnv
 休	xqr
-凶	xsk
+凶	xsx
 削	xtx
 许	xuy
 荀	xyc
@@ -196,7 +192,7 @@
 唷	yok
 咏	ysk
 竽	yuv
-繇	yzv
+繇	yzp
 咂	zak
 兹	zib
 酂	zjn
