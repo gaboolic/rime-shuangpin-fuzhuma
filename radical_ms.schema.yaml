@@ -1,0 +1,44 @@
+# Rime schema
+# 为「部件组字」复用小鹤码表，只另建微软双拼棱镜。
+schema:
+  schema_id: radical_ms
+  name: "部件拆字 | 微软双拼"
+  version: "1.0"
+
+engine:
+  __include: radical_flypy.schema:/engine
+
+key_binder:
+  __include: default:/key_binder?
+
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyz;"
+  delimiter: " '"
+  algebra:
+    # 原码表每个部件占两键。先标出音节边界，换键时用大写占位以免重复转换。
+    # 采用主方案的微软双拼主码，与上游同版全拼码表核对（mirtlecn/rime-radical-pinyin b11ea01）。
+    - "xform/([a-z]{2})/$1'/"
+    - "xform/(^|')([bjlmpqxy])b(?=')/$1$2N/"    # in
+    - "xform/(^|')([abcdghiklmnpstuvyz])c(?=')/$1$2K/" # ao（零声母 ao 见下）
+    - "xform/(^|')ao(?=')/$1aK/"
+    - "xform/(^|')([bcdghiklmnpstuvwz])d(?=')/$1$2L/"  # ai
+    - "xform/(^|')ai(?=')/$1aL/"
+    - "xform/(^|')an(?=')/$1aJ/"
+    - "xform/(^|')en(?=')/$1eF/"
+    - "xform/(^|')([bdjlmnpqtxy])k(?=')/$1$2;/" # ing
+    - "xform/(^|')([ghikuv])k(?=')/$1$2Y/"      # uai
+    - "xform/(^|')([ghijklnquvx])l(?=')/$1$2D/" # iang/uang
+    - "xform/(^|')([bdjlmnpqtx])n(?=')/$1$2C/"  # iao
+    - "xform/(^|')([bdjlmnpqtx])p(?=')/$1$2X/"  # ie
+    - "xform/(^|')([ln])v(?=')/$1$2Y/"          # ü
+    - "xform/(^|')([bfhlmnpuvwz])w(?=')/$1$2Z/"  # ei
+    - "xform/(^|')([ghijkqruvx])x(?=')/$1$2W/"   # ia/ua
+    - "xform/(^|')([cdghijklnqrstuvxyz])y(?=')/$1$2P/"  # un
+    - "xform/(^|')([dfghiklmnprstuvyz])z(?=')/$1$2B/"  # ou
+    - xlit/BCDFJKLNPWXYZ/bcdfjklnpwxyz/
+    - "xform/'//"
+
+translator:
+  dictionary: radical_flypy
+  prism: radical_ms
+  enable_user_dict: false
