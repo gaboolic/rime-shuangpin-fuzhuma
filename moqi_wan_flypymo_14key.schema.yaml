@@ -1,0 +1,104 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: moqi_wan_flypymo_14key
+  name: 墨奇+小鹤双拼·十四键
+  version: "1.0.0"
+  author:
+    - gaboolic
+  description: |
+    墨奇辅助码 + 小鹤双拼，大词库十四键版。
+    QW ER TY UI OP / AS DF GH JK L / ZX CV BN M
+
+__include: moqi.yaml:/switches_engine
+__include: moqi.yaml:/opencc_config
+__include: moqi.yaml:/punctuator
+__include: moqi.yaml:/big_char_and_user_dict
+
+# 字母前缀（例如 ab、ac）与折叠后的双拼重码，不能抢占正常拼写。
+recognizer:
+  patterns:
+    punct: '^/([0-9]|10|[A-Za-z]+)$'
+
+speller:
+  auto_select: false
+  alphabet: "qetuoadgjlzcbm`[/"
+  initials: qetuoadgjlzcbm
+  delimiter: " '"
+  algebra:
+    __include: moqi_speller.yaml:/flypy_speller
+    __append:
+      __include: moqi_speller.yaml:/moqi_aux
+      __append:
+        __include: moqi_speller.yaml:/common_aux
+        __append:
+          # 在生成双拼和辅助码组合后统一折叠；不改动共享词库中的原始码。
+          - xlit/qwertyuiopasdfghjklzxcvbnm/qqeettuuooaaddggjjlzzccbbm/
+
+translator:
+  dictionary: moqi_wan.extended
+  prism: moqi_wan_flypymo_14key
+  initial_quality: 10000
+  enable_completion: false
+  enable_user_dict: false
+  spelling_hints: 10
+  comment_format: "{comment}"
+  contextual_suggestions: true
+  max_sentences: 3
+  max_homophones: 4
+  max_homographs: 2
+
+# 备注仍显示原始墨奇码，输入时按相应合键。
+pro_comment_format:
+  fuzhu_code: true
+  candidate_length: 1
+  fuzhu_type: moqi
+  corrector: true
+  corrector_type: "{comment}"
+
+aux_lookup_filter:
+  fold_from: qwertyuiopasdfghjklzxcvbnm
+  fold_to: qqeettuuooaaddggjjlzzccbbm
+
+key_binder:
+  import_preset: default
+
+grammar:
+  __include: moqi:/grammar
+
+__patch:
+  - user_dict_set/prism: moqi_wan_flypymo_14key
+    add_user_dict/prism: moqi_wan_flypymo_14key
+    # 26 键的字母引导、固定简码表和简码显示不适用于折叠输入。
+    engine/processors:
+      - ascii_composer
+      - recognizer
+      - key_binder
+      - speller
+      - punctuator
+      - selector
+      - navigator
+      - express_editor
+    engine/segmentors:
+      - ascii_segmentor
+      - matcher
+      - abc_segmentor
+      - punct_segmentor
+      - fallback_segmentor
+    engine/translators:
+      - punct_translator
+      - script_translator
+      - script_translator@user_dict_set
+    engine/filters:
+      - lua_filter@*pro_comment_format
+      - lua_filter@*aux_lookup_filter
+      - lua_filter@*is_in_user_dict
+      - simplifier@emoji
+      - simplifier@chaifen
+      - simplifier@chaifen_all
+      - simplifier@chinese_english
+      - simplifier@traditionalize
+      - simplifier@mars
+      - uniquifier
+  - moqi_wan_flypymo_14key.custom:/patch?
