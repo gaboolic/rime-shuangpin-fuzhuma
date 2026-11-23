@@ -69,10 +69,10 @@ local function add_aux_code(aux_table, ch, code)
     codes[#codes + 1] = code
 end
 
-local function load_dict_aux(aux_table, path, aux_index)
+local function load_dict_aux(aux_table, path, aux_index, fold)
     local file = io.open(path, "r")
     if not file then
-        return
+        return false
     end
 
     local in_header = false
@@ -85,29 +85,38 @@ local function load_dict_aux(aux_table, path, aux_index)
             local ch, code = line:match("^([^\t]+)\t([^\t]+)")
             if ch and code then
                 local fields = split_fields(code)
-                add_aux_code(aux_table, ch, fields[aux_index])
+                local aux = fields[aux_index]
+                if aux and fold then
+                    aux = aux:gsub("[a-z]", fold)
+                end
+                add_aux_code(aux_table, ch, aux)
             end
         end
     end
 
     file:close()
+    return true
 end
 
 local function load_aux_table(env)
     local aux_type = env.aux_type or "moqi"
+    local cache_key = env.aux_cache_key or aux_type
     M.aux_tables = M.aux_tables or {}
-    if M.aux_tables[aux_type] then
-        return M.aux_tables[aux_type]
+    if M.aux_tables[cache_key] then
+        return M.aux_tables[cache_key]
     end
 
     local aux_index = AUX_INDEX[aux_type] or AUX_INDEX.moqi
     local aux_table = {}
     local user_dir = rime_api.get_user_data_dir()
+    local shared_dir = env.aux_fold and rime_api.get_shared_data_dir and rime_api.get_shared_data_dir()
     for _, dict_file in ipairs(DICT_FILES) do
-        load_dict_aux(aux_table, user_dir .. dict_file, aux_index)
+        if not load_dict_aux(aux_table, user_dir .. dict_file, aux_index, env.aux_fold) and shared_dir then
+            load_dict_aux(aux_table, shared_dir .. dict_file, aux_index, env.aux_fold)
+        end
     end
 
-    M.aux_tables[aux_type] = aux_table
+    M.aux_tables[cache_key] = aux_table
     return aux_table
 end
 
@@ -265,6 +274,17 @@ function M.init(env)
     env.aux_type = config:get_string("aux_lookup_filter/aux_type")
         or config:get_string("pro_comment_format/fuzhu_type")
         or "moqi"
+
+    -- 合键方案匹配折叠后的字典码。缓存与使用原始墨奇码的方案隔离。
+    local fold_from = config:get_string("aux_lookup_filter/fold_from")
+    local fold_to = config:get_string("aux_lookup_filter/fold_to")
+    if fold_from and fold_to and #fold_from == #fold_to and #fold_from > 0 then
+        env.aux_fold = {}
+        for i = 1, #fold_from do
+            env.aux_fold[fold_from:sub(i, i)] = fold_to:sub(i, i)
+        end
+        env.aux_cache_key = table.concat({env.aux_type, fold_from, fold_to}, ":")
+    end
 
     env.notifier = env.engine.context.select_notifier:connect(function(ctx)
         if not env.enabled then

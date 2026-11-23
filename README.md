@@ -62,6 +62,18 @@
 - ℞ 安装或更新全部文件 执行`bash rime-install gaboolic/rime-shuangpin-fuzhuma:recipes/full`
 - ℞ 安装或更新所有的词库文件 执行`bash rime-install gaboolic/rime-shuangpin-fuzhuma:recipes/all_dicts`
 
+### 小鹤双拼·十四键（可选）
+
+在支持对应布局的前端选择 `moqi_wan_flypymo_14key`；原来的 `moqi_wan_flypymo` 仍是默认的 26 键方案。「完整安装」配方和默认方案列表均已包含十四键；若自定义过方案列表，请加入 `moqi_wan_flypymo_14key` 后重新部署。
+
+| 合键布局 | 发给 Rime 的 ASCII 键码 |
+| --- | --- |
+| `QW ER TY UI OP` | `q e t u o` |
+| `AS DF GH JK L` | `a d g j l` |
+| `ZX CV BN M` | `z c b m` |
+
+按小鹤双拼的原码所在的键输入，例如「你好」的 `nihc` 按 `BN UI GH CV`，即 `bugc`。支持 `'` 分音节、`/` 符号引导。原有墨奇辅助码规则按同一张表折叠：双拼后可追加一位形码，或追加两位形码再按 `/`；也可用反引号 `` ` `` 后接一至两位形码筛选当前候选。提示仍显示原始墨奇辅助码。合键会合并音码和形码候选，不能区分同一键上的两个字母（例如 `h` 和 `g`）；需要原码精度时请用 26 键方案。十四键不沿用 26 键专用的固定简码、首字母引导反查及其他字母触发工具，以免抢占正常双拼。
+
 ### 输入效果
 
 - 整句输入插入字辅：
