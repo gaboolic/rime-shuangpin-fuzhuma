@@ -31,6 +31,7 @@ files = [
          'moqi_wan_flypy.schema.yaml',
          'moqi_wan_flypyhu.schema.yaml',
          'moqi_wan_flypymo.schema.yaml',
+         'moqi_wan_flypymo_14key.schema.yaml',
          'moqi_wan_jdh.schema.yaml',
          'moqi_wan_ms_wb.schema.yaml',
          'moqi_wan_quanpin_moqi.schema.yaml',
