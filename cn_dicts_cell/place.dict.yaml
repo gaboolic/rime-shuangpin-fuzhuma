@@ -6403,3 +6403,34 @@ T2航站楼	T2;;;;;;;;; hang;;;;;;;;; zhan;vj;vj;vk;ti;hn;io;te;vj; lou;lv;lk;lv
 统万城	tong;sy;se;si;ek;vu;ip;xy;se; wan;av;ap;ag,ap;du;ms;fp;dn;ap; cheng;ti;ti;ti;gh;gs;ga;fd;tg;	20
 锦里	jin;jj;jj;jb,jj;dy;ob;zr;qr;jj; li;tt;la;aa,tt;vg;wg;dl;jf;aa;	183
 易水湖	yi;ow;ow;ow;vi,vu;ah;oe;jq;ow; shui;ln;ln;ad,uv;oo;ee;ks;ii;vn; hu;do;do;dh;kl;eb;kv;id;do;	2
+
+# 2026-11-25 新增：MNBVC 知乎语料地名/机构名（29 词）
+柏林洪堡	bo;mb;mb;mb;ws;da;eu;sr;lb; lin;mm;mm;mm;ww;dd;ee;ss;ll; hong;dg;db;dg;kf;ec;kh;ia;db; bao;rt;rt;tb;xg;og;jg;wk;rt;	0
+凯斯西储	kai;uj;ej;jj,jq;pi;un;vo;mn;sj; si;cj;qj;jq,qj;vp;tl;zt;ad;qj; xi;ak,wk;aa;aa;pp;mw;vx;sg;aa; chu;ro;ro;rv;xv;oa;jo;wy;ro;	0
+荣昌校区	rong;cm;cm;cm,mb;zw;td,xd;le;ap;cl; chang;oo;oo;oo;vv;aa;oo;jj;oo; xiao;mf;mx;mj;wy;dk;eb;su;lx; qu;kx;kx;ki;dr;sk;nb;aq;kx;	0
+珠峰南坡	zhu;ww;wv;wv;ae;md;na;gr;wv; feng;uf;ef;uf;pa;uj;va;mt;sf; nan;ug;ug,ag;ua,uy;ss,sp;jj;ng;fm;uu; po;tp;ty;tp;gl;ge;gr;fh;ty;	0
+珠峰峰顶	zhu;ww;wv;wv;ae;md;na;gr;wv; feng;uf;ef;uf;pa;uj;va;mt;sf; feng;uf;ef;uf;pa;uj;va;mt;sf; ding;dy;dr;dy,yd;jm;mo;aw;sd;dr;	0
+江村大墓	jiang;dg;dg;dg;kp;em;ku;ia;dg; cun;mc;mc;mc;wk;di;ek;sf;lc; da;ar;un;ad;xx;kk;md;dd;an; mu;ct;ct;tm,ct;zg;tg;lg;aj;ct;	0
+昆布冰川	kun;ob;ob;ob;va;ap;ov;jx;ob; bu;uj;uj;ju,uj;sy,dy;kb;nr;dm;aj; bing;du;du;du;fo;ie;wk;ui;du; chuan;pl;pl;pa;up;ll;oc;kt;pa;	0
+郭店楚墓	guo;we;we;ex;ib;yl;gt;yb;we; dian;gv;gk;gv;ro;ir;xd;yh;gk; chu;mz;mr;mp,pl;we;do;et;ss;lr; mu;ct;ct;tm,ct;zg;tg;lg;aj;ct;	0
+波托西	bo;dp;dy;dp;kl;ee;kr;ih;dy; tuo;fq;fq;fq,ft;ja,jr;qp;ur;rt;fq; xi;ak,wk;aa;aa;pp;mw;vx;sg;aa;	0
+帕加马	pa;jb;jb;jb;ys;la;ru;mh;jb; jia;lk;lk;lk,kl;uo;kr;sd;lk;lk; ma;va;va;aa,vh;zz;nm;nm;cn;va;	0
+加那利	jia;lk;lk;lk,kl;uo;kr;sd;lk;lk; na;ve;ve;el;rb;sl;at;vf;ve; li;hd;hd;hd,dh;ui;hn;xp;tj;hd;	0
+昔兰尼加	xi;co;co;co,oc;zv;ta;lo;aj;co; lan;bs;bs;bs,qe;fu;tm;ht;uf;es; ni;ub;ub;ub;qa;sp;cv;nx;ub; jia;lk;lk;lk,kl;uo;kr;sd;lk;lk;	0
+伊苏斯	yi;ry,rp;ry;ry;xu;ok;jt;wv;ry; su;cb;cb;cb;zf;tc;lh;al;cb; si;cj;qj;jq,qj;vp;tl;zt;ad;qj;	0
+西什库	xi;ak,wk;aa;aa;pp;mw;vx;sg;aa; shi;ru;ru;ru;xs;oj;jn;wf;ru; ku;gi;gi;gi;rt;iq;xy;yl;gi;	0
+天井关	tian;ad;ad;ad;ue;mk;fm;gd;ad; jing;ac,el;al;aa,ep;up;tt;qj;fj;aa; guan;bt;bt;bt,qd;fx;tk;hm;ud;et;	0
+汉普敦	han;dy;dy;dy;kl;ee;kr;ic;dy; pu;bo;bo;ob,bo;fv;ta;ho;uo;eo; dun;ww;ww;wx;ij;yk;gh;yb;ww;	0
+羊头峪	yang;bf;bl;da;fp;tq;gy;ud;ea; tou;dd;dd;dd;hx;yk,xk;wm;ud;dd; yu;ug;ek;ug;po;ur;vh;mw;sk;	0
+虎溪	hu;hj;hj;hj;pi;yn,yu;zh;ha;aj; xi;dd;dd;dx;kx;ek;km;ie;dd;	0
+索科维亚	suo;ux;ux;sb,us;sf;jf;ni;fp;ux; ke;hd;hu;hd;uh,us;hj;xj;tu;hu; wei;sv;sf;sv;ea;vg;iu;xw;sa; ya;ay;ay;ay;dd;mc;fc;go;ay;	0
+鲁塞尼亚	lu;yo;ao;yo;qv;na;wo;qg;eo; sai;bt;bt;tb,bt;ig;jg;wg;pf;gt; ni;ub;ub;ub;qa;sp;cv;nx;ub; ya;ay;ay;ay;dd;mc;fc;go;ay;	0
+巴托尼亚	ba;sl;sl,vv;ag,kg,vg;tt;au;mb;cn;vv; tuo;fq;fq;fq,ft;ja,jr;qp;ur;rt;fq; ni;ub;ub;ub;qa;sp;cv;nx;ub; ya;ay;ay;ay;dd;mc;fc;go;ay;	0
+马西亚夫	ma;va;va;aa,vh;zz;nm;nm;cn;va; xi;ak,wk;aa;aa;pp;mw;vx;sg;aa; ya;ay;ay;ay;dd;mc;fc;go;ay; fu;er;an;ad,er;ee;qo;hf;fw;an;	0
+赛博特恩	sai;bb;br;bb;im;jo;wo;pf;gr; bo;uc;uc;uc,uf;sk;ji;nk;fg;uc; te;nc;nc;ns;bk;hi;qk;tr;nc; en;yx;kx;xy;nn;wp;rh;ld;wx;	0
+阿伦黛尔	a;ek;ek;ek;bj,bo;nr;tz;bs;ek; lun;rl;rb;rl;ea,xa;op;jj;ww;rb; dai;rh;rh;hd;xn;of;jp;wa;re; er;dx;dx;dx,xd;gf;nf;xy;qi;ex;	0
+努曼诺尔	nu;nl;nl;ln;yu;vs;bs;vc;nl; man;oy;oy;oy;vl;ae;or;jl;oy; nuo;yk;yk;yr;co;ir;sd;ya;yk; er;dx;dx;dx,xd;gf;nf;xy;qi;ex;	0
+洛斯里克	luo;dk;dk;dg;ko;er;ks;it;dk; si;cj;qj;jq,qj;vp;tl;zt;ad;qj; li;tt;la;aa,tt;vg;wg;dl;jf;aa; ke;ux,ge;ue;eg,ux;sk;ju;cp;dq;ue;	0
+马卡斯城	ma;va;va;aa,vh;zz;nm;nm;cn;va; ka;ub;ub;bx,ub;ph;yy;yy;hh;ub; si;cj;qj;jq,qj;vp;tl;zt;ad;qj; cheng;ti;ti;ti;gh;gs;ga;fd;tg;	0
+迷雾山脉	mi;zm;zm;zm;lq;yd;pu;op;zm; wu;yl;yl;yw;yu;ms;ts;ft;yl; shan;kl;lk;aa;pp;uu;vs;mm;aa; mai;oy;oy;oy;lh,lo;be;vk;ey;oy;	0
+宾州州立	bin;bb;bb;bb;if;jc;wh;pr;gb; zhou;dl;dl;id,da;hp;il;oo;yt;da; zhou;dl;dl;id,da;hp;il;oo;yt;da; li;wb;wa;da;bb;yt;il;uu;wa;	0
