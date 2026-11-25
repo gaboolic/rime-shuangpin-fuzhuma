@@ -4718,3 +4718,372 @@ sort: by_weight
 胖友	pang;ob;ob;ob;lp,ls;bq;vu;eu;ob; you;uy;uy;yu,uy;dl,sl;ke;nr;dc;ay;	0
 麻溜地	ma;gm;gm;gl;dd,rw;id,ic;zm;ys;gl; liu;dt;dt;dl;kw;ew;kq;iq;dt; de;ty;ty;ty;gr,ga;gd;ge;f,fb;ty;	0
 刊文	kan;gd;gd;dg;si;mn;ep;fj;gd; wen;wx;wx;wi,dd;jj;yk;vw;yy;wx;	0
+
+# 2026-11-24 新增：知乎热榜热词（时政与人物/科技与交通/金融/体育/影视/地名/社会与教育/常用与网络用语，来自 zhihu_missing_2026-11-24 分词缺失词）
+# 时政与人物
+麻某	ma;gm;gm;gl;dd,rw;id,ic;zm;ys;gl; mou;gm;gm;gm,mg;vw;td;ze;af;gl;	0
+闻会军	wen;me;me;em,me;ou;lj;aq;ub;me; hui;ry;rs;ry;ep;oi;jb;wf;rv; jun;bi;bi;bi;it;bq;wy;pl;gi;	0
+# 科技与交通
+供风	gong;rg;rb;rg;xf;oc;jh;wa;rb; feng;jx;jx;ji;iy;hk;ob;mq;jx;	0
+# 金融
+收高	shou;jw;vw;wj,jw;rj;vk;ih;nh;vw; gao;wk;wk;wk;io;yr;gg;ym;wk;	0
+# 体育
+罗威	luo;sx;sx;sx;af;wi;yl;lq;sx; wei;wn;xn,ad,wn;gn,ng,wn;rh;iv;nb;dg;ng;	0
+万项	wan;av;ap;ag,ap;du;ms;fp;dn;ap; xiang;gy;gr;gy,yg;pm;mo;uw;ad;gr;	0
+克林根	ke;ux,ge;ue;eg,ux;sk;ju;cp;dq;ue; lin;mm;mm;mm;ww;dd;ee;ss;ll; gen;mg;mg;mg;wh;dv;ei;sv;lh;	0
+通卡拉	tong;zy;zy;zy;pq;yb;ku;ce;zy; ka;ub;ub;bx,ub;ph;yy;yy;hh;ub; la;fl;fl;fl;jb;qt;ui;ru;fl;	0
+保三争二	bao;rm;rm;rd;xw;od;je;wk;rl; san;ae;ae;aa;uu;mm;ts;dg;ae; zheng;dy;dl;dy;gp;nd;xb;qv;ev; er;aa;aa;aa;uu;mm;me;fg;aa;	0
+# 影视
+纳摩	na;sn;sn;sn;ee;vb;ij;xm;sn; mo;gu;gu;mu,um;do,dp,rp;iq;zu;ys;gu;	0
+# 地名
+古墟	gu;uk;uk;uk;so;jr;cg;dg;uk; xu;ty;ty;tx;gd;gc,gm;gc;fh;ty;	0
+藏寨	zang;ci;ci;cg,ci;zh;ts;lq;ad;cg; zhai;bm;bm;mb,bm;if;jd;we;pf;gx;	0
+# 社会与教育
+托班	tuo;fq;fq;fq,ft;ja,jr;qp;ur;rt;fq; ban;wl;ww;dw,ww;au,aa;mg;nn;gy;ww;	0
+# 常用与网络用语
+候着	hou;ru;ru;ru;xx;ok;jo;wh;rd; zhe;yo;yo;yo;fs;tu;gq;ud;em;	0
+吉列豆蒸	ji;tk;uk;ku,uk;go;gr;gd;fk;uk; lie;dd;dd;dd;fi;mn;gp;gq;dd; dou;ab;aa;aa,aq;dd;mt;zd;gk;aa; zheng;ch;ch;hv,ch;zn;tf;lc;ab;ce;	0
+# 医学与生物
+散瞳药	san;cw;cw;wo;zj;tk;lh;ae;cw; tong;ol;ol;ot;sg;bg;qd;hu;ml; yao;cu;cu;cy;zh;ti;li;ax;cu;	0
+肠脑轴	chang;op;op;oy;lu;bh;ve;en;op; nao;ox;ok;ox;lp,ly;bk;vm;ey;ox; zhou;iy;iy;iy;tp;kw;yd;lm;iy;	0
+羊膜卵	yang;bf;bl;da;fp;tq;gy;ud;ea; mo;od;od;om;lx;bk;vm;ea;od; luan;pd;pd;pd,md;uh;hi;bl;qy;pd;	0
+硫磺皂	liu;ui;uv;ui;tr;mu;mo;dy;uv; huang;ub;ub;uh;tf;mc;mn;da;ub; zao;bq;bq;bq;sa;hp;ur;ra;bq;	0
+盾皮鱼	dun;io;po;po;us;hu;xq;rf;pm; pi;py;vy;ad,ay,vd,vy,ya;rl;de;rp;hc;vy; yu;da;da;da;qq;nm;wv;qg;ea;	0
+真骨鱼	zhen;ub;ub;uj;sf;jc;nh;fh;ub; gu;go;lo;go,ob,og;cc;bb;fg;me;ao; yu;da;da;da;qq;nm;wv;qg;ea;	0
+刃齿虎	ren;dd;dd;dd;ih,rh;si;pi;vy;dd; chi;vr;vk;vk;rp;yo;lc;hw;va; hu;hj;hj;hj;pi;yn,yu;zh;ha;aj;	0
+蚊母树	wen;iw;iw;iw;fj;lk;cv;jy;ix; mu;md;vd;ad,vd;rh;wi;km;xg;vd; shu;mc;mc;md;wk;di;ek;sc;lc;	0
+鸡枞菌	ji;yn;yn;ny,yn;lc;em;rx;cq;yn; zong;mr;mr;mc;we;do,xo;ej;sw;lr; jun;ch;ch;ch,cq;zw,zf;td;lx;al;ch;	0
+升白片	sheng;pc;pc;pc;uz,up;ht;tl;ta;pa; bai;po;po;pa,po;ss;ha;ub;rr;po; pian;pv;pv;pa,pv;ii,ur;ll,ln;ap;th;pv;	0
+止血棉	zhi;lb,la,ba;la;aa;rr;ym;si;hh;ua; xue;pm;pm;pa,pm;ud,ua;ht;ta;tl;pm; mian;mj;mj;mb,mj;wy;db;er;sr;lj;	0
+小耳症	xiao;lb;ld;ad;pf;nc;yx;ih;vd; er;ol;aa;aa;dd,du;sj;qe;bg;aa; zheng;bv;bv;bv;mr;km;as;ug;bv;	0
+髋膝踝	kuan;gj;ge;gk;ck,cr;bu;fe;me;gj; xi;ou;ou;oq,ou;lo,lf;be;vk;es;ou; huai;zg;zg;zg;gw;rd;pe;kh;zg;	0
+邻面龋	lin;re;re;el;eb;ol;jt;wy;re; mian;ao;aa;aa;dd,du;ml;bm;dm;aa; qu;vy;vy;iy;rh;yb,xl;lv;hw;vy;	0
+耵聍栓	ding;ed;ed;ed;dj;sn;qa;bs;ed; ning;ed;ed;en;dj;sn;qa;bp;ed; shuan;mw;mw;mq;wa;dg;en;sw;lw;	0
+捕虫堇	bu;ff;ff;ff;jh;qb;un;rg;ff; chong;vd;vd;ad,vd;ff;li;cc;jh;vd; jin;cw;na;ca;va,vg,vd;tm;la;ak;ca;	0
+蔗蟾蜍	zhe;ch;ch;cd,ch,cu;zn;tf;lc;ay;ce; chan;ik;ik;iv,iy;fo,fc;lr;cs;jq;ik; chu;im;ih;iy;ff;ld;cx;jw;ix;	0
+厌氧性	yan;iq;iq;iq,qi;rb,rh;mk;xm;dd;iq; yang;qy;qy;qy;sp;oq;vg;rn;qy; xing;xu;xu;xu;ng,na;pm;hl;nt;xu;	0
+
+# 科技与数码
+空键程	kong;bg;bg;xg,bg;ip;jm;eu;pw;gg; jian;jy;jz;jj;dq;oq;zu;qv;jj; cheng;hw;hw;hi;ua;hg;xn;tk;hw;	0
+隔电墙	ge;eg;el;eg;bp;nb;tn;bg;ea; dian;ov,yv;lv;ag,og;ee,ve;lu;oa;jn;av; qiang;tk;tk;th;go,gd;gw;gd;ff;tk;	0
+翼尖涡	yi;xg;xb;yg,yy;df;sc;zh;nl;xb; jian;xd;xd;xd;px;fk;ym;id;ad; wo;dn;dn;dg,dn;ke;eb;kj;ik;dn;	0
+馈源舱	kui;ub;ur;ug;gm;no;qo;qn;ur; yuan;dx;dx;dy;kf;ef;ky;id;dx; cang;vv;vv;vc;tt;hu;iz;te;vv;	0
+抗混叠	kang;fj;fj;fk;ji;qn;uo;ry;fj; hun;db;db;dk;ka;ep;kv;ij;db; die;yq;yq;qr,qu,yy;lu;em;rf;cc;yq;	0
+恒压源	heng;xd;xa;xg;nd;pm;hf;ng;xd; ya;id;id;id,it;rh;mi,xi;xi;df;id; yuan;dx;dx;dy;kf;ef;ky;id;dx;	0
+波阵面	bo;dp;dy;dp;kl;ee;kr;ih;dy; zhen;ei;ei;ei;bt;nq;ty;bl;ei; mian;ao;aa;aa;dd,du;ml;bm;dm;aa;	0
+紫电改	zi;vx;vx;sc;rf;yf;si;hx;vx; dian;ov,yv;lv;ag,og;ee,ve;lu;oa;jn;av; gai;jw;jw;wj,jw;tj;sk;vh;nt;jw;	0
+键线式	jian;jy;jz;jj;dq;oq;zu;qv;jj; xian;sj;sj;sj;ea;vj;ip;xg;sg; shi;yg;yg;gy,yg;dh,ha,ap;im;pu;aa;gg;	0
+指星笔	zhi;fo;fo;fv;jv;qa;uo;rx;fo; xing;ou;ou;ou;vg,va;am;ol;jt;ou; bi;vm;vm;vm;nr,na;hu;rv;tt;vm;	0
+诱蚊灯	you;yn;yn;yx;cu;is;sv;yt;yn; wen;iw;iw;iw;fj;lk;cv;jy;ix; deng;hd;hd;hd;tj;fn;ca;os;hd;	0
+助眠仪	zhu;ql;ql;lq,ql;pu;bs;fs;eg;ql; mian;om;om;om;sr;bp;qd;hn;mm; yi;ry;ry;ry;xy,xh;ok,xk;jb;wy;ry;	0
+抗炫光	kang;fj;fj;fk;ji;qn;uo;ry;fj; xuan;hx;hy;hx;tp;fi;ci;oy;hs; guang;xe;xw;ea,xw;hk;fu;mg;iq;ee;	0
+集显版	ji;rm;rm;mv,vm;xw;od;ue;wy;rl; xian;oy;oy;oy;vd;ac;oc;jo;oy; ban;py;py;pf;ul;le,xe;ar;th;py;	0
+文青版	wen;wx;wx;wi,dd;jj;yk;vw;yy;wx; qing;fo;fo;of,fo;al;qb;av;ge;ao; ban;py;py;pf;ul;le,xe;ar;th;py;	0
+光线枪	guang;xe;xw;ea,xw;hk;fu;mg;iq;ee; xian;sj;sj;sj;ea;vj;ip;xg;sg; qiang;mv;mv;mc;wt;du;ez;sw;lv;	0
+拆弹器	chai;fi;fi;fi;jh;qy;ui;rr;fi; dan;gu;gl;gd;rs;nj;bn;xu;gd; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	0
+地平仪	di;ty;ty;ty;gr,ga;gd;ge;f,fb;ty; ping;au;au;aa,gb;ds,sf;mj;eh;gu;au; yi;ry;ry;ry;xy,xh;ok,xk;jb;wy;ry;	0
+声全息	sheng;tu;up;um;gp;gh;gc;fn;up; quan;rw;rw;rw;ea;og;jn;wg;rw; xi;zx;zx;xz,zx;sn;hp;oh;th;zx;	0
+列存表	lie;dd;dd;dd;fi;mn;gp;gq;dd; cun;uz;uz;uz,za;sa,da;kd;nh;dh;az; biao;fy;fy;fy;ah;qv;at;ge;ah;	0
+氟化氙	fu;qf;qf;qf;sp;on;vt;rn;qf; hua;rb;rb;rb;xa;op;jv;wx;rb; xian;qu;qe;qu;sp;ou;vv;rn;qs;	0
+基性岩	ji;ct;qt;tq,qt;vg;tg;zg;ad;qt; xing;xu;xu;xu;ng,na;pm;hl;nt;xu; yan;uu;eu;uu;pt;ur;vm;md;sk;	0
+直积态	zhi;uq;uq;aa,uq;sd,su;jm;nf;fh;ua; ji;hv;hb;hv;uf;hc;xh;tk;hb; tai;tx;tx;xt;xn;kp;mh;dy;tx;	0
+轻子数	qing;ij;ig;ig;tp;km;yu;lc;ig; zi;la;va;aa,vh;aa;nd;hi;bb;va; shu;mw;mw;wl;lj;fk;ph;ov;mw;	0
+高红移	gao;wk;wk;wk;io;yr;gg;ym;wk; hong;sg;sg;sg;ep;vm;iu;xa;sg; yi;hx;hx;hd;uf;hn;xl;tq;hx;	0
+电弱力	dian;ov,yv;lv;ag,og;ee,ve;lu;oa;jn;av; ruo;gg;gd;gd;rf;nm;bw;xu;gd; li;vp;vp;gp;uu;ks;sl;lt;vp;	0
+准稳态	zhun;dv;df;dv;fa;ig;wu;uw;da; wen;hx;hx;hj;un;hp;xh;tq;hx; tai;tx;tx;xt;xn;kp;mh;dy;tx;	0
+非定常	fei;ls;la;aa;pu,up;ly;rf;dj;aa; ding;bz;br;bp;ie;jo;wt;pg;gr; chang;xj;xj;jk,xd,dd;hy;fb;sr;ip;ej;	0
+测年法	ce;dd;dd;dz;ki;en;kp;im;dd; nian;pf;pl;ra,pa;es;oq;ev;rh;pa; fa;dq;ds;dq;kp;ei;kk;if;dv;	0
+黄经差	huang;cb;cb;ad,cb;zf;tc;nh;am;cb; jing;sj;sg;sg;ep;vm;iu;x,xc;sg; cha;yg;yg;yg;fp;tm;gu;ud;eg;	0
+肌源性	ji;oj;oj;oj;li;bn;vo;em;oj; yuan;dx;dx;dy;kf;ef;ky;id;dx; xing;xu;xu;xu;ng,na;pm;hl;nt;xu;	0
+核意面	he;mr;mr;mh;we,wh;do;ek;sy;lr; yi;lx;lx;xy,lx;bn,cn;yp;xh;uj;lx; mian;ao;aa;aa;dd,du;ml;bm;dm;aa;	0
+土卫七	tu;ua;ua;aa;gg;gg;gt;ff;ua; wei;ea;va,ea;ea,ga;bd,rd;sm;zf;bg;ea; qi;av;av;ag;aa;ju;rq;ag;av;	0
+坡印廷	po;tp;ty;tp;gl;ge;gr;fh;ty; yin;pe;pe;ey,pe;ub;hl;bz;qg;pe; ting;zw;zr;zr;sq,uq;ng;tu;tf;zr;	0
+
+# 学术与教育
+卡方值	ka;ub;ub;bx,ub;ph;yy;yy;hh;ub; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp; zhi;rq;rq;rv;xd,xu;om;jf;wf;rv;	0
+特值法	te;nc;nc;ns;bk;hi;qk;tr;nc; zhi;rq;rq;rv;xd,xu;om;jf;wf;rv; fa;dq;ds;dq;kp;ei;kk;if;dv;	0
+唯分论	wei;kv;kf;kv;oa;rg;du;kw;ka; fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; lun;yl;yb;yl;ca;ip;sj;yw;yb;	0
+教培课	jiao;lw;lw;wx;gj;jk;qh;ft;uw; pei;tk;tk;tk,tp;go;gr;gd;fu;tk; ke;yg;yg;yg;cw;id;se;yj;yg;	0
+清北班	qing;do;do;dq;kl;eb;kv;ig;do; bei;lb;lb;ap,bj;la;lp;av;ux;ab; ban;wl;ww;dw,ww;au,aa;mg;nn;gy;ww;	0
+联培生	lian;et;et;eg;dx;sk;qm;bu;ed; pei;tk;tk;tk,tp;go;gr;gd;fu;tk; sheng;pf;pf;na;eg;hm;ls;tg;pa;	0
+眼保操	yan;og;og;og;sh;bv;qi;hv;mh; bao;rm;rm;rd;xw;od;je;wk;rl; cao;fm;fm;fz;jw;qd;ue;rk;fl;	0
+启海话	qi;hk;hk;hk,kh;qo;hr,ir,xr;md;yn;hk; hai;dm;dm;dm;kh;ey;kk;it;dm; hua;yu;yk;yu;co;ir;sa;yt;yk;	0
+莆仙话	pu;cf;cf;cf;zh;tb;ln;ag;cf; xian;ru;re;ru;xp;ou;jv;wm;rs; hua;yu;yk;yu;co;ir;sa;yt;yk;	0
+舆服志	yu;jb;pb;ba,ib,jb;uf;hc;ph;wf;pb; fu;oy;oy;oy;ll;be;vr;eb;oy; zhi;tx;ux;ux,xu;gn;gp;gh;fn;ux;	0
+铜活字	tong;jk;jk;jt;do;or;zd;qm;jk; huo;du;dk;du;ko;er;ka;it;dk; zi;bz;bz;bz;ia;jd;wh;pb;gz;	0
+超忆症	chao;tk;tk;zv;go,qo;gr;pd;fh;tk; yi;xv;xv;xy;nr;pn;ha;nn;xy; zheng;bv;bv;bv;mr;km;as;ug;bv;	0
+坦培拉	tan;td;ta;td;gd;gm;gf;fj;td; pei;tk;tk;tk,tp;go;gr;gd;fu;tk; la;fl;fl;fl;jb;qt;ui;ru;fl;	0
+峄山碑	yi;uf;el;uf;pp;uq;vu;mc;sa; shan;kl;lk;aa;pp;uu;vs;mm;aa; bei;uu;uu;ub;ts;mj;mn;dr;uu;	0
+琉特琴	liu;wi;wv;wi;ar;mu;no;gy;wv; te;nc;nc;ns;bk;hi;qk;tr;nc; qin;wv;wv;wj;ar;mn;na;gg;wj;	0
+延留音	yan;zv;zv;zv;uq;nm,nv;tu;th;zv; liu;pt;pt;td,tl,lt;uw;hw;bq;qy;pt; yin;lo;lo;lo;cc,bv;ya;xy;uj;lo;	0
+兽亚纲	shou;bk;bk;ka,bk;fo;cr;hd;ul;ek; ya;ay;ay;ay;dd;mc;fc;go;ay; gang;sx;sx;sg;ey;vk;ib;xm;sx;	0
+溶度积	rong;dg;dk;dr;ko;er;kh;ip;dk; du;gy;gy;gy;rl;ie;xr;ya;gy; ji;hv;hb;hv;uf;hc;xh;tk;hb;	0
+色阶图	se;db;db;db;gt;nu;xm;qc;eb; jie;ej;el;ej;bp;nl;tp;bw;ej; tu;kd;kd;kd;nh;wy;rw;lt;wd;	0
+蟹工船	xie;di;di;ij;gf;ni;xc;qe;ei; gong;aa;aa;aa;pp;mm;ug;a,aa;aa; chuan;vk;vk;vk;to;hr;id;te;vk;	0
+
+# 金融与保险
+汇缴	hui;dk;dk;dk;kr;es;kn;ia;dk; jiao;sw;sw;sj,sw;ej;vk;ih;xr;sw;	0
+开空单	kai;ac;ac;ac;dz,dp,up;mt;fl;ga;aa; kong;bg;bg;xg,bg;ip;jm;eu;pw;gg; dan;bu;bl;ba,bd;fs;cj;hn;uj;ea;	0
+回售权	hui;kk;kk;kk;no;wr;rd;lk;wk; shou;rk;rk;kv,vk;xo;or;ud;wy;rk; quan;my;my;my;wl;de;er;sc;ly;	0
+领售权	ling;ry;rr;yl;em;oo;jw;wy;rr; shou;rk;rk;kv,vk;xo;or;ud;wy;rk; quan;my;my;my;wl;de;er;sc;ly;	0
+柴犬币	chai;vm;vm;mc;rw;yd;se;hx;vl; quan;dd;dd;dd,ad;bb,xh;ik;mq;dg;dd; bi;pj;pj;pj;uy;hb;tr;tm;pj;	0
+空逼多	kong;bg;bg;xg,bg;ip;jm;eu;pw;gg; bi;zt;zt;zf,zt;dq;yw;fu;gk;zt; duo;xx;xx;xx;ff;ni;ll;qq;xx;	0
+包邮税	bao;bs;bs;gs;ut;pu;nv;qn;pv; you;ye;ye;ey;vb;ll;dt;mb;ye; shui;hx;he;hd;uk;hu,xr;xp;tu;he;	0
+孕中险	yun;nz;nz;zn;ra;nd;vh;eb;nz; zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; xian;eq;ea;ea,eq;bd;nm;tf;bw;ea;	0
+备孕险	bei;wt;wt;wt;jw;hw;hq;tl;wt; yun;nz;nz;zn;ra;nd;vh;eb;nz; xian;eq;ea;ea,eq;bd;nm;tf;bw;ea;	0
+赢利性	ying;wb;wf;bk,wf;im,ih;yo;fi;yn;wf; li;hd;hd;hd,dh;ui;hn;xp;tj;hd; xing;xu;xu;xu;ng,na;pm;hl;nt;xu;	0
+
+# 游戏与动漫
+搓招	cuo;fg;fg;fi;jp;qm;uu;ru;fg; zhao;fk;fk;fv;jo;qr;ud;rv;fk;	0
+混天豹	hun;db;db;dk;ka;ep;kv;ij;db; tian;ad;ad;ad;ue;mk;fm;gd;ad; bao;vu;vu;vu;uh;bi;mi;ee;pu;	0
+通灵板	tong;zy;zy;zy;pq;yb;ku;ce;zy; ling;eh;eh;hx,xh;st;sf;bc;vo;vh; ban;my;my;mf;wl;de,xe;er;sr;ly;	0
+异想体	yi;sc;sc;cs,sc;tp,tz;rt,st;vl;na;va; xiang;mx;mx;xx;wn;dp;eh;sh;lx; ti;rb;rb;rb;xd;om;jf;ws;rb;	0
+奥苏安	ao;pd;pd;dm,pd;ux;hk,xk;tm;tm;pd; su;cb;cb;cb;zf;tc;lh;al;cb; an;bn;bn;bn;iy;jv;wb;pv;gn;	0
+忍义手	ren;rx;rx;xr;in,rn;sp;ph;vy;rx; yi;dx;dx;di,id;hy,yh;ik,xk;ib;yq;dx; shou;pf;pl;pa,ub;up;qq;us;rt;pv;	0
+夜魇方	ye;ww;wn;wd,ww;ih;yk;zv;yw;wn; yan;ig;ig;gy,ig;rs,rp;mi;xa;dd;iv; fang;wv;dw;dg,wd,dp,dw;ff;ys;lf;yy;wp;	0
+少狼主	shao;xp;xp;xp;pu;fh;yt;it;ap; lang;ql;ql;ql;bh;kv;mi;qt;qh; zhu;wt;dw;dw;ig,ha;yg;in;y,yg;wt;	0
+大合萨	da;ar;un;ad;xx;kk;md;dd;an; he;rk;rk;rk;eo;or;jd;wg;rk; sa;ci;ci;ci;zu,zr;th;lx;ab;ci;	0
+源石病	yuan;dx;dx;dy;kf;ef;ky;id;dx; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; bing;bn;bb;bb;me;kb;aj;ug;bb;	0
+攻壳车	gong;gw;gw;gw,wg;pj;mk;uh;at;gw; ke;tj;uj;uj;gi;gn,xn;go;fp;uj; che;au;al;aa;tt;kq;yc;lg;aa;	0
+推凶本	tui;fv;ff;fv;ja;qg;uu;rw;fa; xiong;kx;xk;ik,ki;yp,ry;uk;bm;qb;xa; ben;ma;aa;aa,ma;wd;dm;ef;sg;aa;	0
+群内局	qun;yy;yy;yj;rp,sp;sq;bg;vt;yy; nei;kr;ld;ad,kr;oe;ob,xb;mj;mw;ad; ju;uk;uk;uk;qo;sr;cd;nn;uk;	0
+归票位	gui;le;le;ax,dx;ps;lm;pb;jv;aa; piao;xu;xx;xu;pf;mf;vf;sf;xx; wei;rl;rl;rl;xb;ot;ji;wu;rl;	0
+高费牌	gao;wk;wk;wk;io;yr;gg;ym;wk; fei;fb;fr;bf,fb;rm;lo;to;xj;fr; pai;pu;pu;pb;us;lj;an;th;pu;	0
+哑鼓垫	ya;ky;ky;ky;od;rc;dc;kg;ky; gu;tv;uy;vd,uv;gl;ge;hc;fk;uy; dian;ft;ft;tv;jg;qg;ug;rv;ft;	0
+玩乙女	wan;wy;we;wy;ak;mu;np;gf;we; yi;vv;vv;aa,vv,yy;rr;nu;ai;nn;vv; nv;va;va;aa,vh;yy;vv;bn;vv;va;	0
+亥伯龙	hai;wr;wr;wr,dd;ie,ih;yo;kh;yn;wr; bo;rb;rb;rb;xs;oa;ju;wr;rb; long;yp;ud;ad;sh,dh;ip;tl;dx;ab;	0
+
+# 历史与考古
+兴隆洼	xing;xb;xb;ba,db;hf;fc;kh;iw;eb; long;eu;eu;eu;ba,bg;nm;tl;bt;eu; wa;dt;dt;dg;kg;eg;kg;if;dt;	0
+放马滩	fang;fw;fw;wf,fw;fj;yk;lh;yt;fw; ma;va;va;aa,vh;zz;nm;nm;cn;va; tan;dv;df;dn;ka;eg;ku;ic;dn;	0
+轮台诏	lun;il;ib;il;ta;kp;yj;lw;ib; tai;sk;sk;sk;po;ir;kd;ck;vk; zhao;yk;yk;yv;co;ir;sd;yv;yk;	0
+土佐藩	tu;ua;ua;aa;gg;gg;gt;ff;ua; zuo;rg;rg;rz;xp;om;ju;wd;rg; fan;ct;ct;cf,cp;zw;tw;lq;ai;ct;	0
+波尼族	bo;dp;dy;dp;kl;ee;kr;ih;dy; ni;ub;ub;ub;qa;sp;cv;nx;ub; zu;fu;fu;fu;fx;yk;lo;yt;fd;	0
+怯薛歹	qie;xq;xs;xq;np;pi;hk;nf;xv; xue;cx;cu;cx;zs;tj;ln;aw;cu; dai;ax;ax;ad,ax;ff;mi;gd;gq;ax;	0
+绰斯甲	chuo;su;su;sv;es;vj;in;xh;su; si;cj;qj;jq,qj;vp;tl;zt;ad;qj; jia;ol,tl;ll;aa,oa;vp;wl;sj;lh;aa;	0
+冥古宙	ming;bl;bb;bl,bz;if;bc;wa;pj;gb; gu;uk;uk;uk;so;jr;cg;dg;uk; zhou;by;by;by;ip;jw;wd;pm;gy;	0
+流石滩	liu;di;dv;di;kr;eu;ko;iy;dv; shi;ak;ak;kp,aa,ak,pk;tt;mr;ms;dg;ak; tan;dv;df;dn;ka;eg;ku;ic;dn;	0
+穹甲	qiong;bg;bg;xg,bg;ir;jn;eb;pw;gg; jia;ol,tl;ll;aa,oa;vp;wl;sj;lh;aa;	0
+清弓	qing;do;do;dq;kl;eb;kv;ig;do; gong;vv;vv;ag,vg;rr;nn;bg;xn;vv;	0
+辛达族	xin;lu;lu;lu;bs;yj;nx;uy;lu; da;zd;zd;zd;xq;yk,xk;mu;dp;zd; zu;fu;fu;fu;fx;yk;lo;yt;fd;	0
+凡雅族	fan;jd;jd;dj,jd;ih;hi;oi;my;jd; ya;yv;yf;vy,yv;da;mg;lu;ah;ya; zu;fu;fu;fu;fx;yk;lo;yt;fd;	0
+帖勒瑞	tie;jv;jk;jv;yo;lr;rd;mh;jk; lei;gl;gl;lg,gl;vu;ts;ts;af;cl; rui;we;we;we;ae;mb;nl;gm;we;	0
+
+# 品牌与机构
+猫途鹰	mao;qt;qt;qm;bw;kw;mq;qt;qt; tu;zm;zh;zy;eq;yd;ju;wt;zx; ying;gn;gn;gn,nv;rc;im;xx;yw;gn;	0
+政务司	zheng;vw;vw;wv;dj;mk;fh;gh;vw; wu;wl;wl;wl;ju;hs;hs;tl;wl; si;vk;vk;gk,ka;ro;sr;ad;ng;vk;	0
+食安法	shi;rg;rl;rl,pd;eh;ov;qs;wy;rh; an;bn;bn;bn;iy;jv;wb;pv;gn; fa;dq;ds;dq;kp;ei;kk;if;dv;	0
+开卡礼	kai;ac;ac;ac;dz,dp,up;mt;fl;ga;aa; ka;ub;ub;bx,ub;ph;yy;yy;hh;ub; li;pv;pv;ug;hr;iu;fa;py;pv;	0
+
+# 生活与网络
+丑萌	chou;vt;va;aa,at,vt;rg;ng;ag;nf;va; meng;co;co;cm;zl;tb;lv;aj;co;	0
+甜糯	tian;ug;qg;ug;sv;hm;az;td;qg; nuo;me;me;mx;;fb;pl;of;me;	0
+冷榨	leng;ds;ds;dl;fp,fh;ii;wk;uw;dv; zha;mv;mv;mv;wu;ds;ew;sp;lv;	0
+浓醇	nong;dy;dn;dn;kh;ev;kt;ip;dh; chun;yz;yz;yx;pa;md;yh;sg;yz;	0
+狮群	shi;qj;qj;qu;by;kb;mr;qt;qj; qun;yy;yy;yj;rp,sp;sq;bg;vt;yy;	0
+颈窝	jing;jy;vr;yg;rm;no;rw;ca;vr; wo;bn;bn;xn,xg,bn,bg;ie;jb;ej;pw;gn;	0
+假洋牌	jia;ry;ry;rj,ry;xl;oe;jr;wn;ry; yang;dy;dy;dy;kp;eq;kg;iu;dy; pai;pu;pu;pb;us;lj;an;th;pu;	0
+白嫖怪	bai;po;po;pa,po;ss;ha;ub;rr;po; piao;nu;nx;np;yf;vf;bf;vs;nx; guai;xt;xt;xu;ng;pg;hg;nc;xt;	0
+大飒蜜	da;ar;un;ad;xx;kk;md;dd;an; sa;lf;lx;fl,lf;by;yk;ib;um;lx; mi;bi;bi;ib,bi;if;ji;wc;pn;gi;	0
+美漫迷	mei;yd;yd;dy,yd;fx;tk;gm;ug;ed; man;dy;dy;dm;kl;ee;kr;ij;dy; mi;zm;zm;zm;lq;yd;pu;op;zm;	0
+大棋党	da;ar;un;ad;xx;kk;md;dd;an; qi;mb;mb;mq;wf;dc;eh;sa;lb; dang;xx;xe;xx,dx,ek;hk;fu;sp;ip;ee;	0
+洋芋粑	yang;dy;dy;dy;kp;eq;kg;iu;dy; yu;cy;cy;cy;zs;td,xd;ln;ag;cy; ba;mb;mb;mb;lt;fu;pm;oc;mb;	0
+枣花酥	zao;ud;ad;cd;dh;dy;ew;gm;ad; hua;cb;cb;ch;za;tp;lv;aw;cb; su;yh;yh;yh;pw,pf;md;yx;sg;yh;	0
+蒸鹿尾	zheng;ch;ch;hv,ch;zn;tf;lc;ab;ce; lu;gb;gb;gb,lb;ra;ip;xl;yn;gb; wei;um;um;um;qr,qa;su;cv;nt;um;	0
+挡沙墙	dang;fe;fe;fd;js;qm;ub;ri;fd; sha;du;du;du;ku;eh;kt;ii;du; qiang;tk;tk;th;go,gd;gw;gd;ff;tk;	0
+隔烟屏	ge;eg;el;eg;bp;nb;tn;bg;ea; yan;hy;hd;hy;tx;fk;cm;ol;hd; ping;uk;uk;ub;qp,qz;st;cl;nu;uk;	0
+哨戒炮	shao;ko;ko;kx;ol;rb;dv;ki;ko; jie;gc;gc;gc;dh,ap,ha,az;it;pl;aa;ag; pao;hb;hs;hb;tt;fu;cv;oq;hv;	0
+筒形拱	tong;vk;vk;vt;no;hr;rd;tm;vk; xing;kp;kp;pk;uu;mh;fe;ga;kp; gong;fg;fb;fg;jf;qc;uh;ra;fb;	0
+圆棒榫	yuan;kb;kr;ky;nm;wo;ro;lk;wr; bang;mf;ml;mf;wp;dq;eu;sd;lf; sun;mu;mu;ms,mu;ws;dj;en;sw;lu;	0
+救生毯	jiu;qw;qw;wq;dj;ik;fh;fi;qw; sheng;pf;pf;na;eg;hm;ls;tg;pa; tan;mh;mh;my;ut;hf;vc;tf;mh;	0
+分模线	fen;bd;bd;bd,db;fu,fi;ch;hp;wv;bd; mo;md;md;mm;wx;dk;em;sa;ld; xian;sj;sj;sj;ea;vj;ip;xg;sg;	0
+行李厢	xing;rd;ii;xd,xi;hj,hp;hn;px;tf;rd; li;mz;mz;mz;wa;dd;eh;sb;lz; xiang;io;io;ix;rs;mu;xq;ds;im;	0
+摇表器	yao;ff;ff;ff;jp;qu,xu;ua;re;ff; biao;fy;fy;fy;ah;qv;at;ge;ah; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	0
+补光量	bu;pb;pb;yb;hh;ly;ty;pu;pb; guang;xe;xw;ea,xw;hk;fu;mg;iq;ee; liang;ol;ol;ol;vg;ag;od;jg;dl;	0
+丢球权	diu;pq;ps;pq,ps;up;hi;tk;tf;pv; qiu;wq;wq;wq;ah;me;ni;gf;wq; quan;my;my;my;wl;de;er;sc;ly;	0
+热噪点	re;fh;fh;hv;jn;qf;uc;rv;fe; zao;km;km;kz;ow;rd;de;kk;kl; dian;vh;lh;hv;pn;yf,xf;yc;hk;ve;	0
+低半档	di;ru;rd;rd;xh;om,oi;ji;wq;rd; ban;bf;dl;bf;fp,fs;fq;hu;uf;da; dang;me;me;md;ws;dm;eb;si;ld;	0
+大羊驼	da;ar;un;ad;xx;kk;md;dd;an; yang;bf;bl;da;fp;tq;gy;ud;ea; tuo;mb;mb;mt;za;np;nv;cp;mb;	0
+小灰人	xiao;lb;ld;ad;pf;nc;yx;ih;vd; hui;uh;uh;hu,uh;dt,st;kf;nc;do;ah; ren;pn;pn;pd;ee;oo;jr;w,ww;pn;	0
+干金酒	gan;au;au;aa;ss;mj;eg;fg;au; jin;rb;ra;ra,pa;ed,ef;cc;zj;qq;ra; jiu;dy;dy;dy;kd;ew;ky;is;dy;	0
+执裁	zhi;fw;fw;fw;jh;qi;ui;rv;fw; cai;gy;uy;gy,yg;sk,ha,sh,gh;jv;nt;fa;hg;	0
+玻纤箭	bo;wp;wy;wp;al;me;nr;gh;wy; xian;sq;sq;sq;em,es;vj;il;xt;sq; jian;vd;vd;vq;ni;hn;rp;tu;vd;	0
+面筐	mian;ao;aa;aa;dd,du;ml;bm;dm;aa; kuang;vw;vw;vk;nr;hg;rn;ta;vw;	0
+产检费	chan;wi;lp,wi;dp,li,wp;bu,br,ir;yh;ix;u,ut;wi; jian;mq;ma;ma,mq;wd;dm;ef;sw;la; fei;fb;fr;bf,fb;rm;lo;to;xj;fr;	0
+
+# 2026-11-24 新增：MNBVC 知乎语料新词（2 字词，共 94 词）
+# 医学与生物
+踝部	huai;zg;zg;zg;gw;rd;pe;kh;zg; bu;le;le;ek,ep;bb;yl;it;uk;le;	0
+穴兔	xue;bb;bb;bb;if;jc;ex;pw;gb; tu;dd;dd;dd;gh;ni;wt;qk;ed;	0
+雌蚊	ci;vv;vf;vc;ra;yg;su;hx;va; wen;iw;iw;iw;fj;lk;cv;jy;ix;	0
+猫瘟	mao;qt;qt;qm;bw;kw;mq;qt;qt; wen;bm;bm;bm,bw;md,ma;kt;aa;uj;bm;	0
+耳螨	er;ol;aa;aa;dd,du;sj;qe;bg;aa; man;il;il;il;fe;lb;cm;ja;il;	0
+痘肌	dou;bb;ba;bd;md;kt;az;ug;bd; ji;oj;oj;oj;li;bn;vo;em;oj;	0
+痰检	tan;bh;bh;by;mt;kf;ac;uo;bh; jian;mq;ma;ma,mq;wd;dm;ef;sw;la;	0
+泵血	beng;uu;uu;uu;to;me,xe;mk;di;uu; xue;pm;pm;pa,pm;ud,ua;ht;ta;tl;pm;	0
+氧供	yang;qy;qy;qy;sp;oq;vg;rn;qy; gong;rg;rb;rg;xf;oc;jh;wa;rb;	0
+屈髋	qu;ui;ui;ui;qp;su;cm;nb;ui; kuan;gj;ge;gk;ck,cr;bu;fe;me;gj;	0
+伸髋	shen;ru;ru;ru;xp;ol;jg;wj;ru; kuan;gj;ge;gk;ck,cr;bu;fe;me;gj;	0
+谷饲	gu;bk;bk;bk,kr;fo;cr;hg;ww;bk; si;uk;uk;us;go;nr;qd;qn;uk;	0
+草饲	cao;cu;cu;cz;zs;tj;ln;aj;cu; si;uk;uk;us;go;nr;qd;qn;uk;	0
+# 科技与数码
+锐捷	rui;jx;je;jd;dk;ou;zp;qu;je; jie;fz;fr;fj;je;qo;us;rg;fr;	0
+截幅	jie;gv;uf;gv,ug,vg;sa,ha,sh,gh;jg;nu;fa;ag; fu;jt;jt;jf,jt;yw;lw;rq;mh;jt;	0
+预燃	yu;yy;sr;yy;pm;no;iw;cb;vr; ran;hh;hh;hr;tn;ff;cc;oq;he;	0
+氘氚	dao;ql;ql;qp,qa;sp;ol;vp;rn;qa; chuan;qi;qi;qi;sp;ol;vo;rn;qi;	0
+氦闪	hai;qr;qr;qh;se,sh;oo;vk;rn;qr; shan;mr;mr;mr,rm;oe;lo;aj;uw;mr;	0
+熵值	shang;hk;hk;hu;to;fb;cd;ou;hk; zhi;rq;rq;rv;xd,xu;om;jf;wf;rv;	0
+低熵	di;ru;rd;rd;xh;om,oi;ji;wq;rd; shang;hk;hk;hu;to;fb;cd;ou;hk;	0
+锂矿	li;jl;jl;jl;dg;og;zd;qj;jl; kuang;ug;ug;ug;tr;mi;mx;dy;ug;	0
+矿企	kuang;ug;ug;ug;tr;mi;mx;dy;ug; qi;rv;rv;rv;er;om;js;wh;rv;	0
+厚釜	hou;iz;iz;iz;ra;md;xh;dj;iz; fu;fb;ba;fa,fj,fq;fd;cc;hz;wq;ba;	0
+钢弦	gang;jx;jx;jg;dy;ok;zb;qm;jx; xian;gx;gy;gx;rp;ni;bi;xy;gs;	0
+# 学术与教育
+港硕	gang;ds;ds;dx;kt;eu;kv;ia;dv; shuo;uy;ur;uy;tm;mo;mw;dd;ur;	0
+蹭课	ceng;zo;zo;zc;gv;ra;po;kh;zo; ke;yg;yg;yg;cw;id;se;yj;yg;	0
+圆唇	yuan;kb;kr;ky;nm;wo;ro;lk;wr; chun;ik;ik;ik,ki;ro;mr;fd;df;ik;	0
+汉匈	han;dy;dy;dy;kl;ee;kr;ic;dy; xiong;bx;bk;gx;up,uy;pk;nm;qq;px;	0
+嬴姓	ying;wn;wf;nk,wf;iy,ih;yv;fi;yn;wf; xing;nu;nu;nu;yg,ya;vm;bl;vt;nu;	0
+姒姓	si;nr;nr;ny;ye;vo;bj;vn;nr; xing;nu;nu;nu;yg,ya;vm;bl;vt;nu;	0
+# 金融与保险
+妖债	yao;ny;ny;ny;yx;vk;bm;vt;ny; zhai;rb;rr;rz;xm;oo;jo;wg;rr;	0
+留抵	liu;pt;pt;td,tl,lt;uw;hw;bq;qy;pt; di;fu;fd;fd;jh;qm,qi;ui;rq;fd;	0
+募投	mu;cl;cl;lm,cl;zu;ts;ls;aj;cl; tou;fu;fy;fu;jl;qe;ur;rm;fy;	0
+# 游戏与动漫
+圣树	sheng;yt;yt;ty,yt;lg;eg;rg;cf;yt; shu;mc;mc;md;wk;di;ek;sc;lc;	0
+灵灾	ling;eh;eh;hx,xh;st;sf;bc;vo;vh; zai;bh;bh;bh,hb;it;jf;wc;po;gh;	0
+龙吼	long;yp;ud;ad;sh,dh;ip;tl;dx;ab; hou;kv;kv;kk;or;ru;da;kb;kk;	0
+侧闪	ce;rd;rd;rz;xi;on;jp;wm;rd; shan;mr;mr;mr,rm;oe;lo;aj;uw;mr;	0
+溜鬼	liu;dt;dt;dl;kw;ew;kq;iq;dt; gui;ps;ps;pd,ps;ss,up;hi;ag;rq;pv;	0
+龙狙	long;yp;ud;ad;sh,dh;ip;tl;dx;ab; ju;qq;qq;qq;bu;km;mf;qt;qq;	0
+骗氪	pian;mc;mc;mb;zd,zj;nb;ni;cy;mc; ke;qx;qe;qk;sk;ou;vp;rn;qe;	0
+盲操	mang;wo;wo;ow;is;yu;fq;yn;wm; cao;fm;fm;fz;jw;qd;ue;rk;fl;	0
+# 品牌与机构
+叠纸	die;yq;yq;qr,qu,yy;lu;em;rf;cc;yq; zhi;su;su;su;er,eh;vp;ib;xq;su;	0
+美柚	mei;yd;yd;dy,yd;fx;tk;gm;ug;ed; you;my;my;my;wp;dw;ed;sm;ly;	0
+洁碧	jie;dk;dk;dj;ko;er;kd;if;dk; bi;wu;wu;ub,up;at;mr;nm;gr;wk;	0
+蜂花	feng;if;if;if;fa;lj;ca;jt;if; hua;cb;cb;ch;za;tp;lv;aw;cb;	0
+虎嗅	hu;hj;hj;hj;pi;yn,yu;zh;ha;aj; xiu;kq;kq;ki;ob,oh;rk;dm;kt;kq;	0
+# 生活与网络
+皇汉	huang;bw;bw;bw;sa;hg;un;rg;bw; han;dy;dy;dy;kl;ee;kr;ic;dy;	0
+锈色	xiu;jn;jn;jx;du;os;zv;qt;jn; se;db;db;db;gt;nu;xm;qc;eb;	0
+打碟	da;fd;fd;fd;jj;qn;ua;rs;fd; die;um;um;um,uy;tw;md;me;da;ul;	0
+鸡冻	ji;yn;yn;ny,yn;lc;em;rx;cq;yn; dong;dd;dd;dd;ff;id;wy;ua;dd;	0
+烂牌	lan;hl;hs;hl;tu;fm;ct;ou;hs; pai;pu;pu;pb;us;lj;an;th;pu;	0
+服盆	fu;oy;oy;oy;ll;be;vr;eb;oy; pen;fm;bm;mf;fd,fa;ct;ha;wv;bm;	0
+陪娃	pei;ek;ek;ek,ep;bo;nr;td;bu;ek; wa;nt;nt;ng;yg;vg;bg;vf;nt;	0
+夜骑	ye;ww;wn;wd,ww;ih;yk;zv;yw;wn; qi;mk;mk;mq;zj,zo;nr;nz;cd;mk;	0
+桌板	zhuo;bm;lm;mo,bm;pw;yd;ye;hj;al; ban;my;my;mf;wl;de,xe;er;sr;ly;	0
+抗揍	kang;fj;fj;fk;ji;qn;uo;ry;fj; zou;ft;ft;fz;jx;qk;um;rd;ft;	0
+减档	jian;dk;dk;dx;fh;ir;wd;ud;dg; dang;me;me;md;ws;dm;eb;si;ld;	0
+铁汁	tie;jf;ju;ju;de;oo;zh;qr;ju; zhi;du;du;du;ks;ej;kn;if;du;	0
+豆馅	dou;ab;aa;aa,aq;dd;mt;zd;gk;aa; xian;uj;uj;uj,ux;gs;nx;qp;qn;uj;	0
+冰饮	bing;du;du;du;fo;ie;wk;ui;du; yin;uq;ur;uq;ge;no;qe;qn;ur;	0
+嘴欠	zui;ky;ky;kj,kz;op;rb;dt;kh;ky; qian;dr;dr;dr;ge;no;eq;qw;er;	0
+粗剪	cu;mq;mq;mq;lu;fm;pf;oe;mq; jian;bd,db;bd;dq;fu,fi;th;hp;ue;ed;	0
+棚拍	peng;mo;mo;mp;wl;db;ev;se;lo; pai;fb;fb;fb;js;qa;uu;rr;fb;	0
+炭包	tan;uh;eh;uh;pt;uf;vc;md;sh; bao;bs;bs;gs;ut;pu;nv;qn;pv;	0
+伞绳	san;ru;ru;ru;es;oj;jn;wu;ru; sheng;sd;sd;sd,sm;er,ee;vu;id;xk;sd;	0
+弹舌	tan;gu;gl;gd;rs;nj;bn;xu;gd; she;qk;qk;qk;so;hr;as;td;qk;	0
+耻感	chi;ev;ev;ev;dr;sm;qs;bh;ev; gan;wx;xx,wx;xx;rn,hn;ip;nh;dg;kx;	0
+耽改	dan;ee;ev;eg,ey;dk,dr;su;qp;bp;ev; gai;jw;jw;wj,jw;tj;sk;vh;nt;jw;	0
+旋盖	xuan;fz;fr;fp;fe;yo;lt;yt;fr; gai;ym;ym;my,ym;fd,fa;tt;ga;ug;em;	0
+撇捺	pie;fw;fw;fb,fw;jj;qk;uh;ru;fw; na;fu;fx;fn;jf;qf;uf;rd;fx;	0
+麦饼	mai;fw;fw;fw;aj;qe;ah;gt;aw; bing;uk;uk;ub;gz,gp;nt;ql;qn;uk;	0
+残糖	can;dj;dj;dj;fa;mj;gp;gq;dg; tang;mk;mk;mt;lo;fr;pd;oy;mk;	0
+铝箭	lv;jk;jk;jl;do;or;zd;qk;jk; jian;vd;vd;vq;ni;hn;rp;tu;vd;	0
+短横	duan;ub;ua;ud;ed;ot;oz;td;ud; heng;mb;mb;mh;wf;dc;en;sa;lb;	0
+冒痘	mao;oo;ko,oo;oo;vs,ps,ss;au;oq;jh;am; dou;bb;ba;bd;md;kt;az;ug;bd;	0
+晒青	shai;ox;ox;ox;vp;aw;ov;js;ox; qing;fo;fo;of,fo;al;qb;av;ge;ao;	0
+木筷	mu;ur;un,an;ad;ww;dd;em;ss;un; kuai;vg;vg;vk;nx,ne;hk;rj;tn;vk;	0
+青芒	qing;fo;fo;of,fo;al;qb;av;ge;ao; mang;cw;cw;cw;zr;tv;lf;ay;cw;	0
+护胃	hu;fh;fh;fh;jq;qs;um;ry;fh; wei;to;to;ot,to;wl;wb;qv;le;to;	0
+饼皮	bing;uk;uk;ub;gz,gp;nt;ql;qn;uk; pi;py;vy;ad,ay,vd,vy,ya;rl;de;rp;hc;vy;	0
+酸啤	suan;yw;yw;yj,yw;pj;me;yh;sg;yw; pi;ku;ku;kb;os;rj;dn;kr;ku;	0
+胎宽	tai;ok;ok;ot;lo;br;vd;ec;ok; kuan;bj;be;bj,jb;ik,ir;ju,xu;we;pa;gj;	0
+跑姿	pao;zb;zs;zb;gt;ru;pv;kh;zv; zi;dn;dn;nc;fy;iv,mv;wb;uq;dn;	0
+弦枕	xian;gx;gy;gx;rp;ni;bi;xy;gs; zhen;me;mv;mg,my;wk,wr;du;ep;sp;lv;	0
+弦距	xian;gx;gy;gx;rp;ni;bi;xy;gs; ju;zj;zj;zj;gr;rs;pn;kh;zj;	0
+扒谱	ba;fb;fb;fb;jf;qc;uh;rw;fb; pu;yo;yo;yp;cv;ia;so;yu;yo;	0
+拢烟	long;fl;fl;fl;jh;qp;ut;rd;fb; yan;hy;hd;hy;tx;fk;cm;ol;hd;	0
+浅烘	qian;dj;dj;dj;ka;ej;kp;ig;dg; hong;hg;hb;hg;tf;fc;ch;oa;hb;	0
+夹胸	jia;ar;an;fb,ar;dx;kt;hh;gu;an; xiong;ox;ok;ox;lp,ly;bk;vm;eq;ox;	0
+撸铁	lu;fo;fo;fl;jv;qa,xa;uo;rq;fo; tie;jf;ju;ju;de;oo;zh;qr;ju;	0
+刮蹭	gua;ud;qd;du;si;hn;ap;td;qd; ceng;zo;zo;zc;gv;ra;po;kh;zo;	0
+漆水	qi;du;du;dq,du;kf,ko;ee;kk;is;du; shui;ln;ln;ad,uv;oo;ee;ks;ii;vn;	0
+瑰夏	gui;wg;wg;wg;as,ap;mi;na;gr;wv; xia;bw;aw;wz,aw;dj;me;fh;dh;aw;	0
+哼鸣	heng;kl;kl;kh;op;rn;dr;ky;kl; ming;kn;kn;kn;oc;rm;dx;kq;kn;	0
+
+# 2026-11-24 新增：MNBVC 知乎语料专业术语长尾（3 字词，共 52 词）
+# 科技与数码
+集烟腔	ji;rm;rm;mv,vm;xw;od;ue;wy;rl; yan;hy;hd;hy;tx;fk;cm;ol;hd; qiang;og;og;ok;lp;bm;vu;ep;og;	0
+叠瓦式	die;yq;yq;qr,qu,yy;lu;em;rf;cc;yq; wa;ad;ad;ad;dh;mi;rw;gn;ad; shi;yg;yg;gy,yg;dh,ha,ap;im;pu;aa;gg;	0
+全嵌式	quan;rw;rw;rw;ea;og;jn;wg;rw; qian;uq;er;uq;pe;uo;ve;ma;sr; shi;yg;yg;gy,yg;dh,ha,ap;im;pu;aa;gg;	0
+双风叶	shuang;yy;yy;yy;ll;ee,xe;rr;cc;yy; feng;jx;jx;ji;iy;hk;ob;mq;jx; ye;ku;ku;ku;os;rj;dn;kf;ku;	0
+缓震囊	huan;sy;sy;sy;el;ve;ir;xe;sy; zhen;yi;yn;yi;yh;mv;tf;fd;yh; nang;gy;ay;ay;dh;jv;nt;gk;ah;	0
+缓震胶	huan;sy;sy;sy;el;ve;ir;xe;sy; zhen;yi;yn;yi;yh;mv;tf;fd;yh; jiao;of;ox;oj;ly;bk;vb;eu;ox;	0
+测控网	ce;dd;dd;dz;ki;en;kp;im;dd; kong;fg;fg;fk;jp;qm;uu;rp;fg; wang;kx;kx;ki;oy;bk;mb;mq;ax;	0
+硅氧键	gui;ut;ut;ug;tg;mg;mg;df;ut; yang;qy;qy;qy;sp;oq;vg;rn;qy; jian;jy;jz;jj;dq;oq;zu;qv;jj;	0
+单翼机	dan;bu;bl;ba,bd;fs;cj;hn;uj;ea; yi;xg;xb;yg,yy;df;sc;zh;nl;xb; ji;mj;mj;mj;wi;dn;eo;sm;lj;	0
+半加器	ban;bf;dl;bf;fp,fs;fq;hu;uf;da; jia;lk;lk;lk,kl;uo;kr;sd;lk;lk; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	0
+# 医学与生物
+增敏剂	zeng;to;to;tc;gv;ga;go;fu;to; min;pw;pw;wm;ej;ok;eh;tx;mw; ji;qd;wd;dq;ji;yn;qp;yj;wd;	0
+# 学术与教育
+长英质	chang;pn;pn;pd;uh;po;pc;ta;pn; ying;cy;cy;cy;zx,ze;tk;lm;am;cy; zhi;ib;pr;bu,pb;um,rm;ho;xo;rf;pr;	0
+直翅类	zhi;uq;uq;aa,uq;sd,su;jm;nf;fh;ua; chi;vx;ux;vy,yv;sd;jm;cz;fc;ux; lei;md;md;md;lx;fk;pm;od;md;	0
+侵填体	qin;ry;ry;ry;xl;oe;jr;wv;ry; tian;tb;tb;tv;gf;gc;gh;ff;tb; ti;rb;rb;rb;xd;om;jf;ws;rb;	0
+异养型	yi;sc;sc;cs,sc;tp,tz;rt,st;vl;na;va; yang;yl;yl;ya,yd;fp;tl;gp;ud;ea; xing;kt;kt;tx;ug;mg;fg;ga;kt;	0
+带绦虫	dai;cj;fj;jb;zy;tb;lr;gk;aj; tao;sm;sm;st;ef;vd;ie;xt;sx; chong;vd;vd;ad,vd;ff;li;cc;jh;vd;	0
+金腰燕	jin;rb;ra;ra,pa;ed,ef;cc;zj;qq;ra; yao;on;on;oy;ly;bv;vb;es;on; yan;ch;nh,ah;ch,hb;vn;tf;lc;au;ce;	0
+喷发物	pen;kb;kr;kb;om;ro;do;kf;kr; fa;fy;vd;ay,fd,vy,yd;rh,rl;ie;si;v,nt;vy; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw;	0
+法罗语	fa;dq;ds;dq;kp;ei;kk;if;dv; luo;sx;sx;sx;af;wi;yl;lq;sx; yu;yk;yk;yw;co;ir;sd;yg;yk;	0
+壮侗语	zhuang;lt;du;ju,pu,up;lg;lg;ag;uf;du; dong;rk;rk;rt;xo;or;jd;wm;rk; yu;yk;yk;yw;co;ir;sd;yg;yk;	0
+令制国	ling;rs;rs;rs;ep,eh;oi;jk;wy;rv; zhi;nd;pd;dg,dv;bi;hn;qp;rm;pd; guo;ky;ky;ky;na,nh;wi;ri;l,lg;wy;	0
+六花阵	liu;wb;wb;wb,dd,db;if;yc;al;uy;wb; hua;cb;cb;ch;za;tp;lv;aw;cb; zhen;ei;ei;ei;bt;nq;ty;bl;ei;	0
+均输法	jun;ty;td;ty;gf;gm;gw;fq;td; shu;id;id;iy;ti;kn;yp;lw;id; fa;dq;ds;dq;kp;ei;kk;if;dv;	0
+斡罗思	wo;ud;uu;du,ud;sh,ss;jj;nj;fj;uu; luo;sx;sx;sx;af;wi;yl;lq;sx; si;tx;tx;tx,xt;wn;wp;qh;ln;tx;	0
+兀鲁斯	wu;ae;ae;ae,ag,wu;dk;mu;fp;gq;ae; lu;yo;ao;yo;qv;na;wo;qg;eo; si;cj;qj;jq,qj;vp;tl;zt;ad;qj;	0
+水达达	shui;ln;ln;ad,uv;oo;ee;ks;ii;vn; da;zd;zd;zd;xq;yk,xk;mu;dp;zd; da;zd;zd;zd;xq;yk,xk;mu;dp;zd;	0
+盐运司	yan;tm;tm;mb;gd,ga;gt;ga;fh;tm; yun;zy;zs;zy;uq;yi;bu;fc;zv; si;vk;vk;gk,ka;ro;sr;ad;ng;vk;	0
+大司乐	da;ar;un;ad;xx;kk;md;dd;an; si;vk;vk;gk,ka;ro;sr;ad;ng;vk; yue;px;pd;pd,px;uf;hd;by;qi;pd;	0
+路德教	lu;zk;zk;zg;go;rr;ps;kh;zk; de;rx;ix;xx;hn;hp;wh;tf;rx; jiao;lw;lw;wx;gj;jk;qh;ft;uw;	0
+提坦神	ti;fz;fr;fu;je;qo;ut;rj;fr; tan;td;ta;td;gd;gm;gf;fj;td; shen;pu;pu;uu;hp;il;fg;py;pu;	0
+新阴流	xin;lj;lj;jq;bp;yl;it;us;lj; yin;eo;eo;eo;bl;nb;tv;be;eo; liu;di;dv;di;kr;eu;ko;iy;dv;	0
+全共斗	quan;rw;rw;rw;ea;og;jn;wg;rw; gong;cb;cb;bc,cb;zf;tc;lh;aw;cb; dou;ud;du;du;hs,sh;yj;jd;uf;du;	0
+# 金融与保险
+差离值	cha;yg;yg;yg;fp;tm;gu;ud;eg; li;wn;wd;ws,wl;ih,ip;yb;zv;yb;wd; zhi;rq;rq;rv;xd,xu;om;jf;wf;rv;	0
+值博率	zhi;rq;rq;rv;xd,xu;om;jf;wf;rv; bo;uc;uc;uc,uf;sk;ji;nk;fg;uc; lv;wu;wu;wu;is;yj;zn;yx;wu;	0
+# 游戏与动漫
+绯想天	fei;sf;sf;sf;eu;vy;ir;xd;sf; xiang;mx;mx;xx;wn;dp;eh;sh;lx; tian;ad;ad;ad;ue;mk;fm;gd;ad;	0
+拔刀斋	ba;fy;fd;fb,fy;jh;qe,qk;ui;rd;fy; dao;vp;vp;gp,pg;ii,ru;sh;pd;vn;vp; zhai;we;we;we;je;yl;vl;yd;we;	0
+猎命师	lie;qo;qo;qx;bv;ka;mo;qt;qo; ming;re;re;re;eb;ol;jz;wg;re; shi;lj;lj;ab,aj,db,dj;py;lb;pr;jg;aj;	0
+歼星炮	jian;dq;dq;dq;fs;mj,xj;gl;gq;dq; xing;ou;ou;ou;vg,va;am;ol;jt;ou; pao;hb;hs;hb;tt;fu;cv;oq;hv;	0
+超曲速	chao;tk;tk;zv;go,qo;gr;pd;fh;tk; qu;kc;la;aa,oa;pd,vp;tw,xw;yq;ma;aa; su;zu;zu;zu;dq;yl;xu;gk;zu;	0
+# 社会与机构
+公参民	gong;bs;bs;sb,bs;fp;ci;hk;wc;bv; can;sp;sp;sp;pu;ih;ke;cd;vp; min;vv;vv;ag,kq,vg;rr;rp;dm;n,na;vv;	0
+渔业部	yu;dy;da;dy;kq;em;kw;iq;dy; ye;la;la;aa;pd,hd;tc,xc;cy;og;aa; bu;le;le;ek,ep;bb;yl;it;uk;le;	0
+拆车匠	chai;fi;fi;fi;jh;qy;ui;rr;fi; che;au;al;aa;tt;kq;yc;lg;aa; jiang;kj;kj;jk,kj;dr;sl;nt;ar;kj;	0
+# 生活与网络
+残糖量	can;dj;dj;dj;fa;mj;gp;gq;dg; tang;mk;mk;mt;lo;fr;pd;oy;mk; liang;ol;ol;ol;vg;ag;od;jg;dl;	0
+低粘度	di;ru;rd;rd;xh;om,oi;ji;wq;rd; nian;mv;mk;mv;lo;fr;pd;oh;mk; du;gy;gy;gy;rl;ie;xr;ya;gy;	0
+长尖领	chang;pn;pn;pd;uh;po;pc;ta;pn; jian;xd;xd;xd;px;fk;ym;id;ad; ling;ry;rr;yl;em;oo;jw;wy;rr;	0
+信销票	xin;rk;rk;ry;xo,xc;or;js;wy;rk; xiao;jo;jo;jx;dl;ob;zv;qi;jo; piao;xu;xx;xu;pf;mf;vf;sf;xx;	0
+寄物柜	ji;bk;bk;bq;ij,io;jr;wz;pd;gk; wu;nw;nw;nw;bi,bu;hh;qe;tr;nw; gui;mj;mj;mj;wr;ds;en;sa;lj;	0
+老球痞	lao;lb;lb;bl,lb;ga;jp;ql;ft;ub; qiu;wq;wq;wq;ah;me;ni;gf;wq; pi;bk;bk;bf;mo;kr;ad;ug;bk;	0
+男唱见	nan;tl;tl;tl;wu;ws;qs;ll;tl; chang;ko;ko;ki;ov;ra;do;kj;ko; jian;ke;ke;ag,ek,ke;pk,pr;bu;ej;mq;av;	0
+铸剑坊	zhu;jc;jc;ju;dk;oi;zk;qd;jc; jian;qd,rd;rd;da,dq;ei;on;jp;wg;rd; fang;tf;tf;tf;gf;gs;gl;fy;tf;	0
+减时线	jian;dk;dk;dx;fh;ir;wd;ud;dg; shi;oc;oc;oc;vk;ai;ok;jf;oc; xian;sj;sj;sj;ea;vj;ip;xg;sg;	0
+增时线	zeng;to;to;tc;gv;ga;go;fu;to; shi;oc;oc;oc;vk;ai;ok;jf;oc; xian;sj;sj;sj;ea;vj;ip;xg;sg;	0
+
+# 2026-11-24 补录：高置信度固定搭配（含虚词但已成词）
+氘和氚	dao;ql;ql;qp,qa;sp;ol;vp;rn;qa; he;hk;hk;hk;uo;hr;xd;t,tk;hk; chuan;qi;qi;qi;sp;ol;vo;rn;qi;	0
+拽了拽	zhuai;fy;fy;fy;ju;qp;ut;rj;fy; le;al;vl;aa,vu;rp;nn;rl;b,bn;vv; zhuai;fy;fy;fy;ju;qp;ut;rj;fy;	0
+锂铍硼	li;jl;jl;jl;dg;og;zd;qj;jl; pi;jp;jy;jp;dl;oe;zr;qh;jy; peng;uo;uo;up;tl;mb;mv;de;uo;	0
+慨而慷	kai;xw;xv;xj;nk,nr;pu;hd;nv;xj; er;al;al;aa;ee;ml;le;dm;aa; kang;xl;xn;xk;no,nf;pe;hk;ny;xl;	0
+
+# 2026-11-24 补录：高置信度固定搭配（续）
+咂了咂	za;kj;kj;kz;or;rb;dr;ka;kj; le;al;vl;aa,vu;rp;nn;rl;b,bn;vv; za;kj;kj;kz;or;rb;dr;ka;kj;	0
+捅了捅	tong;fy;fy;fy;jp;qb;ut;rc;fy; le;al;vl;aa,vu;rp;nn;rl;b,bn;vv; tong;fy;fy;fy;jp;qb;ut;rc;fy;	0
+扭了扭	niu;fi;fi;fi;jg;qg;ug;rn;fi; le;al;vl;aa,vu;rp;nn;rl;b,bn;vv; niu;fi;fi;fi;jg;qg;ug;rn;fi;	0
+铍和硼	pi;jp;jy;jp;dl;oe;zr;qh;jy; he;hk;hk;hk;uo;hr;xd;t,tk;hk; peng;uo;uo;up;tl;mb;mv;de;uo;	0
+碳和氮	tan;uh;uh;ut;tt;mf;mc;dm;uh; he;hk;hk;hk;uo;hr;xd;t,tk;hk; dan;qh;qh;qy;st;of;vc;rn;qh;	0
