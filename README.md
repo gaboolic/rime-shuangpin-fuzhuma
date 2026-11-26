@@ -170,11 +170,21 @@
 ### 飞键 模糊音相关
 
 ```
-# `你使用的方案.shema.yaml` 里飞键 可选择性开启
+# `你使用的方案.schema.yaml` 里飞键 可选择性开启
 - derive/^([yh])j/$1q/    # yj hj就可以打yq hq
 - derive/^qx/qw/  # qx就可以打qw
 模糊音同理，也是使用derive把平舌音翘舌音互转、前后鼻音互转，详见issue中的faq
 ```
+
+### 禁用 `jv` `qv` `xv` `yv` 这种拼法
+
+在你使用的 `moqi_wan_方案.schema.yaml` 中，注释掉这一行：
+
+```
+- derive/^([jqxy])u(;.*)$/$1v$2/
+```
+
+这样就与官鹤的拼写习惯相一致。
 
 ### 并击相关
 
