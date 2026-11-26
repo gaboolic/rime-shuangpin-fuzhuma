@@ -27,6 +27,7 @@ schema:
     - emoji
     - easy_en
     - jp_sela
+    - moqi_single_xh # 确保构建 moqi_single.reverse.bin，供 jianma_show 简码回显使用
 
 __include: moqi.yaml:/switches_engine
 __include: moqi.yaml:/phrase # 置顶
@@ -78,6 +79,7 @@ __patch:
     translator/prism: moqi_wan_jdh
     user_dict_set/prism: moqi_wan_jdh
     add_user_dict/prism: moqi_wan_jdh
+    engine/filters/@before 4: lua_filter@*moqi.jianma_show # 简码回显；依赖 moqi_single_xh 构建的 moqi_single.reverse.bin
     speller/algebra/+:
       __include: aux_patch
   - moqi_wan_jdh.custom:/patch?
