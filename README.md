@@ -27,6 +27,9 @@
   - schema: moqi_wan_flypy # 鹤形+鹤拼，大词库版本 非自动上屏，支持4万字
   - schema: moqi_single_xh # 墨奇码·顶屏版·小鹤双拼，为了4码自动上屏 只收录了8000字
 - 写给选择困难症：如果第一次接触双拼，直接使用`moqi_wan_flypymo.schema.yaml`，墨奇辅助码 鹤拼版，这是作者用的方案;如果追求类似五笔的4码自动上屏体验，则使用`moqi_single_xh`墨奇码·顶屏版;本项目支持任意双拼和任意辅助码组合，选择自己熟悉的就好。
+- 简码回显：
+  - 默认启用，适用于 小鹤/自然码/微软/搜狗 双拼；
+  - 如需禁用，请到对应的 `.schema.yaml` 中注释掉 `engine/filters/@before 4: lua_filter@*moqi.jianma_show` 这一行。
 - 注意：默认关了用户词库（为了固定词频），如有需要，修改`你使用的方案.schema.yaml enable_user_dict: true`开启
 - 默认固定词频，编辑`cn_dicts_common/user.dict.yaml`来添加自定义的词；推荐在用户词库关闭的情况下使用ac引导造词，这样自造词是在系统词库后面，不会影响系统词的字频和词序；如果要删除自造词，可以先打出这个自造词，再按 `↑` `↓` 方向键选中自造词，最后按 `Shift + Delete` 删除
 - 默认显示单字的辅助码编码，可在`你使用的方案.schema.yaml`中`translator/spelling_hints`调整为更多或不显示
